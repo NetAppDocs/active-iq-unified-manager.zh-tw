@@ -1,0 +1,73 @@
+---
+permalink: install-vapp/task_upgrade_unified_manager_virtual_appliance_vapp.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager, virtual, appliance 
+summary: 您可以升級Unified Manager虛擬應用裝置 
+---
+= 升級Unified Manager虛擬應用裝置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將Unified Manager虛擬應用裝置從9.8版和9.9版升級至9.10版。
+
+*您需要的是什麼*
+
+請確認下列事項：
+
+* 您已從NetApp支援網站下載升級檔案（ISO映像）。
+* 您要升級Unified Manager的系統符合系統和軟體需求。
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["虛擬化基礎架構需求"]
+
++
+link:reference_vmware_software_and_installation_requirements.html["VMware軟體與安裝需求"]
+
+* 對於vSphere 6.5及更新版本的使用者、您已安裝VMware遠端主控台（VMRC）。
+* 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會在6個月後清除歷史效能資料。
+* 您有下列資訊：
++
+** NetApp支援網站的登入認證資料
+** 存取VMware vCenter Server和vSphere Web Client的認證資料
+** Unified Manager維護使用者的認證資料
+
+
+
+
+在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。
+
+如果您已配對Workflow Automation和Unified Manager、則應手動更新Workflow Automation中的主機名稱。
+
+.步驟
+. 在vSphere Client中、按一下*首頁*>*詳細目錄*>*虛擬機器與範本*。
+. 選取安裝Unified Manager虛擬應用裝置的虛擬機器（VM）。
+. 如果Unified Manager VM正在執行、請瀏覽至* Summary *>* Commands-*>*關機Guest *。
+. 建立Unified Manager VM的備份複本、例如快照或複本、以建立應用程式一致的備份。
+. 從vSphere Client啟動Unified Manager VM。
+. 啟動VMware遠端主控台。
+. 按一下「* cdrom*」圖示、然後選取「*連線至磁碟映像檔（.iso*）」。
+. 選取「ActiveIQUnifiedManager-<版本>-virtual -update.ISO」檔案、然後按一下「* Open*」。
+. 按一下*主控台*索引標籤。
+. 登入Unified Manager維護主控台。
+. 在主功能表中、選取*升級*。
++
+系統會顯示一則訊息、指出Unified Manager在升級過程中無法使用、並會在完成後繼續使用。
+
+. 輸入「y」繼續。
++
+此時會顯示警告、提醒您備份虛擬應用裝置所在的虛擬機器。
+
+. 輸入「y」繼續。
++
+升級程序和重新啟動Unified Manager服務可能需要數分鐘的時間才能完成。
+
+. 按任意鍵繼續。
++
+系統會自動將您登出維護主控台。
+
+. *選用：*登入維護主控台、然後驗證Unified Manager的版本。
+
+
+您可以登入Web UI、以使用升級版的Unified Manager。請注意、您必須等待探索程序完成、才能在UI中執行任何工作。

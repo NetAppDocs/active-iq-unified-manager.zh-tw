@@ -1,0 +1,29 @@
+---
+permalink: health-checker/concept_configure_backup_for_linux.html 
+sidebar: sidebar 
+keywords: netapp, snapshot, linux, operate, system, configure, backup 
+summary: 如果Active IQ Unified Manager 您的支援功能安裝在Linux機器上、您可以決定使用NetApp Snapshot來設定備份與還原。 
+---
+= 在Linux上設定備份
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果Active IQ Unified Manager 您的支援功能安裝在Linux機器上、您可以決定使用NetApp Snapshot來設定備份與還原。
+
+Snapshot備份所需時間極短、通常只需幾分鐘、而且Unified Manager資料庫鎖定時間很短、因此幾乎不會中斷安裝。映像會佔用最少的儲存空間、而且會產生可忽略的效能負荷、因為它只會記錄自上次Snapshot複本以來對檔案所做的變更。由於Snapshot是在ONTAP 整個叢集上建立、因此您可以利用SnapMirror等其他NetApp功能、視需要建立二線保護。
+
+在開始備份作業之前、Unified Manager會執行完整性檢查、以確認目的地系統是否可用。
+
+[NOTE]
+====
+* 您只能在Active IQ Unified Manager 同一版本的支援上還原Snapshot備份。
++
+例如、如果您在Unified Manager 9.9上建立備份、則只能在Unified Manager 9.9系統上還原備份。
+
+* 如果Snapshot組態有任何變更、可能會導致快照無效。
+
+
+====

@@ -1,0 +1,62 @@
+---
+permalink: config/task_install_ca_signed_and_returned_https_certificate.html 
+sidebar: sidebar 
+keywords: install, ca signed, returned, https, certificate 
+summary: 您可以在「憑證授權單位」簽署並傳回安全性憑證之後、再上傳及安裝安全性憑證。您上傳和安裝的檔案必須是現有自我簽署憑證的簽署版本。CA簽署的憑證有助於預防攔截式攻擊、並提供比自我簽署憑證更好的安全保護。 
+---
+= 安裝CA簽署並傳回HTTPS憑證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在「憑證授權單位」簽署並傳回安全性憑證之後、再上傳及安裝安全性憑證。您上傳和安裝的檔案必須是現有自我簽署憑證的簽署版本。CA簽署的憑證有助於預防攔截式攻擊、並提供比自我簽署憑證更好的安全保護。
+
+*您需要的是什麼*
+
+您必須完成下列動作：
+
+* 已下載「憑證簽署要求」檔案、並由「憑證授權單位」簽署
+* 已將憑證鏈結儲存為PEE格式
+* 包括鏈中的所有憑證、從Unified Manager伺服器憑證到根簽署憑證、包括任何存在的中繼憑證
+
+
+您必須具有應用程式管理員角色。
+
+[NOTE]
+====
+如果建立CSR的憑證有效時間超過3997天、則CA在簽署並傳回憑證之前、將會將有效時間減至3997天
+
+====
+.步驟
+. 在左導覽窗格中、按一下*一般*>* HTTPS憑證*。
+. 按一下「*安裝HTTPS憑證*」。
+. 在顯示的對話方塊中、按一下*選擇檔案...*以找出要上傳的檔案。
+. 選取檔案、然後按一下「*安裝*」以安裝檔案。
++
+link:concept_install_https_certificate_generated_using_external_tools.html["安裝使用外部工具產生的HTTPS憑證"]
+
+
+
+
+
+== 範例憑證鏈結
+
+下列範例顯示憑證鏈結檔案的顯示方式：
+
+[listing]
+----
+-----BEGIN CERTIFICATE-----
+<*Server certificate*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Intermediate certificate \#1 (if present)*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Intermediate certificate \#2 (if present)*>
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+<*Root signing certificate*>
+-----END CERTIFICATE-----
+----

@@ -1,0 +1,42 @@
+---
+permalink: install-linux/task_restart_unified_manager.html 
+sidebar: sidebar 
+keywords: restart, unified manager 
+summary: 變更組態之後、您可能必須重新啟動Unified Manager。 
+---
+= 重新啟動Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+變更組態之後、您可能必須重新啟動Unified Manager。
+
+*您需要的是什麼*
+
+您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS伺服器。
+
+.步驟
+. 以root使用者身分登入您要重新啟動Unified Manager服務的伺服器。
+. 依照下列順序停止Unified Manager服務及相關的MySQL軟體：
++
+《神祕的停止》
+
++
+《stystemctl stop ocie》
+
++
+'停機mysqld'
+
+. 依照下列順序啟動Unified Manager：
++
+《stystemctl start mysqld》
+
++
+《stystemcl start ocie》
+
++
+《stystemcl start ocieau》
+
+

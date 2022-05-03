@@ -1,0 +1,38 @@
+---
+permalink: data-protection/task_edit_protection_relationships_from_health_volume.html 
+sidebar: sidebar 
+keywords: edit, protection, relationships, volume, health details page 
+summary: 您可以編輯現有的保護關係、以變更目前的最大傳輸率、保護原則或保護排程。您可以編輯關聯以減少傳輸所用的頻寬、或是因為資料經常變更而增加排程傳輸的頻率。 
+---
+= 從Volume / Health詳細資料頁面編輯保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯現有的保護關係、以變更目前的最大傳輸率、保護原則或保護排程。您可以編輯關聯以減少傳輸所用的頻寬、或是因為資料經常變更而增加排程傳輸的頻率。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須已安裝並設定Workflow Automation。
+
+
+選取的磁碟區必須是保護關係目的地。如果選取來源磁碟區、負載共享磁碟區或非SnapMirror或SnapVault 非相依關係目的地的磁碟區、您就無法編輯關係。
+
+.步驟
+. 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、找到您要編輯的保護關係、然後在該關係上按一下滑鼠右鍵。
+. 從功能表中選取*編輯*。
++
+或者、從*動作*功能表中、選取*關係*>*編輯*以編輯您目前正在檢視其詳細資料的關係。
+
++
+此時將顯示*編輯關係*對話框。
+
+. 在「編輯關係」對話方塊中、視需要編輯最大傳輸率、保護原則或保護排程。
+. 按一下「 * 套用 * 」。
++
+這些變更會套用至選取的關聯。
+
+

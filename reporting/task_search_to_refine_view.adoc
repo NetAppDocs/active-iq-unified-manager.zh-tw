@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_search_to_refine_view.html 
+sidebar: sidebar 
+keywords: search, refine, view 
+summary: 取得所需的檢視之後、您可以使用「搜尋」欄位進一步精簡結果、將焦點放在您要納入報告的結果上。 
+---
+= 使用搜尋功能來精簡檢視
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+取得所需的檢視之後、您可以使用「搜尋」欄位進一步精簡結果、將焦點放在您要納入報告的結果上。
+
+.步驟
+. 開啟您要做為報告基礎的自訂或預設檢視。
+. 輸入「搜尋」欄位、以精簡檢視中所列的資料。您可以在任何顯示的欄位中輸入部分資料。例如、如果您想要搜尋名稱中包含「US_EAST」的節點、可以精簡節點的完整清單。
++
+搜尋結果會儲存在自訂檢視中、並用於產生的排程報告中。
+
+. 命名未儲存的檢視以儲存變更。
+

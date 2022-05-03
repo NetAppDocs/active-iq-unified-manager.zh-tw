@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_view_all_security_events.html 
+sidebar: sidebar 
+keywords: view, active, security events 
+summary: 您可以檢視所有作用中的安全性事件、然後將每個事件指派給可以解決問題的使用者。此外、如果您不想接收某些安全性事件、此清單可協助您識別要停用的事件。 
+---
+= 檢視所有作用中的安全事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視所有作用中的安全性事件、然後將每個事件指派給可以解決問題的使用者。此外、如果您不想接收某些安全性事件、此清單可協助您識別要停用的事件。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+.步驟
+. 在左側導覽窗格中、按一下*事件管理*。
++
+依預設、「事件管理」目錄頁會顯示「新增」和「已確認」事件。
+
+. 從「View（檢視）」功能表中、選取「* Active Security events（*作用中的安全事件
++
+此頁面會顯示過去7天內產生的所有「新增」和「已確認的安全性」事件。
+
+

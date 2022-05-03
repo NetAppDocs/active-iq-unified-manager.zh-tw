@@ -1,0 +1,35 @@
+---
+permalink: events/task_upload_new_active_iq_rules_file.html 
+sidebar: sidebar 
+keywords: upload, new, active iq, rules, file 
+summary: Unified Manager Active IQ 會自動檢查新的版本更新規則檔案、並在下載新檔案。不過、在沒有外部網路存取權的站台中、您需要手動上傳規則檔。 
+---
+= 正在上傳新Active IQ 的功能更新檔案
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager Active IQ 會自動檢查新的版本更新規則檔案、並在下載新檔案。不過、在沒有外部網路存取權的站台中、您需要手動上傳規則檔。
+
+*您需要的是什麼*
+
+* 必須啟用事件報告功能。Active IQ
+* 您必須從NetApp支援網站下載規則檔案。
+
+
+建議您每個月下載一次新的規則檔、以確保儲存系統受到保護、而且能以最佳方式執行。Rules檔案位於： http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
+
+.步驟
+. 在具有網路存取權的電腦上、瀏覽至NetApp支援網站並下載目前的規則「.Zip」檔案。
+. 將規則檔傳輸到可帶入安全區域的媒體、然後複製到安全區域的系統。
+. 在左導覽窗格中、按一下*儲存管理*>*事件設定*。
+. 在「*事件設定*」頁面中、按一下「*上傳規則*」按鈕。
+. 在「*上傳規則*」對話方塊中、瀏覽並選取您下載的規則「.Zip」檔案、然後按一下「*上傳*」。
++
+此程序可能需要幾分鐘的時間。
+
+
+
+規則檔會在Unified Manager伺服器上解壓縮。在託管叢集於AutoSupport 午夜之後產生一個更新檔之後、Unified Manager會根據規則檔檢查叢集、並視需要產生新的風險和事件事件。

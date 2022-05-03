@@ -1,0 +1,32 @@
+---
+permalink: api-automation/concept_um_apis_list_intro.html 
+sidebar: sidebar 
+keywords: unified, manager, rest, api 
+summary: 本Active IQ Unified Manager 節會根據其類別列出REST API for Israre。 
+---
+= Unified Manager REST API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+本Active IQ Unified Manager 節會根據其類別列出REST API for Israre。
+
+您可以從Unified Manager執行個體檢視線上文件頁面、其中包含每個REST API呼叫的詳細資料。本文件不重複線上文件的詳細資料。本文件列出或說明的每個API呼叫、僅包含您在文件頁面上尋找呼叫所需的資訊。找出特定API呼叫之後、您可以檢閱該呼叫的完整詳細資料、包括輸入參數、輸出格式、HTTP狀態代碼及要求處理類型。
+
+工作流程中的每個API呼叫都包含下列資訊、可協助您在文件頁面上找到呼叫：
+
+* 類別
++
+API呼叫會在文件頁面上組織成功能相關的區域或類別。若要尋找特定的API呼叫、請向下捲動至頁面底部、然後按一下適用的API類別。
+
+* HTTP動詞（呼叫）
++
+HTTP動詞可識別在資源上執行的動作。每個API呼叫都是透過單一HTTP動詞來執行。
+
+* 路徑
++
+路徑會決定動作用來做為執行通話一部分的特定資源。路徑字串會附加至核心URL、以構成識別資源的完整URL。
+
+

@@ -1,0 +1,53 @@
+---
+permalink: health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html 
+sidebar: sidebar 
+keywords: configure, netapp, snapshot, backup, maintenance console 
+summary: 您應該從Active IQ Unified Manager 維護主控台設定將靜態備份至NetApp Snapshot備份。 
+---
+= 從維護主控台設定NetApp Snapshot備份
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您應該從Active IQ Unified Manager 維護主控台設定將靜態備份至NetApp Snapshot備份。
+
+*您需要的是什麼*
+
+您的系統應具備下列詳細資料：
+
+* 叢集IP位址
+* 儲存VM名稱
+* Volume名稱
+* LUN名稱
+* 掛載路徑
+* 儲存系統認證
+
+
+.步驟
+. 存取Unified Manager的維護主控台。
+. 輸入4以選取*備份還原*。
+. 輸入2以選擇*使用NetApp Snapshot備份與還原*。
++
+[NOTE]
+====
+如果您想要變更備份組態、請輸入3以更新NetApp Snapshot備份組態。您只能更新密碼。
+
+====
+. 在功能表中輸入1以選取*「Configure NetApp Snapshot Backup」（設定NetApp Snapshot備份）*。
+. 輸入1以提供必要資訊。
+. 提供維護主控台的使用者名稱和密碼、然後確認LUN已掛載於主機上。
++
+然後、此程序會驗證資料目錄、LUN路徑、儲存VM、磁碟區、空間可用度、 您提供的磁碟機等資訊都是正確的。在背景中繼續進行的作業包括：
+
++
+** 服務已停止
+** 資料庫目錄會移至掛載的儲存設備
+** 資料庫目錄即會刪除、並建立symlink
+** 服務會在Active IQ Unified Manager 完成設定後重新啟動、並將備份類型修改為NetApp Snapshot、並在使用者介面中反映為資料庫備份（Snapshot型）。
+
+
+
+
+在開始備份作業之前、您必須檢查Snapshot組態是否有任何變更、因為這可能會導致快照無效。假設您在G磁碟機和Snapshot中設定備份。您稍後重新設定備份到E磁碟機、資料會依照新組態儲存到E磁碟機。如果您嘗試還原在G磁碟機中所拍攝的Snapshot、將會失敗、並顯示G磁碟機不存在的錯誤。

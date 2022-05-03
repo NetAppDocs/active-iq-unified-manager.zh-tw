@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfers, day 
+summary: 您可以建立報告、以檢視每日分組的Volume Transfers。 
+---
+= 建立報告以檢視每日分組的Volume Transfers
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、以檢視每日分組的Volume Transfers。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟、為依日期分組的Volume Transfers建立自訂檢視、然後排程要為該檢視產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「View（檢視）」功能表中、選取「* Relationationationationationationation*>*上個月轉帳率*」。
+. 按一下「DAY」欄的頂端、依日期排序Volume Transfers。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Volume Transfers by Day」（每日Volume傳輸量）。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可以依天調查磁碟區傳輸。

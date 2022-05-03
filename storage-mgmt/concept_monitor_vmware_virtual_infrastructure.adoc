@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html 
+sidebar: sidebar 
+keywords: monitor, vmware, virtual, infrastructure, not, supported 
+summary: 支援VMware Infrastructure中的虛擬機器（VM）可見度、並可監控及疑難排解虛擬環境中的儲存與效能問題。Active IQ Unified Manager您可以使用此功能來判斷儲存環境中的任何延遲問題、或是vCenter Server上有報告的效能事件時。 
+---
+= 監控VMware虛擬基礎架構
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援VMware Infrastructure中的虛擬機器（VM）可見度、並可監控及疑難排解虛擬環境中的儲存與效能問題。Active IQ Unified Manager您可以使用此功能來判斷儲存環境中的任何延遲問題、或是vCenter Server上有報告的效能事件時。
+
+典型的虛擬基礎架構部署ONTAP 在整個運算、網路和儲存層之間、有許多不同的元件。VM應用程式中的任何效能延遲都可能是因為各個元件在各個層面上所面臨的延遲問題。這項功能對於需要分析虛擬環境中的效能問題、並瞭解問題發生在哪個元件的儲存設備和vCenter Server管理員及IT通才人員來說非常實用。
+
+您現在可以從VMware區段的vCenter功能表存取vCenter Server。列出的每個虛擬機器的預覽檢視在拓撲檢視中都有* vCenter Server*連結、可在新的瀏覽器中啟動vCenter Server。您也可以使用*展開拓撲*按鈕來啟動vCenter Server、然後按一下*在vCenter*中檢視按鈕來檢視vCenter Server中的資料存放區。
+
+Unified Manager會在拓撲檢視中呈現虛擬環境的底層子系統、以判斷運算節點、網路或儲存設備是否發生延遲問題。此檢視也會強調導致效能延遲的特定物件、以便採取補救步驟並解決根本問題。
+
+部署在ONTAP 物件上的虛擬基礎架構包括下列物件：
+
+* vCenter Server：集中化的控制面板、用於管理虛擬環境中的VMware VM、ESXi主機及所有相關元件。如需vCenter Server的詳細資訊、請參閱VMware文件。
+* 主機：執行ESXi的實體或虛擬系統、VMware的虛擬化軟體、以及裝載VM的主機。
+* 資料存放區：資料存放區是連線至ESXi主機的虛擬儲存物件。資料存放區是ONTAP 可管理的不受支援儲存實體、例如LUN或磁碟區、用作VM檔案的儲存庫、例如記錄檔、指令碼、組態檔和虛擬磁碟。它們透過SAN或IP網路連線連接到環境中的主機。不支援或不顯示對應至vCenter Server的ONTAP 資料存放區、但不支援在Unified Manager上顯示。
+* VM：VMware虛擬機器。
+* 虛擬磁碟：資料存放區上的虛擬磁碟、其擴充為VMDK、屬於VM。來自虛擬磁碟的資料會儲存在對應的VMDK上。
+* VMDK：資料存放區上的虛擬機器磁碟、可為虛擬磁碟提供儲存空間。每個虛擬磁碟都有對應的VMDK。
+
+
+這些物件會顯示在VM拓撲檢視中。
+
+* ONTAP VMware虛擬化技術
+
+image::../media/vm_deployment.gif[VM部署]
+
+*使用者工作流程*
+
+下圖顯示使用VM拓撲檢視的典型使用案例：
+
+image::../media/vm_workflow.gif[VM工作流程]
+
+
+
+== 不支援的項目
+
+* Unified Manager不支援不屬於VMware vCenter的資料存放區ONTAP 、也不支援對應至vCenter Server執行個體。也不支援在這些資料存放區上具有虛擬磁碟的任何VM。
+* 不支援跨多個LUN的資料存放區。
+* 不支援使用網路位址轉譯（NAT）來對應資料LIF（存取端點）的資料存放區。
+* 不支援將多個LIF組態中具有相同IP位址的不同叢集上的磁碟區或LUN匯出為資料存放區、因為UM無法識別哪個資料存放區屬於哪個叢集。
++
+範例：假設叢集A具有資料存放區A資料存放區A會透過資料LIF匯出、並在此資料存放區上建立相同的IP位址x.x.x.x和VM A。同樣地、叢集B也有資料存放區B資料存放區B是透過具有相同IP位址x.x.x.x的資料LIF匯出、而VM B則是在資料存放區B上建立UM將無法將VM A的資料存放區A對應至對應ONTAP 的實體磁碟區/LUN、也無法對應VM B
+
+* 只有NAS和SAN磁碟區（iSCSI和FCP for VMFS）支援為資料存放區、不支援虛擬磁碟區（vVols）。
+* 僅支援iSCSI虛擬磁碟。不支援NVMe和SATA類型的虛擬磁碟。
+* 這些檢視不允許您產生報告來分析各種元件的效能。
+* 對於僅支援Unified Manager上虛擬基礎架構的儲存虛擬機器（儲存VM）災難恢復（DR）設定、必須在vCenter Server中手動變更組態、以指向切換和切換案例中的作用中LUN。如果不需要手動介入、就無法存取其資料存放區。
+

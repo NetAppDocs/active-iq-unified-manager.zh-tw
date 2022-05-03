@@ -1,0 +1,53 @@
+---
+permalink: api-automation/concept_view_workloads.html 
+sidebar: sidebar 
+keywords: view, storage, workloads 
+summary: 此處列出的API可讓您檢視ONTAP 資料中心內所有的各個叢集的整合式儲存工作負載清單。API也提供摘要檢視Active IQ Unified Manager 、顯示在您的VMware環境中配置的儲存工作負載數量、以及其容量與效能（IOPS）統計資料。 
+---
+= 檢視儲存工作負載
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此處列出的API可讓您檢視ONTAP 資料中心內所有的各個叢集的整合式儲存工作負載清單。API也提供摘要檢視Active IQ Unified Manager 、顯示在您的VMware環境中配置的儲存工作負載數量、以及其容量與效能（IOPS）統計資料。
+
+
+
+== 檢視儲存工作負載
+
+您可以使用下列方法來檢視資料中心內所有叢集的所有儲存工作負載。如需根據特定欄位篩選回應的相關資訊、請參閱Unified Manager執行個體中提供的API參考文件。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+「/儲存設備供應商/工作負載」
+
+|===
+
+
+== 檢視儲存工作負載摘要
+
+您可以使用下列方法來評估每個效能服務層級所管理的已用容量、可用容量、已用IOPS、可用IOPS及儲存工作負載數量。顯示的儲存工作負載可用於任何LUN、NFS檔案共用或CIFS共用區。API提供儲存工作負載總覽、Unified Manager提供的儲存工作負載總覽、資料中心總覽、資料中心總覽、以及資料中心的總、已使用及可用空間與IOPS、以及指派的效能服務層級。針對此API所接收的資訊、會用於在Unified Manager UI中填入儀表板。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+「/儲存設備供應商/工作負載摘要」
+
+|===

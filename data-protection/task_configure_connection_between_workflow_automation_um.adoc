@@ -1,0 +1,51 @@
+---
+permalink: data-protection/task_configure_connection_between_workflow_automation_um.html 
+sidebar: sidebar 
+keywords: configure, connection, workflow, automation, unified manager 
+summary: 您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。 
+---
+= 設定Workflow Automation與Unified Manager之間的連線
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。
+
+*您需要的是什麼*
+
+* 安裝的Workflow Automation版本必須為5.1或更新版本。
++
+[NOTE]
+====
+WFA 5.1隨附「WFA套件以管理叢集Data ONTAP 式的功能」、因此您不需要從NetAppStorage Automation Store下載此套件、然後依照過去的需求、將其個別安裝到WFA伺服器上。  https://automationstore.netapp.com/pack-list.shtml["WFA套件、用於管理ONTAP 功能"]
+
+====
+* 您必須擁有在Unified Manager中建立的資料庫使用者名稱、才能支援WFA和Unified Manager連線。
++
+此資料庫使用者必須已被指派「整合架構」使用者角色。
+
+* 您必須在Workflow Automation中被指派「管理員」角色或「架構設計師」角色。
+* 您必須擁有用於Workflow Automation設定的主機位址、連接埠號碼443、使用者名稱和密碼。
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+.步驟
+. 在左導覽窗格中、按一下*一般*>*工作流程自動化*。
+. 在「*工作流程自動化」頁面的*資料庫使用者*區域中、選取名稱、然後輸入您所建立的資料庫使用者密碼、以支援Unified Manager和Workflow Automation連線。
+. 在頁面的「*工作流程自動化認證*」區域中、輸入主機名稱或IP位址（IPv4或IPv6）、以及Workflow Automation設定的使用者名稱和密碼。
++
+您必須使用Unified Manager伺服器連接埠（連接埠443）。
+
+. 按一下「 * 儲存 * 」。
+. 如果您使用自我簽署的憑證、請按一下*是*來授權安全性憑證。
++
+隨即顯示「Workflow Automation」（工作流程自動化）頁面
+
+. 按一下「*是*」重新載入網路UI、然後新增「工作流程自動化」功能。
+
+
+*相關資訊*
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550["NetApp文件：OnCommand Workflow Automation 功能（最新版本）"]

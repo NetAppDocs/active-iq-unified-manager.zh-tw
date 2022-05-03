@@ -1,0 +1,38 @@
+---
+permalink: install-linux/task_remove_unified_manager.html 
+sidebar: sidebar 
+keywords: remove, unified manager 
+summary: 您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主機停止及解除安裝Unified Manager。 
+---
+= 移除Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主機停止及解除安裝Unified Manager。
+
+*您需要的是什麼*
+
+* 您必須擁有root使用者存取權、才能存取要從中移除Unified Manager的伺服器。
+* 必須在Red Hat機器上停用增強安全的Linux（SELinux）。使用「show 0」命令將SELinux執行時間模式變更為「Permiscive」。
+* 移除軟體之前、必須先從Unified Manager伺服器移除所有叢集（資料來源）。
+
+
+.步驟
+. 以root使用者身分登入您要移除Unified Manager的伺服器。
+. 停止Unified Manager並從伺服器移除：
++
+「rpm -e NetApp-um」
+
++
+此步驟會移除所有相關的NetApp RPM套件。它不會移除必要的軟體模組、例如Java、MySQL和p7zip。
+
+. *可選：*如果適用、請移除支援的軟體模組、例如Java、MySQL和p7zip：
++
+"rpm -e p7zip mysql-community用戶端mysql-community伺服器mysql-community community mysql-community lips-lips Java-x.y"
+
+
+
+完成此作業後、軟體即會移除。卸載後、所有來自於「/opt/NetApp/data」目錄的資料都會移至「/opt /NetApp/data/Backup」資料夾。解除安裝Unified Manager也會移除Java和MySQL套件、除非系統上的任何其他應用程式都需要和使用這些套件。不過、MySQL資料不會刪除。

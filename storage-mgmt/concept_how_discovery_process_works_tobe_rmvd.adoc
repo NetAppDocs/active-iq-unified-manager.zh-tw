@@ -1,0 +1,20 @@
+---
+permalink: storage-mgmt/concept_how_discovery_process_works_tobe_rmvd.html 
+sidebar: sidebar 
+keywords: discovery, process, works 
+summary: 將叢集新增至Unified Manager之後、伺服器會探索叢集物件並將其新增至其資料庫。瞭解探索程序的運作方式、有助於管理組織的叢集及其物件。 
+---
+= 探索程序的運作方式
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+將叢集新增至Unified Manager之後、伺服器會探索叢集物件並將其新增至其資料庫。瞭解探索程序的運作方式、有助於管理組織的叢集及其物件。
+
+預設的監控時間間隔為15分鐘：如果您已將叢集新增至Unified Manager伺服器、則需要15分鐘才能在Unified Manager UI中顯示叢集詳細資料。
+
+下圖說明Active IQ Unified Manager 了整個過程：
+
+image::../media/discovery_process_oc_6_0.gif[探索程序的運作方式]

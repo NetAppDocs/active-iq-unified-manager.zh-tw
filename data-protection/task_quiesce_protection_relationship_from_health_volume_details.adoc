@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_quiesce_protection_relationship_from_health_volume_details.html 
+sidebar: sidebar 
+keywords: quiesce, protection, relationship, volume, health details page 
+summary: 您可以靜止保護關係、暫時避免資料傳輸發生。當您想要為包含資料庫的SnapMirror目的地Volume建立Snapshot複本時、您可能會靜止一種關係、並希望在Snapshot複本期間確保其內容穩定。 
+---
+= 從Volume / Health詳細資料頁面靜止保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以靜止保護關係、暫時避免資料傳輸發生。當您想要為包含資料庫的SnapMirror目的地Volume建立Snapshot複本時、您可能會靜止一種關係、並希望在Snapshot複本期間確保其內容穩定。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須設定Workflow Automation。
+
+
+下列執行個體不會顯示「靜止」動作：
+
+* 如果RBAC設定不允許此動作、例如您只有操作員權限
+* 當Volume ID未知時、例如當您有叢集間關係、但尚未探索到目的地叢集時
+* 當您尚未配對Workflow Automation和Unified Manager時
+
+
+.步驟
+. 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、以滑鼠右鍵按一下拓撲檢視中的關係、以瞭解您要靜止的保護關係。
+. 從功能表中選取*靜止*。
+. 按一下「*是*」繼續。
++
+靜止工作的狀態會顯示在Volume / Health詳細資料頁面頂端、以及工作詳細資料的連結。
+
+. 按一下*檢視詳細資料*連結、前往*工作*詳細資料頁面、以取得更多詳細資料和工作進度。
+. *選用：*按一下瀏覽器上的返回箭頭、返回* Volume / Health *詳細資料頁面。
++
+當所有工作工作工作順利完成時、靜止工作即告完成。
+
+

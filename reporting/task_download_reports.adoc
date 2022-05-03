@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_download_reports.html 
+sidebar: sidebar 
+keywords: download, reports 
+summary: 您可以下載報告、並將資料儲存至本機或網路磁碟機、做為以逗號分隔的值（CSV）檔案、Microsoft Excel（.XLSX）檔案或PDF檔案。您可以使用試算表應用程式（例如Microsoft Excel）開啟CSV和XLSX檔案、以及使用讀取程式（例如：Adobe Acrobat）開啟PDF檔案。 
+---
+= 正在下載報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以下載報告、並將資料儲存至本機或網路磁碟機、做為以逗號分隔的值（CSV）檔案、Microsoft Excel（.XLSX）檔案或PDF檔案。您可以使用試算表應用程式（例如Microsoft Excel）開啟CSV和XLSX檔案、以及使用讀取程式（例如：Adobe Acrobat）開啟PDF檔案。
+
+.步驟
+. 按一下「*報告*」按鈕以下載報告：
++
+[cols="2*"]
+|===
+| 選擇 | 至... 
+
+
+ a| 
+下載CSV
+ a| 
+將報告另存為以逗號分隔的值（CSV）檔案。
+
+
+
+ a| 
+下載PDF
+ a| 
+將報告另存為.pdf檔案。
+
+
+
+ a| 
+下載Excel
+ a| 
+將報告另存為Microsoft Excel（XLSX）檔案。
+
+|===
+

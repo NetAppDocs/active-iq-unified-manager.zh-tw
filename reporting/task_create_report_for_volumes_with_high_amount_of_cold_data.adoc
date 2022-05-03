@@ -1,0 +1,46 @@
+---
+permalink: reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html 
+sidebar: sidebar 
+keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
+summary: 您可以建立報告、在非FabricPool Aggregate上顯示含有大量Cold資料的磁碟區。這有助於識別應移至FabricPool 某個支援區的Volume。 
+---
+= 建立報告以檢視在未啟用FabricPool的Aggregate上含有大量Cold資料的磁碟區
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、在非FabricPool Aggregate上顯示含有大量Cold資料的磁碟區。這有助於識別應移至FabricPool 某個支援區的Volume。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟、針對非FabricPool啟用的Aggregate上有大量Cold資料的磁碟區建立自訂檢視、然後排程要為該檢視產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「檢視」功能表中、選取「*效能*」>「*所有磁碟區*」。
+. 選擇*顯示/隱藏*以確保視圖中出現「磁碟類型」欄。
++
+新增或移除其他欄位、以建立對您的報告很重要的檢視。
+
+. 將「磁碟類型」欄拖曳到「Cold Data」欄附近。
+. 按一下篩選圖示、新增下列篩選條件、然後按一下「*套用篩選條件*」：
++
+** Cold資料大於100 GB
+** 磁碟類型包含SSD
+
+
+. 按一下「磁碟類型」欄的頂端、依磁碟類型排序磁碟區、FabricPool 使磁碟類型SSD（簡稱「SSD」）位於底部。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Cold data Vols not FabricPool Ise'」。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可以找到適合移至FabricPool 「資訊區」的磁碟區。

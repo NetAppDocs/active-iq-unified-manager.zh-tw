@@ -1,0 +1,62 @@
+---
+permalink: install-linux/task_upgrade_mysql_on_linux.html 
+sidebar: sidebar 
+keywords: upgrade, mysql, linux 
+summary: 您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。 
+---
+= 升級Linux上的MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。如果您系統上安裝的MySQL版本早於8.0.27、Unified Manager 9.10升級程序會自動將MySQL升級至8.0.27。您不應該執行MySQL從舊版升級至8.0.27的獨立升級。
+
+*您需要的是什麼*
+
+您必須擁有安裝Unified Manager的Linux系統的root權限。
+
+您只能將MySQL 8.0.27的基礎版本升級至更新版本、以進行次要更新。
+
+.步驟
+. 以root使用者身分登入Unified Manager主機。
+. 在目標系統上下載最新的MySQL Community Server「.rpm」套裝組合。
+. 將套件解壓縮到目標系統上的目錄。
+. 在解包之後、目錄中會有多個「.rpm」套件、但Unified Manager只需要下列rpm套件：
++
+** MySQL-community用戶端-8.0.27
+** MySQL-community - libs-8.0.27
+** MySQL-community伺服器-8.0.27
+** MySQL-社群-通用-8.0.27
+** MySQL-community用戶端外掛程式-8.0.27刪除所有其他的「.rpm」套件。但是、在rpm套裝組合中安裝所有套件並不會造成錯誤。
+
+
+. 依照下列順序停止Unified Manager服務及相關的MySQL軟體：
++
+《神祕的停止》
+
++
+《stystemctl stop ocie》
+
++
+'停機mysqld'
+
+. 使用下列命令叫用MySQL升級：
++
+「yum install *。rpm」
+
++
+*。rpm是指您下載較新版本MySQL的目錄中的「.rpm」套件。
+
+. 依照下列順序啟動Unified Manager：
++
+《stystemctl start mysqld》
+
++
+《stystemcl start ocie》
+
++
+《stystemcl start ocieau》
+
+

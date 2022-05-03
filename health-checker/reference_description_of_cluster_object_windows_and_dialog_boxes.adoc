@@ -1,0 +1,22 @@
+---
+permalink: health-checker/reference_description_of_cluster_object_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, cluster, object, windows, dialog boxes 
+summary: 您可以從各自的儲存物件頁面檢視所有叢集和叢集物件。您也可以從對應的儲存物件詳細資料頁面檢視詳細資料。您現在可以從庫存的下列儲存與保護區段啟動System Manager使用者介面。 
+---
+= 叢集物件視窗和對話方塊說明
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從各自的儲存物件頁面檢視所有叢集和叢集物件。您也可以從對應的儲存物件詳細資料頁面檢視詳細資料。您現在可以從庫存的下列儲存與保護區段啟動System Manager使用者介面。
+
+* 叢集資源清冊、叢集健全狀況和叢集效能頁面
+* Aggregate Inventory、Aggregate Health及Aggregate Performance頁面
+* Volume Inventory、Volume Health和Volume Performance頁面
+* 節點庫存和節點效能頁面
+* StorageVM Inventory、StorageVM Health和StorageVM Performance頁面
+* 保護關係頁面
+

@@ -1,0 +1,35 @@
+---
+permalink: install-linux/task_manually_configure_epel_repository.html 
+sidebar: sidebar 
+keywords: manually, configure, epel repository 
+summary: 如果您安裝Unified Manager的系統無法存取Enterprise Linux（E規劃）的額外套件儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。 
+---
+= 手動設定Epel儲存庫
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您安裝Unified Manager的系統無法存取Enterprise Linux（E規劃）的額外套件儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。
+
+Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程式。無論是在Red Hat或CentOS系統上安裝Unified Manager、都可使用Epel儲存庫。
+
+.步驟
+. 下載適用於您安裝的Epel儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：
++
+wGet https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`[]
+
++
+若為版本8、請從以下網址下載：
+
++
+wGet https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`[]
+
+. 設定Epel儲存庫：
++
+「yum install epar-re版本-latest -<版本>.noarch.rpm」
+
+
+
+對於Red Hat Enterprise Linux 8系統、如果內部儲存庫中有模組化RPM套件（例如：「_javapackages-filesystem-<版本>.module.rpm_」）、請確保模組化套件的中繼資料也可在同一個儲存庫中使用。

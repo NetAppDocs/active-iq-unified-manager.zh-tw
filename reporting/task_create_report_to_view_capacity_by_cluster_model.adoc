@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html 
+sidebar: sidebar 
+keywords: create, report, view, capacity, cluster, model 
+summary: 您可以建立報告、根據儲存系統模型分析儲存容量和叢集使用率。 
+---
+= 建立報告以依叢集模式檢視容量
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、根據儲存系統模型分析儲存容量和叢集使用率。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟建立依叢集模式顯示容量的自訂檢視、然後排程為該檢視產生報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
+. 在View（檢視）功能表中、選取* Capacity *>* All Clusters*。
+. 選取*顯示/隱藏*以移除報告中不需要的任何欄、例如「叢集FQDN」和「OS版本」。
+. 拖曳「Total Raw Capacity」、「Moodel/Family」、以及「叢集」欄附近的三個Aggregate欄。
+. 按一下「模型/系列」欄的頂端、依叢集類型排序結果。
+. 以反映檢視內容的特定名稱儲存檢視、例如「容量依叢集模式」。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 按一下「*新增排程*」將新列新增至「*報告排程*」頁面、以便定義新報告的排程特性。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可能想要新增更多容量至特定叢集、或是升級較舊的叢集機型。

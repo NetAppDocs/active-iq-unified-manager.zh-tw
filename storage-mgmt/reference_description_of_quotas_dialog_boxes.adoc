@@ -1,0 +1,14 @@
+---
+permalink: storage-mgmt/reference_description_of_quotas_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, quotas, dialog, boxes 
+summary: 您可以使用Health：All Storage VM檢視中的User and Group Quotas索引標籤中的適當選項、設定發生配額相關問題時傳送的電子郵件通知格式、以及設定規則、根據使用者配額來指定電子郵件地址。 
+---
+= 配額對話方塊說明
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Health：All Storage VM檢視中的User and Group Quotas索引標籤中的適當選項、設定發生配額相關問題時傳送的電子郵件通知格式、以及設定規則、根據使用者配額來指定電子郵件地址。

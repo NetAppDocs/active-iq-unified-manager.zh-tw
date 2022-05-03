@@ -1,0 +1,49 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: 下表說明Unified Manager評估的Volume加密參數、以判斷您磁碟區上的資料是否受到未獲授權使用者的適當保護。 
+---
+= Volume法規遵循類別
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表說明Unified Manager評估的Volume加密參數、以判斷您磁碟區上的資料是否受到未獲授權使用者的適當保護。
+
+請注意、磁碟區加密參數不會影響叢集或儲存VM是否符合法規要求。
+
+[cols="2*"]
+|===
+| 參數 | 說明 
+
+
+ a| 
+軟體加密
+ a| 
+顯示使用NetApp Volume Encryption（NVE）或NetApp Aggregate Encryption（NAE）軟體加密解決方案保護的磁碟區數量。
+
+
+
+ a| 
+硬體加密
+ a| 
+顯示使用NetApp儲存加密（NSE）硬體加密保護的磁碟區數量。
+
+
+
+ a| 
+軟體與硬體已加密
+ a| 
+顯示受軟體和硬體加密保護的磁碟區數目。
+
+
+
+ a| 
+未加密
+ a| 
+顯示未加密的磁碟區數目。
+
+|===

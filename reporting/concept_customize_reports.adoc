@@ -1,0 +1,26 @@
+---
+permalink: reporting/concept_customize_reports.html 
+sidebar: sidebar 
+keywords: customize, reports 
+summary: 您可以透過多種方式自訂檢視、以便建立報告、其中包含管理ONTAP 您的叢集所需的所有資訊。 
+---
+= 自訂報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以透過多種方式自訂檢視、以便建立報告、其中包含管理ONTAP 您的叢集所需的所有資訊。
+
+從預設的庫存頁面或自訂檢視開始、然後新增或移除欄、變更欄順序、篩選資料、或依遞增或遞減順序排序特定欄、以自訂該頁面。
+
+從Unified Manager 9.8開始、您也可以在Excel下載檢視、以使用進階功能進行自訂。完成後、請上傳自訂的Excel檔案。如果您使用該檢視來排程報告、它會使用自訂的Excel檔案來建立可共用的健全報告。
+
+如需使用Excel自訂報告的詳細資訊、請參閱_ Microsoft Excel報告範例_。
+
+[NOTE]
+====
+您必須具有應用程式管理員或儲存管理員角色、才能管理報告。
+
+====

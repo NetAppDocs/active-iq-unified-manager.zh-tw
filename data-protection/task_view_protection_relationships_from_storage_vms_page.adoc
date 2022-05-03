@@ -1,0 +1,28 @@
+---
+permalink: data-protection/task_view_protection_relationships_from_storage_vms_page.html 
+sidebar: sidebar 
+keywords: storage vm, viewing protection relationships 
+summary: 使用「儲存VM」頁面、您可以檢視現有儲存VM的災難恢復關係狀態。 
+---
+= 從「儲存VM」頁面檢視保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「儲存VM」頁面、檢視現有儲存VM災難恢復關係的狀態。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+您也可以檢查保護關係的詳細資料、包括傳輸和延遲狀態、來源和目的地詳細資料。您可以排程報告、或是以所需格式下載現有報告。「*顯示/隱藏*」按鈕可讓您將所需的欄新增至報告、因為這些欄預設不會顯示。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存設備*>*儲存設備VMS*。
+. 從*視圖*功能表中、選取*關係*>*所有關係*。
++
+「關係：所有關係」檢視會顯示在所有已設定的儲存VM上。
+
+

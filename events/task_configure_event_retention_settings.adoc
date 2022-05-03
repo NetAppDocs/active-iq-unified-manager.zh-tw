@@ -1,0 +1,25 @@
+---
+permalink: events/task_configure_event_retention_settings.html 
+sidebar: sidebar 
+keywords: configure, event, retention, settings 
+summary: 您可以指定事件在自動刪除之前、保留在Unified Manager伺服器中的月數。 
+---
+= 設定事件保留設定
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以指定事件在自動刪除之前、保留在Unified Manager伺服器中的月數。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色。
+
+保留事件超過6個月可能會影響伺服器效能、不建議使用。
+
+.步驟
+. 在左側導覽窗格中、按一下*一般*>*資料保留*。
+. 在「*資料保留*」頁面中、選取「事件保留區」中的滑桿、並將其移至應保留事件的月份數、然後按一下「*儲存*」。
+

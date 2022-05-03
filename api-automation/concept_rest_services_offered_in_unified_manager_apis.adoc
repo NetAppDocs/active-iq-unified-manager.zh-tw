@@ -1,0 +1,59 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: rest, services, offer, active iq, unified, manager 
+summary: 在開始使用Active IQ Unified Manager IsrAPI之前、您應該先瞭解其餘的服務與營運。 
+---
+= REST服務提供Active IQ Unified Manager 於此
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在開始使用Active IQ Unified Manager IsrAPI之前、您應該先瞭解其餘的服務與營運。
+
+用於設定API伺服器的資源配置和管理API、可支援讀取（Get）或寫入（POST、修補、刪除）作業。以下是API支援的Get、修補程式、POST及刪除作業範例：
+
+* Get範例：「Get /datacenter/叢集/叢集」會在資料中心中擷取叢集詳細資料。「Get」（取得）作業傳回的記錄數目上限為1000。
++
+[NOTE]
+====
+API可讓您依據支援的屬性來篩選、排序及排序記錄。
+
+====
+* POST的範例：「POST / datacenter/svm/svms」會建立自訂的儲存虛擬機器（SVM）。
+* 修補程式的範例：「修補程式/資料中心/SVM/svms/{key}」會使用其獨特的金鑰來修改SVM的內容。
+* 刪除範例：「刪除/儲存設備供應商/存取端點/｛key｝」會使用唯一金鑰、從LUN、SVM或檔案共用區刪除存取端點。
+
+
+可使用API執行的REST作業取決於操作員、儲存管理員或應用程式管理員使用者的角色。
+
+[cols="2*"]
+|===
+| 使用者角色 | 支援的REST方法 
+
+
+ a| 
+營運者
+ a| 
+資料的唯讀存取。具有此角色的使用者可以執行所有的Get要求。
+
+
+
+ a| 
+儲存管理員
+ a| 
+讀取所有資料的存取權。具有此角色的使用者可以執行所有的Get要求。
+
+此外、他們還擁有寫入權限（可執行修補程式、POST及刪除要求）、可執行特定活動、例如管理、儲存服務物件及儲存管理選項。
+
+
+
+ a| 
+應用程式管理員
+ a| 
+對所有資料的讀寫存取權。具有此角色的使用者可以執行取得、修補、張貼及刪除所有功能的要求。
+
+|===
+如需所有REST作業的詳細資訊、請參閱_Online API文件_。

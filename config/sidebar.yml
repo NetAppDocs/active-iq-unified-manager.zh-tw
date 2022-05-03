@@ -1,0 +1,187 @@
+---
+section: config
+title: 執行組態和管理工作
+entries:
+- title: 設定Active IQ Unified Manager 功能
+  url: "/config/concept_configure_unified_manager.html"
+  entries:
+  - title: 組態順序總覽
+    url: "/config/concept_overview_of_configuration_sequence.html"
+  - title: 存取Unified Manager Web UI
+    url: "/config/task_access_unified_manager_web_ui.html"
+  - title: 執行Unified Manager Web UI的初始設定
+    url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
+  - title: 新增叢集
+    url: "/config/task_add_clusters.html"
+  - title: 設定Unified Manager以傳送警示通知
+    url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+    entries:
+    - title: 設定事件通知設定
+      url: "/config/task_configure_event_notification_settings.html"
+    - title: 啟用遠端驗證
+      url: "/config/task_enable_remote_authentication.html"
+    - title: 從遠端驗證停用巢狀群組
+      url: "/config/task_disable_nested_groups_from_remote_authentication.html"
+    - title: 設定驗證服務
+      url: "/config/task_set_up_authentication_services.html"
+    - title: 新增驗證伺服器
+      url: "/config/task_add_authentication_servers.html"
+    - title: 測試驗證伺服器的組態
+      url: "/config/task_test_configuration_of_authentication_servers_um_6_0.html"
+    - title: 新增警示
+      url: "/config/task_add_alerts.html"
+  - title: 變更本機使用者密碼
+    url: "/config/task_change_local_user_password.html"
+  - title: 設定工作階段閒置逾時
+    url: "/config/task_set_session_inactivity_timeout.html"
+  - title: 變更Unified Manager主機名稱
+    url: "/config/concept_change_unified_manager_host_name.html"
+    entries:
+    - title: 變更Unified Manager虛擬應用裝置主機名稱
+      url: "/config/task_change_unified_manager_host_name_on_vmware.html"
+      entries:
+      - title: 產生HTTPS安全性憑證
+        url: "/config/task_generate_an_https_security_certificate_ocf.html"
+      - title: 重新啟動Unified Manager虛擬機器
+        url: "/config/task_restart_unified_manager_virtual_machine.html"
+    - title: 變更Linux系統上的Unified Manager主機名稱
+      url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+  - title: 啟用及停用原則型儲存管理
+    url: "/config/task_enable_and_disable_policy_based_storage_management.html"
+- title: 設定Unified Manager備份
+  url: "/config/concept_configure_um_backup.html"
+- title: 管理功能設定
+  url: "/config/concept_manage_feature_settings.html"
+  entries:
+  - title: 實現原則型儲存管理
+    url: "/config/concept_policy_based_storage_management.html"
+  - title: 啟用API閘道
+    url: "/config/concept_api_gateway.html"
+  - title: 指定不活動逾時
+    url: "/config/concept_inactivity_timeout.html"
+  - title: 啟用Active IQ 入口網站活動
+    url: "/config/concept_active_iq_platform_events.html"
+  - title: 啟用及停用安全性設定以符合法規要求
+    url: "/config/concept_security_dashboard.html"
+  - title: 啟用及停用指令碼上傳
+    url: "/config/task_enable_and_disable_ability_to_upload_scripts.html"
+  - title: 新增登入橫幅
+    url: "/config/concept_login_banner.html"
+- title: 使用維護主控台
+  url: "/config/task_use_maintenance_console.html"
+  entries:
+  - title: 維護主控台提供哪些功能
+    url: "/config/concept_what_functionality_maintenance_console_provides.html"
+  - title: 維護使用者的功能
+    url: "/config/concept_what_maintenance_user_does.html"
+  - title: 診斷使用者功能
+    url: "/config/concept_what_diagnostic_user_does.html"
+  - title: 存取維護主控台
+    url: "/config/task_access_maintenance_console.html"
+  - title: 使用vSphere VM主控台存取維護主控台
+    url: "/config/task_access_maintenance_console_using_vsphere.html"
+  - title: 維護主控台功能表
+    url: "/config/concept_maintenance_console_menu.html"
+    entries:
+    - title: 網路組態功能表
+      url: "/config/reference_network_configuration_menu.html"
+    - title: 系統組態功能表
+      url: "/config/reference_system_configuration_menu.html"
+    - title: 支援與診斷功能表
+      url: "/config/reference_support_and_diagnostics_menu.html"
+    - title: 其他功能表選項
+      url: "/config/reference_additional_menu_options.html"
+  - title: 變更Windows上的維護使用者密碼
+    url: "/config/task_change_maintenance_user_password_on_windows.html"
+  - title: 變更Linux系統上的umadmin密碼
+    url: "/config/task_change_umadmin_password_on_rhel.html"
+  - title: 變更Unified Manager用於HTTP和HTTPS傳輸協定的連接埠
+    url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
+  - title: 新增網路介面
+    url: "/config/task_add_additional_network_interfaces.html"
+  - title: 將磁碟空間新增至Unified Manager資料庫目錄
+    url: "/config/concept_add_disk_space_to_um_database_directory.html"
+    entries:
+    - title: 將空間新增至Linux主機的資料目錄
+      url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
+    - title: 為VMware虛擬機器的資料磁碟增加空間
+      url: "/config/task_add_space_to_data_disk_of_vmware_virtual_machine.html"
+    - title: 為Microsoft Windows伺服器的邏輯磁碟機增加空間
+      url: "/config/task_add_space_to_data_disk_of_windows_server.html"
+- title: 管理使用者存取
+  url: "/config/concept_manage_user_access.html"
+  entries:
+  - title: 新增使用者
+    url: "/config/task_add_users.html"
+    entries:
+    - title: 建立資料庫使用者
+      url: "/config/task_create_database_user.html"
+  - title: 編輯使用者設定
+    url: "/config/task_edit_user_setts.html"
+  - title: 檢視使用者
+    url: "/config/task_view_users.html"
+  - title: 刪除使用者或群組
+    url: "/config/task_delete_users_or_groups.html"
+  - title: 什麼是RBAC
+    url: "/config/concept_what_rbac_is.html"
+  - title: 以角色為基礎的存取控制功能
+    url: "/config/concept_what_role_based_access_control_does.html"
+  - title: 使用者類型定義
+    url: "/config/reference_definitions_of_user_types.html"
+  - title: 使用者角色定義
+    url: "/config/reference_definitions_of_user_roles.html"
+  - title: Unified Manager使用者角色與功能
+    url: "/config/reference_unified_manager_roles_and_capabilities.html"
+- title: 管理SAML驗證設定
+  url: "/config/concept_manage_saml_authentication_settings_um.html"
+  entries:
+  - title: 身分識別供應商要求
+    url: "/config/reference_identity_provider_requirements_um.html"
+  - title: 啟用SAML驗證
+    url: "/config/task_enable_saml_authentication_um.html"
+  - title: 變更用於SAML驗證的身分識別供應商
+    url: "/config/task_change_identity_provider_idp_used_for_saml_authentication.html"
+  - title: 在Unified Manager安全性憑證變更之後更新SAML驗證設定
+    url: "/config/task_update_saml_authentication_after_um_certificate_change.html"
+  - title: 停用SAML驗證
+    url: "/config/task_disable_saml_authentication_um.html"
+  - title: 從維護主控台停用SAML驗證
+    url: "/config/task_disable_saml_authentication_from_maintenance_console_um.html"
+  - title: SAML驗證頁面
+    url: "/config/reference_saml_authentication_page_um.html"
+- title: 管理驗證
+  url: "/config/concept_manage_authentication.html"
+  entries:
+  - title: 編輯驗證伺服器
+    url: "/config/task_edit_authentication_servers.html"
+  - title: 刪除驗證伺服器
+    url: "/config/task_delete_authentication_servers.html"
+  - title: 使用Active Directory或OpenLDAP驗證
+    url: "/config/concept_authentication_with_active_directory_or_openldap.html"
+  - title: 稽核記錄
+    url: "/config/concept_audit_logging.html"
+    entries:
+    - title: 設定稽核記錄
+      url: "/config/task_configure_audit_logs.html"
+    - title: 啟用遠端記錄稽核記錄
+      url: "/config/task_enable_remote_logging_of_audit_logs.html"
+  - title: 遠端驗證頁面
+    url: "/config/reference_remote_authentication_page.html"
+- title: 管理安全性憑證
+  url: "/config/concept_manage_security_certificates_ocf.html"
+  entries:
+  - title: 檢視HTTPS安全性憑證
+    url: "/config/task_view_https_security_certificate_ocf.html"
+  - title: 正在下載HTTPS憑證簽署要求
+    url: "/config/task_download_an_https_certificate_sign_request_ocf.html"
+  - title: 安裝CA簽署並傳回HTTPS憑證
+    url: "/config/task_install_ca_signed_and_returned_https_certificate.html"
+  - title: 安裝使用外部工具產生的HTTPS憑證
+    url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
+  - title: 憑證管理的頁面說明
+    url: "/config/concept_page_descriptions_for_certificate_management.html"
+    entries:
+    - title: HTTPS憑證頁面
+      url: "/config/reference_https_dialog_box_ocf.html"
+    - title: 重新產生HTTPS憑證對話方塊
+      url: "/config/reference_regenerate_https_certificate_dialog_box.html"

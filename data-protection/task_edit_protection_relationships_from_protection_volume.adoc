@@ -1,0 +1,32 @@
+---
+permalink: data-protection/task_edit_protection_relationships_from_protection_volume.html 
+sidebar: sidebar 
+keywords: edit, protection, relationships, volume, relationships, page 
+summary: 您可以編輯現有的保護關係、以變更最大傳輸率、保護原則或保護排程。您可以編輯關聯以減少傳輸所用的頻寬、或是因為資料經常變更而增加排程傳輸的頻率。 
+---
+= 從「Volume關係」頁面編輯保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯現有的保護關係、以變更最大傳輸率、保護原則或保護排程。您可以編輯關聯以減少傳輸所用的頻寬、或是因為資料經常變更而增加排程傳輸的頻率。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+選取的磁碟區必須是保護關係目的地。如果選取來源磁碟區、負載共享磁碟區或非SnapMirror或SnapVault 非相依關係目的地的磁碟區、您就無法編輯關係。
+
+.步驟
+. 從「* Volume Relationations*」頁面中、選取「Volume」清單中您要編輯其關係設定的同一個SVM中的一或多個Volume、然後從工具列中選取「*編輯*」。
++
+隨即顯示「編輯關係」對話方塊。
+
+. 在*編輯關係*對話方塊中、視需要編輯最大傳輸率、保護原則或保護排程。
+. 按一下「 * 套用 * 」。
++
+這些變更會套用至選取的關聯。
+
+

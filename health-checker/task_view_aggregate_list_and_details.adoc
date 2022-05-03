@@ -1,0 +1,39 @@
+---
+permalink: health-checker/task_view_aggregate_list_and_details.html 
+sidebar: sidebar 
+keywords: view, aggregate list, details 
+summary: 從「健全狀況：所有集合體」檢視中、您可以監控集合體的庫存。「容量：所有集合體」檢視可讓您檢視所有叢集之集合體容量與使用率的相關資訊。 
+---
+= 檢視Aggregate清單和詳細資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從「健全狀況：所有集合體」檢視中、您可以監控集合體的庫存。「容量：所有集合體」檢視可讓您檢視所有叢集之集合體容量與使用率的相關資訊。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+您可以從Aggregate / Health詳細資料頁面檢視詳細資料、例如Aggregate容量和組態、以及磁碟資訊。如有需要、您可以在設定臨界值設定之前使用這些詳細資料。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>* Aggregate *」。
+. 請選擇下列其中一種方式來檢視Aggregate詳細資料：
++
+** 若要檢視所有叢集中所有集合體健全狀況的相關資訊、請在「檢視」功能表中選取「健全狀況：所有集合體檢視」。
+** 若要檢視所有叢集中所有集合體的容量和使用率資訊、請在「View（檢視）」功能表中選取「Capacity：All Aggregate（容量：所有集合體）」檢視。
+** 若要檢視完整詳細資料、請按一下Aggregate名稱。
++
+您也可以按一下「最小詳細資料」對話方塊中的「*檢視詳細資料*」來檢視完整詳細資料。
+
+
+
+. 按一下「最小詳細資料」對話方塊中的「*檢視相關*」、即可檢視與Aggregate相關的物件。
+
+
+*相關資訊*
+
+link:../health-checker/reference_health_aggregate_details_page.html["Aggregate / Health詳細資料頁面"]

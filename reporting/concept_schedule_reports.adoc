@@ -1,0 +1,20 @@
+---
+permalink: reporting/concept_schedule_reports.html 
+sidebar: sidebar 
+keywords: scheduling, reports 
+summary: 當您擁有想要重複使用的檢視畫面並以報告形式分享之後、您可以使用Active IQ Unified Manager 下列功能來排程報告：您可以管理排程的報告、變更每個報告排程的收件者和發佈頻率。 
+---
+= 排程報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您擁有想要重複使用的檢視畫面並以報告形式分享之後、您可以使用Active IQ Unified Manager 下列功能來排程報告：您可以管理排程的報告、變更每個報告排程的收件者和發佈頻率。
+
+您可以在Unified Manager中排程大部分的檢視或目錄頁面。例外情況是事件、您可以下載為CSV檔案的報告、但無法排程事件以進行重新產生和共用。您也無法下載或排程儀表板、我的最愛或組態頁面。
+
+從功能表9.8開始Active IQ Unified Manager 、您可以下載Microsoft®Excel格式的檢視畫面、並加以自訂。您可以使用進階的Excel功能、例如複雜的排序、階層式篩選、樞紐分析表和圖表。當您對所產生的Excel報告感到滿意時、可以上傳Excel檔案、以便每次排程及共用報告時使用。
+
+您可以排程您自訂的內建檢視或檢視。您可以選擇要傳送的檔案類型、例如CSV、PDF或xslx。當您第一次排程報告時、可以下載報告、並將自己指派為唯一的收件者、讓收件者看到報告。

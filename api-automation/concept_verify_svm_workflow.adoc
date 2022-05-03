@@ -1,0 +1,140 @@
+---
+permalink: api-automation/concept_verify_svm_workflow.html 
+sidebar: sidebar 
+keywords: verify, svms, clusters 
+summary: 在資源配置檔案共用或LUN之前、您必須先確認叢集上是否已建立儲存虛擬機器（SVM）。 
+---
+= 驗證叢集上的SVM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在資源配置檔案共用或LUN之前、您必須先確認叢集上是否已建立儲存虛擬機器（SVM）。
+
+[NOTE]
+====
+此工作流程假設ONTAP 已將叢集加入Unified Manager、而且已取得叢集金鑰。叢集應具備必要的授權、以便在叢集上配置LUN和檔案共用。
+
+====
+. 確認叢集是否已建立SVM。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+資料中心/ SVM/svms'、資料中心/ SVM/svms/\{key}
+
+|===
++
+*範例Curl*
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. 如果未傳回SVM金鑰、請建立SVM。若要建立SVM、您需要用來配置SVM的叢集金鑰。您也需要指定SVM名稱。請遵循下列步驟。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+「/資料中心/叢集/叢集」、「/資料中心/叢集/叢集/\｛key｝」
+
+|===
++
+取得叢集金鑰。
+
++
+*範例Curl*
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/datacenter/cluster/clusters" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. 從輸出中取得叢集金鑰、然後將其作為建立SVM的輸入。
++
+[NOTE]
+====
+在建立SVM時、請確保它支援所有必要的傳輸協定、以便在其中配置LUN和檔案共用、例如CIFS、NFS、FCP、 和iSCSI。如果SVM不支援所需的服務、資源配置工作流程可能會失敗。建議也在SVM上啟用各類型工作負載的服務。
+
+====
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+貼文
+ a| 
+「/資料中心/ SVM/svms」
+
+|===
++
+*範例Curl*
+
++
+輸入SVM物件詳細資料做為輸入參數。
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/datacenter/svm/svms" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" "{ \"aggregates\": [ { \"_links\": {}, \"key\": \"1cd8a442-86d1,type=objecttype,uuid=1cd8a442-86d1-11e0-ae1c-9876567890123\",
+\"name\": \"cluster2\", \"uuid\": \"02c9e252-41be-11e9-81d5-00a0986138f7\" } ],
+\"cifs\": { \"ad_domain\": { \"fqdn\": \"string\", \"password\": \"string\",
+\"user\": \"string\" }, \"enabled\": true, \"name\": \"CIFS1\" },
+\"cluster\": { \"key\": \"1cd8a442-86d1-11e0-ae1c-123478563412,type=object type,uuid=1cd8a442-86d1-11e0-ae1c-9876567890123\" },
+\"dns\": { \"domains\": [ \"example.com\", \"example2.example3.com\" ],
+\"servers\": [ \"10.224.65.20\", \"2001:db08:a0b:12f0::1\" ] },
+\"fcp\": { \"enabled\": true }, \"ip_interface\": [ { \"enabled\": true,
+\"ip\": { \"address\": \"10.10.10.7\", \"netmask\": \"24\" },
+\"location\": { \"home_node\": { \"name\": \"node1\" } }, \"name\":
+\"dataLif1\" } ], \"ipspace\": { \"name\": \"exchange\" },
+\"iscsi\": { \"enabled\": true }, \"language\": \"c.utf_8\",
+\"ldap\": { \"ad_domain\": \"string\", \"base_dn\": \"string\",
+\"bind_dn\": \"string\", \"enabled\": true, \"servers\": [ \"string\" ] },
+\"name\": \"svm1\", \"nfs\": { \"enabled\": true },
+\"nis\": { \"domain\": \"string\", \"enabled\": true,
+\"servers\": [ \"string\" ] }, \"nvme\": { \"enabled\": true },
+\"routes\": [ { \"destination\": { \"address\": \"10.10.10.7\",
+\"netmask\": \"24\" }, \"gateway\": \"string\" } ],
+\"snapshot_policy\": { \"name\": \"default\" },
+\"state\": \"running\", \"subtype\": \"default\"}"
+----
++
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所建立的SVM。
+
+. 使用工作物件金鑰進行查詢、以驗證SVM建立。如果成功建立SVM、則會在回應中傳回SVM金鑰。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/`management server / jobs/\{key}」
+
+|===
+

@@ -1,0 +1,63 @@
+---
+permalink: data-protection/task_view_storage_vms_based_on_protection_status.html 
+sidebar: sidebar 
+keywords: storage vm, view protection status 
+summary: 您可以使用庫存的「Storage VM」（儲存VM）頁面來檢視Active IQ Unified Manager 所有的儲存VM、並根據其保護狀態來篩選儲存VM。 
+---
+= 根據保護狀態檢視儲存VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用庫存的「Storage VM」（儲存VM）頁面來檢視Active IQ Unified Manager 所有的儲存VM、並根據其保護狀態來篩選儲存VM。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+儲存VM檢視中會新增一欄保護角色、提供儲存VM是否受到保護或未受保護的相關資訊。
+
+[NOTE]
+====
+如果來源叢集未新增至Active IQ Unified Manager 功能集、則與該叢集相關的所有資訊都無法在網格中使用。
+
+====
+.步驟
+. 在左導覽窗格中、按一下*儲存設備*>*儲存設備VMS*。
+. 從*視圖*功能表中、選取*健全狀況*>*所有儲存VM *。
++
+顯示健全狀況：所有儲存VM。
+
+. 按一下「*篩選器*」以檢視下列其中一個儲存VM。
++
+[cols="2*"]
+|===
+| 以檢視 | 篩選值 
+
+
+ a| 
+*受保護的儲存VM*
+ a| 
+*保護角色*是*保護*
+
+
+
+ a| 
+*未受保護的儲存VM*
+ a| 
+*保護角色*不受保護*
+
+|===
++
+[NOTE]
+====
+您無法同時檢視受保護和未受保護的儲存VM。您必須清除現有的篩選條件、才能重新套用新的篩選選項。
+
+====
+. 按一下「*套用篩選條件*」。
++
+「未儲存」檢視會根據您的篩選器選擇、顯示受儲存VM災難恢復保護或未受保護的所有儲存VM。
+
+

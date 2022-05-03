@@ -1,0 +1,78 @@
+---
+permalink: config/task_enable_and_disable_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
+summary: 從Unified Manager 9.7開始、您可以在ONTAP 您的VMware叢集上配置儲存工作負載（Volume和LUN）、並根據指派的效能服務層級來管理這些工作負載。這項功能類似ONTAP 於在《S21系統管理程式》中建立工作負載、並附加QoS原則、但當您使用Unified Manager套用時、您可以在Unified Manager執行個體所監控的所有叢集上配置及管理工作負載。 
+---
+= 啟用及停用原則型儲存管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從Unified Manager 9.7開始、您可以在ONTAP 您的VMware叢集上配置儲存工作負載（Volume和LUN）、並根據指派的效能服務層級來管理這些工作負載。這項功能類似ONTAP 於在《S21系統管理程式》中建立工作負載、並附加QoS原則、但當您使用Unified Manager套用時、您可以在Unified Manager執行個體所監控的所有叢集上配置及管理工作負載。
+
+您必須具有應用程式管理員角色。
+
+此選項預設為啟用、但如果您不想使用Unified Manager來配置及管理工作負載、則可以停用此選項。
+
+啟用時、此選項會在使用者介面中提供許多新項目：
+
+[cols="2*"]
+|===
+| 新內容 | 位置 
+
+
+ a| 
+提供新工作負載的頁面
+ a| 
+可從*一般工作*>*資源配置*取得
+
+
+
+ a| 
+建立效能服務層級原則的頁面
+ a| 
+可從*設定*>*原則*>*效能服務層級*取得
+
+
+
+ a| 
+建立效能儲存效率原則的頁面
+ a| 
+可從*設定*>*原則*>*儲存效率*取得
+
+
+
+ a| 
+說明您目前工作負載效能與工作負載IOPS的面板
+ a| 
+可從儀表板取得
+
+|===
+請參閱產品的線上說明、以取得這些頁面及此功能的詳細資訊。
+
+.步驟
+. 在左側導覽窗格中、按一下*一般*>*功能設定*。
+. 在「*功能設定*」頁面中、選擇下列其中一個選項來停用或啟用原則型儲存管理：
++
+[cols="2*"]
+|===
+| 如果您想要... | 然後執行此動作... 
+
+
+ a| 
+停用原則型儲存管理
+ a| 
+在「*原則型儲存管理*」面板中、將滑桿按鈕移到左邊。
+
+
+
+ a| 
+啟用原則型儲存管理
+ a| 
+在「*原則型儲存管理*」面板中、將滑桿按鈕向右移動。
+
+|===
+

@@ -1,0 +1,52 @@
+---
+permalink: reporting/task_search_for_scheduled_report.html 
+sidebar: sidebar 
+keywords: search, schedule, report 
+summary: 您可以依名稱、檢視名稱、物件類型或收件者來搜尋排程的報告。 
+---
+= 正在搜尋排程報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以依名稱、檢視名稱、物件類型或收件者來搜尋排程的報告。
+
+. 在左導覽窗格中、按一下*儲存管理*>*報告排程*。
+. 使用*搜尋排程報告*文字欄位。
++
+[cols="2*"]
+|===
+| 若要尋找報告... | 試用... 
+
+
+ a| 
+排程名稱
+ a| 
+輸入部分報告排程名稱。
+
+
+
+ a| 
+檢視名稱
+ a| 
+輸入部分報告檢視名稱。預設檢視和自訂檢視會出現在檢視清單中。
+
+
+
+ a| 
+收件者
+ a| 
+輸入電子郵件地址的一部分。
+
+
+
+ a| 
+檔案類型
+ a| 
+輸入「PDF」、「CSV」或「XLSX」。
+
+|===
+. 您可以按一下欄標題、依該欄以遞增或遞減順序排序報告、例如排程名稱或格式。
+

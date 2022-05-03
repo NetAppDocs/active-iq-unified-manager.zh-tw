@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_report_access_points.html 
+sidebar: sidebar 
+keywords: access, points, generating, reports 
+summary: 您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。 
+---
+= 用於產生報告的存取點
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。
+
+本指南涵蓋透過UI進行Unified Manager報告與排程。
+
+有三種方法可以存取Unified Manager提供的報告功能：
+
+* 直接從UI中的庫存頁面擷取資料。
+* 使用開放式資料庫連線（Open Database Connectivity、ODBC/ODBC-）工具來存取所有可用的物件。
+* 執行Unified Manager REST API以傳回您要檢閱的資訊。
+
+
+本指南涵蓋透過UI進行Unified Manager報告與排程。

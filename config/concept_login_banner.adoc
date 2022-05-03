@@ -1,0 +1,16 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: 此功能可讓貴組織顯示任何資訊、例如允許存取系統的人員、以及登入和登出期間的使用條款與條件。 
+---
+= 新增登入橫幅
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+新增登入橫幅可讓貴組織顯示任何資訊、例如允許存取系統的人員、以及登入和登出期間的使用條款與條件。
+
+任何使用者（例如儲存設備操作員或系統管理員）都可以在登入、登出及工作階段逾時期間檢視此登入橫幅快顯視窗。

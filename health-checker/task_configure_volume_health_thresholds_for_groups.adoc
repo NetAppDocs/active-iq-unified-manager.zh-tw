@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_configure_volume_health_thresholds_for_groups.html 
+sidebar: sidebar 
+keywords: configure, volume, health, thresholds, groups 
+summary: 您可以設定容量、Snapshot複本、qtree配額、成長和inode的群組層級Volume健全狀況臨界值。 
+---
+= 設定群組的Volume健全狀況臨界值
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以設定容量、Snapshot複本、qtree配額、成長和inode的群組層級Volume健全狀況臨界值。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+群組動作的Volume健全狀況臨界值類型僅會套用至群組的磁碟區。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*群組*。
+. 在「*群組動作*」索引標籤中、按一下「*新增*」。
+. 輸入群組動作的名稱和說明。
+. 從*群組*下拉式方塊中、選取您要設定群組動作的群組。
+. 選取*動作類型*作為磁碟區健全狀況臨界值。
+. 選取您要設定臨界值的類別。
+. 輸入健全狀況臨界值的必要值。
+. 按一下「 * 新增 * 」。
+

@@ -1,0 +1,57 @@
+---
+permalink: api-automation/concept_api_logs.html 
+sidebar: sidebar 
+keywords: logs, troubleshooting 
+summary: 系統記錄可讓您分析失敗的原因、並疑難排解執行API時可能發生的問題。 
+---
+= 疑難排解記錄
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+系統記錄可讓您分析失敗的原因、並疑難排解執行API時可能發生的問題。
+
+從下列位置擷取記錄、以疑難排解與API呼叫相關的問題。
+
+[cols="2*"]
+|===
+| 記錄位置 | 使用 
+
+
+ a| 
+/var/log/osci/access_log.log
+ a| 
+包含所有API呼叫詳細資料、例如叫用API的使用者名稱、開始時間、執行時間、狀態和URL。
+
+您可以使用此記錄檔來檢查常用的API、或疑難排解任何GUI工作流程。您也可以根據執行時間、使用它來擴充分析。
+
+
+
+ a| 
+/var/log/ocum/ocumserver.log
+ a| 
+包含所有API執行記錄。
+
+您可以使用此記錄檔來疑難排解及偵錯API呼叫。
+
+
+
+ a| 
+/var/log/osci/server.log
+ a| 
+包含所有Wildfly伺服器部署及啟動/停止服務相關記錄。
+
+您可以使用此記錄檔來找出開始、停止或部署Wildfly伺服器期間發生任何問題的根本原因。
+
+
+
+ a| 
+/var/log/osci/au.log
+ a| 
+包含擷取單位相關記錄。
+
+您可以在建立、修改或刪除ONTAP 任何物件時、使用此記錄檔、但Active IQ Unified Manager 這些物件不會反映在整個過程中。
+
+|===

@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html 
+sidebar: sidebar 
+keywords: create, report, view, failed, successful, volume, transfer 
+summary: 您可以建立報告、顯示Volume Transfers的狀態。您可以在此報告中檢視失敗和成功的Volume傳輸。 
+---
+= 建立報告以檢視失敗或成功的Volume傳輸
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、顯示Volume Transfers的狀態。您可以在此報告中檢視失敗和成功的Volume傳輸。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟建立自訂檢視、以顯示哪些傳輸失敗、哪些傳輸成功、然後為該檢視排程要產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「View（檢視）」功能表中、選取「* Relationationationationationationation*>*上個月轉帳狀態*」。
+. 選取*顯示/隱藏*以移除報告中不想要的任何欄。
+. 拖曳「Operation result」（操作結果）欄、靠近「state」（狀態）欄。
+. 按一下「Opateration result」（輔助結果）欄頂端、依狀態排序磁碟區。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Volume by transfer Status」。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可以調查傳輸狀態。

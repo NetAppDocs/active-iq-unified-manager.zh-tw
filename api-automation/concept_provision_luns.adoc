@@ -1,0 +1,298 @@
+---
+permalink: api-automation/concept_provision_luns.html 
+sidebar: sidebar 
+keywords: provision, luns 
+summary: 您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVM）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。 
+---
+= 資源配置LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVM）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。
+
+下圖說明LUN資源配置工作流程的步驟。
+
+image::../media/create_luns.gif[建立LUN]
+
+[NOTE]
+====
+此工作流程假設ONTAP 已將整個叢集新增至Unified Manager、而且已取得叢集金鑰。工作流程也假設叢集上已建立SVM。
+
+====
+. 如「驗證叢集上的SVM」工作流程主題所述、取得您要在其中建立LUN的SVM金鑰。
+. 執行下列API並從回應擷取金鑰、以取得Performance Service層級的金鑰。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+「/儲存設備供應商/效能服務層級」
+
+|===
++
+[NOTE]
+====
+您可以將「system_defined」輸入參數設定為「true」、以擷取系統定義的Performance Service層級詳細資料。從輸出中、取得要套用至LUN的Performance Service層級關鍵。
+
+====
+. 您也可以執行下列API並從回應擷取金鑰、以取得您要套用至LUN之儲存效率原則的儲存效率原則金鑰。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+「/儲存供應商/儲存效率原則」
+
+|===
+. 判斷是否已建立啟動器群組（igroup）、以授予您要建立之LUN目標的存取權。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+資料中心/傳輸協定/ SAN / igroup」、「/資料中心/傳輸協定/ SAN / igroups/\｛key｝」
+
+|===
++
+您必須輸入參數值、以指出igroup有權存取的SVM。此外、如果您要查詢特定的igroup、請輸入igroup名稱（金鑰）作為輸入參數。
+
+. 在輸出中、如果您可以找到要授予存取權的igroup、請取得金鑰。否則請建立igroup。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+貼文
+ a| 
+資料中心/傳輸協定/ SAN / igroup
+
+|===
++
+您必須輸入要建立的igroup詳細資料、做為輸入參數。這是同步呼叫、您可以在輸出中驗證igroup建立。發生錯誤時、會顯示一則訊息、供您疑難排解並重新執行API。
+
+. 建立LUN。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+/'儲存設備供應商/LUN'
+
+|===
++
+若要建立LUN、請確定您已將擷取的值新增為必要的輸入參數。
+
++
+[NOTE]
+====
+儲存效率原則是建立LUN的選用參數。
+
+====
++
+*範例Curl*
+
++
+您必須輸入要建立之LUN的所有詳細資料、做為輸入參數。
+
++
+袋熊：擷取#1
+
++
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所建立的LUN。
+
+. 使用查詢工作時傳回的工作物件金鑰來驗證LUN建立：
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/`management server / jobs/\{key}」
+
+|===
++
+回應結束時、您會看到所建立LUN的金鑰。
+
++
+袋熊：擷取# 2
+
+. 使用傳回的金鑰執行下列API、以驗證LUN的建立：
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===
++
+* JSON*輸出範例*
+
++
+您可以看到、「/Storage-provider /LUNs」的POST方法會在內部啟動每個功能所需的所有API、並建立物件。例如、它會叫用「/storage供應商/效能服務層級/」API來指派LUN上的效能服務層級。
+
++
+袋熊：擷取# 3
+
+
+
+
+
+== LUN建立或對應失敗的疑難排解步驟
+
+完成此工作流程後、您可能仍會看到LUN建立失敗。即使成功建立LUN、由於無法在您建立LUN的節點上使用SAN LIF或存取端點、因此使用igroup的LUN對應也可能失敗。如果發生故障、您會看到下列訊息：
+
+[listing]
+----
+The nodes <node_name> and <partner_node_name> have no LIFs configured with the iSCSI or FCP protocol for Vserver <server_name>. Use the access-endpoints API to create a LIF for the LUN.
+----
+請依照下列疑難排解步驟來解決此問題。
+
+. 在您嘗試建立LUN的SVM上、建立支援iSCSI/FCP傳輸協定的存取端點。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+「/儲存設備供應商/存取端點」
+
+|===
++
+*範例Curl*
+
++
+您必須輸入要建立的存取端點詳細資料、做為輸入參數。
+
++
+[NOTE]
+====
+請確定在輸入參數中新增位址、以指出LUN的主節點和ha_address、以指出主節點的合作夥伴節點。當您執行此作業時、它會在主節點和合作夥伴節點上建立存取端點。
+
+====
++
+袋熊：擷取4號
+
+. 使用Json輸出中傳回的工作物件金鑰查詢工作、以確認其已成功執行、可在SVM上新增存取端點、且已在SVM上啟用iSCSI/FCP服務。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/`management server / jobs/\{key}」
+
+|===
++
+* JSON*輸出範例*
+
++
+在輸出結束時、您可以看到所建立的存取端點金鑰。在下列輸出中、「name」：「accessEndpointKey」值表示在LUN主節點上建立的存取端點、金鑰為9c964258-14ef-11ea-952-00a098e32c28。「name」：「accessEndpointHAKey」值表示在主節點的合作夥伴節點上建立的存取端點、其金鑰為9d347006-14ef-11ea-8760-00a098e3215f。
+
++
+袋熊：擷取# 5
+
+. 修改LUN以更新igroup對應。如需工作流程修改的詳細資訊、請參閱「如何調整儲存工作負載」。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+/`/store-provider /LUN/\{key}
+
+|===
++
+在輸入中、指定要用來更新LUN對應的igroup金鑰、以及LUN金鑰。
+
++
+*範例Curl*
+
++
+袋熊：擷取# 6
+
++
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證對應是否成功。
+
+. 使用LUN金鑰查詢以驗證LUN對應。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===
++
+* JSON*輸出範例*
+
++
+在輸出中、您可以看到LUN已成功對應至初始佈建的igroup（金鑰d19ec2fa-fec7-11e8-b23d-00a098e32c28）。
+
++
+袋熊：擷取# 7
+
+

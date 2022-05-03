@@ -1,0 +1,19 @@
+---
+permalink: reporting/task_sort_data.html 
+sidebar: sidebar 
+keywords: sort, data 
+summary: 若要排序結果、請按一下欄、然後指出遞增或遞減順序。排序資料會優先排序您需要的報告資訊。 
+---
+= 資料排序
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要排序結果、請按一下欄、然後指出遞增或遞減順序。排序資料會優先排序您需要的報告資訊。
+
+.步驟
+. 按一下欄頂端以排序結果、使最重要的資訊顯示在檢視頂端。
+. 命名未儲存的檢視以儲存變更。
+

@@ -1,0 +1,30 @@
+---
+permalink: install-vapp/task_download_unified_manager_ova_file.html 
+sidebar: sidebar 
+keywords: download, unified manager, installation, file 
+summary: 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Manager部署為虛擬應用裝置。 
+---
+= 下載Unified Manager安裝檔案
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從NetApp支援網站下載Unified Manager安裝檔案、將Unified Manager部署為虛擬應用裝置。
+
+*您需要的是什麼*
+
+您應該擁有NetApp支援網站的登入認證資料。
+
+安裝檔案為「OVA」檔案、內含在虛擬應用裝置中設定的Unified Manager軟體。
+
+.步驟
+. 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+
+. 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
+. 下載「OVA」檔案以供VMware vSphere安裝、並將其儲存至vSphere Client可存取的本機目錄或網路目錄。
+. 驗證Checksum、確保軟體下載正確。
+

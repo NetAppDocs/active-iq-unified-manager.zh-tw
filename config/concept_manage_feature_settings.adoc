@@ -1,0 +1,21 @@
+---
+permalink: config/concept_manage_feature_settings.html 
+sidebar: sidebar 
+keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
+summary: 「功能設定」頁面可讓您啟用及停用Active IQ Unified Manager 功能。這包括根據原則建立及管理儲存物件、啟用API閘道、上傳用於管理警示的指令碼、根據閒置時間逾時網路UI工作階段、以及停用Active IQ 接收到的功能。 
+---
+= 管理功能設定
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「功能設定」頁面可讓您啟用及停用Active IQ Unified Manager 功能。這包括根據原則建立及管理儲存物件、啟用API閘道和登入橫幅、上傳用於管理警示的指令碼、根據閒置時間逾時網路UI工作階段、以及停用接收Active IQ 到的更新平台事件。
+
+[NOTE]
+====
+「功能設定」頁面僅適用於具有應用程式管理員角色的使用者。
+
+====
+如需指令碼上傳的相關資訊、請參閱 link:task_enable_and_disable_ability_to_upload_scripts.html["啟用及停用指令碼上傳"]。

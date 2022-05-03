@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/task_rediscover_clusters.html 
+sidebar: sidebar 
+keywords: rediscover clusters, 
+summary: 您可以從「叢集設定」頁面手動重新探索叢集、以取得有關叢集健全狀況、監控狀態和效能狀態的最新資訊。 
+---
+= 重新探索叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從「叢集設定」頁面手動重新探索叢集、以取得有關叢集健全狀況、監控狀態和效能狀態的最新資訊。
+
+您可以在想要更新叢集時手動重新探索叢集、例如在空間不足時增加集合體的大小、而且想要Unified Manager探索所做的變更。
+
+當Unified Manager與OnCommand Workflow Automation NetApp（WFA）配對時、配對會觸發重新取得WFA快取的資料。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。
+. 在*叢集設定*頁面上、按一下*重新探索*。
++
+Unified Manager會重新探索選取的叢集、並顯示最新的健全狀況和效能狀態。
+
+
+
+*相關資訊*
+
+link:../health-checker/task_view_cluster_list_and_details.html["檢視叢集清單和詳細資料"]

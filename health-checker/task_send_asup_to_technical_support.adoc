@@ -1,0 +1,20 @@
+---
+permalink: health-checker/task_send_asup_to_technical_support.html 
+sidebar: sidebar 
+keywords: support bundle, web ui, maintenance console 
+summary: 當您遇到的問題需要更詳細的診斷和疑難排解、而非AutoSupport 透過消息所提供的問題、您應該寄送支援服務包。您可以使用Unified Manager Web UI和維護主控台、將支援套件傳送給技術支援。 
+---
+= 透過Web UI和維護主控台傳送支援服務組合
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您遇到的問題需要更詳細的診斷和疑難排解、而非AutoSupport 透過消息所提供的問題、您應該寄送支援服務包。您可以使用Unified Manager Web UI和維護主控台、將支援套件傳送給技術支援。
+
+Unified Manager一次最多可儲存兩個完整支援套裝組合和三個輕量化支援套裝組合。
+
+*相關資訊*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Unified Manager使用者角色與功能"]

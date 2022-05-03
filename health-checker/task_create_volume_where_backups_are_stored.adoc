@@ -1,0 +1,52 @@
+---
+permalink: health-checker/task_create_volume_where_backups_are_stored.html 
+sidebar: sidebar 
+keywords: configure, snapshot, backup location 
+summary: 您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。 
+---
+= 設定Snapshot備份位置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。
+
+*您需要的是什麼*
+
+叢集、儲存VM和Volume必須符合下列需求：
+
+* 叢集需求：
++
+** 必須安裝不含更新版本的更新版本ONTAP
+** 它應位於統一化管理器伺服器附近的地理位置
+** Unified Manager可以監控、但不需要
+
+
+* 儲存VM需求：
++
+** 名稱交換器和名稱對應必須設定為使用「'files"
+** 為對應用戶端使用者所建立的本機使用者
+** 確定已選取「All Read/Write」（全部讀取/寫入）存取權
+** 請確定匯出原則中的超級使用者存取設為「any」
+** NFS for NetApp Snapshot for Linux
+** 必須在用戶端和儲存VM上指定的NFS伺服器和NFSv4 ID網域上啟用NFSv4
+** 磁碟區大小應至少為Unified Manager/op/NetApp/data目錄的兩倍
++
+使用命令Du -sh /opp/NetApp/data/檢查目前的大小。
+
+
+
+* Volume需求：
++
+** 磁碟區大小應至少為Unified Manager /opp/NetApp/data目錄的兩倍
+** 安全樣式必須設定為UNIX
+** 必須停用本機快照原則
+** 應啟用Volume自動調整大小
+** 效能服務層級應設定為高IOPS且低延遲的原則、例如「Extreme」
+
+
+
+
+如需建立NFS Volume的詳細步驟、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["如何在ONTAP S19中設定NFSv4"] 和 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["《S9 NFS組態快速指南》ONTAP"]。

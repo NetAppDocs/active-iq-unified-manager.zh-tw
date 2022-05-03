@@ -1,0 +1,74 @@
+---
+permalink: data-protection/view-protection-status.html 
+sidebar: sidebar 
+keywords: view, volume, protection status, dashboard protection card, protection panel, protection widget 
+summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區之資料保護詳細資料的整體檢視。 
+---
+= 檢視Volume保護狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「資料保護」頁面提供單一叢集中所有受保護磁碟區、或資料中心內所有叢集之資料保護詳細資料的整體檢視。
+
+按一下儀表板上「資料保護」面板頂端的向右箭頭、即可檢視這些詳細資料。此畫面有兩個區段。當您選取儀表板上的所有叢集時、「*所有叢集*」區段會顯示資料中心層級上所有叢集的保護狀態、並受SnapMirror關係和Snapshot複本保護。您可以在「*個別叢集*」區段中選取特定的叢集、以檢視該叢集中受保護磁碟區的狀態。
+
+如果您在儀表板上選取單一叢集、此頁面會顯示該叢集上受保護磁碟區的詳細資料。
+
+您可以將滑鼠游標停在每個橫條圖上、以檢視各個計數。按一下橫條圖、即可前往「Volumes（磁碟區）」畫面、並選取各個磁碟區。按一下每個事件的連結、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。
+
+.步驟
+. 在左側導覽窗格中、按一下*儀表板*。
+. 視您要檢視所有受監控叢集或單一叢集的資料保護狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。
+. 按一下「Data Protection（資料保護）」面板中的向右箭頭。
+
+
+
+
+== 資料保護頁面
+
+「資料保護」頁面會顯示所有叢集受保護磁碟區的下列面板。
+
+
+NOTE: 對於Snapshot複本的Volume數、會同時考慮來源和目的地磁碟區。對於SnapMirror關係、可讀寫的來源磁碟區會被計算在內。不考慮目的地和根磁碟區。SnapMirror數包括在相同或不同叢集上具有來源和目的地的磁碟區數。
+
+* * Snapshot Overview *：Snapshot複本保護的磁碟區總覽、例如：
++
+** 受Snapshot複本保護且未受保護的磁碟區總數。
++
+
+NOTE: 若將磁碟區視為受保護、則應啟用磁碟區Snapshot複本的排程。
+
+** 使用或超過Snapshot複本保留空間的磁碟區總數。此值對於檢視使用的磁碟空間量或計算刪除一或多個Snapshot複本時可回收的空間非常重要。
+
+
+* * SnapMirror Overview *：SnapMirror原則保護的磁碟區總覽、例如：
++
+** 受個別SnapMirror原則保護的磁碟區數目、例如Volume SnapMirror關係、儲存VM災難恢復（SVM災難恢復）及其組合。
+** SnapMirror關係發生延遲的磁碟區總數。如果某個磁碟區有多個SnapMirror關係、則會選擇最差的延遲。
+
+
+
+
+個別叢集清單會顯示特定叢集的SnapMirror關係和Snapshot保護狀態。
+
+* * Snapshot複本分析*詳細說明下列資訊：
++
+** Snapshot複本的個別事件、包括過去24小時所引發的事件。
+** 受Snapshot複本保護且未受保護的磁碟區詳細圖表。
+** 使用、不使用及違反保留Snapshot複本容量的磁碟區。您可以使用此資訊來計算已使用或可在刪除一或多個Snapshot複本時回收的空間。
+** 磁碟區的分區會根據Snapshot複本的數量來計算。傳回的Snapshot複本數量僅適用於線上且可用的磁碟區。
+
+
+* * SnapMirror Analysis*詳細說明下列資訊：
++
+** 針對SnapMirror關係所引發的個別事件、包括過去24小時所引發的事件
+** 受每個SnapMirror原則保護的磁碟區數目、例如Volume SnapMirror關係、儲存VM災難恢復（SVM-DR）及其組合。
+** 受SnapMirror關係類型保護的磁碟區數目、例如非同步鏡射、非同步資料庫、非同步MirrorVault、StrictSync、SnapMirror營運持續性（SMBC）一致性群組和同步。
+** 具有健全或不健全關係狀態的磁碟區數。只有當磁碟區的所有SnapMirror關係都很健全時、才會將其視為健全的磁碟區。
+** 根據磁碟區的恢復點目標（RPO）延遲時間、將磁碟區數分為多個部分。
+
+
+

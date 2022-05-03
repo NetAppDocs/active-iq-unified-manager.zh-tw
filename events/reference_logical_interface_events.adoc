@@ -1,0 +1,157 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+summary: 網路介面事件提供網路介面（LIF）狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= 網路介面（LIF）事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+網路介面事件提供網路介面（LIF）狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+
+
+== 影響領域：可用度
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+網路介面狀態關閉（ocumEvtLifusDown）
+ a| 
+風險
+ a| 
+介面
+ a| 
+錯誤
+
+
+
+ a| 
+FC/FCoE網路介面狀態關閉（ocumEvtFCLifStatusDown）
+ a| 
+風險
+ a| 
+介面
+ a| 
+錯誤
+
+
+
+ a| 
+無法進行網路介面容錯移轉（ocumEvtLiferoverNotPossible）
+ a| 
+風險
+ a| 
+介面
+ a| 
+警告
+
+
+
+ a| 
+網路介面不在主連接埠（ocumEvtLifNotAtHomePort）
+ a| 
+風險
+ a| 
+介面
+ a| 
+警告
+
+|===
+
+
+== 影響領域：組態
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+未設定網路介面路由（不適用）
+ a| 
+活動
+ a| 
+介面
+ a| 
+資訊
+
+|===
+
+
+== 影響領域：效能
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+網路介面MB/s重大臨界值外洩（ocumNetwork LifMbps突 發事件）
+ a| 
+事件
+ a| 
+介面
+ a| 
+關鍵
+
+
+
+ a| 
+網路介面MB/s違反警告臨界值（ocumNetwork生命週期警告）
+ a| 
+風險
+ a| 
+介面
+ a| 
+警告
+
+
+
+ a| 
+違反FC網路介面MB/s臨界值（ocumFcpLFFMbps突 發事件）
+ a| 
+事件
+ a| 
+介面
+ a| 
+關鍵
+
+
+
+ a| 
+違反FC網路介面MB/s警告臨界值（ocumFcpLFFMbpsWarnings）
+ a| 
+風險
+ a| 
+介面
+ a| 
+警告
+
+
+
+ a| 
+已違反NVMf FC網路介面MB/s重大臨界值（ocumNvmfFCLFFMbps突 發事件）
+ a| 
+事件
+ a| 
+介面
+ a| 
+關鍵
+
+
+
+ a| 
+已違反NVMf FC網路介面MB/s警告臨界值（ocumNvmfFCLFFMbpsWarnings）
+ a| 
+風險
+ a| 
+介面
+ a| 
+警告
+
+|===

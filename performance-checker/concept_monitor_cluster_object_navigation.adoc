@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_object_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, object, navigation 
+summary: 您可以監控Unified Manager所管理之任何叢集中所有物件的效能。監控儲存物件可提供叢集與物件效能的總覽、包括效能事件監控。您可以在高層級檢視效能和事件、也可以進一步調查任何物件效能和效能事件的詳細資料。 
+---
+= 監控叢集物件導覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以監控Unified Manager所管理之任何叢集中所有物件的效能。監控儲存物件可提供叢集與物件效能的總覽、包括效能事件監控。您可以在高層級檢視效能和事件、也可以進一步調查任何物件效能和效能事件的詳細資料。
+
+以下是許多可能的叢集物件導覽範例之一：
+
+. 在儀表板頁面中、檢閱效能容量面板中的詳細資料、以識別使用最大效能容量的叢集、然後按一下長條圖、瀏覽至該叢集的節點清單。
+. 識別具有最高效能容量使用值的節點、然後按一下該節點。
+. 在「節點/效能總管」頁面中、按一下「檢視與比較」功能表中的「此節點*上的*集合體」。
+. 識別使用最大效能容量的集合體、然後按一下該集合體。
+. 在Aggregate / Performance Explorer頁面中、按一下「檢視與比較」功能表中的「*此Aggregate上的磁碟區*」。
+. 識別使用最多IOPS的磁碟區。
+
+
+您應該調查這些磁碟區、看看是否應該套用QoS原則或效能服務層級原則、或是變更原則設定、以便這些磁碟區不會在叢集上使用如此大的IOPS百分比。
+
+image::../media/monitor_cluster_object.png[監控叢集物件]

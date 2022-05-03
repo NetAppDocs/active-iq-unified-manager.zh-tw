@@ -1,0 +1,40 @@
+---
+permalink: data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html 
+sidebar: sidebar 
+keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
+summary: 您可以從來源磁碟區建立扇出、或從現有關係的目的地磁碟區建立串聯、藉此延伸現有關係的保護範圍。當您需要將資料從一個站台複製到多個站台、或是建立更多備份來提供額外的保護時、可以這麼做。 
+---
+= 建立串聯或展開關係、將保護範圍延伸到現有的保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從來源磁碟區建立扇出、或從現有關係的目的地磁碟區建立串聯、藉此延伸現有關係的保護範圍。當您需要將資料從一個站台複製到多個站台、或是建立更多備份來提供額外的保護時、可以這麼做。
+
+您可以使用一致性群組將保護延伸到磁碟區、一致性群組是一個容器、可容納多個磁碟區、以便將所有磁碟區當作一個實體來管理。您可以在Unified Manager的「關係」頁面中檢視SnapMirror業務持續性（SMBC）一致性群組、以及同步一致性群組關係。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須設定Workflow Automation。
+
+
+.步驟
+. 按一下「*保護*>*關係*」。或者、您也可以從Volume詳細資料頁面檢視關係。
+. 從「* Volume Relationationation*」頁面中、選取您要延伸保護的SnapMirror關係。
+. 按一下動作列上的*延伸保護*。
+. 在功能表中、根據您是從來源建立扇出關係、還是從目的地建立串聯關係、選取*來源*或*來源目的地*。
+. 根據SnapVault 您所建立的保護關係類型、選擇*搭配SnapMirror*或*搭配參考*。
++
+此時會顯示「*組態保護*」對話方塊。
+
++
+[NOTE]
+====
+您可以從「統一化關係/ Volume關係」和「Volume / Health」詳細資料頁面來達成此目標。
+
+====
+. 填寫*組態保護*對話方塊中所述的資訊。
+

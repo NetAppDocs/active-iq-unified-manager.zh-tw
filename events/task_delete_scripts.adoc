@@ -1,0 +1,26 @@
+---
+permalink: events/task_delete_scripts.html 
+sidebar: sidebar 
+keywords: delete, scripts 
+summary: 當指令碼不再需要或有效時、您可以從Unified Manager刪除指令碼。 
+---
+= 刪除指令碼
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當指令碼不再需要或有效時、您可以從Unified Manager刪除指令碼。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 指令碼不得與警示相關聯。
+
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*指令碼*。
+. 在「*指令碼*」頁面中、選取您要刪除的指令碼、然後按一下「*刪除*」。
+. 在*警告*對話方塊中、按一下*是*確認刪除。
+

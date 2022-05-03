@@ -1,0 +1,18 @@
+---
+permalink: events/concept_how_active_iq_platform_events_are_generated.html 
+sidebar: sidebar 
+keywords: active IQ, platform, events, generated 
+summary: 下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ 
+---
+= 如何產生平台事件Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ
+
+image::../media/aiq_and_um_event_generation.png[產生aiq和um事件]
+
+如您所見、在Active IQ 這個平台上編譯的規則檔會保持最新狀態、AutoSupport 每天產生叢集式的消息、而Unified Manager則會每日更新事件清單。

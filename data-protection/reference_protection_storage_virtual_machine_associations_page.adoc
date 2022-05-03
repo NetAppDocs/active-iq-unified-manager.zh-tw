@@ -1,0 +1,58 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, peers, page 
+summary: 「SVM對等端點」頁面可讓您檢視來源與目的地儲存VM之間現有的儲存VM對等端點、並建立新的儲存VM供合作夥伴應用程式使用、以建立SnapMirror與SnapVault SnapMirror關係。 
+---
+= SVM對等網頁
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「SVM對等端點」頁面可讓您檢視來源與目的地儲存VM之間現有的儲存VM對等端點、並建立新的儲存VM供合作夥伴應用程式使用、以建立SnapMirror與SnapVault SnapMirror關係。
+
+
+
+== 命令按鈕
+
+命令按鈕可讓您執行下列工作：
+
+* *建立*
++
+開啟「Create Storage Virtual Machine對等端點」頁面。
+
+* *刪除*
++
+可讓您刪除所選的儲存VM對等端點。
+
+
+
+
+
+== 儲存VM對等端點清單
+
+SVM對等清單會在表格中顯示已建立的來源與目的地儲存VM關聯、以及每個關聯所允許的保護關係類型。
+
+* *來源儲存虛擬機器*
++
+顯示來源SVM的名稱。
+
+* *來源叢集*
++
+顯示來源叢集的名稱。
+
+* *目的地儲存虛擬機器*
++
+顯示目的地SVM的名稱。
+
+* *目的地叢集*
++
+顯示目的地叢集的名稱。
+
+* *類型*
++
+顯示保護關係的類型。關係類型為SnapMirror或SnapVault 是SnapMirror。
+
+

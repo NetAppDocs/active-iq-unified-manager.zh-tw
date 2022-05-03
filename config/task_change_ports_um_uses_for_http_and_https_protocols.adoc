@@ -1,0 +1,44 @@
+---
+permalink: config/task_change_ports_um_uses_for_http_and_https_protocols.html 
+sidebar: sidebar 
+keywords: change, ports, unified manager, uses, http, https, protocols 
+summary: Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝後視安全性需求加以變更。HTTP預設連接埠為80、HTTPS預設連接埠為443。 
+---
+= 變更Unified Manager用於HTTP和HTTPS傳輸協定的連接埠
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝後視安全性需求加以變更。HTTP預設連接埠為80、HTTPS預設連接埠為443。
+
+*您需要的是什麼*
+
+您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
+
+[NOTE]
+====
+有些連接埠在使用Mozilla Firefox或Google Chrome瀏覽器時被視為不安全。在為HTTP和HTTPS流量指派新的連接埠號碼之前、請先查看瀏覽器。選取不安全的連接埠可能會使系統無法存取、因此您必須聯絡客戶支援部門以取得解決方案。
+
+====
+變更連接埠後、Unified Manager執行個體會自動重新啟動、因此請務必在短時間內讓系統停機。
+
+. 以SSH作為維護使用者登入Unified Manager主機。
++
+此時會顯示Unified Manager維護主控台提示。
+
+. 輸入標有*檢視/變更應用程式連接埠*的功能表選項編號、然後按Enter。
+. 如果出現提示、請再次輸入維護使用者密碼。
+. 輸入HTTP和HTTPS連接埠的新連接埠號碼、然後按Enter。
++
+將連接埠號碼保留空白、會指派該傳輸協定的預設連接埠。
+
++
+系統會提示您是否要變更連接埠、然後立即重新啟動Unified Manager。
+
+. 輸入* y*以變更連接埠、然後重新啟動Unified Manager。
+. 離開維護主控台。
+
+
+變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。

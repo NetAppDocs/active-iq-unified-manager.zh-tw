@@ -1,0 +1,16 @@
+---
+permalink: install-windows/concept_upgrade_third_party_products_on_windows_um.html 
+sidebar: sidebar 
+keywords: data center manager, third-party, products, upgrade 
+summary: 您可以在安裝於Windows系統的Unified Manager上升級協力廠商產品、例如JRE。 
+---
+= 升級協力廠商產品
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在安裝於Windows系統的Unified Manager上升級協力廠商產品、例如JRE。
+
+開發這些協力廠商產品的公司會定期報告安全性弱點。您可以依照自己的排程升級至此軟體的較新版本。

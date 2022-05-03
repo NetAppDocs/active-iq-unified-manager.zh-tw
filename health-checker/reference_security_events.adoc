@@ -1,0 +1,16 @@
+---
+permalink: health-checker/reference_security_events.html 
+sidebar: sidebar 
+keywords: security events 
+summary: 安全事件可根據ONTAP 《NetApp ONTAP 資訊安全強化指南》（英文）中定義的各項參數、提供有關VMware叢集、儲存虛擬機器（SVM）和磁碟區安全狀態的資訊。這些事件會通知您潛在的問題、以便您評估其嚴重性、並在必要時修正問題。 
+---
+= 安全事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+安全事件可根據ONTAP 《_ NetApp ONTAP 資訊安全強化指南》（英文）中定義的參數、提供有關VMware叢集、儲存虛擬機器（SVM）和磁碟區安全狀態的資訊。這些事件會通知您潛在的問題、以便您評估其嚴重性、並在必要時修正問題。
+
+安全性事件會依來源類型分組、包括事件和陷阱名稱、影響層級和嚴重性。這些事件會出現在叢集和儲存VM事件類別中。

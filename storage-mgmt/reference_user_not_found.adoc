@@ -1,0 +1,25 @@
+---
+permalink: storage-mgmt/reference_user_not_found.html 
+sidebar: sidebar 
+keywords: user, not, found 
+summary: 疑難排解：找不到使用者 
+---
+= 找不到使用者
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當您執行與驗證相關的作業（例如新增、編輯、刪除或測試遠端使用者或群組）時、會顯示下列錯誤訊息：「找不到使用者」
+
+*原因*
+
+如果使用者存在於AD伺服器或LDAP伺服器中、而且您已將基礎辨別名稱設定為不正確的值、就可能發生此問題。
+
+*修正行動*
+
+. 在左導覽窗格中、按一下*一般*>*遠端驗證*。
+. 輸入基礎辨別名稱的適當資訊。
+. 按一下「 * 儲存 * 」。
+

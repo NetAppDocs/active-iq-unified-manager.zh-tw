@@ -1,0 +1,42 @@
+---
+permalink: config/task_enable_and_disable_ability_to_upload_scripts.html 
+sidebar: sidebar 
+keywords: script upload, enable, disable 
+summary: 預設會啟用將指令碼上傳至Unified Manager並執行的功能。如果貴組織因為安全理由而不想允許此活動、您可以停用此功能。 
+---
+= 啟用及停用指令碼上傳
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+預設會啟用將指令碼上傳至Unified Manager並執行的功能。如果貴組織因為安全理由而不想允許此活動、您可以停用此功能。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色。
+
+.步驟
+. 在左側導覽窗格中、按一下*一般*>*功能設定*。
+. 在「*功能設定*」頁面中、選擇下列其中一個選項來停用或啟用指令碼：
++
+[cols="2*"]
+|===
+| 如果您想要... | 然後執行此動作... 
+
+
+ a| 
+停用指令碼
+ a| 
+在「*指令碼上傳*」面板中、將滑桿按鈕移到左邊。
+
+
+
+ a| 
+啟用指令碼
+ a| 
+在「*指令碼上傳*」面板中、將滑桿按鈕移到右側。
+
+|===
+

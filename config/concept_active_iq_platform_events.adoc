@@ -1,0 +1,20 @@
+---
+permalink: config/concept_active_iq_platform_events.html 
+sidebar: sidebar 
+keywords: feature settings, active iq, portal, events 
+summary: 您可以指定是否要啟用或停用Active IQ 入口網站的功能。此設定可讓Active IQ 入口網站探索及顯示有關系統組態、纜線等的其他事件。此選項預設為啟用。 
+---
+= 啟用Active IQ 入口網站活動
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以指定是否要啟用或停用Active IQ 入口網站的功能。此設定可讓Active IQ 入口網站探索及顯示有關系統組態、纜線等的其他事件。此選項預設為啟用。
+
+啟用此功能時Active IQ Unified Manager 、支援的功能會顯示Active IQ 由這個入口網站發現的事件。這些事件是透過針對AutoSupport 所有受監控儲存系統產生的各種資訊、執行一組規則來建立。這些事件與其他Unified Manager事件不同、可識別與系統組態、佈線、最佳實務做法和可用度相關的事件或風險。
+
+您可以從*一般*>*功能設定*>* Active IQ 《Portal事件*》中選擇啟動或停用此功能。在無法存取外部網路的站台中、您必須從* Storage Management *>* Event Setup *>*上傳規則*手動上傳規則。
+
+此功能預設為啟用。停用此功能可停止Active IQ 在Unified Manager上發現或顯示不實的事件。停用時、啟用此功能可讓Unified Manager在Active IQ 叢集時區的預先定義時間00：15接收叢集上的各種事件。

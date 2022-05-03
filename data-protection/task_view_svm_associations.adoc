@@ -1,0 +1,25 @@
+---
+permalink: data-protection/task_view_svm_associations.html 
+sidebar: sidebar 
+keywords: view, storage, vm peers 
+summary: 您可以使用「儲存VM對等端點」頁面來檢視現有的儲存VM對等端點及其內容、並判斷是否需要其他儲存VM。 
+---
+= 檢視儲存VM對等端點
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「儲存VM對等端點」頁面來檢視現有的儲存VM對等端點及其內容、並判斷是否需要其他儲存VM。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+.步驟
+. 在左導覽窗格中、按一下* Protection（保護）*** Storage VM對等端點*。
++
+隨即顯示儲存VM對等端點及其內容清單。
+
+

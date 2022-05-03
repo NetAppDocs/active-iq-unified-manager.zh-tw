@@ -1,0 +1,404 @@
+---
+permalink: events/reference_node_events.html 
+sidebar: sidebar 
+keywords: node, events, impact area, availability, capacity, configuration, performance, security 
+summary: 節點事件可提供節點狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= 節點事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+節點事件可提供節點狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+星號（*）表示已轉換為Unified Manager事件的EMS事件。
+
+
+
+== 影響領域：可用度
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+節點根磁碟區空間幾乎已滿（ocumEvtClusterNodeRootVolume NearlyFull）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+Cloud AWS MetaDataConnFail *（ocumCloudAwsMetadata ConnFail）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+Cloud AWS IAMCredsExpired *（ocumCloudAwsIamCredsExpired）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+Cloud AWS IAMCreds無效*（ocumCloudAwsIamCreds無效）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+Cloud AWS IAMCredsNotFound*（ocumCloudAwsIamCredsNotFound）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+Cloud AWS IAMCredsNotinitialized *（ocumCloudAwsIamCredsNotinitialized）
+ a| 
+活動
+ a| 
+節點
+ a| 
+資訊
+
+
+
+ a| 
+Cloud AWS IAM勞力 無效*（ocumCloudAwsIam勞力 無效）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+Cloud AWS IAMRoleNotFound*（ocumCloudAwsIam勞力 諾富特）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+雲端層主機無法解析*（ocumobjstoreHostUnresolvable）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+雲端層叢集間LIF停機*（ocumobjstoreInterClusterLifDown）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+NFSv4資源池之一耗盡*（nbladeNfsv4PoolExhausts）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+申請不符雲端層簽名*（oscSignatureM不符）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+|===
+
+
+== 影響領域：容量
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+QoS監控記憶體上限*（ocumQosMonitorMemoryMaxed）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
+
+
+
+ a| 
+QoS監控記憶體減量*（ocumQosMonitorMemory減量）
+ a| 
+活動
+ a| 
+節點
+ a| 
+資訊
+
+|===
+
+
+== 影響領域：組態
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+節點已重新命名（不適用）
+ a| 
+活動
+ a| 
+節點
+ a| 
+資訊
+
+|===
+
+
+== 影響領域：效能
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+節點IOPS臨界臨界值已違反（ocumNodeIopsIncident）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+節點IOPS警告臨界值已超出（ocumNodeIopsWarnings）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點MB/s重大臨界值已違反（ocumNodeMbps突 發事件）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+節點MB/s警告臨界值已超出（ocumNodeMbpsWarnings）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點延遲毫秒/作業臨界臨界值已違反（ocumNodeLatency事件）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+節點延遲毫秒/作業警告臨界值已超出（ocumNodeLatency警告）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點效能容量已使用臨界臨界值已突破（ocumNodePerf電容 已用事件）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+節點效能已用容量已超過警告臨界值（ocumNodePerf電容 已用警告）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+使用的節點效能容量-超過臨界臨界臨界值（ocumNodePerfCapacityUedTakeover意外）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+使用的節點效能容量-超過接管警告臨界值（ocumNodePerfCapacityUedTakeoverWarnings）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點使用率臨界臨界值已違反（ocumNodeUtilizationIncident）
+ a| 
+事件
+ a| 
+節點
+ a| 
+關鍵
+
+
+
+ a| 
+節點使用率警告臨界值已超出（ocumNodeUtilizationWarning[ ocumNodeUtilizationWarning]）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點HA配對過度使用臨界值外洩（ocumNodeHHAAirOverUtilizedInformation）
+ a| 
+活動
+ a| 
+節點
+ a| 
+資訊
+
+
+
+ a| 
+節點磁碟片段臨界值已超出（ocumNodeDiskFragmentationWarnings）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+已違反效能使用容量臨界值（ocumNodeOverUtilizedWarninged）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+
+
+ a| 
+節點動態臨界值超出（ocumNodeDynamicEventWarning）
+ a| 
+風險
+ a| 
+節點
+ a| 
+警告
+
+|===
+
+
+== 影響領域：安全性
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+摘要報告ID：ntap-<_Advisory ID__>（ocumx）
+ a| 
+風險
+ a| 
+節點
+ a| 
+關鍵
+
+|===

@@ -1,0 +1,139 @@
+---
+permalink: events/reference_snapmirror_relationship_events.html 
+sidebar: sidebar 
+keywords: snapmirror, relationship, events, impact area, protection 
+summary: SnapMirror關係事件可提供您有關非同步和同步SnapMirror關係狀態的資訊、以便您監控潛在問題。非同步SnapMirror關係事件會同時針對儲存VM和Volume產生、但同步SnapMirror關係事件只會針對磁碟區關係產生。對於屬於Storage VM災難恢復關係一部分的組成磁碟區、不會產生任何事件。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= SnapMirror關係事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapMirror關係事件可提供您有關非同步和同步SnapMirror關係狀態的資訊、以便您監控潛在問題。非同步SnapMirror關係事件會同時針對儲存VM和Volume產生、但同步SnapMirror關係事件只會針對磁碟區關係產生。對於屬於Storage VM災難恢復關係一部分的組成磁碟區、不會產生任何事件。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+
+
+== 影響領域：保護
+
+星號（*）表示已轉換為Unified Manager事件的EMS事件。
+
+[NOTE]
+====
+SnapMirror關係事件是針對受Storage VM災難恢復保護、但不針對任何組成物件關係的儲存VM所產生。
+
+====
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+鏡射複寫不良（ocumEvtSnapmirror關係不良）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+警告
+
+
+
+ a| 
+鏡射複寫中斷（ocumEvtSnapmirror關係StateBrokenoff）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+鏡射複寫初始化失敗（ocumEvtSnapmirror關係初始化失敗）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+鏡射複寫更新失敗（ocumEvtSnapmirror關係更新失敗）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+鏡射複寫延遲錯誤（ocumEvtSnapMirrorRelationshipLag錯誤）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+鏡射複寫延遲警告（ocumEvtSnapMirrorRelationshiplag警告）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+警告
+
+
+
+ a| 
+鏡射複寫重新同步失敗（ocumEvtSnapmirror關係重新同步失敗）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+同步複寫不同步*（syncSnapmir反光鏡 關係Outofsync）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+警告
+
+
+
+ a| 
+同步複寫已還原*（syncSnapmir反復 關係InSync）
+ a| 
+活動
+ a| 
+SnapMirror關係
+ a| 
+資訊
+
+
+
+ a| 
+同步複寫自動重新同步失敗*（syncSnapmirmiretorRelationshipAutoSyncRetryFailed）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+|===

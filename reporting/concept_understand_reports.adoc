@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_understand_reports.html 
+sidebar: sidebar 
+keywords: understanding, reports 
+summary: 報告會顯示有關儲存設備、網路、服務品質及保護關係的詳細資訊、協助您在潛在問題發生之前先加以識別及解決。 
+---
+= 瞭解報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+報告會顯示有關儲存設備、網路、服務品質及保護關係的詳細資訊、協助您在潛在問題發生之前先加以識別及解決。
+
+自訂檢視時、您可以使用獨特的名稱加以儲存、以供未來使用。您可以根據該檢視來排程報告、以便定期執行並與其他人共用。您也可以在Excel中下載視圖、使用進階Excel功能加以自訂、然後將該檔案上傳回Unified Manager。如果您使用該檢視來排程報告、它會使用您上傳的Excel檔案來建立可共用的健全報告。
+
+您可以從「報告排程」頁面管理所有已排程的報告。
+
+[NOTE]
+====
+您必須具有應用程式管理員或儲存管理員角色、才能管理報告。
+
+====
+您可以下載以逗號分隔值（CSV）、Excel或PDF檔案格式的報告。

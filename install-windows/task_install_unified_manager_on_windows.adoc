@@ -1,0 +1,85 @@
+---
+permalink: install-windows/task_install_unified_manager_on_windows.html 
+sidebar: sidebar 
+keywords: install, unified manager 
+summary: 您可以安裝Unified Manager來監控和疑難排解資料儲存容量、可用度、效能和保護問題。 
+---
+= 安裝Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以安裝Unified Manager來監控和疑難排解資料儲存容量、可用度、效能和保護問題。
+
+*您需要的是什麼*
+
+* 您打算安裝Unified Manager的系統應符合系統和軟體需求。
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]
+
++
+link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]
+
++
+[NOTE]
+====
+從Unified Manager 9.5開始、OpenJDK會隨附於安裝套件中、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。
+
+====
+* 您應該擁有Windows系統管理員權限。請確定您的使用者名稱開頭沒有驚嘆號「！」。如果執行安裝的使用者名稱開頭為「！」、Unified Manager安裝可能會失敗。
+* 您應該擁有支援的網頁瀏覽器。
+* Unified Manager維護使用者密碼應介於8到20個字元之間、且應包含大寫字母或大小寫字母、數字和特殊字元。
+* 對於維護使用者或MySQL root使用者、密碼字串中不允許使用下列特殊字元：「''%、=&<>|^\/（）[]；：
++
+允許使用下列特殊字元：~！@#$*-？。+｛｝
+
+
+
+.步驟
+. 使用預設的本機系統管理員帳戶登入Windows。
+. 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+
+. 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
+. 將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。
+. 瀏覽至安裝檔案所在的目錄。
+. 以系統管理員身分按一下滑鼠右鍵並執行Unified Manager安裝程式執行檔（.exe）。
++
+Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出這些套件。如果系統中未安裝所需的協力廠商套件、Unified Manager會在安裝過程中安裝這些套件。
+
+. 單擊 * 下一步 * 。
+. 輸入使用者名稱和密碼以建立維護使用者。
+. 在Database Connection（資料庫連線）精靈中、輸入MySQL根密碼。
+. 按一下「*變更*」以指定Unified Manager安裝目錄和MySQL資料目錄的新位置。
++
+如果您未變更安裝目錄、Unified Manager會安裝在預設安裝目錄中。
+
+. 單擊 * 下一步 * 。
+. 在Ready to Install Shield精靈中、按一下* Install*。
+. 安裝完成後、按一下*「Finish」（完成）*。
+
+
+安裝會建立多個目錄：
+
+* 安裝目錄
++
+這是您在安裝期間指定的Unified Manager根目錄。範例：「C:\Program Files\NetApp\」
+
+* MySQL資料目錄
++
+這是您在安裝期間指定的MySQL資料庫儲存目錄。範例：「C：\ProgramData\MySQL\MySQLServerData\」
+
+* Java目錄
++
+這是安裝OpenJDK的目錄。範例：「C:\Program Files\NetApp\JDK\」
+
+* Unified Manager應用程式資料目錄（appDataDir)
++
+這是儲存所有應用程式產生資料的目錄。這包括記錄、支援套裝組合、備份及所有其他額外資料。範例：「C：\ProgramData\NetApp\OnCommandAppData\」
+
+
+
+您可以存取Web UI來執行Unified Manager的初始設定、如所述 link:../config/concept_configure_unified_manager.html["《系統組態指南》Active IQ Unified Manager"]。

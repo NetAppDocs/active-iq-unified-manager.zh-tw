@@ -1,0 +1,26 @@
+---
+permalink: config/task_download_an_https_certificate_sign_request_ocf.html 
+sidebar: sidebar 
+keywords: download, https, certificate, signing, request 
+summary: 您可以下載目前HTTPS安全性憑證的認證簽署要求、以便將檔案提供給憑證授權單位進行簽署。CA簽署的憑證有助於預防攔截式攻擊、並提供比自我簽署憑證更好的安全保護。 
+---
+= 正在下載HTTPS憑證簽署要求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以下載目前HTTPS安全性憑證的認證簽署要求、以便將檔案提供給憑證授權單位進行簽署。CA簽署的憑證有助於預防攔截式攻擊、並提供比自我簽署憑證更好的安全保護。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色。
+
+.步驟
+. 在左導覽窗格中、按一下*一般*>* HTTPS憑證*。
+. 按一下*下載HTTPS憑證簽署要求*。
+. 儲存「.csr」檔案。
+
+
+您可以將檔案提供給「憑證授權單位」進行簽署、然後安裝簽署的憑證。

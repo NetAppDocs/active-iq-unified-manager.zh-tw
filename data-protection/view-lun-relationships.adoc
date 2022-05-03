@@ -1,0 +1,38 @@
+---
+permalink: data-protection/view-lun-relationships.html 
+sidebar: sidebar 
+keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
+summary: 統一檢視受SMBC保護的LUN。 
+---
+= 監控一致性群組關係中的LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果ONTAP 您的支援SnapMirror營運不中斷（SM-BC）以LUN保護應用程式、您可以在Active IQ Unified Manager 支援LUN的環境中檢視及監控這些LUN。
+
+在SAN環境中進行容錯移轉時、SM至BC可確保零恢復時間目標（RTO）。在支援SM至BC的典型部署中、磁碟區上的LUN受到一致性群組關係的保護。
+
+這些主要和次要LUN是複合LUN、或是具有相同UUID和序號的複本LUN配對。I/O作業（讀取和寫入）會在這些複合LUN上的來源和目的地站台上進行多重複工作、以確保透明度。
+
+若要檢視複合LUN、應在Unified Manager上新增及探索具有LUN的主要和次要叢集、這些LUN是一致性群組關係的一部分。僅支援iSCSI和FCP LUN。
+
+如需SMBC的相關資訊、請參閱 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["適用於SM - BC的9文件ONTAP"]。
+
+若要檢視環境中的複合LUN、請執行下列步驟：
+
+.步驟
+. 在左導覽窗格中、按一下* Storage *>* LUN*。
+. 從「檢視」功能表中、選取「*關係*」>「*所有LUN*」。
++
+隨即顯示Relationationationationation: All LUN（關係：所有LUN）視圖
+
+
+
+您可以檢視LUN詳細資料、例如LUN名稱、Volume、裝載LUN的儲存VM、叢集、一致性群組、以及合作夥伴LUN。您可以按一下這些元件、深入檢視詳細檢視。按一下「Consistency Group（一致性群組）」、即可前往「Relationships
+
+按一下合作夥伴LUN、即可在裝載合作夥伴LUN的儲存VM之「Storage VM Details」（儲存VM詳細資料）頁面的SAN索引標籤上、檢視其組態詳細資料。隨即顯示啟動器和啟動器群組等資訊、以及合作夥伴LUN的其他層面。
+
+您可以執行標準網格層級的功能、為環境中受保護的LUN排序、篩選、產生及上傳報告。

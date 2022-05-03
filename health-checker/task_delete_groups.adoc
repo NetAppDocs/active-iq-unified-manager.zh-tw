@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_delete_groups.html 
+sidebar: sidebar 
+keywords: delete, groups 
+summary: 您可以在不再需要群組時、從Unified Manager刪除群組。 
+---
+= 刪除群組
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在不再需要群組時、從Unified Manager刪除群組。
+
+*您需要的是什麼*
+
+* 任何儲存物件（叢集、SVM或磁碟區）都不得與任何與您要刪除的群組相關聯的群組規則相關聯。
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*群組*。
+. 在*群組*索引標籤中、選取您要刪除的群組、然後按一下*刪除*。
+. 在*警告*對話方塊中、按一下*是*確認刪除。
++
+刪除群組不會刪除與群組相關聯的群組動作。不過、這些群組動作會在群組刪除後取消對應。
+
+

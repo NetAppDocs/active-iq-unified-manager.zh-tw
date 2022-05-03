@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_edit_scheduled_reports.html 
+sidebar: sidebar 
+keywords: editing, schedule, reports 
+summary: 排程報告之後、您可以在「報告排程」頁面上編輯報告。 
+---
+= 編輯排程報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+排程報告之後、您可以在「報告排程」頁面上編輯報告。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*報告排程*。
++
+image::../media/scheduled_reports_2.gif[排程報告2.]
+
++
+[NOTE]
+====
+如果您擁有適當的權限、可以變更系統中的任何報告及其排程。
+
+====
+. 按一下「更多」圖示 image:../media/more_icon.gif[""] 針對您要變更的排程。
+. 按一下 * 編輯 * 。
+. 您可以變更報告排程的*排程名稱*、*收件者*清單、*頻率*和*格式*。
+. 完成後、按一下核取標記以儲存變更。
+

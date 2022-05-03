@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html 
+sidebar: sidebar 
+keywords: view, cluster security status, svm security status, volume encryption status 
+summary: 「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。 
+---
+= 檢視叢集和儲存VM的詳細安全狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。
+
+身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級查看您的各個叢集和儲存VM的安全性強度。
+
+根據定義的參數、您可以收集及分析資訊、以偵測受監控叢集和儲存VM上的可疑行為或任何未獲授權的系統變更。
+
+詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。
+
+「叢集/安全性詳細資料」頁面會檢查安全參數、例如Global FIPS、Telnet、不安全的SSH設定、登入橫幅、網路時間傳輸協定、 支援HTTPS傳輸和預設管理員。AutoSupport
+
+「儲存VMs/安全性詳細資料」頁面會檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、提供儲存VM安全性法規遵循的預設檢視。
+
+您也可以從叢集與儲存VM詳細資料頁面產生、排程及下載安全性法規遵循報告。
+
+在*安全性儀表板*中、按一下*叢集規範*和*儲存VM規範*卡中的*檢視報告*。
+
+.步驟
+. 在左側導覽窗格中、按一下*儀表板*。
+. 視您要檢視所有受監控叢集或單一叢集的安全狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。
+. 按一下「*安全性*」面板中的向右箭頭。
++
+「安全性」頁面會顯示下列資訊：
+
++
+** 叢集安全性狀態（相容或不相容的叢集數目）
+** SVM安全狀態（相容或不相容的SVM數量）
+** Volume加密狀態（加密或未加密的磁碟區數目）
+** 每個叢集所使用的叢集驗證方法
+
+
+. 請參閱 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"] 如需如何使所有叢集、SVM及Volume符合NetApp安全建議的指示。
+

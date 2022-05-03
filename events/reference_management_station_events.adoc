@@ -1,0 +1,188 @@
+---
+permalink: events/reference_management_station_events.html 
+sidebar: sidebar 
+keywords: management, station, events, impact area, configuration, performance 
+summary: Management Station事件可提供安裝Unified Manager之伺服器狀態的相關資訊、讓您監控是否有潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= Management Station事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Management Station事件可提供安裝Unified Manager之伺服器狀態的相關資訊、讓您監控是否有潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+
+
+== 影響領域：組態
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+管理伺服器磁碟空間幾乎已滿（ocumEvtUnifiedManagerDiskSpaceNearlyFull）
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+管理伺服器磁碟空間已滿（ocumEvtUnifiedManagerDiskSpaceFull）
+ a| 
+事件
+ a| 
+管理站
+ a| 
+關鍵
+
+
+
+ a| 
+管理伺服器記憶體不足（ocumEvtUnifiedManagerMemory低）
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+管理伺服器幾乎記憶體不足（ocumEvtUnifiedManagerMemoryAlmostOut）
+ a| 
+事件
+ a| 
+管理站
+ a| 
+關鍵
+
+
+
+ a| 
+MySQL記錄檔大小增加；需要重新啟動（ocumEvtMysqlLogFileSizeWarningsocumEvtMystqlLogFileSizeWarnings[）
+ a| 
+事件
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+稽核日誌大小分配總計即將滿
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+系統記錄伺服器憑證即將過期
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+系統記錄伺服器憑證已過期
+ a| 
+風險
+ a| 
+管理站
+ a| 
+錯誤
+
+
+
+ a| 
+稽核記錄檔遭到竄改
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+稽核記錄檔已刪除
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+系統記錄伺服器連線錯誤
+ a| 
+風險
+ a| 
+管理站
+ a| 
+錯誤
+
+
+
+ a| 
+系統記錄伺服器組態已變更
+ a| 
+活動
+ a| 
+管理站
+ a| 
+警告
+
+|===
+
+
+== 影響領域：效能
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+效能資料分析受到影響（ocumEvtUnifiedManagerDataMisingAnalyze）
+ a| 
+風險
+ a| 
+管理站
+ a| 
+警告
+
+
+
+ a| 
+效能資料收集受到影響（ocumEvtUnifiedManagerDataMsiringCollection）
+ a| 
+事件
+ a| 
+管理站
+ a| 
+關鍵
+
+|===
+[NOTE]
+====
+這兩個效能事件僅適用於Unified Manager 7.2。如果其中任一事件處於「New」（新增）狀態、然後您升級至較新版本的Unified Manager軟體、則不會自動清除事件。您需要手動將事件移至「已解決」狀態。
+
+====

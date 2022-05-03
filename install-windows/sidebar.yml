@@ -1,0 +1,49 @@
+---
+section: install-windows
+title: 在Windows系統上安裝Unified Manager
+entries:
+- title: 介紹功能Active IQ Unified Manager
+  url: "/install-windows/concept_introduction_to_unified_manager.html"
+  entries:
+  - title: Unified Manager伺服器的功能
+    url: "/install-windows/concept_what_unified_manager_server_does.html"
+  - title: 安裝順序總覽
+    url: "/install-windows/concept_overview_of_installation_sequence_um.html"
+- title: 安裝Unified Manager的需求
+  url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
+  entries:
+  - title: 虛擬基礎架構與硬體系統需求
+    url: "/install-windows/concept_virtual_infrastructure_or_hardware_system_requirements.html"
+  - title: Windows軟體與安裝需求
+    url: "/install-windows/reference_windows_software_and_installation_requirements.html"
+  - title: 支援的瀏覽器
+    url: "/install-windows/concept_browser_and_platform_requirements.html"
+  - title: 傳輸協定與連接埠需求
+    url: "/install-windows/reference_protocol_and_port_requirements.html"
+  - title: 完成工作表
+    url: "/install-windows/reference_complete_worksheet_um.html"
+- title: 安裝、升級及移除Unified Manager軟體
+  url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
+  entries:
+  - title: 安裝程序總覽
+    url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
+  - title: 在Windows上安裝Unified Manager
+    url: "/install-windows/concept_install_unified_manager_windows.html"
+    entries:
+    - title: 安裝Unified Manager
+      url: "/install-windows/task_install_unified_manager_on_windows.html"
+    - title: 執行Unified Manager的無人值守安裝
+      url: "/install-windows/task_unattended_installation_of_unified_manager.html"
+  - title: 變更jboss密碼
+    url: "/install-windows/task_change_jboss_password_on_windows.html"
+  - title: 升級Unified Manager
+    url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
+  - title: 升級協力廠商產品
+    url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
+    entries:
+    - title: 升級OpenJDK
+      url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
+  - title: 重新啟動Unified Manager
+    url: "/install-windows/task_restart_unified_manager_win.html"
+  - title: 正在解除安裝Unified Manager
+    url: "/install-windows/task_uninstall_unified_manager_win.html"

@@ -1,0 +1,14 @@
+---
+permalink: install-linux/concept_set_up_required_software_repositories_um.html 
+sidebar: sidebar 
+keywords: set up, required, software, repositories 
+summary: 系統必須能夠存取特定儲存庫、才能讓安裝程式存取及安裝所有必要的軟體相依性。 
+---
+= 設定所需的軟體儲存庫
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+系統必須能夠存取特定儲存庫、才能讓安裝程式存取及安裝所有必要的軟體相依性。

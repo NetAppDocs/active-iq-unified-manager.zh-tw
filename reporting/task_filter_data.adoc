@@ -1,0 +1,22 @@
+---
+permalink: reporting/task_filter_data.html 
+sidebar: sidebar 
+keywords: filtering, data 
+summary: 篩選資料、確保結果符合您的報告要求。篩選功能可讓您僅顯示感興趣的資料。 
+---
+= 篩選資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+篩選資料、確保結果符合您的報告要求。篩選功能可讓您僅顯示感興趣的資料。
+
+.步驟
+. 按一下篩選圖示以新增篩選條件、將您要檢視的結果焦點放在其中、然後按一下「*套用篩選條件*」。
++
+image::../media/filter_cold_data_2.png[篩選冷資料2.]
+
+. 命名未儲存的檢視以儲存變更。
+

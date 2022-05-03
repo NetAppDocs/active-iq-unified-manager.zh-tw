@@ -1,0 +1,109 @@
+---
+permalink: events/reference_snapmirror_and_vault_relationship_events.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
+summary: 非同步鏡射和Vault關係事件可提供您有關非同步SnapMirror和Vault關係狀態的資訊、以便您監控潛在問題。Volume和Storage VM保護關係均支援非同步鏡射和Vault關係事件。但儲存VM災難恢復僅支援Vault關係。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= 非同步鏡射和Vault關係事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同步鏡射和Vault關係事件可提供您有關非同步SnapMirror和Vault關係狀態的資訊、以便您監控潛在問題。Volume和Storage VM保護關係均支援非同步鏡射和Vault關係事件。但儲存VM災難恢復僅支援Vault關係。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+
+
+== 影響領域：保護
+
+[NOTE]
+====
+SnapMirror和Vault關係事件也會針對受Storage VM災難恢復保護的儲存VM產生、但不會針對任何組成的物件關係產生。
+
+====
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+非同步鏡射與資料庫不良（ocumEvtMirrorVaultRelationshipUnhealy）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+警告
+
+
+
+ a| 
+非同步鏡射與資料庫中斷（ocumEvtMirrorVaultRelationshipStateBrokenoff）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+非同步鏡射與資料庫初始化失敗（ocumEvtMirrorVaultRelationshipInitializeFailed）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+非同步鏡射與資料庫更新失敗（ocumEvtMirrorVaultRelationshipUpdate失敗）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+非同步鏡射與資料庫延遲錯誤（ocumEvtMirrorVaultRelationshipLag錯誤）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+
+
+ a| 
+非同步鏡射與資料庫延遲警告（ocumEvtMirrorVaultRelationshipLag警告）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+警告
+
+
+
+ a| 
+非同步鏡射與資料庫重新同步失敗（ocumEvtMirrorVaultRelationshipResyncd失敗）
+ a| 
+風險
+ a| 
+SnapMirror關係
+ a| 
+錯誤
+
+|===
+[NOTE]
+====
+「SnapMirror更新失敗」事件是Active IQ 由The Portal Config Advisor （簡稱「SnapMirror更新失敗」）提出。
+
+====

@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: 您可以檢視所有磁碟區及其目前加密狀態的清單、以便判斷您磁碟區上的資料是否受到適當保護、不受未獲授權的使用者存取。 
+---
+= 檢視所有磁碟區的加密狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視所有磁碟區及其目前加密狀態的清單、以便判斷您磁碟區上的資料是否受到適當保護、不受未獲授權的使用者存取。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+可套用至磁碟區的加密類型包括：
+
+* 軟體：使用NetApp Volume Encryption（NVE）或NetApp Aggregate Encryption（NAE）軟體加密解決方案進行保護的磁碟區。
+* 硬體：使用NetApp儲存加密（NSE）硬體加密保護的磁碟區。
+* 軟體與硬體：受軟體與硬體加密保護的磁碟區。
+* 無-未加密的磁碟區。
+
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「檢視」功能表中、選取「*健全狀況*」>「*磁碟區加密*」
+. 在「*健全狀況：Volume Encryption*」（磁碟區加密）檢視中、依*加密類型*欄位排序、或使用篩選器顯示具有特定加密類型或未加密的磁碟區（加密類型為「無」）。
+

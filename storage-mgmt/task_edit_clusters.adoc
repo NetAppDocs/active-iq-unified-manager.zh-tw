@@ -1,0 +1,36 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html 
+sidebar: sidebar 
+keywords: edit, clusters 
+summary: 您可以使用「編輯叢集」對話方塊來修改現有叢集的設定、例如主機名稱或IP位址、使用者名稱、密碼和連接埠。 
+---
+= 編輯叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「編輯叢集」對話方塊來修改現有叢集的設定、例如主機名稱或IP位址、使用者名稱、密碼和連接埠。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色或儲存管理員角色。
+
+[NOTE]
+====
+從Unified Manager 9.7開始、叢集只能使用HTTPS新增。
+
+====
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。
+. 在*叢集設定*頁面上、選取您要編輯的叢集、然後按一下*編輯*。
+. 在*編輯叢集*對話方塊中、視需要修改值。
+. 按一下*提交*。
+
+
+*相關資訊*
+
+link:../config/task_add_users.html["新增使用者"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["檢視叢集清單和詳細資料"]

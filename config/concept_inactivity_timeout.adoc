@@ -1,0 +1,22 @@
+---
+permalink: config/concept_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity timeout, feature settings 
+summary: 您可以指定Active IQ Unified Manager 不活動逾時值以供使用。在指定時間內無活動之後、應用程式會自動登出。此選項預設為啟用。 
+---
+= 指定不活動逾時
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以指定Active IQ Unified Manager 不活動逾時值以供使用。在指定時間內無活動之後、應用程式會自動登出。此選項預設為啟用。
+
+您可以停用此功能、或從*一般*>*功能設定*>*無活動逾時*修改時間。啟動此功能後、您應該在*登出時間*欄位中指定不活動的時間限制（以分鐘為單位）、之後系統會自動登出。預設值為4320分鐘（72小時）。
+
+[NOTE]
+====
+如果您已啟用安全性聲明標記語言（SAML）驗證、則無法使用此選項。
+
+====

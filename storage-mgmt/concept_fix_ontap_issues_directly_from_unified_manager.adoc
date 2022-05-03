@@ -1,0 +1,24 @@
+---
+permalink: storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html 
+sidebar: sidebar 
+keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation 
+summary: 您可以ONTAP 直接從Unified Manager使用者介面修正某些功能不全的問題、而不需要使用ONTAP 功能不全的系統管理程式或ONTAP 功能不全的CLI。「管理行動」選項可修正ONTAP 觸發Unified Manager事件的許多問題。 
+---
+= 直接從Unified Manager管理ONTAP 各種問題或功能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以直接ONTAP 從Unified Manager使用者介面修正某些功能的某些問題或管理某些ONTAP 功能、而不需要使用ONTAP 「更新版系統管理程式」或ONTAP 「更新版CLI」。「管理行動」選項可修正ONTAP 許多引發Unified Manager事件的問題。
+
+您可以從「管理動作」頁面選取左導覽窗格上的*管理動作*選項、直接修正問題。您也可以從儀表板上的「管理動作」面板、「事件詳細資料」頁面、以及左側導覽功能表上的「工作負載分析」選項中、找到「管理動作」。
+
+Unified Manager可能會徹底診斷並提供單一解決方案、對於某些功能、例如防勒索軟體監控、Unified Manager會執行內部檢查並建議特定行動。ONTAP如果可用、這些解決方案會以*「修正」按鈕顯示在「管理行動」中。按一下「*修正*」按鈕以修正問題。您必須具有應用程式管理員或儲存管理員角色。
+
+Unified Manager會傳送ONTAP 指令到叢集、以進行要求的修正。修正完成後、事件就會過時。
+
+有些管理動作可讓您使用*全部修復*按鈕、修正多個儲存物件上的相同問題。例如、可能有5個磁碟區具有「Volume Space full」（磁碟區空間已滿）事件、您可以按一下「Enable volume autodged（啟用磁碟區自動擴充）」的*「修復All（全部）」管理動作來解決此問題。只要按一下滑鼠、就能在5個磁碟區上修正此問題。
+
+如需ONTAP 使用自動修正功能來管理的各種問題與功能的相關資訊、請參閱 link:../storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager可以修正哪些問題"]

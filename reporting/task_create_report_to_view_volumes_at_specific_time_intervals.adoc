@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfer, trends, specific, time intervals 
+summary: 您可以建立報告、以特定時間間隔顯示Volume傳輸趨勢。 
+---
+= 建立報告以檢視特定時間間隔的Volume傳輸趨勢
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、以特定時間間隔顯示Volume傳輸趨勢。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟、在特定時間間隔建立磁碟區的自訂檢視、然後為該檢視排程要產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「View（檢視）」功能表中、選取「* Relationationationationationationation*>*上個月轉帳狀態*」。
+. 選取*顯示/隱藏*以移除報告中不想要的任何欄。
+. 拖曳「Transfer Duration（傳輸持續時間）」欄、靠近「Operational result（作業結果）」欄。
+. 按一下篩選圖示、新增下列篩選條件、然後按一下「*套用篩選條件*」：
++
+** 過去7天內的傳輸結束時間
+
+
+. 按一下「Transfer Duration（傳輸持續時間）」欄頂端、依時間間隔排序磁碟區。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Volume by duration」。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 輸入報告排程的名稱、將頻率設定為*每週*、然後填寫其他報告欄位、再按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可以調查傳輸時間間隔。

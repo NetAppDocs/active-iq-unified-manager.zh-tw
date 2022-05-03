@@ -1,0 +1,85 @@
+---
+permalink: data-protection/concept_types_of_snapmirror_protection.html 
+sidebar: sidebar 
+keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc 
+summary: 根據資料儲存拓撲的部署、Unified Manager可讓您設定多種類型的SnapMirror保護關係。SnapMirror保護的所有變體都提供容錯移轉災難恢復保護、但在效能、版本靈活度及多重備份複本保護方面、都有不同的功能。 
+---
+= SnapMirror保護類型
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+根據資料儲存拓撲的部署、Unified Manager可讓您設定多種類型的SnapMirror保護關係。SnapMirror保護的所有變體都提供容錯移轉災難恢復保護、但在效能、版本靈活度及多重備份複本保護方面、都有不同的功能。
+
+
+
+== 傳統SnapMirror非同步保護關係
+
+傳統SnapMirror非同步保護可在來源與目的地磁碟區之間提供區塊複寫鏡射保護。
+
+在傳統的SnapMirror關係中、鏡射作業的執行速度比其他SnapMirror關係快、因為鏡射作業是以區塊複寫為基礎。然而、傳統的SnapMirror保護要求目的地Volume必須在ONTAP 相同主要版本（例如8.x到8.x、9.x到9.x或9.x到9.x版）的相同或更新次要版本的作業系統下執行、作為來源Volume。不支援從9.1來源複寫到9.0目的地、因為目的地執行的是較早的主要版本。
+
+
+
+== SnapMirror非同步保護、具備版本彈性的複寫功能
+
+SnapMirror採用版本彈性複寫的非同步保護功能、可在來源與目的地磁碟區之間提供邏輯複寫鏡射保護、即使這些磁碟區是在ONTAP 不同版本的版本的更新軟體（例如8.3至8.3.1、8.3至9.1或9.2.2至9.2版）下執行。
+
+在SnapMirror與版本彈性複寫的關係中、鏡射作業的執行速度並不像傳統SnapMirror關係那樣快。
+
+由於執行速度較慢、採用版本彈性複寫保護的SnapMirror不適合在下列任一情況中實作：
+
+* 來源物件包含超過1000萬個要保護的檔案。
+* 受保護資料的恢復點目標為兩小時或更短。（也就是目的地必須永遠包含鏡射的可恢復資料、且資料的時間不得超過來源資料的兩小時。）
+
+
+在上述任一情況下、都需要以區塊複寫方式更快執行預設的SnapMirror保護。
+
+
+
+== SnapMirror非同步保護、具備版本彈性的複寫與備份選項
+
+SnapMirror非同步保護搭配版本彈性的複寫與備份選項、可在來源與目的地磁碟區之間提供鏡射保護、並可在目的地儲存多個鏡射資料複本。
+
+儲存管理員可以指定從來源到目的地鏡射哪些Snapshot複本、也可以指定在目的地保留這些複本的時間長度、即使這些複本是從來源處刪除。
+
+在SnapMirror與版本彈性複寫與備份選項的關係中、鏡射作業的執行速度並不像傳統SnapMirror關係那樣快。
+
+
+
+== SnapMirror統一化複寫（鏡射與保存庫）
+
+SnapMirror統一化複寫可讓您在同一個目的地磁碟區上設定災難恢復和歸檔。與SnapMirror一樣、統一化資料保護會在您第一次叫用時執行基準傳輸。根據預設的統一化資料保護原則「鏡射AndVault」進行的基礎傳輸會建立來源磁碟區的Snapshot複本、然後將該複本及其參照的資料區塊傳輸到目的地磁碟區。與SnapVault 之類似、統一化資料保護功能並未在基礎資料中納入舊的Snapshot複本。
+
+
+
+== SnapMirror同步保護、並具有嚴格的同步功能
+
+SnapMirror同步保護搭配「嚴格」同步、可確保主要和次要磁碟區永遠是彼此的真實複本。如果嘗試將資料寫入次要磁碟區時發生複寫失敗、則用戶端I/O會中斷至主要磁碟區。
+
+
+
+== SnapMirror同步保護與一般同步
+
+SnapMirror同步保護搭配「鏡面」同步、並不需要主磁碟區和次磁碟區一律是彼此的真實複本、因此可確保主磁碟區的可用度。如果在嘗試將資料寫入次要Volume時發生複寫失敗、則主要和次要磁碟區會不同步、而用戶端I/O會繼續寫入主要磁碟區。
+
+[NOTE]
+====
+從「健全狀況：所有磁碟區」檢視或「Volume /健全狀況」詳細資料頁面監控同步保護關係時、無法使用「還原」按鈕和「關係」操作按鈕。
+
+====
+
+
+== SnapMirror同步營運不中斷
+
+SnapMirror Business Continuity（SM-BC）功能可搭配ONTAP 使用支援更新版本的版本、您可以使用它來保護LUN的應用程式、讓應用程式能夠透明地容錯移轉、確保災難發生時的營運不中斷。
+
+它可讓您探索及監控Unified Manager叢集和儲存虛擬機器上可用的一致性群組（CGS）同步SnapMirror關係。SM - BC支援AFF 在諸如ASA 主叢集和二線叢集AFF 的所有SAN Array（簡稱「支援」）叢集上、其中主叢集可以是「支援」或ASA 「支援」。SMBC使用iSCSI或FCP LUN來保護應用程式。
+
+當您檢視受SM-BC關係保護的磁碟區和LUN時、您可以取得統一檢視來保護關係、磁碟區庫存中的一致性群組、檢視保護拓撲以維持一致性群組關係、檢視歷史資料以維持一致性群組關係、最長可達一年。您也可以下載報告。您也可以檢視一致性群組關係的摘要、搜尋一致性群組關係的支援、以及取得一致性群組所保護之磁碟區的相關資訊。
+
+在「關係」頁面上、您也可以排序、篩選及延伸來源與目的地儲存物件的保護、以及受到一致性群組保護的物件關係。
+
+若要深入瞭解SnapMirror同步營運持續性、請參閱 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["適用於SM - BC的9文件ONTAP"]。

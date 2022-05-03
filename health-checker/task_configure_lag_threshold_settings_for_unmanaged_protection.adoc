@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html 
+sidebar: sidebar 
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
+summary: 您可以編輯未受管理保護關係的全域預設延遲警告和錯誤健全狀況臨界值設定、以便根據您的需求、以適當的時間間隔產生事件。 
+---
+= 設定非託管保護關係的延遲臨界值設定
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯未受管理保護關係的全域預設延遲警告和錯誤健全狀況臨界值設定、以便根據您的需求、以適當的時間間隔產生事件。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+延遲時間不得超過定義的傳輸排程時間間隔。例如、如果傳輸排程為每小時、則延遲時間不得超過一小時。延遲臨界值指定延遲時間不得超過的百分比。以一小時為例、如果延遲臨界值定義為150%、則當延遲時間超過1.5小時時、您將會收到事件。
+
+此工作中所述的設定會全域套用至所有未受管理的保護關係。這些設定無法專門指定及套用至一個未受管理的保護關係。
+
+.步驟
+. 在左導覽窗格中、按一下*事件臨界值*>*關係*。
+. 視需要增加或減少全域預設警告或錯誤延遲時間百分比。
+. 若要停用從任何延遲臨界值金額觸發警告或錯誤事件、請取消核取「*已啟用*」旁的方塊。
+. 按一下「 * 儲存 * 」。
+
+
+*相關資訊*
+
+link:../config/task_add_users.html["新增使用者"]

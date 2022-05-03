@@ -1,0 +1,346 @@
+---
+permalink: api-automation/concept_modify_workloads_workflow.html 
+sidebar: sidebar 
+keywords: modify, storage, workloads 
+summary: 修改儲存工作負載的方式包括更新LUN或檔案共用、但缺少參數、或是變更現有參數。 
+---
+= 修改儲存工作負載
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+修改儲存工作負載的方式包括更新LUN或檔案共用、但缺少參數、或是變更現有參數。
+
+此工作流程以更新LUN和檔案共用的效能服務層級為例。
+
+[NOTE]
+====
+工作流程假設LUN或檔案共用區已配置效能服務層級。
+
+====
+
+
+== 修改檔案共用
+
+修改檔案共用時、您可以更新下列參數：
+
+* 容量或大小。
+* 線上或離線設定。
+* 儲存效率原則：
+* 效能服務層級：
+* 存取控制清單（ACL）設定。
+* 匯出原則設定。您也可以刪除匯出原則參數、並還原檔案共用區上的預設（空白）匯出原則規則。
+
+
+[NOTE]
+====
+在單一API執行期間、您只能更新一個參數。
+
+====
+本程序說明如何將效能服務層級新增至檔案共用區。您可以使用相同的程序來更新任何其他檔案共用屬性。
+
+. 取得您要更新之檔案共用區的CIFS共用區或NFS檔案共用金鑰。此API會查詢資料中心上的所有檔案共用。如果您已經知道檔案共用金鑰、請跳過此步驟。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+「/儲存設備供應商/檔案共用」
+
+|===
+. 使用您取得的檔案共用金鑰執行下列API、即可檢視檔案共用的詳細資料。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+儲存設備供應商/檔案共用/\｛key｝
+
+|===
++
+檢視輸出中檔案共用區的詳細資料。
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. 取得您要指派給此檔案共用區之效能服務層級的金鑰。目前未指派任何原則給IT。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+效能服務層級
+ a| 
+取得
+ a| 
+「/儲存設備供應商/效能服務層級」
+
+|===
++
+[NOTE]
+====
+您可以將「system_defined」輸入參數設定為「true」、以擷取系統定義的Performance Service層級詳細資料。從輸出中、取得您要套用至檔案共用的Performance Service層級金鑰。
+
+====
+. 在檔案共用區上套用效能服務層級。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+儲存設備供應商/檔案共用/\｛key｝
+
+|===
++
+在輸入中、您只能指定要更新的參數、以及檔案共用金鑰。在這種情況下、這是效能服務層級的關鍵。
+
++
+*範例Curl*
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{
+\"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
+}"
+----
++
+Json輸出會顯示一個工作物件、您可以使用該物件來驗證主節點和合作夥伴節點上的存取端點是否已成功建立。
+
+. 使用輸出中顯示的工作物件機碼、確認是否已將效能服務層級新增至檔案共用。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/`management server / jobs/\{key}」
+
+|===
++
+如果您根據工作物件的ID進行查詢、就會看到檔案共用區是否已成功更新。如果發生故障、請疑難排解故障並再次執行API。成功建立時、請查詢檔案共用區以查看修改的物件：
+
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+儲存設備供應商/檔案共用/\｛key｝
+
+|===
++
+檢視輸出中檔案共用區的詳細資料。
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+----
+
+
+
+
+== 正在更新LUN
+
+更新LUN時、您可以修改下列參數：
+
+* 容量或大小
+* 線上或離線設定
+* 儲存效率原則
+* 效能服務層級
+* LUN對應
+
+
+[NOTE]
+====
+在單一API執行期間、您只能更新一個參數。
+
+====
+本程序說明如何將效能服務層級新增至LUN。您可以使用相同的程序來更新任何其他LUN內容。
+
+. 取得您要更新之LUN的LUN金鑰。此API會傳回資料中心內所有LUN的詳細資料。如果您已經知道LUN金鑰、請跳過此步驟。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/'儲存設備供應商/LUN'
+
+|===
+. 使用您取得的LUN金鑰執行下列API、即可檢視LUN的詳細資料。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===
++
+在輸出中檢視LUN的詳細資料。您可以看到沒有指派給此LUN的效能服務層級。
+
++
+* JSON*輸出範例*
+
++
+[listing]
+----
+
+  "assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. 取得要指派給LUN之效能服務層級的金鑰。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+效能服務層級
+ a| 
+取得
+ a| 
+「/儲存設備供應商/效能服務層級」
+
+|===
++
+[NOTE]
+====
+您可以將「system_defined」輸入參數設定為「true」、以擷取系統定義的Performance Service層級詳細資料。從輸出中、取得要套用至LUN的Performance Service層級關鍵。
+
+====
+. 在LUN上套用效能服務層級。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+/`/store-provider /LUN/\{key}
+
+|===
++
+在輸入中、您只能指定要更新的參數、以及LUN金鑰。在這種情況下、這是效能服務層級的關鍵。
+
++
+*範例Curl*
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
+----
++
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所更新的LUN。
+
+. 使用您取得的LUN金鑰執行下列API、即可檢視LUN的詳細資料。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===
++
+在輸出中檢視LUN的詳細資料。您可以看到效能服務層級已指派給此LUN。
+
++
+* JSON*輸出範例*
+
++
+[listing]
+----
+
+     "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+----
+

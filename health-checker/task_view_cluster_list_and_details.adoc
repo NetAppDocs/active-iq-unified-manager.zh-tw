@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_view_cluster_list_and_details.html 
+sidebar: sidebar 
+keywords: view, cluster list, details 
+summary: 您可以使用健全狀況：所有叢集檢視來檢視叢集的庫存。「容量：所有叢集」檢視可讓您檢視所有叢集中儲存容量與使用率的摘要資訊。 
+---
+= 檢視叢集清單和詳細資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用健全狀況：所有叢集檢視來檢視叢集的庫存。「容量：所有叢集」檢視可讓您檢視所有叢集中儲存容量與使用率的摘要資訊。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+您也可以檢視個別叢集的詳細資料、例如叢集健全狀況、容量、組態、lifs、節點、 和磁碟、請使用叢集/健全狀況詳細資料頁面。
+
+健全狀況：所有叢集檢視、容量：所有叢集檢視和叢集/健全狀況詳細資料頁面中的詳細資料、可協助您規劃儲存設備。例如、在配置新的Aggregate之前、您可以從健全狀況：所有叢集檢視中選取特定的叢集、並取得容量詳細資料、以判斷叢集是否有必要的空間。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
+. 在View（檢視）功能表中、選取* Health（健全狀況）：All Clusters* view（所有叢集*檢視）以檢視健全狀況資訊、或* Capacity（容量）：All Clusters* view（所有叢集*檢視）以檢視所有叢集的儲存容量和使用率詳細資料。
+. 按一下叢集名稱、即可在*叢集/健全狀況*詳細資料頁面中檢視叢集的完整詳細資料。
+
+
+*相關資訊*
+
+link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]

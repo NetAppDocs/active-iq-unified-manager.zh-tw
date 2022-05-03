@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_microsoft_excel_reports.html 
+sidebar: sidebar 
+keywords: sample, microsoft, excel, reports 
+summary: 這些Microsoft Excel報告範例旨在介紹使用Excel進階功能的報告選項。 
+---
+= Microsoft Excel報告範例
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+這些Microsoft Excel報告範例旨在介紹使用Excel進階功能的報告選項。
+
+Excel的進階功能可根據您的需求建立一系列報告。如需如何使用Excel的完整資訊、請參閱產品文件。
+
+[NOTE]
+====
+您必須具有應用程式管理員或儲存管理員角色、才能管理報告。
+
+====

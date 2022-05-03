@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_stopped_svms.html 
+sidebar: sidebar 
+keywords: create, report, view, stopped, storage VMs 
+summary: 您可以建立報告、以顯示所有已停止SVM的清單。 
+---
+= 建立報告以檢視停止的儲存VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、以顯示所有已停止SVM的清單。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟建立自訂檢視、以顯示停止的儲存VM、然後排程為該檢視產生報告。
+
+.步驟
+. 在左導覽窗格中、按一下* Storage *>* Storage VMS*。
+. 在View（檢視）功能表中、選取* Health *>* All Storage VMS*。
+. 選取*顯示/隱藏*以移除報告中不想要的任何欄。
+. 拖曳「Tate」欄靠近「Tortage VM」欄。
+. 按一下篩選圖示、新增下列篩選條件、然後按一下「*套用篩選條件*」：
++
+** 狀態已停止
+
+
+. 以反映檢視內容的特定名稱儲存檢視、例如「SVMs」、然後按一下核取符號（image:../media/blue_check.gif[""]）。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 按一下「*新增排程*」將新列新增至「*報告排程*」頁面、以便定義新報告的排程特性。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可能想要調查SVM停止的原因、看看您是否應該重新啟動停止的SVM。

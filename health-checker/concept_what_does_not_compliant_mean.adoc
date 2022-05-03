@@ -1,0 +1,23 @@
+---
+permalink: health-checker/concept_what_does_not_compliant_mean.html 
+sidebar: sidebar 
+keywords: not compliant, compliant 
+summary: 如果未ONTAP 符合根據《NetApp資訊安全強化指南》（《適用於VMware的NetApp資訊安全強化指南》）中所定義的建議來評估的任何安全性條件、則叢集與儲存虛擬機器（SVM）將視為不符合規定。此外、當任何SVM被標示為不相容時、叢集也會被視為不相容。 
+---
+= 不符合法規的意義
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果未ONTAP 符合根據《_ NetApp資訊安全強化指南》（英文）中所定義的各項建議來評估的任何安全性條件、則叢集與儲存虛擬機器（SVM）將視為不符合法規要求。此外、當任何SVM被標示為不相容時、叢集也會被視為不相容。
+
+安全卡中的狀態圖示與其法規遵循相關、具有下列意義：
+
+* image:../media/sev_normal_um60.png[""] -參數設定為建議。
+* image:../media/sev_warning_um60.png[""] -參數未依建議進行設定。
+* image:../media/sev_information_um60.gif[""] -叢集上未啟用此功能、或參數未依建議進行設定、但此參數並不影響物件的符合性。
+
+
+請注意、磁碟區加密狀態並不會影響叢集或SVM是否符合法規要求。

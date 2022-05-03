@@ -1,0 +1,74 @@
+---
+permalink: api-automation/concept_workflow_space_issue.html 
+sidebar: sidebar 
+keywords: determine, space, issue, aggregate 
+summary: 您可以使用Active IQ Unified Manager 資料中心API的功能來監控磁碟區空間的可用度和使用率。您可以判斷磁碟區中的空間問題、並找出過度使用或未充分利用的儲存資源。 
+---
+= 判斷Aggregate中的空間問題
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Active IQ Unified Manager 資料中心API的功能來監控磁碟區空間的可用度和使用率。您可以判斷磁碟區中的空間問題、並找出過度使用或未充分利用的儲存資源。
+
+用於集合體的資料中心API會擷取可用空間和已用空間的相關資訊、以及節省空間的效率設定。您也可以根據指定的屬性來篩選擷取的資訊。
+
+判斷Aggregate空間不足的方法之一、是驗證您環境中是否有已啟用自動調整大小模式的磁碟區。接著、您應該識別哪些磁碟區正在過度使用、並執行任何修正行動。
+
+下列流程圖說明擷取已啟用自動調整大小模式之磁碟區相關資訊的程序：
+
+image::../media/space_utilization.gif[空間使用率]
+
+此流程假設叢集已在ONTAP 流通中建立、並已新增至Unified Manager。
+
+. 除非您知道以下值、否則請取得叢集金鑰：
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+資料中心/叢集/叢集
+
+|===
+. 使用叢集金鑰做為篩選參數、查詢該叢集上的集合體。
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+資料中心/儲存/集合體
+
+|===
+. 從回應中分析集合體的空間使用量、並判斷哪些集合體有空間問題。針對每個具有空間問題的Aggregate、從相同的Json輸出取得Aggregate金鑰。
+. 使用每個Aggregate金鑰、將具有autossize.mode參數值的所有磁碟區篩選為「增長」
++
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+資料中心/儲存/磁碟區
+
+|===
+. 分析哪些磁碟區正在過度使用。
+. 執行任何必要的修正行動、例如跨集合體移動磁碟區、以解決磁碟區中的空間問題。您可以從ONTAP NetApp或Unified Manager網路UI執行這些動作。
+

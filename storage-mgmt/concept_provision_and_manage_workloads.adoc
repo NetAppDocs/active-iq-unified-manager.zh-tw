@@ -1,0 +1,46 @@
+---
+permalink: storage-mgmt/concept_provision_and_manage_workloads.html 
+sidebar: sidebar 
+keywords: provision, manage, workloads 
+summary: 利用此功能、可提供效能服務層級、儲存效率原則、以及儲存供應商API、以供資料中心配置、監控及管理儲存工作負載。Active IQ Unified Manager 
+---
+= 資源配置與管理工作負載
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+利用此功能、可提供效能服務層級、儲存效率原則、以及儲存供應商API、以供資料中心配置、監控及管理儲存工作負載。Active IQ Unified Manager
+
+[NOTE]
+====
+Unified Manager預設提供此功能。如果您不打算使用此功能、可以從*儲存管理*>*功能設定*停用此功能。
+
+====
+啟用時、您可以在ONTAP 由Unified Manager執行個體管理的支援區叢集上配置工作負載。您也可以針對工作負載指派效能服務層級和儲存效率原則等原則、並根據這些原則來管理儲存環境。
+
+此功能可啟用下列功能：
+
+* 自動探索新增叢集上的儲存工作負載、輕鬆評估及部署儲存工作負載
+* 配置NAS工作負載以支援NFS和CIFS傳輸協定
+* 配置SAN工作負載以支援iSCSI和FCP傳輸協定
+* 在同一個檔案共用區上同時支援NFS和CIFS傳輸協定
+* 管理效能服務層級和儲存效率原則
+* 指派效能服務層級和儲存效率原則給儲存工作負載
+
+
+使用者介面左窗格中的*資源配置*、*儲存設備*>*工作負載*和*原則*選項、您就能修改各種組態。
+
+您可以使用下列選項來執行下列功能：
+
+* 在「*儲存設備*>*工作負載*」頁面上檢視儲存工作負載
+* 從「資源配置工作負載」頁面建立儲存工作負載
+* 從原則建立及管理效能服務層級
+* 根據原則建立及管理儲存效率原則
+* 從「工作負載」頁面指派原則給儲存工作負載
+
+
+*相關資訊*
+
+link:../config/concept_policy_based_storage_management.html["原則型儲存管理"]

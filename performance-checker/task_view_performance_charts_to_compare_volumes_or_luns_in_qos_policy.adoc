@@ -1,0 +1,36 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: 您可以檢視相同QoS原則群組中的磁碟區和LUN、然後比較單一IOPS、MB/s或IOPS/TB圖表上的效能、找出任何問題。 
+---
+= 檢視效能圖表、比較相同QoS原則群組中的磁碟區或LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視相同QoS原則群組中的磁碟區和LUN、然後比較單一IOPS、MB/s或IOPS/TB圖表上的效能、找出任何問題。
+
+比較相同QoS原則群組中磁碟區效能的步驟如下所示。檢視LUN資訊的步驟類似。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
++
+預設會顯示健全狀況：所有磁碟區檢視。
+
+. 在View（檢視）功能表中、選取* Performance（效能）：Volume in QoS Policy Group*（QoS原則群組*中的Volume）。
+. 按一下您要檢閱的Volume名稱。
++
+隨即顯示Volume的Performance Explorer頁面。
+
+. 在「檢視與比較」功能表中、選取*「同一個QoS原則群組*中的磁碟區」。
++
+下表列出其他共用相同QoS原則的磁碟區。
+
+. 按一下「*新增*」按鈕、將這些磁碟區新增到圖表中、以便比較圖表中所有選定磁碟區的IOPS、MB/s、IOPS/TB及其他效能計數器。
++
+您可以變更時間範圍、以檢視不同時間間隔（預設為72小時）的效能。
+
+

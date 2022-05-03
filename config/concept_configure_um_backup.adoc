@@ -1,0 +1,16 @@
+---
+permalink: config/concept_configure_um_backup.html 
+sidebar: sidebar 
+keywords: configure, unified manager, backup 
+summary: 您可以透過一組設定步驟、在Unified Manager上設定備份功能、以便在主機系統上執行、並透過維護主控台執行。 
+---
+= 設定Unified Manager備份
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以透過一組設定步驟、在Unified Manager上設定備份功能、以便在主機系統上執行、並透過維護主控台執行。
+
+如需組態步驟的相關資訊、請參閱 link:..//health-checker/concept_manage_backup_and_restore_operations.html["管理備份與還原作業"]。

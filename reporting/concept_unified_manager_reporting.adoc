@@ -1,0 +1,32 @@
+---
+permalink: reporting/concept_unified_manager_reporting.html 
+sidebar: sidebar 
+keywords: unified, manager, reporting 
+summary: 支援使用者可檢視、自訂、下載及排程適用於您的各種儲存系統的報告（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。這些報告可提供有關儲存系統容量、健全狀況、效能和保護關係的詳細資料。 
+---
+= Unified Manager報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援使用者可檢視、自訂、下載及排程適用於您的各種儲存系統的報告（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。這些報告可提供有關儲存系統容量、健全狀況、效能、安全性及保護關係的詳細資料。
+
+全新的Unified Manager報告與排程功能已在Active IQ Unified Manager 更新版本9.5中取代先前淘汰的報告引擎。
+
+報告提供不同的網路檢視、針對容量、健全狀況、效能、安全性和保護資料提供可據以行動的情報。您可以顯示、隱藏及重新排列欄位、篩選資料、排序資料、 並搜尋結果。您可以儲存自訂檢視以供重複使用、將其下載為報告、並將其排程為週期性報告以透過電子郵件發佈。
+
+您可以下載Microsoft®Excel格式的檢視並加以自訂。您可以使用進階的Excel功能、例如複雜的排序、階層式篩選、樞紐分析表和圖表。當您對所產生的Excel報告感到滿意時、可以上傳Excel檔案、以便每次排程及共用報告時使用。
+
+除了從使用者介面產生報告之外、您還可以使用下列其他方法、從Unified Manager擷取健全狀況、安全性和效能資料：
+
+* 使用開放式資料庫連線（Open Database Connectivity、ODBC/ODBC-）工具、直接存取資料庫以取得叢集資訊
+* 執行Unified Manager REST API、傳回您有興趣檢閱的資訊
+
+
+從本版Active IQ Unified Manager 的更新版本中、報告有下列增強功能：
+
+* 系統會根據設定的排程傳送報告的電子郵件。即使您產生隨需報告、也會收到一封電子郵件。
+* 報告的檔案名稱和報告的中繼資料會包含產生報告的來源主機名稱。即使有任何人變更檔案名稱、您仍可識別由於此增強功能而產生報告的來源主機名稱。
+

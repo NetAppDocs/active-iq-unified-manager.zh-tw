@@ -1,0 +1,16 @@
+---
+permalink: storage-mgmt/concept_override_management_actions_through_scripts.html 
+sidebar: sidebar 
+keywords: override, management, actions, scripts 
+summary: 您可以建立自訂指令碼、並將其與警示建立關聯、以便針對特定事件採取特定行動、而不要在「管理動作」頁面或Unified Manager儀表板上選擇可用的預設管理動作。 
+---
+= 透過指令碼覆寫管理動作
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立自訂指令碼、並將其與警示建立關聯、以便針對特定事件採取特定行動、而不要在「管理動作」頁面或Unified Manager儀表板上選擇可用的預設管理動作。
+
+如果您想針對事件類型採取特定行動、並選擇不將其修正為Unified Manager提供的管理行動功能的一部分、您可以針對特定行動設定自訂指令碼。然後、您可以將指令碼與該事件類型的警示建立關聯、並個別處理此類事件。在此情況下、不會在「管理動作」頁面或Unified Manager儀表板上針對該特定事件類型產生管理動作。

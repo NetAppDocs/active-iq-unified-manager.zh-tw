@@ -1,0 +1,18 @@
+---
+permalink: api-automation/concept_get_started_with_um_apis.html 
+sidebar: sidebar 
+keywords: active iq, unified manager 
+summary: 支援的儲存系統可透過REST風格的網路服務介面、針對任何協力廠商整合、提供一套API來管理儲存資源。Active IQ Unified Manager 
+---
+= 功能入門Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援的儲存系統可透過REST風格的網路服務介面、針對任何協力廠商整合、提供一套API來管理儲存資源。Active IQ Unified Manager
+
+_Unified Manager API開發人員指南_提供API和範例程式碼的相關資訊。本指南所提供的資訊可讓您建立NetApp管理軟體解決方案的RESTful用戶端、以管理NetApp系統。API 是以代表狀態傳輸（ REST ）架構風格為基礎。
+
+Unified Manager提供API產品、可在您的NetApp環境中進行儲存管理。支援全部四項REST作業：建立、讀取、更新及刪除（也稱為CRUD）。

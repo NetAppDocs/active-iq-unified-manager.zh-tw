@@ -1,0 +1,452 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: 儲存VM事件可提供儲存VM（SVM）狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
+---
+= 儲存VM事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+儲存虛擬機器（儲存虛擬機器、也稱為SVM）事件可提供您有關儲存虛擬機器（SVM）狀態的資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+
+星號（*）表示已轉換為Unified Manager事件的EMS事件。
+
+
+
+== 影響領域：可用度
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+SVM CIFS服務中斷（ocumEvtVserverCifsServiceStatusDown）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+未設定SVM CIFS服務（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+嘗試連線不存在的CIFS共用*（nbladeCifsNoPrivate Share）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+CIFS NetBios名稱衝突*（nbladeCifsNbNameConflict）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+CIFS陰影複製作業失敗*（Cifs陰影 複製失敗）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+許多CIFS連線*（nbladeCifsManyAuds）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+超過CIFS連線上限*（nbladeCifsMaxOpenSameFile）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+每位使用者超過的CIFS連線數量上限*（nbladeCifsMaxSessPerusrConn）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+SVM FC/FCoE服務中斷（ocumEvtVserverFcServiceStatusDown）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+SVM iSCSI服務中斷（ocumEvtVserverIscsiServiceStatusDown）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+SVM NFS服務中斷（ocumEvtVserverNfsServiceStatus狀態下）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+未設定SVM FC/FCoE服務（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+未設定SVM iSCSI服務（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+未設定SVM NFS服務（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+SVM已停止（ocumEvtVserverDown）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+AV伺服器太忙、無法接受新的掃描要求*（nbladeVscannConnBack血壓）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+無防毒掃描的AV伺服器連線*（nbladeVscannerConn）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+無AV伺服器登錄*（nbladeVscannNoRegdscanner)
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+無回應的AV伺服器連線*（nbladeVscannConnInactive）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+未獲授權的使用者嘗試使用AV伺服器*（nbladeVscandUserPrivate存取）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+
+
+ a| 
+AV伺服器發現病毒*（nbladeVscanVirusDetected）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+錯誤
+
+|===
+
+
+== 影響領域：組態
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+發現SVM（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+SVM已刪除（不適用）
+ a| 
+活動
+ a| 
+叢集
+ a| 
+資訊
+
+
+
+ a| 
+SVM已重新命名（不適用）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+|===
+
+
+== 影響領域：效能
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+違反SVM IOPS臨界值（ocumSvmIopsIncident）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+違反SVM IOPS警告臨界值（ocumSvmIopsWarnings）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+SVM MB/s重大臨界值已違反（ocumSvmbps突 發事件）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+違反SVM MB/s警告臨界值（ocumSvmbpsWarning）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+違反SVM延遲臨界值（ocumSvmLatency事件）
+ a| 
+事件
+ a| 
+SVM
+ a| 
+關鍵
+
+
+
+ a| 
+違反SVM延遲警告臨界值（ocumSvmLatency警告）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+|===
+
+
+== 影響領域：安全性
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+稽核記錄已停用（ocumVserverAuditLogDisabled）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+停用登入橫幅（ocumVserverLoginBannerDisabled）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+SSH使用不安全的密碼（ocumVserverSSHInSecure）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+登入橫幅已變更（ocumVserverLoginBannerChanged）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+儲存VM反勒索軟體監控已停用（反勒索軟體SvmStateDisabled）
+ a| 
+風險
+ a| 
+SVM
+ a| 
+警告
+
+
+
+ a| 
+已啟用儲存VM反勒索軟體監控（學習模式）（antiRansomwareSvmStateDryrun）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+
+
+ a| 
+適用於反勒索軟體監控的儲存VM（學習模式）（ocumEvtSvmArw候選人）
+ a| 
+活動
+ a| 
+SVM
+ a| 
+資訊
+
+|===

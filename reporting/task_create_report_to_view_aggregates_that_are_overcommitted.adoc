@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, overcommitted 
+summary: 您可以建立報告來分析儲存容量和使用Aggregate、並檢視過度委派的集合體。 
+---
+= 建立報告以檢視過度委派的集合體
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告來分析儲存容量和使用Aggregate、並檢視過度委派的集合體。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+使用下列步驟建立自訂檢視、以顯示超過過度委派臨界值的集合體、然後排程要為該檢視產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>* Aggregate *」。
+. 在View（檢視）功能表中、選取* Capacity *>* All Aggregate *。
+. 選取*顯示/隱藏*以移除報告中不想要的任何欄。
+. 將「過度委派容量%」欄拖曳到「Aggregate」欄附近。
+. 按一下篩選圖示、新增下列篩選條件、然後按一下*套用篩選條件*：
++
+** 過度使用容量%大於100%
+
+
+. 按一下「過度使用容量%」欄的頂端、依容量百分比排序結果。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Aggregate over提交」、然後按一下核取符號（image:../media/blue_check.gif[""]）。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 按一下「*新增排程*」將新列新增至「報告排程」頁面、以便定義新報告的排程特性。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可能想要新增更多容量來集合體、或是從特定集合體移除部分資料。

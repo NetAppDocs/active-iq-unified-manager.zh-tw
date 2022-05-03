@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/reference_performance_dashboard_cluster_banner_messages.html 
+sidebar: sidebar 
+keywords: performance, banner, messages, descriptions 
+summary: Unified Manager可能會在「通知」頁面（從「通知」警示）上顯示橫幅訊息、提醒您特定叢集的狀態問題。 
+---
+= 效能橫幅訊息與說明
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager可能會在「通知」頁面（從「通知」警示）上顯示橫幅訊息、提醒您特定叢集的狀態問題。
+
+|===
+| 橫幅訊息 | 說明 | 解決方案 
+
+
+ a| 
+「叢集_叢集名稱_並未收集任何效能資料。重新啟動Unified Manager以修正此問題
+ a| 
+Unified Manager集合服務已停止、而且不會從任何叢集收集效能資料。
+ a| 
+重新啟動Unified Manager以修正此問題。如果這無法解決問題、請聯絡技術支援部門。
+
+
+
+ a| 
+"從叢集叢集_叢集名稱_收集超過x小時的歷史資料。目前的資料收集將在收集所有歷史資料之後開始。
+ a| 
+目前正在執行資料持續性收集週期、以擷取即時叢集效能收集週期以外的效能資料。
+ a| 
+無需採取任何行動。在資料持續性收集週期完成之後、將會收集目前的效能資料。
+
+新增叢集或Unified Manager因故無法收集目前效能資料時、會執行資料持續性收集週期。
+
+|===

@@ -1,0 +1,72 @@
+---
+permalink: api-automation/concept_job_api.html 
+sidebar: sidebar 
+keywords: jobs, view 
+summary: 您可以使用管理伺服器類別下的工作API來檢視非同步作業的執行詳細資料。 
+---
+= 檢視工作與系統詳細資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「管理伺服器」類別下的「jobs」API來檢視非同步作業的執行詳細資料。「management server」（管理伺服器）類別下的「System」API可讓您在Active IQ Unified Manager 您的不執行個體環境中檢視執行個體詳細資料。
+
+
+
+== 檢視工作
+
+在功能方面、諸如新增和修改資源等作業是透過同步和非同步API入侵來執行。Active IQ Unified Manager排程非同步執行的調用、可由針對該呼叫所建立的工作物件加以追蹤。每個工作物件都有唯一的識別金鑰。每個工作物件都會傳回工作物件URI、供您存取及追蹤工作進度。您可以使用此API擷取每個執行的詳細資料。
+
+使用此API、您可以查詢資料中心的所有工作物件、包括歷史資料。根據預設、查詢所有工作會傳回透過Web UI和API介面觸發的最後20個工作的詳細資料。使用內建篩選器來檢視特定工作。您也可以使用工作金鑰來查詢特定工作的詳細資料、並在資源上執行下一組作業。
+
+[cols="4*"]
+|===
+| 類別 | HTTP動詞 | 路徑 | 說明 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/管理-伺服器/工作」
+ a| 
+傳回所有工作的工作詳細資料。如果沒有任何排序順序、則會在上方傳回上次提交的工作物件。
+
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/`management server / jobs/\{key}」
+
+輸入工作物件的工作金鑰、以檢視該工作的特定詳細資料。
+ a| 
+傳回特定工作物件的詳細資料。
+
+|===
+
+
+== 檢視系統詳細資料
+
+透過使用「/management server / system」API、您可以查詢Unified Manager環境的執行個體專屬詳細資料。API會傳回產品與服務的相關資訊、例如系統上安裝的Unified Manager版本、UUID、廠商名稱、主機作業系統及名稱、 說明、以及Unified Manager執行個體上執行的服務狀態。
+
+[cols="4*"]
+|===
+| 類別 | HTTP動詞 | 路徑 | 說明 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+「/管理伺服器/系統」
+ a| 
+執行此API不需要輸入參數。預設會傳回目前Unified Manager執行個體的系統詳細資料。
+
+|===

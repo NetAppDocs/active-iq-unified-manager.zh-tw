@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_volume_relationship_reports.html 
+sidebar: sidebar 
+keywords: customize, volume, relationship, reports 
+summary: Volume RelationsInventory報告可讓您分析叢集中的儲存設備詳細資料、瞭解磁碟區所需的保護程度、以及根據故障來源、模式和排程來篩選磁碟區詳細資料。 
+---
+= 自訂Volume關係報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Volume RelationsInventory報告可讓您分析叢集中的儲存設備詳細資料、瞭解磁碟區所需的保護程度、以及根據故障來源、模式和排程來篩選磁碟區詳細資料。

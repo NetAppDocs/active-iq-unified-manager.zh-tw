@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_work_with_reports.html 
+sidebar: sidebar 
+keywords: work, reports 
+summary: 瞭解如何在可共用的排程報告中尋找及自訂詳細目錄頁面檢視。 
+---
+= 使用報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+瞭解如何在可共用的排程報告中尋找及自訂詳細目錄頁面檢視。

@@ -1,0 +1,78 @@
+---
+permalink: install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager 
+summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unified Manager。 
+---
+= 升級Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在Windows平台下載並執行安裝檔案、將Unified Manager 9.8或9.9升級至9.10。
+
+*您需要的是什麼*
+
+* 您要升級Unified Manager的系統應符合系統和軟體需求。
++
+link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]
+
++
+link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]
+
++
+[NOTE]
+====
+從Unified Manager 9.5開始、OpenJDK會隨附於安裝套件中、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。
+
+====
++
+[NOTE]
+====
+開始升級之前、請先確定系統上已安裝Microsoft .NET 4.5.2以上版本。
+
+====
+* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.27、Unified Manager升級程序會自動將MySQL升級至8.0.27。您不得執行舊版MySQL的獨立升級至8.0.27。
+* 您應該擁有Windows系統管理員權限。請確定您的使用者名稱開頭沒有驚嘆號「！」。如果執行安裝的使用者名稱開頭為「！」、Unified Manager安裝可能會失敗。
+* 您應該擁有有效的認證資料、才能登入NetApp支援網站。
+* 為了避免資料遺失、您應該建立Unified Manager機器的備份、以防升級期間發生問題。
+* 您應該有足夠的磁碟空間來執行升級。
++
+安裝磁碟機上的可用空間應大於資料目錄的大小2.5 GB。升級會停止、並顯示錯誤訊息、指出可用空間不足時要新增的空間量。
+
+* 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。
+* 在升級之前、您應該先關閉_<InstallLDIR>\JDK_和_MySQL Data目錄_中任何開啟的檔案或資料夾。
+
+
+在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。
+
+如果Unified Manager與OnCommand Workflow Automation 某個實例搭配使用、而且兩種產品都有新版本的軟體、則您必須中斷這兩種產品的連線、然後在執行升級後設定新的Workflow Automation連線。如果您只要升級至其中一項產品、則應在升級後登入Workflow Automation、並確認它仍從Unified Manager取得資料。
+
+.步驟
+. 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+
+. 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
+. 將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。
+. 以系統管理員身分按一下滑鼠右鍵並執行Unified Manager安裝程式執行檔（.exe）。
++
+Unified Manager會提示您下列訊息：
+
++
+[listing]
+----
+This setup will perform an upgrade of Unified Manager. Do you want to continue?
+----
+. 按一下「*是*」、然後按一下「*下一步*」。
+. 輸入安裝期間設定的MySQL8 root密碼、然後按一下「*下一步*」。
+. 登入Unified Manager Web UI、然後驗證版本編號。
+
+
+[NOTE]
+====
+若要執行Unified Manager的無聲升級、請執行下列命令：「ActiveIQUnifiedManager-<版本\>.exe /s /v"MySQL_password=<密碼>/qn /l* v <system_drive>:\install.log"
+
+====

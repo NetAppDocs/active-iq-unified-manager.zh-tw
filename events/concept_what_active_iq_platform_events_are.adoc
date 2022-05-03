@@ -1,0 +1,24 @@
+---
+permalink: events/concept_what_active_iq_platform_events_are.html 
+sidebar: sidebar 
+keywords: active iq, platform, events 
+summary: Unified Manager可以顯示Active IQ 由該平台發現的事件。這些事件是透過針對AutoSupport Unified Manager監控的所有儲存系統所產生的各種資訊、執行一套規則來建立。 
+---
+= 什麼是平台事件Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager可以顯示Active IQ 由該平台發現的事件。這些事件是透過針對AutoSupport Unified Manager監控的所有儲存系統所產生的各種資訊、執行一套規則來建立。
+
+如需詳細資訊、請參閱 link:../events/concept_how_active_iq_platform_events_are_generated.html["如何產生平台事件Active IQ"]
+
+Unified Manager會自動檢查是否有新的規則檔、而且只有在有較新的規則時才會下載新的檔案。在沒有外部網路存取權的站台中、您需要從*儲存管理*>*事件設定*>*上傳規則*手動上傳規則。
+
+這些不屬於現有Unified Manager事件的範例、可識別與系統組態、佈線、最佳實務做法及可用度相關的事件或風險。Active IQ
+
+如需啟用平台事件的詳細資訊、請參閱 link:../config/concept_active_iq_platform_events.html["啟用Active IQ 入口網站活動"]如需上傳規則檔案的詳細資訊、請參閱 link:../events/task_upload_new_active_iq_rules_file.html["正在上傳新Active IQ 的功能更新檔案"]
+
+NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱 https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ"] 以取得更多資訊。

@@ -1,0 +1,26 @@
+---
+permalink: config/task_edit_authentication_servers.html 
+sidebar: sidebar 
+keywords: edit, authentication servers 
+summary: 您可以變更Unified Manager伺服器用來與驗證伺服器通訊的連接埠。 
+---
+= 編輯驗證伺服器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以變更Unified Manager伺服器用來與驗證伺服器通訊的連接埠。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色。
+
+.步驟
+. 在左導覽窗格中、按一下*一般*>*遠端驗證*。
+. 選中*禁用嵌套的Group Lookup（組查找）*框。
+. 在*驗證伺服器*區域中、選取您要編輯的驗證伺服器、然後按一下*編輯*。
+. 在*編輯驗證伺服器*對話方塊中、編輯連接埠詳細資料。
+. 按一下「 * 儲存 * 」。
+

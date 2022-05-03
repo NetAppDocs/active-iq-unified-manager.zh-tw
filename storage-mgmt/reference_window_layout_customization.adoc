@@ -1,0 +1,45 @@
+---
+permalink: storage-mgmt/reference_window_layout_customization.html 
+sidebar: sidebar 
+keywords: window, layout, customization 
+summary: 利用此功能、您可以自訂儲存和網路物件頁面上的資訊配置。Active IQ Unified Manager透過自訂視窗、您可以控制要檢視的資料、以及資料的顯示方式。 
+---
+= 自訂視窗配置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+利用此功能、您可以自訂儲存和網路物件頁面上的資訊配置。Active IQ Unified Manager透過自訂視窗、您可以控制要檢視的資料、以及資料的顯示方式。
+
+* *排序*
++
+您可以按一下欄標題來變更欄項目的排序順序。當您按一下欄標題時、排序箭頭（image:../media/sort_asc_um60.gif["欄排序圖示：遞增"] 和 image:../media/sort_desc_um60.gif["欄排序圖示：遞減"]）。
+
+* *篩選*
++
+您可以按一下篩選圖示（image:../media/filtering_icon.gif[""]）套用篩選條件以自訂儲存和網路物件頁面上的資訊顯示、以便僅顯示符合所提供條件的項目。您可以從「篩選」窗格套用篩選條件。
+
++
+「篩選」窗格可讓您根據選取的選項來篩選大部分欄。例如、在「Health：All Volumes（健全狀況：所有磁碟區）」檢視中、您可以在「State（狀態）」下選取適當的篩選選項、使用「Filtes（篩選器）」窗格來顯示所有離線的磁碟區。
+
++
+任何清單中的容量相關欄位、一律會以適當的單位、捨入至兩個小數位點來顯示容量資料。這也適用於篩選容量欄。例如、如果您使用「Health：All Aggregate」（健全狀況：所有集合體）檢視中的「Total Data Capacity」（總資料容量）欄中的篩選器來篩選大於20.45 GB的資料、則實際容量20.454 GB會顯示為20.45 GB。同樣地、如果您篩選的資料小於20.45 GB、實際容量為20.49 GB、則會顯示為20.45 GB。
+
++
+如果您使用「Health：All Aggregate」（健全狀況：所有集合體）檢視中的「Available Data %（可用資料%）」欄中的篩選器來篩選超過20.45%的資料、則實際容量為20.454%。同樣地、如果篩選資料的比例低於20.45%、實際容量的20.449%會顯示為20.45%。
+
+* *隱藏或顯示欄*
++
+您可以按一下欄顯示圖示（*顯示/隱藏*）來選取要顯示的欄。選取適當的欄之後、您就可以使用滑鼠拖曳欄位來重新排序。
+
+* *搜尋*
++
+您可以使用搜尋方塊來搜尋特定物件屬性、以協助精簡目錄頁面中的項目清單。例如、您可以輸入「Cloud」、以精簡Volume Inventory頁面中的Volume清單、查看其中包含「Cloud」一詞的所有Volume。
+
+* *匯出資料*
++
+您可以按一下「*報告*」按鈕（或*「匯出*」按鈕、將資料匯出至以逗號分隔的值「（.csv）」檔案、「（.pdf）」文件或Microsoft Excel「（.xlsx）」檔案、然後使用匯出的資料來建置報告。
+
+

@@ -1,0 +1,37 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html 
+sidebar: sidebar 
+keywords: netapp, snapshot, backup, windows, configure, ontap, cluster 
+summary: 在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與還原功能之前、您應該先執行ONTAP 一些針對Windows主機機器的預先設定。 
+---
+= 設定ONTAP 叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與還原功能之前、您應該先執行ONTAP 一些針對Windows主機機器的預先設定。
+
+您可以ONTAP 使用命令提示字元或System Manager使用者介面來設定叢集。設定叢集時、需要將資料生命期設定為可指派給儲存VM的iSCSI生命期。ONTAP下一步是使用System Manager使用者介面來設定啟用iSCSI的儲存VM。您需要為此儲存VM設定靜態網路路由、以控制LIF如何使用網路來處理傳出流量。
+
+[NOTE]
+====
+您應該有專用的Volume和LUN來進行備份組態。選取的磁碟區應僅包含一個LUN。LUN大小應至少為Active IQ Unified Manager 預期由SIZE處理的兩倍資料大小。
+
+====
+您需要執行下列組態：
+
+.步驟
+. 設定啟用iSCSI的儲存VM、或使用具有相同組態的現有儲存VM。
+. 為已設定的儲存VM設定網路路由。
+. 設定適當容量的磁碟區及內部的單一LUN、確保該磁碟區僅供此LUN使用。
++
+
+NOTE: 在系統管理員上建立LUN的案例中、取消對應LUN可能會刪除igroup、而且還原可能會失敗。若要避免這種情況發生、請確定在建立LUN時、已明確建立LUN、而且當LUN未對應時不會刪除LUN。
+
+. 在儲存VM中設定啟動器群組。
+. 設定連接埠集。
+. 將igroup與portset整合。
+. 將LUN對應至igroup。
+

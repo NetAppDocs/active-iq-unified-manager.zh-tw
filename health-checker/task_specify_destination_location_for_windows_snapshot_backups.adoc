@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html 
+sidebar: sidebar 
+keywords: specify, destination location, windows, snapshot, backups 
+summary: 您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的磁碟區上設定進行「靜態Snapshot」備份的目的地位置、然後使用維護主控台來定義位置。 
+---
+= 指定Windows Snapshot備份的目的地位置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的磁碟區上設定進行「靜態Snapshot」備份的目的地位置、然後使用維護主控台來定義位置。
+
+* 您必須擁有Active IQ Unified Manager 安裝了Windows主機的系統管理員權限、才能執行此作業。
+* 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
+* 您必須擁有叢集管理IP位址、儲存VM名稱、Volume名稱、LUN名稱、以及儲存系統使用者名稱和密碼。
+* 您必須將磁碟區當作網路磁碟機掛載到Active IQ Unified Manager 該主機、而且必須有掛載磁碟機。
+
+
+.步驟
+. 使用Power Shell連線Active IQ Unified Manager 至該系統的IP位址或完整網域名稱。
+. 使用維護使用者（umadmin）名稱和密碼登入系統。
+. 輸入命令「maintainess_Console」、然後按Enter。
+. 在維護主控台*主功能表*中、輸入*備份還原*選項的編號。
+. 輸入* Configure NetApp Snapshot Backup（配置NetApp Snapshot備份）*的編號。
+. 輸入要設定iSCSI的號碼。
+. 檢閱您需要提供的資訊、然後輸入*輸入備份組態詳細資料*的號碼。
+. 若要識別要寫入Snapshot的磁碟區、請輸入叢集管理介面的IP位址、儲存VM的名稱、磁碟區名稱、LUN名稱、儲存系統使用者名稱和密碼、以及掛載磁碟機。
+. 確認此資訊並輸入「y」。
++
+系統會執行下列工作：
+
++
+** 已驗證儲存VM
+** 已驗證Volume
+** 已驗證掛載磁碟機和狀態
+** LUN存在與狀態
+** 網路磁碟機存在
+** 在掛載的Volume中存在建議空間（mysql資料目錄的兩倍以上）已獲驗證
+** LUN路徑對應於磁碟區中的專用LUN
+** igroup名稱
+** 掛載網路磁碟機之磁碟區的Guid
+** iSCSI啟動器用於ONTAP 與功能不正常的通訊
+
+
+. 離開維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot備份排程（如果您尚未執行此操作）。
+

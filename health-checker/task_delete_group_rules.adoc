@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_group_rules.html 
+sidebar: sidebar 
+keywords: delete, group rules 
+summary: 當不再需要群組規則時、您可以從Active IQ Unified Manager 功能表刪除群組規則。 
+---
+= 刪除群組規則
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當不再需要群組規則時、您可以從Active IQ Unified Manager 功能表刪除群組規則。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+刪除群組規則時、相關的儲存物件將會從群組中移除。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*群組*。
+. 在*群組規則*索引標籤中、選取您要刪除的群組規則、然後按一下*刪除*。
+. 在*警告*對話方塊中、按一下*是*確認刪除。
+

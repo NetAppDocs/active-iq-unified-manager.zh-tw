@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html 
+sidebar: sidebar 
+keywords: contract, renewal, cluster, inventory report, hardware, generate 
+summary: 您可以產生一份報告、其中包含叢集與節點資訊的完整清單、例如硬體型號與序號、磁碟類型與數量、安裝的授權等等。此報告有助於在未連線至NetAppActive IQ平台的安全站台（「暗站」）內續約。 
+---
+= 產生硬體庫存報告以進行合約續約
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以產生一份報告、其中包含叢集與節點資訊的完整清單、例如硬體型號與序號、磁碟類型與數量、安裝的授權等等。此報告有助於在未連線至NetAppActive IQ平台的安全站台（「標記」站台）內續約。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+.步驟
+. 在左側導覽窗格中、按一下「*儲存設備*>*節點*」。
+. 轉到*健全狀況：所有節點*檢視或*效能：所有節點*檢視。
+. 選擇*報告*>***>***硬體庫存報告*。
++
+硬體庫存報告會以.csv檔案格式下載、並提供截至目前日期的完整資訊。
+
+. 請將此資訊提供給您的NetApp支援聯絡人以進行續約。
+

@@ -1,0 +1,26 @@
+---
+permalink: events/task_view_unassigned_events.html 
+sidebar: sidebar 
+keywords: view, unassigned, events 
+summary: 您可以檢視未指派的事件、然後將每個事件指派給可以解決這些事件的使用者。 
+---
+= 檢視未指派的事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視未指派的事件、然後將每個事件指派給可以解決這些事件的使用者。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+.步驟
+. 在左側導覽窗格中、按一下*事件管理*。
++
+依預設、「事件管理」目錄頁會顯示「新增」和「已確認」事件。
+
+. 從「*篩選器*」窗格中、選取「*指派對象*」區域中的「*未指派*篩選器」選項。
+

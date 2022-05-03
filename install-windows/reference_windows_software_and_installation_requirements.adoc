@@ -1,0 +1,93 @@
+---
+permalink: install-windows/reference_windows_software_and_installation_requirements.html 
+sidebar: sidebar 
+keywords: windows, software, installation, requirements, system 
+summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。 
+---
+= Windows軟體與安裝需求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。
+
+
+
+== 作業系統軟體
+
+您可以在下列Windows版本上安裝Unified Manager：* Microsoft Windows Server 2016 Standard與Datacenter Edition * Microsoft Windows Server 2019 Standard與Datacenter Edition
+
+下列語言的64位元Windows作業系統支援Unified Manager：
+
+* 英文
+* 日文
+* 簡體中文
+
+
+請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。
+
+
+
+== 第三方軟體
+
+下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
+
+* Microsoft Visual C&#43；&#43；2015可轉散發套件14.26.28720.3版
+* Microsoft Visual C&#43;&#43;適用於Visual Studio 2013 12.0.40660.0版的可轉散發套件
+* MySQL社群版本8.0.27
+* Python 3.9.x
+* OpenJDK 11.0.12版
+* p7zip版本18.05或更新版本
+
+
+[NOTE]
+====
+從Unified Manager 9.5開始、Unified Manager安裝套件中就會提供OpenJDK、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。
+
+====
+如果MySQL已預先安裝、您應確保：
+
+* 使用預設連接埠。
+* 未安裝範例資料庫。
+* 服務名稱為「MoYSQL8」。
+
+
+Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager搭售及設定。
+
+[NOTE]
+====
+在升級任何協力廠商軟體之前、您應該先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。
+
+====
+
+
+== 安裝需求
+
+* 應安裝Microsoft .NET 4.5.2或更新版本。
+* 「暫時」目錄應設定2 GB磁碟空間、以便擷取安裝檔案。若要驗證是否已建立目錄、請在命令列介面上執行下列命令：「ECHO %TEMP%」
+* 您應該在Windows磁碟機中保留2 GB的磁碟空間、以便快取Unified Manager MSI檔案。
+* 您想要安裝Unified Manager的Microsoft Windows Server應設定完整網域名稱（FQDN）、以便「ping」對主機名稱和FQDN的回應成功。
+* 您應該停用Microsoft IIS全球網路發佈服務、並確保連接埠80和443是免費的。
+* 您應該確定在安裝期間停用「Windows Installer RDS相容性」的遠端桌面工作階段主機設定。
+* udp連接埠514應該是免費的、不應由任何其他服務使用。
+
+
+[NOTE]
+====
+Unified Manager安裝程式會在Windows Defender中設定下列排除項目：
+
+* Unified Manager資料目錄
+* Unified Manager安裝目錄
+* MySQL資料目錄
+
+
+如果您的伺服器安裝了不同的防毒掃描程式、您應該手動設定這些排除項目。
+
+====

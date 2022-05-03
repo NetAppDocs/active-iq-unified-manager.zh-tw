@@ -1,0 +1,24 @@
+---
+permalink: install-vapp/concept_requirements_for_installing_unified_manager.html 
+sidebar: sidebar 
+keywords: requirements, installing, unified, manager 
+summary: 開始安裝程序之前、請先確定您要安裝Unified Manager的伺服器符合特定的軟體、硬體、CPU和記憶體需求。 
+---
+= 安裝Unified Manager的需求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+開始安裝程序之前、請先確定您要安裝Unified Manager的伺服器符合特定的軟體、硬體、CPU和記憶體需求。
+
+NetApp不支援對Unified Manager應用程式程式碼進行任何修改。如果您需要將任何安全措施套用至Unified Manager伺服器、則應將這些變更變更套用至安裝Unified Manager的作業系統。
+
+如需將安全性措施套用至Unified Manager伺服器的詳細資訊、請參閱知識庫文章。
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["可支援適用於Active IQ Unified Manager 叢集Data ONTAP 式叢集式不支援的安全性措施"]
+
+*相關資訊*
+
+如需詳細資訊、請參閱 https://mysupport.netapp.com/matrix["NetApp 互通性對照表工具"]

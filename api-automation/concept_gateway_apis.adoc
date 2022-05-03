@@ -1,0 +1,115 @@
+---
+permalink: api-automation/concept_gateway_apis.html 
+sidebar: sidebar 
+keywords: access, ONTAP, APIs, proxy, access 
+summary: 閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認證來執行ONTAP 「資訊」API及管理儲存物件。從Unified Manager Web UI啟用API閘道功能時、即可使用這些API。 
+---
+= 透過Proxy存取功能存取ONTAP 功能的部分API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認證來執行ONTAP 「資訊」API及管理儲存物件。從Unified Manager Web UI啟用API閘道功能時、即可使用這些API。
+
+Unified Manager REST API僅支援在Unified Manager資料來源ONTAP （即叢集）上執行的一組特定動作。您可以透過ONTAP 「Is方面」API來使用其他功能。閘道API可讓Unified Manager成為傳遞介面、在ONTAP 不個別登入每個資料中心叢集的情況下、將所有API要求在整個叢集上執行通道化。它可做為單一管理點、在ONTAP Unified Manager執行個體所管理的整個叢集上執行API。API閘道功能可讓Unified Manager成為單一控制面板、讓您無需ONTAP 個別登入即可管理多個支援叢集。閘道API可讓您持續登入Unified Manager、ONTAP 並透過執行ONTAP REST API作業來管理各種支援叢集。
+
+[NOTE]
+====
+所有使用者都可以使用「Get」（取得）作業來執行查詢。應用程式管理員可以執行ONTAP 所有的靜止作業。
+
+====
+閘道會做為Proxy、以ONTAP 相同格式維護介面標頭和實體要求、使API要求通道化。您可以使用Unified Manager認證資料並執行特定作業來存取及管理ONTAP 等功能、而無需傳遞個別的叢集認證資料。它會繼續管理叢集驗證和叢集管理、但會重新導向API要求、以便直接在特定叢集上執行。API傳回的回應與直接ONTAP 從ONTAP 原地執行的個別REST API所傳回的回應相同。
+
+[cols="3*"]
+|===
+| HTTP動詞 | 路徑（URL） | 說明 
+
+
+ a| 
+《 Get 》（取得）
+ a| 
+網關
+ a| 
+此Get方法會擷取Unified Manager管理的所有叢集清單、這些叢集可支援ONTAP REST呼叫。您可以驗證叢集詳細資料、並選擇根據叢集UUID或通用唯一識別碼（UUID）執行其他方法。
+
+[NOTE]
+====
+閘道API只會擷取ONTAP 支援的叢集、並透過HTTPS新增至Unified Manager。
+
+====
+
+
+ a| 
+《 Get 》（取得）
+
+貼文
+
+" 刪除 "
+
+《修補程式》
+
+「options」（選項）（Swagger無法使用）
+
+「HEAD」（Swagger無法使用）
+ a| 
+「/」閘道/\｛uuid｝/\｛path｝
+
+[NOTE]
+====
+｛uuid｝的值必須以要執行REST作業的叢集UUID取代。此外、請確定UUID是ONTAP 由支援的叢集、並透過HTTPS新增至Unified Manager。\｛path｝必須由ONTAP 不景點URL取代。您必須從URL中移除「/API/」。
+
+==== a| 
+這是單點Proxy API、可支援POST、刪除、修補作業、以及取得ONTAP 所有的REST API。只要ONTAP 受到支援、任何API都不受任何限制。無法停用通道或Proxy功能。
+
+「options」方法會傳回ONTAP 由REST API支援的所有作業。例如ONTAP 、如果某個不支援「Get」（取得）作業的情形、則使用此閘道API執行「options」（選項）方法會傳回「Get」（取得）作為回應。Swagger不支援此方法、但可在其他API工具上執行。
+
+「選項」方法可決定資源是否可用。此作業可用於檢視HTTP回應標頭中有關資源的中繼資料。Swagger不支援此方法、但可在其他API工具上執行。
+
+|===
+
+
+== 瞭解API閘道通道
+
+閘道API可ONTAP 讓您透過Unified Manager管理各種物件。Unified Manager可管理叢集和驗證詳細資料、並將要求重新導向ONTAP 至REST端點。閘道API會將URL和Hypermedia轉換為標頭和回應本文中的應用程式狀態引擎（HATEOAS）連結、並以API閘道基礎URL進行。閘道API可做為Proxy基礎URL、您可以在其中附加ONTAP 靜態URL、並執行所需ONTAP 的REST端點。
+
+在此範例中、閘道API（Proxy基礎URL）為：「+/閘道/｛uuid｝/+」
+
+採用的功能包括：「/storage / volume」ONTAP 。您需要新增ONTAP 「Rest API REST URL」做為路徑參數的值。
+
+[NOTE]
+====
+新增路徑時、請確定您已移除URL開頭的「/」符號。對於API「/儲存/磁碟區」、請新增「儲存/磁碟區」
+
+====
+附加的URL為：「+/gateways /｛uuid｝/儲存設備/磁碟區+」
+
+在執行「Get」作業時、產生的URL如下：「GEThttps：//<主機名稱\>/API/gateways/<cluster UUID \>/storage / volume」
+
+將在附加的URL中移除「/sAPI」標記ONTAP 、並保留閘道API的標記。
+
+* Curl命令範例*
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes" -H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+API會傳回該叢集中的儲存磁碟區清單。回應格式與ONTAP 您在執行相同的來自S什麼 的API時所收到的格式相同。傳回的狀態代碼為ONTAP 「靜止」狀態代碼。
+
+
+
+== 設定API範圍
+
+所有API都在叢集範圍內設定內容。以儲存VM為基礎運作的API也會將叢集當作範圍、也就是API作業會在受管理叢集內的特定儲存VM上執行。當您執行「/gatewes/\｛uuid｝/\｛path｝」API時、請務必輸入執行作業之叢集的叢集UUID（Unified Manager資料來源UUID）。若要將內容設定為該叢集中的特定儲存VM、請輸入儲存VM金鑰作為X-Dot-Svm-UUID參數、或輸入儲存VM名稱作為X-Dot-Svm-Name參數。此參數會新增為字串標頭中的篩選器、而且作業會在該叢集內該儲存VM的範圍內執行。
+
+* Curl命令範例*
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
+-H "Authorization: Basic <Base64EncodedCredentials>"
+----
+如需使用ONTAP 靜態API的詳細資訊、請參閱ONTAP 《關於使用靜態API的開發人員指南》。
+
+https://docs.netapp.com/us-en/ontap-automation/index.html["靜態API自動化ONTAP"]

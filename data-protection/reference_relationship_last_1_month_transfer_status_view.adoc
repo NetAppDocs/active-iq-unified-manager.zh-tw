@@ -1,0 +1,66 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_status_view.html 
+sidebar: sidebar 
+keywords: relationship, 1 month, transfer status, view 
+summary: 「關係：過去1個月的傳輸狀態」檢視可讓您分析非同步關係中磁碟區和儲存VM一段時間內的傳輸趨勢。此頁面也會顯示傳輸是否成功或失敗。 
+---
+= 關係：過去1個月的「傳輸狀態」檢視
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「關係：過去1個月的傳輸狀態」檢視可讓您分析非同步關係中磁碟區和儲存VM一段時間內的傳輸趨勢。此頁面也會顯示傳輸是否成功或失敗。
+
+頁面頂端的控制項可讓您執行搜尋、找出特定物件、建立及套用篩選條件、以縮小顯示資料的清單、新增/移除/重新排列頁面上的欄位、並將頁面上的資料匯出至「.csv'、「.pdf」或「.xlsx'」檔案。自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。您可以使用*篩選器*選項、只檢視所選的儲存系統、例如僅磁碟區或僅儲存VM。相同的報告會顯示在「Storage（儲存）」頁面中、僅適用於選取的儲存實體。例如、若要檢視磁碟區關係、您可以從* Storage *>* Storage VMS*>* Relationationationationships：Last 1 Month Transfer Status *功能表、或從* Protection *>* Relationsh*>* Relationships： 過去1個月傳輸狀態*功能表、並使用*篩選器*僅檢視磁碟區的資料。
+
+* *來源Volume *
++
+顯示來源Volume名稱。
+
+* *目的地Volume *
++
+顯示目的地Volume名稱。
+
+* *作業類型*
++
+顯示磁碟區傳輸類型。
+
+* *操作結果*
++
+顯示Volume傳輸是否成功。
+
+* *傳輸開始時間*
++
+顯示磁碟區傳輸開始時間。
+
+* *傳輸結束時間*
++
+顯示Volume傳輸結束時間。
+
+* *傳輸持續時間*
++
+顯示完成Volume傳輸所需的時間（以小時為單位）。
+
+* *傳輸大小*
++
+顯示傳輸磁碟區的大小（以MB為單位）。
+
+* *來源SVM*
++
+顯示儲存虛擬機器（SVM）名稱。
+
+* *來源叢集*
++
+顯示來源叢集名稱。
+
+* *目的地SVM*
++
+顯示目的地SVM名稱。
+
+* *目的地叢集*
++
+顯示目的地叢集名稱。
+
+

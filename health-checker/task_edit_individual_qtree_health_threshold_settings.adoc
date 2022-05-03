@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_edit_individual_qtree_health_threshold_settings.html 
+sidebar: sidebar 
+keywords: edit, individual, qtree, health, threshold, settings 
+summary: 您可以編輯一或多個qtree容量的健全狀況臨界值設定。超過臨界值時、系統會產生警示並通知您。這些通知可協助您根據所產生的事件採取預防措施。 
+---
+= 編輯個別qtree健全狀況臨界值設定
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯一或多個qtree容量的健全狀況臨界值設定。超過臨界值時、系統會產生警示並通知您。這些通知可協助您根據所產生的事件採取預防措施。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+根據臨界值的變更、會在下一個監控週期產生或淘汰事件。
+
+.步驟
+. 在左側導覽窗格中、按一下「*儲存設備*」>「* qtree *」。
+. 在「*容量：所有qtree *」檢視中、選取一或多個qtree、然後按一下「*編輯臨界值*」。
+. 在「*編輯Qtree臨界值*」對話方塊中、變更所選qtree或qtree的容量臨界值、然後按一下「*儲存*」。
++
+[NOTE]
+====
+您也可以從「Storage VM/健全狀況」詳細資料頁面的qtree索引標籤設定個別的qtree臨界值。
+
+====
+

@@ -1,0 +1,34 @@
+---
+permalink: storage-mgmt/task_remove_clusters.html 
+sidebar: sidebar 
+keywords: remove, cluster 
+summary: 您可以使用「叢集設定」頁面、從Unified Manager移除叢集。例如、當叢集探索失敗或想要取消委任儲存系統時、您可以移除叢集。 
+---
+= 移除叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「叢集設定」頁面、從Unified Manager移除叢集。例如、當叢集探索失敗或想要取消委任儲存系統時、您可以移除叢集。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員角色或儲存管理員角色。
+
+此工作會從Unified Manager移除所選的叢集。移除叢集之後、就不再受到監控。向移除叢集登錄的Unified Manager執行個體也會從叢集取消登錄。
+
+移除叢集時、也會從Unified Manager刪除其所有儲存物件、歷史資料、儲存服務及所有相關事件。這些變更會在下一個資料收集週期後反映在目錄頁和詳細資料頁面上。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。
+. 在「叢集設定」頁面上、選取您要移除的叢集、然後按一下「*移除*」。
+. 在「*移除資料來源*」訊息對話方塊中、按一下「*移除*」以確認移除要求。
+
+
+*相關資訊*
+
+link:../config/task_add_users.html["新增使用者"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["檢視叢集清單和詳細資料"]

@@ -1,0 +1,42 @@
+---
+permalink: data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html 
+sidebar: sidebar 
+keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
+summary: 當您靜止不動以停止排程的傳輸後、可以使用「恢復」重新啟用排程的傳輸、以保護來源或主要磁碟區上的資料。在下次排程的傳輸時間間隔、從檢查點恢復傳輸（如果存在）。 
+---
+= 從「Volume Relationships」（磁碟區關係）頁面、以靜止關係恢復排程的傳輸
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在您靜止不動以停止排程的傳輸之後、您可以使用*恢復*重新啟用排程的傳輸、以保護來源或主要磁碟區上的資料。在下次排程的傳輸時間間隔、從檢查點恢復傳輸（如果存在）。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須設定Workflow Automation。
+
+
+您最多可以選取10個靜止關係、以便繼續傳輸。
+
+.步驟
+. 從Volume * Relationationationation*頁面中、選取一個或多個具有靜止關係的磁碟區、然後在工具列上按一下* Resumes*。
+. 在*恢復*對話方塊中、按一下*繼續*。
++
+您將返回Volume Relationships（Volume關係）頁面。
+
+. 若要檢視相關的工作任務並追蹤其進度、請按一下「* Volume Relationationation*」頁面頂端顯示的工作連結。
+. 執行下列其中一項：
++
+** 如果只顯示一個工作、請在「工作詳細資料」頁面中按一下「*重新整理*」、以更新與保護組態工作相關的工作清單和工作詳細資料、並決定工作何時完成。
+** 如果顯示多個工作、
++
+... 在「工作」頁面中、按一下您要檢視其詳細資料的工作。
+... 在「工作詳細資料」頁面中、按一下「*重新整理*」以更新與保護組態工作相關的工作清單和工作詳細資料、並決定工作何時完成。工作完成後、資料傳輸會在下一個排定的傳輸時間間隔恢復。
+
+
+
+
+

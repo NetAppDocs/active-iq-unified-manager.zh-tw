@@ -1,0 +1,24 @@
+---
+permalink: health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html 
+sidebar: sidebar 
+keywords: view, cluster authentication status, user authentication, manage, clusters 
+summary: 「安全性」頁面會顯示驗證每個叢集上使用者的類型、以及使用每種類型存取叢集的使用者數量。這可讓您確認使用者驗證是否已依照組織的定義安全地執行。 
+---
+= 檢視如何在所有叢集上管理使用者驗證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「安全性」頁面會顯示驗證每個叢集上使用者的類型、以及使用每種類型存取叢集的使用者數量。這可讓您確認使用者驗證是否已依照組織的定義安全地執行。
+
+.步驟
+. 在左側導覽窗格中、按一下*儀表板*。
+. 在儀表板頂端、從下拉式功能表中選取*所有叢集*。
+. 按一下「*安全性*」面板中的向右箭頭、就會顯示「*安全性*」頁面。
+. 查看*叢集驗證*卡、查看使用每種驗證類型存取系統的使用者人數。
+. 檢視*叢集安全性*卡、以檢視驗證每個叢集上使用者的驗證機制。
+
+
+如果有些使用者使用不安全的方法存取系統、或使用NetApp不建議的方法、您可以停用此方法。

@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
+sidebar: sidebar 
+keywords: configure, backup, location, windows 
+summary: 您應該設定磁碟區、以便在Active IQ Unified Manager Windows上安裝了Snapshot備份時、仍能儲存Snapshot備份。 
+---
+= 設定Windows的備份位置
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您應該設定磁碟區、以便在Active IQ Unified Manager Windows上安裝了Snapshot備份時、仍能儲存Snapshot備份。
+
+*您需要的是什麼*
+
+叢集、儲存VM和Volume必須符合下列需求：
+
+* 叢集需求：
++
+** 必須安裝不含更新版本的更新版本ONTAP
+** 它應位於統一化管理器伺服器附近的地理位置
+** 它由Unified Manager監控
+
+
+* 儲存VM需求：
++
+** iSCSI連線ONTAP 功能
+** 必須為已設定的機器啟用iSCSI傳輸協定
+** 您應該有專屬的Volume和LUN來進行備份組態。選取的磁碟區應僅包含一個LUN、而不包含其他任何項目。
+** LUN大小應至少為9.9 Active IQ Unified Manager 時預期處理的資料大小兩倍。
++
+這也會設定磁碟區的相同大小需求。
+
+** 確定已選取「All Read/Write」（全部讀取/寫入）存取權
+** 請確定匯出原則中的超級使用者存取設為「any」
+
+
+* Volume與LUN需求：
++
+** Volume的大小應至少為Unified Manager MySQL資料目錄的兩倍。
+** 安全樣式必須設定為Windows
+** 必須停用本機快照原則
+** 應啟用Volume自動調整大小
+** 效能服務層級應設定為高IOPS且低延遲的原則、例如「Extreme」
+
+
+

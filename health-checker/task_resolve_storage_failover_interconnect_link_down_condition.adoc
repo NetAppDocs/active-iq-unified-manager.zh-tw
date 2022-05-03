@@ -1,0 +1,56 @@
+---
+permalink: health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html 
+sidebar: sidebar 
+keywords: scan, resolve, storage, failover, interconnect link, conditions 
+summary: 此工作流程為您提供一個範例、說明您可以如何掃描、評估及解決不具所有權的儲存容錯移轉互連連結條件。在此案例中、您是使用Unified Manager掃描儲存容錯移轉風險的管理員、然後在ONTAP 節點上開始進行版本升級。 
+---
+= 掃描及解決儲存容錯移轉互連連結中斷的情況
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此工作流程為您提供一個範例、說明您可以如何掃描、評估及解決不具所有權的儲存容錯移轉互連連結條件。在此案例中、您是使用Unified Manager掃描儲存容錯移轉風險的管理員、然後在ONTAP 節點上開始進行版本升級。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+如果在不中斷升級的過程中、HA配對節點之間的儲存容錯移轉互連失敗、則升級會失敗。因此、系統管理員通常會在開始升級之前、監控並確認要升級的叢集節點上的儲存容錯移轉可靠性。
+
+.步驟
+. 在左側導覽窗格中、按一下*事件管理*。
+. 在「*事件管理*」目錄頁面中、選取*作用中可用度事件*。
+. 在*事件管理*目錄頁*名稱*欄的頂端、按一下 image:../media/filtericon_um60.png["欄篩選的圖示"] 並在文字方塊中輸入「*容錯移轉」、將事件限制為儲存容錯移轉相關事件。
++
+顯示與儲存容錯移轉條件相關的所有過去事件。
+
++
+在此案例中、Unified Manager會在可用度事件區段中顯示事件「停用容錯移轉互連一或多個連結」。
+
+. 如果「*事件管理*」目錄頁顯示一或多個與儲存容錯移轉相關的事件、請執行下列步驟：
++
+.. 按一下事件標題連結、即可顯示該事件的事件詳細資料。
++
+在此範例中、按一下事件標題「將容錯移轉互連一或多個連結關閉」。
+
++
+此時會顯示該事件的「事件詳細資料」頁面。
+
+.. 在「事件詳細資料」頁面上、您可以執行下列一或多項工作：
++
+*** 檢閱「原因」欄位中的錯誤訊息、並評估問題。
+*** 將事件指派給系統管理員。
+*** 認可活動。
+
+
+
+
+
+
+*相關資訊*
+
+link:../events/reference_event_details_page.html["活動詳細資料頁面"]
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Unified Manager使用者角色與功能"]

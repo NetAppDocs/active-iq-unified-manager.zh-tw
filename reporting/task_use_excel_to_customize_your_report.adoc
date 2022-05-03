@@ -1,0 +1,55 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html 
+sidebar: sidebar 
+keywords: excel, customize, report 
+summary: 儲存檢視之後、您可以下載Excel活頁簿格式（.xlsxs）。開啟Excel檔案時、您可以使用進階Excel功能自訂報告。 
+---
+= 使用Excel自訂您的報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+儲存檢視之後、您可以下載Excel活頁簿格式（.xlsxs）。開啟Excel檔案時、您可以使用進階Excel功能自訂報告。
+
+*您需要的是什麼*
+
+您只能上傳副檔名為.xlsx.的Excel活頁簿檔案。
+
+例如、您可以在報告中使用的一些進階Excel功能包括：
+
+* 多欄排序
+* 複雜的篩選
+* 樞紐分析表
+* 圖表
+
+
+[NOTE]
+====
+* 下載的Excel檔案會使用檢視的預設檔案名稱、而非您儲存的名稱。
++
+** 格式為「<View Area（檢視區域）>-<Day（日期）>-<month>-<Year>-<hour（年）>-<minutes>-<Second（秒）>.xlsx.」
+** 例如、名為「Volume-not online」的自訂儲存檢視、如果儲存於該日和該時段、其檔案名稱為「heite-Volumes（健全狀況-磁碟區）-05-May-2020、19-18-00。
+
+
+* 您可以將工作表新增至Excel檔案、但不要變更現有的工作表。
++
+** 請勿變更現有的工作表、資料和資訊。而是將資料複製到您建立的新頁面。
+** 上述規則的一個例外是、您可以在「data'」頁面上建立公式。使用資料頁面公式在新頁面上建立圖表。
+** 請勿命名新的工作表資料或資訊。
+
+
+* 如果存在自訂的Excel檔案、則「*報告*>*上傳Excel *」功能表項目旁會有核取符號。當您下載Excel檔案時、會使用含自訂項目的版本。image:../media/upload_excel.png[""]
+
+
+====
+.步驟
+. 開啟您要做為報告基礎的預設、自訂或儲存檢視。
+. 選擇*報告*>*下載Excel *。
+. 儲存檔案。檔案會儲存至您的下載資料夾。
+. 在Excel中開啟儲存的檔案。請勿將檔案移至新位置、或是在其他位置工作、請在上傳檔案之前、使用原始檔案名稱將檔案存回原始位置。
+. 使用Excel功能自訂檔案、例如複雜的排序、階層式篩選、樞紐分析表或圖表。如需詳細資訊、請參閱Microsoft®Excel文件。
+. 選擇* Reports*>*上傳Excel *、然後選取您修改的檔案。最近下載的檔案會從相同的檔案位置上傳。
+. 使用*排程報告*功能將測試報告傳送給您自己。
+

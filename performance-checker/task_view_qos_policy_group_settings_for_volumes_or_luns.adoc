@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html 
+sidebar: sidebar 
+keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
+summary: 您可以檢視已套用至磁碟區和LUN的QoS原則群組、也可以連結至效能/QoS原則群組檢視、以顯示每個QoS原則的詳細組態設定。 
+---
+= 檢視套用至特定磁碟區或LUN的QoS原則群組設定
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視已套用至磁碟區和LUN的QoS原則群組、也可以連結至效能/QoS原則群組檢視、以顯示每個QoS原則的詳細組態設定。
+
+以下是檢視套用至磁碟區之QoS原則的步驟。檢視LUN資訊的步驟類似。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
++
+預設會顯示健全狀況：所有磁碟區檢視。
+
+. 在View（檢視）功能表中、選取* Performance（效能）：Volume in QoS Policy Group*（QoS原則群組*中的Volume）。
+. 找到您要檢閱的磁碟區、然後向右捲動、直到看到「* QoS原則群組*」欄為止。
+. 按一下QoS原則群組名稱。
++
+系統會顯示對應的「服務品質」頁面、視其為傳統QoS原則、調適性QoS原則或使用Unified Manager Performance Service層級建立的QoS原則而定。
+
+. 檢視QoS原則群組的詳細組態設定。
+. 按一下「Expand（展開）」按鈕（image:../media/chevron_down.gif[""]）在QoS原則群組名稱旁、檢視原則群組的詳細資料。
+

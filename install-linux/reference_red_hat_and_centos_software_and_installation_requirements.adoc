@@ -1,0 +1,110 @@
+---
+permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+sidebar: sidebar 
+keywords: linux software, installation requirements, system, authorization,  requirements 
+summary: 安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。 
+---
+= Linux軟體與安裝需求
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。
+
+
+
+== 作業系統軟體
+
+Linux系統必須安裝下列版本的作業系統和支援軟體：
+
+* Red Hat Enterprise Linux或CentOS 7.x與8.x版、以x86_64架構為基礎。不支援CentOS串流。
+
+
+請參閱互通性對照表、以取得所支援Red Hat Enterprise Linux和CentOS版本的完整且最新清單。
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+
+NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Configuration Manager（Software））來安裝Unified Manager。
+
+
+
+== 第三方軟體
+
+Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager搭售及設定。
+
+Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。
+
+* MySQL Community Edition 8.0.27版（來自MySQL儲存庫）。
+* OpenJDK 11.0.12版（來自Red Hat Extra Enterprise Linux Server儲存庫）
+* Python 3.6.x
+* p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）
+
+
+[NOTE]
+====
+在升級任何協力廠商軟體之前、您必須先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。
+
+====
+
+
+== 使用者授權要求
+
+在Linux系統上安裝Unified Manager可以由root使用者或非root使用者使用「show」命令來執行。
+
+
+
+== 安裝需求
+
+以下列出安裝Red Hat Enterprise Linux或CentOS以及系統上相關儲存庫的最佳實務做法。安裝或設定不同的系統、或是部署在異地（雲端）、可能需要額外的步驟、而Unified Manager可能無法在這類部署中正常運作。
+
+* 您必須根據Red Hat最佳實務做法來安裝Red Hat Enterprise Linux或CentOS、並選擇下列預設選項、這需要選擇「使用GUI的伺服器」基礎環境。
+* 在Red Hat Enterprise Linux或CentOS上安裝Unified Manager時、系統必須能夠存取適當的儲存庫、以便安裝程式存取及安裝所有必要的軟體相依性。
+* 若要讓「yum」安裝程式在Red Hat Enterprise Linux儲存庫中找到相依軟體、您必須在Red Hat Enterprise Linux安裝期間或之後使用有效的Red Hat訂閱來註冊系統。
++
+如需Red Hat訂購管理程式的相關資訊、請參閱Red Hat說明文件。
+
+* 您必須啟用Enterprise Linux（E規劃）的額外套件儲存庫、才能在系統上成功安裝所需的協力廠商公用程式。
++
+如果系統上未設定Epel儲存庫、您必須手動下載及設定儲存庫。
+
++
+link:task_manually_configure_epel_repository.html["手動設定Epel儲存庫"]
+
+* 如果未安裝正確版本的MySQL、您必須啟用MySQL儲存庫、才能在系統上成功安裝MySQL軟體。
++
+如果您的系統上未設定MySQL儲存庫、則必須手動下載及設定儲存庫。
+
++
+link:task_manually_configure_mysql_repository.html["手動設定MySQL儲存庫"]
+
+
+
+如果您的系統無法存取網際網路、而且儲存庫並未從連線至未連線系統的網際網路連線系統鏡射到未連線的系統、則應遵循安裝指示來判斷系統的外部軟體相依性。然後、您可以將所需的軟體下載到連線網際網路的系統、並將「.rpm」檔案複製到您打算安裝Unified Manager的系統。若要下載成品和套件、您必須使用「yum install」命令。您必須確保兩個系統執行相同的作業系統版本、而且訂閱授權適用於適當的Red Hat Enterprise Linux或CentOS版本。
+
+[NOTE]
+====
+您不得從此處列出的儲存庫以外的儲存庫安裝所需的協力廠商軟體。從Red Hat儲存庫安裝的軟體是專為Red Hat Enterprise Linux所設計、並符合Red Hat最佳實務做法（目錄配置、權限等）。來自其他位置的軟體可能不遵守這些準則、這可能會導致Unified Manager安裝失敗、或是在未來升級時造成問題。
+
+====
+
+
+== 連接埠443需求
+
+Red Hat Enterprise Linux和CentOS的一般映像可能會封鎖對連接埠443的外部存取。由於此限制、您可能無法在安裝Unified Manager之後連線至系統管理員Web UI。執行下列命令可讓所有外部使用者和應用程式存取通用Red Hat Enterprise Linux或CentOS系統上的連接埠443。
+
+防火牆-cmd --partni=public-add-port=443/tcp --fur永久性；防火牆-cmd --relev'
+
+您必須安裝Red Hat Enterprise Linux和CentOS、並以「使用GUI的伺服器」為基礎環境。它提供Unified Manager安裝說明所使用的命令。其他基礎環境可能需要您安裝額外的命令來驗證或完成安裝。如果您的系統上沒有可用的「firewall-cmd」、您必須執行下列命令來安裝：
+
+#Sudo yum install firewalld'
+
+執行命令之前、請先聯絡您的IT部門、以瞭解您的安全性原則是否需要不同的程序。
+
+[NOTE]
+====
+應在CentOS和Red Hat系統上停用THP（透明的巨型分頁）。啟用時、在某些情況下、當某些程序耗用過多記憶體並終止時、可能會導致Unified Manager關機。
+
+====

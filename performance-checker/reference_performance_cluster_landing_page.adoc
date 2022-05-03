@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/reference_performance_cluster_landing_page.html 
+sidebar: sidebar 
+keywords: performance, cluster, landing page 
+summary: 「效能叢集登陸」頁面會顯示所選叢集的高層效能狀態。此頁面可讓您存取所選叢集上儲存物件之每個效能計數器的完整詳細資料。 
+---
+= 效能叢集登陸頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「效能叢集登陸」頁面會顯示所選叢集的高層效能狀態。此頁面可讓您存取所選叢集上儲存物件之每個效能計數器的完整詳細資料。
+
+「效能叢集登陸」頁面包含四個索引標籤、可將叢集詳細資料分成四個資訊領域：
+
+* 摘要頁面
++
+** 叢集事件窗格
+** MB/s和IOPS效能圖表
+** 「託管物件」窗格
+
+
+* 績效最佳者頁面
+* 檔案總管頁面
+* 資訊頁面
+

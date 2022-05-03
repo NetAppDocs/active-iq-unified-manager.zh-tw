@@ -1,0 +1,37 @@
+---
+permalink: health-checker/task_configure_global_volume_health_threshold_values.html 
+sidebar: sidebar 
+keywords: configure, global, volume, health, threshold values 
+summary: 您可以設定所有磁碟區的全域健全狀況臨界值、以追蹤任何臨界值外洩。系統會針對違反健康臨界值事件產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有受監控磁碟區之臨界值的最佳實務設定來設定全域值。 
+---
+= 設定全域Volume健全狀況臨界值
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以設定所有磁碟區的全域健全狀況臨界值、以追蹤任何臨界值外洩。系統會針對違反健康臨界值事件產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有受監控磁碟區之臨界值的最佳實務設定來設定全域值。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+大部分的臨界值選項都有預設值、可提供更好的監控功能。不過、您可以根據環境需求來變更值。
+
+請注意、在磁碟區上啟用「自動擴充」時、容量臨界值會根據自動擴充所設定的最大磁碟區大小而非原始磁碟區大小而被視為違反。
+
+[NOTE]
+====
+1000個Snapshot複本的預設值僅適用於FlexVol 當版本為9.4或更新版本時的版本、ONTAP 而當版本為9.8或更新版本時、則適用於FlexGroup 不含更新ONTAP 版本的版本。對於安裝ONTAP 舊版的更新版的叢集、每個磁碟區最多可有250個Snapshot複本。對於這些舊版、Unified Manager會將此數字1000（以及介於1000和250之間的任何數字）解譯為250；這表示當Snapshot複本數量達到250個時、您將會繼續收到事件。如果您想要將這些舊版的此臨界值設為小於250、您必須在「Health：All Volumes（健全狀況：所有磁碟區）」檢視或「Volume / Health（Volume /健全狀況）」詳細資料頁面中、將臨界值設為250或更低。
+
+====
+.步驟
+. 在左導覽窗格中、按一下*事件臨界值*>* Volume *。
+. 設定容量、Snapshot複本、qtree配額、Volume成長和inode的適當臨界值。
+. 按一下「 * 儲存 * 」。
+
+
+*相關資訊*
+
+link:../config/task_add_users.html["新增使用者"]

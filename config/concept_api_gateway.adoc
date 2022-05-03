@@ -1,0 +1,22 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: API閘道功能可Active IQ Unified Manager 讓支援不ONTAP 需個別登入即可從單一控制面板管理多個支援叢集。 
+---
+= 啟用API閘道
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API閘道功能可Active IQ Unified Manager 讓支援不ONTAP 需個別登入即可從單一控制面板管理多個支援叢集。
+
+您可以從第一次登入Unified Manager時出現的組態頁面啟用此功能。或者、您也可以從*一般*>*功能設定*>* API閘道*啟用或停用此功能。
+
+Unified Manager REST API與ONTAP R靜止API不同、ONTAP 並非所有的功能都能透過Unified Manager REST API使用。不過、如果您有特定的業務需求、需要存取ONTAP 不公開給Unified Manager的各項功能、以管理特定功能的各項功能、您可以啟用API閘道功能並執行ONTAP IsfAPI。閘道會做為Proxy、以ONTAP 相同格式維護介面標頭和實體要求、使API要求通道化。您可以使用Unified Manager認證資料並執行特定API來存取及管理ONTAP 等功能、而無需傳遞個別的叢集認證資料。Unified Manager可做為單一管理點、在ONTAP 由Unified Manager執行個體管理的整個叢集上執行API。API傳回的回應與直接ONTAP 從ONTAP 原地執行的個別REST API所傳回的回應相同。
+
+啟用此功能之後、您可以從*功能表列*>*說明按鈕*>* API文件*>*閘道*類別執行Unified Manager REST API。或者、您也可以輸入主機名稱或IP位址和URL、以「https://<hostname>/docs/api/`」格式存取REST API頁面
+
+如需API的詳細資訊、請參閱_ Active IQ Unified Manager 《_景點API開發人員指南》_。

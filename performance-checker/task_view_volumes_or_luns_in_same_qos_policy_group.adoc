@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html 
+sidebar: sidebar 
+keywords: view, volumes, luns, same. qos, policy, group 
+summary: 您可以顯示已指派給相同QoS原則群組的磁碟區和LUN清單。 
+---
+= 檢視相同QoS原則群組中的磁碟區或LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以顯示已指派給相同QoS原則群組的磁碟區和LUN清單。
+
+如果傳統的QoS原則群組在多個磁碟區之間「共享」、這有助於查看特定磁碟區是否過度使用原則群組所定義的處理量。它也能協助您決定是否可以將其他磁碟區新增至原則群組、而不會對其他磁碟區造成負面影響。
+
+在調適性QoS原則和Unified Manager效能服務層級原則的情況下、 這有助於檢視使用原則群組的所有磁碟區或LUN、以便在變更QoS原則的組態設定時、查看哪些物件會受到影響。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>* QoS原則群組*」。
++
+預設會顯示「效能：傳統QoS原則群組」檢視。
+
+. 如果您對傳統原則群組感興趣、請留在此頁面。否則、請選取其中一個「額外檢視」選項、以顯示Unified Manager Performance Service層級所建立的所有調適性QoS原則群組或所有QoS原則群組。
+. 在您感興趣的QoS原則中、按一下展開按鈕（image:../media/chevron_down.gif[""]）在QoS原則群組名稱旁、檢視更多詳細資料。image:../media/adaptive_qos_expanded.gif[""]
+. 按一下「Volumes（磁碟區）」或「LUN（LUN）」連結、即可檢視使用此QoS原則的物件。
++
+Volume或LUN的效能詳細目錄頁面會顯示使用QoS原則之物件的已排序清單。
+
+

@@ -1,0 +1,40 @@
+---
+permalink: reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html 
+sidebar: sidebar 
+keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
+summary: 您可以建立報告、找出最具未配置LUN容量（大於0.5 TB）的叢集、以協助識別可新增額外工作負載的位置。 
+---
+= 建立報告以識別具有最大未配置LUN容量的叢集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、找出最具未配置LUN容量（大於0.5 TB）的叢集、以協助識別可新增額外工作負載的位置。
+
+*您需要什麼**您必須擁有應用程式管理員或儲存管理員角色。
+
+請使用下列步驟建立自訂檢視、以顯示具有最大未配置LUN容量的叢集、然後排程為該檢視產生報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
+. 在View（檢視）功能表中、選取* Capacity *>* All Clusters*。
+. 選取*顯示/隱藏*以移除報告中不想要的任何欄。
+. 將「Unallocated LUN Capacity」欄拖曳到「HA Pair」欄附近。
+. 按一下篩選圖示、新增下列篩選條件、然後按一下「*套用篩選條件*」：
++
+** 未配置的LUN容量大於0.5 TB
+
+
+. 按一下「Unallocated LUN Capacity」（未分配LUN容量）欄頂端、依最大數量的未分配LUN容量來排序結果。
+. 以反映檢視內容的特定名稱儲存檢視、例如「最大未配置LUN容量」、然後按一下核取符號（image:../media/blue_check.gif[""]）。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 按一下「*新增排程*」將新列新增至「報告排程」頁面、以便定義新報告的排程特性。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可能想要使用叢集的未分配LUN容量。

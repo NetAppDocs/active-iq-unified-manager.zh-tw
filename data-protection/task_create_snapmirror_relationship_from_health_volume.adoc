@@ -1,0 +1,59 @@
+---
+permalink: data-protection/task_create_snapmirror_relationship_from_health_volume.html 
+sidebar: sidebar 
+keywords: create, snapmirror, protection, relationship,  volume, health details page 
+summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關係、以便啟用資料複寫來保護資料。SnapMirror複寫可讓您在來源資料遺失時、從目的地磁碟區還原資料。 
+---
+= 從Volume / Health詳細資料頁面建立SnapMirror保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Volume / Health詳細資料頁面來建立SnapMirror關係、以便啟用資料複寫來保護資料。SnapMirror複寫可讓您在來源資料遺失時、從目的地磁碟區還原資料。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須設定Workflow Automation。
+
+
+下列情況不會顯示*保護*功能表：
+
+* 如果RBAC設定不允許此動作：例如、如果您只有操作員權限
+* 當Volume ID未知時：例如、當您有叢集間關係、但尚未探索到目的地叢集時
+
+
+您最多可同時執行10個保護工作、而不會影響效能。當您同時執行11至30個工作時、可能會遇到效能影響。不建議同時執行超過30個工作。
+
+.步驟
+. 在* Volume / Health*詳細資料頁面的* Protection（保護）索引標籤*中、在拓撲檢視中按一下滑鼠右鍵、以檢視您要保護的磁碟區名稱。
+. 從功能表中選取*保護*>* SnapMirror *。
++
+此時將顯示Configure Protection（配置保護）對話框。
+
+. 按一下「* SnapMirror *」以檢視「* SnapMirror *」索引標籤、並設定目的地資訊。
+. 按一下*進階*以視需要設定空間保證、然後按一下*套用*。
+. 完成「*組態保護*」對話方塊中的「*目的地資訊*」區域和「*關係設定*」區域。
+. 按一下「 * 套用 * 」。
++
+您將返回Volume / Health詳細資料頁面。
+
+. 按一下「* Volume / Health*詳細資料」頁面頂端的保護組態工作連結。
++
+工作的工作和詳細資料會顯示在「工作詳細資料」頁面中。
+
+. 在「*工作*詳細資料」頁面中、按一下「*重新整理*」以更新與保護組態工作相關的工作清單和工作詳細資料、並決定工作何時完成。
+. 工作完成後、按一下瀏覽器上的*上一頁*、即可返回* Volume / Health*詳細資料頁面。
++
+新關係會顯示在Volume / Health詳細資料頁面的拓撲檢視中。
+
+
+
+根據您在組態期間指定的目的地SVM或您在進階設定中啟用的選項、所產生的SnapMirror關係可能是以下幾種可能的差異之一：
+
+* 如果您指定的目的地SVM與ONTAP 來源磁碟區的SVM執行版本相同或更新、則預設結果是區塊複寫型SnapMirror關係。
+* 如果您指定的目的地SVM與ONTAP 來源磁碟區的SVM執行版本相同或更新、但您在進階設定中啟用了版本彈性複寫、則會產生SnapMirror與版本彈性複寫的關係。
+* 如果您指定的目的地SVM是在舊版ONTAP 的支援下執行、或是比來源磁碟區版本高的版本、而舊版則支援版本彈性複寫、則SnapMirror與版本彈性複寫的關係會自動產生。
+

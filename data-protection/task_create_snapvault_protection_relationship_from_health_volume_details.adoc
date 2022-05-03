@@ -1,0 +1,49 @@
+---
+permalink: data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html 
+sidebar: sidebar 
+keywords: create, snapvault, protection, relationship, volume, health details page 
+summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建立「支援功能」關係、以便在磁碟區上啟用資料備份以保護資料。 
+---
+= 從SnapVault Volume / Health詳細資料頁面建立不受保護關係
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以SnapVault 使用「Volume / Health詳細資料」頁面來建立「支援功能」關係、以便在磁碟區上啟用資料備份以保護資料。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+* 您必須設定Workflow Automation才能執行此工作。
+
+
+下列情況不會顯示*保護*功能表：
+
+* 如果RBAC設定不允許此動作：例如、如果您只有操作員權限
+* 當Volume ID未知時：例如、當您有叢集間關係、但尚未探索到目的地叢集時
+
+
+.步驟
+. 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、在您要保護的拓撲檢視中、以滑鼠右鍵按一下磁碟區。
+. 從SnapVault 功能表中選擇* Protect *>* Sise*。
++
+此時會啟動「設定保護」對話方塊。
+
+. 按一下* SnapVault 《*》*《* SnapVault 》*《*》*《*》索引標籤》以檢視*《*》索引標籤、並設定次要資源資訊。
+. 按一下*進階*以視需要設定重複資料刪除、壓縮、自動擴充及空間保證、然後按一下*套用*。
+. 完成「*組態保護*」對話方塊中的「*目的地資訊*」區域和「*關係設定*」區域。
+. 按一下「 * 套用 * 」。
++
+您將返回Volume / Health詳細資料頁面。
+
+. 按一下「* Volume / Health*詳細資料」頁面頂端的保護組態工作連結。
++
+隨即顯示「工作詳細資料」頁面。
+
+. 按一下「*重新整理*」以更新與保護組態工作相關的工作清單和工作詳細資料、並判斷工作何時完成。
++
+工作任務完成後、新關係會顯示在Volume / Health詳細資料頁面拓撲檢視中。
+
+

@@ -1,0 +1,38 @@
+---
+permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html 
+sidebar: sidebar 
+keywords: relationships page, monitor, storage, vm 
+summary: 您可以從庫存的「保護」區段的「關係」頁面監控儲存VM災難恢復關係。根據預設、「關係」頁面會在套用組成關係篩選時、僅列出最上層的關係。 
+---
+= 使用「關係」頁面監控儲存VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從庫存的「保護」區段的「關係」頁面監控儲存VM災難恢復關係。根據預設、「關係」頁面會在套用組成關係篩選時、僅列出最上層的關係。
+
+*您需要的是什麼*
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+您可以使用篩選器來檢視儲存VM災難恢復關係。
+
+.步驟
+. 在左導覽窗格中、按一下*保護*>*關係*。
++
+此頁面會顯示所有類型的關係：Volume、一致性群組和儲存VM關係。
+
+. 按一下「*篩選器*」、然後選取「*關係物件類型*」和「*儲存虛擬機器*」、以僅檢視儲存虛擬機器災難恢復關係。
+. 按一下「*套用篩選條件*」。
++
+[NOTE]
+====
+您應該清除「組成關係」篩選器、以檢視所有的保護關係。
+
+====
++
+此頁面僅顯示儲存VM災難恢復關係。
+
+

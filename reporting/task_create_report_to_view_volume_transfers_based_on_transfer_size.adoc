@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfers, transfer size 
+summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。 
+---
+= 建立報告以根據傳輸大小檢視磁碟區傳輸
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立報告、根據傳輸大小來檢視Volume Transfers。
+
+*您需要的是什麼*
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+請使用下列步驟、根據傳輸大小建立Volume傳輸的自訂檢視、然後排程要為該檢視產生的報告。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「View（檢視）」功能表中、選取「* Relationationationationationationation*>*上個月轉帳率*」。
+. 按一下「Total Transfer Size'（總傳輸大小）」欄頂端、依大小排序磁碟區傳輸。
+. 以反映檢視內容的特定名稱儲存檢視、例如「Volume by transfer size」。
+. 按一下目錄頁上的*排程報告*按鈕。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue_check.gif[""]）。
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+根據報告中顯示的結果、您可以根據傳輸大小來調查磁碟區關係。

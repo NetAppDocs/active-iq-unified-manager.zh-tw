@@ -1,0 +1,28 @@
+---
+permalink: install-vapp/task_download_unified_manager_iso_image_vapp.html 
+sidebar: sidebar 
+keywords: download, unified manager, upgrade file 
+summary: 升級Unified Manager之前、請先從NetApp支援網站下載Unified Manager升級檔案。 
+---
+= 下載Unified Manager升級檔案
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+升級Unified Manager之前、請先從NetApp支援網站下載Unified Manager升級檔案。
+
+*您需要的是什麼*
+
+您應該擁有NetApp支援網站的登入認證資料。
+
+.步驟
+. 登入NetApp支援網站：
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+
+. 瀏覽至VMware vSphere上的「升級Unified Manager」下載頁面。
+. 下載「.ISO」映像進行升級、並將其儲存至vSphere Client可存取的本機目錄或網路目錄。
+. 驗證Checksum以確保軟體已正確下載。
+

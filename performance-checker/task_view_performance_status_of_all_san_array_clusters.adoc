@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
+sidebar: sidebar 
+keywords: all san, array, performance, clusters 
+summary: '您可以使用「Performance：All Clusters"（效能：所有叢集）檢視來顯示All SAN Array叢集的效能狀態。' 
+---
+= 檢視所有SAN陣列叢集的效能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「Performance：All Clusters"（效能：所有叢集）檢視來顯示All SAN Array叢集的效能狀態。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+您可以在「Performance：All Clusterss」（效能：所有叢集）檢視中檢視所有SAN陣列叢集的總覽資訊、並在「叢集/效能總管」頁面中檢視詳細資料。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
+. 請確定「'Personality'（身分）」欄顯示在「Health：All Clusters*」（健全狀況：所有叢集*）檢視中、或是使用* Show /隱藏*控制項來新增。
++
+此欄顯示All SAN Array叢集的「All SAN Array（所有SAN陣列）」。
+
+. 若要檢視這些叢集效能的相關資訊、請選取「*效能：所有叢集*」檢視。
++
+檢視All SAN Array叢集的效能資訊。
+
+. 若要檢視這些叢集效能的詳細資訊、請按一下All SAN Array叢集的名稱。
+. 按一下*檔案總管*索引標籤。
+. 在*叢集/效能檔案總管*頁面上、從*檢視與比較*功能表中選取*此叢集*上的節點。
++
+您可以比較此叢集上兩個節點的效能統計資料、以確保兩個節點上的負載幾乎相同。如果兩個節點之間有很大差異、您可以將第二個節點新增至圖表、並比較較長時間內的值、以識別任何組態問題。
+
+

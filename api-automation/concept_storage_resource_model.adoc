@@ -1,0 +1,31 @@
+---
+permalink: api-automation/concept_storage_resource_model.html 
+sidebar: sidebar 
+keywords: storage, resource, ONTAP 
+summary: 在整個過程中、可將物件儲存資源ONTAP 大致分為實體儲存資源和邏輯儲存資源。若要ONTAP 使用Active IQ Unified Manager 包含在功能上的API來有效管理您的支援功能、您必須瞭解儲存資源模型、以及各種儲存資源之間的關係。 
+---
+= 儲存資源ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在這個領域中、可將儲存資源ONTAP 大致分類為「實體儲存資源」和「邏輯儲存資源」。_若要ONTAP 使用Active IQ Unified Manager 包含在其中的API來有效管理您的支援中心系統、您必須瞭解儲存資源模型、以及各種儲存資源之間的關係。
+
+* *實體儲存資源*
++
+指ONTAP 由實物儲存物件。實體儲存資源包括磁碟、叢集、儲存控制器、節點和集合體。
+
+* *邏輯儲存資源*
++
+指ONTAP 由不繫結於實體資源的物件所提供的儲存資源。這些資源與儲存虛擬機器（SVM、先前稱為vserver）相關聯、而且獨立存在於任何特定的實體儲存資源、例如磁碟、陣列LUN或Aggregate。
+
++
+邏輯儲存資源包括所有類型和qtree的磁碟區、以及您可以搭配這些資源使用的功能和組態、例如Snapshot複本、重複資料刪除、壓縮和配額。
+
+
+
+下圖顯示雙節點叢集中的儲存資源：
+
+image::../media/storage_resource_model.gif[儲存資源模式]

@@ -1,0 +1,76 @@
+---
+permalink: health-checker/task_view_fabricpool_capacity_information.html 
+sidebar: sidebar 
+keywords: view, fabricPool, cloud tier, mirror tier, capacity, information 
+summary: 您可以在FabricPool 容量與效能資源清冊和這些物件的詳細資料頁面上、檢視叢集、集合體和磁碟區的動態功能資訊。這些頁面也會在FabricPool 設定鏡射層時顯示鏡射資訊。 
+---
+= 檢視FabricPool 功能資訊
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在FabricPool 容量與效能資源清冊和這些物件的詳細資料頁面上、檢視叢集、集合體和磁碟區的動態功能資訊。這些頁面也會在FabricPool 設定鏡射層時顯示鏡射資訊。
+
+這些頁面會顯示資訊、例如本機效能層和雲端層的可用容量、兩層中使用的容量、以及連結至雲端層的集合體、 哪些磁碟區會FabricPool 將特定資訊移至雲端層、以實作各項功能。
+
+當雲端層鏡射到另一個雲端供應商（「鏡射層」）時、兩個雲端層都會顯示在Aggregate / Health（集合/健全狀況）詳細資料頁面中。
+
+.步驟
+. 執行下列其中一項：
++
+[cols="2*"]
+|===
+| 若要檢視容量資訊... | 執行此動作... 
+
+
+ a| 
+叢集
+ a| 
+.. 在「Capacity：All Clusters"（容量：所有叢集）檢視中、按一下叢集。
+.. 在叢集/健全狀況詳細資料頁面上、按一下*組態*索引標籤。
++
+畫面會顯示此叢集所連線的任何雲端階層名稱。
+
+
+
+
+
+ a| 
+集合體
+ a| 
+.. 在「Capacity：All Aggregate」（容量：所有集合體）檢視中、按一下「Type」（類型）欄位指出「SSD（FabricPool 0）」或「HDD（FabricPool 0）」的集合體。
+.. 在Aggregate / Health詳細資料頁面上、按一下* Capacity *索引標籤。
++
+顯示幕會顯示雲端層使用的總容量。
+
+.. 按一下「*磁碟資訊*」索引標籤。
++
+顯示幕會顯示雲端層的名稱和使用的容量。
+
+.. 單擊 * Configuration （配置） * 選項卡。
++
+畫面會顯示雲端層的名稱、以及其他有關雲端層的詳細資訊。
+
+
+
+
+
+ a| 
+磁碟區
+ a| 
+.. 在「Capacity：All Volumes」（容量：所有磁碟區）檢視中、按一下「Tiering Policy」（分層原則）欄位中顯示原則名稱的磁碟區。
+.. 在Volume / Health（磁碟區/健全狀況）詳細資料頁面上、按一下* Configuration（組態）*標籤。
++
+畫面會顯示FabricPool 指派給Volume的分層原則名稱。
+
+
+
+|===
+. 在「*工作負載分析*」頁面中、您可以在「*容量趨勢*」區域中選取「雲端層檢視」、以查看上個月在本機效能層和雲端層所使用的容量。
+
+
+如需FabricPool 更多有關元化的資訊、請參閱《_ ONTAP 元化9磁碟與集合體電源指南》_。
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html["《電力指南》（英文）ONTAP"]

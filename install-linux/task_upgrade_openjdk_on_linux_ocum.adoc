@@ -1,0 +1,40 @@
+---
+permalink: install-linux/task_upgrade_openjdk_on_linux_ocum.html 
+sidebar: sidebar 
+keywords: openjdk, jre, linux, upgrade 
+summary: 您可以在安裝Unified Manager的Linux伺服器上升級至新版OpenJDK、以取得安全性弱點的修正程式。 
+---
+= 升級Linux上的OpenJDK
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在安裝Unified Manager的Linux伺服器上升級至新版OpenJDK、以取得安全性弱點的修正程式。
+
+*您需要的是什麼*
+
+您必須擁有安裝Unified Manager的Linux系統的root權限。
+
+您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.9升級至OpenJD11.0.12、但無法直接從OpenJD11更新至OpenJD12。
+
+.步驟
+. 以root使用者身分登入Unified Manager主機。
+. 將適當版本的OpenJDK（64位元）下載到目標系統。
+. 停止Unified Manager服務：
++
+《神祕的停止》
+
++
+《stystemctl stop ocie》
+
+. 在系統上安裝最新的OpenJDK。
+. 啟動Unified Manager服務：
++
+《stystemcl start ocie》
+
++
+《stystemcl start ocieau》
+
+

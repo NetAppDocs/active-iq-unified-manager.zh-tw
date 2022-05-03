@@ -1,0 +1,111 @@
+---
+permalink: api-automation/concept_manage_lun.html 
+sidebar: sidebar 
+keywords: manage, lun 
+summary: 您可以使用/storage供應商/LUN API來檢視、新增、修改及刪除資料中心環境中的LUN。 
+---
+= 管理LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「/storage provider /LUNs」API來檢視、新增、修改及刪除資料中心環境中的LUN。
+
+在配置LUN之前、請先確認已建立SVM並以支援的傳輸協定進行資源配置。如果您要指派「效能服務層級」（PSL）或「儲存效率原則」（DDP）、則在進行資源配置時、應該先建立PSL或DDP、然後再建立LUN。
+
+
+
+== 檢視LUN
+
+您可以使用下列方法來檢視Unified Manager環境中的LUN。在ONTAP 將一個叢集新增為Active IQ Unified Manager 資料來源的時候、這些叢集的儲存工作負載會自動新增至您的Unified Manager執行個體。此API會自動擷取所有LUN、並手動新增至Unified Manager執行個體。您可以使用LUN金鑰來執行此API、以檢視特定LUN的詳細資料。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/'儲存設備供應商/LUN'
+
+/`/store-provider /LUNs/\{key}
+
+|===
+
+
+== 新增LUN
+
+您可以使用下列方法將LUN新增至SVM。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+/'儲存設備供應商/LUN'
+
+|===
+[NOTE]
+====
+在您的Curl要求中、如果您在輸入中提供選用參數volume名稱標記的值、則在建立LUN期間、會在命名磁碟區時使用該值。此標記可讓您輕鬆搜尋Volume。如果您在要求中提供Volume金鑰、則會跳過標記。
+
+====
+
+
+== 刪除LUN
+
+您可以使用下列方法刪除特定LUN。您需要提供LUN金鑰才能刪除特定LUN。
+
+[NOTE]
+====
+如果您在ONTAP 該磁碟區上建立了一個以供使用的磁碟區、然後透過Unified Manager來配置LUN、當您使用此API刪除所有LUN時、該磁碟區也會從ONTAP 叢集上刪除。
+
+====
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+刪除
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===
+
+
+== 修改LUN
+
+您可以使用下列方法來修改LUN及更新其內容。您需要提供LUN金鑰來修改特定LUN。您也需要輸入要更新的LUN內容及其值。若要使用此API更新LUN陣列、您應該檢閱「使用API的建議」中的建議。
+
+[NOTE]
+====
+您只能在單一呼叫此API時更新一個屬性。若要執行多個更新、您需要執行此API的次數不限。
+
+====
+|===
+
+
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+/`/store-provider /LUNs/\{key}
+
+|===

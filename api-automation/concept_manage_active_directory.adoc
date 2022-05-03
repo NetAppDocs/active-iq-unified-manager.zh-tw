@@ -1,0 +1,55 @@
+---
+permalink: api-automation/concept_manage_active_directory.html 
+sidebar: sidebar 
+keywords: manage, active, directory, mapping 
+summary: 您可以使用此處列出的API來管理SVM上的Active Directory對應、這些對應是在SVM上配置CIFS共用所需的。需要設定Active Directory對應、才能將SVM對應ONTAP 到整個SVM。 
+---
+= 管理Active Directory對應
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用此處列出的API來管理SVM上的Active Directory對應、這些對應是在SVM上配置CIFS共用所需的。需要設定Active Directory對應、才能將SVM對應ONTAP 到整個SVM。
+
+
+
+== 檢視Active Directory對應
+
+您可以使用下列方法來檢視SVM Active Directory對應的組態詳細資料。若要檢視SVM上的Active Directory對應、您需要輸入SVM金鑰。若要查詢特定對應的詳細資料、您必須輸入對應金鑰。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+/`/storage供應商/雙目錄對應'
+
+/`/store-provider /雙目錄對應/\{key}
+
+|===
+
+
+== 新增Active Directory對應
+
+您可以使用下列方法在SVM上建立Active Directory對應。您必須輸入對應詳細資料做為輸入參數。
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+/`/storage供應商/雙目錄對應'
+
+|===

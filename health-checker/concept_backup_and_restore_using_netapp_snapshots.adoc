@@ -1,0 +1,20 @@
+---
+permalink: health-checker/concept_backup_and_restore_using_netapp_snapshots.html 
+sidebar: sidebar 
+keywords: backup, restore, using, netapp, snapshots 
+summary: NetApp Snapshot備份會建立Unified Manager資料庫和組態檔的時間點映像、以便在系統故障或資料遺失時還原。您排定ONTAP 要定期將Snapshot備份寫入任一個VMware叢集上的磁碟區、以便隨時取得最新的複本。 
+---
+= 使用NetApp Snapshot進行備份與還原
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Snapshot備份會建立Unified Manager資料庫和組態檔的時間點映像、以便在系統故障或資料遺失時還原。您排定ONTAP 要定期將Snapshot備份寫入任一個VMware叢集上的磁碟區、以便隨時取得最新的複本。
+
+[NOTE]
+====
+此功能不適用於Active IQ Unified Manager 安裝在虛擬應用裝置上的版本。
+
+====

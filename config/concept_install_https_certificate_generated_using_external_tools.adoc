@@ -1,0 +1,119 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html 
+sidebar: sidebar 
+keywords: install, HTTPS, certificate, generated from external tools 
+summary: 您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、BoringSSL、LetsEncrypt等外部工具產生。 
+---
+= 安裝使用外部工具產生的HTTPS憑證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、BoringSSL、LetsEncrypt等外部工具產生。
+
+您應該將私密金鑰與憑證鏈結一起載入、因為這些憑證是由外部產生的公開私密金鑰配對。允許的金鑰配對演算法為「'rSA'」和「'EC'」。「一般」區段下方的「HTTPS憑證」頁面提供「*安裝HTTPS憑證*」選項。您上傳的檔案應採用下列輸入格式。
+
+. 屬於Active IQ 該伺服器的私有金鑰
+. 與私密金鑰相符的伺服器憑證
+. CA的憑證會反轉至根憑證、用於簽署上述憑證
+
+
+
+
+== 以EC金鑰配對載入憑證的格式
+
+允許的曲線為「prime256v1」和「cep384r1」。外部產生EC配對的憑證範例：
+
+[listing]
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+[listing]
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+
+== 以RSA金鑰配對載入憑證的格式
+
+屬於主機憑證的RSA金鑰配對允許金鑰大小為2048、3072和4096。具有外部產生* RSA金鑰組*的憑證：
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+上傳憑證後、您應該重新啟動Active IQ Unified Manager 更新以使變更生效。
+
+
+
+== 上傳外部產生的憑證時進行檢查
+
+系統會在上傳使用外部工具產生的憑證時執行檢查。如果有任何檢查失敗、則會拒絕該憑證。產品內的CSR產生的憑證以及使用外部工具產生的憑證也包含驗證功能。
+
+* 輸入中的私密金鑰會根據輸入中的主機憑證進行驗證。
+* 主機憑證中的「Common Name（CN）（一般名稱（CN））」會對照主機的FQDN進行檢查。
+* 主機憑證的一般名稱（CN）不應為空白或空白、且不應設定為localhost。
+* 有效開始日期不應為未來日期、而且憑證的有效到期日不應為過去日期。
+* 如果存在中介CA或CA、則憑證的有效開始日期不應為未來日期、而且有效到期日不應為過去日期。
+
+
+[NOTE]
+====
+輸入中的私密金鑰不應加密。如果有任何私密金鑰已加密、則系統會拒絕這些金鑰。
+
+====
+範例 1.
+
+[listing]
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+範例 2.
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+範例3.
+
+[listing]
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----
