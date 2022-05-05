@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
   <head class="at-element-marker">
-  <title>檢視叢集和儲存VM的詳細安全狀態</title>
+  <title>檢視叢集和儲存VM的安全狀態</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="檢視叢集和儲存VM的詳細安全狀態" />
+  <meta property="og:title" content="檢視叢集和儲存VM的安全狀態" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-tw/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html" />
-	<meta property="og:description" content="「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。" />
+	<meta property="og:description" content="「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-tw/active-iq-unified-manager/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。">
-  <meta name="keywords" content=" view, cluster security status, svm security status, volume encryption status"><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。">
+  <meta name="keywords" content=" view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager"><!-- Icons -->
   <link rel="icon" href="/zh-tw/active-iq-unified-manager/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[檢視叢集和儲存VM的詳細安全狀態](https://docs.netapp.com/zh-tw/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html)" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/health-checker/task_view_detailed_security_status_for_clusters_and_svms.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />瞭解如何作出貢獻</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[檢視叢集和儲存VM的安全狀態](https://docs.netapp.com/zh-tw/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html)" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/health-checker/task_view_detailed_security_status_for_clusters_and_svms.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />瞭解如何作出貢獻</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此頁面上</div>
@@ -1907,31 +1907,6 @@
           </a>
           
 
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/效能監控MetroCluster_功能.pdf" 
-            
-          >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            效能監控MetroCluster 功能
-          </a>
-          
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
 
 
 
@@ -2737,86 +2712,6 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解效能事件和警示.pdf" 
-            
-          >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            瞭解效能事件和警示
-          </a>
-          
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
-              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理效能臨界值.pdf" 
-            
-          >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            管理效能臨界值
-          </a>
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-        </li>
-      </ul>
-    
-
-  
-
-
-
-    
-      <ul class="subfolders" style="display:none;">
-        <li class="pdf-ux-container">
-          
-          
-          
-          <a target="_blank" 
-            
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從儀表板監控叢集效能.pdf" 
             
           >
@@ -3297,6 +3192,17 @@
 
 
 
+
+
+          
+        </li>
+      </ul>
+    
+
+  
+
+
+
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -3305,13 +3211,27 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/效能監控MetroCluster_功能.pdf" 
+              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解效能事件和警示.pdf" 
             
           >
             <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            效能監控MetroCluster 功能
+            瞭解效能事件和警示
           </a>
           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3332,11 +3252,11 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/什麼是效能事件.pdf" 
+              href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理效能臨界值.pdf" 
             
           >
             <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-            什麼是效能事件
+            管理效能臨界值
           </a>
           
 
@@ -3348,12 +3268,17 @@
 
 
 
-          
-        </li>
-      </ul>
-    
 
-  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4049,8 +3974,6 @@
 
 
 
-
-
     <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
   <a target="_blank" href="/zh-tw/active-iq-unified-manager/pdfs/pages/health-checker/task_view_detailed_security_status_for_clusters_and_svms.pdf" >
     <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
@@ -4060,6 +3983,8 @@
 
 </ul>
   
+
+
 
 
 
@@ -4797,12 +4722,6 @@
 
 
 
-
-
-
-
-
-
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
@@ -4818,10 +4737,6 @@
             保護關係視窗和對話方塊說明
           </a>
           
-
-
-
-
 
 
 
@@ -6196,12 +6111,9 @@
       </a></li></ul></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html">
         <div class="na-navbar-padding"> 管理及監控MetroCluster 功能</div>
       </a>
-      <ul><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/storage-mgmt/concept_performance_monitoring_of_metrocluster.html">
-        <div class="na-navbar-padding"> 效能監控MetroCluster 功能</div>
-      </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html">
         切換和切換期間的Volume行為
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/storage-mgmt/reference_cluster_connectivity_status_definitions.html">
         叢集連線狀態定義
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/storage-mgmt/reference_data_mirroring_status_definitions.html">
         資料鏡射狀態定義
@@ -6503,42 +6415,6 @@
         正在搜尋儲存物件
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_filter_inventory_page_content.html">
         篩選目錄頁面內容
-      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
-        <div class="na-navbar-padding"> 瞭解效能事件和警示</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
-        效能事件來源
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
-        效能事件嚴重性類型
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
-        Unified Manager偵測到組態變更
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
-        系統定義的效能臨界值原則類型
-      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
-        <div class="na-navbar-padding"> 管理效能臨界值</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
-        使用者定義的效能臨界值原則運作方式
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
-        違反效能臨界值原則時會發生什麼事
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
-        可使用臨界值來追蹤哪些效能計數器
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
-        哪些物件和計數器可用於組合臨界值原則
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
-        建立使用者定義的效能臨界值原則
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
-        指派效能臨界值原則給儲存物件
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
-        檢視效能臨界值原則
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
-        編輯使用者定義的效能臨界值原則
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
-        移除儲存物件的效能臨界值原則
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
-        效能臨界值原則變更時會發生什麼事
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
-        物件搬移時、效能臨界值原則會發生什麼變化
       </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_monitor_cluster_performance_from_dashboard.html">
         <div class="na-navbar-padding"> 從儀表板監控叢集效能</div>
       </a>
@@ -6706,15 +6582,20 @@
         Unified Manager如何使用工作負載延遲來識別效能問題
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html">
         叢集作業如何影響工作負載延遲
-      </a></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
-        <div class="na-navbar-padding"> 效能監控MetroCluster 功能</div>
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html">
+        效能監控MetroCluster 功能
+      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_understand_performance_events_and_alerts.html">
+        <div class="na-navbar-padding"> 瞭解效能事件和警示</div>
       </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html">
-        切換和切換期間的Volume行為
-      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_what_performance_events_are.html">
-        <div class="na-navbar-padding"> 什麼是效能事件</div>
-      </a>
-      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_sources_of_performance_events.html">
+        效能事件來源
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_performance_event_severity_types.html">
+        效能事件嚴重性類型
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html">
+        Unified Manager偵測到組態變更
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html">
+        系統定義的效能臨界值原則類型
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_performance_event_analysis_and_notification.html">
         效能事件分析與通知
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_how_um_determines_performance_impact_for_incident.html">
         Unified Manager如何判斷事件的效能影響
@@ -6722,7 +6603,32 @@
         叢集元件及其爭用的原因
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html">
         效能事件所涉及的工作負載角色
-      </a></li></ul></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
+      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_manage_performance_thresholds.html">
+        <div class="na-navbar-padding"> 管理效能臨界值</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html">
+        使用者定義的效能臨界值原則運作方式
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html">
+        違反效能臨界值原則時會發生什麼事
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html">
+        可使用臨界值來追蹤哪些效能計數器
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html">
+        哪些物件和計數器可用於組合臨界值原則
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_create_user_defined_performance_threshold_policies.html">
+        建立使用者定義的效能臨界值原則
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html">
+        指派效能臨界值原則給儲存物件
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_view_performance_threshold_policies.html">
+        檢視效能臨界值原則
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_edit_user_defined_performance_threshold_policies.html">
+        編輯使用者定義的效能臨界值原則
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html">
+        移除儲存物件的效能臨界值原則
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html">
+        效能臨界值原則變更時會發生什麼事
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html">
+        物件搬移時、效能臨界值原則會發生什麼變化
+      </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/performance-checker/concept_analyze_performance_events.html">
         <div class="na-navbar-padding"> 分析效能事件</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/performance-checker/task_display_information_about_performance_event.html">
@@ -6940,16 +6846,16 @@
         Volume法規遵循類別
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/concept_what_does_not_compliant_mean.html">
         不符合法規的意義
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_high_level_cluster_security_status.html">
-        檢視高層叢集安全性狀態
       </a></li><li class="  active "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html">
-        檢視叢集和SVM的詳細安全狀態
+        檢視叢集和儲存VM的詳細安全狀態
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html">
         檢視可能需要軟體或韌體更新的安全性事件
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html">
         檢視如何在所有叢集上管理使用者驗證
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_encryption_status_of_all_volumes.html">
         檢視所有磁碟區的加密狀態
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checkertask_view_antiransomware_status_of_all_volumes_storage_vms.html">
+        檢視所有磁碟區和儲存VM的勒索軟體狀態
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_view_all_security_events.html">
         檢視所有作用中的安全事件
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_add_alerts_for_security_events.html">
@@ -7237,16 +7143,10 @@
         從「儲存VM」頁面檢視保護關係
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/task_view_storage_vms_based_on_protection_status.html">
         根據保護狀態檢視儲存VM
-      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/concept_understand_svm_associations.html">
-        瞭解儲存VM對等端點
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
+        瞭解儲存VM關聯
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html">
         支援儲存服務的SVM和資源池需求
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/task_create_storage_virtual_machine_svm_associations.html">
-        建立儲存VM對等端點
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/task_view_svm_associations.html">
-        檢視儲存VM對等端點
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/task_delete_svm_associations.html">
-        刪除儲存VM對等端點
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/concept_what_jobs_are.html">
         什麼是工作
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/task_monitor_jobs.html">
@@ -7268,10 +7168,6 @@
         編輯資源池對話方塊
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_aggregates_dialog_box.html">
         Aggregate對話方塊
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_protection_storage_virtual_machine_associations_page.html">
-        SVM對等網頁
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_create_storage_virtual_machine_associations_wizard.html">
-        Create Storage Virtual Machine對等端點精靈
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_protection_jobs_page.html">
         「工作」頁面
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/data-protection/reference_job_details_page.html">
@@ -7592,43 +7488,35 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading">檢視叢集和儲存VM的詳細安全狀態</h1>
+  <h1 class="n-doc__component-detail-heading">檢視叢集和儲存VM的安全狀態</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 05:56:08 +0000">05/03/2022</time>
+    <time datetime="2022-05-05 08:31:31 +0000">05/05/2022</time>
     
   
 
 
 </p>
 
+<div id="preamble">
+<div class="sectionbody">
 <div class="paragraph lead">
-<p>「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。</p>
+<p>利用此功能、您可以從介面中的不同點、檢視環境中儲存物件的安全狀態。Active IQ Unified Manager您可以根據定義的參數來收集及分析資訊和報告、並偵測受監控叢集和儲存VM上的可疑行為或未獲授權的系統變更。</p>
 </div>
 <div class="paragraph">
-<p>身為系統管理員、您可以使用* Security <strong>（安全性</strong>）頁面、在ONTAP 資料中心和站台層級查看您的各個叢集和儲存VM的安全性強度。</p>
+<p>如需安全性建議、請參閱 <a href="http://www.netapp.com/us/media/tr-4569.pdf">"《NetApp ONTAP 資訊安全強化指南》（英文）9"</a></p>
 </div>
-<div class="paragraph">
-<p>根據定義的參數、您可以收集及分析資訊、以偵測受監控叢集和儲存VM上的可疑行為或任何未獲授權的系統變更。</p>
 </div>
-<div class="paragraph">
-<p>詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。</p>
 </div>
+<div class="sect1">
+<h2 id="在安全性頁面上檢視物件層級的安全性狀態">在「安全性」頁面上檢視物件層級的安全性狀態</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>「叢集/安全性詳細資料」頁面會檢查安全參數、例如Global FIPS、Telnet、不安全的SSH設定、登入橫幅、網路時間傳輸協定、 支援HTTPS傳輸和預設管理員。AutoSupport</p>
-</div>
-<div class="paragraph">
-<p>「儲存VMs/安全性詳細資料」頁面會檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、提供儲存VM安全性法規遵循的預設檢視。</p>
-</div>
-<div class="paragraph">
-<p>您也可以從叢集與儲存VM詳細資料頁面產生、排程及下載安全性法規遵循報告。</p>
-</div>
-<div class="paragraph">
-<p>在*安全性儀表板*中、按一下*叢集規範*和*儲存VM規範*卡中的*檢視報告*。</p>
+<p>身為系統管理員、您可以使用* Security <strong>（安全性</strong>）頁面、在ONTAP 資料中心和站台層級、清楚掌握各個叢集和儲存VM的安全性強度。支援的物件包括叢集、儲存VM和Volume。請遵循下列步驟：</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
@@ -7640,31 +7528,101 @@
 <p>視您要檢視所有受監控叢集或單一叢集的安全狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。</p>
 </li>
 <li>
-<p>按一下「<strong>安全性</strong>」面板中的向右箭頭。</p>
+<p>按一下「<strong>安全性</strong>」面板中的向右箭頭。隨即顯示「安全性」頁面。</p>
+</li>
+</ol>
+</div>
 <div class="paragraph">
-<p>「安全性」頁面會顯示下列資訊：</p>
+<p>按一下長條圖、計數和「檢視報告」連結、即可前往「Volume（磁碟區）」、「叢集」或「Storage VM（儲存VM）」頁面、視需要檢視對應的詳細資料或產生報告。</p>
+</div>
+<div class="paragraph">
+<p>「安全性」頁面會顯示下列面板：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>叢集安全性狀態（相容或不相容的叢集數目）</p>
+<p><strong>叢集法規遵循</strong>：資料中心內所有叢集的安全狀態（符合或不符合法規的叢集數目）</p>
 </li>
 <li>
-<p>SVM安全狀態（相容或不相容的SVM數量）</p>
+<p><strong>儲存虛擬機器法規遵循</strong>：資料中心內所有儲存虛擬機器的安全狀態（相容或不相容的儲存虛擬機器數量）</p>
 </li>
 <li>
-<p>Volume加密狀態（加密或未加密的磁碟區數目）</p>
+<p>* Volume Encryption*：環境中所有磁碟區的磁碟區加密狀態（加密或未加密的磁碟區數目）</p>
 </li>
 <li>
-<p>每個叢集所使用的叢集驗證方法</p>
+<p>* Volume反勒索軟體狀態*：環境中所有磁碟區的安全狀態（啟用或停用反勒索軟體的磁碟區數量）</p>
+</li>
+<li>
+<p><strong>叢集驗證與憑證</strong>：使用各種驗證方法（例如SAML、Active Directory）或透過憑證與本機驗證的叢集數目。面板也會顯示憑證已過期或即將在60天內過期的叢集數量。</p>
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="在叢集頁面上檢視所有叢集的安全性詳細資料">在「叢集」頁面上檢視所有叢集的安全性詳細資料</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>「<strong>叢集/安全性</strong>」詳細資料頁面可讓您檢視叢集層級的安全性法規遵循狀態。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步驟</div>
+<ol class="arabic">
+<li>
+<p>在左導覽窗格中、按一下*儲存&gt;叢集*。</p>
 </li>
 <li>
-<p>請參閱 <a href="http://www.netapp.com/us/media/tr-4569.pdf">"《NetApp ONTAP 資訊安全強化指南》（英文）9"</a> 如需如何使所有叢集、SVM及Volume符合NetApp安全建議的指示。</p>
+<p>選取*檢視&gt;安全性&gt;所有叢集*。</p>
 </li>
 </ol>
+</div>
+<div class="paragraph">
+<p>預設安全參數、例如Global FIPS、Telnet、不安全SSH設定、登入橫幅、網路時間傳輸協定、 顯示「支援HTTPS傳輸」、以及叢集憑證過期狀態。AutoSupport</p>
+</div>
+<div class="paragraph">
+<p>您可以按一下 <span class="image"><img src="../media/icon_kabob.gif" alt="kabob圖示"></span> 「更多選項」按鈕、然後選擇在Unified Manager * Security <strong>（安全性</strong>）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/active-iq-unified-manager/images/note.svg" alt="附註">
+</td>
+<td class="content">
+如果叢集的憑證已過期、您可以按一下*叢集憑證有效性*下的「過期」、然後從系統管理員（9.10.1及更新版本）續約。如果System Manager執行個體的版本早於9.10.1、則無法按一下「Expired」（過期）。
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="從儲存vm頁面檢視所有叢集的安全詳細資料">從「儲存VM」頁面檢視所有叢集的安全詳細資料</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>「<strong>儲存VM /安全性</strong>」詳細資料頁面可讓您檢視儲存VM層級的安全性法規遵循狀態。</p>
+</div>
+<div class="olist arabic">
+<div class="title">步驟</div>
+<ol class="arabic">
+<li>
+<p>在左導覽窗格中、按一下*儲存設備&gt;儲存設備VM*。</p>
+</li>
+<li>
+<p>選取*檢視&gt;安全性&gt;所有儲存VM*。隨即顯示具有安全參數的叢集清單。</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>您可以檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、以預設檢視儲存VM的安全性法規遵循。</p>
+</div>
+<div class="paragraph">
+<p>您可以按一下 <span class="image"><img src="../media/icon_kabob.gif" alt="kabob圖示"></span> 「更多選項」按鈕、然後選擇在Unified Manager * Security <strong>（安全性</strong>）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。</p>
+</div>
+<div class="paragraph">
+<p><em>如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 <a href="health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html">"檢視所有磁碟區和儲存VM的勒索軟體狀態"</a>.</em></p>
+</div>
+</div>
 </div>
 
     </article>
