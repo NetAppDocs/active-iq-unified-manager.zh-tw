@@ -13,4 +13,4 @@ summary: 提供Active IQ Unified Manager 有關更新功能、限制和已知問
 [role="lead"]
 提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要。
 
-如需詳細資訊、請參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP2879275["發行說明Active IQ Unified Manager"]。
+如需詳細資訊、請參閱 https://library.netapp.com/ecm/ecm_download_file/ECMLP2882089["發行說明Active IQ Unified Manager"]。

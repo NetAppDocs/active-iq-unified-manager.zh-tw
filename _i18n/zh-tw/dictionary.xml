@@ -837,7 +837,6 @@
   <block id="254045ee23205cb1ac3f6e05905ecfab" category="summary">提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要。</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">版本資訊</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">發行說明Active IQ Unified Manager</block>
-  <block id="4e427abe6975ad68570ad74a11e7a6b2" category="paragraph">如需詳細資訊、請參閱<block ref="d0f8dfd7cdd23d8e0e271d321686681b" category="inline-link-rx"></block>。</block>
   <block id="6bfaf2d07c879df0855b6cb02c3a38c0" category="summary">診斷存取的目的是讓技術支援人員協助您進行疑難排解、您只能在技術支援人員的指示下使用。</block>
   <block id="7b7df826cbab0093df8d588ea49dfc9a" category="doc">診斷使用者功能</block>
   <block id="2c71681f47846b5bdefd894a88241ddc" category="paragraph">診斷使用者可在技術支援指示下執行OS層級命令、以進行疑難排解。</block>
@@ -11627,4 +11626,5 @@
   <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">文件資料以供參考9.10 Active IQ Unified Manager</block>
   <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">檢視叢集和儲存VM的詳細安全狀態</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">瞭解儲存VM關聯</block>
+  <block id="0d4c7c4a66605b6134a539fd94ba3c6a" category="paragraph">如需詳細資訊、請參閱<block ref="d6b13b683bf04ebfc408e75a5dbc55ae" category="inline-link-rx"></block>。</block>
 </blocks>
