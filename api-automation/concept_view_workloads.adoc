@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage, workloads 
 summary: 此處列出的API可讓您檢視ONTAP 資料中心內所有的各個叢集的整合式儲存工作負載清單。API也提供摘要檢視Active IQ Unified Manager 、顯示在您的VMware環境中配置的儲存工作負載數量、以及其容量與效能（IOPS）統計資料。 
 ---
-= 檢視儲存工作負載
+= 使用API檢視儲存工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

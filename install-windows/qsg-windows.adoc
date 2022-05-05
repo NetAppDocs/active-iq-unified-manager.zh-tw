@@ -12,8 +12,13 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 == 系統需求
 
-* 作業系統：Microsoft Windows Server 2016與2019 64位元標準版與資料中心版。支援下列語言：
+* 作業系統
 +
+** Microsoft Windows Server 2019標準版與資料中心版
+** Microsoft Windows Server 2022 Standard與Datacenter Edition
++
+下列語言的64位元Windows作業系統支援Unified Manager：
+
 ** 英文
 ** 日文
 ** 簡體中文

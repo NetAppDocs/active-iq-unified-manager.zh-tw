@@ -1,27 +1,59 @@
 ---
 permalink: storage-mgmt/concept_manage_performance_service_levels.html 
 sidebar: sidebar 
-keywords: manage, performance, service, levels 
-summary: 效能服務層級可讓您定義工作負載的效能與儲存目標。您可以在最初建立工作負載時、或之後編輯工作負載、將效能服務層級指派給工作負載。 
+keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL 
+summary: 效能服務層級的計算與管理。 
 ---
-= 管理效能服務層級
+= 效能服務層級
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-效能服務層級可讓您定義工作負載的效能與儲存目標。您可以在最初建立工作負載時、或之後編輯工作負載、將效能服務層級指派給工作負載。
+效能服務層級（PSL）可讓您定義工作負載的效能與儲存目標。您可以在最初建立工作負載時或之後編輯工作負載、將PSL指派給工作負載。
 
-儲存資源的管理與監控是以服務層級目標（SLO）為基礎。SLO是由服務層級協議所定義、這些協議是以所需的效能和容量為基礎。在Unified Manager中、SLO是指在NetApp儲存設備上執行之應用程式的PSL定義。儲存服務會根據基礎資源的效能與使用率而有所差異。PSL是儲存服務目標的說明。PSL可讓儲存供應商指定工作負載的效能與容量目標。
+儲存資源的管理與監控是以服務層級目標（SLO）為基礎。SLO是由服務層級協議所定義、這些協議是以所需的效能和容量為基礎。在Unified Manager中、SLO是指在NetApp儲存設備上執行之應用程式的PSL定義。儲存服務會根據基礎資源的效能與使用率而有所差異。PSL是儲存服務目標的說明。PSL可讓儲存供應商指定工作負載的效能與容量目標。當您在工作負載上指派PSL時、ONTAP 會根據其效能和容量目標來管理相關的工作負載。每個PSL都受尖峰、預期和絕對最低IOPs以及預期延遲的限制。
 
-Unified Manager提供幾種無法變更的既定原則。這些預先定義的效能服務層級包括：極致效能、效能和價值。極致效能、效能和價值的PSL適用於資料中心的大多數常見儲存工作負載。Unified Manager也針對資料庫應用程式提供三種PSL：「資料庫記錄的極限」、「資料庫共享資料的極限」、以及「資料庫資料的極限」。這些是極高效能的PSL、可支援爆發式IOPS、適合處理量需求最高的資料庫應用程式。如果這些預先定義的PSL不符合您的需求、您可以建立新的PSL來滿足您的需求。
+Unified Manager具有下列類型的PSL：
 
-您可以從「*原則*>*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。
+* *系統定義*：Unified Manager提供一些無法變更的既定原則。這些預先定義的PSL包括：
++
+** 極致效能
+** 效能
+** 價值
++
+極致效能、效能和價值的PSL適用於資料中心的大多數常見儲存工作負載。
 
-您無法修改系統定義或目前指派給工作負載的PSL。您無法刪除指派給工作負載的PSL、或是唯一可用的PSL。
++
+Unified Manager也為資料庫應用程式提供三種效能服務層級。這些是極高效能的PSL、可支援爆發式IOPS、適合處理量需求最高的資料庫應用程式。
 
-「效能服務層級」頁面會列出可用的PSL原則、並可讓您新增、編輯及刪除這些原則。此頁面顯示下列資訊：
+** 資料庫記錄的極致功能
+** 極致資料庫共享資料
+** 資料庫資料的極致利器
+
+
+* *使用者定義*：如果預先定義的效能服務層級不符合您的需求、您可以建立新的PSL來滿足您的需求。如需相關資訊、請參閱 link:../storage-mgmt/task_create_and_edit_psls.html["建立及編輯效能服務層級"]。
+* *超越極致*：超越極致PSL是系統建議的PSL、適用於要求IOPS高於極致的工作負載。工作負載會根據其IOPS、容量和延遲進行內部分析、建議您在「*儲存>工作負載>所有工作負載*」畫面上、針對這些工作負載進行「超越極限PSL」分析。您可以將PSL套用至工作負載、以確保最佳效能。
++
+工作負載的IOPs參數會根據工作負載行為而動態產生、並以「超越極限<數量-（尖峰IOPS / TB）><數量（預期IOPS / TB）>」的格式附加至超越極限PSL的名稱。例如、如果系統判定工作負載的尖峰和預期IOPs分別為「106345」和「37929」、則針對工作負載所產生的「超越極限PSL」名稱即為「超越極限106345 37929」。雖然系統建議使用這些PSL、但當您將它們指派給工作負載時、這些PSL的類型會標示為「使用者定義」。
+
+
+
+
+
+== 透過指派PSL來管理工作負載
+
+您可以從「*原則*>*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。Unified Manager可協助您根據內部評估與建議、針對工作負載指派PSL。
+
+如需將系統建議的PSL指派給工作負載的相關資訊、請參閱 link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["將系統建議的PSL指派給工作負載"]
+
+「效能服務層級」頁面會列出可用的PSL原則、並可讓您新增、編輯及刪除這些原則。
+
+
+NOTE: 您無法修改系統定義或目前指派給工作負載的PSL。您無法刪除指派給工作負載的PSL、或是唯一可用的PSL。
+
+此頁面顯示下列資訊：
 
 |===
 | 欄位 | 說明 
@@ -30,7 +62,7 @@ Unified Manager提供幾種無法變更的既定原則。這些預先定義的�
  a| 
 名稱
  a| 
-效能服務層級的名稱。
+PSL名稱。
 
 
 
@@ -42,14 +74,14 @@ Unified Manager提供幾種無法變更的既定原則。這些預先定義的�
 
 
  a| 
-預期的IOPS
+預期IOPS / TB
  a| 
 預期應用程式在LUN或檔案共用區上執行的IOPS下限。預期IOPS會根據儲存物件配置的大小、指定所配置的預期IOPS下限。
 
 
 
  a| 
-尖峰IOPS
+IOPS / TB尖峰
  a| 
 應用程式可在LUN或檔案共用區上執行的IOPS上限。尖峰IOPS會根據儲存物件配置的大小或儲存物件使用的大小、指定可能配置的IOPS上限。
 
@@ -100,11 +132,31 @@ Unified Manager提供幾種無法變更的既定原則。這些預先定義的�
 已指派PSL的儲存工作負載數量。
 
 |===
-如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：
+如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["什麼是績效預算？"]
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["什麼是績效預算？"]
 
-請注意、如果工作負載超過前一小時30%的預期延遲值、Unified Manager將產生下列其中一項事件、通知您可能發生的效能問題： 「工作負載Volume延遲臨界值違反效能服務層級原則定義」或「工作負載LUN延遲臨界值違反效能服務層級原則定義」。您可能想要分析工作負載、以瞭解造成較高延遲值的原因。
+
+=== 針對超出PSL定義臨界值的工作負載所產生的事件
+
+請注意、如果工作負載超過前一小時30%的預期延遲值、Unified Manager會產生下列其中一項事件、通知您可能發生的效能問題：
+
+* 工作負載Volume延遲臨界值違反效能服務層級原則的定義
+* 工作負載LUN延遲臨界值違反效能服務層級原則的定義。
+
+
+您可能想要分析工作負載、以瞭解造成較高延遲值的原因。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../events/reference_volume_events.html#impact-area-performance["Volume事件"]
+* link:../performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html["違反效能臨界值原則時會發生什麼事"]
+* link:..//performance-checker/concept_how_unified_manager_uses_workload_response_time.html["Unified Manager如何使用工作負載延遲來識別效能問題"]
+* link:../performance-checker/concept_what_performance_events_are.html["什麼是效能事件"]
+
+
+
+
+=== 系統定義的PSL
 
 下表提供系統定義的PSL相關資訊：
 

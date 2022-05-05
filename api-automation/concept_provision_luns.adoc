@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVM）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。 
 ---
-= 資源配置LUN
+= 使用API配置LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -126,9 +126,6 @@ image::../media/create_luns.gif[建立LUN]
 您必須輸入要建立之LUN的所有詳細資料、做為輸入參數。
 
 +
-袋熊：擷取#1
-
-+
 Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所建立的LUN。
 
 . 使用查詢工作時傳回的工作物件金鑰來驗證LUN建立：
@@ -148,9 +145,6 @@ Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證�
 |===
 +
 回應結束時、您會看到所建立LUN的金鑰。
-
-+
-袋熊：擷取# 2
 
 . 使用傳回的金鑰執行下列API、以驗證LUN的建立：
 +
@@ -174,13 +168,9 @@ Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證�
 您可以看到、「/Storage-provider /LUNs」的POST方法會在內部啟動每個功能所需的所有API、並建立物件。例如、它會叫用「/storage供應商/效能服務層級/」API來指派LUN上的效能服務層級。
 
 +
-袋熊：擷取# 3
+= LUN建立或對應失敗的疑難排解步驟
 
 
-
-
-
-== LUN建立或對應失敗的疑難排解步驟
 
 完成此工作流程後、您可能仍會看到LUN建立失敗。即使成功建立LUN、由於無法在您建立LUN的節點上使用SAN LIF或存取端點、因此使用igroup的LUN對應也可能失敗。如果發生故障、您會看到下列訊息：
 
@@ -217,9 +207,6 @@ The nodes <node_name> and <partner_node_name> have no LIFs configured with the i
 請確定在輸入參數中新增位址、以指出LUN的主節點和ha_address、以指出主節點的合作夥伴節點。當您執行此作業時、它會在主節點和合作夥伴節點上建立存取端點。
 
 ====
-+
-袋熊：擷取4號
-
 . 使用Json輸出中傳回的工作物件金鑰查詢工作、以確認其已成功執行、可在SVM上新增存取端點、且已在SVM上啟用iSCSI/FCP服務。
 +
 [cols="3*"]
@@ -241,9 +228,6 @@ The nodes <node_name> and <partner_node_name> have no LIFs configured with the i
 +
 在輸出結束時、您可以看到所建立的存取端點金鑰。在下列輸出中、「name」：「accessEndpointKey」值表示在LUN主節點上建立的存取端點、金鑰為9c964258-14ef-11ea-952-00a098e32c28。「name」：「accessEndpointHAKey」值表示在主節點的合作夥伴節點上建立的存取端點、其金鑰為9d347006-14ef-11ea-8760-00a098e3215f。
 
-+
-袋熊：擷取# 5
-
 . 修改LUN以更新igroup對應。如需工作流程修改的詳細資訊、請參閱「如何調整儲存工作負載」。
 +
 [cols="3*"]
@@ -264,9 +248,6 @@ The nodes <node_name> and <partner_node_name> have no LIFs configured with the i
 
 +
 *範例Curl*
-
-+
-袋熊：擷取# 6
 
 +
 Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證對應是否成功。
@@ -291,8 +272,5 @@ Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證�
 
 +
 在輸出中、您可以看到LUN已成功對應至初始佈建的igroup（金鑰d19ec2fa-fec7-11e8-b23d-00a098e32c28）。
-
-+
-袋熊：擷取# 7
 
 

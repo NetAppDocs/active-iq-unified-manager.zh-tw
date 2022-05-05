@@ -637,4 +637,26 @@ SSH使用不安全的密碼（ocumClusterSSHInSecure）
  a| 
 警告
 
+
+
+ a| 
+即將過期的叢集憑證（ocumEvtClusterCertificate關於ToExpire）
+ a| 
+風險
+ a| 
+叢集
+ a| 
+警告
+
+
+
+ a| 
+叢集憑證過期（ocumEvtClusterCertificate過期）
+ a| 
+風險
+ a| 
+叢集
+ a| 
+錯誤
+
 |===

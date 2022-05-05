@@ -1,45 +1,74 @@
 ---
 permalink: health-checker/task_view_detailed_security_status_for_clusters_and_svms.html 
 sidebar: sidebar 
-keywords: view, cluster security status, svm security status, volume encryption status 
-summary: 「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。 
+keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager 
+summary: 「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。 
 ---
-= 檢視叢集和儲存VM的詳細安全狀態
+= 檢視叢集和儲存VM的安全狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。
+利用此功能、您可以從介面中的不同點、檢視環境中儲存物件的安全狀態。Active IQ Unified Manager您可以根據定義的參數來收集及分析資訊和報告、並偵測受監控叢集和儲存VM上的可疑行為或未獲授權的系統變更。
 
-身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級查看您的各個叢集和儲存VM的安全性強度。
+如需安全性建議、請參閱 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"]
 
-根據定義的參數、您可以收集及分析資訊、以偵測受監控叢集和儲存VM上的可疑行為或任何未獲授權的系統變更。
 
-詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。
 
-「叢集/安全性詳細資料」頁面會檢查安全參數、例如Global FIPS、Telnet、不安全的SSH設定、登入橫幅、網路時間傳輸協定、 支援HTTPS傳輸和預設管理員。AutoSupport
+== 在「安全性」頁面上檢視物件層級的安全性狀態
 
-「儲存VMs/安全性詳細資料」頁面會檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、提供儲存VM安全性法規遵循的預設檢視。
-
-您也可以從叢集與儲存VM詳細資料頁面產生、排程及下載安全性法規遵循報告。
-
-在*安全性儀表板*中、按一下*叢集規範*和*儲存VM規範*卡中的*檢視報告*。
+身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級、清楚掌握各個叢集和儲存VM的安全性強度。支援的物件包括叢集、儲存VM和Volume。請遵循下列步驟：
 
 .步驟
 . 在左側導覽窗格中、按一下*儀表板*。
 . 視您要檢視所有受監控叢集或單一叢集的安全狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。
-. 按一下「*安全性*」面板中的向右箭頭。
-+
-「安全性」頁面會顯示下列資訊：
-
-+
-** 叢集安全性狀態（相容或不相容的叢集數目）
-** SVM安全狀態（相容或不相容的SVM數量）
-** Volume加密狀態（加密或未加密的磁碟區數目）
-** 每個叢集所使用的叢集驗證方法
+. 按一下「*安全性*」面板中的向右箭頭。隨即顯示「安全性」頁面。
 
 
-. 請參閱 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"] 如需如何使所有叢集、SVM及Volume符合NetApp安全建議的指示。
+按一下長條圖、計數和「檢視報告」連結、即可前往「Volume（磁碟區）」、「叢集」或「Storage VM（儲存VM）」頁面、視需要檢視對應的詳細資料或產生報告。
 
+「安全性」頁面會顯示下列面板：
+
+* *叢集法規遵循*：資料中心內所有叢集的安全狀態（符合或不符合法規的叢集數目）
+* *儲存虛擬機器法規遵循*：資料中心內所有儲存虛擬機器的安全狀態（相容或不相容的儲存虛擬機器數量）
+* * Volume Encryption*：環境中所有磁碟區的磁碟區加密狀態（加密或未加密的磁碟區數目）
+* * Volume反勒索軟體狀態*：環境中所有磁碟區的安全狀態（啟用或停用反勒索軟體的磁碟區數量）
+* *叢集驗證與憑證*：使用各種驗證方法（例如SAML、Active Directory）或透過憑證與本機驗證的叢集數目。面板也會顯示憑證已過期或即將在60天內過期的叢集數量。
+
+
+
+
+== 在「叢集」頁面上檢視所有叢集的安全性詳細資料
+
+「*叢集/安全性*」詳細資料頁面可讓您檢視叢集層級的安全性法規遵循狀態。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存>叢集*。
+. 選取*檢視>安全性>所有叢集*。
+
+
+預設安全參數、例如Global FIPS、Telnet、不安全SSH設定、登入橫幅、網路時間傳輸協定、 顯示「支援HTTPS傳輸」、以及叢集憑證過期狀態。AutoSupport
+
+您可以按一下 image:icon_kabob.gif["kabob圖示"] 「更多選項」按鈕、然後選擇在Unified Manager * Security *（安全性*）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。
+
+
+NOTE: 如果叢集的憑證已過期、您可以按一下*叢集憑證有效性*下的「過期」、然後從系統管理員（9.10.1及更新版本）續約。如果System Manager執行個體的版本早於9.10.1、則無法按一下「Expired」（過期）。
+
+
+
+== 從「儲存VM」頁面檢視所有叢集的安全詳細資料
+
+「*儲存VM /安全性*」詳細資料頁面可讓您檢視儲存VM層級的安全性法規遵循狀態。
+
+.步驟
+. 在左導覽窗格中、按一下*儲存設備>儲存設備VM*。
+. 選取*檢視>安全性>所有儲存VM*。隨即顯示具有安全參數的叢集清單。
+
+
+您可以檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、以預設檢視儲存VM的安全性法規遵循。
+
+您可以按一下 image:icon_kabob.gif["kabob圖示"] 「更多選項」按鈕、然後選擇在Unified Manager * Security *（安全性*）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。
+
+_如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 link:health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["檢視所有磁碟區和儲存VM的勒索軟體狀態"]._

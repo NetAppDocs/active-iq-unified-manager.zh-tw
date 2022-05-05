@@ -122,16 +122,10 @@ entries:
       url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
     - title: 根據保護狀態檢視儲存VM
       url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
-  - title: 瞭解儲存VM對等端點
-    url: "/data-protection/concept_understand_svm_associations.html"
+  - title: 瞭解儲存VM關聯
+    url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
   - title: 支援儲存服務的SVM和資源池需求
     url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
-  - title: 建立儲存VM對等端點
-    url: "/data-protection/task_create_storage_virtual_machine_svm_associations.html"
-  - title: 檢視儲存VM對等端點
-    url: "/data-protection/task_view_svm_associations.html"
-  - title: 刪除儲存VM對等端點
-    url: "/data-protection/task_delete_svm_associations.html"
   - title: 什麼是工作
     url: "/data-protection/concept_what_jobs_are.html"
   - title: 監控工作
@@ -153,10 +147,6 @@ entries:
       url: "/data-protection/reference_edit_resource_pool_dialog_box.html"
     - title: Aggregate對話方塊
       url: "/data-protection/reference_aggregates_dialog_box.html"
-    - title: SVM對等網頁
-      url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
-    - title: Create Storage Virtual Machine對等端點精靈
-      url: "/data-protection/reference_create_storage_virtual_machine_associations_wizard.html"
     - title: "「工作」頁面"
       url: "/data-protection/reference_protection_jobs_page.html"
     - title: 工作詳細資料頁面

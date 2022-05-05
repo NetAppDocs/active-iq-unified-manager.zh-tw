@@ -35,7 +35,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 
 您環境中的安全原則不得限制Unified Manager維護使用者的Sudo權限。如果權限受到限制、部分Unified Manager作業可能會失敗。驗證在成功安裝後以umadmin使用者身分登入時、是否能夠執行下列Sudo命令。
 
-「Udo /etc/init.d/ocie狀態」
+「Udo systemcl STATUS ocie」
 
 此命令應傳回適當的ocie服務狀態、且無任何錯誤。
 

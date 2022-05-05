@@ -1,7 +1,7 @@
 ---
 permalink: performance-checker/concept_performance_monitor_of_metrocluster_configurations.html 
 sidebar: sidebar 
-keywords: performance, monitor, metrocluster, configurations 
+keywords: performance, monitor, metrocluster, throughput 
 summary: Unified Manager可讓您監控MetroCluster 採用支援整合式組態之叢集之間的寫入處理量、以識別具有大量寫入處理量的工作負載。如果這些高效能工作負載導致本機叢集上的其他磁碟區的I/O回應時間過長、Unified Manager會觸發效能事件通知您。 
 ---
 = 效能監控MetroCluster 功能
@@ -11,10 +11,35 @@ summary: Unified Manager可讓您監控MetroCluster 採用支援整合式組態�
 
 
 [role="lead"]
-Unified Manager可讓您監控MetroCluster 採用支援整合式組態之叢集之間的寫入處理量、以識別具有大量寫入處理量的工作負載。如果這些高效能工作負載導致本機叢集上的其他磁碟區的I/O回應時間過長、Unified Manager會觸發效能事件通知您。
+Unified Manager可讓您監控MetroCluster 採用支援整合式組態之叢集之間的寫入處理量、以識別具有大量寫入處理量的工作負載。
+
+如果這些高效能工作負載導致本機叢集上的其他磁碟區的I/O回應時間過長、Unified Manager會觸發效能事件通知您。
+
+
+NOTE: Unified Manager會將MetroCluster 以整個過程為例的叢集視為個別叢集。它不會區分合作夥伴的叢集、也不會區分每個叢集的寫入處理量。
 
 當一個位在MetroCluster 某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位在某個位的叢集將其資料鏡射到其同一個位在Unified Manager會分析NVRAM、找出高寫入處理量過度使用NVRAM的工作負載、使NVRAM發生爭用。
 
 回應時間的差異超過效能臨界值的工作負載稱為_受害者_、而寫入NVRAM處理量的差異比平常高、導致爭用的工作負載稱為_bulle__。由於只有寫入要求會鏡射至合作夥伴叢集、因此Unified Manager不會分析讀取處理量。
 
-Unified Manager會將MetroCluster 以整個過程為例的叢集視為個別叢集。它不會區分合作夥伴的叢集、也不會區分每個叢集的寫入處理量。
+您可以MetroCluster 從下列畫面分析對應LUN和磁碟區的工作負載、以查看任一組叢集在整個過程中的處理量。您可以依叢集篩選結果。從左側導覽窗格：
+
+* *儲存>叢集>效能：All Clusters*檢視。請參閱
+* *儲存設備>磁碟區>效能：All Volumes *檢視。
+* *儲存設備> LUN >效能：所有LUN*檢視。
+* *工作負載分析>所有工作負載*
+
+
+*相關資訊*
+
+link:../performance-checker/reference_performance_event_analysis_and_notification.html["效能事件分析與通知"]
+
+link:../performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html["效能事件分析MetroCluster 、以利進行效能分析"]
+
+link:../performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html["效能事件所涉及的工作負載角色"]
+
+link:../performance-checker/task_identify_victim_workloads_involved_in_performance_event.html["找出效能事件所涉及的受害者工作負載"]
+
+link:../performance-checker/task_identify_bully_workloads_involved_in_performance_event.html["找出效能事件中所涉及的高效能工作負載"]
+
+link:../performance-checker/task_identify_shark_workloads_involved_in_performance_event.html["識別效能事件中涉及的工作負載"]

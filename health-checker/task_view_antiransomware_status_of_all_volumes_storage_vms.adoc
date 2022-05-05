@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html 
+sidebar: sidebar 
+keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
+summary: 您可以檢視所有磁碟區和儲存VM的清單、以及它們目前的反勒索軟體狀態、以便判斷您磁碟區上的資料是否受到足夠的保護、免受勒索軟體攻擊。 
+---
+= 檢視所有磁碟區和儲存VM的勒索軟體狀態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以檢視所有磁碟區和儲存VM（SVM）的清單、以及它們目前的反勒索軟體狀態、以便判斷您的磁碟區和SVM上的資料是否受到足夠的保護、免受勒索軟體攻擊。
+
+*您需要的是什麼*
+
+您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
+
+如需不同勒索軟體狀態的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["支援勒索軟體ONTAP"]。
+
+
+
+== 利用勒索軟體偵測功能檢視所有磁碟區的安全詳細資料
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
+. 在「檢視」功能表中、選取「*健全狀況*」>「*安全性*」>「*勒索軟體*」
+. 在「*安全性：勒索軟體*」檢視中、您可以依各種欄位排序或使用篩選器。
+
+
+
+NOTE: 離線磁碟區、受限磁碟區、SnapLock VMware Volume、FlexGroup FlexCache SAN專用磁碟區、停止儲存VM的磁碟區、儲存VM的根磁碟區或資料保護磁碟區。
+
+
+
+== 透過勒索軟體偵測功能、檢視所有儲存VM的安全詳細資料
+
+.步驟
+. 在左導覽窗格中、按一下*儲存設備>儲存設備VM*。
+. 選取*檢視>安全性>勒索軟體*。隨即顯示具有勒索軟體狀態的SVM清單。
+
+
+
+NOTE: 未啟用NAS傳輸協定的儲存VM不支援勒索軟體監控。

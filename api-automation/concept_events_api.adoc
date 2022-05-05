@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: 事件API可讓您擷取資料中心內受監控叢集所產生的事件。 
 ---
-= 管理事件與警示
+= 使用API管理事件和警示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

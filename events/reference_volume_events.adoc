@@ -424,6 +424,28 @@ Volume
  a| 
 警告
 
+
+
+ a| 
+Volume Snapshot保留未充分使用（Volume SnaphotReserveUnderutilizedWarningTM）
+ a| 
+活動
+ a| 
+Volume
+ a| 
+警告
+
+
+
+ a| 
+Volume Snapshot保留未充分使用（Volume SnaphotReserveUnderutilizedCleared）
+ a| 
+活動
+ a| 
+Volume
+ a| 
+警告
+
 |===
 
 
@@ -867,6 +889,35 @@ Volume
 
  a| 
 Volume顯示高雜訊的反勒索軟體警示（反勒索軟體功能NoisyVolume）
+ a| 
+風險
+ a| 
+Volume
+ a| 
+警告
+
+|===
+
+
+== 影響領域：資料保護
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+Volume的本機Snapshot保護不足（Volume LacksLocalprotectionWarningTM）
+ a| 
+風險
+ a| 
+Volume
+ a| 
+警告
+
+
+
+ a| 
+Volume的本機Snapshot保護不足（Volume LacksLocalprotectionCleared）
  a| 
 風險
  a| 

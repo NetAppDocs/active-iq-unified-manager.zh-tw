@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, workloads 
 summary: 此處說明的API涵蓋各種儲存管理功能、例如檢視儲存工作負載、建立LUN和檔案共用、管理效能服務層級和儲存效率原則、以及指派儲存工作負載的原則。 
 ---
-= 管理工作負載
+= 使用API管理工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

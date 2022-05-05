@@ -20,7 +20,7 @@ summary: 必要的連接埠和傳輸協定可在Unified Manager伺服器與託�
 在一般安裝中、您不需要在連線至Unified Manager Web UI時指定連接埠號碼、因為預設連接埠一律會使用。例如、由於Unified Manager一律會嘗試在其預設連接埠上執行、因此您可以輸入「+https://<host>+`」而非「+https://<host>:443+`」。
 
 
-NOTE: MySQL的預設連接埠3306僅限在VMware vSphere系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並透過維護主控台將連線提供給其他主機。
+NOTE: MySQL的預設連接埠3306僅限在VMware vSphere系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用維護主控台的「Control access to MySQL port 3306」（控制存取MySQL連接埠3306）選項、將連線提供給其他主機。
 
 Unified Manager伺服器使用特定的傳輸協定來存取下列介面：
 

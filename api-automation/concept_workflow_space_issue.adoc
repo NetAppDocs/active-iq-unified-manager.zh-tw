@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, space, issue, aggregate 
 summary: 您可以使用Active IQ Unified Manager 資料中心API的功能來監控磁碟區空間的可用度和使用率。您可以判斷磁碟區中的空間問題、並找出過度使用或未充分利用的儲存資源。 
 ---
-= 判斷Aggregate中的空間問題
+= 使用API判斷Aggregate中的空間問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

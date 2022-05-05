@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: 使用功能區、您可以配置及修改儲存工作負載（LUN、NFS檔案共用和CIFS共用）Active IQ Unified Manager 。資源配置包含多個步驟、從建立儲存虛擬機器（SVM）到在儲存工作負載上套用效能服務層級和儲存效率原則、都是不一樣的。修改工作負載包括修改特定參數及啟用其其他功能的步驟。 
 ---
-= 工作負載管理工作流程
+= 用於工作負載管理的API工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

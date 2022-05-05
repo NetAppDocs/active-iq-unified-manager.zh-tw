@@ -117,9 +117,7 @@ entries:
         url: "/health-checker/reference_volume_compliance_categories.html"
     - title: 不符合法規的意義
       url: "/health-checker/concept_what_does_not_compliant_mean.html"
-    - title: 檢視高層叢集安全性狀態
-      url: "/health-checker/task_view_high_level_cluster_security_status.html"
-    - title: 檢視叢集和SVM的詳細安全狀態
+    - title: 檢視叢集和儲存VM的詳細安全狀態
       url: "/health-checker/task_view_detailed_security_status_for_clusters_and_svms.html"
     - title: 檢視可能需要軟體或韌體更新的安全性事件
       url: "/health-checker/task_view_security_events_that_require_software_or_firmware_updates.html"
@@ -127,6 +125,8 @@ entries:
       url: "/health-checker/task_view_how_user_authentication_is_being_managed_on_all_clusters.html"
     - title: 檢視所有磁碟區的加密狀態
       url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
+    - title: 檢視所有磁碟區和儲存VM的勒索軟體狀態
+      url: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html
     - title: 檢視所有作用中的安全事件
       url: "/health-checker/task_view_all_security_events.html"
     - title: 新增安全性事件的警示

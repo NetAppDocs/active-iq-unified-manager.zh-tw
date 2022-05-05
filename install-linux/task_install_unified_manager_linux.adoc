@@ -39,14 +39,14 @@ Red Hat Enterprise Linux或CentOS系統可能已安裝所需支援軟體的所�
 
 
  a| 
-OpenJDK 11.0.12版
+OpenJDK 11.0.14版
  a| 
 Java版本
 
 
 
  a| 
-MySQL 8.0.27社群版本
+MySQL 8.0.28社群版本
  a| 
 "rpm -qa | grep -i mysql"
 
@@ -58,7 +58,7 @@ p7zip 16.02
 "rpm -qa | grep p7Zip
 
 |===
-. 如果安裝的MySQL版本早於MySQL 8.0.27 Community Edition、請輸入下列命令予以解除安裝：
+. 如果安裝的MySQL版本早於MySQL 8.0.28 Community Edition、請輸入下列命令予以解除安裝：
 +
 "rpm -e <mysql_package_name>'
 

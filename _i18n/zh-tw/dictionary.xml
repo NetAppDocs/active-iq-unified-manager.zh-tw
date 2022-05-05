@@ -18,13 +18,10 @@
   <block id="b9daaadd85248f3222d1ce5a685bb69e" category="cell">必要軟體與最低版本</block>
   <block id="fc6a57067ea7fdf362320a9b8f280942" category="cell">用於驗證軟體和版本的命令</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
-  <block id="0c487400e7de3d10fd03ccbb93cad0bb" category="paragraph">OpenJDK 11.0.12版</block>
   <block id="d349bda8382351b9fe435583c56eca3b" category="paragraph">Java版本</block>
-  <block id="a4f051daab9927f07a1368a1390cf080" category="paragraph">MySQL 8.0.27社群版本</block>
   <block id="ebf01eb8c517f12e8cecc2a481529448" category="paragraph">"rpm -qa | grep -i mysql"</block>
   <block id="a795b555665b99a19e8172dcea1db7f8" category="paragraph">p7zip 16.02</block>
   <block id="a7257213829973c5c49764d7424d2afc" category="paragraph">"rpm -qa | grep p7Zip</block>
-  <block id="9141d8b8e038016829f182b871f131e8" category="list-text">如果安裝的MySQL版本早於MySQL 8.0.27 Community Edition、請輸入下列命令予以解除安裝：</block>
   <block id="13403dd457b6243a3c87fe19d5c61014" category="paragraph">"rpm -e &lt;mysql_package_name&gt;'</block>
   <block id="de62e757ceb412d713be5a4d33f999bc" category="paragraph">如果收到相依性錯誤、您必須新增「-nodeps」選項、才能解除安裝元件。</block>
   <block id="3d07560c3dc428c1a0c49eb9c78954c3" category="list-text">瀏覽至您下載安裝「.zip」檔案的目錄、然後展開Unified Manager套裝組合：</block>
@@ -68,12 +65,10 @@
   <block id="73354680b9aadf478f1227e2ce786698" category="paragraph">範例輸出：</block>
   <block id="621484ac778dedeb75471521b4e3da7b" category="admonition">在此輸出中、內容是「預設」。您應該將此內容變更為「mysqld_db_t」。</block>
   <block id="fa2520cc69af2b496fc097509862e5e6" category="list-text">請執行下列步驟、根據您掛載「/ope/NetApp/data」的方式來設定內容。</block>
-  <block id="8cce1b3b882f8a60215ae93e9b8463b4" category="list-text">執行下列命令、將內容設定為「mysqld_db_t'」：</block>
   <block id="34ebc927070d1f0f0d168222751672fe" category="list-text">如果您在「etc/stabs」中設定了「/opc/NetApp/data」、則應該編輯「etc/stabs」檔案。如需「/opt/NetApp/data/」掛載選項、請將MySQL標籤新增為：</block>
   <block id="2ff1717e7948ea020c7558f5edcec1eb" category="paragraph">「context=system_u:object_r：mysqld_db_t:s0」</block>
   <block id="d488a1160c393f49a2c9ed8bd9ebe7ff" category="list-text">卸載並重新掛載「/opt/NetApp/data/」以啟用內容。</block>
   <block id="467d316f506a1751012e8dc8bb6ab3b6" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：</block>
-  <block id="372632985965e1ae915d17aaf74889b9" category="paragraph">"Mount&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0"。確認內容設定是否正確：</block>
   <block id="f39e428b6f0460103461690dc7698da5" category="paragraph">「ls -dZ /opt/NetApp/data/」</block>
   <block id="5a2ae553bb790b75ebf1d88245170467" category="section-title">在掛載/opp/netapp時設定SELinux內容、並單獨掛載/opp/NetApp/data/</block>
   <block id="6a67b52571647cab034e5469c7dbe03b" category="paragraph">在這種情況下、您應該先設定上一節所述的「/opt/NetApp/data/」背景。為「/opt/NetApp/data/」設定正確的內容後、請確認父目錄「/opt / NetApp」沒有將SELinux內容設為「file_t」。</block>
@@ -91,7 +86,6 @@
   <block id="456be3986dc6aff928e7e16f07f8562f" category="section-title">在掛載了/opp/netapp且未單獨掛載/opp/NetApp/data/時設定SELinux內容</block>
   <block id="783fab70a524af7455cb9f3470f68fdd" category="paragraph">如果您已在系統中掛載了「/opt/netapp」、且SELinux設為「強制」、請確定「/ope/netapp」的SELinux內容類型設為「mysqld_db_t」、這是資料庫檔案位置的預設內容元素。</block>
   <block id="8c5fb5a31457ddb0a355f79b5006fd17" category="list-text">請執行下列步驟、根據您掛載「/ope/NetApp」的方式來設定內容。</block>
-  <block id="6f9bd0afae96bb9d85903bf888bb1a45" category="list-text">如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。如需「/opt/NetApp/」掛載選項、請將MySQL標籤新增為：</block>
   <block id="f9051411037b243027cff1ee99de2113" category="list-text">卸載、然後再次掛載「/opt/NetApp/」以啟用內容。</block>
   <block id="02c78a8183418401c853e94f3d195414" category="paragraph">「ls -dZ /opt/NetApp/」</block>
   <block id="a1829ad08a395f5bd291b0c7562b2a29" category="summary">您可以在安裝於Linux系統的Unified Manager上升級協力廠商產品、例如JRE。</block>
@@ -100,18 +94,11 @@
   <block id="88f52a8d98ed293c3b3467272c571594" category="paragraph">開發這些協力廠商產品的公司會定期報告安全性弱點。您可以依照自己的排程升級至此軟體的較新版本。</block>
   <block id="63abb0f288c1d7a899870a973e2a1a26" category="summary">您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。</block>
   <block id="bae43629fc80334bfb253eda91870d0a" category="doc">升級Linux上的MySQL</block>
-  <block id="9f5b309ea6f5c0107df68af41b42385c" category="paragraph">您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。如果您系統上安裝的MySQL版本早於8.0.27、Unified Manager 9.10升級程序會自動將MySQL升級至8.0.27。您不應該執行MySQL從舊版升級至8.0.27的獨立升級。</block>
   <block id="76b45bd64e794aa15caf86e164b12820" category="paragraph">您必須擁有安裝Unified Manager的Linux系統的root權限。</block>
-  <block id="ca431acdff879bf74443b03a3ea7b05e" category="paragraph">您只能將MySQL 8.0.27的基礎版本升級至更新版本、以進行次要更新。</block>
   <block id="f53d1531676d47e1ac40a9a7f8022ad4" category="list-text">以root使用者身分登入Unified Manager主機。</block>
   <block id="7bb52bb3ab7705ec1ebfe15ec998339e" category="list-text">在目標系統上下載最新的MySQL Community Server「.rpm」套裝組合。</block>
   <block id="5115846061c6b31d315d4c6bb626ceb3" category="list-text">將套件解壓縮到目標系統上的目錄。</block>
   <block id="4276a11fa4b3253f36d59f5a58894c99" category="list-text">在解包之後、目錄中會有多個「.rpm」套件、但Unified Manager只需要下列rpm套件：</block>
-  <block id="0dd020de8717fef4759ed42bb7a9371e" category="list-text">MySQL-community用戶端-8.0.27</block>
-  <block id="54bf75329ac0640a1a4b19d525aa3298" category="list-text">MySQL-community - libs-8.0.27</block>
-  <block id="5d2f50f494763ca33ac61b7394b49365" category="list-text">MySQL-community伺服器-8.0.27</block>
-  <block id="9b02dcce074ad8f0677667ae3bdefe4a" category="list-text">MySQL-社群-通用-8.0.27</block>
-  <block id="ebda0ef640f941a251bca0c42fabf09b" category="list-text">MySQL-community用戶端外掛程式-8.0.27刪除所有其他的「.rpm」套件。但是、在rpm套裝組合中安裝所有套件並不會造成錯誤。</block>
   <block id="dc0f63223f9fd934e2a95489bf3b41fc" category="list-text">依照下列順序停止Unified Manager服務及相關的MySQL軟體：</block>
   <block id="404da40c487927dba2ac8fbeaf4164c7" category="paragraph">《神祕的停止》</block>
   <block id="67c3532937b08ee6ee4886253d23ae77" category="paragraph">《stystemctl stop ocie》</block>
@@ -265,7 +252,6 @@
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux平台上的Unified Manager快速入門指南。</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux安裝的快速入門指示</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">系統需求</block>
-  <block id="ad725a8cf93b940ceeb22009da4cbe69" category="list-text">作業系統：Red Hat Enterprise Linux和CentOS 7.x版和8.x版、以x86_64架構為基礎、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM：12 GB、CPU：總共9572 MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">可用磁碟空間：在「/opt/NetApp/data」目錄中有100 GB的磁碟空間、在根分割區中有50 GB的磁碟空間。對於單獨掛載的「/opt」和「/var/log」目錄、請確定「/opt」有15 GB、「/var/log/log」有16 GB、「/tmp」有10 GB可用空間。</block>
   <block id="70fb3ba0c16994b120017db147e1af7a" category="inline-link-macro">安裝Unified Manager的需求</block>
@@ -345,14 +331,10 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">作業系統軟體</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux系統必須安裝下列版本的作業系統和支援軟體：</block>
-  <block id="ee615346278b33520c4013511a807b10" category="list-text">Red Hat Enterprise Linux或CentOS 7.x與8.x版、以x86_64架構為基礎。不支援CentOS串流。</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">請參閱互通性對照表、以取得所支援Red Hat Enterprise Linux和CentOS版本的完整且最新清單。</block>
-  <block id="ba319a4c4016780cd7c22ad751a1ad56" category="admonition">NetApp不支援使用協力廠商工具（例如Microsoft System Center Configuration Manager（Software））來安裝Unified Manager。</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">第三方軟體</block>
   <block id="dcfc709b0268fc59e78dee65c4b3d005" category="paragraph">Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager搭售及設定。</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。</block>
-  <block id="ddfa8d995a85ef5f86e5eae4134040c1" category="list-text">MySQL Community Edition 8.0.27版（來自MySQL儲存庫）。</block>
-  <block id="4b7bbc94176007b0c7640a27ef7b6282" category="list-text">OpenJDK 11.0.12版（來自Red Hat Extra Enterprise Linux Server儲存庫）</block>
   <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
   <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">在升級任何協力廠商軟體之前、您必須先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。</block>
@@ -431,7 +413,6 @@
   <block id="e5bb72d910c6bd4af263b66381e46d9f" category="paragraph">在安裝之前定義此資訊時、安裝指令碼會探索這些設定、並使用定義的值、而非使用安裝預設設定。</block>
   <block id="f6dfac06a120ad910330ab2bc9b3dd5e" category="paragraph">此外、預設的Unified Manager安裝也會將umadmin使用者包含在「/etc/udoers.d/」目錄的sudoers檔案（「ocum_sudoers'」和「osce_udoers'」）中。如果您因為安全性原則或某些安全性監控工具而從環境中移除此內容、則必須將其重新新增。您需要保留sudoers組態、因為某些Unified Manager作業需要這些Sudo權限。</block>
   <block id="d4b00de1554eff3ac10e20d1f23e292f" category="paragraph">您環境中的安全原則不得限制Unified Manager維護使用者的Sudo權限。如果權限受到限制、部分Unified Manager作業可能會失敗。驗證在成功安裝後以umadmin使用者身分登入時、是否能夠執行下列Sudo命令。</block>
-  <block id="1a7f1dfeda0d90dbd7609485508fbec6" category="paragraph">「Udo /etc/init.d/ocie狀態」</block>
   <block id="328b8a8d521336be73262ea714c1e325" category="paragraph">此命令應傳回適當的ocie服務狀態、且無任何錯誤。</block>
   <block id="eec7883a2bcc70de8473576c1f08a5bd" category="list-text">以root使用者身分登入伺服器。</block>
   <block id="3daffc60e45994853d71bd4a3d47f4b3" category="list-text">建立名為「maintainmaint維護」的umadmin群組帳戶：</block>
@@ -447,7 +428,6 @@
   <block id="e9b70b01b68936d5229a5051e4a06db4" category="paragraph">Unified Manager會收集叢集資訊、將資料儲存在資料庫中、並分析資料、以查看是否有任何叢集問題。</block>
   <block id="8d761efc87a632c3a40d29b6f188d333" category="summary">您可以在安裝Unified Manager的Linux伺服器上升級至新版OpenJDK、以取得安全性弱點的修正程式。</block>
   <block id="82506b671cd34fe2d0a56bf2cf7003ff" category="doc">升級Linux上的OpenJDK</block>
-  <block id="7e85600490b8fb8f09d8eed3dac925a5" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.9升級至OpenJD11.0.12、但無法直接從OpenJD11更新至OpenJD12。</block>
   <block id="39ad32a5cfe270b5c10441798152d06e" category="list-text">將適當版本的OpenJDK（64位元）下載到目標系統。</block>
   <block id="f5f16fbe929ef4fb3a1beb89092f1fcf" category="list-text">停止Unified Manager服務：</block>
   <block id="d59037a8edd2170b74cc69238522882d" category="list-text">在系統上安裝最新的OpenJDK。</block>
@@ -503,7 +483,6 @@
   <block id="4ccc693abf0d23c0d512da6d155ea5e9" category="paragraph">完成此作業後、軟體即會移除。卸載後、所有來自於「/opt/NetApp/data」目錄的資料都會移至「/opt /NetApp/data/Backup」資料夾。解除安裝Unified Manager也會移除Java和MySQL套件、除非系統上的任何其他應用程式都需要和使用這些套件。不過、MySQL資料不會刪除。</block>
   <block id="b29348a660e9e748ea4fd292d57cfaf5" category="summary">您可以在Red Hat平台上下載並執行安裝檔案、以升級Unified Manager。</block>
   <block id="0521c408c6c49e7445ee8ef5abc25b44" category="doc">升級Unified Manager</block>
-  <block id="13ddd135bd2860acc9d2a7dde58cf8b6" category="paragraph">您可以在Red Hat平台上下載並執行安裝檔案、從Unified Manager 9.8或9.9升級至9.10。</block>
   <block id="851b63dfbfda9a56a4773ddff04a3bb8" category="list-text">您要升級Unified Manager的系統必須符合系統和軟體需求。</block>
   <block id="476492554416aa7a1518b6deeea2245d" category="list-text">升級Unified Manager之前、您必須先安裝或升級至正確版本的OpenJDK。</block>
   <block id="7db7f0fa38ea709bf1cfa08b1cc2edf4" category="inline-link-macro">升級Linux上的JRE</block>
@@ -512,11 +491,6 @@
   <block id="ed2c45fc23f3cfea044bc28997ea71c4" category="list-text">為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。此外、建議您將備份檔案從「/ope/NetApp/data」目錄移至外部位置。</block>
   <block id="0a1c647277efefc75723a4d91b7d27a9" category="list-text">在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。</block>
   <block id="57631e141b8f0f57a0f764b018516b87" category="list-text">您應該已經完成所有執行中的作業、因為Unified Manager在升級過程中無法使用。</block>
-  <block id="37354e6beb8513ddd7766e179aaab3e2" category="list-text">* MySQL需求*：MySQL社群版會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.27、Unified Manager升級程序會自動將MySQL升級至8.0.27。</block>
-  <block id="1db6ec26f9e37dfe675bdaf66bc0347c" category="paragraph">不過、您可能想要將MySQL升級至系統上最新的次要版本。在升級至下一個次要版本之前、請確定您系統上的MySQL基礎版本為8.0.27。</block>
-  <block id="a1071bfb77eca5179d618fb7269b7629" category="paragraph">如果您的站台沒有設定MySQL 8.0.27的儲存庫、您可能無法升級Unified Manager。若要在升級前設定儲存庫、請執行下列步驟：</block>
-  <block id="8bd7aee1af6eb4a67ab8ad5f5b38af79" category="list-text">下載MySQL RPM套件、並將其儲存在儲存「NetApp-um&lt;版本&gt;.x86_64 .rpm」的相同目錄中（本例為8.0.27）。</block>
-  <block id="9036fc0a5fcfd893d6d6b4578a8aea1f" category="list-text">執行此命令以安裝新版本：「yum install *。rpm」</block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">啟動Unified Manager伺服器。執行下列命令：</block>
   <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">登入目標Red Hat Enterprise Linux或CentOS伺服器。</block>
   <block id="9d8fac2d2928116ea867fc277420d176" category="list-text">將Unified Manager產品組合下載至伺服器。</block>
@@ -545,7 +519,6 @@
   <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows安裝的快速入門指示</block>
-  <block id="c77a66b379540bb4341f088044ab2a10" category="list-text">作業系統：Microsoft Windows Server 2016與2019 64位元標準版與資料中心版。支援下列語言：</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="list-text">英文</block>
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">日文</block>
   <block id="1e81fc32fea0e9f3a978661e4b5e484d" category="list-text">簡體中文</block>
@@ -566,7 +539,6 @@
   <block id="b014cda139580b337c10a0df729494ba" category="list-text">您應該擁有安裝Unified Manager的系統的Windows管理員權限。</block>
   <block id="ab52ec799c459cf45e42ec0d063a73fe" category="list-text">您應該擁有MySQL root使用者的密碼。</block>
   <block id="c3d0e635616031ccca55f35ac35769c2" category="list-text">您應該能夠存取目錄中NetApp提供的「密碼.bat」指令碼</block>
-  <block id="8eda65499ae27c0fca3257012afe8f30" category="paragraph">Program Files\NetApp\Essentials \Bin。</block>
   <block id="b38dd1119d43581dc92fe29ccecf4465" category="list-text">以管理使用者身分登入Unified Manager主機。</block>
   <block id="11de7b3c75301534d4163a29dd7de95f" category="list-text">使用Windows服務主控台停止下列Unified Manager服務：</block>
   <block id="b3283b13ea0e99f0362b1f750fa713fd" category="list-text">NetApp Active IQ 收購服務（Ocia-au）</block>
@@ -583,12 +555,10 @@
   <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">請務必瞭解在Windows上下載及安裝Unified Manager的步驟順序。</block>
   <block id="346162fec0924b3e715f450b30bfdbde" category="doc">在Windows上安裝Unified Manager</block>
   <block id="c3aaa3d5e1c6e7542a12d69e8624f700" category="summary">您可以在Windows平台上下載並執行安裝檔案、以升級Unified Manager。</block>
-  <block id="391e3ccecfd1a5bc4a6b1424155e04b7" category="paragraph">您可以在Windows平台下載並執行安裝檔案、將Unified Manager 9.8或9.9升級至9.10。</block>
   <block id="433edfcc5f5751863b077c654c315d95" category="list-text">您要升級Unified Manager的系統應符合系統和軟體需求。</block>
   <block id="faea1ae077af360ba8a684d0f5eba7d8" category="paragraph"><block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block></block>
   <block id="8e877ca55995ad1793162a0c7fd7384d" category="paragraph">從Unified Manager 9.5開始、OpenJDK會隨附於安裝套件中、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。</block>
   <block id="4ad11e2ce9de8bb4ae34d6b5efca525c" category="paragraph">開始升級之前、請先確定系統上已安裝Microsoft .NET 4.5.2以上版本。</block>
-  <block id="603140aee7e0394e7a45b946fa63701d" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.27、Unified Manager升級程序會自動將MySQL升級至8.0.27。您不得執行舊版MySQL的獨立升級至8.0.27。</block>
   <block id="5988a7237bcee29aa6c84c04b743f834" category="list-text">您應該擁有Windows系統管理員權限。請確定您的使用者名稱開頭沒有驚嘆號「！」。如果執行安裝的使用者名稱開頭為「！」、Unified Manager安裝可能會失敗。</block>
   <block id="118b787faad1d75a1fba9c9848031d8f" category="list-text">您應該擁有有效的認證資料、才能登入NetApp支援網站。</block>
   <block id="102ef1b1e4adc3606ce0a19622d711bc" category="list-text">為了避免資料遺失、您應該建立Unified Manager機器的備份、以防升級期間發生問題。</block>
@@ -638,18 +608,14 @@
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">從OpenJDK網站下載適當版本的OpenJDK（64位元）至目標系統。</block>
   <block id="db7fdcdf000c603674beba9fdd7c8075" category="paragraph">例如、從下載「openjdk-11_windows-x64_bin.zip」<block ref="b90546eba13061ee913dc6d313e28839" category="inline-link-rx"></block>。</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">展開「壓縮」檔案。</block>
-  <block id="e63adb915964a7470fb81d10efd31708" category="list-text">將目錄和檔案從產生的「JDK"目錄（例如、「JDK-11.0.12」）複製到安裝Java的位置。範例：「C:\Program Files\NetApp\JDK\」</block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">使用Windows服務主控台啟動Unified Manager服務：</block>
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。</block>
-  <block id="234ad54522d9925af496168ab12f5c8d" category="paragraph">您可以在下列Windows版本上安裝Unified Manager：* Microsoft Windows Server 2016 Standard與Datacenter Edition * Microsoft Windows Server 2019 Standard與Datacenter Edition</block>
   <block id="84d4d095f4b0442f31e07426efa9b0a7" category="paragraph">下列語言的64位元Windows作業系統支援Unified Manager：</block>
   <block id="4f4383ae303a1aa1063bb36803e75868" category="paragraph">請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。</block>
   <block id="2dedeeb59a743d2abc64040dd65c2e1a" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43；&amp;#43；2015可轉散發套件14.26.28720.3版</block>
   <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;適用於Visual Studio 2013 12.0.40660.0版的可轉散發套件</block>
-  <block id="ce358b3113b47d3203aa2868dcd1aed9" category="list-text">MySQL社群版本8.0.27</block>
-  <block id="b69583bdad3a63373172cbe89ddde845" category="list-text">Python 3.9.x</block>
   <block id="3eb9f5dac9a6d7c6556c2754973bdc44" category="list-text">p7zip版本18.05或更新版本</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">從Unified Manager 9.5開始、Unified Manager安裝套件中就會提供OpenJDK、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">如果MySQL已預先安裝、您應確保：</block>
@@ -664,11 +630,9 @@
   <block id="ce103923838f9bc916d8e7cb36cf9794" category="list-text">您應該停用Microsoft IIS全球網路發佈服務、並確保連接埠80和443是免費的。</block>
   <block id="a52e8dd64ba5c532ee8a9127c4a53694" category="list-text">您應該確定在安裝期間停用「Windows Installer RDS相容性」的遠端桌面工作階段主機設定。</block>
   <block id="2e9f7284307b6c63613fea773cab2249" category="list-text">udp連接埠514應該是免費的、不應由任何其他服務使用。</block>
-  <block id="a8ffce21d748532a69e40672feeeaef6" category="paragraph">Unified Manager安裝程式會在Windows Defender中設定下列排除項目：</block>
   <block id="443953c08ed4d54d7066b9aa4207cbbe" category="list-text">Unified Manager資料目錄</block>
   <block id="92989804e9614b922b48cda022c3a4c9" category="list-text">Unified Manager安裝目錄</block>
   <block id="560a4b149b9bbe1df98009b8d0ebcf46" category="list-text">MySQL資料目錄</block>
-  <block id="f2f43eb69cd848b60346743d98242154" category="paragraph">如果您的伺服器安裝了不同的防毒掃描程式、您應該手動設定這些排除項目。</block>
   <block id="635dbe5a53fa671dc53b3dfff7d6f296" category="summary">您可以安裝Unified Manager來監控和疑難排解資料儲存容量、可用度、效能和保護問題。</block>
   <block id="736f549b511feffbd0e554a9a748a1db" category="list-text">您打算安裝Unified Manager的系統應符合系統和軟體需求。</block>
   <block id="ac785513c978c7d6724dd2415fc27d74" category="list-text">您應該擁有支援的網頁瀏覽器。</block>
@@ -696,16 +660,12 @@
   <block id="a17f437aedf2eddaf8ba841b0c1aeb45" category="doc">正在解除安裝Unified Manager</block>
   <block id="9722ab728446f937c918c0e5e4e40c5e" category="list-text">在解除安裝軟體之前、必須先從Unified Manager伺服器移除所有叢集（資料來源）。</block>
   <block id="2d3ba2f501d37069b8008b423d5274ab" category="list-text">請選擇下列其中一個選項來解除安裝Unified Manager：</block>
-  <block id="789480eefa867b16c3a85237d473ed23" category="cell">若要從解除安裝Unified Manager ...</block>
   <block id="c1325f6903ebb5ebb2bb519a73ddb1b0" category="cell">然後...</block>
-  <block id="e2157921c8787523debaa4fbda78086e" category="paragraph">程式與功能精靈：</block>
-  <block id="853ae90f0351324bd73ea615e6487517" category="cell">：</block>
   <block id="c84847b1c0a346868ca317d209ade628" category="list-text">瀏覽至*控制台*&gt;*程式與功能*。</block>
   <block id="3be4bd1042d49050b5bccb3d066f2f3b" category="list-text">選取Active IQ Unified Manager 「更新」、然後按一下「*解除安裝*」。</block>
   <block id="4499aa2594bc72ac198b29f4d2e83a5f" category="paragraph">如果伺服器上已啟用使用者帳戶控制（UAC-）、且您以網域使用者身分登入、則必須使用命令列解除安裝方法。</block>
   <block id="ee99d2d1577097422ec79510b2fd84e9" category="paragraph">Unified Manager已從您的系統中解除安裝。</block>
   <block id="cee9c9f467d07df0f536920b0c81137d" category="list-text">解除安裝下列未在Unified Manager解除安裝期間移除的協力廠商套件和資料：</block>
-  <block id="7438230d8a9b1f99f2b10963201bec22" category="list-text">第三方套件：JRE、MySQL、Microsoft Visual C&amp;#43；&amp;#43；2015可轉散發套件及7Zip</block>
   <block id="894a8f514225c80240b55b038fd71a5b" category="list-text">由Unified Manager產生的MySQL應用程式資料</block>
   <block id="4ce380ffb0c2ac7f432c9a646e41fc52" category="list-text">應用程式記錄和應用程式資料目錄的內容</block>
   <block id="ec269d35cea219958d7c15c9ba6b33f8" category="summary">部署Unified Manager包括下載軟體、部署虛擬應用裝置、建立維護使用者名稱和密碼、以及在Web UI中執行初始設定。</block>
@@ -740,7 +700,6 @@
   <block id="67e876be0e2ef4c75db6d2c6cf3f0768" category="list-text">在您要移除的VM上按一下滑鼠右鍵、然後按一下*從磁碟刪除*。</block>
   <block id="3890f9f0f1b24b11ec99c5302bb245a3" category="paragraph">如需詳細資訊、請參閱<block ref="ae0acc7a1cf35a69eb7b42685c902841" category="inline-link-rx"></block></block>
   <block id="90bb491fbeff708e2e5dc4390c2d45dd" category="summary">在VMware vSphere系統上、您可以安裝Unified Manager軟體、升級至較新版本的軟體、或移除Unified Manager虛擬應用裝置。</block>
-  <block id="6afd3f4c5093ce2e5e2c7336e809091a" category="admonition">MySQL的預設連接埠3306僅限在VMware vSphere系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並透過維護主控台將連線提供給其他主機。</block>
   <block id="add00995c60192dd032b1173fc3f8673" category="admonition">如果您使用此連接埠或任何其他連接埠來連線至VMware vCenter Server或ESXi伺服器、請確定連接埠可用、而且可以連線至安全的站台。</block>
   <block id="78c155206ed695d069f0b647fdcec524" category="paragraph">ESXi伺服器IP位址</block>
   <block id="d16ae8eb65ccb46e0447b8be8b175718" category="summary">升級Unified Manager之前、請先從NetApp支援網站下載Unified Manager升級檔案。</block>
@@ -768,7 +727,6 @@
   <block id="16cb709111f75691259b4300511c4561" category="inline-link-macro">Unified Manager最佳實務做法指南</block>
   <block id="7174744f7763cc5d954bc0e92733b774" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需詳細資訊、請參閱 <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block></block>
   <block id="b09592db93e99e16c02d56499bcc0e46" category="summary">您可以在VMware vSphere上升級至Unified Manager</block>
-  <block id="539da2d4c01289a71cdecb9e92ed5f9d" category="paragraph">您只能從9.8版或9.9版升級至Unified Manager 9.10。</block>
   <block id="165614b596769629e2b5d0efa723fdc8" category="inline-link-macro">下載Unified Manager ISO映像</block>
   <block id="638adcb0fb1e666005e78ce6507750e4" category="list-text"><block ref="1527bfdac02a122c6f1ea8d5355cabb9" category="inline-link-macro-rx"></block>。</block>
   <block id="cb06beddce96e08399fea241fef33e34" category="inline-link-macro">升級Unified Manager</block>
@@ -833,7 +791,6 @@
   <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="186ee8f743cf6f79dae8d8b6579d0b17" category="summary">您可以升級Unified Manager虛擬應用裝置</block>
   <block id="a1008c9caf7ebe0f026c39a427ae352b" category="doc">升級Unified Manager虛擬應用裝置</block>
-  <block id="43ccc80c0c263f070a643421783200f4" category="paragraph">您可以將Unified Manager虛擬應用裝置從9.8版和9.9版升級至9.10版。</block>
   <block id="a3ba5a3fd33b03f148e52fd833cda7c3" category="paragraph">請確認下列事項：</block>
   <block id="d9a8a070a49436c3c76ab9b3ca5a89ff" category="list-text">您已從NetApp支援網站下載升級檔案（ISO映像）。</block>
   <block id="d24355e99c12f5ea949a960382388c4a" category="list-text">您要升級Unified Manager的系統符合系統和軟體需求。</block>
@@ -1393,7 +1350,6 @@
   <block id="2cd66e4cb1059caf02b4b6194a8ee5dd" category="paragraph">叢集管理IP位址必須是管理儲存虛擬機器（SVM）的叢集管理LIF。如果使用節點管理LIF、則作業會失敗。</block>
   <block id="81bd0e8291ca755124cc9a7da825fd2f" category="list-text">叢集必須執行ONTAP 的是版本不穩定的9.1軟體或更新版本。</block>
   <block id="ef449751178f433197590c3c5074c337" category="list-text">系統管理員使用者名稱和密碼ONTAP</block>
-  <block id="22699c2de937903a991a77ce57d4e158" category="paragraph">此帳戶必須將「應用程式」存取權限設為_ontapi_、_ssh _和_http _的_admin_角色。</block>
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">使用HTTPS傳輸協定連線至叢集的連接埠號碼（通常為連接埠443）</block>
   <block id="519e5490fb88463363f7c8fd07cbbf79" category="list-text">您擁有必要的憑證。需要兩種類型的憑證：</block>
   <block id="b3b9ec51477086ec9642119cccfc771a" category="inline-link">如何在ONTAP 更新SSL憑證的過程中進行更新9</block>
@@ -2131,7 +2087,6 @@
   <block id="c709409f087df8d92bf79b678b53982f" category="summary">您可以使用Unified Manager監控節點根Volume。最佳實務做法是、節點根磁碟區應有足夠的容量、以防止節點停機。</block>
   <block id="8de21a35f65c014ecc55f169fd0bf784" category="doc">瞭解節點根磁碟區</block>
   <block id="1aafd50acd3eec04290825cc7070495e" category="paragraph">當節點根磁碟區的已用容量超過節點根磁碟區總容量的80%時、就會產生節點根磁碟區空間即將滿的事件。您可以設定事件警示以取得通知。您可以採取適當的行動、使用ONTAP 「系統管理程式」或ONTAP 「系統資訊管理系統」CLI來防止節點停機。</block>
-  <block id="ede6fbde73bf0485fdd055280b82001d" category="summary">您可以產生包含診斷資訊的支援服務組合、以便將其傳送至技術支援部門以取得疑難排解說明。從Unified Manager 9.8開始、如果Unified Manager伺服器已連線至網際網路、您也可以從維護主控台將支援服務組合上傳至NetApp。</block>
   <block id="dd3d7fe723d933be7fc14ce6b3b64c01" category="doc">產生及上傳支援服務組合</block>
   <block id="a514c988b092c5f5cdc72bc048202257" category="paragraph">由於某些類型的支援資料可能會使用大量的叢集資源、或需要很長時間才能完成、因此當您選取完整的支援服務組合時、可以指定要納入或排除的資料類型、以減少支援服務組合的大小。您也可以選擇建立一個輕量級支援套件、其中只包含30天的記錄和組態資料庫記錄、不包括效能資料、擷取記錄檔和伺服器堆疊傾印。</block>
   <block id="a37f0a4213bf14bf95645732e97c703a" category="paragraph">Unified Manager僅儲存兩個最近產生的支援組合。舊版支援服務組合將從系統中刪除。</block>
@@ -2208,20 +2163,8 @@
   <block id="787a5dee8395c9fdec4cfed3e51fdaf5" category="paragraph">如需FabricPool 更多有關元化的資訊、請參閱《_ ONTAP 元化9磁碟與集合體電源指南》_。</block>
   <block id="604e3b21e20d2e3d15be71c643b54e69" category="inline-link">《電力指南》（英文）ONTAP</block>
   <block id="7858451050766dac30885eb560158270" category="paragraph"><block ref="7858451050766dac30885eb560158270" category="inline-link-rx"></block></block>
-  <block id="aab5eede3370dc677f5e40ee8f7d8364" category="summary">Unified Manager儀表板上的「安全性」面板會根據您目前的檢視、顯示所有叢集或單一叢集的高層安全性狀態。</block>
-  <block id="885f5600f37af7d8d04e7e7d203755b2" category="doc">檢視高層叢集安全性狀態</block>
-  <block id="fdf9ab6d7d8f2cd2596a368e1dc822ce" category="paragraph">Unified Manager儀表板上的「安全性」面板會根據您目前的檢視、顯示所有叢集或單一叢集的高層級安全性狀態。</block>
   <block id="047f218cde508f517efee65edfd05c5e" category="list-text">在左側導覽窗格中、按一下*儀表板*。</block>
   <block id="0da0e153560fee72ee839d42802ffce4" category="list-text">視您要檢視所有受監控叢集或單一叢集的安全狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。</block>
-  <block id="4cb5151bae27cc78c3bfad72d948e1fe" category="list-text">查看「*安全性*」面板以查看整體狀態。</block>
-  <block id="8f6de4832f68549c5e00fbd7e1e6721c" category="paragraph">此面板顯示：</block>
-  <block id="3f922fc1d1faab7789fa067de040413e" category="list-text">過去24小時內收到的安全事件清單</block>
-  <block id="eaf4d3bbced59181bfd5927fa3b8501e" category="list-text">從每個事件到「事件詳細資料」頁面的連結</block>
-  <block id="7787565caf02ff4b3762baed16dc09e4" category="list-text">可讓您在「事件管理」目錄頁面中檢視所有作用中安全性事件的連結</block>
-  <block id="37462259fe1133486ea0bfe4e480c5d4" category="list-text">叢集安全性狀態（相容或不相容的叢集數目）</block>
-  <block id="672f035432eaef3b1070ec3b0f8801f8" category="list-text">SVM安全狀態（相容或不相容的SVM數量）</block>
-  <block id="4b94431060fff6aed3bb4c4607431e43" category="list-text">Volume加密狀態（加密或未加密的磁碟區數目）</block>
-  <block id="3a33d89d67956f13839553ac8bb070d4" category="list-text">按一下面板頂端的向右箭頭、即可在「*安全性*」頁面中檢視安全性詳細資料。</block>
   <block id="1b61f663f58ba1011964171230e44813" category="summary">您可以使用Aggregate / Health詳細資料頁面來檢視所選Aggregate的詳細資訊、例如容量、磁碟資訊、組態詳細資料和產生的事件。您也可以檢視相關物件的相關資訊、以及該Aggregate的相關警示。</block>
   <block id="ccbfee66622f7a954fe7b567d123e25d" category="doc">Aggregate / Health詳細資料頁面</block>
   <block id="01eb6dc7d1bb342d5edd3fa045a48238" category="paragraph">當監控啟用FabricPool的Aggregate時、此頁面上的已確認和過度委派值僅與本機或效能層級的容量有關。雲端層的可用空間量不會反映在過度使用的值中。同樣地、Aggregate臨界值僅與本機效能層相關。</block>
@@ -2441,21 +2384,8 @@
   <block id="8b2bca2f989166b00f7fffdd0df607ec" category="doc">安全事件</block>
   <block id="89e9e5a4b3bd58eeda3960bde36829f6" category="paragraph">安全事件可根據ONTAP 《_ NetApp ONTAP 資訊安全強化指南》（英文）中定義的參數、提供有關VMware叢集、儲存虛擬機器（SVM）和磁碟區安全狀態的資訊。這些事件會通知您潛在的問題、以便您評估其嚴重性、並在必要時修正問題。</block>
   <block id="cc2f029a91f0f9ae2a8f1d6dd7eac3e1" category="paragraph">安全性事件會依來源類型分組、包括事件和陷阱名稱、影響層級和嚴重性。這些事件會出現在叢集和儲存VM事件類別中。</block>
-  <block id="afb078a3db15f9c680517f2df6a673eb" category="summary">「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。</block>
   <block id="80b444e335b0732b7b90623cbd5717e9" category="doc">檢視叢集和儲存VM的詳細安全狀態</block>
-  <block id="dcc1562e004411d25dd6d80348614e36" category="paragraph">「安全性」頁面會顯示所有叢集的高層安全性狀態、以及個別叢集的詳細安全性狀態。</block>
-  <block id="d2de9251171314e14830e48763c831b0" category="paragraph">身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級查看您的各個叢集和儲存VM的安全性強度。</block>
-  <block id="5d582990e94f0286cf780932d6652813" category="paragraph">根據定義的參數、您可以收集及分析資訊、以偵測受監控叢集和儲存VM上的可疑行為或任何未獲授權的系統變更。</block>
-  <block id="6de41def29128fecf2b724bf9d3bd477" category="paragraph">詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。</block>
-  <block id="12bf1764410c2cd6952534f31c7f8be2" category="paragraph">「叢集/安全性詳細資料」頁面會檢查安全參數、例如Global FIPS、Telnet、不安全的SSH設定、登入橫幅、網路時間傳輸協定、 支援HTTPS傳輸和預設管理員。AutoSupport</block>
-  <block id="bb16d284fad982cea57d74217a1303dd" category="paragraph">「儲存VMs/安全性詳細資料」頁面會檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、提供儲存VM安全性法規遵循的預設檢視。</block>
-  <block id="63c96579178978ec9ef522c07cddb50b" category="paragraph">您也可以從叢集與儲存VM詳細資料頁面產生、排程及下載安全性法規遵循報告。</block>
-  <block id="31feacd175bfb8433129ea3266c03241" category="paragraph">在*安全性儀表板*中、按一下*叢集規範*和*儲存VM規範*卡中的*檢視報告*。</block>
-  <block id="001cdcc1bced815dbb889c31d496a91c" category="list-text">按一下「*安全性*」面板中的向右箭頭。</block>
-  <block id="21b404ba083f7cb1aacb4498842a979b" category="paragraph">「安全性」頁面會顯示下列資訊：</block>
-  <block id="1113c5580efb5e128133e0c849ea6b54" category="list-text">每個叢集所使用的叢集驗證方法</block>
   <block id="0303e15cb5131cd4b937c60c3de7bb42" category="inline-link">《NetApp ONTAP 資訊安全強化指南》（英文）9</block>
-  <block id="a4deeec5e2b40be9ffab412cfc04266c" category="list-text">請參閱<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 如需如何使所有叢集、SVM及Volume符合NetApp安全建議的指示。</block>
   <block id="861c2853233db617d584ff94b9ad8386" category="summary">您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。</block>
   <block id="349d7a256fa4f3d0418ee6eb5d23aae0" category="doc">設定Snapshot備份位置</block>
   <block id="b7f65d9e1cdb3964676f5e08758b08bb" category="paragraph">叢集、儲存VM和Volume必須符合下列需求：</block>
@@ -4386,8 +4316,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
-  <block id="777d37d26729d37bb63eecb74c435e85" category="inline-link">關於本產品的注意事項Active IQ Unified Manager 9.10</block>
-  <block id="0c8699048289beedeedb54f53b9ba0e1" category="paragraph"><block ref="0c8699048289beedeedb54f53b9ba0e1" category="inline-link-rx"></block></block>
   <block id="79d86beeb01a37f9ec75abd845d3ed41" category="summary">支援的儲存系統可透過REST風格的網路服務介面、針對任何協力廠商整合、提供一套API來管理儲存資源。Active IQ Unified Manager</block>
   <block id="97fe658caa11a827b1561a6db6e7b2f0" category="doc">功能入門Active IQ Unified Manager</block>
   <block id="578e4c65e2f2ccda698295f2960d9c68" category="paragraph">_Unified Manager API開發人員指南_提供API和範例程式碼的相關資訊。本指南所提供的資訊可讓您建立NetApp管理軟體解決方案的RESTful用戶端、以管理NetApp系統。API 是以代表狀態傳輸（ REST ）架構風格為基礎。</block>
@@ -4576,34 +4504,26 @@
   <block id="9966a118962913f23fdc13c6ab637e77" category="paragraph">若要建立LUN、請確定您已將擷取的值新增為必要的輸入參數。</block>
   <block id="90c764bb5ddb317b1d8d07e77de09fad" category="paragraph">儲存效率原則是建立LUN的選用參數。</block>
   <block id="6280c5b5faa0d06803616c53024ca4b9" category="paragraph">您必須輸入要建立之LUN的所有詳細資料、做為輸入參數。</block>
-  <block id="049262646740308b766e6e531e2293cb" category="paragraph">袋熊：擷取#1</block>
   <block id="bf0a6ce01c458cedfc683803e00e1122" category="paragraph">Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所建立的LUN。</block>
   <block id="8b9993195033db0f202c52842b83921a" category="list-text">使用查詢工作時傳回的工作物件金鑰來驗證LUN建立：</block>
   <block id="2802e294767ec3795cae28f735f00911" category="paragraph">回應結束時、您會看到所建立LUN的金鑰。</block>
-  <block id="00dfe9ed0fc0e00120c4b2a9cf7f1071" category="paragraph">袋熊：擷取# 2</block>
   <block id="a03c16367d60fe677b196252b102ace8" category="list-text">使用傳回的金鑰執行下列API、以驗證LUN的建立：</block>
   <block id="9b093b1a5766e7662878e04ee08e7a28" category="paragraph">/`/store-provider /LUNs/\{key}</block>
   <block id="e24e3f7419560b5cabc960162dcb8756" category="paragraph">您可以看到、「/Storage-provider /LUNs」的POST方法會在內部啟動每個功能所需的所有API、並建立物件。例如、它會叫用「/storage供應商/效能服務層級/」API來指派LUN上的效能服務層級。</block>
-  <block id="f7d00850e5e407e047637ea533202062" category="paragraph">袋熊：擷取# 3</block>
-  <block id="56989fc7a9a7e886de1fa98a56a0a9c8" category="section-title">LUN建立或對應失敗的疑難排解步驟</block>
   <block id="0abdcda4480c5da9f6088c32502b745e" category="paragraph">完成此工作流程後、您可能仍會看到LUN建立失敗。即使成功建立LUN、由於無法在您建立LUN的節點上使用SAN LIF或存取端點、因此使用igroup的LUN對應也可能失敗。如果發生故障、您會看到下列訊息：</block>
   <block id="2366e4d85c1368efcd2a4b6f5bb1096d" category="paragraph">請依照下列疑難排解步驟來解決此問題。</block>
   <block id="f786a57b6968727e522d93814213101a" category="list-text">在您嘗試建立LUN的SVM上、建立支援iSCSI/FCP傳輸協定的存取端點。</block>
   <block id="38285c75a6c1d9dfdfede7da629bcc72" category="paragraph">「/儲存設備供應商/存取端點」</block>
   <block id="71ad100ad3f24e98bca747d9d52bcf1a" category="paragraph">您必須輸入要建立的存取端點詳細資料、做為輸入參數。</block>
   <block id="da44b9fefa343f39fca68be1e0e89779" category="paragraph">請確定在輸入參數中新增位址、以指出LUN的主節點和ha_address、以指出主節點的合作夥伴節點。當您執行此作業時、它會在主節點和合作夥伴節點上建立存取端點。</block>
-  <block id="45befbbf82d7f446106c805dd91a1a72" category="paragraph">袋熊：擷取4號</block>
   <block id="d944773e838e30b10cae87b55ec1104e" category="list-text">使用Json輸出中傳回的工作物件金鑰查詢工作、以確認其已成功執行、可在SVM上新增存取端點、且已在SVM上啟用iSCSI/FCP服務。</block>
   <block id="d7d7df74e1ce5335b4163f7e77a3a691" category="paragraph">在輸出結束時、您可以看到所建立的存取端點金鑰。在下列輸出中、「name」：「accessEndpointKey」值表示在LUN主節點上建立的存取端點、金鑰為9c964258-14ef-11ea-952-00a098e32c28。「name」：「accessEndpointHAKey」值表示在主節點的合作夥伴節點上建立的存取端點、其金鑰為9d347006-14ef-11ea-8760-00a098e3215f。</block>
-  <block id="5508c78db23fdfa6a088655edd121e51" category="paragraph">袋熊：擷取# 5</block>
   <block id="49be75367a8d9b7f89252d7838bcbb95" category="list-text">修改LUN以更新igroup對應。如需工作流程修改的詳細資訊、請參閱「如何調整儲存工作負載」。</block>
   <block id="ef9d3bf83d2351b674f27ee92394e7f5" category="paragraph">/`/store-provider /LUN/\{key}</block>
   <block id="242cbd5484218f67c45660e797c7a225" category="paragraph">在輸入中、指定要用來更新LUN對應的igroup金鑰、以及LUN金鑰。</block>
-  <block id="b586e3d0271583461b3aa9cc743628e0" category="paragraph">袋熊：擷取# 6</block>
   <block id="31cadb84616458057fb8387b48d2b77c" category="paragraph">Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證對應是否成功。</block>
   <block id="59ed257d858cdb21c7060d47730cf5ea" category="list-text">使用LUN金鑰查詢以驗證LUN對應。</block>
   <block id="3d1e874465f4fdd7f5a34c813378c606" category="paragraph">在輸出中、您可以看到LUN已成功對應至初始佈建的igroup（金鑰d19ec2fa-fec7-11e8-b23d-00a098e32c28）。</block>
-  <block id="9af5b136cd1d5fd076dc14822c50821b" category="paragraph">袋熊：擷取# 7</block>
   <block id="93de3723f79b9a9d490f05e4a885d1c0" category="summary">通用的工作流程可為用戶端應用程式開發人員提供範例、說明Active IQ Unified Manager 用戶端應用程式如何叫用REST API來執行通用的儲存管理功能。本節包含部分範例工作流程。</block>
   <block id="75d9593f1ee9a4549fe9224db4aa9f88" category="doc">通用的儲存管理工作流程</block>
   <block id="fc5dc7ee6a71987596b503f32a13ec95" category="paragraph">這些工作流程會說明一些常用的儲存管理使用案例、以及可供您使用的範例代碼。每項工作都是使用由一或多個API呼叫所組成的工作流程程序來說明。</block>
@@ -4823,10 +4743,7 @@
   <block id="dc45c2b39a506f4db838911d67200b0a" category="paragraph">特定儲存物件類型在特定期間（72小時以上）的高層效能集合值。</block>
   <block id="cf35b134176d8cf6bb230693679ad4ff" category="paragraph">系統會擷取物件的基本詳細資料、例如節點或叢集的詳細資料。</block>
   <block id="b3b07e7b8277f44ed6e9e7e8e8579f2a" category="paragraph">未擷取任何特定詳細資料。</block>
-  <block id="7778f16d4295e8577e74d7058fb876a5" category="paragraph">針對單一物件擷取累計的計數器、例如最小值、最大值、95百分位數、以及一段時間內的平均效能值、例如讀取、寫入、總計和其他計數器。例如、「/資料中心/叢集/節點/\｛key｝/度量」API會擷取節點的下列詳細資料（其中包括）：</block>
   <block id="b3c678f9c71cd51674956271d307db61" category="admonition">摘要值中的95個百分位數表示、在該期間所收集的95%樣本具有的計數值低於指定的95個百分位數。</block>
-  <block id="eeebbebe982b16eae3d34f7772b61583" category="paragraph">相同類型的所有物件都會顯示單一彙總值。例如、「/資料中心/叢集/節點/分析」API會擷取所有節點的下列值（包括其他值）：</block>
-  <block id="887ae8ed46727f1bc92ce86b997fa389" category="paragraph">時間範圍和範例資料是根據下列排程：資料的時間範圍。範例可以是1h、12h、1d、2D、3D、 15d、1W、1公尺、2公尺、3公尺、 6萬。如果範圍超過3天（72小時）、您會得到1小時的樣本、否則只有5分鐘的樣本。每個時間範圍的期間如下：</block>
   <block id="7195b873ebe0544a8ed589eccc941fff" category="list-text">1小時：最近一小時的指標取樣時間超過5分鐘。</block>
   <block id="1c619939aea29b8671d2c0519882c15e" category="list-text">12小時：最近12小時內的指標取樣時間超過5分鐘。</block>
   <block id="d8d99ec78494ec580bf42dafb37bdd6f" category="list-text">一維：最近一天的指標取樣時間超過5分鐘。</block>
@@ -7530,7 +7447,6 @@
   <block id="b6e46cbd1b673d1e673a6e8e057a5c8c" category="paragraph">當叢集B修復並執行切換時、Vol3p會在叢集B上再次作用、並顯示切換期間的歷史統計資料和統計資料落差。在發生另一次切換之前、無法從叢集A檢視Vol3b：</block>
   <block id="aa79b6dfffdb81f9ff1b71ea8efb4cda" category="image-alt">OPM MCC Volume</block>
   <block id="43380a60a1d5a3dcb4817db0a0bb12c5" category="list-text">不活動的現象磁碟區（例如、切換後叢集A上的Vol3b）會以「此Volume Is Deleted」（此磁碟區已刪除）訊息加以識別。MetroClusterVolume並未實際刪除、但Unified Manager目前並未監控、因為它不是作用中Volume。</block>
-  <block id="b89f5e498abc9e286f68cc0139f527ee" category="list-text">如果單一Unified Manager正在MetroCluster 監控二個叢集的功能、則Volume搜尋會傳回當時作用中磁碟區的資訊。例如、搜尋「'Vol3'」會在發生切換且Vol3已在叢集A上啟用時、傳回叢集A上Vol3b的統計資料和事件</block>
   <block id="f84a9db60d58e4153e63ffd6eca83fcd" category="summary">您可以將使用者定義的效能臨界值原則指派給儲存物件、以便Unified Manager在效能計數器的值超過原則設定時回報事件。</block>
   <block id="3e5e23d6621ccccf4bf965b37143465f" category="doc">指派效能臨界值原則給儲存物件</block>
   <block id="8f7eae2a03a34a5f34e82ab8c02d21a4" category="paragraph">您要套用至物件的效能臨界值原則或原則必須存在。</block>
@@ -7671,17 +7587,13 @@
   <block id="f63abbc815b20c10d084fc7bca518e55" category="paragraph">如果您要在此時將新的臨界值原則套用至儲存物件、可以按一下*移至object_type now*連結、前往「Inventory」頁面。</block>
   <block id="7491ba98277407189786487949ead132" category="summary">對於動態效能事件、「事件詳細資料」頁面的「系統診斷」區段會列出延遲最長或使用爭用叢集元件的最高工作負載。效能統計資料是根據上次分析事件之前偵測到效能事件的時間而得。這些圖表也會顯示爭用叢集元件的歷史效能統計資料。</block>
   <block id="9ae243581bbda56a359c59bee68b6c53" category="doc">動態效能事件圖表詳細資料</block>
-  <block id="97757c42f4e50e7a50165f62ad57b19c" category="paragraph">例如、您可以識別具有高使用率元件的工作負載、以決定要移至使用率較低元件的工作負載。移動工作負載可減少目前元件的工作量、有可能使元件不爭用。在本節中、是偵測到事件並進行最後分析的時間和日期範圍。對於作用中事件（新事件或已確認事件）、上次分析的時間會持續更新。</block>
-  <block id="df0ef18578ba604e1705bebc4678bdd3" category="paragraph">當您將游標停留在圖表上時、延遲和活動圖表會顯示最重要的工作負載名稱。按一下圖表右側的工作負載類型功能表、即可根據工作負載在事件中的角色（包括_Sharks _、_bulies _或_als受害者_）來排序工作負載、並顯示其延遲及其在爭用叢集元件上使用的詳細資料。您可以比較實際值與預期值、查看工作負載何時超出預期的延遲或使用範圍。請參閱Unified Manager_監控的工作負載。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">當您依延遲尖峰差異排序時、系統定義的工作負載不會顯示在表格中、因為延遲僅適用於使用者定義的工作負載。低延遲值的工作負載不會顯示在表格中。</block>
-  <block id="f4e4699c007dae28f5198390082cd17e" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱_什麼是事件_。如需Unified Manager如何排列工作負載並決定排序順序的相關資訊、請參閱_How Unified Manager判斷事件的效能影響_。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">圖表中的資料會顯示上次分析事件之前24小時的效能統計資料。每個工作負載的實際值和預期值取決於事件涉及的工作負載時間。例如、工作負載可能會在偵測到事件後介入事件、因此其效能統計資料可能與事件偵測時的值不符。根據預設、工作負載會依延遲的尖峰（最高）偏移進行排序。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">由於Unified Manager最多可保留30天5分鐘的歷史效能和事件資料、因此如果事件超過30天、就不會顯示效能資料。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">*工作負載排序欄*</block>
   <block id="12f3d074758a71c04659536f7c71fe85" category="list-text">*延遲圖*</block>
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">顯示上次分析期間事件對工作負載延遲的影響。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">*元件使用率欄*</block>
-  <block id="7c1f3eeafc59e1d661d732b95f6ccf9c" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱_Workload效能測量_。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">對於網路元件、由於網路效能統計資料來自叢集之外的活動、因此不會顯示此欄。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">*元件使用率*</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">以百分比顯示QoS原則群組元件的網路處理、資料處理和集合體元件使用率歷程記錄、或是活動歷程記錄（以百分比表示）。不會顯示網路或互連元件的圖表。您可以指向統計資料、以在特定時間點檢視使用統計資料。</block>
@@ -7735,15 +7647,12 @@
   <block id="c78b197fe5bccb9a911913c521eb78e3" category="paragraph">對於「站台事件」、本節可能包含NetApp知識庫文章的連結（若有）、說明問題及可能的解決方法。Active IQ在無法存取外部網路的站台中、會在本機開啟知識庫文章的PDF；PDF是您手動下載至Unified Manager執行個體的規則檔的一部分。</block>
   <block id="3382e9ca606f74cdded9fdde703350de" category="summary">Unified Manager Active IQ 會自動檢查新的版本更新規則檔案、並在下載新檔案。不過、在沒有外部網路存取權的站台中、您需要手動上傳規則檔。</block>
   <block id="47a1bdec12f9908ef6c7d1f58fb4b4c5" category="doc">正在上傳新Active IQ 的功能更新檔案</block>
-  <block id="ea75e424bca80f4ec587ba490969d40c" category="list-text">必須啟用事件報告功能。Active IQ</block>
   <block id="53a36a15b8ceb49552246904985c7ed0" category="list-text">您必須從NetApp支援網站下載規則檔案。</block>
-  <block id="9b5415e4731d301fb8c7af3f1f2913d7" category="paragraph">建議您每個月下載一次新的規則檔、以確保儲存系統受到保護、而且能以最佳方式執行。Rules檔案位於：<block ref="09d2f5e3e45bfdce0a0610eb279c565b" category="inline-link-rx"></block></block>
   <block id="60dde4212626cebc7bdc85f14ffd4918" category="list-text">在具有網路存取權的電腦上、瀏覽至NetApp支援網站並下載目前的規則「.Zip」檔案。</block>
   <block id="795efe57fc509c635bfd81bae42c429a" category="list-text">將規則檔傳輸到可帶入安全區域的媒體、然後複製到安全區域的系統。</block>
   <block id="4421167ad738c8af5d557114df57d61a" category="list-text">在「*事件設定*」頁面中、按一下「*上傳規則*」按鈕。</block>
   <block id="ac0e842289c6024c058415ace93b5b9c" category="list-text">在「*上傳規則*」對話方塊中、瀏覽並選取您下載的規則「.Zip」檔案、然後按一下「*上傳*」。</block>
   <block id="521fae8e49947c61ff1591a5512ef18a" category="paragraph">此程序可能需要幾分鐘的時間。</block>
-  <block id="277e15854850b1163619e94dba46434b" category="paragraph">規則檔會在Unified Manager伺服器上解壓縮。在託管叢集於AutoSupport 午夜之後產生一個更新檔之後、Unified Manager會根據規則檔檢查叢集、並視需要產生新的風險和事件事件。</block>
   <block id="ca71e230a00225f6ac24af23aaabe573" category="summary">連線事件可讓您瞭解叢集元件之間的連線、MetroCluster 以及叢集之間的連線能力、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。</block>
   <block id="a75da38e85d4c753628e5fc54d0ac700" category="doc">連接事件MetroCluster</block>
   <block id="de6d7f55e1ee565e666a8af305095019" category="section-title">影響領域：可用度</block>
@@ -9100,33 +9009,10 @@
   <block id="52b4d20262708e387b759abe91967d07" category="summary">下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ</block>
   <block id="268090b8284e72cc57625ab835379bf7" category="image-alt">產生aiq和um事件</block>
   <block id="cf08c35e48f69110899768e3b2f8c814" category="paragraph">如您所見、在Active IQ 這個平台上編譯的規則檔會保持最新狀態、AutoSupport 每天產生叢集式的消息、而Unified Manager則會每日更新事件清單。</block>
-  <block id="05e36b04644c76640a3bcea423fce5ea" category="summary">Create Storage Virtual Machine Peers（建立儲存虛擬機器對等端點）精靈可讓您對等來源和目的地儲存VM、以用於SnapMirror和SnapVault 各種保護關係。</block>
-  <block id="0dd5b5485a767274f86c400be6c4bf82" category="doc">Create Storage Virtual Machine對等端點精靈</block>
-  <block id="3b4281ed45dc58c49c0b6cf92e4d07a2" category="section-title">選取來源</block>
-  <block id="b57d98e0e35c6e4aa0549b8ce17454a6" category="paragraph">「選取來源」面板可讓您選取儲存VM對等端點中的來源或主要儲存VM。</block>
   <block id="f53ab048178d767c14635a79e485a5d4" category="list-text">*任何*</block>
-  <block id="a4af972c86e9540dc467c581ad6cdb78" category="paragraph">可讓您在任何儲存VM來源之間建立對等端點、以連接到一個或多個目的地、或是次要儲存VM。這表示目前需要保護的所有現有儲存VM、以及未來建立的任何儲存VM、都會與指定的目的地儲存VM進行對等關係。例如、您可能希望不同位置的多個不同來源的應用程式、在同一個位置備份到一個或多個目的地儲存VM。</block>
   <block id="7ff1c9dbf7b85364c9af00726d6f9d5f" category="list-text">*單一*</block>
-  <block id="2277c977dc0a5cb5a92083ddd6dc65e9" category="paragraph">可讓您將特定來源儲存VM與一或多個目的地儲存VM對等。例如、如果您要提供儲存服務給許多用戶端、而這些用戶端的資料必須彼此分開、請選擇此選項、將特定的儲存VM來源與僅指派給該用戶端的特定儲存VM目的地建立關聯。</block>
   <block id="94b198184f9abf7490f8c90a6423f2a8" category="list-text">*無（外部）*</block>
-  <block id="7747781658cb621a36f95c1cea0d1f17" category="paragraph">可讓您在來源儲存VM與目的地儲存VM的外部彈性Volume之間建立關聯。</block>
-  <block id="40a9aa8d8be93bdef25a488011f71fcb" category="list-text">儲存虛擬機器</block>
-  <block id="235744ec4f198c8925b6017b73ac00ed" category="paragraph">列出可用來源儲存VM的名稱</block>
-  <block id="bf014d0813e4bc087a939d17be8585d9" category="paragraph">列出每個儲存VM所在的叢集</block>
-  <block id="9f59e920306861d4a8ecc5e05f91077a" category="list-text">*允許這類關係*</block>
-  <block id="17f0f723254ba6ca325664769847cf9b" category="paragraph">可讓您選取關聯的關聯類型：</block>
   <block id="794cb725c5631ad99b5b7c000307f0df" category="list-text">SnapMirror</block>
-  <block id="6fd5c94530cd60405b715b3db6e50c7c" category="paragraph">將SnapMirror關係指定為對等項類型。選取此選項可從選取的來源複寫資料到選取的目的地。</block>
-  <block id="5bc075cee240a70af54270621d93765c" category="list-text">SnapVault</block>
-  <block id="79f93e4bb02826152950992d788ea861" category="paragraph">指定SnapVault 對等關係類型為「實體」關係。選取此選項可從選取的主要位置備份到選取的次要位置。</block>
-  <block id="b9a5a8f115d7d36db5c7de24573f1699" category="section-title">選取「保護目的地」</block>
-  <block id="198160302fc794b90fd130f1e6a61543" category="paragraph">Create Storage Virtual Machine對等端點精靈的Select Protection Destinations（選取保護目的地）面板可讓您選取要複製或複寫資料的位置。每個叢集只能在一個目的地儲存VM上建立對等端點。</block>
-  <block id="2bf3220fca0a33666671c39ab6e7700b" category="list-text">*下一步*</block>
-  <block id="62718807f6473eb834d1802698cbf29f" category="paragraph">將您移至精靈的下一頁。</block>
-  <block id="cd0ae77bc690e7a274eff62b2fb3556b" category="paragraph">返回精靈的上一頁。</block>
-  <block id="ed4cff269f04ad4ee858eaa0c6ba75b4" category="list-text">*完成*</block>
-  <block id="d49933a421d8be143d097b270e3d1af3" category="paragraph">套用您的選擇並建立關聯。</block>
-  <block id="2b2fd73d6891a5b1d044286fb87874c1" category="paragraph">捨棄選取項目並關閉「建立儲存虛擬機器對等端點」精靈。</block>
   <block id="e171729fee30175f14c8d6891cbe5d65" category="summary">您可以使用「Aggregate」對話方塊來選取要新增至資源池的集合體。</block>
   <block id="650fdbd56e27e5b6bfdf7f303fcbfa7f" category="doc">Aggregate對話方塊</block>
   <block id="ce73148340010689ccbe3b7c2d5c1bf9" category="paragraph">將選取的集合體新增至資源池。選取至少一個Aggregate之後、才會啟用「新增」按鈕。</block>
@@ -9603,20 +9489,7 @@
   <block id="6dc67e9bb06c124b01ee98b9d9d89a74" category="paragraph">*重試*按鈕已啟用。</block>
   <block id="67385832e8a89f3a3f46793fe56e6bf4" category="list-text">按一下*重試*。</block>
   <block id="d53edf09286c4c1939c3f775600819ea" category="paragraph">工作即會重新啟動。</block>
-  <block id="efa95b4884c7ad55cef5ff0f22a9f4d0" category="summary">「SVM對等端點」頁面可讓您檢視來源與目的地儲存VM之間現有的儲存VM對等端點、並建立新的儲存VM供合作夥伴應用程式使用、以建立SnapMirror與SnapVault SnapMirror關係。</block>
-  <block id="2a982392e1612a05191cf6ddbfa1593c" category="doc">SVM對等網頁</block>
-  <block id="ae82db71950cdba3c98193dd5d6dc78a" category="paragraph">開啟「Create Storage Virtual Machine對等端點」頁面。</block>
-  <block id="fded0c5c4988f0a0b7f32253f98db7e6" category="paragraph">可讓您刪除所選的儲存VM對等端點。</block>
-  <block id="16b19128ae61170ad9c096423b9c17c7" category="section-title">儲存VM對等端點清單</block>
-  <block id="47b57e1bffd9f9a11eb4577923a05130" category="paragraph">SVM對等清單會在表格中顯示已建立的來源與目的地儲存VM關聯、以及每個關聯所允許的保護關係類型。</block>
-  <block id="55ba62e9ca581e797c609dca5a830b31" category="list-text">*來源儲存虛擬機器*</block>
-  <block id="78dc91bb0108ce04f512e1b2be560981" category="paragraph">顯示來源SVM的名稱。</block>
   <block id="d5f618443e91fd9d7f52b17abde106fd" category="list-text">*來源叢集*</block>
-  <block id="886ce023ef569a2d42dbc3d16774055e" category="paragraph">顯示來源叢集的名稱。</block>
-  <block id="3008bb235f999c5f317dfb5b9108e286" category="list-text">*目的地儲存虛擬機器*</block>
-  <block id="38d55d2bd99f6700ed6c2c038c765058" category="paragraph">顯示目的地SVM的名稱。</block>
-  <block id="918325ed98d67df1964d7fd5ad695dd3" category="paragraph">顯示目的地叢集的名稱。</block>
-  <block id="f1cccf26d53ddd05424d38fb169cb14b" category="paragraph">顯示保護關係的類型。關係類型為SnapMirror或SnapVault 是SnapMirror。</block>
   <block id="6cd51ff354624c221a8c0d10a4f5220f" category="summary">您可以使用「選取來源Snapshot複本」對話方塊來選取特定的Snapshot複本、以便在保護關係之間傳輸資料、或是選取預設行為、視您正在初始化、更新或重新同步關係、以及關係是SnapMirror或SnapVault SnapMirror而定。</block>
   <block id="fd04801abd2d89327a9c964307e04c0f" category="doc">選取來源Snapshot複本對話方塊</block>
   <block id="7a1920d61156abc05a60135aefe8bc67" category="section-title">預設</block>
@@ -9670,7 +9543,6 @@
   <block id="f1a38b1f5667581d55db2d5f27e199dd" category="list-text">在* Volume / Health*詳細資料頁面的* Protection（保護）*索引標籤中、從拓撲中選取您要中斷的SnapMirror關係。</block>
   <block id="1f5e9c649d2f26220ed8c963c7cdbc02" category="list-text">在目的地上按一下滑鼠右鍵、然後從功能表中選取*中斷*。</block>
   <block id="d2ba963299d610a7a252e6f4e69c60f5" category="list-text">在拓撲中、確認關係已中斷。</block>
-  <block id="09b5c43509703a54bc7df15066a66381" category="summary">您可以從庫存的「保護」區段的「關係」頁面監控儲存VM災難恢復關係。根據預設、「關係」頁面會在套用組成關係篩選時、僅列出最上層的關係。</block>
   <block id="5c196853deac6391854895386e646897" category="doc">使用「關係」頁面監控儲存VM</block>
   <block id="5bad779f049e7a02cf94db40e2098a90" category="paragraph">您可以使用篩選器來檢視儲存VM災難恢復關係。</block>
   <block id="027c071716ffaad6dde0b33788f176e3" category="list-text">在左導覽窗格中、按一下*保護*&gt;*關係*。</block>
@@ -9688,16 +9560,6 @@
   <block id="87f38a280b66880cbdf6bfc708c06814" category="paragraph">此時會顯示Aggregate對話方塊。</block>
   <block id="9d613778af11e71c6dab12f955a64728" category="list-text">選取一或多個集合體。</block>
   <block id="e86c417f7beeeb5e040f34873003943d" category="paragraph">對話方塊隨即關閉、集合體會顯示在所選資源池的成員清單中。</block>
-  <block id="869fe30ad46c36e32a9a4a39c6ecfd80" category="summary">儲存VM對等端點是從來源儲存VM到目的地儲存VM的對應、合作夥伴應用程式會使用這些對應來選擇資源和進行次要Volume資源配置。</block>
-  <block id="fc3d43f179d4dac52ecbdb1b6f94e694" category="doc">瞭解儲存VM對等端點</block>
-  <block id="ce681dc0c4c66bae81df988629a9875f" category="paragraph">無論目的地儲存VM是次要目的地或第三目的地、來源儲存VM和目的地儲存VM之間都會建立對等端點。您無法使用次要目的地儲存VM做為來源、來建立具有第三目的地儲存VM的對等端點。</block>
-  <block id="d8b3c9b1ed1d65a9b7bfef730eeb85c5" category="paragraph">您可以透過三種方式對等儲存VM：</block>
-  <block id="c6e4459e48c8973d086f78f2f2facfe8" category="list-text">對等任何儲存VM</block>
-  <block id="d4ed4fb2ff0fb13eb779514445ea7bf2" category="paragraph">您可以在任一主要來源儲存VM和一或多個目的地儲存VM之間建立對等端點。這表示目前需要保護的所有現有儲存VM、以及未來建立的任何儲存VM、都會與指定的目的地儲存VM進行對等關係。例如、您可能想要將不同位置的多個不同來源的應用程式備份到同一個位置的一或多個目的地儲存VM。</block>
-  <block id="73f5dce2d269d6cbb5f8e87e9ebe1039" category="list-text">對等特定的儲存VM</block>
-  <block id="7fe1dfe45e41b9019be4323b32d15e2b" category="paragraph">您可以在特定來源儲存VM與一或多個特定目的地儲存VM之間建立對等端點。例如、如果您要提供儲存服務給許多用戶端、而這些用戶端的資料必須彼此分開、您可以選擇此選項、將特定來源儲存VM與僅指派給該用戶端的特定目的地儲存VM建立關聯。</block>
-  <block id="0544ad83848fb054e4a2b88f10e7dd20" category="list-text">與外部儲存VM對等</block>
-  <block id="9701fc1e68aac847303d8f4eaed963c7" category="paragraph">您可以在來源儲存VM和目的地儲存VM的外部彈性Volume之間建立對等端點。</block>
   <block id="ff4830d8e1cf7269488551c46124506c" category="summary">資源池是一組集合體、由儲存管理員使用Unified Manager建立、以提供資源給合作夥伴應用程式以進行備份管理。</block>
   <block id="8afd4bd2ca0358c73be825380e11ca41" category="doc">什麼是資源集區</block>
   <block id="904997dd7715bfdd853cc5fb8c2446eb" category="paragraph">您可以根據效能、成本、實體位置或可用度等屬性來集合資源。透過將相關資源分組到資源池中、您可以將資源池視為單一單位來進行監控和資源配置。如此可簡化這些資源的管理、並讓儲存設備的使用更靈活、更有效率。</block>
@@ -9854,14 +9716,9 @@
   <block id="45a0d4eafc6002a0359dd7adadc209ad" category="paragraph">顯示每個工作工作工作的其他資訊、包括工作名稱、工作說明、如果工作失敗、則會顯示失敗的原因。</block>
   <block id="70a618c55ed86c7ca5fa7b4eebf8f490" category="list-text">*工作訊息窗格*</block>
   <block id="d05bfecdcd178e7b2e9fadea4ca07289" category="paragraph">顯示特定於所選工作的訊息。訊息可能包括錯誤原因及解決建議。並非所有工作都會顯示工作訊息。</block>
-  <block id="6af1c366c850f055ec525eaeb2ba98f8" category="summary">Create Storage Virtual Machine對等端點精靈可讓合作夥伴保護應用程式將來源儲存虛擬機器與目的地儲存虛擬機器建立關聯、以便與SnapMirror和SnapVault 相依關係搭配使用。合作夥伴應用程式在初始配置目的地磁碟區時、會使用這些關聯來決定要選擇哪些資源。</block>
-  <block id="b12741b41a001c5120c76ebbb6906169" category="doc">建立儲存VM對等端點</block>
   <block id="cd855f2a6babfd09e8661adbd66fd542" category="list-text">您正在關聯的儲存VM必須已經存在。</block>
   <block id="e7ae8c35dd30d581b2afb0bdd41d6022" category="paragraph">對於任何來源儲存VM和關係類型、您只能在每個目的地叢集上選擇一個目的地儲存VM。</block>
   <block id="1f50d476926ce4538385faff1794ca90" category="paragraph">使用刪除和建立功能變更關聯只會影響未來的資源配置作業。它不會移動現有的目的地磁碟區。</block>
-  <block id="e873bd9b149268e1319b6391958c3134" category="list-text">在左導覽窗格中、按一下* Protection（保護）*** Storage VM對等端點*。</block>
-  <block id="fefa3bd0f37c4bbe2b3224ed10a3f04b" category="list-text">在「* SVM對等端點*」頁面中、按一下「*建立*」。</block>
-  <block id="cb0db9fce78a8cedf59b973e66482972" category="paragraph">隨即啟動Create Storage Virtual Machine對等端點精靈。</block>
   <block id="bc069eb87626aebc1bd2b120ad29a95a" category="list-text">選取下列其中一個來源：</block>
   <block id="941f1b096a398e966f8533fbe7669919" category="paragraph">如果您想要在任一主要儲存VM來源與一或多個目的地儲存VM之間建立關聯、請選擇此選項。這表示目前需要保護的所有現有儲存VM、以及未來建立的任何儲存VM、都會與指定的目的地儲存VM相關聯。例如、您可能希望不同位置的多個不同來源的應用程式、在同一個位置備份到一個或多個目的地儲存VM。</block>
   <block id="5f2fa351d88f412c7a32f68ce472fe93" category="paragraph">若要選取與一或多個目的地儲存VM相關聯的特定來源儲存VM、請選擇此選項。例如、如果您要提供儲存服務給許多用戶端、而這些用戶端的資料必須彼此分開、請選擇此選項、將特定的儲存VM來源與僅指派給該用戶端的特定儲存VM目的地建立關聯。</block>
@@ -10035,9 +9892,6 @@
   <block id="b60ec0467f312597571c056a0ba83b93" category="list-text">檢閱* Summary（摘要）*區域「Cause（原因）」欄位中的錯誤訊息、以判斷問題並評估可能的修正行動。</block>
   <block id="81e981b736d662d38eda77bba6379ae4" category="inline-link-macro">找出問題、並針對故障的保護工作執行修正行動</block>
   <block id="8d92e86d95e2f6bc47ce7831432b06d1" category="paragraph">請參閱 <block ref="12751d73ad42326dc6d4746fdf6c8d00" category="inline-link-macro-rx"></block>。</block>
-  <block id="898a67b9ac61663670d605ccaec1f8f2" category="summary">您可以使用「儲存VM對等端點」頁面來檢視現有的儲存VM對等端點及其內容、並判斷是否需要其他儲存VM。</block>
-  <block id="7c8359e321282c2dcba0d0487956d276" category="doc">檢視儲存VM對等端點</block>
-  <block id="7bd9cb218372285d85e6fa15976ce620" category="paragraph">隨即顯示儲存VM對等端點及其內容清單。</block>
   <block id="33eaf44f077d6af42e5086a34561a4b7" category="summary">重新安裝OnCommand Workflow Automation 或升級版的功能之前、您必須先移除OnCommand Workflow Automation 與整合管理程式之間的連線、並確保OnCommand Workflow Automation 所有目前執行中或排程的工作都已停止。</block>
   <block id="94e035d9232fb4aed1c479b7b05bd6fa" category="doc">重新安裝或升級時會發生什麼情況OnCommand Workflow Automation</block>
   <block id="f86bdb88246fb61fb37b3af0fdeb687d" category="paragraph">您也必須手動從OnCommand Workflow Automation 功能表中刪除Unified Manager。</block>
@@ -10099,13 +9953,8 @@
   <block id="90ed3401f80b5a01c74cf806d9bce86c" category="list-text">無+例如、您可能有一個200 GB的磁碟區、其中包含總計50 GB的檔案、但這些檔案只能保留10 GB的資料。Volume保證會將200 GB分配給目的地Volume、無論來源上的內容為何。檔案保證會配置50 GB的空間、以確保為來源上的檔案保留足夠的空間；在此案例中選取「無」、表示目的地上只會配置10 GB的空間給來源上的檔案資料實際使用空間。</block>
   <block id="4a62775f3719d6969e4b9d4bd0578ca6" category="paragraph">儲存選取的效率設定、並在您按一下「組態保護」對話方塊中的「*套用*」時套用。</block>
   <block id="cfc05fb84db9c30b38a419540c16db12" category="paragraph">捨棄您的選擇並關閉「進階目的地設定」對話方塊。</block>
-  <block id="211fcc46210c802376e8a05e5b121781" category="summary">您可以刪除合作夥伴應用程式的儲存VM對等端點、以移除來源與目的地儲存VM之間的二線資源配置關係；例如、當目的地儲存VM已滿且您想要建立新的儲存VM保護對等端點時、您可以執行此動作。</block>
-  <block id="8b3f5d68c02c2a4ca1b1389570caf07d" category="doc">刪除儲存VM對等端點</block>
-  <block id="cea86a01121943e33e0d143d2ee4525f" category="paragraph">在至少選取一個儲存VM對等端點之前、*刪除*按鈕會停用。使用刪除和建立功能變更關聯只會影響未來的資源配置作業、而不會移動現有的目的地磁碟區。</block>
-  <block id="ea664e4a357b117a2d5e11309531b2a1" category="list-text">至少選取一個儲存VM對等端點。</block>
   <block id="3eabaead42f5f7f6cec383644c048895" category="paragraph">*刪除*按鈕已啟用。</block>
   <block id="681505e48158965ebaeed0d2df2a1fca" category="list-text">按一下*刪除*。*</block>
-  <block id="72974a0f04f1178a2c3fade391929cd3" category="paragraph">選取的儲存VM對等端點會從清單中移除。</block>
   <block id="ac93f24166a89ab53241f0812aa44144" category="summary">當您想要變更資源池名稱和說明時、可以編輯現有的資源池。</block>
   <block id="6911c30a7d0cc9130c46fbe2e12202bd" category="doc">編輯資源池</block>
   <block id="d91eafc3629e41da79d2e06a9a4e449b" category="paragraph">只有在選取一個資源池時、才會啟用*編輯*按鈕。如果選取多個資源池、則*編輯*按鈕會停用。</block>
@@ -10182,7 +10031,6 @@
   <block id="746e27c58ee4721ee90a2873159edc0c" category="paragraph">工作完成後、資料傳輸會在下一個排定的傳輸時間間隔恢復。</block>
   <block id="01517086ee90260d3b75492f0e6e194f" category="summary">「關係：所有關係」檢視會顯示有關儲存系統上保護關係的資訊。</block>
   <block id="7b468f364c89cc15b88debc63877f777" category="doc">關係：「所有關係」檢視</block>
-  <block id="87940b71673e7cc35b4dc1d178e531aa" category="paragraph">根據預設、當您存取「關係」頁面時、所顯示的報告會同時包含磁碟區和儲存VM的最上層保護關係。頁面頂端的控制項可讓您選取特定檢視、執行搜尋以尋找特定物件、建立及套用篩選條件、以縮小顯示資料的清單、新增/移除/重新排序頁面上的欄、以及將頁面上的資料匯出至.csv,.pdf、 或是.xlsx.自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。根據預設、當您選取*關係*功能表時、所顯示的報告會同時包含資料中心中磁碟區和儲存VM的保護關係。您可以使用*篩選器*選項、只檢視所選的儲存系統、例如僅磁碟區或僅儲存VM。相同的報告會顯示在「Storage（儲存）」頁面中、僅適用於選取的儲存實體。若要檢視磁碟區或儲存VM關係、您可以存取「*儲存設備*&gt;*磁碟區*&gt;*關係：所有關係*」頁面、或存取「*保護*&gt;*關係*&gt;*關係： All Relationationationation*、並使用* Filter *中的* Relationship Object Type *（*關係物件類型*）選項、僅篩選出磁碟區或儲存VM資料。</block>
   <block id="bcfdd5fdcc9473e6fb8c763bb717d278" category="paragraph">列出所有保護關係的「關係」頁面、會在「目的地叢集」的「系統管理程式」*中顯示*檢視連結、讓您在ONTAP 「物件集區管理程式」中檢視相同的物件。</block>
   <block id="2ea7f5b2289a2721f6c9c85bbdef00d9" category="paragraph">顯示保護關係的目前狀態。</block>
   <block id="8b927ab73fcb2da14543715283041fd8" category="paragraph">狀態可以是錯誤（<block ref="1c0ac20dc7bfc87e98ae13e96d02d807" category="inline-image-macro-rx" type="image"></block>）、警告（<block ref="f1c08a3c67e9109a6739da91403bf2f1" category="inline-image-macro-rx" type="image"></block>）或OK（<block ref="1f713a82aed699daab6064ddfb5af937" category="inline-image-macro-rx" type="image"></block>）。</block>
@@ -10474,33 +10322,16 @@
   <block id="61d33a2f59fc1818883ab99b2aa3c7de" category="summary">「資料保護」頁面提供資料中心內所有受保護磁碟區之資料保護詳細資料的整體檢視。</block>
   <block id="d19670f77aee82fbec428cd8a280d1c3" category="doc">檢視Volume保護狀態</block>
   <block id="efa8584b9264c2d34dd884498d614984" category="paragraph">「資料保護」頁面提供單一叢集中所有受保護磁碟區、或資料中心內所有叢集之資料保護詳細資料的整體檢視。</block>
-  <block id="64332ce68042970c3d35c31074370221" category="paragraph">按一下儀表板上「資料保護」面板頂端的向右箭頭、即可檢視這些詳細資料。此畫面有兩個區段。當您選取儀表板上的所有叢集時、「*所有叢集*」區段會顯示資料中心層級上所有叢集的保護狀態、並受SnapMirror關係和Snapshot複本保護。您可以在「*個別叢集*」區段中選取特定的叢集、以檢視該叢集中受保護磁碟區的狀態。</block>
-  <block id="4907beb1e99d45188b753adebc981436" category="paragraph">如果您在儀表板上選取單一叢集、此頁面會顯示該叢集上受保護磁碟區的詳細資料。</block>
-  <block id="1a5373df50f13823428b45e5607c8288" category="paragraph">您可以將滑鼠游標停在每個橫條圖上、以檢視各個計數。按一下橫條圖、即可前往「Volumes（磁碟區）」畫面、並選取各個磁碟區。按一下每個事件的連結、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。</block>
   <block id="b0e0ed81a414c61d19e9faf379612eda" category="list-text">視您要檢視所有受監控叢集或單一叢集的資料保護狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。</block>
-  <block id="ef69dd54941839389d8f5c1ad0ec080d" category="list-text">按一下「Data Protection（資料保護）」面板中的向右箭頭。</block>
-  <block id="0a744df930cf119103672a6734dfb507" category="section-title">資料保護頁面</block>
-  <block id="e4ffacb26e0557b21d884c8244479d0c" category="paragraph">「資料保護」頁面會顯示所有叢集受保護磁碟區的下列面板。</block>
-  <block id="ac96048bdb798de6f8535d460fd2af4a" category="admonition">對於Snapshot複本的Volume數、會同時考慮來源和目的地磁碟區。對於SnapMirror關係、可讀寫的來源磁碟區會被計算在內。不考慮目的地和根磁碟區。SnapMirror數包括在相同或不同叢集上具有來源和目的地的磁碟區數。</block>
-  <block id="1055b3701ee60c07c7e03eb50483d847" category="list-text">* Snapshot Overview *：Snapshot複本保護的磁碟區總覽、例如：</block>
   <block id="8e984f28e5c48ccba4af1263bf69faad" category="list-text">受Snapshot複本保護且未受保護的磁碟區總數。</block>
   <block id="2e3906baac4bd7086e3f61c18c870031" category="admonition">若將磁碟區視為受保護、則應啟用磁碟區Snapshot複本的排程。</block>
-  <block id="71a6bbf63c1b54b8bdf97d327b6e8399" category="list-text">使用或超過Snapshot複本保留空間的磁碟區總數。此值對於檢視使用的磁碟空間量或計算刪除一或多個Snapshot複本時可回收的空間非常重要。</block>
   <block id="1107f975941682cb6b641736b0aa1d31" category="list-text">* SnapMirror Overview *：SnapMirror原則保護的磁碟區總覽、例如：</block>
   <block id="3a60b741a5557e8aa08d73dc698857dd" category="list-text">受個別SnapMirror原則保護的磁碟區數目、例如Volume SnapMirror關係、儲存VM災難恢復（SVM災難恢復）及其組合。</block>
-  <block id="591455e076868d59cdba2183b58695a5" category="list-text">SnapMirror關係發生延遲的磁碟區總數。如果某個磁碟區有多個SnapMirror關係、則會選擇最差的延遲。</block>
-  <block id="466ddf4e9724c1677ff14837da150545" category="paragraph">個別叢集清單會顯示特定叢集的SnapMirror關係和Snapshot保護狀態。</block>
   <block id="8edfc19378266c45d3cf36f429e688f7" category="list-text">* Snapshot複本分析*詳細說明下列資訊：</block>
   <block id="51c01c75729b5fa023d5ed08b4edc574" category="list-text">Snapshot複本的個別事件、包括過去24小時所引發的事件。</block>
   <block id="f0ae8a8550f52ce1d214e5fb18f805c4" category="list-text">受Snapshot複本保護且未受保護的磁碟區詳細圖表。</block>
-  <block id="bf8ea0891c0c41da67428b1580a3f5e8" category="list-text">使用、不使用及違反保留Snapshot複本容量的磁碟區。您可以使用此資訊來計算已使用或可在刪除一或多個Snapshot複本時回收的空間。</block>
-  <block id="a6ceb6d0ba0792548a5a8c398bcaf8d6" category="list-text">磁碟區的分區會根據Snapshot複本的數量來計算。傳回的Snapshot複本數量僅適用於線上且可用的磁碟區。</block>
   <block id="780c8c5a0e6bb4760e680dcb28b6e077" category="list-text">* SnapMirror Analysis*詳細說明下列資訊：</block>
   <block id="d56f963dcc83eec427c434ef2c4eab7f" category="list-text">針對SnapMirror關係所引發的個別事件、包括過去24小時所引發的事件</block>
-  <block id="fab80019d13d0477e0025a920589aa8f" category="list-text">受每個SnapMirror原則保護的磁碟區數目、例如Volume SnapMirror關係、儲存VM災難恢復（SVM-DR）及其組合。</block>
-  <block id="c0f66f57d9d712568156f3b260416aea" category="list-text">受SnapMirror關係類型保護的磁碟區數目、例如非同步鏡射、非同步資料庫、非同步MirrorVault、StrictSync、SnapMirror營運持續性（SMBC）一致性群組和同步。</block>
-  <block id="0e1fe953d78fc893f47e2ba002baf05c" category="list-text">具有健全或不健全關係狀態的磁碟區數。只有當磁碟區的所有SnapMirror關係都很健全時、才會將其視為健全的磁碟區。</block>
-  <block id="d168bc6b08b3094d1d14fb532321c27e" category="list-text">根據磁碟區的恢復點目標（RPO）延遲時間、將磁碟區數分為多個部分。</block>
   <block id="34874fc717b5a6ff668c4636c7398e75" category="summary">您可以在Workflow Automation中檢查資料來源取得是否成功、以判斷Unified Manager資料來源快取是否正常運作。您可以將Workflow Automation與Unified Manager整合、以確保整合後仍可使用Workflow Automation功能。</block>
   <block id="1faf5f722c2a0021adb4cb133169c084" category="paragraph">您必須指派「系統管理員」角色或「工作流程自動化」中的「架構設計師」角色、才能執行此工作。</block>
   <block id="7ed0f8dc79b043af5fc1cd87dad6b123" category="list-text">從Workflow Automation UI中、選取*執行*&gt;*資料來源*。</block>
@@ -10883,23 +10714,13 @@
   <block id="2dcd695b929fbb86815e565342310bf0" category="paragraph">「儀表板」頁面有「面板」、顯示您所監控叢集的高層容量、效能和安全健全狀況。本頁也提供「管理動作」面板、其中列出Unified Manager解決特定事件時所能做的修正。</block>
   <block id="04a5f6e98f6a6fb512c08abc7b6e1834" category="paragraph">大部分面板也會顯示該類別中的作用中事件數目、以及在過去24小時內新增的新事件數目。此資訊可協助您決定需要進一步分析哪些叢集才能解決事件。按一下事件會顯示最常發生的事件、並提供已篩選事件管理詳細目錄頁面的連結、以顯示該類別中的作用中事件。</block>
   <block id="1fed3e7a8a0ba543e4b67922a67fbf09" category="paragraph">在儀表板頂端、您可以選取面板顯示所有受監控叢集（「所有叢集」）或個別叢集的資訊。您可以先檢視所有叢集的狀態、然後在想要檢視詳細資訊時深入檢視個別叢集。</block>
-  <block id="b9336d3d8dfe7df72e97729fb4cfff6a" category="paragraph">根據您的組態、以下列出的部分面板將不會出現在頁面上。</block>
-  <block id="7159b8d16e082bb281a900b08b5b3c53" category="list-text">*管理行動面板*</block>
-  <block id="b24d4d22a9c52aa56f43f1857d9e3856" category="paragraph">Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會顯示在此面板中、並顯示*修正*或*全部修正*按鈕。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。若要檢視所有問題、請按一下</block>
   <block id="c076c04a5923aa493f5d80439c0a607e" category="inline-link-macro">直接從ONTAP Unified Manager修正各種問題</block>
-  <block id="5264ee457cbb4786c8014caff863b77f" category="paragraph">請參閱 <block ref="4de06821690ec8505ff30e3d01558e54" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
-  <block id="fefbd613edf4fa6e465728bd4899ff3c" category="list-text">*容量面板*</block>
   <block id="cef503ab15e4ed36b018cb3a90d14ae4" category="paragraph">檢視所有叢集時、此面板會顯示每個叢集的實體已用容量（套用儲存效率節約效益之後）和實體可用容量（不包括可能的儲存效率節約）、預計磁碟滿之前的天數、 資料減量比率則是根據設定ONTAP 的整套儲存效率設定而來。也會列出任何已設定雲端層的已用容量。按一下長條圖、即可前往該叢集的Aggregate詳細目錄頁面。按一下「待滿天數」文字會顯示一則訊息、指出該Aggregate的剩餘容量天數最少；按一下Aggregate名稱即可查看更多詳細資料。</block>
   <block id="1d775ead11df49b05265d255ec97ba03" category="paragraph">檢視單一叢集時、此面板會顯示資料集合的實體已用容量和實體可用容量、這些資料集合體會依本機層和雲端層上的每個個別磁碟類型進行排序。按一下磁碟類型的長條圖、即可前往使用該磁碟類型之磁碟區的「Volumes」（磁碟區）詳細目錄頁面。</block>
   <block id="72ff6bbe84ebdc6126c97ef71a5082b1" category="paragraph">檢視所有叢集時、此面板會顯示每個叢集的效能容量值（過去1小時的平均值）、以及效能容量達到上限的天數（根據每日成長率而定）。按一下長條圖、即可前往該叢集的「節點」目錄頁面。請注意、節點庫存頁面會顯示過去72小時內的平均效能容量。按一下「待滿天數」文字會顯示一則訊息、指出該節點的剩餘效能容量天數最少；按一下節點名稱即可查看更多詳細資料。</block>
   <block id="d2b96729b551f106fbc157a73649ed9e" category="paragraph">檢視單一叢集時、此面板會顯示所用叢集效能容量百分比、IOPS總計和總處理量（MB/s）值、以及預計這三項指標達到上限之前的天數。</block>
   <block id="ce0a654c3b5c722340279eb742f2247d" category="paragraph">檢視單一叢集時、此面板會顯示目前在特定IOPS範圍內執行的工作負載總數、並在游標停留在圖表上時指出每個磁碟類型的數目。</block>
   <block id="db3ec3afcbb3550eaf2d4f9224d2c3b6" category="paragraph">此面板會顯示指派給每個效能服務層級（PSL）原則的符合性和不符合性工作負載總數。也會顯示未指派PSL的工作負載數量。按一下長條圖、即可在「工作負載」頁面中找到指派給該原則的符合性工作負載。按一下長條圖後的數字、即可前往指派給該原則的符合性和不符合要求的工作負載。</block>
-  <block id="ef4fe1b8268d44620ad24ec7733645fd" category="list-text">*安全性面板*</block>
-  <block id="9a268bcb23ec0f95e8394deaee691d7b" category="paragraph">檢視所有叢集時、此面板會顯示符合且不相容的叢集數目、符合法規且不符合法規的儲存VM數目、以及加密且未加密的磁碟區數目。法規遵循是以為基礎<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。按一下面板頂端的向右箭頭、即可檢視「安全性」頁面中所有叢集的安全性詳細資料。</block>
-  <block id="c39f9f0462b38c1550c10afc121f8195" category="paragraph">檢視單一叢集時、此面板會顯示叢集是否符合法規要求、符合法規且不相容的儲存VM數量、以及加密且未加密的磁碟區數量。按一下面板頂端的向右箭頭、即可在「安全性」頁面中檢視叢集的安全性詳細資料。如需詳細資訊、請參閱 <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>。</block>
-  <block id="779207efbcb31e6ce540b3be751f94e1" category="list-text">*資料保護面板*</block>
-  <block id="1932eeb4d3404b8cddfc5c356e5b58a4" category="paragraph">此面板會顯示資料中心中單一或所有叢集的資料保護摘要。它會顯示資料保護事件的總數、以及ONTAP 在過去24小時內提出的作用中事件數。此面板會顯示叢集或資料中心內受Snapshot複本和SnapMirror關係保護的所有叢集的磁碟區數量。同時也會顯示具有SnapMirror還原點目標（RPO）延遲的磁碟區數量。您可以將滑鼠游標暫留、以檢視各個計數和圖例。按一下橫條圖、即可前往「Volumes（磁碟區）」畫面、並選取各個磁碟區。按一下每個事件的連結、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。如需詳細資訊、請參閱 <block ref="cce169fddfae7a31f74f472dce696e49" category="inline-link-macro-rx"></block>。</block>
   <block id="780ec40cc715a112c118d12f06bd508f" category="paragraph">檢視所有叢集時、您可以選擇檢視依最高IOPS、最高處理量（MB/s）或最高使用實體容量排序的叢集。</block>
   <block id="56301f99c72abc61a51cf04b7c012878" category="paragraph">檢視單一叢集時、您可以選擇依最高IOPS、最高處理量（MB/s）或使用量最高的邏輯容量來檢視工作負載。</block>
   <block id="c1f3cc81a0cfeaaaecf2394212cf9ea0" category="inline-link-macro">使用Unified Manager自動修正來修正問題</block>
@@ -10913,14 +10734,8 @@
   <block id="3817c92b8c868f8dcff11bea431f7255" category="paragraph"><block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block></block>
   <block id="10170e91a4146c1993c0ee86ecb36423" category="paragraph"><block ref="10170e91a4146c1993c0ee86ecb36423" category="inline-link-macro-rx"></block></block>
   <block id="46295472c6b5fd3e1fba3eea9a0f3dda" category="paragraph"><block ref="46295472c6b5fd3e1fba3eea9a0f3dda" category="inline-link-macro-rx"></block></block>
-  <block id="9d0c2b795242f902ab102f1763823a7b" category="summary">效能服務層級可讓您定義工作負載的效能與儲存目標。您可以在最初建立工作負載時、或之後編輯工作負載、將效能服務層級指派給工作負載。</block>
-  <block id="7cb3ba427d55e6e636788665caa3ec26" category="paragraph">儲存資源的管理與監控是以服務層級目標（SLO）為基礎。SLO是由服務層級協議所定義、這些協議是以所需的效能和容量為基礎。在Unified Manager中、SLO是指在NetApp儲存設備上執行之應用程式的PSL定義。儲存服務會根據基礎資源的效能與使用率而有所差異。PSL是儲存服務目標的說明。PSL可讓儲存供應商指定工作負載的效能與容量目標。</block>
-  <block id="24f489c836216c262d726fe34baae40e" category="paragraph">Unified Manager提供幾種無法變更的既定原則。這些預先定義的效能服務層級包括：極致效能、效能和價值。極致效能、效能和價值的PSL適用於資料中心的大多數常見儲存工作負載。Unified Manager也針對資料庫應用程式提供三種PSL：「資料庫記錄的極限」、「資料庫共享資料的極限」、以及「資料庫資料的極限」。這些是極高效能的PSL、可支援爆發式IOPS、適合處理量需求最高的資料庫應用程式。如果這些預先定義的PSL不符合您的需求、您可以建立新的PSL來滿足您的需求。</block>
-  <block id="d957ef03b1c82352c468b8bb696fc793" category="paragraph">您可以從「*原則*&gt;*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。</block>
   <block id="7005bc0b5df720e94cd308b434fee220" category="paragraph">您無法修改系統定義或目前指派給工作負載的PSL。您無法刪除指派給工作負載的PSL、或是唯一可用的PSL。</block>
-  <block id="3be5151bc97f1686c9fef5708fe4dd73" category="paragraph">「效能服務層級」頁面會列出可用的PSL原則、並可讓您新增、編輯及刪除這些原則。此頁面顯示下列資訊：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">欄位</block>
-  <block id="7bf6301ab544e8c9b641a48abd1f8094" category="paragraph">效能服務層級的名稱。</block>
   <block id="0a3c9475d1e35e62da5f0d597fb21890" category="paragraph">原則是由系統定義還是由使用者定義。</block>
   <block id="d092327d9f42b95ebbd634d5d44c3a30" category="paragraph">預期的IOPS</block>
   <block id="7bf4ff4f56c6a407eb807d4b6794420c" category="paragraph">預期應用程式在LUN或檔案共用區上執行的IOPS下限。預期IOPS會根據儲存物件配置的大小、指定所配置的預期IOPS下限。</block>
@@ -10943,10 +10758,7 @@
   <block id="17f71c02b476fa71125b526ff2677e20" category="paragraph">叢集中的可用和已用容量總計。</block>
   <block id="35084d885dea7b061e6894c1cf3036d9" category="paragraph">工作負載</block>
   <block id="0560dd7798f23fb552c8ee7fad9e6494" category="paragraph">已指派PSL的儲存工作負載數量。</block>
-  <block id="9e28180b8b0ed53cf76cc8f82f0de990" category="paragraph">如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：</block>
   <block id="6a2f7c6fed6294a90127063b3b99b00d" category="inline-link">什麼是績效預算？</block>
-  <block id="ca8d1d6e78ce890ca12599250d6fd33a" category="paragraph"><block ref="ca8d1d6e78ce890ca12599250d6fd33a" category="inline-link-rx"></block></block>
-  <block id="49d22a2b55c0267f82a42fe68caf3118" category="paragraph">請注意、如果工作負載超過前一小時30%的預期延遲值、Unified Manager將產生下列其中一項事件、通知您可能發生的效能問題： 「工作負載Volume延遲臨界值違反效能服務層級原則定義」或「工作負載LUN延遲臨界值違反效能服務層級原則定義」。您可能想要分析工作負載、以瞭解造成較高延遲值的原因。</block>
   <block id="a852266f42be6bf03c311f8a5855c8b3" category="paragraph">下表提供系統定義的PSL相關資訊：</block>
   <block id="6242d8dfa9aad926035ef1dc1578534b" category="cell">說明與使用案例</block>
   <block id="19db00508a37205f06d4d348a5208f2c" category="cell">預期延遲（毫秒/作業）</block>
@@ -11234,10 +11046,6 @@
   <block id="30c11e93ec4591f763fb4df25de0b4a5" category="list-text">輸入基礎辨別名稱的適當資訊。</block>
   <block id="4e9d6d4d3c82d991ce8d49f58bff12dc" category="summary">All工作負載檢視會顯示資料中心叢集上所有可用工作負載的清單。</block>
   <block id="018d3ec165f27acba9e4a45ef0acf035" category="doc">檢視工作負載</block>
-  <block id="bbe0e7a4338f91f5b9fc53366ee0071c" category="paragraph">All工作負載檢視會列出與ONTAP Unified Manager所管理的各個叢集相關的儲存工作負載。此頁面也可讓您指派儲存效率原則（DDP）和效能服務層級（PSL）給儲存工作負載。</block>
-  <block id="c97816d6e916edb5d5a4d1eb2f52d105" category="paragraph">當您將叢集新增至Unified Manager時、系統會自動探索並顯示每個叢集上的儲存工作負載、FlexGroup 但不包括下列項目：</block>
-  <block id="a6318b2274381d27256359bfb1b93adb" category="paragraph">Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才開始分析工作負載的建議（建議的PSL）。對於未執行I/O作業的新發現儲存工作負載、狀態為「waiting for I/O（正在等待I/O）」。在儲存工作負載上開始執行I/O作業之後、Unified Manager會開始分析、工作負載狀態會變更為「Learning ...」。分析完成後（從I/O作業開始算起24小時內）、儲存工作負載會顯示建議的PSL。</block>
-  <block id="e07c411887b0f746d48ec3eda65e1220" category="paragraph">使用*工作負載*&gt;*所有工作負載*選項、您可以執行多項工作：</block>
   <block id="a9372e236069e9faaa55a9b6f1622b96" category="list-text">新增或配置儲存工作負載</block>
   <block id="b81e94e61e4dd867ef7d060f7a0d929a" category="list-text">檢視及篩選工作負載清單</block>
   <block id="41ac12e9811b01321ab5266888eb831f" category="list-text">將PSL指派給儲存工作負載</block>
@@ -11248,7 +11056,6 @@
   <block id="a7904deaa8ab0a3cb4fd9ca423e1e9f4" category="section-title">檢視及篩選工作負載</block>
   <block id="93e41f41a38251bca376c06a90b2d35f" category="paragraph">在「All工作負載」畫面上、您可以檢視資料中心中的所有工作負載、或根據其PSL或名稱搜尋特定的儲存工作負載。您可以使用篩選圖示輸入搜尋的特定條件。您可以依不同的篩選條件（例如主機叢集或儲存VM）進行搜尋。*容量總計*選項可依工作負載的總容量（以MB為單位）進行篩選。不過、在此案例中、傳回的工作負載數量可能會有所不同、因為總容量是以位元組層級進行比較。</block>
   <block id="c87fa7c6e759d8461cef460152c0f88d" category="paragraph">針對每個工作負載、會顯示主機叢集和儲存VM等資訊、以及指派的PSL和SEP。</block>
-  <block id="747575017fc251da3cef661215955460" category="paragraph">此頁面也可讓您檢視工作負載的效能詳細資料。您可以按一下「*選擇/訂單欄*」按鈕、然後選取要檢視的特定欄、以檢視工作負載的IOPS、容量和延遲等詳細資訊。「效能檢視」欄會顯示工作負載的平均和尖峰IOPS、您可以按一下工作負載分析器圖示來檢視詳細的IOPS分析。「IOPS分析」快顯視窗上的「分析工作負載*」按鈕會帶您前往「工作負載分析」頁面、您可在其中選取時間範圍、並檢視所選工作負載的延遲、處理量和容量趨勢。如需工作負載分析器的詳細資訊、請參閱_使用工作負載分析器疑難排解工作負載_</block>
   <block id="2631d37d37bc9b5c474e05a1e1c726ae" category="section-title">分析工作負載的效能與容量條件</block>
   <block id="9fb9ad42cd98a4cc8213472f859685f8" category="paragraph">您可以按一下「*效能檢視*」欄中的橫條圖圖示、檢視工作負載的效能資訊、以協助疑難排解。若要在「工作負載分析」頁面上檢視效能與容量圖表以分析物件、請按一下「*分析工作負載*」按鈕。</block>
   <block id="f3a8d1f0654a5e8b0761614bebc1ad16" category="summary">支援各種組態、可在整個站台無法使用時、提供資料鏡射功能及啟動容錯移轉的額外能力。MetroCluster在一個不支援功能的組態中、叢集之間的資料鏡射狀態MetroCluster 可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。</block>
@@ -11303,7 +11110,6 @@
   <block id="6351f661749dab893dbbb292fcc8f82d" category="list-text">除非啟用自動切換（ASO）、否則如果主叢集當機、就無法探索次要叢集、而且拓撲會繼續指向主要叢集中的磁碟區或LUN。</block>
   <block id="33a397acc09e3b44eed8380cf19d3562" category="list-text">對於儲存VM災難恢復組態、請注意下列限制：</block>
   <block id="eed128e18ee80ef87fb62d2b302bb051" category="list-text">不支援針對SAN儲存環境啟用Site Recovery Manager（SRM）或Storage Replication Adapter（SRA）的組態。</block>
-  <block id="8282d35ad52f263e93b74a64b6fbfa9b" category="paragraph">回應時間偏離已超過效能臨界值的工作負載稱為「受害者」、而寫入NVRAM處理量偏移量的工作負載則稱為「_bulies」。由於只有寫入要求會鏡射至合作夥伴叢集、因此Unified Manager不會分析讀取處理量。</block>
   <block id="87dde0c171bff2ae51197b700e179074" category="paragraph"><block ref="87dde0c171bff2ae51197b700e179074" category="inline-link-macro-rx"></block></block>
   <block id="4e07955739f9126355991a4d6bcb27b7" category="paragraph"><block ref="4e07955739f9126355991a4d6bcb27b7" category="inline-link-macro-rx"></block></block>
   <block id="859000c4bb699fff213652ff29c11ca9" category="inline-link-macro">找出效能事件所涉及的受害者工作負載</block>
@@ -11507,7 +11313,6 @@
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
   <block id="7a8adec5b77b397bb264a687d8a6c162" category="sidebar">SVM法規遵循類別</block>
-  <block id="358c01d38ef061cd86f4fbe039092253" category="sidebar">檢視叢集和SVM的詳細安全狀態</block>
   <block id="77d7ce66941e6a8a53f84f813d2b2bf1" category="sidebar">使用REST API管理儲存設備</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
   <block id="6f047d4c177cc734ed65cb347cf6bd42" category="sidebar">監控及管理叢集效能</block>
@@ -11522,4 +11327,304 @@
   <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">關係/過去1個月的轉帳率檢視</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">監控及管理儲存設備</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">直接從Unified Manager修正ONTAP 或管理問題</block>
+  <block id="cbc6eeba3b8cd006dc2ca8ece384da6e" category="paragraph">OpenJDK 11.0.14版</block>
+  <block id="9c5ad3fafb573abb0b53ed02adba014e" category="paragraph">MySQL 8.0.28社群版本</block>
+  <block id="e6bf42dd3a3e9586ee0a5b97f5a51749" category="list-text">如果安裝的MySQL版本早於MySQL 8.0.28 Community Edition、請輸入下列命令予以解除安裝：</block>
+  <block id="3cfcc2a63606c5600f5f04e614e429f2" category="list-text">執行下列命令、將內容設定為「mysqld_db_t」：「emanage fcontext-A -t mysqld_db_t「/opp/netapp/data」（/opp/datape/data）」、「restorecon -R -v /opp/netapp/data」</block>
+  <block id="11e1b3755b142a082c6c226b589a4ea6" category="paragraph">「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0」</block>
+  <block id="b5ac9f231ec8ae835394a788fd0afdaa" category="list-text">執行下列命令、將內容設定為「mysqld_db_t」：「emanage fcontext-A -t mysqld_db_t「/opt/netapp」（英文）「restorecon -R -v /opt/netapp」（英文）</block>
+  <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。對於「/opt/netapp/」掛載選項、請將MySQL標籤新增為：「context=system_u:object_r:mysqld_db_t:s0」</block>
+  <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp -o context=system_u:object_r:mysqld_db_ts0」</block>
+  <block id="4432f39d800933fa29075adf5d2cb426" category="paragraph">您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager 9.11升級程序會自動將MySQL升級至8.0.28。您不應該執行MySQL從舊版升級至8.0.28的獨立升級。</block>
+  <block id="24f1ea1882439997228bd802f68fa9f6" category="paragraph">您只能將MySQL 8.0.28的基礎版本升級至更新版本、以進行次要更新。</block>
+  <block id="026936ad00ebc4ae1db79f070a927a45" category="list-text">MySQL-community用戶端-8.0.28</block>
+  <block id="e690854523c7fac0083784d171463dbd" category="list-text">MySQL-community - libs-8.0.28</block>
+  <block id="7416b1d102126167619be7c1bc2917b9" category="list-text">MySQL-community伺服器-8.0.28</block>
+  <block id="7e4bff08468b3a2ecc016a808e2b84e3" category="list-text">MySQL-社群-通用-8.0.28</block>
+  <block id="e627c2b9dd11c910856a3d949365b0ba" category="list-text">MySQL-community用戶端外掛程式-8.0.28刪除所有其他的「.rpm」套件。但是、在rpm套裝組合中安裝所有套件並不會造成錯誤。</block>
+  <block id="5f03fcd1de4eb6c394b1713126eeae48" category="admonition">MySQL的預設連接埠3306僅限在Linux系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用維護主控台的「Control access to MySQL port 3306」（控制存取MySQL連接埠3306）選項、將連線提供給其他主機。</block>
+  <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
+  <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">Red Hat Enterprise Linux 7.x版和8.x版、以x86_64架構為基礎。</block>
+  <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">基於x86_64架構的CentOS 7.x版。不支援CentOS串流。</block>
+  <block id="daeb4be1c40e0342f376799aa2056aca" category="list-text">MySQL Community Edition 8.0.28版（來自MySQL儲存庫）。</block>
+  <block id="172925fbf80ec8e28224e1554c88ee8a" category="list-text">OpenJDK 11.0.14版（來自Red Hat Extra Enterprise Linux Server儲存庫）</block>
+  <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">「Udo systemcl STATUS ocie」</block>
+  <block id="209d8f24350d3586c7e8e77bccf146f6" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.9升級至OpenJD11.0.14、但無法直接從OpenJD11更新至OpenJD12。</block>
+  <block id="52404be5282c18d0b7e21cbc0500660d" category="paragraph">您可以在Red Hat平台上下載並執行安裝檔案、將Unified Manager 9.9或9.10升級至9.11。</block>
+  <block id="afebc350be46a62a45b648162f68d68a" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager升級程序會自動將MySQL升級至8.0.28。</block>
+  <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">作業系統</block>
+  <block id="21fae6ca9851125bcb8a2ae0fceec434" category="list-text">Microsoft Windows Server 2019標準版與資料中心版</block>
+  <block id="fcf00af2a56dc582433fdec6019bd75f" category="list-text">Microsoft Windows Server 2022 Standard與Datacenter Edition</block>
+  <block id="abc1339f3a6e6d5793784f7eba3a817c" category="paragraph">「C：\Program Files\NetApp\Centerure\bin」。</block>
+  <block id="9c94357d35bed777ae75ec5b1fb148ea" category="paragraph">您可以在Windows平台上下載並執行安裝檔案、將Unified Manager 9.9或9.10升級至9.11。</block>
+  <block id="7fa1b8306b61bbac5aec005baa3183b3" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager升級程序會自動將MySQL升級至8.0.28。您不得執行舊版MySQL的獨立升級至8.0.27。</block>
+  <block id="fa667d9ec9e561ac6d6553c9ffa6ad45" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager升級可能會失敗。升級Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。</block>
+  <block id="95321bf41584f0af5249cfe77a131451" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、請務必在升級完成後、手動將下列路徑排除在防毒掃描之外：</block>
+  <block id="903905888af29b1f6e5156b704c32cf8" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.12升級至OpenJD11.0.13、但無法直接從OpenJD11更新至OpenJD12。</block>
+  <block id="a326ba42b2f3cdc07bf58761b1c4f56e" category="list-text">將目錄和檔案從產生的「JDK"目錄（例如、「JDK-11.0.13」）複製到安裝Java的位置。範例：「C:\Program Files\NetApp\JDK\」</block>
+  <block id="35b673088d49c428fe4b71d1fb68ac32" category="paragraph">您可以在下列Windows版本上安裝Unified Manager：</block>
+  <block id="97acc1a41f0c48f305dbbeb45d754400" category="admonition">NetApp不支援使用協力廠商工具（例如Microsoft System Center Configuration Manager（Software））來安裝Unified Manager。</block>
+  <block id="66f07fbd2c7baf01707e9c250b4e3fae" category="list-text">MySQL社群版本8.0.28</block>
+  <block id="2c9628de3d31520370d95ae47b0f78f8" category="list-text">Python 3.9.2</block>
+  <block id="fb4a7fa57c26a71e226044f076d4cdcb" category="list-text">OpenJDK 11.0.13版</block>
+  <block id="8c0efbddadc6fd60891df7fc8dca2445" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager安裝可能會失敗。在安裝Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：</block>
+  <block id="f2b9e947e73ecf5aa3eb9084d5484e42" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、請在安裝完成後、手動將下列路徑排除在防毒掃描之外：</block>
+  <block id="d09e8f5749e3b7058a8289ba431458ea" category="list-text">如果您從*程式與功能*精靈解除安裝Unified Manager、請執行下列步驟：</block>
+  <block id="c8c3810a14893ac6d3284dbe2703b42e" category="list-text">如果您從命令列解除安裝Unified Manager、請執行下列步驟：</block>
+  <block id="b5c53960619159f07babd813281a0c5f" category="list-text">使用系統管理員權限登入Windows命令列。</block>
+  <block id="8f03a3d977b03b60a275743462ed9db9" category="list-text">瀏覽Active IQ Unified Manager 至flex目錄、然後執行下列命令：</block>
+  <block id="2e5a5aa28eccce1bee3eb2d3c56b5309" category="paragraph">+msiexec /x｛A78760DB-7EC0-4305-97dB-E4A89CDFF4E1｝/qn /l* v %systemdrive%\UmmUnInstall.log+</block>
+  <block id="281a23b64ca4e7554e3f0e93b5e421a4" category="list-text">第三方套件：JRE, MySQL, Microsoft Visual C&amp;#43;&amp;#43; 2015可轉散發套件、Python、 和7Zip</block>
+  <block id="e870626bc44af1911308a20544309fa5" category="admonition">MySQL的預設連接埠3306僅限在VMware vSphere系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用維護主控台的「Control access to MySQL port 3306」（控制存取MySQL連接埠3306）選項、將連線提供給其他主機。</block>
+  <block id="7094bfb22911ca78c26602f6b95b78fa" category="paragraph">您只能從Active IQ Unified Manager 9.9版或9.10版升級到9.11版的版次。</block>
+  <block id="bbd76c12bdee88db10f4352bb5c25c68" category="paragraph">您可以將Active IQ Unified Manager 更新版本9.9或9.10升級至9.11。</block>
+  <block id="e097d9836e6942eb333688aa40c458db" category="paragraph">您可以建立角色並指派功能、以控制使用者對Active IQ Unified Manager 功能的存取。您可以識別具備必要功能的使用者、以便在Unified Manager中存取所選物件。只有具備這些角色和功能的使用者、才能在Unified Manager中管理物件。</block>
+  <block id="6bb4bacb8a95b59b89d6baf47ca57e37" category="paragraph">此帳戶必須將「應用程式」存取權限設為_ontapi_、_consol__和_http。</block>
+  <block id="6f07476dbe3e0c87ef5417742f01281d" category="summary">您可以產生包含診斷資訊的支援服務組合、以便將其傳送至技術支援部門以取得疑難排解說明。您也可以從維護主控台將支援服務組合上傳至NetApp。</block>
+  <block id="f6edcb137df0b7c4e3fba5f2b371471f" category="paragraph">您可以產生包含診斷資訊的支援服務組合、以便將其傳送至技術支援部門以取得疑難排解說明。</block>
+  <block id="f90eb4e62285b9cd8dd7d52b71e3aaeb" category="paragraph">從Unified Manager 9.8開始、如果Unified Manager伺服器已連線至網際網路、您也可以從維護主控台將支援服務組合上傳至NetApp。</block>
+  <block id="38bf356bc057c1b138ed0aadbc422129" category="summary">「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。</block>
+  <block id="2dfcaeaf7d872d0b41ac1a7fad3f1bc0" category="doc">檢視叢集和儲存VM的安全狀態</block>
+  <block id="363bd7c65ddeb743b3e567f3bb86d1f0" category="paragraph">利用此功能、您可以從介面中的不同點、檢視環境中儲存物件的安全狀態。Active IQ Unified Manager您可以根據定義的參數來收集及分析資訊和報告、並偵測受監控叢集和儲存VM上的可疑行為或未獲授權的系統變更。</block>
+  <block id="ac7c06182b625c627e480ce0c60ff4ed" category="paragraph">如需安全性建議、請參閱<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block></block>
+  <block id="468b211c23c8f85e2679c3384b195d38" category="section-title">在「安全性」頁面上檢視物件層級的安全性狀態</block>
+  <block id="78162355da23f5dd80cdec8e2b9e0d00" category="paragraph">身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級、清楚掌握各個叢集和儲存VM的安全性強度。支援的物件包括叢集、儲存VM和Volume。請遵循下列步驟：</block>
+  <block id="3f9660f836b3463f167780161b6ee0d0" category="list-text">按一下「*安全性*」面板中的向右箭頭。隨即顯示「安全性」頁面。</block>
+  <block id="93924d03189237f928d2d949fb28735f" category="paragraph">按一下長條圖、計數和「檢視報告」連結、即可前往「Volume（磁碟區）」、「叢集」或「Storage VM（儲存VM）」頁面、視需要檢視對應的詳細資料或產生報告。</block>
+  <block id="b43d6869eba5b9bd943124b60e04f21d" category="paragraph">「安全性」頁面會顯示下列面板：</block>
+  <block id="4993aada6aa45a3c41b60560e1e8038f" category="list-text">*叢集法規遵循*：資料中心內所有叢集的安全狀態（符合或不符合法規的叢集數目）</block>
+  <block id="9f6fdf8e9a5d57c041e9628e7be7fa35" category="list-text">*儲存虛擬機器法規遵循*：資料中心內所有儲存虛擬機器的安全狀態（相容或不相容的儲存虛擬機器數量）</block>
+  <block id="d49afaff9aaec964ded02b9322457e39" category="list-text">* Volume Encryption*：環境中所有磁碟區的磁碟區加密狀態（加密或未加密的磁碟區數目）</block>
+  <block id="9bd0b3e4f58ac076db0d253c51537186" category="list-text">* Volume反勒索軟體狀態*：環境中所有磁碟區的安全狀態（啟用或停用反勒索軟體的磁碟區數量）</block>
+  <block id="bc32a70e3caba18ce60ff911b2778444" category="list-text">*叢集驗證與憑證*：使用各種驗證方法（例如SAML、Active Directory）或透過憑證與本機驗證的叢集數目。面板也會顯示憑證已過期或即將在60天內過期的叢集數量。</block>
+  <block id="c37bd528b0f31f7b63f3174349bd301f" category="section-title">在「叢集」頁面上檢視所有叢集的安全性詳細資料</block>
+  <block id="ca65898956ec031b96dc28b5d94bc51b" category="paragraph">「*叢集/安全性*」詳細資料頁面可讓您檢視叢集層級的安全性法規遵循狀態。</block>
+  <block id="c486eb92eb850d8e82e8a715bc3992df" category="list-text">在左導覽窗格中、按一下*儲存&gt;叢集*。</block>
+  <block id="5ca0fa2f751156952c40aeb7a9590b88" category="list-text">選取*檢視&gt;安全性&gt;所有叢集*。</block>
+  <block id="0d846c68d80d20ea88b6b3083d22bca7" category="paragraph">預設安全參數、例如Global FIPS、Telnet、不安全SSH設定、登入橫幅、網路時間傳輸協定、 顯示「支援HTTPS傳輸」、以及叢集憑證過期狀態。AutoSupport</block>
+  <block id="52c148109936ec0cc34f1b38fb262428" category="inline-image-macro">kabob圖示</block>
+  <block id="b4f67db8d0f90c2e20b1813f2c70ad96" category="paragraph">您可以按一下 <block ref="be3a4fe65d997bdec7cc224e43adfb38" category="inline-image-macro-rx" type="image"></block> 「更多選項」按鈕、然後選擇在Unified Manager * Security *（安全性*）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。</block>
+  <block id="6827c086d302f51abdea5a46454c54f9" category="admonition">如果叢集的憑證已過期、您可以按一下*叢集憑證有效性*下的「過期」、然後從系統管理員（9.10.1及更新版本）續約。如果System Manager執行個體的版本早於9.10.1、則無法按一下「Expired」（過期）。</block>
+  <block id="abd66bce9d2a771ac36e0132cc434dc0" category="section-title">從「儲存VM」頁面檢視所有叢集的安全詳細資料</block>
+  <block id="a3051107bf8d2b163dbfd3f778574303" category="paragraph">「*儲存VM /安全性*」詳細資料頁面可讓您檢視儲存VM層級的安全性法規遵循狀態。</block>
+  <block id="d8f98730cfda4cc64ef2c3441ff554a8" category="list-text">在左導覽窗格中、按一下*儲存設備&gt;儲存設備VM*。</block>
+  <block id="3011ef7c1bc86abe89d8eeeaf7c4c472" category="list-text">選取*檢視&gt;安全性&gt;所有儲存VM*。隨即顯示具有安全參數的叢集清單。</block>
+  <block id="419ebf74a5546d21b1acd80acf25cc21" category="paragraph">您可以檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、以預設檢視儲存VM的安全性法規遵循。</block>
+  <block id="1df41a302d0ac8f8b5c67157bf788ab9" category="inline-link-macro">檢視所有磁碟區和儲存VM的勒索軟體狀態</block>
+  <block id="17b7a8cd3718b23c5fbc68976d54fae8" category="paragraph">_如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 <block ref="bca545b4103a280a86945e429acfe26a" category="inline-link-macro-rx"></block>._</block>
+  <block id="15b9361b9fb7038f56e85f3904037d8c" category="doc">正在評估哪些安全性準則</block>
+  <block id="2e97b5e5f53687c2edc46f6cfe0a5451" category="list-text">協調員</block>
+  <block id="142ceab668a9fc374d2beb0a4ef23836" category="paragraph">顯示叢集是否支援中介器及中介器的連線狀態。</block>
+  <block id="79ccc97c418cc26f3467425720f5d2c7" category="paragraph">當叢集不支援中介者時顯示。</block>
+  <block id="ac10863a89ea5da5d78b29ab7d8d4db9" category="list-text">未設定</block>
+  <block id="2fdd5dc5585243c3197c271994fd12c9" category="paragraph">顯示叢集何時支援中介器、但未設定中介器。</block>
+  <block id="d64c1cefb3e1d5cdfa216f6d3407ec17" category="paragraph">當叢集支援協調器並設定協調器時顯示。中介器狀態會以色彩表示。綠色表示可連線到中介器狀態。紅色表示無法連線到中介器狀態。</block>
+  <block id="e915243d2d9237ec496fdc596ffdf04a" category="summary">您可以檢視所有磁碟區和儲存VM的清單、以及它們目前的反勒索軟體狀態、以便判斷您磁碟區上的資料是否受到足夠的保護、免受勒索軟體攻擊。</block>
+  <block id="7c2c886acbcd2892de2344c60378626c" category="doc">檢視所有磁碟區和儲存VM的勒索軟體狀態</block>
+  <block id="b7fb2bac588b5767cf6c705188c389c3" category="paragraph">您可以檢視所有磁碟區和儲存VM（SVM）的清單、以及它們目前的反勒索軟體狀態、以便判斷您的磁碟區和SVM上的資料是否受到足夠的保護、免受勒索軟體攻擊。</block>
+  <block id="a921172c77574003a53c4e7d463e4a78" category="inline-link-macro">支援勒索軟體ONTAP</block>
+  <block id="72e5e5991e9c7a2e51d3ba91ca2a8e1d" category="paragraph">如需不同勒索軟體狀態的詳細資訊、請參閱 <block ref="ebbc50671d350b612b279b18dc92d3ce" category="inline-link-macro-rx"></block>。</block>
+  <block id="073bfac42f064e9ab9cfb7df8c7310dd" category="section-title">利用勒索軟體偵測功能檢視所有磁碟區的安全詳細資料</block>
+  <block id="1699ca27220cc19000bd17d85d3b28e2" category="list-text">在「檢視」功能表中、選取「*健全狀況*」&gt;「*安全性*」&gt;「*勒索軟體*」</block>
+  <block id="765682c922feb0f0b9b563508b989dbd" category="list-text">在「*安全性：勒索軟體*」檢視中、您可以依各種欄位排序或使用篩選器。</block>
+  <block id="f8b04b532a660e0cf7f2af7a9d837104" category="admonition">離線磁碟區、受限磁碟區、SnapLock VMware Volume、FlexGroup FlexCache SAN專用磁碟區、停止儲存VM的磁碟區、儲存VM的根磁碟區或資料保護磁碟區。</block>
+  <block id="afaf73af225dba83673ea47b3051dc3d" category="section-title">透過勒索軟體偵測功能、檢視所有儲存VM的安全詳細資料</block>
+  <block id="9b1365de5b07fbb66019457a4c7fb6a5" category="list-text">選取*檢視&gt;安全性&gt;勒索軟體*。隨即顯示具有勒索軟體狀態的SVM清單。</block>
+  <block id="3dcc0199352a1721fd1f864e772d652e" category="admonition">未啟用NAS傳輸協定的儲存VM不支援勒索軟體監控。</block>
+  <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">關於本產品所使用之協力廠商版權與授權的資訊。</block>
+  <block id="1209c02696508f6ee7115d3ea4bf25c6" category="inline-link">關於本產品的注意事項Active IQ Unified Manager 9.11</block>
+  <block id="3d745b5d025273b12b90dd2a14f03c74" category="paragraph"><block ref="3d745b5d025273b12b90dd2a14f03c74" category="inline-link-rx"></block></block>
+  <block id="3aa0793f7dfdec5c9a41e17ceb9fd31b" category="doc">使用API檢視儲存工作負載</block>
+  <block id="0479a086f219db093ecf35b973d0c99f" category="doc">使用API驗證叢集上的SVM</block>
+  <block id="d5ebd8ed6c85ed5d37684affd2fa4def" category="doc">使用API管理工作負載</block>
+  <block id="84664a7128e22baacddd3aa191e0ac07" category="doc">使用API管理Active Directory對應</block>
+  <block id="ab470ee832c0f6b186ca1f4cda819c60" category="doc">使用API判斷Aggregate中的空間問題</block>
+  <block id="40febffd8f8abd2d75c8d5b5a891196e" category="doc">使用API修改NFS檔案共用以支援CIFS</block>
+  <block id="50e0f11482fceefc2d65544335ead398" category="doc">用於工作負載管理的API工作流程</block>
+  <block id="c13f46060eb3abf10c16a81f7386d02d" category="doc">使用事件API判斷儲存物件的問題</block>
+  <block id="686de7649ff29618b2533b83f236c1f9" category="doc">使用API配置LUN</block>
+  <block id="dae4b302d39d8710b93f2ab7e79ad44c" category="paragraph">= LUN建立或對應失敗的疑難排解步驟</block>
+  <block id="d5931491b56d1cc70bbacab3848ce5e3" category="doc">用於儲存管理的通用API工作流程</block>
+  <block id="d131c53163ad1393b868bfe59511a561" category="doc">使用API管理事件和警示</block>
+  <block id="1b7f5aa3167ef79634d49e211d977ca9" category="doc">使用API管理效能服務層級</block>
+  <block id="a04ca9649d91705a1631f7dedd600667" category="doc">使用API來配置CIFS和NFS檔案共用</block>
+  <block id="151dc20bb4e8b513a82b648656bd9368" category="doc">使用API管理檔案共用</block>
+  <block id="176ffeae86fc36be6a62affe4dc7670e" category="doc">使用API檢視效能指標</block>
+  <block id="ec6d62e34bf5aa5be0613a5f0bf48d90" category="paragraph">針對單一物件擷取累計的計數器、例如最小值、最大值、95百分位數、以及一段時間內的平均效能值、例如讀取、寫入、總計和其他計數器。</block>
+  <block id="c72068f0f4cfcce2af4ad5f5ca198d95" category="paragraph">相同類型的所有物件都會顯示單一彙總值。</block>
+  <block id="edd03550acb1b4d7eebfc242f3bca941" category="paragraph">時間範圍和範例資料是根據下列排程：資料的時間範圍。範例可以是1h、12h、1d、2D、3D、 15d、1W、1公尺、2公尺、3公尺、 6萬。如果範圍超過3天（72小時）、您會得到1小時的樣本、否則只有5分鐘的樣本。每個時間範圍的期間如下：</block>
+  <block id="592f555d9ca68fc305a20da038e2c4a4" category="section-title">度量API的輸出範例</block>
+  <block id="d77db93932ca545cf6a9aaa595e545e0" category="paragraph">例如、「/資料中心/叢集/節點/\｛key｝/度量」API會擷取節點的下列詳細資料（其中包括）：</block>
+  <block id="6fbb4072aff20a4023eb905e2ff55de2" category="section-title">分析API的輸出範例</block>
+  <block id="c0815a51f8ff3d35fb21c55ed784fe4d" category="paragraph">例如、「/資料中心/叢集/節點/分析」API會擷取所有節點的下列值（包括其他值）：</block>
+  <block id="d0afe4282d5750b811bf856294b7ee90" category="section-title">可用API清單</block>
+  <block id="69e0c36da903d0d4cb49d6796d3d396f" category="doc">使用API修改儲存工作負載</block>
+  <block id="1a4d8144779e6af61297c952cc00b125" category="doc">使用API管理使用者</block>
+  <block id="c294c1867833805e6f5e0f7d96fbb7d4" category="doc">使用API管理儲存效率原則</block>
+  <block id="0a3a79412d400bd0f3c4afd224e8b5b8" category="doc">使用API管理資料中心中的儲存物件</block>
+  <block id="f1b02590625e2386e3e74ef798497ebc" category="doc">使用API管理LUN</block>
+  <block id="7f645fd53d70dc3f9dc7175759aec65b" category="doc">使用API執行管理工作</block>
+  <block id="cbdc76f186be9437aa185542dedea7ff" category="doc">使用API管理存取端點</block>
+  <block id="c1687ae8cb39008ec36f3b77f2402b2c" category="paragraph">Unified Manager可讓您監控MetroCluster 採用支援整合式組態之叢集之間的寫入處理量、以識別具有大量寫入處理量的工作負載。</block>
+  <block id="790b40c85b71368d543d3cf3c0b0b091" category="paragraph">如果這些高效能工作負載導致本機叢集上的其他磁碟區的I/O回應時間過長、Unified Manager會觸發效能事件通知您。</block>
+  <block id="82aec6fe5f2c3512a731aa49c2639796" category="paragraph">您可以MetroCluster 從下列畫面分析對應LUN和磁碟區的工作負載、以查看任一組叢集在整個過程中的處理量。您可以依叢集篩選結果。從左側導覽窗格：</block>
+  <block id="2a37c81fbb283264fc94f7411dd3c82b" category="list-text">*儲存&gt;叢集&gt;效能：All Clusters*檢視。請參閱</block>
+  <block id="040c9f3199e4edb365b407a5522d8b14" category="list-text">*儲存設備&gt;磁碟區&gt;效能：All Volumes *檢視。</block>
+  <block id="1f5bcd8c3b9ed0be47ee37a37cefbf3f" category="list-text">*儲存設備&gt; LUN &gt;效能：所有LUN*檢視。</block>
+  <block id="0936894fcc6f2d39208694eaacc0a235" category="list-text">*工作負載分析&gt;所有工作負載*</block>
+  <block id="d96a098aa8eb06c65224284e82ae6777" category="paragraph">對於動態效能事件、「事件詳細資料」頁面的「系統診斷」區段會列出延遲最長或使用爭用叢集元件的最高工作負載。</block>
+  <block id="f9d3d6d4d2bd1aa28384ee37c610caba" category="paragraph">效能統計資料是根據上次分析事件之前偵測到效能事件的時間而得。這些圖表也會顯示爭用叢集元件的歷史效能統計資料。</block>
+  <block id="25d38563524852b9ac9f9be71ef268a1" category="paragraph">例如、您可以識別具有高使用率元件的工作負載、以決定要移至使用率較低元件的工作負載。移動工作負載可減少目前元件的工作量、有可能使元件不爭用。本節最上方是偵測到事件並進行最後分析的時間和日期範圍。對於作用中事件（新事件或已確認事件）、上次分析的時間會更新。</block>
+  <block id="706d37f40cd6eb841506e386386017b9" category="paragraph">當您將游標停留在圖表上時、延遲和活動圖表會顯示最重要的工作負載名稱。按一下圖表右側的工作負載類型功能表、即可根據工作負載在事件中的角色（包括_Sharks _、_bulies _或_als受害者_）來排序工作負載、並顯示其延遲及其在爭用叢集元件上使用的詳細資料。您可以比較實際值與預期值、查看工作負載何時超出預期的延遲或使用範圍。如需相關資訊、請參閱 <block ref="509b647e49f1115274d5173373879611" category="inline-link-macro-rx"></block>。</block>
+  <block id="dff7d1c15c5dde10579e28c9c435ec86" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱 <block ref="880f9de9d7dcc0d0351211e1a449b506" category="inline-link-macro-rx"></block>。</block>
+  <block id="278a177ac7739bc1de2f85f04ba9a90b" category="paragraph">如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 <block ref="eaa71b6f3a7583249cbad31583882340" category="inline-link-macro-rx"></block>。</block>
+  <block id="4c72721e1b36c4a399a797b95f0f934a" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 <block ref="30adc51a7babb5a51be3e9a06a23aa95" category="inline-link-macro-rx"></block>。</block>
+  <block id="ae0d976bc456ed2b687e9e1494f96a6f" category="paragraph">Unified Manager Active IQ 會自動檢查是否有新的更新版本（規則）檔案、並在有新的規則時下載新檔案。不過、在沒有外部網路存取權的站台中、您需要手動上傳規則檔。</block>
+  <block id="a7e941a5fe778db0eea3545de1d113b2" category="admonition">不規則也稱為「驗證（CA）安全規則」Active IQ Config Advisor 。</block>
+  <block id="12ceac5d2e383ae3aa41ecb5a4689a7d" category="paragraph">當您在沒有網路連線的站台上安裝或升級Unified Manager至特定版本時、會Active IQ 自動提供套裝的《版次》規則以供上傳。不過、建議您每個月從NetApp支援網站下載新的規則檔案一次、以確保產生更新的事件、並確保儲存系統能繼續以最佳方式執行。</block>
+  <block id="a845907823c19859aed3b0f18a38da4f" category="list-text">必須啟用入口網站事件報告。Active IQ此功能預設為啟用。如需相關資訊、請參閱 <block ref="8658b0fde93c687ddd323db3f722b419" category="inline-link-macro-rx"></block>。</block>
+  <block id="dfe7deebcd40f4161d9b14c981c9d0d4" category="paragraph">Rules檔案位於：<block ref="d1cfde6f5a58e572b4bc1737c935d4ad" category="inline-link-rx"></block></block>
+  <block id="7baeb0c9081f1a8cb146f93643de73dc" category="paragraph">套裝規則套件包含規則儲存庫、資料來源及NetApp知識庫文章。</block>
+  <block id="201ca5b66dc9dc1a3dc4493152ebe8ca" category="admonition">在Windows系統上、在沒有網路連線的站台中、預設不會將NetApp知識庫文章與安裝程式搭售。您可以從支援網站下載_secure_rules．zip檔案、然後上傳以檢視所有規則的知識庫文章。</block>
+  <block id="7e90bd45823841034e4e866f708433ba" category="paragraph">規則檔會在Unified Manager伺服器上解壓縮。在託管叢集於AutoSupport 午夜之後產生一個更新檔之後、Unified Manager會根據規則檔檢查叢集、並視需要產生新的風險和事件事件。</block>
+  <block id="a0f263b9cc09522b877ec0d8c725a9d9" category="summary">身為儲存管理員、您可以使用CLI命令對儲存物件執行查詢、例如叢集、集合體、磁碟區、 qtree和LUN。</block>
+  <block id="159e979b9af8e11071d96adc2e429f87" category="admonition">若要執行_um RUN _命令、請確定您的帳戶具有_consol__應用程式存取權。</block>
+  <block id="926c1db915510c0dea522b314f2f37b1" category="paragraph">即將過期的叢集憑證（ocumEvtClusterCertificate關於ToExpire）</block>
+  <block id="d555b856e6422225ce026b79cc781404" category="paragraph">叢集憑證過期（ocumEvtClusterCertificate過期）</block>
+  <block id="b46b622b74332441365c7c69cbe27dab" category="paragraph">Volume Snapshot保留未充分使用（Volume SnaphotReserveUnderutilizedWarningTM）</block>
+  <block id="57472a018b361036c61c50edd8ef006b" category="paragraph">Volume Snapshot保留未充分使用（Volume SnaphotReserveUnderutilizedCleared）</block>
+  <block id="fa639c75b35101ded38bbd88ebfdf11a" category="section-title">影響領域：資料保護</block>
+  <block id="099458017e32324ca23af72d14d5f0d2" category="paragraph">Volume的本機Snapshot保護不足（Volume LacksLocalprotectionWarningTM）</block>
+  <block id="dd5f6d15bb6d675fda4fcf6ead3f4098" category="paragraph">Volume的本機Snapshot保護不足（Volume LacksLocalprotectionCleared）</block>
+  <block id="47d1c28840597a2ae7e6016669e00f6a" category="paragraph">叢集上已新增了此程式（快照媒體已新增）ONTAP</block>
+  <block id="255f9cf61279c6d67c62f927071a3e8f" category="paragraph">從叢集移除此程式（快照鏡射媒體移除）ONTAP</block>
+  <block id="a6bacc83dfdb1c9689535a09836f8550" category="paragraph">無法從叢集連線到物件集（snapmirmiraporMedatorUnreachable）ONTAP</block>
+  <block id="cf7f72fb2e3e5a9df104130ba81c194e" category="paragraph">中介者</block>
+  <block id="da953faa02ca184ebcadd69694229ca0" category="paragraph">無法從叢集存取此程式（snapmirmiraporMedatorisconfigured）ONTAP</block>
+  <block id="dc7d8942cdb2f367c68f30d022efa7f0" category="paragraph">已重新建立支援者連線功能、並已重新同步、準備好用於SMBC（snapmiraporMedatorInQuorum）ONTAP</block>
+  <block id="8002c010879d451de4416c97251e7e29" category="summary">Storage VM關聯頁面可讓您檢視來源與目的地儲存VM之間的現有儲存VM關聯。</block>
+  <block id="b31a8b073692fe4fc7d0416d77032d55" category="doc">瞭解儲存VM關聯</block>
+  <block id="8210ed29bdbce4c1e73c2d1c02b5282d" category="paragraph">儲存虛擬機器（儲存VM）關聯是從來源儲存VM到目的地儲存VM的對應、合作夥伴應用程式會使用這些對應來選擇資源和次要Volume資源配置。</block>
+  <block id="eebfa1a3ea89701aa073f2e0c24d4210" category="paragraph">無論目的地儲存VM是次要目的地或第三目的地、都會在來源儲存VM和目的地儲存VM之間建立關聯。您無法使用次要目的地儲存VM作為來源、來建立與第三目的地儲存VM的關聯。</block>
+  <block id="f46d5829df25f3d6453ce030811b888f" category="paragraph">身為應用程式管理員或儲存管理員、您可以在* Protection *&gt;* Storage VM Association*頁面上檢視環境中的儲存VM關聯。</block>
+  <block id="65900e7edecadc6566c91a3a55beb80a" category="paragraph">您可以使用三種方式建立SVM的關聯：</block>
+  <block id="af28d79c27ec7868806eb52b66765432" category="list-text">*關聯任何儲存VM*：您可以在任一主要來源儲存VM與一或多個目的地SVM之間建立關聯。這表示目前需要保護的所有現有SVM、以及未來建立的任何SVM、都會與指定的目的地SVM相關聯。例如、您可能想要將不同位置的多個不同來源的應用程式備份到同一個位置的一或多個目的地SVM。</block>
+  <block id="598ee3be574e8c69b305596a6e7385bf" category="list-text">*關聯特定的儲存VM*：您可以在特定來源儲存VM與一或多個特定目的地SVM之間建立關聯。例如、如果您要提供儲存服務給許多用戶端、而這些用戶端的資料必須彼此分開、您可以選擇此選項、將特定來源儲存VM與僅指派給該用戶端的特定目的地儲存VM建立關聯。</block>
+  <block id="2b2e5138960ce3d6824a982ba08d8bae" category="list-text">*與外部儲存VM*建立關聯：您可以在來源儲存VM與目的地儲存VM的外部彈性Volume之間建立關聯。</block>
+  <block id="7da2edb845ba897c58d65bd9a88f8ef2" category="section-title">建立儲存VM關聯</block>
+  <block id="61b530baa8f60c5e2288fb6ccdfa6380" category="paragraph">Create Storage Virtual Machine Associations（建立儲存虛擬機器關聯）精靈可讓合作夥伴保護應用程式將來源儲存VM與目的地儲存VM建立關聯、以便與SnapMirror和SnapVault 相依關係搭配使用。合作夥伴應用程式在初始配置目的地磁碟區時、會使用這些關聯來決定要選擇哪些資源。dd</block>
+  <block id="093bfc06b3ba97de48c36c373b1d8a67" category="list-text">在左導覽窗格中、按一下* Protection（保護）*&gt;* Storage VM Association*。</block>
+  <block id="0d882d92bf60713a394d80ffd55a986a" category="list-text">在* Storage VM Association*頁面上、按一下* Creation*。</block>
+  <block id="ba1a0033d8ddcf21c0dbcd5360526b4f" category="paragraph">「*建立儲存虛擬機器關聯*」精靈隨即啟動。</block>
+  <block id="b62286553877887b6e5266cb311292ac" category="section-title">刪除儲存VM關聯</block>
+  <block id="8ba065ab119d7c4653197635d796b282" category="paragraph">您可以刪除合作夥伴應用程式的儲存VM關聯、以移除來源與目的地儲存VM之間的二線資源配置關係；例如、當目的地儲存VM已滿且您想要建立新的儲存VM保護關聯時、您可以這麼做。</block>
+  <block id="1df7e1a7c8bf8c7e99481899b98eb1bf" category="paragraph">在至少選取一個儲存VM關聯之前、*刪除*按鈕會停用。使用刪除和建立功能變更關聯只會影響未來的資源配置作業、而不會移動現有的目的地磁碟區。</block>
+  <block id="5de9d55f08d138829510f52e1d4232e2" category="list-text">請至少選取一個儲存VM關聯。</block>
+  <block id="dbdac0c65ca56ce1c51d43ddb0fad70d" category="paragraph">選取的儲存VM關聯會從清單中移除。</block>
+  <block id="c5571ff9e71f9fd2a0853229ddb7006d" category="summary">您可以從庫存的「保護」區段的「關係」頁面監控儲存VM災難恢復關係。根據預設、「關係」頁面會在套用組成關係篩選時、僅列出最上層的關係。</block>
+  <block id="b518d96f65df8e3a8c5bd9b294314ee7" category="paragraph">根據預設、當您存取「關係」頁面時、所顯示的報告會同時包含磁碟區和儲存VM的最上層保護關係。頁面頂端的控制項可讓您選取特定檢視、執行搜尋以尋找特定物件、建立及套用篩選條件、以縮小顯示資料的清單、新增/移除/重新排序頁面上的欄、以及將頁面上的資料匯出至.csv,.pdf、 或是.xlsx.自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。根據預設、當您選取*關係*功能表時、所顯示的報告會同時包含資料中心中磁碟區和儲存VM的保護關係。您可以使用*篩選器*選項、只檢視所選的儲存系統、例如僅磁碟區或僅儲存VM。相同的報告會顯示在「Storage（儲存）」頁面中、僅適用於選取的儲存實體。若要檢視磁碟區或儲存VM關係、您可以存取「*儲存設備*&gt;*磁碟區*&gt;*關係：所有關係*」頁面、或存取「*保護*&gt;*關係*&gt;*關係： All Relationationationation*、並使用* Filter *中的* Relationship Object Type *（*關係物件類型*）選項、僅篩選出磁碟區或儲存VM資料。</block>
+  <block id="fcd4ecf1cf7bb8267ec59d4f89b505b1" category="list-text">*協調員*</block>
+  <block id="496eb323c2ee5c388095071435b45af0" category="paragraph">顯示中介器狀態。</block>
+  <block id="6b186591bdb6b54c5178194cd438daf3" category="paragraph">如果叢集不支援SnapMirror營運不中斷。</block>
+  <block id="6470ad126b37899e643afe35ff51f8fd" category="paragraph">如果未設定、或是已設定、但只新增目的地叢集、且未在Unified Manager中新增來源叢集。</block>
+  <block id="26eeb2415026ecc2a99b19ae10c4e13e" category="list-text">中介IP位址</block>
+  <block id="a5a42e7a9482f606a51f46baffc94087" category="paragraph">如果已設定、則來源叢集和目的地叢集都會新增至Unified Manager。</block>
+  <block id="7e68f07357c45081317f53387f7266d7" category="list-text">按一下「Data Protection（資料保護）」面板中的向右箭頭。此時會顯示「資料保護」頁面。</block>
+  <block id="b924604020dfecc1a01747f4bfa15308" category="paragraph">視您在資料中心中選取的是單一或所有叢集而定、此頁面會顯示受Snapshot複本或SnapMirror原則保護之磁碟區的資料保護狀態、並顯示未受保護磁碟區的計數。從*個別叢集*清單中選取叢集、會顯示該叢集中受保護磁碟區的Snapshot保護和SnapMirror關係狀態。</block>
+  <block id="0fde569b1b44739553ddaaff6135e124" category="paragraph">按一下此頁面上的事件、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。您可以將滑鼠游標暫留、以檢視各個計數和圖例。您可以按一下：</block>
+  <block id="dc79b580b3abcee40a5c1db816776add" category="list-text">受Snapshot複本保護之未受保護的磁碟區和磁碟區的長條圖、可前往「Volumes（磁碟區）」頁面並檢視詳細資料。</block>
+  <block id="9ec4449ec67cf67ff4e6137a8c70a14c" category="list-text">所有關聯的橫條圖會移至「關聯」頁面、其中詳細資料會依來源叢集篩選。</block>
+  <block id="6d19d82d08dc4fb56d5d3cf966bcf011" category="section-title">檢視受Snapshot複本保護之磁碟區的保護狀態</block>
+  <block id="d40958165499de2e87385de241423123" category="paragraph">* Snapshot複本總覽*：Snapshot複本保護的磁碟區總覽、例如：</block>
+  <block id="ceeeda459e0591e5d314980d38fad5cf" category="list-text">使用或超過Snapshot複本保留空間的磁碟區總數。</block>
+  <block id="7dfeeba5b190ae4593179e8561ef6250" category="list-text">使用、不使用及違反保留Snapshot複本容量的磁碟區。</block>
+  <block id="2501c27643bb600124234f1b0df79e6b" category="list-text">磁碟區的分區會根據Snapshot複本的數量來計算。</block>
+  <block id="a7a85c14f79a3bddc67ff04c5e702692" category="section-title">Snapshot複本的注意事項</block>
+  <block id="cae7a1ed2c80d90222287b47bcfb88f4" category="list-text">對於計算受Snapshot複本保護的磁碟區、會同時考慮來源與目的地磁碟區。</block>
+  <block id="435e270285812ae55d84b098321f6830" category="list-text">傳回的Snapshot複本數量僅適用於線上且可用的磁碟區。</block>
+  <block id="d2f4424e946a423fe802573596a82a64" category="list-text">Snapshot複本的保留空間值對於檢視已使用的磁碟空間量、或計算刪除一或多個Snapshot複本時可回收的空間而言、相當重要。</block>
+  <block id="48815cc485f34516122d402c7691bcbc" category="section-title">檢視SnapMirror關係的保護狀態</block>
+  <block id="eebf9b70421de9e6316f48de3e2cef0b" category="list-text">發生恢復點目標（RPO）延遲的SnapMirror關係總數、取決於延遲狀態。</block>
+  <block id="2cd111e77d7b5983398bdaaaee149c7b" category="list-text">每種SnapMirror原則所保護的磁碟區數目。</block>
+  <block id="5c421974ea0511d51906133dd8756205" category="list-text">SnapMirror關係類型所保護的關係數、例如非同步鏡射、非同步Vault、非同步MirrorVault、StricxtSync、SnapMirror營運持續性（SMBC）一致性群組和同步。</block>
+  <block id="43e5aa2d7191d2fad1b5eb6a2779c47c" category="list-text">健全與不健全關係的數量。</block>
+  <block id="2fb2c7d03a760408a3f8150c23df4876" category="list-text">磁碟區關係數的中斷。您可以依RPO延遲時間和狀態切換圖表。</block>
+  <block id="63a0f94f271c2db3ea63bb2e1407963f" category="section-title">SnapMirror關係請注意</block>
+  <block id="8306a92378d26e760d7af3731743817d" category="list-text">為了計算SnapMirror關係、會計算啟用讀取和寫入的來源磁碟區。不考慮目的地和根磁碟區。</block>
+  <block id="8d511bbd194d35f08464a136bb70dcde" category="list-text">SnapMirror關係數包括在相同或不同叢集上具有來源和目的地的磁碟區數。</block>
+  <block id="1db6a4edd103342870b2b9c5978d7367" category="list-text">RPO在資料複寫方面的延遲時間取決於SnapMirror關係。根據關係臨界值設定、狀態可分為「OK」、「warning」或「error」。您可以查看狀態、判斷參數是否正常運作、或是否需要解決任何問題。</block>
+  <block id="3ff4f762b527be69fe7eec08ae35b87b" category="list-text">如果某個磁碟區具有多個SnapMirror關係、則會計算每個關係類型的RPO延遲。</block>
+  <block id="e1b7796fc1c8956e35e14e1dd971c172" category="list-text">如果來源與目的地之間的資料複寫發生問題（例如當關係中斷時）、則磁碟區關係將視為不健全的關係。</block>
+  <block id="40847d7e9432dd6c5361ae54fc2d16af" category="paragraph">下列部分面板會根據您的組態顯示在儀表板上。</block>
+  <block id="c25d753eab05371bc6f1dc93bfec9172" category="section-title">「管理行動」面板</block>
+  <block id="b6df0767f4960b7629f2e371610e9307" category="paragraph">Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會顯示在此面板中、並顯示*修正*或*全部修正*按鈕。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。若要檢視所有問題、請按一下「請參閱」 <block ref="4de06821690ec8505ff30e3d01558e54" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="fef8cf4e4a8fdf24035fdd7ad0e12bef" category="section-title">容量面板</block>
+  <block id="b05da785853a29a927e963aad5156c60" category="section-title">效能容量面板</block>
+  <block id="13096b4da9a657a34280608c81422b64" category="section-title">工作負載IOPS面板</block>
+  <block id="4826f254fef1719f5ec200536a9b8d1c" category="section-title">工作負載效能面板</block>
+  <block id="6a9602a49f20f6de2a3c680bee025bf2" category="section-title">安全性面板</block>
+  <block id="fcdbb03270e6f3305ff3df7b28850700" category="paragraph">「安全性」面板會根據您目前的檢視、顯示所有叢集或單一叢集的高層級安全性狀態。此面板顯示：</block>
+  <block id="536271dfa8f2f9916a13c215d3f41af1" category="list-text">過去24小時內收到的安全事件清單。按一下事件、即可在「活動詳細資料」頁面上檢視詳細資料</block>
+  <block id="456c95875c5f07d10bea6adf0d6afc89" category="list-text">叢集安全性狀態（相容和不相容叢集的數量）</block>
+  <block id="73898bf7f2b529343bbba3505b24ff2d" category="list-text">儲存VM安全狀態（相容與不相容儲存VM的數量）</block>
+  <block id="2cdea3c1ee33ca0bea905c24386731bc" category="list-text">Volume加密狀態（已加密或未加密的磁碟區數）</block>
+  <block id="ef1b9b8be04891e22fa3ddf0fd376165" category="list-text">Volume反勒索軟體狀態（已啟用或停用反勒索軟體的Volume數）</block>
+  <block id="4e1bd1faabb7657ed9737620db0b2e94" category="paragraph">您可以按一下相容和不相容叢集、儲存VMS、加密和未加密磁碟區、以及Volume反勒索軟體狀態的長條圖、前往各自的頁面、檢視篩選後叢集、儲存VM和磁碟區的安全詳細資料。</block>
+  <block id="0c9a288d39552e7a6119f62b6d3007b4" category="paragraph">法規遵循是以為基礎<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊、請參閱<block ref="13e0397bd43d0f4ef0a0e2d1f1544b6c" category="inline-link-macro-rx"></block></block>
+  <block id="79e2397f76dee4064846f95fa07791eb" category="section-title">資料保護面板</block>
+  <block id="9e8696d44288182cf40230af51f64455" category="paragraph">此面板會顯示資料中心中單一或所有叢集的資料保護摘要。它會顯示資料保護事件的總數、以及ONTAP 在過去24小時內提出的作用中事件數。按一下每個事件的連結、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。</block>
+  <block id="2e49679d1be13246fb079f59529684e7" category="paragraph">該面板也會顯示叢集中的磁碟區數量、或是資料中心內受Snapshot複本和SnapMirror關係保護的所有叢集數量。對於SnapMirror關係、會考量來源叢集的磁碟區數。您也可以根據延遲狀態、檢視SnapMirror還原點目標（RPO）延遲的磁碟區關係數量。您可以將滑鼠游標暫留、以檢視各個計數和圖例。您可以按一下：</block>
+  <block id="96e0ea5d27f828094ba80affb2d69831" category="list-text">所有關聯的長條圖會移至「關聯」頁面、其中的詳細資料會根據來源叢集進行篩選。</block>
+  <block id="88706e5bba10c2cfad56cdea8c4ba6fe" category="paragraph">如需詳細資訊、請參閱 <block ref="cce169fddfae7a31f74f472dce696e49" category="inline-link-macro-rx"></block>。</block>
+  <block id="f57c4b418e2731d49f5e6d4704d476ed" category="section-title">使用概觀面板</block>
+  <block id="66576d2d96c5af7a461b297c7c1fee81" category="summary">效能服務層級的計算與管理。</block>
+  <block id="8552175c85e7998c59b8494bc1ae857d" category="paragraph">效能服務層級（PSL）可讓您定義工作負載的效能與儲存目標。您可以在最初建立工作負載時或之後編輯工作負載、將PSL指派給工作負載。</block>
+  <block id="184ab5bd8865091b7cda3174a886cc26" category="paragraph">儲存資源的管理與監控是以服務層級目標（SLO）為基礎。SLO是由服務層級協議所定義、這些協議是以所需的效能和容量為基礎。在Unified Manager中、SLO是指在NetApp儲存設備上執行之應用程式的PSL定義。儲存服務會根據基礎資源的效能與使用率而有所差異。PSL是儲存服務目標的說明。PSL可讓儲存供應商指定工作負載的效能與容量目標。當您在工作負載上指派PSL時、ONTAP 會根據其效能和容量目標來管理相關的工作負載。每個PSL都受尖峰、預期和絕對最低IOPs以及預期延遲的限制。</block>
+  <block id="b36a5e567e88c0ae0a64778c42ea9981" category="paragraph">Unified Manager具有下列類型的PSL：</block>
+  <block id="3843fd811f1ec0b59d9cdd4a7e47df49" category="list-text">*系統定義*：Unified Manager提供一些無法變更的既定原則。這些預先定義的PSL包括：</block>
+  <block id="778ad35b71454a746f2ee05ac17deabd" category="paragraph">極致效能、效能和價值的PSL適用於資料中心的大多數常見儲存工作負載。</block>
+  <block id="5cf5ab634f22e11b8dd5e06cc7f1a0de" category="paragraph">Unified Manager也為資料庫應用程式提供三種效能服務層級。這些是極高效能的PSL、可支援爆發式IOPS、適合處理量需求最高的資料庫應用程式。</block>
+  <block id="ce3e57f2cc08dc30303717cb709cb3a2" category="list-text">*使用者定義*：如果預先定義的效能服務層級不符合您的需求、您可以建立新的PSL來滿足您的需求。如需相關資訊、請參閱 <block ref="d0a8b7ff5ef359e804ab1c178548b2d2" category="inline-link-macro-rx"></block>。</block>
+  <block id="23f0b729594406f218589023be1672eb" category="list-text">*超越極致*：超越極致PSL是系統建議的PSL、適用於要求IOPS高於極致的工作負載。工作負載會根據其IOPS、容量和延遲進行內部分析、建議您在「*儲存&gt;工作負載&gt;所有工作負載*」畫面上、針對這些工作負載進行「超越極限PSL」分析。您可以將PSL套用至工作負載、以確保最佳效能。</block>
+  <block id="16b8789642bf182efe1472aa8429f79e" category="paragraph">工作負載的IOPs參數會根據工作負載行為而動態產生、並以「超越極限&lt;數量-（尖峰IOPS / TB）&gt;&lt;數量（預期IOPS / TB）&gt;」的格式附加至超越極限PSL的名稱。例如、如果系統判定工作負載的尖峰和預期IOPs分別為「106345」和「37929」、則針對工作負載所產生的「超越極限PSL」名稱即為「超越極限106345 37929」。雖然系統建議使用這些PSL、但當您將它們指派給工作負載時、這些PSL的類型會標示為「使用者定義」。</block>
+  <block id="83f918c807b58b71db4acbbc77ef8853" category="section-title">透過指派PSL來管理工作負載</block>
+  <block id="b441b9d3821de1d37228c33142c7feaf" category="paragraph">您可以從「*原則*&gt;*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。Unified Manager可協助您根據內部評估與建議、針對工作負載指派PSL。</block>
+  <block id="928ef7d59a43368b1173f812a02322ba" category="paragraph">如需將系統建議的PSL指派給工作負載的相關資訊、請參閱 <block ref="39911180f1611c3a58b984217400bf00" category="inline-link-macro-rx"></block></block>
+  <block id="5f88ffd5a97eb92e999fdce0e40231d7" category="paragraph">「效能服務層級」頁面會列出可用的PSL原則、並可讓您新增、編輯及刪除這些原則。</block>
+  <block id="e245f2c7c1f2c99c5a6c90f2a8a9d663" category="paragraph">此頁面顯示下列資訊：</block>
+  <block id="83059b29ded5b1932b48e4206971a5ee" category="paragraph">PSL名稱。</block>
+  <block id="921ad87862a6cb534bf64a36dc685190" category="paragraph">預期IOPS / TB</block>
+  <block id="eddcc0fdb991cbf3e872a7d78bdaebf5" category="paragraph">IOPS / TB尖峰</block>
+  <block id="9ca8a856539b5ae9a3a54f23f3b229f3" category="paragraph">如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：<block ref="ca8d1d6e78ce890ca12599250d6fd33a" category="inline-link-rx"></block></block>
+  <block id="1e2877fe5a3aa4eeb47784f53a7249e3" category="section-title">針對超出PSL定義臨界值的工作負載所產生的事件</block>
+  <block id="e2bdcd05f95d60578d7e6bfd9d2544d6" category="paragraph">請注意、如果工作負載超過前一小時30%的預期延遲值、Unified Manager會產生下列其中一項事件、通知您可能發生的效能問題：</block>
+  <block id="8b6b4056f93370fb709800d66f772b5f" category="list-text">工作負載Volume延遲臨界值違反效能服務層級原則的定義</block>
+  <block id="b5645d14881cb50cc5446fff8f8f2fe3" category="list-text">工作負載LUN延遲臨界值違反效能服務層級原則的定義。</block>
+  <block id="f14587ffeeb503db87509f1c835e8083" category="paragraph">您可能想要分析工作負載、以瞭解造成較高延遲值的原因。</block>
+  <block id="983d6eba134705aa52a8cccb4900a665" category="list-text"><block ref="983d6eba134705aa52a8cccb4900a665" category="inline-link-macro-rx"></block></block>
+  <block id="827edeea8771884703cf6933b5bd4082" category="list-text"><block ref="827edeea8771884703cf6933b5bd4082" category="inline-link-macro-rx"></block></block>
+  <block id="1a25e589af391acb5b5e54c86cd6e406" category="list-text"><block ref="1a25e589af391acb5b5e54c86cd6e406" category="inline-link-macro-rx"></block></block>
+  <block id="e0c824f40f429abde0d08c6e8828e913" category="list-text"><block ref="e0c824f40f429abde0d08c6e8828e913" category="inline-link-macro-rx"></block></block>
+  <block id="898e52de0af612227a2f8c15ffca7e07" category="section-title">系統定義的PSL</block>
+  <block id="234af0ddc4a71a876356b59cb2384ed5" category="inline-link">ActiveIQ UM「指派系統建議的效能服務層級」無法因應高度變動的工作負載</block>
+  <block id="3d7f2134db93b92515eeb7d6dd0d42fd" category="paragraph">另請參閱知識庫（KB）文章<block ref="392a353923a129bf2dd9e8f509eb075c" category="inline-link-rx"></block></block>
+  <block id="c5cabe6c2ad2795d23383728084e1ab7" category="paragraph">當您將叢集新增至Unified Manager時、每個叢集上的儲存工作負載都會自動探索並顯示在「工作負載」頁面上。</block>
+  <block id="2be7409d28477749d18d42c97d70700f" category="paragraph">Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才開始分析工作負載的建議（建議的PSL）。</block>
+  <block id="e2fa63eeafabf7368d2bbe40551b89b4" category="paragraph">不包括不含資料量及其成分。FlexGroup</block>
+  <block id="69fde75d614c2addee8e60ebec0e1b4f" category="paragraph">「工作負載總覽」頁面會顯示資料中心工作負載的總覽、以及資料中心的空間與效能總覽。</block>
+  <block id="0d08c8c5cfaa7e6e5e5560cb3b198979" category="list-text">*工作負載總覽*面板：顯示工作負載總數、以及是否指派PSL的工作負載數量。也會顯示每個PSL的工作負載計數中斷。按一下這些計數、即可前往*所有工作負載*檢視、檢視篩選的工作負載。您也可以檢視不符合系統建議的工作負載數目、然後按一下*指派系統建議的PSL*按鈕、將系統建議的PSL*指派給這些工作負載。</block>
+  <block id="4b150d0a068c78ebc07c09b002c83b57" category="list-text">*資料中心總覽*面板：顯示資料中心的可用空間和已用空間（TiB）及效能（IOPS）。此外、還會顯示每個PSL下所有工作負載的可用空間和已用空間（TiB）和效能（IOPS）。</block>
+  <block id="4cd601372baffe466cc8b21d1c762ff1" category="section-title">所有工作負載檢視</block>
+  <block id="d068c2e7f4320ed06ddfd0cc2263c0a6" category="paragraph">「*儲存&gt;工作負載&gt;所有工作負載*」頁面列出與ONTAP Unified Manager管理的各個叢集相關的儲存工作負載。</block>
+  <block id="671b92fdc84cea69331beecbe6db5269" category="paragraph">對於未執行I/O作業的新發現儲存工作負載、狀態為「waiting for I/O（正在等待I/O）」。在儲存工作負載上開始執行I/O作業之後、Unified Manager會開始分析、工作負載狀態會變更為「Learning ...」。分析完成後（從I/O作業開始算起24小時內）、儲存工作負載會顯示建議的PSL。</block>
+  <block id="c681e8e426b88a2016f782ee4077d546" category="paragraph">此頁面也可讓您指派儲存效率原則（DDP）和效能服務層級（PSL）給儲存工作負載。您可以執行多項工作：</block>
+  <block id="971cc8c4f0d2e73f8c855ffbb4ee780e" category="list-text">按一下「*儲存設備&gt;工作負載&gt;所有工作負載&gt;建立*」。</block>
+  <block id="caf11825967fd06c8f4051cb91a0c703" category="list-text">建立工作負載。如需相關資訊、請參閱 <block ref="03ab5ac19ec9b39f52b8777442abceaa" category="inline-link-macro-rx"></block></block>
+  <block id="65cf3f9a6be1632ade211076f9897d9b" category="paragraph">此頁面也可讓您檢視工作負載的效能詳細資料。您可以按一下「*選擇/訂單欄*」按鈕、然後選取要檢視的特定欄、以檢視工作負載的IOPS、容量和延遲等詳細資訊。「效能檢視」欄會顯示工作負載的平均和尖峰IOPS、您可以按一下工作負載分析器圖示來檢視詳細的IOPS分析。</block>
+  <block id="b676c40bb705faec2024beabbc555a79" category="paragraph">「* IOPS分析*」快顯視窗上的「*分析工作負載*」按鈕會帶您前往「工作負載分析」頁面、您可在其中選取時間範圍、並檢視所選工作負載的延遲、處理量和容量趨勢。如需工作負載分析器的詳細資訊、請參閱 <block ref="c4de40ea8216795b8aee67ff6e4289bc" category="inline-link-macro-rx"></block></block>
+  <block id="06a5431002003681ab6baa452dc0c7c7" category="paragraph">如需詳細資訊、請參閱 <block ref="27f2a443d50f465254d755a8f399eae1" category="inline-link-macro-rx"></block></block>
+  <block id="a26d614c9e0553f09a3b94b7c06f9fff" category="summary">容量測量單位實體和邏輯容量</block>
+  <block id="a28def0e6555993fb14b2d945874f854" category="sidebar">文件資料以供參考9.10 Active IQ Unified Manager</block>
+  <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">檢視叢集和儲存VM的詳細安全狀態</block>
+  <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">瞭解儲存VM關聯</block>
 </blocks>

@@ -60,6 +60,13 @@ Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出�
 . 單擊 * 下一步 * 。
 . 在Ready to Install Shield精靈中、按一下* Install*。
 . 安裝完成後、按一下*「Finish」（完成）*。
+. 如果您的Windows系統上安裝了作用中的防毒軟體、請在安裝完成後、手動將下列路徑排除在防毒掃描之外：
++
+** Unified Manager資料目錄
+** Unified Manager安裝目錄
+** MySQL資料目錄
+
+
 
 
 安裝會建立多個目錄：

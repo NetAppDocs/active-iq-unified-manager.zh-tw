@@ -23,33 +23,32 @@ summary: 您可以使用「程式和功能」精靈或從命令列介面執行�
 .步驟
 . 請選擇下列其中一個選項來解除安裝Unified Manager：
 +
-[cols="2*"]
-|===
-| 若要從解除安裝Unified Manager ... | 然後... 
+** 如果您從*程式與功能*精靈解除安裝Unified Manager、請執行下列步驟：
++
+... 瀏覽至*控制台*>*程式與功能*。
+... 選取Active IQ Unified Manager 「更新」、然後按一下「*解除安裝*」。
 
 
- a| 
-程式與功能精靈：
-| ： 
+** 如果您從命令列解除安裝Unified Manager、請執行下列步驟：
++
+... 使用系統管理員權限登入Windows命令列。
+... 瀏覽Active IQ Unified Manager 至flex目錄、然後執行下列命令：
++
++msiexec /x｛A78760DB-7EC0-4305-97dB-E4A89CDFF4E1｝/qn /l* v %systemdrive%\UmmUnInstall.log+
 
-
- a| 
-.. 瀏覽至*控制台*>*程式與功能*。
-.. 選取Active IQ Unified Manager 「更新」、然後按一下「*解除安裝*」。
-
- a| 
-命令列
-
-|===
 +
 如果伺服器上已啟用使用者帳戶控制（UAC-）、且您以網域使用者身分登入、則必須使用命令列解除安裝方法。
 
 +
 Unified Manager已從您的系統中解除安裝。
 
+
+
+
+
 . 解除安裝下列未在Unified Manager解除安裝期間移除的協力廠商套件和資料：
 +
-** 第三方套件：JRE、MySQL、Microsoft Visual C&#43；&#43；2015可轉散發套件及7Zip
+** 第三方套件：JRE, MySQL, Microsoft Visual C&#43;&#43; 2015可轉散發套件、Python、 和7Zip
 ** 由Unified Manager產生的MySQL應用程式資料
 ** 應用程式記錄和應用程式資料目錄的內容
 

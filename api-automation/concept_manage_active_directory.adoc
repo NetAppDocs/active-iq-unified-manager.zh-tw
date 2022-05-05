@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping 
 summary: 您可以使用此處列出的API來管理SVM上的Active Directory對應、這些對應是在SVM上配置CIFS共用所需的。需要設定Active Directory對應、才能將SVM對應ONTAP 到整個SVM。 
 ---
-= 管理Active Directory對應
+= 使用API管理Active Directory對應
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

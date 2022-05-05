@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user 
 summary: 您可以使用安全性類別中的API來控制使用者對Active IQ Unified Manager 所選叢集物件的存取。您可以新增本機使用者或資料庫使用者。您也可以新增屬於驗證伺服器的遠端使用者或群組。根據指派給使用者的角色權限、他們可以在Unified Manager中管理儲存物件或檢視資料。 
 ---
-= 管理使用者
+= 使用API管理使用者
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -39,25 +39,19 @@ NOTE: 在此輸出中、內容是「預設」。您應該將此內容變更為�
 
 . 請執行下列步驟、根據您掛載「/ope/NetApp/data」的方式來設定內容。
 +
-.. 執行下列命令、將內容設定為「mysqld_db_t'」：
-
-
-
-
-[listing]
-----
-semanage fcontext -a -t mysqld_db_t "/opt/netapp/data"
-restorecon -R -v /opt/netapp/data
-----
-. 如果您在「etc/stabs」中設定了「/opc/NetApp/data」、則應該編輯「etc/stabs」檔案。如需「/opt/NetApp/data/」掛載選項、請將MySQL標籤新增為：
+.. 執行下列命令、將內容設定為「mysqld_db_t」：「emanage fcontext-A -t mysqld_db_t「/opp/netapp/data」（/opp/datape/data）」、「restorecon -R -v /opp/netapp/data」
+.. 如果您在「etc/stabs」中設定了「/opc/NetApp/data」、則應該編輯「etc/stabs」檔案。如需「/opt/NetApp/data/」掛載選項、請將MySQL標籤新增為：
 +
 「context=system_u:object_r：mysqld_db_t:s0」
 
-. 卸載並重新掛載「/opt/NetApp/data/」以啟用內容。
-. 如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：
+.. 卸載並重新掛載「/opt/NetApp/data/」以啟用內容。
+.. 如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：
 +
-"Mount<nfsshare>//<mountpoint>/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0"。確認內容設定是否正確：
+「安裝<nfsshare>//<mountpoint>/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0」
 
+
+
+. 確認內容設定是否正確：
 
 
 「ls -dZ /opt/NetApp/data/」
@@ -141,50 +135,29 @@ drwxr-xr-x. mysql root unconfined_u:object_r:usr_t:s0 /opt/netapp
 +
 範例輸出：
 
-
-
++
 [listing]
 ----
 drwxr-xr-x. mysql root unconfined_u:object_r:default_t:s0 /opt/netapp
 ----
++
 
 NOTE: 在此輸出中、內容是「預設」。您應該將此內容變更為「mysqld_db_t」。
 
 . 請執行下列步驟、根據您掛載「/ope/NetApp」的方式來設定內容。
 +
-.. 執行下列命令、將內容設定為「mysqld_db_t'」：
+.. 執行下列命令、將內容設定為「mysqld_db_t」：「emanage fcontext-A -t mysqld_db_t「/opt/netapp」（英文）「restorecon -R -v /opt/netapp」（英文）
+.. 如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。對於「/opt/netapp/」掛載選項、請將MySQL標籤新增為：「context=system_u:object_r:mysqld_db_t:s0」
+.. 卸載、然後再次掛載「/opt/NetApp/」以啟用內容。
+.. 如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：「安裝<nfsshare>//<mountpoint>/opt/netapp -o context=system_u:object_r:mysqld_db_ts0」
 
 
-
-
-[listing]
-----
-semanage fcontext -a -t mysqld_db_t "/opt/netapp"
-restorecon -R -v /opt/netapp
-----
-. 如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。如需「/opt/NetApp/」掛載選項、請將MySQL標籤新增為：
-
-
-[listing]
-----
-context=system_u:object_r:mysqld_db_t:s0
-----
-. 卸載、然後再次掛載「/opt/NetApp/」以啟用內容。
-. 如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：
-
-
-[listing]
-----
-mount <nfsshare>:/<mountpoint> /opt/netapp -o context=system_u:object_r:mysqld_db_t:s0
-----
 . 確認內容設定是否正確：
-+
+
+
 「ls -dZ /opt/NetApp/」
 
-+
 範例輸出：
-
-
 
 [listing]
 ----

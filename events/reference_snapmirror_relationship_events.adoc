@@ -136,4 +136,59 @@ SnapMirror關係
  a| 
 錯誤
 
+
+
+ a| 
+叢集上已新增了此程式（快照媒體已新增）ONTAP
+ a| 
+活動
+ a| 
+叢集
+ a| 
+資訊
+
+
+
+ a| 
+從叢集移除此程式（快照鏡射媒體移除）ONTAP
+ a| 
+活動
+ a| 
+叢集
+ a| 
+資訊
+
+
+
+ a| 
+無法從叢集連線到物件集（snapmirmiraporMedatorUnreachable）ONTAP
+ a| 
+風險
+ a| 
+中介者
+ a| 
+警告
+
+
+
+ a| 
+無法從叢集存取此程式（snapmirmiraporMedatorisconfigured）ONTAP
+ a| 
+風險
+ a| 
+中介者
+ a| 
+錯誤
+
+
+
+ a| 
+已重新建立支援者連線功能、並已重新同步、準備好用於SMBC（snapmiraporMedatorInQuorum）ONTAP
+ a| 
+活動
+ a| 
+中介者
+ a| 
+資訊
+
 |===

@@ -1,8 +1,8 @@
 ---
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
-keywords: supported, unified manager, cli, commands 
-summary: 身為儲存管理員、您可以使用CLI命令對儲存物件執行查詢、例如叢集、集合體、磁碟區、 qtree和LUN。您可以使用CLI命令來查詢Unified Manager內部資料庫和ONTAP 還原資料庫。您也可以在作業開始或結束時執行的指令碼中使用CLI命令、或在觸發警示時執行。 
+keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
+summary: 身為儲存管理員、您可以使用CLI命令對儲存物件執行查詢、例如叢集、集合體、磁碟區、 qtree和LUN。 
 ---
 = 支援的Unified Manager CLI命令
 :allow-uri-read: 
@@ -14,6 +14,9 @@ summary: 身為儲存管理員、您可以使用CLI命令對儲存物件執行�
 身為儲存管理員、您可以使用CLI命令對儲存物件執行查詢、例如叢集、集合體、磁碟區、 qtree和LUN。您可以使用CLI命令來查詢Unified Manager內部資料庫和ONTAP 還原資料庫。您也可以在作業開始或結束時執行的指令碼中使用CLI命令、或在觸發警示時執行。
 
 所有命令的前面都必須輸入命令"um CLI login"以及有效的使用者名稱和密碼、才能進行驗證。
+
+
+NOTE: 若要執行_um RUN _命令、請確定您的帳戶具有_consol__應用程式存取權。
 
 |===
 | CLI命令 | 說明 | 輸出 

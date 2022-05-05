@@ -102,11 +102,8 @@ entries:
 - title: 管理及監控MetroCluster 功能
   url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
   entries:
-  - title: 效能監控MetroCluster 功能
-    url: "/storage-mgmt/concept_performance_monitoring_of_metrocluster.html"
-    entries:
-    - title: 切換和切換期間的Volume行為
-      url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
+  - title: 切換和切換期間的Volume行為
+    url: "/storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html"
   - title: 叢集連線狀態定義
     url: "/storage-mgmt/reference_cluster_connectivity_status_definitions.html"
   - title: 資料鏡射狀態定義

@@ -11,7 +11,7 @@ summary: 您可以升級Unified Manager虛擬應用裝置
 
 
 [role="lead"]
-您可以將Unified Manager虛擬應用裝置從9.8版和9.9版升級至9.10版。
+您可以將Active IQ Unified Manager 更新版本9.9或9.10升級至9.11。
 
 *您需要的是什麼*
 

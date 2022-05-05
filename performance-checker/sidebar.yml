@@ -33,42 +33,6 @@ entries:
     url: "/performance-checker/concept_search_for_storage_objects.html"
   - title: 篩選目錄頁面內容
     url: "/performance-checker/task_filter_inventory_page_content.html"
-- title: 瞭解效能事件和警示
-  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
-  entries:
-  - title: 效能事件來源
-    url: "/performance-checker/concept_sources_of_performance_events.html"
-  - title: 效能事件嚴重性類型
-    url: "/performance-checker/reference_performance_event_severity_types.html"
-  - title: Unified Manager偵測到組態變更
-    url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
-  - title: 系統定義的效能臨界值原則類型
-    url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
-- title: 管理效能臨界值
-  url: "/performance-checker/concept_manage_performance_thresholds.html"
-  entries:
-  - title: 使用者定義的效能臨界值原則運作方式
-    url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
-  - title: 違反效能臨界值原則時會發生什麼事
-    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
-  - title: 可使用臨界值來追蹤哪些效能計數器
-    url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
-  - title: 哪些物件和計數器可用於組合臨界值原則
-    url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
-  - title: 建立使用者定義的效能臨界值原則
-    url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
-  - title: 指派效能臨界值原則給儲存物件
-    url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
-  - title: 檢視效能臨界值原則
-    url: "/performance-checker/task_view_performance_threshold_policies.html"
-  - title: 編輯使用者定義的效能臨界值原則
-    url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
-  - title: 移除儲存物件的效能臨界值原則
-    url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
-  - title: 效能臨界值原則變更時會發生什麼事
-    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
-  - title: 物件搬移時、效能臨界值原則會發生什麼變化
-    url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: 從儀表板監控叢集效能
   url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   entries:
@@ -238,20 +202,50 @@ entries:
     url: "/performance-checker/concept_how_cluster_operations_can_affect_workload_latency.html"
   - title: 效能監控MetroCluster 功能
     url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
-    entries:
-    - title: 切換和切換期間的Volume行為
-      url: "/performance-checker/concept_volume_behavior_during_switchover_and_switchback.html"
-  - title: 什麼是效能事件
-    url: "/performance-checker/concept_what_performance_events_are.html"
-    entries:
-    - title: 效能事件分析與通知
-      url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
-    - title: Unified Manager如何判斷事件的效能影響
-      url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
-    - title: 叢集元件及其爭用的原因
-      url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: 效能事件所涉及的工作負載角色
-      url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+- title: 瞭解效能事件和警示
+  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
+  entries:
+  - title: 效能事件來源
+    url: "/performance-checker/concept_sources_of_performance_events.html"
+  - title: 效能事件嚴重性類型
+    url: "/performance-checker/reference_performance_event_severity_types.html"
+  - title: Unified Manager偵測到組態變更
+    url: "/performance-checker/concept_cluster_configuration_changes_detected_by_unified_manager.html"
+  - title: 系統定義的效能臨界值原則類型
+    url: "/performance-checker/reference_types_of_system_defined_performance_threshold_policies.html"
+  - title: 效能事件分析與通知
+    url: "/performance-checker/reference_performance_event_analysis_and_notification.html"
+  - title: Unified Manager如何判斷事件的效能影響
+    url: "/performance-checker/concept_how_um_determines_performance_impact_for_incident.html"
+  - title: 叢集元件及其爭用的原因
+    url: "/performance-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
+  - title: 效能事件所涉及的工作負載角色
+    url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
+- title: 管理效能臨界值
+  url: "/performance-checker/concept_manage_performance_thresholds.html"
+  entries:
+  - title: 使用者定義的效能臨界值原則運作方式
+    url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
+  - title: 違反效能臨界值原則時會發生什麼事
+    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html"
+  - title: 可使用臨界值來追蹤哪些效能計數器
+    url: "/performance-checker/reference_what_performance_metrics_can_be_monitored_using_thresholds.html"
+  - title: 哪些物件和計數器可用於組合臨界值原則
+    url: "/performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html"
+  - title: 建立使用者定義的效能臨界值原則
+    url: "/performance-checker/task_create_user_defined_performance_threshold_policies.html"
+  - title: 指派效能臨界值原則給儲存物件
+    url: "/performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html"
+  - title: 檢視效能臨界值原則
+    url: "/performance-checker/task_view_performance_threshold_policies.html"
+  - title: 編輯使用者定義的效能臨界值原則
+    url: "/performance-checker/task_edit_user_defined_performance_threshold_policies.html"
+  - title: 移除儲存物件的效能臨界值原則
+    url: "/performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html"
+  - title: 效能臨界值原則變更時會發生什麼事
+    url: "/performance-checker/concept_what_happens_when_performance_threshold_policy_is_changed.html"
+  - title: 物件搬移時、效能臨界值原則會發生什麼變化
+    url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: 分析效能事件
   url: "/performance-checker/concept_analyze_performance_events.html"
   entries:

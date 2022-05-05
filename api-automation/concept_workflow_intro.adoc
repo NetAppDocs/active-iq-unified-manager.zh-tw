@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management 
 summary: 通用的工作流程可為用戶端應用程式開發人員提供範例、說明Active IQ Unified Manager 用戶端應用程式如何叫用REST API來執行通用的儲存管理功能。本節包含部分範例工作流程。 
 ---
-= 通用的儲存管理工作流程
+= 用於儲存管理的通用API工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
