@@ -71,4 +71,4 @@ NOTE: 如果叢集的憑證已過期、您可以按一下*叢集憑證有效性*
 
 您可以按一下 image:icon_kabob.gif["kabob圖示"] 「更多選項」按鈕、然後選擇在Unified Manager * Security *（安全性*）頁面或System Manager上檢視安全性詳細資料。您應該擁有有效的認證資料、以便在System Manager上檢視詳細資料。
 
-_如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 link:health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["檢視所有磁碟區和儲存VM的勒索軟體狀態"]._
+如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html["檢視所有磁碟區和儲存VM的勒索軟體狀態"]。

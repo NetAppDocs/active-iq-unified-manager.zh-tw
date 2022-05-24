@@ -1,7 +1,7 @@
 ---
 permalink: install-vapp/qsg-vapp.html 
 sidebar: sidebar 
-keywords: quick start guide, QSG, VMWare QSG, vApp QSG, quick installation 
+keywords: quick start guide, getting started, QSG, VMWare QSG, vApp QSG, quick installation 
 summary: VMware vSphere平台上的Unified Manager快速入門指南。 
 ---
 = VMware安裝的快速入門指示

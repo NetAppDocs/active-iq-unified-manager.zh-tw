@@ -47,4 +47,4 @@ Volume Move作業會導致ONTAP 功能不全地傳送資訊變更事件。「效
 
 從一個叢集移至MetroCluster 另一個叢集的物件、若為使用者定義的臨界值原則設定、則不會保留這些物件。如果需要、您可以在移至合作夥伴叢集的磁碟區和LUN上套用臨界值原則。物件移回原始叢集後、使用者定義的臨界值原則會自動重新套用。
 
-link:concept_volume_behavior_during_switchover_and_switchback.html["切換和切換期間的Volume行為"]
+link:../storage-mgmt/concept_volume_behavior_during_switchover_and_switchback.html["切換和切換期間的Volume行為"]

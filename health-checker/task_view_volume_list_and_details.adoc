@@ -36,6 +36,4 @@ summary: 從「健全狀況：所有磁碟區」檢視中、您可以監控磁�
 
 *相關資訊*
 
-link:../task_view_aggregate_list_and_details.html["健全狀況/磁碟區頁面"]
-
 link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["建立報告以檢視可用的Volume容量圖表"]

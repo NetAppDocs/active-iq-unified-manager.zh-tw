@@ -2716,8 +2716,6 @@
   <block id="4713082ec3f35b415638abeba331ad6c" category="list-text">若要檢視叢集中磁碟區容量與使用率的詳細資訊、請在「View（檢視）」功能表中選取「Capacity：All Volumes（容量：所有磁碟區）」檢視。</block>
   <block id="0f5ff7824e124b9145d27f63cdc1d5fd" category="list-text">若要檢視完整詳細資料、請按一下磁碟區名稱。</block>
   <block id="0ff278b9f9cf51a445b0a588d858a62a" category="list-text">*選用：*從「最小詳細資料」對話方塊中按一下「*檢視相關項目*」、即可檢視與磁碟區相關的物件。</block>
-  <block id="a68af024b1e93239842b9fe11f210fdd" category="inline-link-macro">健全狀況/磁碟區頁面</block>
-  <block id="718687c644ada88bc9596f01fa1a0c05" category="paragraph"><block ref="718687c644ada88bc9596f01fa1a0c05" category="inline-link-macro-rx"></block></block>
   <block id="d315718e318a7be7ad37473a312a1af2" category="inline-link-macro">建立報告以檢視可用的Volume容量圖表</block>
   <block id="00d7e1662e9b95a42822f0d6ac5f9d93" category="paragraph"><block ref="00d7e1662e9b95a42822f0d6ac5f9d93" category="inline-link-macro-rx"></block></block>
   <block id="5fddd99dae082074459eed58deb956df" category="summary">如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager資料庫還原至本機或遠端的Red Hat Enterprise Linux或CentOS系統。</block>
@@ -3393,10 +3391,6 @@
   <block id="d804f14fed19d038031c63aaf63b1e60" category="paragraph">此工具會顯示/support目錄的內容、您可以檢視所有現有的支援服務組合。</block>
   <block id="4ea80963e3ffca1f675de4b70c2d5529" category="list-text">選取您要複製之支援服務組合的目的地目錄。</block>
   <block id="2e5c0e84121900760b963dfd8293ed90" category="list-text">選取您要複製的支援服務組合、然後使用工具將檔案從Unified Manager伺服器複製到本機系統。</block>
-  <block id="ad33d03e901ed8ed38f8e0d4fc6c3943" category="inline-link">檔案zilla -<block ref="f27bb4f2df782f8d161ce6a58c23dfc8" category="inline-link-rx"></block></block>
-  <block id="e295733f62179fad76f68948d59ceb8e" category="paragraph"><block ref="e295733f62179fad76f68948d59ceb8e" category="inline-link-rx"></block></block>
-  <block id="60e77e93661a419436dd6e9a13601c8e" category="inline-link">Winscp -<block ref="69901d6c3168572fb93db04c8aad9aba" category="inline-link-rx"></block></block>
-  <block id="2151674523016a699197dcd7b05b8ae2" category="paragraph"><block ref="2151674523016a699197dcd7b05b8ae2" category="inline-link-rx"></block></block>
   <block id="f49cdfdbc702b165c54765bf1da49167" category="summary">群組是異質儲存物件（叢集、SVM或Volume）的動態集合。您可以在Unified Manager中建立群組、輕鬆管理一組儲存物件。群組中的成員可能會有所變更、視Unified Manager在某個時間點監控的儲存物件而定。</block>
   <block id="1da81761cbbc9d5e818a6f12e1665153" category="doc">什麼是群組</block>
   <block id="81a7f09b538b9837d99fde2a0d8d5a7a" category="list-text">每個群組都有唯一的名稱。</block>
@@ -7067,7 +7061,6 @@
   <block id="0c2e9d4863653214a62d913812cbc653" category="section-title">切換時的臨界值原則功能MetroCluster</block>
   <block id="0575303d0ae931130f71ae180dba7327" category="paragraph">從一個叢集移至MetroCluster 另一個叢集的物件、若為使用者定義的臨界值原則設定、則不會保留這些物件。如果需要、您可以在移至合作夥伴叢集的磁碟區和LUN上套用臨界值原則。物件移回原始叢集後、使用者定義的臨界值原則會自動重新套用。</block>
   <block id="6ccaf24c820f8d6b7ed5059c38c51eed" category="inline-link-macro">切換和切換期間的Volume行為</block>
-  <block id="2bac4152870bbd285f893cd6dad62bc9" category="paragraph"><block ref="2bac4152870bbd285f893cd6dad62bc9" category="inline-link-macro-rx"></block></block>
   <block id="92b375e8c19093c8bd23b29eaa38110f" category="summary">您可以使用Volume Performance Explorer頁面來檢視Volume的詳細延遲資訊。「延遲-總計」計數器圖表顯示磁碟區的總延遲、而「延遲-明細」計數器圖表則有助於判斷磁碟區的讀取和寫入延遲影響。</block>
   <block id="9df10c236048f20f4e2f2b61271f3012" category="doc">依叢集元件檢視磁碟區延遲</block>
   <block id="c8482691a2b11264ffd4429ee93ecb33" category="paragraph">此外、「延遲-叢集元件」圖表也會詳細比較每個叢集元件的延遲、以協助判斷每個元件對磁碟區總延遲的影響。此時會顯示下列叢集元件：</block>
@@ -11410,7 +11403,6 @@
   <block id="3011ef7c1bc86abe89d8eeeaf7c4c472" category="list-text">選取*檢視&gt;安全性&gt;所有儲存VM*。隨即顯示具有安全參數的叢集清單。</block>
   <block id="419ebf74a5546d21b1acd80acf25cc21" category="paragraph">您可以檢查安全參數、例如儲存VM、叢集、登入橫幅、稽核記錄和不安全的SSH設定、以預設檢視儲存VM的安全性法規遵循。</block>
   <block id="1df41a302d0ac8f8b5c67157bf788ab9" category="inline-link-macro">檢視所有磁碟區和儲存VM的勒索軟體狀態</block>
-  <block id="17b7a8cd3718b23c5fbc68976d54fae8" category="paragraph">_如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 <block ref="bca545b4103a280a86945e429acfe26a" category="inline-link-macro-rx"></block>._</block>
   <block id="15b9361b9fb7038f56e85f3904037d8c" category="doc">正在評估哪些安全性準則</block>
   <block id="2e97b5e5f53687c2edc46f6cfe0a5451" category="list-text">協調員</block>
   <block id="142ceab668a9fc374d2beb0a4ef23836" category="paragraph">顯示叢集是否支援中介器及中介器的連線狀態。</block>
@@ -11627,4 +11619,10 @@
   <block id="0d8a88420d6ff91d22ed7f26bf97d526" category="sidebar">檢視叢集和儲存VM的詳細安全狀態</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">瞭解儲存VM關聯</block>
   <block id="0d4c7c4a66605b6134a539fd94ba3c6a" category="paragraph">如需詳細資訊、請參閱<block ref="d6b13b683bf04ebfc408e75a5dbc55ae" category="inline-link-rx"></block>。</block>
+  <block id="4846618aae53fceef12654a9844ba9d7" category="paragraph">如需磁碟區和儲存VM的反勒索軟體安全性詳細資料、請參閱 <block ref="eba4385d459b6d6dd7b9bd580b2fbf7f" category="inline-link-macro-rx"></block>。</block>
+  <block id="870f5ef7bd12dc2c56965bfcd2ec62f2" category="paragraph">如果您在遺失金鑰或金鑰不相符時收到錯誤、而且安裝失敗、請嘗試下列步驟：</block>
+  <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">在連線的系統上、執行下列命令匯入更新的MySQL金鑰：</block>
+  <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">在沒有網際網路連線的系統上、請更新您的MySQL repo檔案、並標示「gpgcheck」以停用「gpgcheck」。</block>
+  <block id="eb8cc10ea7290daea0c59a212428f061" category="paragraph"><block ref="eb8cc10ea7290daea0c59a212428f061" category="inline-link-macro-rx"></block></block>
+  <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
 </blocks>

@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/qsg-linux.html 
 sidebar: sidebar 
-keywords: quick start guide, QSG, Linux QSG, RHEL QSG, quick installation 
+keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation 
 summary: Linux平台上的Unified Manager快速入門指南。 
 ---
 = Linux安裝的快速入門指示

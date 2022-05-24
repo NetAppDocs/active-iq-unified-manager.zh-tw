@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/task_manually_configure_mysql_repository.html 
 sidebar: sidebar 
-keywords: data center manager, manually, configure, mysql repository 
+keywords: manually configure mysql repository, mysql key, keys update 
 summary: 如果您安裝Unified Manager的系統無法存取MySQL Community Edition儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。 
 ---
 = 手動設定MySQL儲存庫
@@ -43,3 +43,18 @@ wGet http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
+如果您在遺失金鑰或金鑰不相符時收到錯誤、而且安裝失敗、請嘗試下列步驟：
+
+* 在連線的系統上、執行下列命令匯入更新的MySQL金鑰：
+
+
+[listing]
+----
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
+
+for example:
+
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+----
+* 在沒有網際網路連線的系統上、請更新您的MySQL repo檔案、並標示「gpgcheck」以停用「gpgcheck」。
+

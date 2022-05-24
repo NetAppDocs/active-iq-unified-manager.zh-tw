@@ -126,7 +126,7 @@ entries:
     - title: 檢視所有磁碟區的加密狀態
       url: "/health-checker/task_view_encryption_status_of_all_volumes.html"
     - title: 檢視所有磁碟區和儲存VM的勒索軟體狀態
-      url: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html
+      url: "/health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html"
     - title: 檢視所有作用中的安全事件
       url: "/health-checker/task_view_all_security_events.html"
     - title: 新增安全性事件的警示

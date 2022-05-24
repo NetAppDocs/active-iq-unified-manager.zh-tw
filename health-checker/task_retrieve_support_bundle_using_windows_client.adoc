@@ -29,9 +29,3 @@ summary: 如果您是Windows使用者、可以下載並安裝工具、從Unified
 . 選取您要複製之支援服務組合的目的地目錄。
 . 選取您要複製的支援服務組合、然後使用工具將檔案從Unified Manager伺服器複製到本機系統。
 
-
-*相關資訊*
-
-https://filezilla-project.org/["Filezilla - https://filezilla-project.org/"]
-
-http://winscp.net["WinSCP - http://winscp.net"]

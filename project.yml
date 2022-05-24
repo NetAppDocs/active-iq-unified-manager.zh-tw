@@ -6,6 +6,13 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
+  versions:
+  - name: Active IQ Unified Manager
+    url: "/active-iq-unified-manager"
+    version-number: '9.11'
+  - name: Active IQ Unified Manager
+    url: "/active-iq-unified-manager-910"
+    version-number: '9.10'
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
   entries:
