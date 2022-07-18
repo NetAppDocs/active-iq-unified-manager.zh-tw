@@ -170,30 +170,30 @@
   <!-- Start Page Toolbar -->
   
   <div class="page-nav-toolbar"><div id="version-dropdown-new" class="custom-dropdown" >
-  <div class="custom-dropdown-select unselected" title="Active IQ Unified Manager 9.11">
+  <div class="custom-dropdown-select unselected" title="Unified Manager 9.11">
     <label>版本</label>
-    <span translate="no" class="notranslate">Active IQ Unified Manager 9.11</span>
-    <img src="/zh-tw/active-iq-unified-manager/images/chevron_up.svg" class="custom-icon chevrondown invisible" />
-    <img src="/zh-tw/active-iq-unified-manager/images/chevron_down.svg" class="custom-icon chevronup" />
+    <span translate="no" class="notranslate">Unified Manager 9.11</span>
+    <img src="/zh-tw/active-iq-unified-manager/images/chevron_up.svg" alt="" class="custom-icon chevrondown invisible" />
+    <img src="/zh-tw/active-iq-unified-manager/images/chevron_down.svg" alt="" class="custom-icon chevronup" />
   </div>
 
   <ul class="custom-dropdown-menu"><li>
       
       <a href="https://docs.netapp.com/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self">
-        <span translate="no" class="notranslate"><span>Active IQ Unified Manager</span><span class="version"> 9.11</span></span>
+        <span translate="no" class="notranslate"><span>Unified Manager</span><span class="version"> 9.11</span></span>
       </a>
                      
     </li>
     <li>
       
       <a href="https://docs.netapp.com/zh-tw/active-iq-unified-manager-910/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self">
-        <span translate="no" class="notranslate"><span>Active IQ Unified Manager</span><span class="version"> 9.10</span></span>
+        <span translate="no" class="notranslate"><span>Unified Manager</span><span class="version"> 9.10</span></span>
       </a>
                      
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[效能監控MetroCluster 功能](https://docs.netapp.com/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html)" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/discuss-sm.svg" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/performance-checker/concept_performance_monitor_of_metrocluster_configurations.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/edit-sm.svg" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager/images/article-sm.svg" class="github-icon" />瞭解如何作出貢獻</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/issues/new?body=Page%3A%20[效能監控MetroCluster 功能](https://docs.netapp.com/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html)" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/discuss-sm.svg" alt="" class="github-icon" />要求變更文件</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager/blob/main/performance-checker/concept_performance_monitor_of_metrocluster_configurations.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-tw/active-iq-unified-manager/images/edit-sm.svg" alt="" class="github-icon" />編輯此頁面</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-tw/active-iq-unified-manager/images/article-sm.svg" alt="" class="github-icon" />瞭解如何作出貢獻</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此頁面上</div>
@@ -282,11 +282,13 @@
           <div id="react-search" 
           data-search-html="/zh-tw/active-iq-unified-manager/search.html"
           data-type="widget" 
-          data-placeholder="搜尋文件" 
-          data-no-results-found="找不到符合 {query} 的相關結果。" 
-          data-did-you-mean="搜尋 {suggestion}。" 
-          data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？" 
-          data-results-found="找到 {hitCount} 筆結果"  
+          data-placeholder="搜尋文件"
+          data-no-results-found="找不到符合 {query} 的相關結果。"
+          data-did-you-mean="搜尋 {suggestion}。"
+          data-no-results-found-did-you-mean="找不到符合 {query} 的相關結果。您是否要找的是{suggestion}？"
+          data-results-found="找到 {hitCount} 筆結果"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -301,35 +303,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/active-iq-unified-manager/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/active-iq-unified-manager/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -373,7 +367,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>可用的 PDF<span>
     </span>
   </a>
 </div>
@@ -383,7 +377,7 @@
         
         
         <a target="_blank" href="/zh-tw/active-iq-unified-manager/pdfs/fullsite-sidebar/資訊文件Active_IQ_Unified_Manager.pdf" >
-          <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>此文件網站（PDF 格式）</a>
+          <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>此文件網站（PDF 格式）</a>
 
 
 
@@ -400,7 +394,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/開始使用.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             開始使用
           </a>
           
@@ -410,8 +404,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -431,7 +423,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在VMware_vSphere系統上安裝Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在VMware vSphere系統上安裝Unified Manager
           </a>
           
@@ -447,7 +439,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹功能Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹功能Active IQ Unified Manager
           </a>
           
@@ -455,8 +447,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -476,7 +466,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝Unified_Manager的需求.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝Unified Manager的需求
           </a>
           
@@ -490,8 +480,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -511,7 +499,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝_升級及移除Unified_Manager軟體.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝、升級及移除Unified Manager軟體
           </a>
           
@@ -529,7 +517,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/部署Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             部署Unified Manager
           </a>
           
@@ -537,8 +525,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -558,7 +544,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/升級Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             升級Unified Manager
           </a>
           
@@ -566,8 +552,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -579,8 +563,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -588,8 +570,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -609,7 +589,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Linux系統上安裝Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Linux系統上安裝Unified Manager
           </a>
           
@@ -625,7 +605,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹功能Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹功能Active IQ Unified Manager
           </a>
           
@@ -633,8 +613,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -654,7 +632,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝Unified_Manager的需求.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝Unified Manager的需求
           </a>
           
@@ -668,8 +646,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -689,7 +665,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝_升級及移除Unified_Manager軟體.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝、升級及移除Unified Manager軟體
           </a>
           
@@ -707,7 +683,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/設定所需的軟體儲存庫.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             設定所需的軟體儲存庫
           </a>
           
@@ -715,8 +691,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -738,7 +712,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Linux系統上安裝Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Linux系統上安裝Unified Manager
           </a>
           
@@ -752,8 +726,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -773,7 +745,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/升級Red_Hat_Enterprise_Linux或CentOS上的Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             升級Red Hat Enterprise Linux或CentOS上的Unified Manager
           </a>
           
@@ -781,8 +753,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -802,14 +772,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在安裝Unified_Manager之後升級協力廠商產品.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在安裝Unified Manager之後升級協力廠商產品
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -823,8 +791,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -832,8 +798,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -853,7 +817,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Windows系統上安裝Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Windows系統上安裝Unified Manager
           </a>
           
@@ -869,7 +833,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹功能Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹功能Active IQ Unified Manager
           </a>
           
@@ -877,8 +841,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -898,7 +860,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝Unified_Manager的需求.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝Unified Manager的需求
           </a>
           
@@ -912,8 +874,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -933,7 +893,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/安裝_升級及移除Unified_Manager軟體.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             安裝、升級及移除Unified Manager軟體
           </a>
           
@@ -951,7 +911,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Windows上安裝Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Windows上安裝Unified Manager
           </a>
           
@@ -959,8 +919,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -984,14 +942,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/升級協力廠商產品.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             升級協力廠商產品
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1003,8 +959,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1012,8 +966,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1033,7 +985,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/執行組態和管理工作.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             執行組態和管理工作
           </a>
           
@@ -1049,7 +1001,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/設定Active_IQ_Unified_Manager_功能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             設定Active IQ Unified Manager 功能
           </a>
           
@@ -1073,7 +1025,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/設定Unified_Manager以傳送警示通知.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             設定Unified Manager以傳送警示通知
           </a>
           
@@ -1091,8 +1043,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1116,7 +1066,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/變更Unified_Manager主機名稱.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             變更Unified Manager主機名稱
           </a>
           
@@ -1132,7 +1082,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/變更Unified_Manager虛擬應用裝置主機名稱.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             變更Unified Manager虛擬應用裝置主機名稱
           </a>
           
@@ -1140,8 +1090,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1151,8 +1099,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1162,8 +1108,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1185,7 +1129,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理功能設定.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理功能設定
           </a>
           
@@ -1203,8 +1147,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1224,7 +1166,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用維護主控台.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用維護主控台
           </a>
           
@@ -1250,7 +1192,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/維護主控台功能表.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             維護主控台功能表
           </a>
           
@@ -1262,8 +1204,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1291,7 +1231,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/將磁碟空間新增至Unified_Manager資料庫目錄.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             將磁碟空間新增至Unified Manager資料庫目錄
           </a>
           
@@ -1301,8 +1241,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1310,8 +1248,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1331,7 +1267,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理使用者存取.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理使用者存取
           </a>
           
@@ -1347,14 +1283,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/新增使用者.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             新增使用者
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1378,8 +1312,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1399,7 +1331,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理SAML驗證設定.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理SAML驗證設定
           </a>
           
@@ -1417,8 +1349,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1438,7 +1368,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理驗證.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理驗證
           </a>
           
@@ -1460,7 +1390,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/稽核記錄.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             稽核記錄
           </a>
           
@@ -1468,8 +1398,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1479,8 +1407,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1500,7 +1426,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理安全性憑證.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理安全性憑證
           </a>
           
@@ -1524,7 +1450,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/憑證管理的頁面說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             憑證管理的頁面說明
           </a>
           
@@ -1532,8 +1458,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1541,8 +1465,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1550,8 +1472,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1571,7 +1491,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控及管理儲存設備.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控及管理儲存設備
           </a>
           
@@ -1587,7 +1507,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹功能Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹功能Active IQ Unified Manager
           </a>
           
@@ -1609,14 +1529,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/Unified_Manager伺服器的功能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             Unified Manager伺服器的功能
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1624,8 +1542,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1645,7 +1561,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解使用者介面.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             瞭解使用者介面
           </a>
           
@@ -1665,8 +1581,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1686,7 +1600,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從儀表板監控及管理叢集.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從儀表板監控及管理叢集
           </a>
           
@@ -1704,7 +1618,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/直接從Unified_Manager修正ONTAP_或管理問題.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             直接從Unified Manager修正ONTAP 或管理問題
           </a>
           
@@ -1716,8 +1630,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1725,8 +1637,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1746,7 +1656,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理叢集.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理叢集
           </a>
           
@@ -1762,8 +1672,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1783,7 +1691,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控VMware虛擬基礎架構.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控VMware虛擬基礎架構
           </a>
           
@@ -1793,8 +1701,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1814,7 +1720,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/資源配置與管理工作負載.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             資源配置與管理工作負載
           </a>
           
@@ -1830,7 +1736,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/工作負載總覽.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             工作負載總覽
           </a>
           
@@ -1842,8 +1748,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1863,14 +1767,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理效能服務層級.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理效能服務層級
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1890,14 +1792,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理儲存效率原則.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理儲存效率原則
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -1905,8 +1805,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -1926,7 +1824,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理及監控MetroCluster_功能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理及監控MetroCluster 功能
           </a>
           
@@ -1940,8 +1838,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -1961,7 +1857,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理配額.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理配額
           </a>
           
@@ -1987,7 +1883,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/深入瞭解配額.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             深入瞭解配額
           </a>
           
@@ -1997,8 +1893,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2018,7 +1912,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/配額對話方塊說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             配額對話方塊說明
           </a>
           
@@ -2026,8 +1920,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2035,8 +1927,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2056,7 +1946,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/疑難排解.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             疑難排解
           </a>
           
@@ -2072,7 +1962,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/將磁碟空間新增至Unified_Manager資料庫目錄.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             將磁碟空間新增至Unified Manager資料庫目錄
           </a>
           
@@ -2082,8 +1972,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2101,8 +1989,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2110,8 +1996,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2131,7 +2015,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理事件與警示.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理事件與警示
           </a>
           
@@ -2147,7 +2031,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理事件
           </a>
           
@@ -2165,7 +2049,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/什麼是事件管理系統事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             什麼是事件管理系統事件
           </a>
           
@@ -2173,8 +2057,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2218,7 +2100,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/什麼是Unified_Manager維護所需時間.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             什麼是Unified Manager維護所需時間
           </a>
           
@@ -2228,8 +2110,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2251,7 +2131,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/深入瞭解事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             深入瞭解事件
           </a>
           
@@ -2269,8 +2149,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2290,7 +2168,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/事件與嚴重性類型清單.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             事件與嚴重性類型清單
           </a>
           
@@ -2358,8 +2236,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2379,7 +2255,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/事件視窗和對話方塊說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             事件視窗和對話方塊說明
           </a>
           
@@ -2399,7 +2275,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/活動詳細資料頁面.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             活動詳細資料頁面
           </a>
           
@@ -2409,8 +2285,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2422,8 +2296,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2431,8 +2303,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2452,7 +2322,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理警示.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理警示
           </a>
           
@@ -2472,14 +2342,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/新增警示.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             新增警示
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -2513,7 +2381,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/警示視窗和對話方塊說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             警示視窗和對話方塊說明
           </a>
           
@@ -2523,8 +2391,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2532,8 +2398,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2553,7 +2417,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理指令碼.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理指令碼
           </a>
           
@@ -2579,7 +2443,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/指令碼視窗和對話方塊說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             指令碼視窗和對話方塊說明
           </a>
           
@@ -2587,8 +2451,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2596,8 +2458,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2605,8 +2465,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2626,7 +2484,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控及管理叢集效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控及管理叢集效能
           </a>
           
@@ -2642,7 +2500,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹功能介紹_效能監控Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹功能介紹：效能監控Active IQ Unified Manager
           </a>
           
@@ -2656,8 +2514,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2677,7 +2533,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Unified_Manager_GUI中瀏覽效能工作流程.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Unified Manager GUI中瀏覽效能工作流程
           </a>
           
@@ -2695,7 +2551,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/圖形介面和導覽路徑.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             圖形介面和導覽路徑
           </a>
           
@@ -2705,8 +2561,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2718,8 +2572,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2739,7 +2591,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從儀表板監控叢集效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從儀表板監控叢集效能
           </a>
           
@@ -2749,8 +2601,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2770,7 +2620,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用工作負載分析器疑難排解工作負載.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用工作負載分析器疑難排解工作負載
           </a>
           
@@ -2780,8 +2630,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2801,7 +2649,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從效能叢集登陸頁面監控叢集效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從效能叢集登陸頁面監控叢集效能
           </a>
           
@@ -2819,7 +2667,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/效能叢集登陸頁面.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             效能叢集登陸頁面
           </a>
           
@@ -2835,7 +2683,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/效能叢集摘要頁面.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             效能叢集摘要頁面
           </a>
           
@@ -2843,8 +2691,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2854,8 +2700,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2863,8 +2707,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -2884,7 +2726,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用_效能詳細目錄_頁面監控效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用「效能詳細目錄」頁面監控效能
           </a>
           
@@ -2902,7 +2744,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/精簡效能詳細目錄頁面內容.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             精簡效能詳細目錄頁面內容
           </a>
           
@@ -2912,8 +2754,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2923,8 +2763,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -2944,7 +2782,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用Performance_Explorer頁面監控效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用Performance Explorer頁面監控效能
           </a>
           
@@ -2964,7 +2802,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/指定關聯物件的時間範圍.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             指定關聯物件的時間範圍
           </a>
           
@@ -2972,8 +2810,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3007,7 +2843,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/計數器圖表縮放檢視.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             計數器圖表縮放檢視
           </a>
           
@@ -3017,8 +2853,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3048,7 +2882,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/物件登陸頁面的元件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             物件登陸頁面的元件
           </a>
           
@@ -3056,8 +2890,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3065,8 +2897,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3086,7 +2916,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用QoS原則群組資訊來管理效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用QoS原則群組資訊來管理效能
           </a>
           
@@ -3104,8 +2934,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3125,7 +2953,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用效能容量和可用IOPS資訊來管理效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用效能容量和可用IOPS資訊來管理效能
           </a>
           
@@ -3145,8 +2973,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3166,7 +2992,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解及使用_節點容錯移轉規劃_頁面.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             瞭解及使用「節點容錯移轉規劃」頁面
           </a>
           
@@ -3178,8 +3004,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3199,7 +3023,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/收集資料並監控工作負載效能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             收集資料並監控工作負載效能
           </a>
           
@@ -3215,19 +3039,10 @@
 
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/zh-tw/active-iq-unified-manager/pdfs/pages/performance-checker/concept_performance_monitor_of_metrocluster_configurations.pdf" >
-    <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3247,7 +3062,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解效能事件和警示.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             瞭解效能事件和警示
           </a>
           
@@ -3267,8 +3082,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3288,7 +3101,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理效能臨界值.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理效能臨界值
           </a>
           
@@ -3314,8 +3127,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3335,7 +3146,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/分析效能事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             分析效能事件
           </a>
           
@@ -3353,14 +3164,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從使用者定義的效能臨界值分析事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從使用者定義的效能臨界值分析事件
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3380,7 +3189,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從系統定義的效能臨界值分析事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從系統定義的效能臨界值分析事件
           </a>
           
@@ -3394,8 +3203,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3415,7 +3222,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/從動態效能臨界值分析事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             從動態效能臨界值分析事件
           </a>
           
@@ -3437,7 +3244,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/效能事件分析MetroCluster__以利進行效能分析.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             效能事件分析MetroCluster 、以利進行效能分析
           </a>
           
@@ -3445,8 +3252,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3460,8 +3265,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3469,8 +3272,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3490,7 +3291,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/解決效能事件.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             解決效能事件
           </a>
           
@@ -3518,14 +3319,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在較不繁忙的時間執行儲存效率作業.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在較不繁忙的時間執行儲存效率作業
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3559,8 +3358,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3580,7 +3377,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/設定Unified_Manager伺服器與外部資料供應商之間的連線.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             設定Unified Manager伺服器與外部資料供應商之間的連線
           </a>
           
@@ -3590,8 +3387,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3599,8 +3394,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3620,7 +3413,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控及管理叢集健全狀況.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控及管理叢集健全狀況
           </a>
           
@@ -3636,7 +3429,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/介紹不健全狀況監控Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             介紹不健全狀況監控Active IQ Unified Manager
           </a>
           
@@ -3644,8 +3437,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3665,7 +3456,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理及監控叢集與叢集物件健全狀況.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理及監控叢集與叢集物件健全狀況
           </a>
           
@@ -3681,7 +3472,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解叢集監控.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             瞭解叢集監控
           </a>
           
@@ -3691,8 +3482,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3732,8 +3521,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3753,7 +3540,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/通用的Unified_Manager健全狀況工作流程與工作.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             通用的Unified Manager健全狀況工作流程與工作
           </a>
           
@@ -3769,7 +3556,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控及疑難排解資料可用度.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控及疑難排解資料可用度
           </a>
           
@@ -3785,14 +3572,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/掃描及解決儲存容錯移轉互連連結中斷的情況.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             掃描及解決儲存容錯移轉互連連結中斷的情況
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3812,7 +3597,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/解決Volume離線問題.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             解決Volume離線問題
           </a>
           
@@ -3828,7 +3613,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/針對Volume離線狀況執行診斷動作.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             針對Volume離線狀況執行診斷動作
           </a>
           
@@ -3838,8 +3623,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3847,8 +3630,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3856,8 +3637,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -3877,14 +3656,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/解決容量問題.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             解決容量問題
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -3904,7 +3681,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理健全狀況臨界值.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理健全狀況臨界值
           </a>
           
@@ -3922,7 +3699,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/設定全域健全狀況臨界值設定.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             設定全域健全狀況臨界值設定
           </a>
           
@@ -3934,8 +3711,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3949,8 +3724,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -3970,7 +3743,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理叢集安全目標.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理叢集安全目標
           </a>
           
@@ -3986,7 +3759,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/正在評估哪些安全性準則.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             正在評估哪些安全性準則
           </a>
           
@@ -3996,8 +3769,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4025,8 +3796,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4046,7 +3815,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理備份與還原作業.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理備份與還原作業
           </a>
           
@@ -4064,7 +3833,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用MySQL資料庫傾印進行備份與還原.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用MySQL資料庫傾印進行備份與還原
           </a>
           
@@ -4076,8 +3845,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4097,7 +3864,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用NetApp_Snapshot進行備份與還原.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用NetApp Snapshot進行備份與還原
           </a>
           
@@ -4113,7 +3880,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Linux上設定備份.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Linux上設定備份
           </a>
           
@@ -4121,8 +3888,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4142,7 +3907,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Windows上設定備份.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Windows上設定備份
           </a>
           
@@ -4154,8 +3919,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4171,8 +3934,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4184,8 +3945,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4205,7 +3964,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理指令碼.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理指令碼
           </a>
           
@@ -4217,8 +3976,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4238,7 +3995,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理及監控群組.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理及監控群組
           </a>
           
@@ -4254,7 +4011,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/瞭解群組.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             瞭解群組
           </a>
           
@@ -4264,8 +4021,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4295,8 +4050,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4316,7 +4069,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用註釋來排定儲存物件事件的優先順序.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用註釋來排定儲存物件事件的優先順序
           </a>
           
@@ -4332,7 +4085,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/深入瞭解附註.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             深入瞭解附註
           </a>
           
@@ -4342,8 +4095,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4373,8 +4124,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4394,7 +4143,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/透過Web_UI和維護主控台傳送支援服務組合.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             透過Web UI和維護主控台傳送支援服務組合
           </a>
           
@@ -4410,8 +4159,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4431,7 +4178,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/與多個工作流程相關的工作與資訊.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             與多個工作流程相關的工作與資訊
           </a>
           
@@ -4445,8 +4192,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4454,8 +4199,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4463,8 +4206,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4484,7 +4225,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/保護及還原資料.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             保護及還原資料
           </a>
           
@@ -4500,7 +4241,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/建立及疑難排解保護關係.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             建立及疑難排解保護關係
           </a>
           
@@ -4518,7 +4259,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/在Unified_Manager中建立保護關係.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             在Unified Manager中建立保護關係
           </a>
           
@@ -4530,8 +4271,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4551,7 +4290,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/執行保護關係容錯移轉和容錯回復.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             執行保護關係容錯移轉和容錯回復
           </a>
           
@@ -4563,8 +4302,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4584,14 +4321,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/解決保護工作故障.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             解決保護工作故障
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -4601,8 +4336,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4622,7 +4355,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理及監控保護關係.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理及監控保護關係
           </a>
           
@@ -4712,7 +4445,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/監控儲存VM災難恢復保護關係.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             監控儲存VM災難恢復保護關係
           </a>
           
@@ -4722,8 +4455,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4757,7 +4488,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/保護關係視窗和對話方塊說明.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             保護關係視窗和對話方塊說明
           </a>
           
@@ -4805,8 +4536,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4814,8 +4543,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4823,8 +4550,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -4844,7 +4569,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/產生自訂報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             產生自訂報告
           </a>
           
@@ -4860,7 +4585,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/Unified_Manager報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             Unified Manager報告
           </a>
           
@@ -4876,7 +4601,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/用於產生報告的存取點.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             用於產生報告的存取點
           </a>
           
@@ -4884,8 +4609,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4901,8 +4624,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4922,7 +4643,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用報告
           </a>
           
@@ -4944,7 +4665,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂報告
           </a>
           
@@ -4958,8 +4679,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4969,8 +4688,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -4990,7 +4707,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/排程報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             排程報告
           </a>
           
@@ -5006,14 +4723,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/排程報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             排程報告
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -5033,7 +4748,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理報告排程.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理報告排程
           </a>
           
@@ -5041,8 +4756,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5050,8 +4763,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5071,7 +4782,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/範例自訂報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             範例自訂報告
           </a>
           
@@ -5087,7 +4798,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂叢集儲存報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂叢集儲存報告
           </a>
           
@@ -5099,8 +4810,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5120,7 +4829,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂Aggregate容量報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂Aggregate容量報告
           </a>
           
@@ -5130,8 +4839,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5151,7 +4858,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂Volume容量報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂Volume容量報告
           </a>
           
@@ -5161,8 +4868,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5182,14 +4887,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂Qtree容量報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂Qtree容量報告
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -5209,7 +4912,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂NFS共用報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂NFS共用報告
           </a>
           
@@ -5217,8 +4920,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5238,7 +4939,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂儲存VM報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂儲存VM報告
           </a>
           
@@ -5246,8 +4947,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5267,7 +4966,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂Volume關係報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂Volume關係報告
           </a>
           
@@ -5283,8 +4982,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5304,14 +5001,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/自訂Volume效能報告.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             自訂Volume效能報告
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -5319,8 +5014,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5340,7 +5033,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/Microsoft_Excel報告範例.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             Microsoft Excel報告範例
           </a>
           
@@ -5352,8 +5045,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5361,8 +5052,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5382,7 +5071,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/使用REST_API管理儲存設備.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             使用REST API管理儲存設備
           </a>
           
@@ -5398,7 +5087,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/功能入門Active_IQ_Unified_Manager.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             功能入門Active IQ Unified Manager
           </a>
           
@@ -5412,8 +5101,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5433,7 +5120,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/REST_API存取與驗Active_IQ_Unified_Manager_證功能.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             REST API存取與驗Active IQ Unified Manager 證功能
           </a>
           
@@ -5447,8 +5134,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5468,7 +5153,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/Unified_Manager_REST_API.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             Unified Manager REST API
           </a>
           
@@ -5498,7 +5183,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/管理工作負載.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             管理工作負載
           </a>
           
@@ -5516,8 +5201,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -5525,8 +5208,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5546,7 +5227,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/通用的儲存管理工作流程.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             通用的儲存管理工作流程
           </a>
           
@@ -5568,7 +5249,7 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/工作負載管理工作流程.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             工作負載管理工作流程
           </a>
           
@@ -5590,14 +5271,12 @@
               href="/zh-tw/active-iq-unified-manager/pdfs/sidebar/修改儲存工作負載.pdf" 
             
           >
-            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-tw/active-iq-unified-manager/images/pdf.png" alt="" width="16" height="16"/>
             修改儲存工作負載
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -5605,8 +5284,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5614,8 +5291,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -5623,21 +5298,18 @@
   
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/zh-tw/active-iq-unified-manager/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/zh-tw/active-iq-unified-manager/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>個別 PDF 文件的集合<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -5670,9 +5342,9 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/index.html">
-        文件Active IQ Unified Manager
+        零點9.11文件Active IQ Unified Manager
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/reference_release_notes.html">
         版本資訊
       </a></li><li class="subfolders "><a href="#">
@@ -6911,9 +6583,9 @@
         <div class="na-navbar-padding"> 在Linux上設定備份</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_create_volume_where_backups_are_stored.html">
-        設定Snapshot備份位置
+        設定Snapshot複本位置
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_specify_destination_location_for_snapshot_backups.html">
-        指定Snapshot備份的目的地位置
+        指定Snapshot複本的目的地位置
       </a></li></ul></li><li class="subfolders "><a href="/zh-tw/active-iq-unified-manager/health-checker/concept_configure_backup_for_windows.html">
         <div class="na-navbar-padding"> 在Windows上設定備份</div>
       </a>
@@ -6924,13 +6596,13 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_configure_windows_host_machine.html">
         設定Windows主機
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_specify_destination_location_for_windows_snapshot_backups.html">
-        指定Windows Snapshot備份的目的地位置
+        指定Windows上Snapshot複本的目的地位置
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html">
-        從維護主控台設定NetApp Snapshot備份
+        從維護主控台設定Snapshot複本備份
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_define_schedule_for_snapshot_backups.html">
         定義Linux和Windows的備份排程
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_restore_snapshot_backup.html">
-        還原適用於Linux和Windows的Snapshot備份
+        使用Snapshot複本還原Unified Manager
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/task_unconfigure_netapp_snapshot_backup.html">
         修改備份類型
       </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/active-iq-unified-manager/health-checker/concept_on_demand_backup_for_unified_manger.html">
@@ -7488,7 +7160,7 @@
         
 
         <li class="n-breadcrumb__list-item">
-          <a href="/zh-tw/active-iq-unified-manager/">Active&nbsp;IQ&nbsp;Unified&nbsp;Manager</a>
+          <a href="/zh-tw/active-iq-unified-manager/">Active&nbsp;IQ&nbsp;Unified&nbsp;Manager&nbsp;9.11</a>
         </li>
 
       </ul>
@@ -7736,4 +7408,5 @@ Unified Manager會將MetroCluster 以整個過程為例的叢集視為個別叢�
     </script>
     <script src='/zh-tw/active-iq-unified-manager/js/www-ntap.js'></script>
     <script src='/zh-tw/active-iq-unified-manager/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/active-iq-unified-manager/js/sidebar.js'></script>
   </body></html>
