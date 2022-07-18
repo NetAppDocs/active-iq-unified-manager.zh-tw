@@ -834,7 +834,6 @@
   <block id="057a4079cb4d04795b7140926e321d5c" category="list-text">設定時區。</block>
   <block id="4083994b5ab6b43931e9e9ee1cbd9052" category="list-text">輸入Unified Manager維護使用者名稱和密碼。</block>
   <block id="a5a2442d3e91661060d1752730494eec" category="paragraph">安裝結束時、會顯示連線至Unified Manager Web UI的資訊。</block>
-  <block id="254045ee23205cb1ac3f6e05905ecfab" category="summary">提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要。</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="doc">版本資訊</block>
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">發行說明Active IQ Unified Manager</block>
   <block id="6bfaf2d07c879df0855b6cb02c3a38c0" category="summary">診斷存取的目的是讓技術支援人員協助您進行疑難排解、您只能在技術支援人員的指示下使用。</block>
@@ -1928,13 +1927,9 @@
   <block id="6678a58be3d891136cf0d2460b016789" category="paragraph">儲存資源池的詳細資料隨即顯示。</block>
   <block id="352fdda78d684cf9e0a638bbab208994" category="summary">如果Active IQ Unified Manager 您的支援功能安裝在Linux機器上、您可以決定使用NetApp Snapshot來設定備份與還原。</block>
   <block id="ed8b4ef99c4658d8051ea76a5775dd5f" category="doc">在Linux上設定備份</block>
-  <block id="3235d168c9706a85abd9f513a35efe99" category="paragraph">Snapshot備份所需時間極短、通常只需幾分鐘、而且Unified Manager資料庫鎖定時間很短、因此幾乎不會中斷安裝。映像會佔用最少的儲存空間、而且會產生可忽略的效能負荷、因為它只會記錄自上次Snapshot複本以來對檔案所做的變更。由於Snapshot是在ONTAP 整個叢集上建立、因此您可以利用SnapMirror等其他NetApp功能、視需要建立二線保護。</block>
   <block id="14cd7aa6f775e39058779319ad926776" category="paragraph">在開始備份作業之前、Unified Manager會執行完整性檢查、以確認目的地系統是否可用。</block>
-  <block id="dacad086c3866e5006889b83dbff8a9b" category="list-text">您只能在Active IQ Unified Manager 同一版本的支援上還原Snapshot備份。</block>
   <block id="8eb7892587443ba12dc3bdc027a2a3a5" category="paragraph">例如、如果您在Unified Manager 9.9上建立備份、則只能在Unified Manager 9.9系統上還原備份。</block>
   <block id="d4a551e46758fef6fb9e080f35e16395" category="list-text">如果Snapshot組態有任何變更、可能會導致快照無效。</block>
-  <block id="a58013aafcee31ff5cd79561dd6d040d" category="summary">您應該從Active IQ Unified Manager 維護主控台設定將靜態備份至NetApp Snapshot備份。</block>
-  <block id="0d87e7e4bbf8397f4455198487c3f61b" category="doc">從維護主控台設定NetApp Snapshot備份</block>
   <block id="aee3a95235c93d4d8b2545ff685b0e4a" category="paragraph">您的系統應具備下列詳細資料：</block>
   <block id="606e8e68864ef13b5bed9d31ed5797be" category="list-text">叢集IP位址</block>
   <block id="c9c34e0d9a5a20d6a7dbd22b6fdac3f1" category="list-text">儲存VM名稱</block>
@@ -1945,7 +1940,6 @@
   <block id="9052146612c3ab94f1f20beeaacf22f9" category="list-text">存取Unified Manager的維護主控台。</block>
   <block id="df92fdbdb9c940558c8bc9139cbc6f85" category="list-text">輸入4以選取*備份還原*。</block>
   <block id="03e6497ebccd718be784d97d4ed63b2b" category="list-text">輸入2以選擇*使用NetApp Snapshot備份與還原*。</block>
-  <block id="684fec4838a87ca7dc679a28c9e5bb12" category="paragraph">如果您想要變更備份組態、請輸入3以更新NetApp Snapshot備份組態。您只能更新密碼。</block>
   <block id="6fafc96e75f122b9ca0dfa70e1dce340" category="list-text">在功能表中輸入1以選取*「Configure NetApp Snapshot Backup」（設定NetApp Snapshot備份）*。</block>
   <block id="71abde451e7a33246cf7749cab1faab4" category="list-text">輸入1以提供必要資訊。</block>
   <block id="89665b3633dabf5bd26255fed5d14a20" category="list-text">提供維護主控台的使用者名稱和密碼、然後確認LUN已掛載於主機上。</block>
@@ -2123,7 +2117,6 @@
   <block id="cd3c68cc6b8f9809448f7e2960f3960a" category="paragraph">權限：0750、擁有者：Jboss：維護</block>
   <block id="84c873c921ee7808689d6f63f0b75d7b" category="list-text">在Windows系統上安裝Unified Manager並使用MySQL備份時、請確保只有系統管理員有權存取備份目錄。</block>
   <block id="e899e8ad18a40aa68cb10f881b14d962" category="paragraph">第一次執行備份所需的時間比後續備份多、因為第一次備份是完整備份。完整備份可能超過1 GB、可能需要三到四小時。後續備份是遞增的、所需時間較短。</block>
-  <block id="c70b90896f6047560d324950d0533f1c" category="list-text">如果您發現遞增備份檔案的數量對於配置用於備份的空間而言太大、您可以定期建立新的完整備份、以取代舊的完整備份及其所有子遞增檔案。另一個選項是、如果Linux系統上安裝了Unified Manager、您可能會想要開始使用NetApp Snapshot備份方法。</block>
   <block id="052d9a630b7b68ae24d203fece5512e0" category="list-text">在新增叢集的最初15天內所進行的備份、可能不夠準確、無法取得先前的效能資料。</block>
   <block id="78bc84911eb423f64dab2e455740693d" category="list-text">在左導覽窗格中、按一下*一般*&gt;*資料庫備份*。</block>
   <block id="9daa697ea449b51992fc999705c3ca4f" category="list-text">在「*資料庫備份*」頁面中、按一下「*備份設定*」。</block>
@@ -2372,7 +2365,6 @@
   <block id="18da779c32b0b5b281338ff1d2276d63" category="list-text">在「Storage VM/健全狀況」詳細資料頁面中、按一下「* NFS Shares *（* NFS共用*）」索引標籤。</block>
   <block id="13e4304c150d5c87f513047dda49387e" category="summary">MySQL資料庫傾印備份是Active IQ Unified Manager 一套適用於系統故障或資料遺失情況的還原資料庫和組態檔案複本。您可以排程將備份寫入本機目的地或遠端目的地。強烈建議您定義Active IQ Unified Manager 一個不屬於該主機系統的遠端位置。</block>
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">使用MySQL資料庫傾印進行備份與還原</block>
-  <block id="d3e2a44d169c2c9766d5e5082da2116f" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。對於Red Hat Enterprise Linux、CentOS Linux系統或Windows、Active IQ Unified Manager 如果使用NetApp Snapshot備份方法來管理大量的叢集和節點、或者如果您的MySQL備份需要花費數小時才能完成、您可以使用NetApp Snapshot備份方法。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">資料庫傾印備份是由備份目錄中的單一檔案和資料庫儲存庫目錄中的一或多個檔案所組成。備份目錄中的檔案非常小、因為它只包含指向位於資料庫儲存庫目錄中的檔案的指標、而這些檔案是重新建立備份所需的。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">第一次產生資料庫備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立完整備份檔案。下次產生備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立遞增備份檔案、其中包含與完整備份檔案的差異。當您建立額外的備份時、此程序會持續執行、直到達到最大保留設定為止、如下圖所示。</block>
   <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">資料庫備份</block>
@@ -2385,8 +2377,6 @@
   <block id="cc2f029a91f0f9ae2a8f1d6dd7eac3e1" category="paragraph">安全性事件會依來源類型分組、包括事件和陷阱名稱、影響層級和嚴重性。這些事件會出現在叢集和儲存VM事件類別中。</block>
   <block id="80b444e335b0732b7b90623cbd5717e9" category="doc">檢視叢集和儲存VM的詳細安全狀態</block>
   <block id="0303e15cb5131cd4b937c60c3de7bb42" category="inline-link">《NetApp ONTAP 資訊安全強化指南》（英文）9</block>
-  <block id="861c2853233db617d584ff94b9ad8386" category="summary">您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。</block>
-  <block id="349d7a256fa4f3d0418ee6eb5d23aae0" category="doc">設定Snapshot備份位置</block>
   <block id="b7f65d9e1cdb3964676f5e08758b08bb" category="paragraph">叢集、儲存VM和Volume必須符合下列需求：</block>
   <block id="7c9a067ed7fc3d318d415405ab0cb349" category="list-text">叢集需求：</block>
   <block id="83d846dfbb93149a3f4d1024ba7ef34b" category="list-text">必須安裝不含更新版本的更新版本ONTAP</block>
@@ -2589,8 +2579,6 @@
   <block id="e382d5eb401e51c20a9b3ef278a2b578" category="list-text">按一下「*磁碟*」、然後在「*篩選器*」窗格中選取「*毀損*」、以列出所有處於中斷狀態的磁碟。</block>
   <block id="6d3910cef6fca8def7fe99c6524ecfc6" category="paragraph">如果處於中斷狀態的磁碟導致主機Aggregate的離線狀態、則Aggregate的名稱會顯示在「Impacted Aggregate（受影響的Aggregate）」欄中。</block>
   <block id="59ed1d4c045e5b70eb07c1bcf26e632f" category="paragraph">在確認磁碟區離線狀況是由毀損的RAID磁碟及其後的離線主機Aggregate所造成之後、請聯絡適當的管理員或操作員、手動更換毀損的磁碟、並將Aggregate重新連線。</block>
-  <block id="f53f51112c1b2a05048cc9021799a91e" category="summary">您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定的磁碟區上、設定用於進行「靜態Snapshot」備份的目的地位置。您可以從Active IQ Unified Manager 支援服務的支援主控台定義位置。</block>
-  <block id="28159d6dfa1a39e6f3ad07c1cf591e1b" category="doc">指定Snapshot備份的目的地位置</block>
   <block id="ce528b6890fb6b6c48fa6a2e269faa21" category="list-text">您必須擁有Active IQ Unified Manager 安裝了此功能的Linux主機的root使用者認證資料。</block>
   <block id="24794d5f05454fa6bf8b40e88fe9eab1" category="list-text">您必須擁有叢集管理IP位址、儲存VM名稱、Volume名稱、以及儲存系統使用者名稱和密碼。</block>
   <block id="257925ea2fb77c58fa506e21a73a157b" category="list-text">您必須已將Volume掛載至Active IQ Unified Manager 該主機、而且必須有掛載路徑。</block>
@@ -2606,7 +2594,6 @@
   <block id="8420102fd6d86210f856088e2715d39a" category="list-text">在磁碟區中建立新目錄、然後複製Active IQ Unified Manager 還原資料庫組態檔</block>
   <block id="edd58a58db7e35fe06f237ba7a4accf8" category="list-text">從Active IQ Unified Manager 這個功能刪除檔案、並建立新資料庫目錄的symlink</block>
   <block id="0e5a6eb9a29c8f12f681639b77afd06c" category="list-text">重新啟動所有服務</block>
-  <block id="b3cebd9bcd8b335d0acc8502548bdfe1" category="list-text">離開維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot備份排程（如果您尚未執行此操作）。</block>
   <block id="37e0f32458fc30744fd90ddfe6ca28cd" category="summary">Unified Manager中的許多工作流程都有一些工作和參考文字、可協助您瞭解並完成工作流程、包括新增和檢閱事件的相關附註、指派事件、確認和解決事件、以及磁碟區、儲存虛擬機器（SVM）、集合體、 等等。</block>
   <block id="a47af708af924c3e98858f93842d0278" category="doc">與多個工作流程相關的工作與資訊</block>
   <block id="0cb0d0d2967edad1a75c6c4c02e2a8d5" category="summary">當您建立自訂附註時、Unified Manager會使用規則、將叢集、儲存虛擬機器（SVM）和磁碟區與附註動態關聯。這些規則會自動將註釋指派給儲存物件。</block>
@@ -2614,7 +2601,6 @@
   <block id="0e0e108aad2fd6a3025dafd63febbe60" category="list-text">在*註釋*頁面中、按一下*新增註釋*。</block>
   <block id="b69f44226cd26778c3404b1ecf1dd118" category="list-text">在「*新增註釋*」對話方塊中、輸入註釋的名稱和說明。</block>
   <block id="cb463a1eb4f9a0dd2ffb1d3d23b617c2" category="list-text">選用：在「*註釋值*」區段中、按一下「*新增*」、將值新增至註釋。</block>
-  <block id="efa017f823fbacb99447313c5a3cce39" category="summary">NetApp Snapshot備份會建立Unified Manager資料庫和組態檔的時間點映像、以便在系統故障或資料遺失時還原。您排定ONTAP 要定期將Snapshot備份寫入任一個VMware叢集上的磁碟區、以便隨時取得最新的複本。</block>
   <block id="a47153d54b7968c03bc59c4c044aaccf" category="doc">使用NetApp Snapshot進行備份與還原</block>
   <block id="403875c0649c7ac18910973842019b9a" category="paragraph">此功能不適用於Active IQ Unified Manager 安裝在虛擬應用裝置上的版本。</block>
   <block id="79fc0c933d6d08221c06389eb3c896d8" category="summary">您可以在不再需要群組時、從Unified Manager刪除群組。</block>
@@ -2690,8 +2676,6 @@
   <block id="4c75f5541cef76780db83a13e48ca4fe" category="list-text">在左導覽窗格中、按一下*事件臨界值*&gt;*關係*。</block>
   <block id="6b0a750c244b548b8048f65f7579c1d4" category="list-text">視需要增加或減少全域預設警告或錯誤延遲時間百分比。</block>
   <block id="53e1a1615f872e667cecc0f4de74b385" category="list-text">若要停用從任何延遲臨界值金額觸發警告或錯誤事件、請取消核取「*已啟用*」旁的方塊。</block>
-  <block id="b54f31dd6204fb4eea238c710ce88c52" category="summary">您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的磁碟區上設定進行「靜態Snapshot」備份的目的地位置、然後使用維護主控台來定義位置。</block>
-  <block id="799bf19e536ac1b86d71b01a9e77ae44" category="doc">指定Windows Snapshot備份的目的地位置</block>
   <block id="efe1c3aca20669b1d8155e3996b3683e" category="list-text">您必須擁有Active IQ Unified Manager 安裝了Windows主機的系統管理員權限、才能執行此作業。</block>
   <block id="6818bf7e4f9158793c3db8c8d905f8ac" category="list-text">您必須擁有叢集管理IP位址、儲存VM名稱、Volume名稱、LUN名稱、以及儲存系統使用者名稱和密碼。</block>
   <block id="1abe1b3d8a962cf1074567c717f8a207" category="list-text">您必須將磁碟區當作網路磁碟機掛載到Active IQ Unified Manager 該主機、而且必須有掛載磁碟機。</block>
@@ -2726,11 +2710,9 @@
   <block id="19c8fe25212ec2fea3bf923acb7529ea" category="paragraph">如果備份資料夾名稱包含空格、您必須在雙引號中包含絕對路徑或相對路徑。</block>
   <block id="6dab4a22026046a1cce46cf4e8f8e917" category="summary">如果您想要變更Active IQ Unified Manager 您的支援系統的備份類型、可以使用維護主控台選項。「Unconfigure NetApp Snapshot Backup」（取消設定NetApp Snapshot備份）選項可讓您回復至MySQL型備份。</block>
   <block id="c00e0a79e3a4f68a3448b0ba8cb107e8" category="doc">修改備份類型</block>
-  <block id="5047f1f25159dc471aa0a6bb927628f1" category="list-text">從*主功能表*選取4以進行備份還原。</block>
   <block id="3bb3cb0671c1a0c88752482b82d3af27" category="list-text">從*備份與還原功能表*中選取2。</block>
   <block id="79d03be693d1947313fa5d96b1465a52" category="list-text">選擇4進行*取消配置NetApp Snapshot Backup *。</block>
   <block id="b1a2bd33a1262ae98361b42f30087b97" category="paragraph">系統會顯示所執行的動作、包括停止服務、中斷symlink、將資料從儲存設備移至目錄、然後重新啟動服務。</block>
-  <block id="fa174b19ea56ab3592c90febf4d1fb03" category="paragraph">在NetApp Snapshot備份未設定之後、備份機制會變更為預設的MySQL型備份。此變更會出現在「一般設定」的「資料庫備份」區段中。</block>
   <block id="404a49c3ac5cc4520b6a583f148277f3" category="summary">您可以檢視所有磁碟區及其目前加密狀態的清單、以便判斷您磁碟區上的資料是否受到適當保護、不受未獲授權的使用者存取。</block>
   <block id="0829f5c1222300105abaa58f12e6038a" category="doc">檢視所有磁碟區的加密狀態</block>
   <block id="33bc3d61fd1a2d3a50231e8ea854339e" category="paragraph">可套用至磁碟區的加密類型包括：</block>
@@ -2820,19 +2802,10 @@
   <block id="55def22757c6b9a04f8da81c6641c0ba" category="summary">您可以在Unified Manager中建立群組、以管理儲存物件。</block>
   <block id="310a2034e0a1d0fa9fdef8b719ccd4d4" category="doc">管理及監控群組</block>
   <block id="146b54492f9e3bbe7f0eab12ebad671a" category="summary">如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager Snapshot資料庫還原至本機或遠端作業系統。</block>
-  <block id="32148cb10d776b094dced327a1b0fc4e" category="doc">還原適用於Linux和Windows的Snapshot備份</block>
   <block id="e93453301a9f4ba773074e263e24f3aa" category="list-text">您必須擁有Linux主機的root使用者認證、以及安裝Unified Manager的Windows主機機器的管理權限。</block>
   <block id="32e3809f8d6ed42f5004ad8b8baa3a43" category="paragraph">還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。</block>
   <block id="cdb3b41720fff6c8a03e2b1cbbb34e11" category="list-text">連線至Unified Manager系統的IP位址或完整網域名稱。</block>
-  <block id="d8613fd0262f0065e011c1c70144fae1" category="paragraph">* Linux *</block>
-  <block id="6ace128b686261095a774f72e0443c9a" category="paragraph">安全Shell</block>
-  <block id="798f4b2607b39e7e9b593d42368f1ed3" category="paragraph">* Windows *</block>
-  <block id="5036b66bea4412997f6307cc829222a3" category="paragraph">Power Shell</block>
   <block id="8838ce682897f309ce14643e22c2df54" category="list-text">使用root使用者認證登入系統。</block>
-  <block id="fc425df0709b7d093f412725b3bf1fbf" category="list-text">輸入*使用NetApp Snapshot備份與還原*的號碼。</block>
-  <block id="d8f5437d42a441dfa168ae96d656db29" category="paragraph">如果您要在新伺服器上執行還原、安裝Unified Manager之後、安裝完成後、不會啟動UI或設定任何叢集、使用者或驗證設定。輸入* Configure NetApp Snapshot Backup（配置NetApp Snapshot備份）*的編號、並依照在原始系統上設定的方式來設定Snapshot備份設定。</block>
-  <block id="31068d97c65389f456740fdba6fb893d" category="list-text">輸入*使用NetApp Snapshot還原*的號碼。</block>
-  <block id="80cc8897454c59019774aafa996e72b0" category="list-text">選取您要還原的Snapshot備份檔案、然後按* Enter *。</block>
   <block id="7e3a7f64abb10a8ec2278d71c2ef33cf" category="list-text">還原程序完成後、請登入Unified Manager使用者介面。</block>
   <block id="503b5dbfe28c3dee835f7d0560bbbcda" category="paragraph">還原備份之後、如果Workflow Automation伺服器無法運作、請執行下列步驟：</block>
   <block id="877f5e27a442690f512bdd4fa77d8cb6" category="summary">您可以使用Unified Manager來檢查叢集及其元件的運作健全狀況MetroCluster 、並採用一套功能性設定。如果叢集涉及Unified Manager偵測到的效能事件、健全狀況狀態可協助您判斷是否有硬體或軟體問題導致事件發生。</block>
@@ -2868,7 +2841,6 @@
   <block id="60afc25db2ff23bdfa31759cb60408fb" category="inline-link-macro">編輯未受管理保護關係的延遲健全狀況臨界值設定</block>
   <block id="b1e01991dcaa7a24f4163f02d1ed78f4" category="list-text"><block ref="b1e01991dcaa7a24f4163f02d1ed78f4" category="inline-link-macro-rx"></block></block>
   <block id="905362a25de9f278295be6c34b886fa4" category="paragraph">您可以增加或減少警告或錯誤延遲時間百分比、以便以更適合您需求的時間間隔產生事件。</block>
-  <block id="abade1525053b328cd00ac394aa22707" category="summary">在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與還原功能之前、您應該先執行ONTAP 一些針對Windows主機機器的預先設定。</block>
   <block id="8f13a5846c3dde639a93fc2554f271af" category="doc">設定ONTAP 叢集</block>
   <block id="39d8477a9ad9ed927746b978b28ad783" category="paragraph">您可以ONTAP 使用命令提示字元或System Manager使用者介面來設定叢集。設定叢集時、需要將資料生命期設定為可指派給儲存VM的iSCSI生命期。ONTAP下一步是使用System Manager使用者介面來設定啟用iSCSI的儲存VM。您需要為此儲存VM設定靜態網路路由、以控制LIF如何使用網路來處理傳出流量。</block>
   <block id="376d1e880f6b042f169c02ad77bc437e" category="paragraph">您應該有專用的Volume和LUN來進行備份組態。選取的磁碟區應僅包含一個LUN。LUN大小應至少為Active IQ Unified Manager 預期由SIZE處理的兩倍資料大小。</block>
@@ -3305,7 +3277,6 @@
   <block id="6c04472eb8434da04b6836ebd12218b7" category="summary">支援在使用iSCSI傳輸協定的LUN協助下、在Windows作業系統上使用NetApp Snapshot進行備份與還原。Active IQ Unified Manager</block>
   <block id="a76b011d1f0216bb407469e9fcb9b607" category="doc">在Windows上設定備份</block>
   <block id="0df0d708323b0db94db9a4c857653fde" category="paragraph">所有UM服務都在執行時、可以執行Snapshot型備份。當備份對整個資料庫進行全域讀取鎖定、以防止任何並行寫入時、會在Snapshot中擷取一致的資料庫狀態。若要讓安裝在Windows作業系統上的Unified Manager系統使用NetApp Snapshot執行備份與還原、您應該先使用維護主控台設定Unified Manager備份至Snapshot。</block>
-  <block id="e2aeeb8d5925be531d7b83fdf0c7e0d4" category="paragraph">在設定Active IQ Unified Manager Snapshot備份的安裝功能之前、您必須執行下列組態工作。</block>
   <block id="f1d2b7cc5beb46f3b0a532b5d98c6193" category="list-text">設定ONTAP 叢集</block>
   <block id="9034ed23b3c744a50f9c5977ea2d17a2" category="list-text">設定Windows主機</block>
   <block id="70a71f89c25f1b7417b24daddfde07ac" category="summary">安裝在虛擬應用裝置上的Unified Manager備份與還原模式、是擷取及還原完整虛擬應用程式的映像。</block>
@@ -4184,7 +4155,6 @@
   <block id="f40751d926230fa564c49969b9d27a82" category="list-text">在「* Aggregate / Health*詳細資料」頁面的「* Related Devices*」（*相關裝置*）窗格中、找到並按一下「Node」（節點）下方顯示的超文字連結。</block>
   <block id="3ef29764860ba90400d3ede12030346a" category="paragraph">叢集/健全狀況詳細資料頁面上的節點索引標籤會顯示SVM根磁碟區的主機節點所屬的HA節點配對狀態。顯示幕會顯示節點的狀態。</block>
   <block id="579e0e62d3c7baabad04f4101c454bf0" category="paragraph">當您確認該磁碟區的離線狀況是由該磁碟區的主機SVM離線狀況所造成、而該狀況本身是由裝載該SVM根磁碟區的節點當機所造成、請聯絡適當的管理員或操作員、以手動重新啟動關機節點。</block>
-  <block id="12cbdd6ef1715b048e4f35d8e8dcd9b7" category="summary">您應該設定磁碟區、以便在Active IQ Unified Manager Windows上安裝了Snapshot備份時、仍能儲存Snapshot備份。</block>
   <block id="24b6bcea87dfc79f56c5982f8cf8a3d9" category="doc">設定Windows的備份位置</block>
   <block id="28d4390de9be5ac07ec2afb08ad0012e" category="list-text">它由Unified Manager監控</block>
   <block id="e2f71a6651ab8846dfcc8dd56a14ab80" category="list-text">iSCSI連線ONTAP 功能</block>
@@ -4229,18 +4199,13 @@
   <block id="c2888580567d017d68042ecb1ce64f8c" category="paragraph">您可以使用指令碼中的引數、收集相關的事件資訊或修改儲存物件。</block>
   <block id="147c9842f922a693132b970d94139607" category="section-title">從指令碼取得引數的範例</block>
   <block id="be8e8dd31e7fe51957233d03573d3445" category="paragraph">產生警示時、會執行此指令碼、並顯示下列輸出：</block>
-  <block id="fd74e222140ff1a307995237bebe2c51" category="summary">您可以使用Unified Manager UI設定Unified Manager Snapshot備份建立的排程。</block>
   <block id="967205d4e2ec30d380acd32f8d73993b" category="doc">定義Linux和Windows的備份排程</block>
-  <block id="ec132bfc3954b5c04cfbf039ac3267c8" category="list-text">您必須從維護主控台設定NetApp Snapshot備份設定、以識別快照建立的目的地。</block>
-  <block id="ed761335c7ab7d0918f158c55a70caa6" category="paragraph">Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定幾秒鐘。</block>
   <block id="ef9404f439510686ea3fc2d2a498e945" category="list-text">在* Retention Count*（保留計數）字段中輸入要保留的Snapshot副本的最大數量。</block>
   <block id="ee045c7ecd2df065d64deaede9a8a762" category="paragraph">保留計數的預設值為10。Snapshot複本的最大數量取決ONTAP 於叢集上的版本。無論ONTAP 使用何種版本、您都可以將此欄位保留空白、以實作最大值。</block>
-  <block id="1f7a831939148700efbf3b0a1070f210" category="paragraph">Snapshot備份檔案是根據排程建立。您可以在「資料庫備份」頁面中看到可用的備份檔案。</block>
   <block id="c028e9599e750afadb79697d92d3896d" category="paragraph">由於此磁碟區和快照的重要性、您可能需要為此磁碟區建立一或兩個警示、以便在下列情況下通知您：</block>
   <block id="0005648d66ebf8e8796b78cbddbfbfab" category="list-text">磁碟區空間已滿90%。使用事件* Volume Space Full*來設定警示。</block>
   <block id="753759a900a213e5141553234b892565" category="paragraph">您可以使用ONTAP 「支援系統管理程式」或ONTAP 「支援功能」CLI來新增容量至磁碟區、使Unified Manager資料庫不會耗盡空間。</block>
   <block id="6c739ccf617b158f5d9e91237a5cbbd9" category="list-text">快照數量接近最大值。使用事件*快照複本太多*來設定警示。</block>
-  <block id="58d09fb2703ad1d7697865acd260b5d7" category="paragraph">您可以使用ONTAP 「支援系統管理程式」或ONTAP 「支援功能」CLI刪除舊的快照、以便隨時有新的快照備份空間。</block>
   <block id="16baca3564bcca6430acf44f5cd814d1" category="paragraph">您可以在「警示設定」頁面中設定警示。</block>
   <block id="0f413d00f1728d37f9c0f18381b11b73" category="summary">您可以刪除Snapshot複本以節省空間或釋出磁碟空間、也可以刪除不再需要的Snapshot複本。</block>
   <block id="68aa56556993ffaba4d25a37a54fabe4" category="doc">刪除Snapshot複本</block>
@@ -4274,9 +4239,7 @@
   <block id="9e3e60933ed2cb233042858279152397" category="list-text">按一下「*計算*」。</block>
   <block id="9bb8560d6596c8ec85eb3cd638751df8" category="paragraph">隨即顯示磁碟區上的可回收空間（以百分比、KB、MB、GB等為單位）。</block>
   <block id="e7c9f47d5e760a1695fc53e9d4cecb52" category="list-text">若要重新計算可回收空間、請選取所需的Snapshot複本、然後按一下*重新計算*。</block>
-  <block id="a8e1ee6100209bd26e4466a900b48b9e" category="summary">您需要設定Active IQ Unified Manager 安裝了支援功能的Windows主機、以準備NetApp Snapshot備份。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下iSCSI啟動器。</block>
   <block id="979a48f08ca3a5524a9fb0584ff575d4" category="doc">設定Windows主機</block>
-  <block id="c757bda4c8288d9600da64281ad2d062" category="paragraph">您需要設定Active IQ Unified Manager 安裝了支援功能的Windows主機、以準備NetApp Snapshot備份。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下「* iSCSI啟動器*」。</block>
   <block id="f59c0adda3b9640a8678653e8048637e" category="paragraph">您應該清除主機上任何先前的組態。</block>
   <block id="34f7e7c2649322ad73b758a14fe6338b" category="paragraph">如果您嘗試在全新安裝的Windows上啟動iSCSI啟動器、系統會提示您確認、並在確認時顯示「iSCSI內容」對話方塊。如果是現有的Windows安裝、則會顯示iSCSI內容對話方塊、其中目標為非使用中或嘗試連線。因此、您必須確保移除Windows主機上所有先前的組態。</block>
   <block id="187c685c05bc4596438f1065a9e15994" category="list-text">清除主機上任何先前的組態。</block>
@@ -6678,7 +6641,6 @@
   <block id="feca2c67539b00b94278185357af09dc" category="paragraph">系統定義的叢集效能臨界值原則預設會指派給Unified Manager監控的每個叢集：</block>
   <block id="f79e2da0e7f82c468889e02fe9c2b430" category="list-text">*叢集負載不平衡*</block>
   <block id="59661535e0d4f683fcb4a3ed8aa66f1d" category="paragraph">識別某個節點的工作負載比叢集中其他節點高得多、因此可能影響工作負載延遲的情況。</block>
-  <block id="f45a891026b056f4e276c653d9981111" category="paragraph">它會比較叢集中所有節點的效能使用容量值、以查看任何節點之間的負載差異是否為30%。這是一項警告事件。</block>
   <block id="7294f6f733c6ce2ec3340b93d27e5213" category="list-text">*叢集容量不平衡*</block>
   <block id="83a1ff6d54cb25f3d06152e4e5d82750" category="paragraph">識別某個Aggregate的使用容量遠高於叢集中其他Aggregate的情況、因此可能會影響作業所需的空間。</block>
   <block id="8846b64490352c0a0e83eeef475bff88" category="paragraph">它會比較叢集中所有集合體的已用容量值、以查看任何集合體之間是否有70%的差異。這是一項警告事件。</block>
@@ -11248,7 +11210,6 @@
   <block id="642fa7ffa5c8279944eb98b2c97822c4" category="list-text">從「工作負載」頁面指派原則給儲存工作負載</block>
   <block id="6cadccc84da38bfa5d917b1cd5991c21" category="inline-link-macro">原則型儲存管理</block>
   <block id="fd20d4b7d2ab504e544b30c37c130f81" category="paragraph"><block ref="fd20d4b7d2ab504e544b30c37c130f81" category="inline-link-macro-rx"></block></block>
-  <block id="03c4964bc816e433324ce19426448ce5" category="sidebar">文件Active IQ Unified Manager</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere的快速入門安裝</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">Linux快速入門安裝</block>
@@ -11624,5 +11585,46 @@
   <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">在連線的系統上、執行下列命令匯入更新的MySQL金鑰：</block>
   <block id="ce16a447d798efe968d2235fb0e11c5b" category="list-text">在沒有網際網路連線的系統上、請更新您的MySQL repo檔案、並標示「gpgcheck」以停用「gpgcheck」。</block>
   <block id="eb8cc10ea7290daea0c59a212428f061" category="paragraph"><block ref="eb8cc10ea7290daea0c59a212428f061" category="inline-link-macro-rx"></block></block>
-  <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
+  <block id="8b5c53741ace59564e91943c6402cc3a" category="summary">您必須先設定Windows主機、才能使用NetApp Snapshot備份及還原Active IQ Unified Manager 功能。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下iSCSI啟動器。</block>
+  <block id="1248b2e744f7fb1ee933bde0f938b102" category="paragraph">您必須先設定Windows主機、才能使用NetApp Snapshot備份及還原Active IQ Unified Manager 功能。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下「* iSCSI啟動器*」。</block>
+  <block id="f8cd459ff4a7192edfbedc254b7bca7b" category="paragraph">在設定Unified Manager以建立Snapshot複本之前、您應該先執行下列組態工作。</block>
+  <block id="acb0ccecf8f7da295a8d8689fb4fa3dd" category="paragraph">如果您想要變更Active IQ Unified Manager 您的支援系統的備份類型、可以使用維護主控台選項。「*取消設定NetApp Snapshot Backup *」選項可讓您回復至MySQL型備份。</block>
+  <block id="4a5252be16df0bd596f3669798985895" category="list-text">從*主功能表*選取4進行備份與還原。</block>
+  <block id="49404a8cd7fa908019ad2c0c44d457dd" category="paragraph">修改備份方法之後、備份機制會從Snapshot複本變更為預設的MySQL備份。此變更會出現在「一般設定」的「資料庫備份」區段中。</block>
+  <block id="57d3cd2d30301429d6637d67f82d9d7e" category="summary">您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的Volume上、設定用於靜態Snapshot複本的目的地位置。您應該使用維護主控台來定義位置。</block>
+  <block id="12fc5ceb004caac51bc7adc0919885d2" category="doc">指定Snapshot複本的目的地位置</block>
+  <block id="9106687d633b6347a2301128578a0d53" category="list-text">結束維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot複本的排程（如果您尚未執行此動作）。</block>
+  <block id="078057cb4fbbb2df6414096389bdf757" category="doc">使用Snapshot複本還原Unified Manager</block>
+  <block id="6c1317e22f5a52a7e1ef24b0cfcf2808" category="list-text">Linux：安全Shell</block>
+  <block id="84097b5c25253e555f1241a6265b1fc7" category="list-text">Windows：Power Shell</block>
+  <block id="6e84cad578a085c5bfb17f2ceafb779f" category="list-text">在維護主控台*主功能表*中、輸入4作為*備份還原*選項。</block>
+  <block id="b5d6cee6ecab9f76ec82923903ef56bf" category="list-text">輸入2以選擇*使用NetApp Snapshot備份與還原*。</block>
+  <block id="f253c94ba6549aff2dc48be199312f74" category="paragraph">如果您要在新伺服器上執行還原、安裝Unified Manager之後、安裝完成後、不會啟動UI或設定任何叢集、使用者或驗證設定。輸入1選擇* Configure NetApp Snapshot Backup（配置NetApp Snapshot備份）*並配置Snapshot複本的設置（如同在原始系統上一樣）。</block>
+  <block id="547fc6d1c680c3c977eefc644b5f84bb" category="list-text">輸入3以選擇*使用NetApp Snapshot還原*。</block>
+  <block id="c129bd96bead8458af46982d8d46013a" category="list-text">選取您要從中還原Unified Manager的Snapshot複本。按* Enter *。</block>
+  <block id="ebd9d5f342d8f7a252c552caa368fdd4" category="summary">在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。</block>
+  <block id="980280f09e181d6a54b6e6584a7a57ba" category="summary">您可以使用ONTAP 下列功能來設定將Snapshot複本儲存在任一個叢集上的磁碟區：ONTAP 使用「靜態系統管理程式」或ONTAP 使用「靜態CLI」。</block>
+  <block id="5e9f7df21e2aee170e82e836a89c9b1b" category="doc">設定Snapshot複本位置</block>
+  <block id="4b57407417c4e1c7dd9db9b01598349f" category="summary">NetApp Snapshot複本會建立Unified Manager資料庫和組態檔的時間點映像、以便在系統故障或資料遺失時還原。您可以安排將Snapshot複本ONTAP 定期寫入任一VMware叢集上的磁碟區、以便隨時取得最新的複本。</block>
+  <block id="9d0c3ab790f8c8c94d736d5f3f7b064c" category="summary">您可以使用Unified Manager UI設定Unified Manager Snapshot複本建立的排程。</block>
+  <block id="276db03bd79cf1fd1f7a4b944102de33" category="list-text">您必須設定從維護主控台建立Snapshot複本的設定、以識別快照建立的目的地。</block>
+  <block id="83abd8acb2b7676da1cf771f64b62650" category="paragraph">Snapshot複本只需幾分鐘就能建立、Unified Manager資料庫只會鎖定幾秒鐘。</block>
+  <block id="657c331ddbfc73b6b9a208a8ae9baa85" category="paragraph">快照複本是根據排程建立。您可以在「資料庫備份」頁面中看到可用的備份檔案。</block>
+  <block id="8eb7c975105334e9a925e8d0ae7bea1f" category="paragraph">您可以使用ONTAP 「更新快照系統管理程式」或ONTAP 「更新CLI」刪除舊的快照、以便隨時有新的Snapshot複本空間。</block>
+  <block id="fbd8791f9c18f8663521f8eeaa9d956a" category="summary">在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。</block>
+  <block id="39127dab30a1b4106495040a421b4171" category="list-text">如果您發現遞增備份檔案的數量對於配置用於備份的空間而言太大、您可以定期進行完整備份、以取代舊的備份及其遞增檔案。另一個選項是使用Snapshot複本進行備份。</block>
+  <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能適用於Red Hat Enterprise Linux、CentOS Linux系統和Windows。</block>
+  <block id="0dacdc1f422539593cbb5a203b591b4c" category="summary">若要Active IQ Unified Manager 使用Snapshot複本進行支援、您應該從維護主控台執行幾個組態步驟。</block>
+  <block id="154bdb7f32d3fbfa903876b55692d782" category="doc">從維護主控台設定Snapshot複本備份</block>
+  <block id="e0075eac991ceb7545f11e534f56b9c5" category="paragraph">如果您要變更備份組態、請輸入3以選擇*更新NetApp Snapshot Backup Configuration *。您只能更新密碼。</block>
+  <block id="d642a15bc9e79a0f7e99d72fad5a3ddd" category="paragraph">Snapshot複本所需時間極短、通常只需幾分鐘、而且Unified Manager資料庫鎖定時間很短、因此幾乎不會中斷安裝。映像會佔用最少的儲存空間、而且會產生可忽略的效能負荷、因為它只會記錄自上次Snapshot複本以來對檔案所做的變更。由於Snapshot是在ONTAP 整個叢集上建立、因此您可以利用SnapMirror等其他NetApp功能、視需要建立二線保護。</block>
+  <block id="e06e49da3fb49fecd85244c11ba7754d" category="list-text">您只能在Active IQ Unified Manager 相同版本的Sof the S還原Snapshot複本。</block>
+  <block id="839fa2b63b981f33da59323dbb6922ca" category="doc">指定Windows上Snapshot複本的目的地位置</block>
+  <block id="5a4a0cbbe603b22097ec5fceadf09c9b" category="list-text">結束維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot複本的排程。</block>
+  <block id="1024da4d1e601efc60b6d334667fb372" category="inline-link-macro">如何在AIQUM中手動更新AIQCASecure規則</block>
+  <block id="ab8d738b545ae820bcf3e08c1381f9d5" category="paragraph">如需詳細資訊、請參閱以下知識庫（KB）文章： <block ref="2880d9e8074f03320d24915675f84536" category="inline-link-macro-rx"></block></block>
+  <block id="97bbb871095678061fcc80b68b1e751b" category="paragraph">它會比較叢集中所有節點的效能使用容量值、以查看是否有任何節點超過30%臨界值達24小時以上。這是一項警告事件。</block>
+  <block id="5a668f8970655ef1c7d0b0f27eacfe05" category="summary">提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要、以供參閱。</block>
+  <block id="695f7221e4fd4e02429db7170b21c850" category="sidebar">零點9.11文件Active IQ Unified Manager</block>
+  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
 </blocks>

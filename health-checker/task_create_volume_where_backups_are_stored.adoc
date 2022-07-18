@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_create_volume_where_backups_are_stored.html 
 sidebar: sidebar 
-keywords: configure, snapshot, backup location 
-summary: 您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。 
+keywords: configure, snapshot copy, copies location 
+summary: 您可以使用ONTAP 下列功能來設定將Snapshot複本儲存在任一個叢集上的磁碟區：ONTAP 使用「靜態系統管理程式」或ONTAP 使用「靜態CLI」。 
 ---
-= 設定Snapshot備份位置
+= 設定Snapshot複本位置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一個叢集上的磁碟區：ONTAP 使用「還原系統管理程式」或ONTAP 使用「還原CLI」。
+您可以使用ONTAP 下列功能來設定將Snapshot複本儲存在任一個叢集上的磁碟區：ONTAP 使用「靜態系統管理程式」或ONTAP 使用「靜態CLI」。
 
 *您需要的是什麼*
 

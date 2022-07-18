@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html 
 sidebar: sidebar 
-keywords: configure, destination, schedule, database dump, backups 
+keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: 您可以設定Unified Manager資料庫傾印備份設定、以設定資料庫備份路徑、保留計數和備份排程。您可以啟用每日或每週排程備份。根據預設、排程備份會停用、但您應該設定備份排程。 
 ---
 = 設定資料庫傾印備份的目的地和排程
@@ -31,7 +31,7 @@ summary: 您可以設定Unified Manager資料庫傾印備份設定、以設定�
 
 [NOTE]
 ====
-* 如果您發現遞增備份檔案的數量對於配置用於備份的空間而言太大、您可以定期建立新的完整備份、以取代舊的完整備份及其所有子遞增檔案。另一個選項是、如果Linux系統上安裝了Unified Manager、您可能會想要開始使用NetApp Snapshot備份方法。
+* 如果您發現遞增備份檔案的數量對於配置用於備份的空間而言太大、您可以定期進行完整備份、以取代舊的備份及其遞增檔案。另一個選項是使用Snapshot複本進行備份。
 * 在新增叢集的最初15天內所進行的備份、可能不夠準確、無法取得先前的效能資料。
 
 

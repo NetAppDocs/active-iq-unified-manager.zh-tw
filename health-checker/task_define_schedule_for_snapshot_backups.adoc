@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_define_schedule_for_snapshot_backups.html 
 sidebar: sidebar 
-keywords: define, backup, schedule, linux, windows 
-summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot備份建立的排程。 
+keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
+summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot複本建立的排程。 
 ---
 = 定義Linux和Windows的備份排程
 :allow-uri-read: 
@@ -11,15 +11,15 @@ summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot備份�
 
 
 [role="lead"]
-您可以使用Unified Manager UI設定Unified Manager Snapshot備份建立的排程。
+您可以使用Unified Manager UI設定Unified Manager Snapshot複本建立的排程。
 
 *您需要的是什麼*
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
-* 您必須從維護主控台設定NetApp Snapshot備份設定、以識別快照建立的目的地。
+* 您必須設定從維護主控台建立Snapshot複本的設定、以識別快照建立的目的地。
 
 
-Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定幾秒鐘。
+Snapshot複本只需幾分鐘就能建立、Unified Manager資料庫只會鎖定幾秒鐘。
 
 [NOTE]
 ====
@@ -37,7 +37,7 @@ Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定
 . 按一下「 * 套用 * 」。
 
 
-Snapshot備份檔案是根據排程建立。您可以在「資料庫備份」頁面中看到可用的備份檔案。
+快照複本是根據排程建立。您可以在「資料庫備份」頁面中看到可用的備份檔案。
 
 由於此磁碟區和快照的重要性、您可能需要為此磁碟區建立一或兩個警示、以便在下列情況下通知您：
 
@@ -47,7 +47,7 @@ Snapshot備份檔案是根據排程建立。您可以在「資料庫備份」頁
 
 * 快照數量接近最大值。使用事件*快照複本太多*來設定警示。
 +
-您可以使用ONTAP 「支援系統管理程式」或ONTAP 「支援功能」CLI刪除舊的快照、以便隨時有新的快照備份空間。
+您可以使用ONTAP 「更新快照系統管理程式」或ONTAP 「更新CLI」刪除舊的快照、以便隨時有新的Snapshot複本空間。
 
 
 

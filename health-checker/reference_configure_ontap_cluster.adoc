@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/reference_configure_ontap_cluster.html 
 sidebar: sidebar 
-keywords: netapp, snapshot, backup, windows, configure, ontap, cluster 
-summary: 在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與還原功能之前、您應該先執行ONTAP 一些針對Windows主機機器的預先設定。 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: 在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。 
 ---
 = 設定ONTAP 叢集
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與
 
 
 [role="lead"]
-在設定Active IQ Unified Manager 適用於Windows的Snapshot備份與還原功能之前、您應該先執行ONTAP 一些針對Windows主機機器的預先設定。
+在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。
 
 您可以ONTAP 使用命令提示字元或System Manager使用者介面來設定叢集。設定叢集時、需要將資料生命期設定為可指派給儲存VM的iSCSI生命期。ONTAP下一步是使用System Manager使用者介面來設定啟用iSCSI的儲存VM。您需要為此儲存VM設定靜態網路路由、以控制LIF如何使用網路來處理傳出流量。
 

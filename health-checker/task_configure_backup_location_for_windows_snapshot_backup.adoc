@@ -1,8 +1,8 @@
 ---
 permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
 sidebar: sidebar 
-keywords: configure, backup, location, windows 
-summary: 您應該設定磁碟區、以便在Active IQ Unified Manager Windows上安裝了Snapshot備份時、仍能儲存Snapshot備份。 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: 在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。 
 ---
 = 設定Windows的備份位置
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 您應該設定磁碟區、以便在Active IQ Unified Manager Windows�
 
 
 [role="lead"]
-您應該設定磁碟區、以便在Active IQ Unified Manager Windows上安裝了Snapshot備份時、仍能儲存Snapshot備份。
+在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。
 
 *您需要的是什麼*
 

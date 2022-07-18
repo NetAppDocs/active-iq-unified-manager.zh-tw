@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_specify_destination_location_for_snapshot_backups.html 
 sidebar: sidebar 
-keywords: specify, destination location, snapshot backups 
-summary: 您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定的磁碟區上、設定用於進行「靜態Snapshot」備份的目的地位置。您可以從Active IQ Unified Manager 支援服務的支援主控台定義位置。 
+keywords: specify, destination location, snapshot copies, copy 
+summary: 您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的Volume上、設定用於靜態Snapshot複本的目的地位置。您應該使用維護主控台來定義位置。 
 ---
-= 指定Snapshot備份的目的地位置
+= 指定Snapshot複本的目的地位置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定的磁碟區上、設定用於進行「靜態Snapshot」備份的目的地位置。您可以從Active IQ Unified Manager 支援服務的支援主控台定義位置。
+您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的Volume上、設定用於靜態Snapshot複本的目的地位置。您應該使用維護主控台來定義位置。
 
 * 您必須擁有Active IQ Unified Manager 安裝了此功能的Linux主機的root使用者認證資料。
 * 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
@@ -40,5 +40,5 @@ summary: 您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定
 ** 重新啟動所有服務
 
 
-. 離開維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot備份排程（如果您尚未執行此操作）。
+. 結束維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot複本的排程（如果您尚未執行此動作）。
 

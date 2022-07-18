@@ -1,7 +1,7 @@
 ---
 permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html 
 sidebar: sidebar 
-keywords: backup, restore, using, mysql, database, dump 
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: MySQL資料庫傾印備份是Active IQ Unified Manager 一套適用於系統故障或資料遺失情況的還原資料庫和組態檔案複本。您可以排程將備份寫入本機目的地或遠端目的地。強烈建議您定義Active IQ Unified Manager 一個不屬於該主機系統的遠端位置。 
 ---
 = 使用MySQL資料庫傾印進行備份與還原
@@ -15,7 +15,7 @@ MySQL資料庫傾印備份是Active IQ Unified Manager 一套適用於系統故�
 
 [NOTE]
 ====
-當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。對於Red Hat Enterprise Linux、CentOS Linux系統或Windows、Active IQ Unified Manager 如果使用NetApp Snapshot備份方法來管理大量的叢集和節點、或者如果您的MySQL備份需要花費數小時才能完成、您可以使用NetApp Snapshot備份方法。
+當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能適用於Red Hat Enterprise Linux、CentOS Linux系統和Windows。
 
 ====
 資料庫傾印備份是由備份目錄中的單一檔案和資料庫儲存庫目錄中的一或多個檔案所組成。備份目錄中的檔案非常小、因為它只包含指向位於資料庫儲存庫目錄中的檔案的指標、而這些檔案是重新建立備份所需的。

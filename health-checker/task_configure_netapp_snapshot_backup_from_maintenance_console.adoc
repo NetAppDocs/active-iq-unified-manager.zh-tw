@@ -1,17 +1,17 @@
 ---
 permalink: health-checker/task_configure_netapp_snapshot_backup_from_maintenance_console.html 
 sidebar: sidebar 
-keywords: configure, netapp, snapshot, backup, maintenance console 
-summary: 您應該從Active IQ Unified Manager 維護主控台設定將靜態備份至NetApp Snapshot備份。 
+keywords: configure, backup, snapshot copy, copies maintenance console 
+summary: 若要Active IQ Unified Manager 使用Snapshot複本進行支援、您應該從維護主控台執行幾個組態步驟。 
 ---
-= 從維護主控台設定NetApp Snapshot備份
+= 從維護主控台設定Snapshot複本備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-您應該從Active IQ Unified Manager 維護主控台設定將靜態備份至NetApp Snapshot備份。
+若要Active IQ Unified Manager 使用Snapshot複本進行支援、您應該從維護主控台執行幾個組態步驟。
 
 *您需要的是什麼*
 
@@ -32,7 +32,7 @@ summary: 您應該從Active IQ Unified Manager 維護主控台設定將靜態備
 +
 [NOTE]
 ====
-如果您想要變更備份組態、請輸入3以更新NetApp Snapshot備份組態。您只能更新密碼。
+如果您要變更備份組態、請輸入3以選擇*更新NetApp Snapshot Backup Configuration *。您只能更新密碼。
 
 ====
 . 在功能表中輸入1以選取*「Configure NetApp Snapshot Backup」（設定NetApp Snapshot備份）*。
