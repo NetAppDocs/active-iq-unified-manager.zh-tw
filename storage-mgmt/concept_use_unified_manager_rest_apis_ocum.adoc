@@ -15,4 +15,4 @@ summary: 支援REST API、讓您檢視監控及管理儲存環境的相關資訊
 
 您也ONTAP 可以使用Unified Manager支援的API閘道、在所有ONTAP管理的叢集上執行RESUtricity API。
 
-如需Unified Manager REST API的相關資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["《NetApp API開發人員指南》Active IQ Unified Manager"]。
+如需Unified Manager REST API的相關資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["開始使用Active IQ Unified Manager 靜態API"]。

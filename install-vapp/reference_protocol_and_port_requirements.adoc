@@ -96,10 +96,10 @@ HTTPS
 |===
 [NOTE]
 ====
-HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱《_ Active IQ Unified Manager 參考系統組態指南_》。
+HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱_設定Active IQ Unified Manager SURF__。
 
 ====
-link:../config/concept_configure_unified_manager.html["《系統組態指南》Active IQ Unified Manager"]
+link:../config/concept_configure_unified_manager.html["設定Active IQ Unified Manager 功能"]
 
 
 

@@ -13,7 +13,7 @@ summary: 您可以在Unified Manager中收集叢集的相關資訊、以便從UI
 [role="lead"]
 您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。
 
-本指南涵蓋透過UI進行Unified Manager報告與排程。
+以下各節說明Unified Manager透過UI進行的報告與排程。
 
 有三種方法可以存取Unified Manager提供的報告功能：
 
@@ -22,4 +22,4 @@ summary: 您可以在Unified Manager中收集叢集的相關資訊、以便從UI
 * 執行Unified Manager REST API以傳回您要檢閱的資訊。
 
 
-本指南涵蓋透過UI進行Unified Manager報告與排程。
+以下各節說明Unified Manager透過UI進行的報告與排程。

@@ -36,7 +36,7 @@ image::../media/first_experience_wizard.png[首次體驗精靈]
 . 在Red Hat和CentOS系統上、您可以將umadmin使用者密碼從預設的「admin」字串變更為個人化字串。
 . 在「設定API閘道」頁面中、選擇是否要使用API閘道功能、讓Unified Manager能夠管理ONTAP 您計畫使用ONTAP Isureest API監控的各個叢集。然後按一下 * 繼續 * 。
 +
-您稍後可從*一般*>*功能設定*>* API閘道*的網路UI中啟用或停用此設定。如需API的詳細資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["《NetApp API開發人員指南》Active IQ Unified Manager"]。
+您稍後可從*一般*>*功能設定*>* API閘道*的網路UI中啟用或停用此設定。如需API的詳細資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["開始使用Active IQ Unified Manager 靜態API"]。
 
 . 新增您要Unified Manager管理的叢集、然後按一下*下一步*。對於您打算管理的每個叢集、您必須擁有主機名稱或叢集管理IP位址（IPV4或IPV6）、以及使用者名稱和密碼認證、使用者必須具有「admin」角色。
 +

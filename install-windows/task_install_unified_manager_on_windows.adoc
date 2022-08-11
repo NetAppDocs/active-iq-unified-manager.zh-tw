@@ -89,4 +89,4 @@ Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出�
 
 
 
-您可以存取Web UI來執行Unified Manager的初始設定、如所述 link:../config/concept_configure_unified_manager.html["《系統組態指南》Active IQ Unified Manager"]。
+您可以存取Web UI來執行Unified Manager的初始設定、如所述 link:../config/concept_configure_unified_manager.html["設定Active IQ Unified Manager 功能"]。

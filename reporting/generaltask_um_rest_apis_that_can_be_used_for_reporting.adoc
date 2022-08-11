@@ -13,6 +13,6 @@ summary: 您可以使用REST API來檢視Unified Manager擷取的健全狀況、
 [role="lead"]
 您可以使用REST API來檢視Unified Manager擷取的健全狀況、容量、效能和安全資訊、以協助管理叢集。
 
-REST API會透過Swagger網頁公開。您可以存取Swagger網頁以顯示Unified Manager REST API文件、以及手動發出API呼叫。在Unified Manager Web UI的功能表列中、按一下「*說明*」按鈕、然後選取「* API說明文件*」。如需Unified Manager REST API的相關資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["《NetApp API開發人員指南》Active IQ Unified Manager"]。
+REST API會透過Swagger網頁公開。您可以存取Swagger網頁以顯示Unified Manager REST API文件、以及手動發出API呼叫。在Unified Manager Web UI的功能表列中、按一下「*說明*」按鈕、然後選取「* API說明文件*」。如需Unified Manager REST API的相關資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["開始使用Active IQ Unified Manager 靜態API"]。
 
 您必須擁有「操作員」、「儲存管理員」或「應用程式管理員」角色、才能存取REST API。

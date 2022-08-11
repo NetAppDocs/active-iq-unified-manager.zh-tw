@@ -1,21 +1,21 @@
 ---
 permalink: api-automation/reference_intended_audience_for_this_guide.html 
 sidebar: sidebar 
-keywords: audience, guide 
-summary: 本指南專供開發人員透過Active IQ Unified Manager REST API、建立可與該等軟體介面的應用程式。 
+keywords: audience, api, rest 
+summary: 本節旨在協助開發人員建立應用程式、Active IQ Unified Manager 以便透過REST API與該軟件建立介面。 
 ---
-= 本指南的對象
+= 此內容的對象
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-本指南專供開發人員透過Active IQ Unified Manager REST API、建立可與該等軟體介面的應用程式。
+此處主題是專為開發人員所設計、可透過Active IQ Unified Manager REST API與該軟件建立介面的應用程式。
 
-本指南也適用於想要基本瞭解Unified Manager中提供的其餘API如何用於建置用戶端應用程式以管理及監控NetApp儲存系統的儲存管理員和架構設計師。
+儲存管理員和架構設計師可以參考此資訊、以取得對Unified Manager REST API如何用於建置用戶端應用程式以管理及監控NetApp儲存系統的基本瞭解。
 
-如果您想要使用儲存供應商、ONTAP 叢集和管理管理API來管理儲存設備、請使用本指南。
+如果您想要使用儲存供應商、ONTAP 叢集和管理管理API來管理儲存設備、請使用此資訊。
 
 [NOTE]
 ====

@@ -110,6 +110,4 @@ API會傳回該叢集中的儲存磁碟區清單。回應格式與ONTAP 您在�
 curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
 -H "Authorization: Basic <Base64EncodedCredentials>"
 ----
-如需使用ONTAP 靜態API的詳細資訊、請參閱ONTAP 《關於使用靜態API的開發人員指南》。
-
-https://docs.netapp.com/us-en/ontap-automation/index.html["靜態API自動化ONTAP"]
+如需使用ONTAP 靜態API的詳細資訊、請參閱https://docs.netapp.com/us-en/ontap-automation/index.html["靜態API自動化ONTAP"]

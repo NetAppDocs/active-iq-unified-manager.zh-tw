@@ -52,8 +52,6 @@
   <block id="63b3b8b876e68763a44f8227f91a9bab" category="list-text">記錄IP位址或URL、指派的使用者名稱（umadmin）和目前密碼。</block>
   <block id="2ad8650bc36e875f76af07af6156dc81" category="list-text">如果您在安裝Unified Manager之前使用自訂主目錄建立umadmin使用者帳戶、則必須指定umadmin使用者登入Shell：</block>
   <block id="de655d5c807407174b4c747a67443f65" category="paragraph">「usermod -s /bin/maintenance-user-shell.sh umadmin」</block>
-  <block id="09e58bfdfb5bb7adf152df5b1b5ed29c" category="inline-link-macro">《系統組態指南》Active IQ Unified Manager</block>
-  <block id="24dfd2ec1e382cb2b2bb4f021e4982ba" category="paragraph">存取Web UI以變更umadmin使用者的預設密碼、並執行Unified Manager的初始設定、如所述 <block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block>。</block>
   <block id="440eb40eb8cf6c5d06e6de7d9d2db8c0" category="summary">如果您計畫在NAS或SAN裝置上掛載/opp/netapp或/opp/NetApp/data、且已啟用SELinux、則必須注意下列考量事項。</block>
   <block id="8c60b39d035602485d7a07ef3aa2f5f0" category="doc">NFS與CIFS共用的SELinux需求</block>
   <block id="a8d633f5ac5e3ef0835f41c9ff4cf88a" category="paragraph">如果您打算在NAS或SAN裝置上掛載「/opt/netapp」或「/opt/NetApp/data」、而且您已啟用SELinux、則需要注意一些考量。</block>
@@ -193,8 +191,6 @@
   <block id="50780f47f6839d47d60bc4555ee00c3f" category="paragraph">休息</block>
   <block id="7dc8b441cf4e6fe9bc806679c4579e68" category="paragraph">9443</block>
   <block id="77294b4d67d929acf56022eb43f81988" category="paragraph">用於從通過驗證ONTAP 的可靠功能系統存取即時REST API型EMS事件。</block>
-  <block id="aa3e397e51f9b1b6d6c235fdae39144f" category="paragraph">HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱《_ Active IQ Unified Manager 參考系統組態指南_》。</block>
-  <block id="f58716a8c39c318b5ee09a724a759e81" category="paragraph"><block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block></block>
   <block id="5a6374d3b555b76afa32840797491a50" category="section-title">從Unified Manager伺服器連線</block>
   <block id="a61ed6b83536814a5598fdc74a793e54" category="paragraph">您應該將防火牆設定為開啟連接埠、以便在Unified Manager伺服器與託管儲存系統、伺服器及其他元件之間進行通訊。如果連接埠未開啟、則通訊會失敗。</block>
   <block id="e2dc6782e0d053b02e4502c879e72c78" category="paragraph">視您的環境而定、您可以選擇修改Unified Manager伺服器用來連線至特定目的地的連接埠和傳輸協定。</block>
@@ -454,7 +450,6 @@
   <block id="ced6d1a53e1edd338f03b11a9bc5603d" category="paragraph">對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有Java-11-OpenJDK、p7zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">安裝順序總覽</block>
-  <block id="dacfb51b4a094d652e66024bf2159200" category="paragraph">本安裝指南的各章將說明下列工作流程中所顯示的每個項目。</block>
   <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">整體um安裝流程</block>
   <block id="688dd421579f9ca49f8068cf7c5fc387" category="summary">變更組態之後、您可能必須重新啟動Unified Manager。</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="doc">重新啟動Unified Manager</block>
@@ -655,7 +650,6 @@
   <block id="4f72d182cd74cecc577c31f8379223b4" category="paragraph">這是安裝OpenJDK的目錄。範例：「C:\Program Files\NetApp\JDK\」</block>
   <block id="bfb2446e315edcbba47f0c61f07da5e5" category="list-text">Unified Manager應用程式資料目錄（appDataDir)</block>
   <block id="e245a912d513c7363e5be4985ed7b772" category="paragraph">這是儲存所有應用程式產生資料的目錄。這包括記錄、支援套裝組合、備份及所有其他額外資料。範例：「C：\ProgramData\NetApp\OnCommandAppData\」</block>
-  <block id="83e65a3fd23ed76726a6b95118397fad" category="paragraph">您可以存取Web UI來執行Unified Manager的初始設定、如所述 <block ref="f58716a8c39c318b5ee09a724a759e81" category="inline-link-macro-rx"></block>。</block>
   <block id="983eb41117bb464388685a705b914606" category="summary">您可以使用「程式和功能」精靈或從命令列介面執行無人管理的解除安裝、來解除安裝Unified Manager。</block>
   <block id="a17f437aedf2eddaf8ba841b0c1aeb45" category="doc">正在解除安裝Unified Manager</block>
   <block id="9722ab728446f937c918c0e5e4e40c5e" category="list-text">在解除安裝軟體之前、必須先從Unified Manager伺服器移除所有叢集（資料來源）。</block>
@@ -774,7 +768,6 @@
   <block id="26f440e8c4cd1d3146cbae1a4c93048d" category="paragraph">維護使用者名稱應以a到z的字母開頭、然後是-、a到z或0到9的任意組合。</block>
   <block id="0fe01979c09e5c4c4a13629e8a2dc63f" category="list-text">在提示字元下輸入密碼、然後按一下* Enter *。</block>
   <block id="827e9bc6912741afa9fd15061acbdf3a" category="paragraph">VM主控台會顯示Unified Manager Web UI的URL。</block>
-  <block id="b251c0d5b9ac9a245c3e5680b898541b" category="paragraph">您可以存取Web UI來執行Unified Manager的初始設定、如《_ Active IQ Unified Manager 系統組態指南_》所述。</block>
   <block id="c200239369f7ea49229003f057ad8769" category="summary">從NetApp支援網站下載Unified Manager安裝檔案、將Unified Manager部署為虛擬應用裝置。</block>
   <block id="c1da04ff6acab5d7e257dd6ef058663f" category="doc">下載Unified Manager安裝檔案</block>
   <block id="89ceb9ec1fb3db99ae27c6381019e506" category="paragraph">您應該擁有NetApp支援網站的登入認證資料。</block>
@@ -1180,8 +1173,6 @@
   <block id="417c8bfee406c52e82d5627974ff264d" category="paragraph">如果您需要指定一個Proxy來提供網際網路存取、以便傳送AutoSupport 各種內容、或是想要停用AutoSupport 某些功能、請AutoSupport 從網路UI使用*一般*&gt;* Swise*選項。</block>
   <block id="a9d62eb63a0e399aec66c4be03008f7d" category="list-text">在Red Hat和CentOS系統上、您可以將umadmin使用者密碼從預設的「admin」字串變更為個人化字串。</block>
   <block id="d3670f59405d014a440cff8e13353ec2" category="list-text">在「設定API閘道」頁面中、選擇是否要使用API閘道功能、讓Unified Manager能夠管理ONTAP 您計畫使用ONTAP Isureest API監控的各個叢集。然後按一下 * 繼續 * 。</block>
-  <block id="e892333322154430a4cc6c5462eda7d9" category="inline-link-macro">《NetApp API開發人員指南》Active IQ Unified Manager</block>
-  <block id="ca510dfe44ee0ca981ac61fb5c368ad0" category="paragraph">您稍後可從*一般*&gt;*功能設定*&gt;* API閘道*的網路UI中啟用或停用此設定。如需API的詳細資訊、請參閱 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>。</block>
   <block id="bb6beb9bc67c9e7bbc359a295ac7b879" category="list-text">新增您要Unified Manager管理的叢集、然後按一下*下一步*。對於您打算管理的每個叢集、您必須擁有主機名稱或叢集管理IP位址（IPV4或IPV6）、以及使用者名稱和密碼認證、使用者必須具有「admin」角色。</block>
   <block id="bfb26aad10adbec1f5cd25ef16ca9bb0" category="paragraph">此步驟為選用步驟。您可以稍後在Web UI中從* Storage Management *&gt;* Cluster Setup *新增叢集。</block>
   <block id="8fe7045b0b6050a6dc3a12043504e646" category="list-text">在「摘要」頁面中、確認所有設定都正確無誤、然後按一下「*完成*」。</block>
@@ -1259,8 +1250,6 @@
   <block id="da95a52d9fa1a70d5fd98fb79e2cc806" category="list-text">「*儀表板*」上的「工作負載效能」面板</block>
   <block id="19a071e7be204597ac23f133f7dfcda9" category="paragraph">您可以使用畫面來建立效能服務層級和儲存效率原則、以及配置儲存工作負載。您也可以監控符合指派之效能服務層級的儲存工作負載、以及不符合的工作負載。「工作負載效能與工作負載IOPS」面板也可讓您根據資料中心上所配置的儲存工作負載、評估整個資料中心叢集的總容量、可用容量及已使用容量與效能（IOPS）。</block>
   <block id="3b0d83928702ed580a046fd86c0abe40" category="paragraph">啟動此功能之後、您可以執行Unified Manager REST API、從*功能表列*&gt;*說明按鈕*&gt;* API Documentation *&gt;*儲存設備供應商*類別執行部分功能。或者、您也可以輸入主機名稱或IP位址和URL、以+https://&lt;hostname&gt;/docs/api/+格式存取REST API頁面</block>
-  <block id="f59c397f9275c838856be7c9ccaafdec" category="paragraph">如需API的詳細資訊、請參閱_ Active IQ Unified Manager 《_景點API開發人員指南》_。</block>
-  <block id="1c1fc9aeaa18b66544b062a77cce0a7c" category="paragraph"><block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block></block>
   <block id="be1498340b3f9fa855a418021e4f3784" category="summary">您可以設定警示、以便在產生特定事件時通知您。您可以為單一資源、一組資源或特定嚴重性類型的事件設定警示。您可以指定通知的頻率、並將指令碼與警示建立關聯。</block>
   <block id="f1a7fa5a20f0a41855be8fed98c22304" category="doc">新增警示</block>
   <block id="080a3303ce24d4b2748eba343e78a0f5" category="list-text">您必須設定通知設定、例如使用者電子郵件地址、SMTP伺服器和SNMP設陷主機、才能讓Active IQ Unified Manager 此伺服器在產生事件時使用這些設定來傳送通知給使用者。</block>
@@ -2152,9 +2141,6 @@
   <block id="5e03e5325b691b090a8be6bd2f762894" category="list-text">在Volume / Health（磁碟區/健全狀況）詳細資料頁面上、按一下* Configuration（組態）*標籤。</block>
   <block id="2e20a9eb2d4c78deb4dfaf308fa76630" category="paragraph">畫面會顯示FabricPool 指派給Volume的分層原則名稱。</block>
   <block id="403c9064edefe525f194ea2083115a2a" category="list-text">在「*工作負載分析*」頁面中、您可以在「*容量趨勢*」區域中選取「雲端層檢視」、以查看上個月在本機效能層和雲端層所使用的容量。</block>
-  <block id="787a5dee8395c9fdec4cfed3e51fdaf5" category="paragraph">如需FabricPool 更多有關元化的資訊、請參閱《_ ONTAP 元化9磁碟與集合體電源指南》_。</block>
-  <block id="604e3b21e20d2e3d15be71c643b54e69" category="inline-link">《電力指南》（英文）ONTAP</block>
-  <block id="7858451050766dac30885eb560158270" category="paragraph"><block ref="7858451050766dac30885eb560158270" category="inline-link-rx"></block></block>
   <block id="047f218cde508f517efee65edfd05c5e" category="list-text">在左側導覽窗格中、按一下*儀表板*。</block>
   <block id="0da0e153560fee72ee839d42802ffce4" category="list-text">視您要檢視所有受監控叢集或單一叢集的安全狀態而定、請選取*所有叢集*或從下拉式功能表中選取單一叢集。</block>
   <block id="1b61f663f58ba1011964171230e44813" category="summary">您可以使用Aggregate / Health詳細資料頁面來檢視所選Aggregate的詳細資訊、例如容量、磁碟資訊、組態詳細資料和產生的事件。您也可以檢視相關物件的相關資訊、以及該Aggregate的相關警示。</block>
@@ -2756,7 +2742,6 @@
   <block id="5c96c912b91fd84d629dedfd84808218" category="list-text">在虛擬應用裝置上：</block>
   <block id="5b0abf47eb00598fbcf61f37f67408db" category="list-text">您必須知道Unified Manager維護使用者的名稱、才能進行還原作業。</block>
   <block id="1970b59936db8fca55b99ad4014b0a2d" category="list-text">在Linux系統上：</block>
-  <block id="e88e0d195ba81b534045141d8e30a1d1" category="list-text">您必須依照安裝指南中的指示、在RHEL或CentOS伺服器上安裝Unified Manager。</block>
   <block id="aa8a0d3c4fca5b51aba7b62e5d957e12" category="list-text">此伺服器上的Unified Manager版本必須與使用備份檔案的虛擬應用裝置版本相同。</block>
   <block id="5c7df9ba2c5c2c63b0b7dae110f7a530" category="list-text">安裝後、請勿啟動UI或在Linux系統上設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。</block>
   <block id="7d15b42d5091522573483414e70f81ee" category="list-text">您必須擁有Linux主機的root使用者認證資料。</block>
@@ -2868,17 +2853,12 @@
   <block id="bfef54bf5e739d61927a0c4b59a3e344" category="list-text">診斷及管理可用度問題</block>
   <block id="223349aab4cf55a8a8155654d93ffffc" category="paragraph">如果硬體故障或儲存資源組態問題導致儀表板頁面顯示資料可用度事件、儲存管理員可以依照內嵌的連結來檢視受影響儲存資源的連線資訊、檢視疑難排解建議、並將問題解決指派給其他管理員。</block>
   <block id="88e01cbe98781362b3721e3f315cbe5f" category="list-text">設定及監控效能事件</block>
-  <block id="e5397a259f5c5b5282ab6e67048a8c06" category="inline-link-macro">《叢集效能管理工作流程指南》Active IQ Unified Manager</block>
-  <block id="812a052c5bda0e828475b86f21d19325" category="paragraph">管理員可以監控及管理所監控之儲存系統資源的效能。請參閱 <block ref="462a173a2ae729165d70593def277285" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
   <block id="0139a98f6e0579c352b31c7b55dab82a" category="list-text">診斷及管理Volume容量問題</block>
   <block id="922341f19068faa5b454e09095be1e91" category="paragraph">如果「儀表板」頁面顯示Volume儲存容量問題、儲存管理員可以依照內嵌連結來檢視與受影響磁碟區儲存容量相關的目前和歷史趨勢、檢視疑難排解建議、並將問題解決指派給其他管理員。</block>
   <block id="38ab7145c9b312e9e1a5380622546696" category="list-text">設定、監控及診斷保護關係問題</block>
-  <block id="0808b6ab518dff39e7d02f5f2c43011c" category="inline-link-macro">《保護指南》Active IQ Unified Manager</block>
-  <block id="2ddeecbc7248d216919b53b0bc4c539a" category="paragraph">建立及設定保護關係之後、儲存管理員可以檢視與保護關係、保護關係的目前狀態、受影響關係的目前與歷史保護工作成功資訊、以及疑難排解建議等相關的潛在問題。請參閱 <block ref="b4eab4c42ec7f7100184207b5832d1dd" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
   <block id="b16a008feac2fca1e9fd0af37cfb7886" category="list-text">建立備份檔案並從備份檔案還原資料。</block>
   <block id="50f1945f83f8faaf1e24a4851b01f6bc" category="list-text">將儲存物件與附註建立關聯</block>
   <block id="dee1e75ffa4cde3d8824fa5a6144248f" category="paragraph">儲存物件與附註建立關聯後、儲存管理員即可篩選及檢視與儲存物件相關的事件、讓儲存管理員能夠排定優先順序、並解決與事件相關的問題。</block>
-  <block id="af72e4a0267d9949729e09700b75184d" category="list-text">使用REST API檢視Unified Manager擷取的健全狀況、容量和效能資訊、協助管理叢集。請參閱 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
   <block id="b8496a14ff4b794a94b62e121844a8ad" category="list-text">傳送支援服務包給技術支援人員</block>
   <block id="c378b949211960b7600706f3b0b6c302" category="paragraph">儲存管理員可以使用維護主控台擷取支援套件、並將其傳送給技術支援部門。當問題需要比AutoSupport 消息所提供的更詳細的診斷和疑難排解時、必須將支援服務組合寄送給技術支援部門。</block>
   <block id="af97b464ed741302dba625389e090a6c" category="summary">您可以在Unified Manager中建立群組、以管理儲存物件。瞭解群組的概念、以及群組規則如何讓您將儲存物件新增至群組、將有助於管理環境中的儲存物件。</block>
@@ -3160,13 +3140,10 @@
   <block id="1f3804a712ae0ea4c9aeac877f68a7ca" category="list-text">節點庫存和節點效能頁面</block>
   <block id="342b0f6cd8ee0fd78fca9dd7e45a03d3" category="list-text">StorageVM Inventory、StorageVM Health和StorageVM Performance頁面</block>
   <block id="1dc40ad03f73a1e16893b4e4bfcdf3e1" category="list-text">保護關係頁面</block>
-  <block id="d2e5b8d7d05b0bde3c190ae9547acc73" category="summary">本指南包含Active IQ Unified Manager 有關支援解決資料儲存容量、可用度及保護問題的兩種使用者介面資訊。這兩個UI是Unified Manager Web UI和維護主控台。</block>
   <block id="ec731d5e7e0cf391407e9c8ac3e4caed" category="doc">Unified Manager介面、用於管理儲存系統健全狀況</block>
   <block id="60d0bc57a0a67c2973b6e48ff1d90534" category="paragraph">如果您想要使用Unified Manager的保護功能、也必須安裝及設定OnCommand Workflow Automation WFA。</block>
   <block id="79500a96134ea895ab9ad39cf0211ea0" category="paragraph">Unified Manager Web UI可讓系統管理員監控及疑難排解與資料儲存容量、可用度及保護相關的叢集問題。</block>
-  <block id="216b57dea44dfc57b138e3d37aefffcb" category="paragraph">本指南說明系統管理員可遵循的一些常見工作流程、以疑難排解Unified Manager Web UI中顯示的儲存容量、資料可用度或保護問題。</block>
   <block id="601a076ceb57e2d6ddb048ba06d7a67a" category="paragraph">Unified Manager維護主控台可讓系統管理員監控、診斷及解決作業系統問題、版本升級問題、使用者存取問題、以及與Unified Manager伺服器本身相關的網路問題。如果Unified Manager Web UI無法使用、則維護主控台是唯一存取Unified Manager的方式。</block>
-  <block id="7acb8b5fbc7c25eb181e57322de80859" category="paragraph">本指南提供存取維護主控台的指示、以及如何使用它來解決Unified Manager伺服器運作的相關問題。</block>
   <block id="aba678166340854fcdc83e4d6d99ca89" category="summary">您可以將值新增至註釋、然後將儲存物件與特定的註釋名稱值配對建立關聯。在附註中新增值有助於更有效地管理儲存物件。</block>
   <block id="ec1131dba2b36036c9d1d87fb431852d" category="doc">新增值至註釋</block>
   <block id="cce07a2d18b395b6cb7fa90f867659a1" category="paragraph">您無法將值新增至預先定義的註釋。</block>
@@ -4274,8 +4251,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="79d86beeb01a37f9ec75abd845d3ed41" category="summary">支援的儲存系統可透過REST風格的網路服務介面、針對任何協力廠商整合、提供一套API來管理儲存資源。Active IQ Unified Manager</block>
   <block id="97fe658caa11a827b1561a6db6e7b2f0" category="doc">功能入門Active IQ Unified Manager</block>
-  <block id="578e4c65e2f2ccda698295f2960d9c68" category="paragraph">_Unified Manager API開發人員指南_提供API和範例程式碼的相關資訊。本指南所提供的資訊可讓您建立NetApp管理軟體解決方案的RESTful用戶端、以管理NetApp系統。API 是以代表狀態傳輸（ REST ）架構風格為基礎。</block>
-  <block id="d5245acd47bece2526aa76e205a7f499" category="paragraph">Unified Manager提供API產品、可在您的NetApp環境中進行儲存管理。支援全部四項REST作業：建立、讀取、更新及刪除（也稱為CRUD）。</block>
   <block id="f1827b561032cc12874de0925a08e9de" category="summary">您可以使用管理伺服器類別下的工作API來檢視非同步作業的執行詳細資料。</block>
   <block id="a70ffe4d7d938e7da45c7e76de188dae" category="doc">檢視工作與系統詳細資料</block>
   <block id="ed512537703bc53e8afe4815c83892a1" category="paragraph">您可以使用「管理伺服器」類別下的「jobs」API來檢視非同步作業的執行詳細資料。「management server」（管理伺服器）類別下的「System」API可讓您在Active IQ Unified Manager 您的不執行個體環境中檢視執行個體詳細資料。</block>
@@ -4521,9 +4496,7 @@
   <block id="fd40a35b04e72e1f110162f37e9a5415" category="paragraph">API會傳回該叢集中的儲存磁碟區清單。回應格式與ONTAP 您在執行相同的來自S什麼 的API時所收到的格式相同。傳回的狀態代碼為ONTAP 「靜止」狀態代碼。</block>
   <block id="e8dc00bb5c4a79a30cb6961d8c719c68" category="section-title">設定API範圍</block>
   <block id="876ee7ae93146d0a8658b4651eba9103" category="paragraph">所有API都在叢集範圍內設定內容。以儲存VM為基礎運作的API也會將叢集當作範圍、也就是API作業會在受管理叢集內的特定儲存VM上執行。當您執行「/gatewes/\｛uuid｝/\｛path｝」API時、請務必輸入執行作業之叢集的叢集UUID（Unified Manager資料來源UUID）。若要將內容設定為該叢集中的特定儲存VM、請輸入儲存VM金鑰作為X-Dot-Svm-UUID參數、或輸入儲存VM名稱作為X-Dot-Svm-Name參數。此參數會新增為字串標頭中的篩選器、而且作業會在該叢集內該儲存VM的範圍內執行。</block>
-  <block id="716b5016376bbd3fcbebe6401884d589" category="paragraph">如需使用ONTAP 靜態API的詳細資訊、請參閱ONTAP 《關於使用靜態API的開發人員指南》。</block>
   <block id="10ca66f0a363b90a579ee48398d9ca6c" category="inline-link">靜態API自動化ONTAP</block>
-  <block id="64bce96c9eeebb3c2c4e4047917784d7" category="paragraph"><block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
   <block id="ad7ba0a016964f2f0b1c07bca3be8bf6" category="summary">在執行API或疑難排解問題時、您應該注意Active IQ Unified Manager 到由資訊技術API使用的各種HTTP狀態代碼和錯誤代碼。</block>
   <block id="5c3c5afd883b4629418987f61fd9b72a" category="doc">HTTP狀態代碼用於Active IQ Unified Manager</block>
   <block id="39e304b3b63179c7d3782b452ed3d1dc" category="paragraph">下表列出與驗證相關的錯誤代碼：</block>
@@ -4965,10 +4938,6 @@
   <block id="c56905729fc808fe336ea9bf2ca70060" category="paragraph">邏輯儲存資源包括所有類型和qtree的磁碟區、以及您可以搭配這些資源使用的功能和組態、例如Snapshot複本、重複資料刪除、壓縮和配額。</block>
   <block id="bd5fde075b251b5502969a404a6f6bea" category="paragraph">下圖顯示雙節點叢集中的儲存資源：</block>
   <block id="d48282ae57cfe1c6851ddf5ed32ed2dc" category="image-alt">儲存資源模式</block>
-  <block id="42ca9b31313a0beb2d48b38e777b7aac" category="summary">本指南專供開發人員透過Active IQ Unified Manager REST API、建立可與該等軟體介面的應用程式。</block>
-  <block id="1beb50c2864987e0a443567dc2d3f557" category="doc">本指南的對象</block>
-  <block id="f9b753b57152e3473f288bfca41578e6" category="paragraph">本指南也適用於想要基本瞭解Unified Manager中提供的其餘API如何用於建置用戶端應用程式以管理及監控NetApp儲存系統的儲存管理員和架構設計師。</block>
-  <block id="5841c3cbebdeaf4f091c84806e84f634" category="paragraph">如果您想要使用儲存供應商、ONTAP 叢集和管理管理API來管理儲存設備、請使用本指南。</block>
   <block id="4934578b4d9943215b7677832e08ba17" category="paragraph">您必須具備下列任一角色：營運者、儲存管理員或應用程式管理員。您必須知道Unified Manager伺服器的IP位址或完整網域名稱、以便在其中執行REST API。</block>
   <block id="6da8ee392d198b3805dfc1065c7d106d" category="summary">您可以使用管理類別下的API來修改備份設定、驗證備份檔案資訊和叢集憑證、也可以將ONTAP 無法使用的叢集當作Active IQ Unified Manager 資料來源來管理。</block>
   <block id="ef6534856e50e6523e29bf37e4a45e63" category="doc">執行管理工作</block>
@@ -5008,9 +4977,6 @@
   <block id="67dbb1f6790f1356816b7c1f7d9e79f1" category="paragraph">在執行工作流程步驟之前、請先確認下列事項：</block>
   <block id="13d26d61e105eac658b26eb7233558ec" category="list-text">您知道閘道API及其使用方式。如需相關資訊、請參閱「閘道API」一節。</block>
   <block id="b9a74ea4cc3968aa390e4a126aaaaaa7" category="paragraph"><block ref="b9a74ea4cc3968aa390e4a126aaaaaa7" category="inline-link-macro-rx"></block></block>
-  <block id="fb93d0ceba2d361c56d4fa7956d3c79a" category="list-text">您知道ONTAP 使用的是靜止API。如需使用ONTAP 靜態API的相關資訊、請參閱_ ONTAP 《_景點API開發人員指南》_。</block>
-  <block id="d3c245e0ba47ccc6c3f574b4025a4f2a" category="inline-link">「REST API開發人員指南」ONTAP</block>
-  <block id="dc6fb9bed71b990921b84ce51c06ef16" category="paragraph"><block ref="dc6fb9bed71b990921b84ce51c06ef16" category="inline-link-rx"></block></block>
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">您是應用程式管理員。</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">執行REST API作業的叢集由ONTAP 支援版本的版本為版本9.5或更新版本、而且叢集會透過HTTPS新增至Unified Manager。</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">下圖說明疑難排解ONTAP 使用場景容量問題的工作流程中的每個步驟。</block>
@@ -5041,7 +5007,6 @@
   <block id="d5269135257a3821fc8f06cd5f7df19c" category="paragraph">輸出會顯示增加的Volume大小為120 GB。</block>
   <block id="cf34db983c807f1b3f9a4ea61d46d60a" category="summary">您可以使用REST API來檢視Unified Manager擷取的健全狀況、容量、效能和安全資訊、以協助管理叢集。</block>
   <block id="d4ebc5d6d732b6ec32a446521b4a3d9a" category="doc">Unified Manager REST API可用於報告</block>
-  <block id="a0bf3c3ab8e8109cf98b998018b604d4" category="paragraph">REST API會透過Swagger網頁公開。您可以存取Swagger網頁以顯示Unified Manager REST API文件、以及手動發出API呼叫。在Unified Manager Web UI的功能表列中、按一下「*說明*」按鈕、然後選取「* API說明文件*」。如需Unified Manager REST API的相關資訊、請參閱 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>。</block>
   <block id="e562c08e75037d1102362250b8921681" category="paragraph">您必須擁有「操作員」、「儲存管理員」或「應用程式管理員」角色、才能存取REST API。</block>
   <block id="78a4d2a5c11fbe0fabc364f927cee430" category="summary">Unified Manager使用MySQL資料庫來儲存其監控叢集的資料。資料會保留在MySQL資料庫的各種架構中。</block>
   <block id="d5ea85509854f0a6127fa50e8afb640c" category="doc">Unified Manager資料庫可供自訂報告使用</block>
@@ -5114,7 +5079,6 @@
   <block id="2c20d1fdc733c16bfdde363b7ee6b15a" category="list-text">命名未儲存的檢視以儲存變更。</block>
   <block id="52be5acc39d8a7670dbcd31c91338f2a" category="summary">您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。</block>
   <block id="5fc482204e2b114b41ae634b60c74659" category="doc">用於產生報告的存取點</block>
-  <block id="c26ca00d29aed12fea934a14b85b2edf" category="paragraph">本指南涵蓋透過UI進行Unified Manager報告與排程。</block>
   <block id="24172ece7e058fbf2b29c5d96eeb0d30" category="paragraph">有三種方法可以存取Unified Manager提供的報告功能：</block>
   <block id="9a849dcfe7e1ec40ab9f6c5993614745" category="list-text">直接從UI中的庫存頁面擷取資料。</block>
   <block id="f0ee512588a57491effeae72db062f2c" category="list-text">使用開放式資料庫連線（Open Database Connectivity、ODBC/ODBC-）工具來存取所有可用的物件。</block>
@@ -5844,13 +5808,10 @@
   <block id="3833ead277badf6fd54e7d02004043c0" category="paragraph">按一下「*套用篩選器*」之後、「篩選」面板會關閉、套用您的篩選器、並顯示套用的篩選器數量（<block ref="106769b36670dda8bedb0e744694e40d" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="11f98082c78bd4b4f7e2b0c02e25913c" category="summary">您可以確保正確設定VMware組態、以避免MetroCluster 在鏡射工作負載上發生效能問題MetroCluster 。您也可以變更組態或升級軟體或硬體元件、以改善工作負載效能。</block>
   <block id="6c13338c46979ee168ed6bef9776fc99" category="doc">驗證組態MetroCluster</block>
-  <block id="146292de9bff0d14d5180fd06a161542" category="paragraph">《_版安裝與組態指南_》提供設定支援以支援各種組態的叢集的說明、包括光纖通道（FC）交換器、纜線和交換器間連結（ISL）MetroCluster MetroCluster 。此外、它也能協助您設定MetroCluster 支援功能、讓本機和遠端叢集能夠與鏡射Volume資料通訊。</block>
-  <block id="a6676e3e225267d921cfd20766bf3b26" category="paragraph">您可以將MetroCluster 您的不完整組態與《_ MetroCluster 版安裝與組態指南》_的要求進行比較、以判斷MetroCluster 變更或升級您的不完整組態中的元件、是否能改善工作負載效能。此比較可協助您回答下列問題：</block>
   <block id="f0bb9d9bd1477ac75e85e68f732ab7c2" category="list-text">控制器是否適合您的工作負載？</block>
   <block id="6b51233d024bfbd0f40c2c90deedb830" category="list-text">您是否需要將ISL套裝組合升級至更大的頻寬、才能處理更多處理量？</block>
   <block id="c77f72edc7bc08ea20404836e2d23cda" category="list-text">您是否可以調整交換器上的緩衝區對緩衝區點數（英國廣播公司）來增加頻寬？</block>
   <block id="eda02356b488ccb24bdc3a909aebae7d" category="list-text">如果您的工作負載對固態磁碟機（SSD）儲存設備的寫入處理量很高、您是否需要升級FC至SAS橋接器以因應處理量？</block>
-  <block id="5e264ebd0e27986d5788537a3b2eba95" category="paragraph">如需更換或升級MetroCluster 等元件的相關資訊、請參閱《_ MetroCluster 》服務指南_。</block>
   <block id="9c909fca5314283822fbb416907c8756" category="summary">您可以設定個別效能事件的警示、就像Unified Manager收到的任何其他事件一樣。此外、如果您想要處理所有效能事件、並將電子郵件傳送給同一位人員、您可以建立單一警示、以便在觸發任何重大或警告效能事件時通知您。</block>
   <block id="57067c6be4ab4eaa74f090996e8090fb" category="doc">新增效能事件的警示</block>
   <block id="6d4252a4f2a90c5f84c11bcea4862641" category="paragraph">以下範例說明如何建立所有關鍵延遲、IOPS和Mbps事件的事件。您可以使用相同的方法、從所有效能計數器和所有警告事件中選取事件。</block>
@@ -6012,9 +5973,6 @@
   <block id="7d7b9627556571b9238c27ac60f5f825" category="paragraph">選取臨界值原則時、會顯示原則的詳細資料、以便您確認已選取適當的原則。</block>
   <block id="72563a114421d5c552819f674bfc5377" category="summary">共有兩種使用者介面Active IQ Unified Manager 、可用來監控及疑難排解資料儲存效能問題：網路使用者介面和維護主控台。</block>
   <block id="4a6543511f6b6ff2d29a6c6c7a97bdc7" category="doc">Unified Manager介面、用於管理儲存系統效能</block>
-  <block id="851b23a439a1dfe96c533ebe2d9d3f84" category="paragraph">Unified Manager Web UI可讓系統管理員監控及疑難排解與效能相關的儲存系統問題。</block>
-  <block id="d6312a3110af0b6d27f29c82529abcd1" category="paragraph">本指南說明系統管理員可遵循的一些常見工作流程、以疑難排解Unified Manager Web UI中顯示的儲存效能問題。</block>
-  <block id="432c4f13204d60726516c41afbe6ceb6" category="paragraph">維護主控台可讓系統管理員監控、診斷及解決作業系統問題、版本升級問題、使用者存取問題、以及與Unified Manager伺服器本身相關的網路問題。如果Unified Manager Web UI無法使用、則維護主控台是唯一存取Unified Manager的方式。</block>
   <block id="7e0b13097af7e302bf43084419b58269" category="summary">叢集組態資料的收集時間間隔為15分鐘。例如、新增叢集之後、Unified Manager UI中會顯示叢集詳細資料需要15分鐘。此時間間隔也適用於對叢集進行變更的情況。</block>
   <block id="3e358cce145bbdfee1fe080d0284a740" category="doc">叢集組態與效能資料收集活動</block>
   <block id="e9c8546ba5664dd451d620fe1418016a" category="paragraph">叢集組態資料的收集時間間隔為15分鐘。例如、新增叢集之後、Unified Manager UI中會顯示叢集詳細資料需要15分鐘。此時間間隔也適用於對叢集進行變更的情況。</block>
@@ -6856,9 +6814,6 @@
   <block id="f80167d4c9ac616c8557a447b160b58e" category="paragraph">虛線的橫線表示ONTAP 在功能表中設定的最大或最小處理量值。您也可以檢視QoS值的變更實作時間。</block>
   <block id="e3356b9fa18847810697e85319871223" category="list-text">若要檢視與QoS設定比較的特定IOPS和MB/s值、請將游標移至圖表區、以查看快顯視窗。</block>
   <block id="3fafca713e2ceac1bbc45fddcbddda8f" category="paragraph">如果您注意到某些磁碟區或LUN的IOPS或MB/s非常高、並在強調系統資源、您可以使用System Manager或ONTAP CLI來調整QoS設定、使這些工作負載不會影響其他工作負載的效能。</block>
-  <block id="c5441005fe66b7483c77a681387ba3f2" category="paragraph">如需調整QoS設定的詳細資訊、請參閱《_ ONTAP 效能監控電源指南_》。</block>
-  <block id="a292889443f4c61cd0e649da7aba0113" category="inline-link">《效能監控電源指南》（英文）ONTAP</block>
-  <block id="2fea2b0ee79f4ef0aafa74a0cf304984" category="paragraph"><block ref="2fea2b0ee79f4ef0aafa74a0cf304984" category="inline-link-rx"></block></block>
   <block id="c18159ce3740e702eae8dada9e86ed46" category="summary">延遲預測是指預測特定時間的效能值上限和下限。針對工作負載延遲、較高的值會形成效能臨界值。當實際值超過效能臨界值時、Unified Manager會觸發動態效能事件。</block>
   <block id="2568937e31fb821e9f6e170c400ff2ff" category="doc">預期的效能範圍為何</block>
   <block id="650e7ef0e56dcb57ce661b95de1842ed" category="paragraph">例如、在正常營業時間上午9：00之間下午5：00、大部分員工可能會在上午9：00之間查看電子郵件上午10：30電子郵件伺服器的需求增加、表示在此期間後端儲存設備的工作負載活動增加。員工可能會注意到電子郵件用戶端的回應時間過慢。</block>
@@ -10895,7 +10850,6 @@
   <block id="8a13d1a5338f1794b0454274eb4286a1" category="summary">支援REST API、讓您檢視監控及管理儲存環境的相關資訊。Active IQ Unified ManagerAPI也能根據原則來進行資源配置和管理儲存物件。</block>
   <block id="12d49648274bb61cf34ecef5c6ec1acc" category="doc">使用Unified Manager REST API</block>
   <block id="3c7317176d7c7efc96ac34c6081c3782" category="paragraph">您也ONTAP 可以使用Unified Manager支援的API閘道、在所有ONTAP管理的叢集上執行RESUtricity API。</block>
-  <block id="23fcaff94a10432c35d4bf5294d692bd" category="paragraph">如需Unified Manager REST API的相關資訊、請參閱 <block ref="1c1fc9aeaa18b66544b062a77cce0a7c" category="inline-link-macro-rx"></block>。</block>
   <block id="2b6a651b25306285bbf3fab16f25d047" category="summary">您可以ONTAP 直接從Unified Manager使用者介面修正某些功能不全的問題、而不需要使用ONTAP 功能不全的系統管理程式或ONTAP 功能不全的CLI。「管理行動」選項可修正ONTAP 觸發Unified Manager事件的許多問題。</block>
   <block id="17d875fb379134387709792c107bfe79" category="doc">直接從Unified Manager管理ONTAP 各種問題或功能</block>
   <block id="3ef8e1c9b6637e09428aabf40422f1be" category="paragraph">您可以直接ONTAP 從Unified Manager使用者介面修正某些功能的某些問題或管理某些ONTAP 功能、而不需要使用ONTAP 「更新版系統管理程式」或ONTAP 「更新版CLI」。「管理行動」選項可修正ONTAP 許多引發Unified Manager事件的問題。</block>
@@ -11627,4 +11581,46 @@
   <block id="5a668f8970655ef1c7d0b0f27eacfe05" category="summary">提供Active IQ Unified Manager 有關更新功能、限制和已知問題的摘要、以供參閱。</block>
   <block id="695f7221e4fd4e02429db7170b21c850" category="sidebar">零點9.11文件Active IQ Unified Manager</block>
   <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
+  <block id="ffef03803be76fabe5b17e1b0cca3ca2" category="inline-link-macro">開始使用Active IQ Unified Manager 靜態API</block>
+  <block id="bc284f9f2dda2417b7038eecc87d4d2c" category="paragraph">REST API會透過Swagger網頁公開。您可以存取Swagger網頁以顯示Unified Manager REST API文件、以及手動發出API呼叫。在Unified Manager Web UI的功能表列中、按一下「*說明*」按鈕、然後選取「* API說明文件*」。如需Unified Manager REST API的相關資訊、請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>。</block>
+  <block id="04e9746ec2f77de5b770208af5510f13" category="paragraph">以下各節說明Unified Manager透過UI進行的報告與排程。</block>
+  <block id="6b4f58d10ed3b35bb65050a16ca6ac3d" category="paragraph">如需Unified Manager REST API的相關資訊、請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>。</block>
+  <block id="875a562b253c918381909e83d7ea440f" category="paragraph">如需使用ONTAP 靜態API的詳細資訊、請參閱<block ref="64bce96c9eeebb3c2c4e4047917784d7" category="inline-link-rx"></block></block>
+  <block id="d56255edf472cd81dccc345368cf704a" category="summary">本節旨在協助開發人員建立應用程式、Active IQ Unified Manager 以便透過REST API與該軟件建立介面。</block>
+  <block id="13e6ac0d3f3117472ef77f064f6e7875" category="doc">此內容的對象</block>
+  <block id="e70ffe5c1fb97348e2772026bc8f9053" category="paragraph">此處主題是專為開發人員所設計、可透過Active IQ Unified Manager REST API與該軟件建立介面的應用程式。</block>
+  <block id="07d5d415bfefac25544c64041aa2a8ac" category="paragraph">儲存管理員和架構設計師可以參考此資訊、以取得對Unified Manager REST API如何用於建置用戶端應用程式以管理及監控NetApp儲存系統的基本瞭解。</block>
+  <block id="f6d07d9cb69a06c62ecf3ad8f5e5ed11" category="paragraph">如果您想要使用儲存供應商、ONTAP 叢集和管理管理API來管理儲存設備、請使用此資訊。</block>
+  <block id="882ace1b5625d5206c06119e912a445a" category="paragraph">在這些主題中、您會看到Unified Manager API的相關資訊、解決特定問題的工作流程範例、以及一些範例程式碼。您可以利用此資訊、為NetApp管理軟體解決方案建立RESTful Client、以管理NetApp系統。API 是以代表狀態傳輸（ REST ）架構風格為基礎。支援全部四項REST作業：建立、讀取、更新及刪除（也稱為CRUD）。</block>
+  <block id="ec033dcf5fdadae0c2ee4fad5b7980ac" category="inline-link">自動化文件ONTAP</block>
+  <block id="b97a1f9b37add50c00a0733ad2d495d6" category="list-text">您知道ONTAP 使用的是靜止API。如需使用ONTAP 靜態API的相關資訊、請參閱<block ref="3be764d3fde1729a00ba1f231c9aeab3" category="inline-link-rx"></block>。</block>
+  <block id="fc02256f91be6788baac66e32980c9f1" category="paragraph">這些章節包含Active IQ Unified Manager 有關兩個使用者介面的資訊、這些介面可用來疑難排解資料儲存容量、可用度和保護問題。這兩個UI是Unified Manager Web UI和維護主控台。</block>
+  <block id="87b418cd1be42fdcae7cfbe253627d42" category="paragraph">以下各節說明系統管理員可遵循的一些常見工作流程、以疑難排解Unified Manager Web UI中顯示的儲存容量、資料可用度或保護問題。</block>
+  <block id="39d16b9f4dce68f8146223fd30f02e44" category="paragraph">您可以使用此資訊來存取維護主控台、並使用它來解決與Unified Manager伺服器功能相關的問題。</block>
+  <block id="c6d03aceb6e28fe114f21b43f5500da1" category="inline-link">效能管理總覽</block>
+  <block id="62f8662ca1ad633f186e31e0d4873505" category="paragraph">如需調整QoS設定的詳細資訊、請參閱<block ref="8b5b4dee150c1781ecff4cc00d8b0ae8" category="inline-link-rx"></block></block>
+  <block id="1567e926a28e2d218915e48c745420ad" category="paragraph">如需調整QoS設定的詳細資訊、請參閱<block ref="25073b168bb7003d730c7138e2591b6b" category="inline-link-rx"></block>。</block>
+  <block id="ebcd093c3800f9c5ea01610389eac455" category="paragraph">如需調整QoS設定的詳細資訊、請參閱<block ref="25073b168bb7003d730c7138e2591b6b" category="inline-link-rx"></block></block>
+  <block id="7f4d4fbe08a8a895671d05c4a82b0c85" category="inline-link">資訊文件MetroCluster</block>
+  <block id="2200bc08e5e08d770226d6e584fb6acf" category="paragraph">請參閱<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block> 如需在MetroCluster 不含資訊的組態中設定叢集的說明、包括光纖通道（FC）交換器、纜線和交換器間連結（ISL）。此外、它也能協助您設定MetroCluster 支援功能、讓本機和遠端叢集能夠與鏡射Volume資料通訊。</block>
+  <block id="af94187148a4c8f4c383ffa07b34873e" category="paragraph">您可以將MetroCluster 您的不整組態與中的需求進行比較<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block> 判斷MetroCluster 變更或升級您的不實組態中的元件、可能會改善工作負載效能。此比較可協助您回答下列問題：</block>
+  <block id="9d4e0ffef139e06784b4032d7cd0b60d" category="paragraph">如需更換或升級MetroCluster 等元件的相關資訊、請參閱<block ref="4b197b525e7dc9b10910dc448962240a" category="inline-link-rx"></block>。</block>
+  <block id="204fe9c6711d4d00c6ae7be4af3ffad2" category="paragraph">您稍後可從*一般*&gt;*功能設定*&gt;* API閘道*的網路UI中啟用或停用此設定。如需API的詳細資訊、請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>。</block>
+  <block id="207bd85cdd3974db9e04fc5d08c539cc" category="paragraph">如需API的詳細資訊、請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block>。</block>
+  <block id="493e343ace2014edb515f179a6dd1570" category="paragraph">您可以存取Web UI來執行Unified Manager的初始設定、如所述 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
+  <block id="a8eb189b1f06b1c8edcc1d5c07a727bb" category="paragraph">HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱_設定Active IQ Unified Manager SURF__。</block>
+  <block id="c0e80a6e89d09d7c5e1f41b64ee3c406" category="paragraph"><block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block></block>
+  <block id="677bb67b43e56c44269810a302788b34" category="paragraph">以下各節說明下列工作流程中顯示的每個項目。</block>
+  <block id="a443bb5ff4d682a884bc90952a453409" category="list-text">Unified Manager資料目錄、例如：「C：\ProgramData\NetApp\OnCommandAppData\」</block>
+  <block id="ce5ddf4bea759996010f53b321d1ab17" category="list-text">Unified Manager安裝目錄、例如：「C:\Program Files\NetApp\」</block>
+  <block id="f9d3a25dc93d1316544e0bc4c27c6779" category="list-text">MySQL資料目錄、例如「C：\ProgramData\MySQLServerData」</block>
+  <block id="35016a16114185b9f23c8e507180958f" category="paragraph">管理員可以監控及管理所監控之儲存系統資源的效能。請參閱 <block ref="ba69bc4fc63cd6b5cc812da4cc091472" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="7680e8653656c48f3243310c83932b54" category="paragraph">建立及設定保護關係之後、儲存管理員可以檢視與保護關係、保護關係的目前狀態、受影響關係的目前與歷史保護工作成功資訊、以及疑難排解建議等相關的潛在問題。請參閱 <block ref="4e76243b1e59b37cf4420efe0ce8dc5b" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="b7f7029b19d9761718c4c55a16cdf61d" category="list-text">使用REST API檢視Unified Manager擷取的健全狀況、容量和效能資訊、協助管理叢集。請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
+  <block id="459527cf1ec141d19f1b0f88f8c19905" category="inline-link">磁碟與集合體總覽</block>
+  <block id="aad863edfd2a5a1d82823ec18ab5b85c" category="paragraph">如需FabricPool 更多有關元數據的資訊、請參閱<block ref="9923f5cc5c6dab834ea3bb7ffc7dbcfc" category="inline-link-rx"></block>。</block>
+  <block id="d44aaf9fc8b7b474d77879bc4e8cd00a" category="summary">本節包含Active IQ Unified Manager 有關兩種使用者介面的資訊、這些介面可用來疑難排解資料儲存容量、可用度和保護問題。這兩個UI是Unified Manager Web UI和維護主控台。</block>
+  <block id="c37949fda7ff1b2246f6718aca6092a2" category="list-text">您必須依照中的指示、在Linux伺服器上安裝Unified Manager <block ref="e8607b27bcb98464e6dcda8f12f8aa38" category="inline-link-macro-rx"></block>。</block>
+  <block id="362bda8047ba899ec7fa3be3f8333688" category="paragraph">存取Web UI以變更umadmin使用者的預設密碼、並執行Unified Manager的初始設定、如所述 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
+  <block id="34a79347cdfaf44fb419601fd9f52440" category="paragraph">HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
 </blocks>

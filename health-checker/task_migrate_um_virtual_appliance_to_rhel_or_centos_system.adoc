@@ -23,7 +23,7 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 * 在Linux系統上：
 +
-** 您必須依照安裝指南中的指示、在RHEL或CentOS伺服器上安裝Unified Manager。
+** 您必須依照中的指示、在Linux伺服器上安裝Unified Manager link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["在Linux系統上安裝Unified Manager"]。
 ** 此伺服器上的Unified Manager版本必須與使用備份檔案的虛擬應用裝置版本相同。
 ** 安裝後、請勿啟動UI或在Linux系統上設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。
 ** 您必須擁有Linux主機的root使用者認證資料。

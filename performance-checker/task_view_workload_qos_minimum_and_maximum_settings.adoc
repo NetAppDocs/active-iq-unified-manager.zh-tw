@@ -68,6 +68,4 @@ QoS處理量「最小」和「最大」IOPS和MB/s設定只有在ONTAP 進行了
 
 如果您注意到某些磁碟區或LUN的IOPS或MB/s非常高、並在強調系統資源、您可以使用System Manager或ONTAP CLI來調整QoS設定、使這些工作負載不會影響其他工作負載的效能。
 
-如需調整QoS設定的詳細資訊、請參閱《_ ONTAP 效能監控電源指南_》。
-
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["《效能監控電源指南》（英文）ONTAP"]
+如需調整QoS設定的詳細資訊、請參閱 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["效能管理總覽"]

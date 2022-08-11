@@ -86,9 +86,9 @@ Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager
 * udp連接埠514應該是免費的、不應由任何其他服務使用。
 * 如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager安裝可能會失敗。在安裝Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：
 +
-** Unified Manager資料目錄
-** Unified Manager安裝目錄
-** MySQL資料目錄
+** Unified Manager資料目錄、例如：「C：\ProgramData\NetApp\OnCommandAppData\」
+** Unified Manager安裝目錄、例如：「C:\Program Files\NetApp\」
+** MySQL資料目錄、例如「C：\ProgramData\MySQLServerData」
 
 
 

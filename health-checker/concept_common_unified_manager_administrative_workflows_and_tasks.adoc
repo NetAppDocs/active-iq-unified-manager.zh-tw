@@ -27,7 +27,7 @@ Unified Manager也可納入包含相關管理工具（例如OnCommand Workflow A
 
 * 設定及監控效能事件
 +
-管理員可以監控及管理所監控之儲存系統資源的效能。請參閱 link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["《叢集效能管理工作流程指南》Active IQ Unified Manager"] 以取得更多資訊。
+管理員可以監控及管理所監控之儲存系統資源的效能。請參閱 link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["介紹功能介紹：效能監控Active IQ Unified Manager"] 以取得更多資訊。
 
 * 診斷及管理Volume容量問題
 +
@@ -35,14 +35,14 @@ Unified Manager也可納入包含相關管理工具（例如OnCommand Workflow A
 
 * 設定、監控及診斷保護關係問題
 +
-建立及設定保護關係之後、儲存管理員可以檢視與保護關係、保護關係的目前狀態、受影響關係的目前與歷史保護工作成功資訊、以及疑難排解建議等相關的潛在問題。請參閱 link:../data-protection/concept_create_and_monitor_protection_relationships.html["《保護指南》Active IQ Unified Manager"] 以取得更多資訊。
+建立及設定保護關係之後、儲存管理員可以檢視與保護關係、保護關係的目前狀態、受影響關係的目前與歷史保護工作成功資訊、以及疑難排解建議等相關的潛在問題。請參閱 link:../data-protection/concept_create_and_monitor_protection_relationships.html["建立、監控及疑難排解保護關係"] 以取得更多資訊。
 
 * 建立備份檔案並從備份檔案還原資料。
 * 將儲存物件與附註建立關聯
 +
 儲存物件與附註建立關聯後、儲存管理員即可篩選及檢視與儲存物件相關的事件、讓儲存管理員能夠排定優先順序、並解決與事件相關的問題。
 
-* 使用REST API檢視Unified Manager擷取的健全狀況、容量和效能資訊、協助管理叢集。請參閱 link:../api-automation/concept_get_started_with_um_apis.html["《NetApp API開發人員指南》Active IQ Unified Manager"] 以取得更多資訊。
+* 使用REST API檢視Unified Manager擷取的健全狀況、容量和效能資訊、協助管理叢集。請參閱 link:../api-automation/concept_get_started_with_um_apis.html["開始使用Active IQ Unified Manager 靜態API"] 以取得更多資訊。
 * 傳送支援服務包給技術支援人員
 +
 儲存管理員可以使用維護主控台擷取支援套件、並將其傳送給技術支援部門。當問題需要比AutoSupport 消息所提供的更詳細的診斷和疑難排解時、必須將支援服務組合寄送給技術支援部門。

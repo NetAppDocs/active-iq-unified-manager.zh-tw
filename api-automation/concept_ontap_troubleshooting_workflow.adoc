@@ -23,10 +23,7 @@ summary: 閘道API可做為閘道、以叫用ONTAP 功能完善的API來查詢ON
 +
 link:concept_gateway_apis.html["透過Proxy存取功能存取ONTAP 功能的部分API"]
 
-* 您知道ONTAP 使用的是靜止API。如需使用ONTAP 靜態API的相關資訊、請參閱_ ONTAP 《_景點API開發人員指南》_。
-+
-https://docs.netapp.com/us-en/ontap-automation/index.html["「REST API開發人員指南」ONTAP"]
-
+* 您知道ONTAP 使用的是靜止API。如需使用ONTAP 靜態API的相關資訊、請參閱https://docs.netapp.com/us-en/ontap-automation/index.html["自動化文件ONTAP"]。
 * 您是應用程式管理員。
 * 執行REST API作業的叢集由ONTAP 支援版本的版本為版本9.5或更新版本、而且叢集會透過HTTPS新增至Unified Manager。
 
