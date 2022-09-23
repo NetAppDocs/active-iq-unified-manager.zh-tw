@@ -29,16 +29,13 @@ Unified Manager虛擬應用裝置的VMware快照
 
 
 
- a| 
-Red Hat Enterprise Linux或CentOS Linux
- a| 
+.2+| Red Hat Enterprise Linux或CentOS Linux  a| 
 小
  a| 
 Unified Manager MySQL資料庫傾印
 
 
 
- a| 
  a| 
 大
  a| 
@@ -46,16 +43,13 @@ NetApp Snapshot of Unified Manager資料庫
 
 
 
- a| 
-Microsoft Windows
- a| 
+.2+| Microsoft Windows  a| 
 小
  a| 
 Unified Manager MySQL資料庫傾印
 
 
 
- a| 
  a| 
 大
  a| 

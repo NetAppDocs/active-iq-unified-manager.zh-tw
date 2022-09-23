@@ -48,7 +48,7 @@ summary: 您可以建立警示、以便在產生特定事件時通知您、以�
 可讓您排除不想觸發警示的資源。例如、您可以排除名稱包含"xyz"字串的所有磁碟區。
 
 +
-只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤：例如+<<All Volumes>> 或 <<All Volumes whose name contains 'xyz'>>+。
+只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤：例如+ Volumes 或  Volumes whose name contains 'xyz'+。
 
 +
 如果資源同時符合您指定的INCLUDE和EXclude規則、排除規則將優先於INCLUDE規則、而且不會針對事件產生警示。
