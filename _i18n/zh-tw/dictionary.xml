@@ -90,20 +90,13 @@
   <block id="05377efb6e728732c9306b0df5e826e0" category="doc">在安裝Unified Manager之後升級協力廠商產品</block>
   <block id="1c07aad8c135f1160c0e64c5a58afc4c" category="paragraph">當Unified Manager已安裝在Linux系統上時、您可以升級第三方產品、例如JRE。</block>
   <block id="88f52a8d98ed293c3b3467272c571594" category="paragraph">開發這些協力廠商產品的公司會定期報告安全性弱點。您可以依照自己的排程升級至此軟體的較新版本。</block>
-  <block id="63abb0f288c1d7a899870a973e2a1a26" category="summary">您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。</block>
-  <block id="bae43629fc80334bfb253eda91870d0a" category="doc">升級Linux上的MySQL</block>
   <block id="76b45bd64e794aa15caf86e164b12820" category="paragraph">您必須擁有安裝Unified Manager的Linux系統的root權限。</block>
   <block id="f53d1531676d47e1ac40a9a7f8022ad4" category="list-text">以root使用者身分登入Unified Manager主機。</block>
-  <block id="7bb52bb3ab7705ec1ebfe15ec998339e" category="list-text">在目標系統上下載最新的MySQL Community Server「.rpm」套裝組合。</block>
-  <block id="5115846061c6b31d315d4c6bb626ceb3" category="list-text">將套件解壓縮到目標系統上的目錄。</block>
-  <block id="4276a11fa4b3253f36d59f5a58894c99" category="list-text">在解包之後、目錄中會有多個「.rpm」套件、但Unified Manager只需要下列rpm套件：</block>
   <block id="dc0f63223f9fd934e2a95489bf3b41fc" category="list-text">依照下列順序停止Unified Manager服務及相關的MySQL軟體：</block>
   <block id="404da40c487927dba2ac8fbeaf4164c7" category="paragraph">《神祕的停止》</block>
   <block id="67c3532937b08ee6ee4886253d23ae77" category="paragraph">《stystemctl stop ocie》</block>
   <block id="9598c79c23eecd03d44d0bc68e248fac" category="paragraph">'停機mysqld'</block>
-  <block id="eae89bda96fabfefa8a04410a0c097c9" category="list-text">使用下列命令叫用MySQL升級：</block>
   <block id="6b749e1d94f532680ad5ca3ff3bd464d" category="paragraph">「yum install *。rpm」</block>
-  <block id="88cec1dadd0e1340a40d970cdb523c8e" category="paragraph">*。rpm是指您下載較新版本MySQL的目錄中的「.rpm」套件。</block>
   <block id="689098dd33af80b8a480febade80a626" category="list-text">依照下列順序啟動Unified Manager：</block>
   <block id="c296640e14086f0c65597a8f86200a7f" category="paragraph">《stystemctl start mysqld》</block>
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph">《stystemcl start ocie》</block>
@@ -476,12 +469,10 @@
   <block id="e5dbc5a1e11d941b151de8ab8fa95686" category="list-text">*可選：*如果適用、請移除支援的軟體模組、例如Java、MySQL和p7zip：</block>
   <block id="be712dac487b0060ebc7a7d4ea36b896" category="paragraph">"rpm -e p7zip mysql-community用戶端mysql-community伺服器mysql-community community mysql-community lips-lips Java-x.y"</block>
   <block id="4ccc693abf0d23c0d512da6d155ea5e9" category="paragraph">完成此作業後、軟體即會移除。卸載後、所有來自於「/opt/NetApp/data」目錄的資料都會移至「/opt /NetApp/data/Backup」資料夾。解除安裝Unified Manager也會移除Java和MySQL套件、除非系統上的任何其他應用程式都需要和使用這些套件。不過、MySQL資料不會刪除。</block>
-  <block id="b29348a660e9e748ea4fd292d57cfaf5" category="summary">您可以在Red Hat平台上下載並執行安裝檔案、以升級Unified Manager。</block>
   <block id="0521c408c6c49e7445ee8ef5abc25b44" category="doc">升級Unified Manager</block>
   <block id="851b63dfbfda9a56a4773ddff04a3bb8" category="list-text">您要升級Unified Manager的系統必須符合系統和軟體需求。</block>
   <block id="476492554416aa7a1518b6deeea2245d" category="list-text">升級Unified Manager之前、您必須先安裝或升級至正確版本的OpenJDK。</block>
   <block id="7db7f0fa38ea709bf1cfa08b1cc2edf4" category="inline-link-macro">升級Linux上的JRE</block>
-  <block id="2aa54191149938bc7a863157c2ffb17b" category="paragraph"><block ref="2aa54191149938bc7a863157c2ffb17b" category="inline-link-macro-rx"></block></block>
   <block id="e4ed881267e1fda6e2abe689c01e2602" category="list-text">您必須訂閱Red Hat Enterprise Linux訂閱管理程式。</block>
   <block id="ed2c45fc23f3cfea044bc28997ea71c4" category="list-text">為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。此外、建議您將備份檔案從「/ope/NetApp/data」目錄移至外部位置。</block>
   <block id="0a1c647277efefc75723a4d91b7d27a9" category="list-text">在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。</block>
@@ -489,12 +480,9 @@
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">啟動Unified Manager伺服器。執行下列命令：</block>
   <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">登入目標Red Hat Enterprise Linux或CentOS伺服器。</block>
   <block id="9d8fac2d2928116ea867fc277420d176" category="list-text">將Unified Manager產品組合下載至伺服器。</block>
-  <block id="695f29bf51cbea156d6a3bd63936f89a" category="inline-link-macro">下載適用於Red Hat或CentOS的Unified Manager</block>
-  <block id="2fdc3e6b375749d3c8daa762cc26fb19" category="paragraph"><block ref="2fdc3e6b375749d3c8daa762cc26fb19" category="inline-link-macro-rx"></block></block>
   <block id="504dbb205bd882bee9deb15c21374875" category="list-text">瀏覽至目標目錄並展開Unified Manager套裝組合：</block>
   <block id="d5722027e2a50bb22675e35c697d66bc" category="paragraph">「unzip ActiveIQUnifiedManager-&lt;版本&gt;.Zip」</block>
   <block id="7bb204b5f67b764fc72caaecefac611c" category="paragraph">Unified Manager所需的RPM模組會解壓縮至目標目錄。</block>
-  <block id="7e07986bfacb6a9e183b787721490668" category="list-text">*選用：*若系統未連線至網際網路、或未使用Red Hat Enterprise Linux儲存庫、請執行下列步驟、判斷是否遺漏任何必要的套件、然後下載這些套件：</block>
   <block id="7968abcba566c0045dfcdfef6dde2686" category="list-text">檢視可用和不可用套件的清單：</block>
   <block id="b733ff9eca50d1215b2b36356cb2a337" category="paragraph">「yum install NetApp-um&lt;版本&gt;.x86_64.rpm --assumeno'</block>
   <block id="73d14496773e8fcb614ca5e1104b5e41" category="list-text">在可存取網際網路的其他系統上、執行下列命令來下載遺失的套件。</block>
@@ -502,15 +490,10 @@
   <block id="2080ee244c1ba0254840c6ec5cdf24cb" category="paragraph">這些套件會下載到指定為「-Downloaddyr=s」的目錄中。</block>
   <block id="ee8dc4d60c918170a3d15f1ce815c485" category="paragraph">由於Red Hat Enterprise Linux系統並未一律啟用外掛程式「yum外掛程式-downloadonly」、因此您可能需要啟用下載套件的功能、而不需安裝：</block>
   <block id="edb2040bce41ec5c106522a25e168f05" category="paragraph">「yum install yum plugin-downloadonly」</block>
-  <block id="8aeb73340c979364beb868b049227251" category="list-text">在安裝系統中建立新目錄、然後從連網際網路的系統複製下載的套件。</block>
-  <block id="87db1d4dd581fcd8819e6f8f1b9ec2db" category="list-text">將目錄變更為安裝系統上的新目錄、然後執行下列命令來安裝MySQL Community Edition及其相依性。</block>
   <block id="326019e5c5b887e8dfe56f213be36e39" category="list-text">執行安裝前指令碼、確保沒有系統組態設定或任何可能與升級衝突的安裝軟體：</block>
-  <block id="01251d33fe5ea0b5b0b5b7882fff8800" category="paragraph">安裝前指令碼會檢查系統是否有有效的Red Hat訂閱、以及是否有權存取所需的軟體儲存庫。如果指令碼發現任何問題、您必須先修正問題、然後再升級Unified Manager。</block>
   <block id="3dd2f0172eaa00cd434319d564dad025" category="list-text">使用下列指令碼升級Unified Manager：</block>
   <block id="7235fc94d270002699e871e8bad9343e" category="paragraph">"升級.sh"</block>
-  <block id="4ecfa114f2c16c2c36546338cfb07e53" category="paragraph">此指令碼會自動執行RPM模組、並升級必要的支援軟體及其上執行的Unified Manager模組。此外、升級指令碼會檢查是否有任何系統組態設定或任何可能與升級衝突的安裝軟體。如果指令碼發現任何問題、您必須先修正問題、然後再升級Unified Manager。</block>
   <block id="a1dc836a95e30b0785dbc6baa6107b89" category="list-text">升級完成後、捲動回訊息、直到看到訊息顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼。</block>
-  <block id="6215911f475ff09e4aefe28c03aa0e5a" category="paragraph">在支援的網頁瀏覽器中輸入指定的IP位址或URL、以啟動Unified Manager網路UI、然後使用您先前設定的相同維護使用者名稱（umadmin）和密碼登入。</block>
   <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows安裝的快速入門指示</block>
@@ -11242,13 +11225,6 @@
   <block id="b5ac9f231ec8ae835394a788fd0afdaa" category="list-text">執行下列命令、將內容設定為「mysqld_db_t」：「emanage fcontext-A -t mysqld_db_t「/opt/netapp」（英文）「restorecon -R -v /opt/netapp」（英文）</block>
   <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。對於「/opt/netapp/」掛載選項、請將MySQL標籤新增為：「context=system_u:object_r:mysqld_db_t:s0」</block>
   <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp -o context=system_u:object_r:mysqld_db_ts0」</block>
-  <block id="4432f39d800933fa29075adf5d2cb426" category="paragraph">您可以在安裝Unified Manager的Linux伺服器上升級至較新版本的MySQL、以取得安全性弱點的修正程式。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager 9.11升級程序會自動將MySQL升級至8.0.28。您不應該執行MySQL從舊版升級至8.0.28的獨立升級。</block>
-  <block id="24f1ea1882439997228bd802f68fa9f6" category="paragraph">您只能將MySQL 8.0.28的基礎版本升級至更新版本、以進行次要更新。</block>
-  <block id="026936ad00ebc4ae1db79f070a927a45" category="list-text">MySQL-community用戶端-8.0.28</block>
-  <block id="e690854523c7fac0083784d171463dbd" category="list-text">MySQL-community - libs-8.0.28</block>
-  <block id="7416b1d102126167619be7c1bc2917b9" category="list-text">MySQL-community伺服器-8.0.28</block>
-  <block id="7e4bff08468b3a2ecc016a808e2b84e3" category="list-text">MySQL-社群-通用-8.0.28</block>
-  <block id="e627c2b9dd11c910856a3d949365b0ba" category="list-text">MySQL-community用戶端外掛程式-8.0.28刪除所有其他的「.rpm」套件。但是、在rpm套裝組合中安裝所有套件並不會造成錯誤。</block>
   <block id="5f03fcd1de4eb6c394b1713126eeae48" category="admonition">MySQL的預設連接埠3306僅限在Linux系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用維護主控台的「Control access to MySQL port 3306」（控制存取MySQL連接埠3306）選項、將連線提供給其他主機。</block>
   <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
   <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">Red Hat Enterprise Linux 7.x版和8.x版、以x86_64架構為基礎。</block>
@@ -11257,7 +11233,6 @@
   <block id="172925fbf80ec8e28224e1554c88ee8a" category="list-text">OpenJDK 11.0.14版（來自Red Hat Extra Enterprise Linux Server儲存庫）</block>
   <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">「Udo systemcl STATUS ocie」</block>
   <block id="209d8f24350d3586c7e8e77bccf146f6" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.9升級至OpenJD11.0.14、但無法直接從OpenJD11更新至OpenJD12。</block>
-  <block id="52404be5282c18d0b7e21cbc0500660d" category="paragraph">您可以在Red Hat平台上下載並執行安裝檔案、將Unified Manager 9.9或9.10升級至9.11。</block>
   <block id="afebc350be46a62a45b648162f68d68a" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager升級程序會自動將MySQL升級至8.0.28。</block>
   <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">作業系統</block>
   <block id="21fae6ca9851125bcb8a2ae0fceec434" category="list-text">Microsoft Windows Server 2019標準版與資料中心版</block>
@@ -11623,4 +11598,34 @@
   <block id="c37949fda7ff1b2246f6718aca6092a2" category="list-text">您必須依照中的指示、在Linux伺服器上安裝Unified Manager <block ref="e8607b27bcb98464e6dcda8f12f8aa38" category="inline-link-macro-rx"></block>。</block>
   <block id="362bda8047ba899ec7fa3be3f8333688" category="paragraph">存取Web UI以變更umadmin使用者的預設密碼、並執行Unified Manager的初始設定、如所述 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
   <block id="34a79347cdfaf44fb419601fd9f52440" category="paragraph">HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
+  <block id="c181bfc3427dc5470dd828c5c382bd2d" category="paragraph">7/TCP</block>
+  <block id="75cb7288b16d502e4854f9c613bf4fab" category="summary">您可以在Linux平台上下載並執行安裝檔案、以升級Unified Manager。</block>
+  <block id="0559d95c93a8bc4d6a8451959908d924" category="paragraph">您可以在Linux平台上下載並執行安裝檔案、從Unified Manager 9.9或9.10升級至9.11。</block>
+  <block id="c2b9500958337e132bb4c59a38c16982" category="paragraph">請參閱 <block ref="6809e5c79eb6a750a89a2ba4592b6b72" category="inline-link-macro-rx"></block>。</block>
+  <block id="243d6bc952dfb325a1c7b89867c2c787" category="paragraph">請參閱 <block ref="0861efbc0e36d8801897a77131dac3d0" category="inline-link-macro-rx"></block>。</block>
+  <block id="afe5c010af77ce694e2ae10478226295" category="paragraph">請參閱 <block ref="2aa54191149938bc7a863157c2ffb17b" category="inline-link-macro-rx"></block>。</block>
+  <block id="50c58444f7c8af673d49a884c3e2c493" category="inline-link-macro">正在下載Unified Manager for Linux</block>
+  <block id="c093aa8824c5e3548de7b89baefcdf62" category="paragraph">請參閱 <block ref="834cdb253956e69f96299891384c2c48" category="inline-link-macro-rx"></block>。</block>
+  <block id="e1233ae0e0972a0fbb3e6277c96493c5" category="paragraph">安裝前指令碼會檢查系統是否有有效的Red Hat Enterprise Linux訂閱、以及是否有必要的軟體儲存庫存取權。如果指令碼發現任何問題、您必須修正問題並繼續升級。</block>
+  <block id="7e2f44ebcb2774746086a5553cda621d" category="inline-link-macro">針對遺失的套件執行其他步驟</block>
+  <block id="7a2d1b2a3706bae597eca9bb2c18426e" category="paragraph">如果偵測到任何遺失的套件、請執行中所述的步驟 <block ref="9f51298a2809ee56a4dbb8cc04da1d39" category="inline-link-macro-rx"></block>。如果沒有遺失的套件、請繼續執行後續步驟。</block>
+  <block id="fb8301618e50d35e5e061bc7e6fc02d1" category="paragraph">此指令碼會自動執行RPM模組、並升級必要的支援軟體及其上執行的Unified Manager模組。此外、升級指令碼會檢查是否有任何系統組態設定或任何可能與升級衝突的安裝軟體。如果指令碼發現任何問題、您必須先修正問題、然後再升級Unified Manager。如果您先前在升級Unified Manager之前安裝過諸如_net-snmp_之類的套件、MySQL相依性可能會在升級期間解除安裝套件。您需要再次手動安裝套件、才能繼續使用。</block>
+  <block id="fc72131d5091c3bd5447165448930b3f" category="paragraph">在支援的網頁瀏覽器的新視窗中輸入指定的IP位址或URL、以啟動Unified Manager網路UI、然後使用您先前設定的相同維護使用者名稱（umadmin）和密碼登入。</block>
+  <block id="c7f0c3c232f17240e153bcff468b4b86" category="paragraph">如果您的站台在升級期間偵測到任何遺失的套件、或您的系統未連線至網際網路、或您未使用Red Hat Enterprise Linux儲存庫、請執行下列步驟、判斷您是否遺漏任何必要的套件、然後下載這些套件。</block>
+  <block id="fda5e50208306c98484c0041147f0c64" category="admonition">這些步驟必須在主要程序的步驟_5_之後執行。此程序可升級Unified Manager、您不需要執行任何額外的升級步驟。</block>
+  <block id="098f9c8760d143ea65998c16b9355dc8" category="list-text">將下載的套件複製到安裝系統上解壓縮Unified Manager套件的目錄。</block>
+  <block id="eb48c0935181b533718e0dc01d2336f0" category="list-text">將目錄變更至該目錄、然後執行下列命令來安裝遺失的套件及其相依性。</block>
+  <block id="ccb2222b0ddd075041c68e90def28092" category="paragraph">此程序可完成Unified Manager升級程序。在支援的網頁瀏覽器的新視窗中輸入指定的IP位址或URL、以啟動Unified Manager網路UI、然後使用您先前設定的相同維護使用者名稱（umadmin）和密碼登入。</block>
+  <block id="c4d6a904ef528003bf03bc2e65cffd26" category="summary">支援的升級途徑</block>
+  <block id="c481b1965d09fbd3519296d4223038b5" category="doc">Unified Manager版本支援的升級途徑</block>
+  <block id="55f88063a0c3a7cf98a94375e0ff3a42" category="paragraph">支援每個版本的特定升級途徑Active IQ Unified Manager 。</block>
+  <block id="f965ccce17a2e4ee4ff484c6e57ba1bd" category="paragraph">並非所有版本的Unified Manager都能就地升級至更新版本。Unified Manager升級僅限於N-2模式、表示只能在所有平台的下兩個版本中執行升級。例如、您只能從Unified Manager 9.9和9.10升級至Unified Manager 9.11。</block>
+  <block id="70494063bddf48bdd98e37fe20fb89ab" category="paragraph">如果您執行的版本早於支援的版本、則Unified Manager執行個體必須先升級至其中一個受支援的版本、然後再升級至目前的版本。</block>
+  <block id="5b12a1e2efadd20d008999535880c716" category="paragraph">例如、如果您安裝的版本OnCommand 是《S21 Unified Manager 9.5》、而您想要升級至Active IQ Unified Manager 最新版的《S17：11》、請依照一系列的升級程序進行。</block>
+  <block id="bdc6e309ce890855fc43da7b57bcc96d" category="list-title">升級途徑範例：</block>
+  <block id="c352389d4f5272bf4b0e95aaa632c6dd" category="list-text">升級OnCommand 版《統一化管理程式9.5》-&gt; Active IQ Unified Manager 《Ses9.7》。</block>
+  <block id="7568484fc77cea5513a23c08df445958" category="list-text">升級9.7 -&gt; 9.9。</block>
+  <block id="c78b2fb18f2fe61f95fe42e52ba53764" category="list-text">升級9.9 -&gt; 9.11。</block>
+  <block id="735de3cfc0c0985a1a724be6fb3d04d4" category="inline-link">知識庫（KB）文章</block>
+  <block id="7ff27f75b12e833d98540444694dad8f" category="paragraph">如需升級路徑對照表的詳細資訊、請參閱<block ref="873d5f2f4cecdaf6f22eb65b543f2b7f" category="inline-link-rx"></block>。</block>
 </blocks>

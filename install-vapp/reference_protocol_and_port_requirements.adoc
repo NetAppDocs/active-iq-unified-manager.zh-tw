@@ -136,6 +136,8 @@ NOTE: 如果您使用此連接埠或任何其他連接埠來連線至VMware vCen
 NDMP
  a| 
 1000/TCP
+
+7/TCP
  a| 
 用於特定的Snapshot還原作業。
 

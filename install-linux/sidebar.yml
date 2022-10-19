@@ -52,6 +52,8 @@ entries:
   - title: 升級Red Hat Enterprise Linux或CentOS上的Unified Manager
     url: "/install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html"
     entries:
+    - title: Unified Manager版本支援的升級途徑
+      url: "/include/upgrade-path.html"
     - title: 升級Unified Manager
       url: "/install-linux/task_upgrade_unified_manager.html"
     - title: 將主機作業系統從Red Hat Enterprise Linux 7.x升級至8.x

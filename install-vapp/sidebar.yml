@@ -37,6 +37,8 @@ entries:
   - title: 升級Unified Manager
     url: "/install-vapp/task_upgrade_unified_manager_vapp.html"
     entries:
+    - title: Unified Manager版本支援的升級途徑
+      url: "/include/upgrade-path.html"
     - title: 下載Unified Manager升級檔案
       url: "/install-vapp/task_download_unified_manager_iso_image_vapp.html"
     - title: 升級Unified Manager虛擬應用裝置

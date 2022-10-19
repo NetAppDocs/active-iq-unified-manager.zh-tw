@@ -1,0 +1,28 @@
+---
+permalink: include/upgrade-path.html 
+sidebar: sidebar 
+keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
+summary: 支援的升級途徑 
+---
+= Unified Manager版本支援的升級途徑
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援每個版本的特定升級途徑Active IQ Unified Manager 。
+
+並非所有版本的Unified Manager都能就地升級至更新版本。Unified Manager升級僅限於N-2模式、表示只能在所有平台的下兩個版本中執行升級。例如、您只能從Unified Manager 9.9和9.10升級至Unified Manager 9.11。
+
+如果您執行的版本早於支援的版本、則Unified Manager執行個體必須先升級至其中一個受支援的版本、然後再升級至目前的版本。
+
+例如、如果您安裝的版本OnCommand 是《S21 Unified Manager 9.5》、而您想要升級至Active IQ Unified Manager 最新版的《S17：11》、請依照一系列的升級程序進行。
+
+.升級途徑範例：
+. 升級OnCommand 版《統一化管理程式9.5》-> Active IQ Unified Manager 《Ses9.7》。
+. 升級9.7 -> 9.9。
+. 升級9.9 -> 9.11。
+
+
+如需升級路徑對照表的詳細資訊、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["知識庫（KB）文章"^]。
