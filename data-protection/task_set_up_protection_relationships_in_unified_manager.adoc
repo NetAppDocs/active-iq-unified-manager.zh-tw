@@ -19,8 +19,8 @@ summary: 您必須執行幾個步驟、才能使用Unified Manager和OnCommand W
 * 您必須在兩個叢集或兩個儲存虛擬機器（SVM）之間建立對等關係。
 * 必須與Unified Manager整合：OnCommand Workflow Automation
 +
-** link:task_configure_connection_between_workflow_automation_um.html["設定OnCommand Workflow Automation 功能"]
-** link:task_verify_um_data_source_caching_in_workflow_automation.html["在Workflow Automation中驗證Unified Manager資料來源快取"]
+** link:task_configure_connection_between_workflow_automation_um.html["設定OnCommand Workflow Automation 功能"]。
+** link:task_verify_um_data_source_caching_in_workflow_automation.html["在Workflow Automation中驗證Unified Manager資料來源快取"]。
 
 
 

@@ -27,21 +27,27 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 * 您必須知道使用HTTPS傳輸協定（通常為連接埠443）連線至叢集的連接埠號碼。
 * 叢集必須執行ONTAP 的是版本不穩定的9.1軟體或更新版本。
 * 您必須在Unified Manager伺服器上有足夠的空間。當超過90%的空間已用完時、您將無法將叢集新增至伺服器。
-* 您擁有必要的憑證。需要兩種類型的憑證：
+* 您擁有必要的憑證。Unified Manager會在新增叢集時安裝安全性憑證：
 +
-*伺服器憑證*：用於登錄。新增叢集需要有效的憑證。如果伺服器憑證過期、您應該重新產生該憑證、然後重新啟動Unified Manager、以便重新自動登錄服務。如需建立憑證的相關資訊、請參閱知識庫（KB）文章： https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP 更新SSL憑證的過程中進行更新9"]
+*伺服器憑證*：此憑證為Unified Manager所有。預設的自我簽署SSL（HTTPS）憑證會以全新安裝的Unified Manager產生。NetApp建議您將其升級至CA簽署的憑證、以獲得更好的安全性。如果伺服器憑證過期、您應該重新產生該憑證、然後重新啟動Unified Manager、讓服務整合新的憑證。如需重新產生SSL憑證的詳細資訊、請參閱 link:../config/task_generate_an_https_security_certificate_ocf.html["產生HTTPS安全性憑證"]。
 
 +
-*用戶端憑證*：用於驗證。新增叢集需要有效的憑證。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。您不需要重新產生用戶端憑證。
+*相互TLS通訊的證書*：在Unified Manager與ONTAP 支援中心之間進行相互TLS通訊時使用。憑證型驗證會根據ONTAP 版本啟用叢集的驗證。如果執行ONTAP 版本資訊功能的叢集低於9.5版、則不會啟用憑證型驗證。
 
++
+如果您要將舊版Unified Manager更新為Unified Manager 9.12、則叢集不會自動啟用憑證型驗證。不過、您可以修改及儲存叢集詳細資料來啟用此功能。如果憑證過期、您應該重新產生憑證以納入新的憑證。如需檢視及重新產生憑證的詳細資訊、請參閱 link:../storage-mgmt/task_edit_clusters.html["編輯叢集"]。
 
-
++
 [NOTE]
 ====
-您可以使用Unified Manager NAT IP位址、新增位於NAT/防火牆後方的叢集。任何連線的Workflow Automation或SnapProtect 非功能性系統也必須位於NAT/防火牆之後、SnapProtect 而非功能性API呼叫則必須使用NAT IP位址來識別叢集。
+** 如果您從Web UI新增叢集、憑證型驗證會自動啟用。如果您從維護主控台新增叢集、則不會啟用憑證型驗證。
+** 如果叢集已啟用憑證型驗證、且您從伺服器備份Unified Manager、並還原至另一個變更主機名稱或IP位址的Unified Manager伺服器、則叢集監控可能會失敗。若要避免故障、請編輯並儲存叢集詳細資料。如需編輯叢集詳細資料的詳細資訊、請參閱 link:../storage-mgmt/task_edit_clusters.html["編輯叢集"]。
+
 
 ====
-* 必須個別新增每個MetroCluster 採用此功能組態的叢集。
++
+*用戶端認證*：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"]。
+
 * Unified Manager的單一執行個體可支援特定數量的節點。如果您需要監控超出支援節點數的環境、則必須安裝Unified Manager的其他執行個體、以監控部分叢集。
 * 只要您已在叢集上設定第二個叢集管理LIF、讓Unified Manager的每個執行個體都透過不同的LIF連線、您就可以使用兩個Unified Manager執行個體來監控單一叢集。
 
@@ -53,7 +59,10 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 . 在「授權主機」對話方塊中、按一下「*檢視憑證*」以檢視叢集的憑證資訊。
 . 按一下「*是*」。
 +
-Unified Manager只會在一開始新增叢集時檢查憑證。Unified Manager不會檢查每個API呼叫ONTAP 的認證資料以供參考。
+在Unified Manager 9.12中、儲存叢集詳細資料之後、您可以看到叢集的相互TLS通訊憑證。
+
++
+如果未啟用憑證型驗證、Unified Manager只會在一開始新增叢集時才檢查憑證。Unified Manager不會檢查每個API呼叫ONTAP 的認證資料以供參考。
 
 
 
@@ -78,3 +87,5 @@ Unified Manager只會在一開始新增叢集時檢查憑證。Unified Manager�
 link:../config/task_add_users.html["新增使用者"]
 
 link:../health-checker/task_view_cluster_list_and_details.html["檢視叢集清單和詳細資料"]
+
+link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain["安裝CA簽署並傳回HTTPS憑證"]

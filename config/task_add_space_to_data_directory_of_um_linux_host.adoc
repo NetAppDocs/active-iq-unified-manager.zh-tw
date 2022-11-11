@@ -34,7 +34,7 @@ summary: 如果您在最初設定Linux主機並安裝Unified Manager時、將磁
 +
 .. 在現有的「/opt/NetApp/data」資料夾中取得資料夾的SE Linux類型：
 +
-「ls-Z /opt/netapp/data」| awk「｛print $4｝」| awk -F：「｛print $3｝」|標頭-1
+`se_type= ls -Z /opt/netapp/data | awk '{print $4}' | awk -F: '{print $3}' | head -1`
 
 +
 系統會傳回類似下列的確認訊息：

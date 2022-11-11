@@ -50,3 +50,5 @@ summary: 您可以檢視所有SMB/CIFS共用的詳細資料、例如共用名稱
 
 |===
 
+
+如需詳細資訊、請參閱 link:../api-automation/concept_provision_file_share.html["使用API來配置CIFS和NFS檔案共用"]。

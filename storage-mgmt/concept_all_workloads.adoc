@@ -52,7 +52,7 @@ Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才�
 
 .步驟
 . 按一下「*儲存設備>工作負載>所有工作負載>建立*」。
-. 建立工作負載。如需相關資訊、請參閱 link:../storage-mgmt/concept_provision_and_manage_workloads.html["資源配置與管理工作負載"]
+. 建立工作負載。如需相關資訊、請參閱 link:../storage-mgmt/concept_provision_and_manage_workloads.html["資源配置與管理工作負載"]。
 
 
 
@@ -69,8 +69,8 @@ Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才�
 
 === 分析工作負載的效能與容量條件
 
-「* IOPS分析*」快顯視窗上的「*分析工作負載*」按鈕會帶您前往「工作負載分析」頁面、您可在其中選取時間範圍、並檢視所選工作負載的延遲、處理量和容量趨勢。如需工作負載分析器的詳細資訊、請參閱 link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["使用工作負載分析器疑難排解工作負載"]
+「* IOPS分析*」快顯視窗上的「*分析工作負載*」按鈕會帶您前往「工作負載分析」頁面、您可在其中選取時間範圍、並檢視所選工作負載的延遲、處理量和容量趨勢。如需工作負載分析器的詳細資訊、請參閱 link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["使用工作負載分析器疑難排解工作負載"]。
 
 您可以按一下「*效能檢視*」欄中的橫條圖圖示、檢視工作負載的效能資訊、以協助疑難排解。若要在「工作負載分析」頁面上檢視效能與容量圖表以分析物件、請按一下「*分析工作負載*」按鈕。
 
-如需詳細資訊、請參閱 link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["工作負載分析器會顯示哪些資料"]
+如需詳細資訊、請參閱 link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["工作負載分析器會顯示哪些資料"]。

@@ -1,7 +1,7 @@
 ---
 permalink: install-linux/task_upgrade_unified_manager.html 
 sidebar: sidebar 
-keywords: upgrade, unified manager, linux 
+keywords: upgrade, unified manager 
 summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unified Manager。 
 ---
 = 升級Unified Manager
@@ -11,7 +11,7 @@ summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unifie
 
 
 [role="lead"]
-您可以在Linux平台上下載並執行安裝檔案、從Unified Manager 9.9或9.10升級至9.11。
+您可以在Linux平台上下載並執行安裝檔案、將Unified Manager 9.10或9.11升級至9.12。
 
 *您需要的是什麼*
 
@@ -22,15 +22,15 @@ summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unifie
 +
 請參閱 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
 
+* 您必須訂閱Red Hat Enterprise Linux訂閱管理程式。
 * 升級Unified Manager之前、您必須先安裝或升級至正確版本的OpenJDK。
 +
 請參閱 link:task_upgrade_openjdk_on_linux_ocum.html["升級Linux上的JRE"]。
 
-* 您必須訂閱Red Hat Enterprise Linux訂閱管理程式。
-* 為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。此外、建議您將備份檔案從「/ope/NetApp/data」目錄移至外部位置。
-* 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。
+* 為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。NetApp建議您從移除備份檔案 `/opt/netapp/data` 目錄至外部位置。
+* 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會在6個月後清除歷史效能資料。
 * 您應該已經完成所有執行中的作業、因為Unified Manager在升級過程中無法使用。
-* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager升級程序會自動將MySQL升級至8.0.28。
+* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.30、Unified Manager升級程序會自動將MySQL升級至8.0.30。
 
 
 .步驟
@@ -104,7 +104,7 @@ NOTE: 這些步驟必須在主要程序的步驟_5_之後執行。此程序可�
 +
 「正在安裝：」區段中的項目是目前目錄中可用的套件、而「正在安裝相依套件：」區段中的項目是您系統上遺失的套件。
 
-. 在可存取網際網路的其他系統上、執行下列命令來下載遺失的套件。
+. 在具有網際網路存取權限的其他系統上、執行下列命令來下載遺失的套件。
 +
 「yum install package_name --downloadonly ---downloadloaddidr=.」
 

@@ -11,11 +11,74 @@ summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster �
 
 
 [role="lead"]
-連線事件可讓您瞭解叢集元件之間的連線、MetroCluster 以及叢集之間的連線能力、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
+連線事件可讓您瞭解叢集元件之間的連線、MetroCluster 以及透過FC與MetroCluster 以IP為基礎的叢集組態之間的連線、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。
 
 
 
-== 影響領域：可用度
+== 兩種組態中常見的事件
+
+這些連線事件適用於MetroCluster 整個FC和MetroCluster 基於IP的支援。
+
+
+
+=== 影響領域：可用度
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+所有鏈接MetroCluster 均可下移（ocumEvtMetroClusterAllLinksBetweenPartnersDown）
+ a| 
+事件
+ a| 
+彼此的關係MetroCluster
+ a| 
+關鍵
+
+
+
+ a| 
+無法透過對等網路連線至合作夥伴（ocumEvtMetroClusterPartnersNotReachableOverPeeringNetwork）MetroCluster
+ a| 
+事件
+ a| 
+彼此的關係MetroCluster
+ a| 
+關鍵
+
+
+
+ a| 
+影響的災難恢復功能（ocumEvtMetroClusterDRStatus影響）MetroCluster
+ a| 
+風險
+ a| 
+彼此的關係MetroCluster
+ a| 
+關鍵
+
+
+
+ a| 
+交換組態（ocumEvtMetroClusterDRusImpActed.）MetroCluster
+ a| 
+風險
+ a| 
+彼此的關係MetroCluster
+ a| 
+警告
+
+|===
+
+
+== 透過FC組態MetroCluster
+
+這些活動與MetroCluster 透過FC進行的不實功能組態有關。
+
+
+
+=== 影響領域：可用度
 
 |===
 | 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
@@ -33,17 +96,6 @@ summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster �
 
 
  a| 
-所有鏈接MetroCluster 均可下移（ocumEvtMetroClusterAllLinksBetweenPartnersDown）
- a| 
-事件
- a| 
-彼此的關係MetroCluster
- a| 
-關鍵
-
-
-
- a| 
 FC-SAS橋接至儲存堆疊連結中斷（ocumEvtBriggeSasPortDown）
  a| 
 事件
@@ -55,17 +107,6 @@ FC-SAS橋接至儲存堆疊連結中斷（ocumEvtBriggeSasPortDown）
 
 
  a| 
-交換組態（ocumEvtMetroClusterDRusImpActed.）MetroCluster
- a| 
-風險
- a| 
-彼此的關係MetroCluster
- a| 
-警告
-
-
-
- a| 
 部分切換組態（ocumEvtMetroClusterDRStatus PartiallyImpActy）MetroCluster
  a| 
 風險
@@ -73,28 +114,6 @@ FC-SAS橋接至儲存堆疊連結中斷（ocumEvtBriggeSasPortDown）
 彼此的關係MetroCluster
  a| 
 錯誤
-
-
-
- a| 
-影響的災難恢復功能（ocumEvtMetroClusterDRStatus影響）MetroCluster
- a| 
-風險
- a| 
-彼此的關係MetroCluster
- a| 
-關鍵
-
-
-
- a| 
-無法透過對等網路連線至合作夥伴（ocumEvtMetroClusterPartnersNotReachableOverPeeringNetwork）MetroCluster
- a| 
-事件
- a| 
-彼此的關係MetroCluster
- a| 
-關鍵
 
 
 
@@ -194,5 +213,40 @@ FC-SAS橋接至儲存堆疊連結中斷（ocumEvtBriggeSasPortDown）
 節點堆疊連線
  a| 
 警告
+
+|===
+
+
+== 透過IP組態MetroCluster
+
+這些活動與MetroCluster 透過IP進行的靜態組態有關。
+
+
+
+=== 影響領域：可用度
+
+|===
+| 事件名稱（陷阱名稱） | 影響層級 | 來源類型 | 嚴重性 
+
+
+ a| 
+站台間的IP連線狀態為「關閉」（mccIntersiteconnivityStatusDown）MetroCluster
+ a| 
+風險
+ a| 
+部門關係MetroCluster
+ a| 
+關鍵
+
+
+
+ a| 
+MetroCluster IP節點對交換器連線離線（mccIpPortStatus離線）
+ a| 
+風險
+ a| 
+節點
+ a| 
+錯誤
 
 |===

@@ -21,7 +21,7 @@ NetApp不會測試或驗證特定版本的Graphite或其他協力廠商工具。
 +
 視組態中的叢集數目和您選取要傳送的統計資料物件而定、可能需要先建立數千個新檔案。每分鐘200個檔案、可能需要15分鐘或更久的時間、才能初始建立所有的度量檔案。在建立所有唯一的度量檔案之後、此參數不再相關。
 
-* 如果您在使用IPv6位址部署的伺服器上執行Graphite、則必須將/opp/mital/conf/carb.conf檔案中的line_reciper_interface值、從「'0.00.0.0.00.'」變更為「'"':'"（'*line_recipier_interface =：*）
+* 如果您是在使用IPv6位址部署的伺服器上執行Graphite、則會在中執行line_inforer_interface的值 `/opt/graphite/conf/carbon.conf` 檔案必須從「'0.00.0.00.0.'」變更為「'':'」 (`*LINE_RECEIVER_INTERFACE = ::*`）
 * 在「/opt/sitlet/conf/storage架構.conf」檔案中、必須使用「retions」參數將頻率設定為5分鐘、保留期間必須設定為與您環境相關的天數。
 +
 保留期間可以是環境允許的時間、但頻率值必須設定為5分鐘、至少保留一次。在下列範例中、Unified Manager會使用「模式」參數來定義區段、並將初始頻率設定為5分鐘、保留期間設定為100天：「*（OPM）*」

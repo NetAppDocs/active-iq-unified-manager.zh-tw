@@ -62,7 +62,7 @@ summary: 您可以使用「遠端驗證」頁面設定Unified Manager與驗證�
 
 *** 使用安全連線
 +
-指定安全LDAP用於與LDAPS驗證伺服器通訊。
+指定安全LDAP用於與LDAP驗證伺服器通訊。
 
 
 
@@ -111,6 +111,10 @@ summary: 您可以使用「遠端驗證」頁面設定Unified Manager與驗證�
 *** 群組物件類別
 +
 指定遠端驗證伺服器中所有群組的物件類別。
+
++
+
+NOTE: 您為_Member _、_User Object Class _和_Group Object Class _屬性輸入的值、應與在Active Directory、OpenLDAP和LDAP組態中新增的值相同。否則、驗證可能會失敗。
 
 *** 使用安全連線
 +

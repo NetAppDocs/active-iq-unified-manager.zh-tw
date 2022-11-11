@@ -25,7 +25,7 @@ summary: 若要檢視及疑難排解虛擬機器（VM）的效能、必須在Act
 如需詳細資訊、請參閱VMware文件中的《vSphere監控與效能指南》一節「DATA收集層級」。
 
 * vCenter Server中的延遲值以毫秒為單位進行設定、而非以微秒為單位、以便成功計算延遲值。
-* 將資料存放區新增至vCenter Server時、您可以同時使用主機的IP位址或完整網域名稱（FQDN）。如果您要新增FQDN、請確定Unified Manager伺服器可以解析網域名稱。例如、對於Linux安裝、請確定網域名稱已新增至「/etc/resolv.conf」檔案中。
+* 將資料存放區新增至vCenter Server時、您可以同時使用主機的IP位址或完整網域名稱（FQDN）。如果您要新增FQDN、請確定Unified Manager伺服器可以解析網域名稱。例如、若為Linux安裝、請確定已在中新增網域名稱 `/etc/resolv.conf` 檔案：
 * vCenter Server目前的時間與vCenter Server時區同步。
 * vCenter Server可供成功探索。
 * 將vCenter Server新增至Unified Manager時、您可以讀取VMware SDK。這是組態輪詢所需的項目。

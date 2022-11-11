@@ -17,19 +17,19 @@ summary: 您可以設定容量、成長、Snapshot保留、配額和inode的全�
 
 您可以從左側導覽功能表的「事件臨界值」區段存取全域健全狀況臨界值設定。您也可以從詳細目錄頁面或該物件的詳細資料頁面、修改個別物件的臨界值設定。
 
-* link:task_configure_global_aggregate_health_threshold_values.html["設定全域Aggregate健全狀況臨界值"]
+* 如需相關資訊、請參閱 link:task_configure_global_aggregate_health_threshold_values.html["設定全域Aggregate健全狀況臨界值"]。
 +
 您可以為所有集合體設定容量、成長和Snapshot複本的健全狀況臨界值設定、以追蹤任何臨界值外洩。
 
-* link:task_configure_global_volume_health_threshold_values.html["設定全域Volume健全狀況臨界值"]
+* 如需相關資訊、請參閱 link:task_configure_global_volume_health_threshold_values.html["設定全域Volume健全狀況臨界值"]。
 +
 您可以編輯容量、Snapshot複本、qtree配額、Volume成長、覆寫保留空間、 所有磁碟區的和inode、以追蹤任何臨界值外洩。
 
-* link:task_configure_global_qtree_health_threshold_values.html["設定全域qtree健全狀況臨界值"]
+* 如需相關資訊、請參閱 link:task_configure_global_qtree_health_threshold_values.html["設定全域qtree健全狀況臨界值"]。
 +
 您可以編輯所有qtree容量的健全狀況臨界值設定、以追蹤任何臨界值違規。
 
-* link:task_configure_lag_threshold_settings_for_unmanaged_protection.html["編輯未受管理保護關係的延遲健全狀況臨界值設定"]
+* 如需相關資訊、請參閱 link:task_configure_lag_threshold_settings_for_unmanaged_protection.html["編輯未受管理保護關係的延遲健全狀況臨界值設定"]。
 +
 您可以增加或減少警告或錯誤延遲時間百分比、以便以更適合您需求的時間間隔產生事件。
 

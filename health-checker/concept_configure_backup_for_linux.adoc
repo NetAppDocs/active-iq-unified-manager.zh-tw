@@ -21,7 +21,7 @@ Snapshot複本所需時間極短、通常只需幾分鐘、而且Unified Manager
 ====
 * 您只能在Active IQ Unified Manager 相同版本的Sof the S還原Snapshot複本。
 +
-例如、如果您在Unified Manager 9.9上建立備份、則只能在Unified Manager 9.9系統上還原備份。
+例如、如果您在Unified Manager 9.12上建立備份、則只能在Unified Manager 9.12系統上還原備份。
 
 * 如果Snapshot組態有任何變更、可能會導致快照無效。
 

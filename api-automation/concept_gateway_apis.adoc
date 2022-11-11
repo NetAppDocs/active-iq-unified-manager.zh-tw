@@ -13,7 +13,7 @@ summary: 閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認
 [role="lead"]
 閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認證來執行ONTAP 「資訊」API及管理儲存物件。從Unified Manager Web UI啟用API閘道功能時、即可使用這些API。
 
-Unified Manager REST API僅支援在Unified Manager資料來源ONTAP （即叢集）上執行的一組特定動作。您可以透過ONTAP 「Is方面」API來使用其他功能。閘道API可讓Unified Manager成為傳遞介面、在ONTAP 不個別登入每個資料中心叢集的情況下、將所有API要求在整個叢集上執行通道化。它可做為單一管理點、在ONTAP Unified Manager執行個體所管理的整個叢集上執行API。API閘道功能可讓Unified Manager成為單一控制面板、讓您無需ONTAP 個別登入即可管理多個支援叢集。閘道API可讓您持續登入Unified Manager、ONTAP 並透過執行ONTAP REST API作業來管理各種支援叢集。
+Unified Manager REST API僅支援在Unified Manager資料來源ONTAP （即叢集）上執行的一組特定動作。您可以透過ONTAP 「Is方面」API來使用其他功能。閘道API可讓Unified Manager成為傳遞介面、在ONTAP 管理的各個叢集上執行所有API要求、無需個別登入每個資料中心叢集、即可建立通道。它可做為單一管理點、在ONTAP Unified Manager執行個體所管理的整個叢集上執行API。API閘道功能可讓Unified Manager成為單一控制面板、讓您無需ONTAP 個別登入即可管理多個支援叢集。閘道API可讓您持續登入Unified Manager、ONTAP 並透過執行ONTAP REST API作業來管理各種支援叢集。
 
 [NOTE]
 ====
@@ -73,6 +73,9 @@ Unified Manager REST API僅支援在Unified Manager資料來源ONTAP （即叢�
 == 瞭解API閘道通道
 
 閘道API可ONTAP 讓您透過Unified Manager管理各種物件。Unified Manager可管理叢集和驗證詳細資料、並將要求重新導向ONTAP 至REST端點。閘道API會將URL和Hypermedia轉換為標頭和回應本文中的應用程式狀態引擎（HATEOAS）連結、並以API閘道基礎URL進行。閘道API可做為Proxy基礎URL、您可以在其中附加ONTAP 靜態URL、並執行所需ONTAP 的REST端點。
+
+
+NOTE: 若要讓某個無法透過API閘道成功執行的版本、API必須受到執行該版本之該版本的叢集的支援。ONTAP ONTAP執行ONTAP 不受支援的API、不會傳回任何結果。
 
 在此範例中、閘道API（Proxy基礎URL）為：「+/閘道/｛uuid｝/+」
 

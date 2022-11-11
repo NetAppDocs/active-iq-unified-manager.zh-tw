@@ -23,7 +23,7 @@ Unified Manager會接收ONTAP 在以功能為基礎上產生的事件、以供Un
 
 執行此API的修補程式作業、即可啟用事件的解決工作流程。您可以將事件指派給自己或其他使用者、並確認收到事件。在執行資源上的步驟以解決觸發事件的問題時、您可以使用此API將事件標記為已解決。
 
-如需事件的詳細資訊、請參閱 link:../events/concept_manage_events.html["管理事件"]
+如需事件的詳細資訊、請參閱 link:../events/concept_manage_events.html["管理事件"]。
 
 [cols="4*"]
 |===
@@ -57,7 +57,7 @@ Unified Manager會接收ONTAP 在以功能為基礎上產生的事件、以供Un
 
 系統會自動持續產生事件。Unified Manager只會在事件符合特定篩選條件時產生警示。您可以選取要產生警示的事件。透過使用「/management server / alerts」API、您可以設定警示、在發生特定嚴重性類型的特定事件或事件時自動傳送通知。
 
-如需警示的詳細資訊、請參閱 link:../events/concept_manage_alerts.html["管理警示"]
+如需警示的詳細資訊、請參閱 link:../events/concept_manage_alerts.html["管理警示"]。
 
 [cols="4*"]
 |===
@@ -105,7 +105,7 @@ NOTE: 選取資源以新增警示時、請注意選取叢集做為資源並不�
 
 透過使用「/management server /scripts」API、您也可以將警示與觸發警示時執行的指令碼建立關聯。您可以使用指令碼、在Unified Manager中自動修改或更新多個儲存物件。指令碼與警示相關聯。當事件觸發警示時、即會執行指令碼。您可以上傳自訂指令碼、並在產生警示時測試其執行。您可以將警示與指令碼建立關聯、以便在Unified Manager中針對事件發出警示時執行指令碼。
 
-如需指令碼的詳細資訊、請參閱 link:../events/concept_manage_scripts.html["管理指令碼"]
+如需指令碼的詳細資訊、請參閱 link:../events/concept_manage_scripts.html["管理指令碼"]。
 
 [cols="4*"]
 |===

@@ -11,7 +11,7 @@ summary: 您可以在有新版軟體可用時升級Unified Manager。
 
 
 [role="lead"]
-您可以在有新版軟體可用時升級Unified Manager。
+您可以在新版本推出時升級Unified Manager。
 
 由NetApp提供的Unified Manager軟體修補程式版本、其安裝程序與新版本相同。
 

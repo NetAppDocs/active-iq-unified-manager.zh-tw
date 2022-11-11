@@ -13,7 +13,7 @@ summary: 如果您安裝Unified Manager的系統無法存取Enterprise Linux（E
 [role="lead"]
 如果您安裝Unified Manager的系統無法存取Enterprise Linux（E規劃）的額外套件儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。
 
-Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程式。無論是在Red Hat或CentOS系統上安裝Unified Manager、都可使用Epel儲存庫。
+Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程式。無論是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager、都可使用Epel儲存庫。
 
 .步驟
 . 下載適用於您安裝的Epel儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：

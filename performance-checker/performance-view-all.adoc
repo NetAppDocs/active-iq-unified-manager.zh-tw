@@ -1,0 +1,222 @@
+---
+permalink: performance-checker/performance-view-all.html 
+sidebar: sidebar 
+keywords: performance view 
+summary: 所有儲存物件效能檢視 
+---
+= 檢視所有儲存物件的效能詳細目錄頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「效能」目錄頁來查看每個可用儲存物件的效能資訊摘要、例如叢集、集合體、磁碟區等。您可以連結至效能物件詳細資料頁面、以檢視特定物件的詳細資訊。
+
+依預設、檢視頁面中的物件會根據事件嚴重度排序。具有重大事件的物件會先列出、而具有警告事件的物件則會列在第二。這可立即提供必須解決的問題視覺化指示。
+
+您可以使用* Reports*按鈕、將這些頁面中的資料匯出成以逗號分隔的值（`.csv'）檔案、Microsoft Excel檔案（`.xxxxs'）或（`.pdf）文件、然後使用匯出的資料來建置報告。此外、您也可以自訂頁面、然後使用*排程報告*按鈕、排程定期建立及以電子郵件寄送報告。
+
+這些頁面上的所有欄位都可用於自訂檢視和報告中。部分欄位會連結至相關頁面、以提供更詳細的檢視。
+
+
+
+== 效能：All ClustersView（所有叢集檢視）
+
+「效能：所有叢集」檢視會顯示Unified Manager執行個體所監控之每個叢集的效能事件、資料和組態資訊總覽。此頁面可讓您監控叢集的效能、以及疑難排解效能問題和臨界值事件。
+
+您可以使用*指派效能臨界值原則*和*清除效能臨界值原則*按鈕、將效能臨界值原則指派給物件詳細目錄頁面上的任何物件、或清除其臨界值原則。
+
+以下是「效能：所有叢集」檢視中的一些重要欄位。
+
+* 叢集FQDN：叢集的完整網域名稱（FQDN）。
+* IOPS：叢集上每秒的輸入/輸出作業。
+* MB/s：叢集的處理量、以每秒mib為單位測量。
+* 容量欄位：GiB的可用容量和總容量。
+* 主機名稱或IP位址：叢集管理LIF的主機名稱或IP位址（IPv4或IPv6）。
+* OS版本：ONTAP 叢集上安裝的更新版本。
++
+
+NOTE: 如果ONTAP 叢集中的節點上安裝不同版本的更新版、則會列出最低版本編號。您可以ONTAP 從「Performance：All Node」（效能：所有節點）檢視中檢視安裝在每個節點上的版本。
+
+* 臨界值原則：此儲存物件上作用中的使用者定義效能臨界值原則或原則。您可以將游標放在含有省略符號（...）的原則名稱上、以檢視完整原則名稱或指派的原則名稱清單。「指派效能臨界值原則」和「清除效能臨界值原則」按鈕會維持停用狀態、直到您按一下最左側的核取方塊來選取一或多個物件為止。
+
+
+
+
+== 效能：All Volumes檢視
+
+Performance：All Volumes（效能：所有磁碟區）檢視會顯示FlexVol Unified Manager執行個體所監控之每個版本的效能事件、計數器資料和組態資訊總覽FlexGroup 。這可讓您快速監控磁碟區的效能、並疑難排解效能問題和臨界值事件。
+
+若要分析特定物件的延遲和處理量、請按一下「More options（更多選項）」按鈕 image:icon_kabob.gif[""] 然後*分析工作負載*、您可以在「工作負載分析」頁面上檢視效能與容量圖表。您可以在System Manager上檢視詳細資料、前提是您擁有System Manager的有效認證資料。
+
+
+NOTE: 對於資料保護（DP）磁碟區、只會顯示使用者產生流量的計數器值。根磁碟區不會顯示在此頁面上。
+
+以下是「效能：所有磁碟區」檢視中的一些重要欄位。
+
+* 風格：FlexVol 可選擇不一樣、也可FlexGroup 選擇不一樣。
+* 延遲：FlexVol 對於不穩定磁碟區、這是所有I/O要求的Volume平均回應時間、以毫秒為單位表示每次作業。對於部分磁碟區、這是所有組成磁碟區的平均延遲。FlexGroup
+* IOPS/TB：每秒處理的輸入/輸出作業數、以工作負載所耗用的總空間（以TB為單位）為單位。此計數器可測量特定儲存容量所能提供的效能。
+* IOPS：FlexVol 對於資料不全的磁碟區、這是磁碟區每秒的輸入/輸出作業次數。對於部分磁碟區、這是所有組成磁碟區的IOPS總和。FlexGroup
+* MB/s：FlexVol 對於Ses供 磁碟區、這是磁碟區的處理量、以百萬位元組/秒為單位。對於部分Volume、這是所有組成Volume的MB/s總和。FlexGroup
+* 容量欄位：GiB的可用容量和總容量。
+
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+* link:../performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html["由Unified Manager監控的工作負載類型"]
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["檢視套用至特定磁碟區或LUN的QoS原則群組設定"]
+* link:../performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html["瞭解Unified Manager將資料分層至雲端的建議"]
+* link:../performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html["檢視效能圖表、比較相同QoS原則群組中的磁碟區或LUN"]
+
+
+
+
+== 效能：All Aggregate檢視
+
+「效能：所有集合體」檢視會顯示Unified Manager執行個體所監控之每個集合體的效能事件、資料和組態資訊總覽。此頁面可讓您監控Aggregate的效能、並疑難排解效能問題和臨界值事件。
+
+以下是「效能：所有集合體」檢視中的一些重要欄位。
+
+* 類型：Aggregate類型：
++
+** HDD
+** 混合式：結合HDD和SSD、但尚未啟用Flash Pool。
+** 混合式（Flash Pool）。結合HDD和SSD、並已啟用Flash Pool。
+** SSD
+** SSD（FabricPool 部分）。結合SSD與雲端層
+** HDD（FabricPool 簡稱「HDD」）。結合HDD與雲端層
+** VMDisk（SDS）：虛擬機器內的虛擬磁碟
+** VMDisk（FabricPool VMware）。結合虛擬磁碟與雲端層
+** LUN FlexArray （僅限部分）
+
+
+* 非作用中資料報告：此Aggregate上的非作用中資料報告功能是啟用還是停用。啟用時、此集合體上的磁碟區會在「Performance：All Volumes」（效能：所有磁碟區）檢視中顯示冷資料量。當版本的報價不支援非使用中的資料報告時、此欄位的值為「N/A」ONTAP 。
+* 臨界值原則：此儲存物件上作用中的使用者定義效能臨界值原則或原則。您可以將游標放在含有省略符號（...）的原則名稱上、以檢視完整原則名稱或指派的原則名稱清單。「指派效能臨界值原則」和「清除效能臨界值原則」按鈕會維持停用狀態、直到您按一下最左側的核取方塊來選取一或多個物件為止。如需詳細資訊、請參閱下列連結：
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+
+
+
+
+== 效能：All Node檢視
+
+「效能：所有節點」檢視會顯示Unified Manager執行個體所監控之每個節點的效能事件、資料和組態資訊總覽。這可讓您快速監控節點的效能、並疑難排解效能問題和臨界值事件。
+
+
+NOTE: Flash Cache讀取會傳回節點上快取滿足的讀取作業百分比、而非從磁碟傳回。Flash Cache資料僅會針對節點顯示、而且只有在節點中安裝Flash Cache模組時才會顯示。
+
+在*報告*功能表中、當Unified Manager及其所管理的叢集安裝在沒有外部網路連線的站台時、會提供*硬體庫存報告*選項。此按鈕會產生一個內含叢集與節點資訊完整清單的.csf檔案、例如硬體型號與序號、磁碟類型與數量、安裝的授權等等。此報告功能有助於在未連線至NetApp Active IQ 穩定平台的安全站台內續約。您可以使用*指派效能臨界值原則*和*清除效能臨界值原則*按鈕、將效能臨界值原則指派給物件詳細目錄頁面上的任何物件、或清除其臨界值原則。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+* link:../health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html["產生硬體庫存報告以進行合約續約"]
+
+
+
+
+== 效能：所有儲存VM檢視
+
+「Performance：All Storage VM」（效能：所有儲存VM）檢視會顯示Unified Manager執行個體所監控之每個儲存虛擬機器（SVM）的效能事件、資料和組態資訊總覽。這可讓您快速監控SVM的效能、並疑難排解效能問題和臨界值事件。此頁面上的「延遲」欄位會報告所有I/O要求的平均回應時間、以毫秒為單位表示每項作業。
+
+
+NOTE: 本頁所列的SVM僅包含資料與叢集SVM。Unified Manager不會使用或顯示管理或節點SVM。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+
+
+
+
+== 效能：所有LUN檢視
+
+「Performance：All LUN（效能：所有LUN）」檢視會顯示Unified Manager執行個體所監控之每個LUN的效能事件、資料和組態資訊總覽。這可讓您快速監控LUN的效能、並疑難排解效能問題和臨界值事件。
+
+若要分析特定物件的延遲和處理量、請按一下「More（更多）」圖示 image:icon_kabob.gif[""]然後*分析工作負載*、您可以在*工作負載分析*頁面上檢視效能與容量圖表。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../data-protection/view-lun-relationships.html["監控一致性群組關係中的LUN"]
+* link:../storage-mgmt/task_provision_luns.html["資源配置LUN"]
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+* link:../performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html["檢視相同QoS原則群組中的磁碟區或LUN"]。
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["檢視套用至特定磁碟區或LUN的QoS原則群組設定"]
+* link:../api-automation/concept_provision_luns.html["使用API配置LUN"]
+
+
+
+
+== 效能：All NVMe Nam空間 檢視
+
+「效能：所有NVMe命名空間」檢視會顯示Unified Manager執行個體所監控之每個NVMe命名空間的效能事件、資料和組態資訊總覽。這可讓您快速監控命名空間的效能和健全狀況、並疑難排解問題和臨界值事件。
+
+報告了以下資訊（其中包括）：命名空間的目前狀態。*離線-不允許讀取或寫入命名空間。*線上：允許對命名空間進行讀寫存取。* NVFail：命名空間因為NVRAM故障而自動離線。*空間錯誤：命名空間空間已用完。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+
+
+
+
+== 效能：「所有網路介面」檢視
+
+「效能：所有網路介面」檢視會顯示Unified Manager執行個體所監控之每個網路介面（LIF）的效能事件、資料和組態資訊總覽。此頁面可讓您快速監控介面效能、並疑難排解效能問題和臨界值事件。以下是「效能：所有網路介面」檢視中的一些重要欄位。
+
+* IOPS：每秒輸入/輸出作業數。IOPS不適用於NFS生命期和CIFS生命期、並針對這些類型顯示為N/A。
+* 延遲：所有I/O要求的平均回應時間（以毫秒為單位）。延遲不適用於NFS生命期和CIFS生命期、並顯示為這些類型的N/A。
+* 主位置：介面的主位置、以節點名稱和連接埠名稱顯示、並以分號（：）分隔。如果位置顯示省略符號（...）、您可以將游標放在位置名稱上、以檢視完整位置。
+* 目前位置：介面的目前位置、以節點名稱和連接埠名稱顯示、並以分號（：）分隔。如果位置顯示省略符號（...）、您可以將游標放在位置名稱上、以檢視完整位置。
+* 角色：介面角色：資料、叢集、節點管理或叢集間。
+
+
+
+NOTE: 本頁列出的介面包括資料生命量、叢集生命量、節點管理生命量及叢集間生命量。Unified Manager不使用或顯示系統生命量。
+
+
+
+== 效能：All Portes（所有連接埠）檢視
+
+「效能：所有連接埠」檢視會顯示Unified Manager執行個體所監控之每個連接埠的效能事件、資料和組態資訊總覽。這可讓您快速監控連接埠的效能、並疑難排解效能問題和臨界值事件。若為連接埠角色、則會顯示網路連接埠功能、例如資料或叢集。FCP連接埠不能有角色、且角色顯示為N/A
+
+
+NOTE: 效能計數器值僅會針對實體連接埠顯示。不會顯示VLAN或介面群組的計數器值。
+
+如需詳細資訊、請參閱下列連結：
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["指派效能臨界值原則給儲存物件"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["移除儲存物件的效能臨界值原則"]
+
+
+
+
+== 效能：QoS原則群組檢視
+
+QoS原則群組檢視會顯示Unified Manager所監控叢集上可用的QoS原則群組。這包括傳統的QoS原則、調適性QoS原則、以及使用效能服務層級指派的QoS原則。
+
+以下是「效能：QoS原則群組」檢視中的一些重要欄位。
+
+* QoS原則群組：QoS原則群組的名稱。對於已匯入Unified Manager 9.7或更新版本的NetApp Service Level Manager（NSLM）1.3原則、此處顯示的名稱包括在NSLM中定義Performance Service Level時、名稱中沒有的SVM名稱和其他資訊。例如、名稱「NSLM_vs6_Performance _2_0」表示這是在SVM「vs6」上建立的NSLM系統定義「Performance」PSL原則、預期延遲為「2 ms/op」。
+* SVM：QoS原則群組所屬的儲存VM（SVM）。您可以按一下儲存VM名稱、瀏覽至該儲存VM的詳細資料頁面。請注意、如果已在管理儲存VM上建立QoS原則、則此欄位為空白、因為此儲存VM類型代表叢集。
+* 最低處理量：保證原則群組提供的最低處理量（以IOPS為單位）。對於調適性原則、這是根據儲存物件配置的大小、配置給磁碟區或LUN的每TB預期IOPS下限。
+* 最大處理量：原則群組不可超過的處理量（以IOPS和/或MB/s為單位）。當此欄位為空白時、表示ONTAP 在整個過程中定義的最大值是無限的。對於調適性原則、這是根據儲存物件配置大小或儲存物件使用大小、配置給磁碟區或LUN的每TB可能IOPS上限（尖峰）。
+* 絕對最低IOPS：對於調適性原則、這是當預期IOPS小於此值時、作為置換的絕對最低IOPS值。
+* 區塊大小：為QoS調適性原則指定的區塊大小。
+* 最小分配：是使用「已分配空間」或「已用空間」來判斷最大處理量（尖峰）IOPS。
+* 預期延遲：儲存輸入/輸出作業的預期平均延遲。
+* 共享：對於傳統QoS原則、原則群組中定義的處理量值是否會在多個物件之間共用。
+* 相關物件：指派給QoS原則群組的工作負載數量。您可以按一下QoS原則群組名稱旁的展開按鈕（）、以檢視原則群組的詳細資料。
+* 已分配容量：QoS原則群組中物件目前使用的空間量。
+* 相關物件：指派給QoS原則群組的工作負載數量、並分隔成磁碟區和LUN。您可以按一下號碼、瀏覽至提供所選磁碟區或LUN詳細資料的頁面。
+
+
+如需詳細資訊、請參閱下的主題 link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html["使用QoS原則群組資訊來管理效能"]。

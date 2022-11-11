@@ -17,7 +17,7 @@ summary: 您可以在安裝Unified Manager的Linux伺服器上升級至新版Ope
 
 您必須擁有安裝Unified Manager的Linux系統的root權限。
 
-您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.9升級至OpenJD11.0.14、但無法直接從OpenJD11更新至OpenJD12。
+您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.14升級至OpenJD11.0.17、但無法直接從OpenJD11更新至OpenJD12。
 
 .步驟
 . 以root使用者身分登入Unified Manager主機。

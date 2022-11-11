@@ -45,3 +45,5 @@ summary: 您可以檢視所有NFS共用的詳細資料、例如其狀態、與Vo
 
 |===
 
+
+如需詳細資訊、請參閱 link:../storage-mgmt/task_provision_fileshares.html["資源配置檔案共用磁碟區"] 和 link:../api-automation/concept_provision_file_share.html["使用API來配置CIFS和NFS檔案共用"]。

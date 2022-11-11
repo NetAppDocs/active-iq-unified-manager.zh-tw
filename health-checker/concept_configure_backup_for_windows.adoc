@@ -13,7 +13,7 @@ summary: 支援在使用iSCSI傳輸協定的LUN協助下、在Windows作業系�
 [role="lead"]
 支援在使用iSCSI傳輸協定的LUN協助下、在Windows作業系統上使用NetApp Snapshot進行備份與還原。Active IQ Unified Manager
 
-所有UM服務都在執行時、可以執行Snapshot型備份。當備份對整個資料庫進行全域讀取鎖定、以防止任何並行寫入時、會在Snapshot中擷取一致的資料庫狀態。若要讓安裝在Windows作業系統上的Unified Manager系統使用NetApp Snapshot執行備份與還原、您應該先使用維護主控台設定Unified Manager備份至Snapshot。
+所有Unified Manager服務都在執行時、可以執行Snapshot型備份。當備份對整個資料庫進行全域讀取鎖定、以防止任何並行寫入時、會在Snapshot中擷取一致的資料庫狀態。若要讓安裝在Windows作業系統上的Unified Manager系統使用NetApp Snapshot執行備份與還原、您應該先使用維護主控台設定Unified Manager備份至Snapshot。
 
 在設定Unified Manager以建立Snapshot複本之前、您應該先執行下列組態工作。
 

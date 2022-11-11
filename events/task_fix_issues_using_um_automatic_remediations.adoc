@@ -23,4 +23,4 @@ image::../media/management_actions.png[管理行動]
 . 若要解決Unified Manager可以解決的任何問題、請按一下「*修正*」按鈕。若要修正多個物件上存在的問題、請按一下「*全部修復*」按鈕。
 
 
-如需自動修復可解決之問題的相關資訊、請參閱 link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager可以修正哪些問題"]
+如需自動修復可解決之問題的相關資訊、請參閱 link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Unified Manager可以修正哪些問題"]。

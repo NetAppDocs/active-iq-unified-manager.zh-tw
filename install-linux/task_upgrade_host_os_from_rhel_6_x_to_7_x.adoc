@@ -25,11 +25,11 @@ summary: 如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Ma
 
 . 使用Red Hat Enterprise Linux 8.x軟體安裝及設定新伺服器。
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat軟體與安裝需求"]
+請參閱 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
 
 . 在Red Hat Enterprise Linux 8.x系統上、安裝與現有Red Hat Enterprise Linux 7.x系統相同版本的Unified Manager軟體。
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["在Red Hat Enterprise Linux上安裝Unified Manager"]
+請參閱 link:concept_install_unified_manager_on_rhel_or_centos.html["在Linux上安裝Unified Manager"]。
 
 +
 安裝完成時、請勿啟動UI或設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。
@@ -54,11 +54,11 @@ link:concept_install_unified_manager_on_rhel_or_centos.html["在Red Hat Enterpri
 . 從系統中移除Red Hat Enterprise Linux 7.x映像、然後完全抹除系統。
 . 在同一個系統上安裝及設定Red Hat Enterprise Linux 8.x軟體。
 +
-link:reference_red_hat_and_centos_software_and_installation_requirements.html["Red Hat軟體與安裝需求"]
+請參閱 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
 
 . 在Red Hat Enterprise Linux 8.x系統上、安裝與Red Hat Enterprise Linux 7.x系統相同版本的Unified Manager軟體。
 +
-link:concept_install_unified_manager_on_rhel_or_centos.html["在Red Hat Enterprise Linux上安裝Unified Manager"]
+請參閱 link:concept_install_unified_manager_on_rhel_or_centos.html["在Linux上安裝Unified Manager"]。
 
 +
 安裝完成時、請勿啟動UI或設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。

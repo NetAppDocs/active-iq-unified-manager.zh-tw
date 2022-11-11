@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: cluster, connectivity, status, definitions 
 summary: 叢集之間的連線MetroCluster 能力可為下列狀態之一：Optimal（最佳）、Impacted（受影響）或Down（關閉）。瞭解連線狀態可MetroCluster 讓您有效管理您的支援功能組態。 
 ---
-= 叢集連線狀態定義
+= 叢集連線狀態定義MetroCluster 、適用於透過FC進行的組態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-叢集之間的連線MetroCluster 能力可為下列狀態之一：Optimal（最佳）、Impacted（受影響）或Down（關閉）。瞭解連線狀態可MetroCluster 讓您有效管理您的支援功能組態。
+以透過FC組態在叢集之間建立連線MetroCluster 可能是下列狀態之一：Optimal（最佳）、Impacted（受影響）或Down（關閉）。瞭解連線狀態可MetroCluster 讓您有效管理您的支援功能組態。
 
 |===
 | 連線狀態 | 說明 | 顯示圖示 

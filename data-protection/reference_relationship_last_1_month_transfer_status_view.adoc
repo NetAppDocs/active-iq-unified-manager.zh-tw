@@ -64,3 +64,10 @@ summary: 「關係：過去1個月的傳輸狀態」檢視可讓您分析非同�
 顯示目的地叢集名稱。
 
 
+
+*相關資訊*
+
+* 如需*關係：所有關係*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_all_relationships_view.html["關係：「所有關係」檢視"]。
+* 如需*關係：MetroCluster *檢視的相關資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]。
+* 如需*關係：所有關係*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["關係：過去1個月的轉帳率檢視"]。
+

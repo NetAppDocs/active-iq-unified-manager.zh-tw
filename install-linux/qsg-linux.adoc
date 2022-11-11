@@ -27,11 +27,21 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 === 下載安裝程式
 
-. 下載「ActiveIQUnifiedManager-<版本>.Zip」安裝套件。
+. 下載 `ActiveIQUnifiedManager-<version>.zip` 安裝套件及程式碼簽署憑證 (`.pem`）和數位簽章 (`.sig`）。
 . 在您下載安裝檔案的目錄中、執行：
 +
 解壓縮ActiveIQUnifiedManager-<版本>.Zip
 
+
+
+
+
+=== 驗證完整性
+
+執行下列命令來驗證安裝程式套件的完整性：
+
+* 執行 `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` 從程式碼簽署憑證建立具有公開金鑰的檔案。
+* 執行 `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` 以驗證安裝程式套件上的簽名。
 
 
 

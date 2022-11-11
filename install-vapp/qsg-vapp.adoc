@@ -12,7 +12,7 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 == 系統需求
 
-* 作業系統：VMware ESXi 6.5、6.7和7.0
+* 作業系統：VMware ESXi 6.5、6.7和7.1.x
 * RAM：12 GB
 * CPU：總共9572 MHz
 * 可用磁碟空間：5 GB（精簡配置）、152 GB（完整配置）
@@ -28,9 +28,16 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 === 下載安裝程式
 
-. 下載「ActiveIQUnifiedManager-<版本>.ova」安裝套件。
+. 下載 `.tar` 包含根憑證的檔案：a `README` 檔案、和 `OVA` 檔案：
 . 將檔案儲存至vSphere Client可存取的本機目錄或網路目錄。
+. 下載的目錄中 `.tar` 檔案中、輸入 `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` 命令。+所需的 `OVA` 檔案、根憑證和 `README` 檔案會解壓縮至目標目錄。
 
+
+
+
+=== 驗證完整性
+
+您可以驗證的完整性 `OVA` 依照中提供的步驟歸檔 `README` 檔案：
 
 
 
@@ -38,7 +45,8 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 . 在vSphere Client中、按一下*檔案>部署OVF範本*。
 . 找到OVA檔案、然後使用精靈在ESXi伺服器上部署虛擬應用裝置。
-. 在「網路組態」頁面的「內容」索引標籤中、填入您要執行的安裝類型所需的欄位：
+. 在「檢閱詳細資料」頁面的「發佈者」區段中、會顯示訊息  `Entrust Code Signing - OVCS2 (Trusted certificate)` 確認已下載的完整性 `OVA` 檔案：以取得訊息 `Entrust Code Signing - OVCS2 (Invalid certificate)`、將VMware vCenter Server升級至7.0U3E或更新版本。
+. 在「自訂範本」頁面的「內容」索引標籤中、填入您要執行的安裝類型所需的欄位：
 +
 ** 對於靜態組態、請在所有欄位中輸入必要資訊。不需要新增*次要DNS*欄位的資訊。
 ** 對於使用IPv4的DHCP、請勿在任何欄位中新增任何資訊。

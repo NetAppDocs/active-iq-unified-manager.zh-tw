@@ -16,7 +16,7 @@ summary: 您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主�
 *您需要的是什麼*
 
 * 您必須擁有root使用者存取權、才能存取要從中移除Unified Manager的伺服器。
-* 必須在Red Hat機器上停用增強安全的Linux（SELinux）。使用「show 0」命令將SELinux執行時間模式變更為「Permiscive」。
+* Linux系統必須停用增強安全性的Linux（SELinux）。使用將SELinux執行時間模式變更為「允許」 `setenforce 0` 命令。
 * 移除軟體之前、必須先從Unified Manager伺服器移除所有叢集（資料來源）。
 
 

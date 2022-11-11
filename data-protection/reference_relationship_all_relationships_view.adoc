@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/reference_relationship_all_relationships_view.html 
 sidebar: sidebar 
-keywords: volume, relationships 
+keywords: volume, relationships, metrocluster 
 summary: 「關係：所有關係」檢視會顯示有關儲存系統上保護關係的資訊。 
 ---
 = 關係：「所有關係」檢視
@@ -317,4 +317,11 @@ SnapMirror傳輸已啟動、但有些相關工作正在等待佇列。
 ** SnapMirror、一致性群組。
 
 
+
+
+*相關資訊*
+
+* 如需*關係：MetroCluster S16*檢視的相關資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]。
+* 如需*關係：上個月轉帳狀態*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["關係：過去1個月的「傳輸狀態」檢視"]。
+* 如需*關係：所有關係*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["關係：過去1個月的轉帳率檢視"]。
 

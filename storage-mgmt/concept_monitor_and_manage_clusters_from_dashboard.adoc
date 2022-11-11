@@ -71,7 +71,7 @@ summary: 儀表板提供有關所監控ONTAP 之各種系統目前健全狀況�
  a| 
 保護
  a| 
-顯示受SVM-DR關係保護的儲存VM數量、受SnapMirror關係保護的磁碟區數量、以及受Snapshot保護的磁碟區數量。
+顯示受SVM-DR關係保護的儲存VM數量、受SnapMirror關係保護的磁碟區、受Snapshot保護的磁碟區數量、MetroCluster 以及受支援的叢集數量。
 
 
 

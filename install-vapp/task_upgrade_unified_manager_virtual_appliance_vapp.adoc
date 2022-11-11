@@ -11,7 +11,7 @@ summary: 您可以升級Unified Manager虛擬應用裝置
 
 
 [role="lead"]
-您可以將Active IQ Unified Manager 更新版本9.9或9.10升級至9.11。
+您可以將Active IQ Unified Manager 版次從9.10或9.11升級至9.12。
 
 *您需要的是什麼*
 
@@ -20,10 +20,10 @@ summary: 您可以升級Unified Manager虛擬應用裝置
 * 您已從NetApp支援網站下載升級檔案（ISO映像）。
 * 您要升級Unified Manager的系統符合系統和軟體需求。
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["虛擬化基礎架構需求"]
+請參閱 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["虛擬化基礎架構需求"]。
 
 +
-link:reference_vmware_software_and_installation_requirements.html["VMware軟體與安裝需求"]
+請參閱 link:reference_vmware_software_and_installation_requirements.html["VMware軟體與安裝需求"]。
 
 * 對於vSphere 6.5及更新版本的使用者、您已安裝VMware遠端主控台（VMRC）。
 * 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會在6個月後清除歷史效能資料。
@@ -70,4 +70,4 @@ link:reference_vmware_software_and_installation_requirements.html["VMware軟體�
 . *選用：*登入維護主控台、然後驗證Unified Manager的版本。
 
 
-您可以登入Web UI、以使用升級版的Unified Manager。請注意、您必須等待探索程序完成、才能在UI中執行任何工作。
+您可以在支援的網頁瀏覽器上的新視窗中啟動Web UI、然後登入以使用升級版的Unified Manager。請注意、您必須等待探索程序完成、才能在UI中執行任何工作。

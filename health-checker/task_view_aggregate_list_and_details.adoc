@@ -36,4 +36,7 @@ summary: 從「健全狀況：所有集合體」檢視中、您可以監控集�
 
 *相關資訊*
 
-link:../health-checker/reference_health_aggregate_details_page.html["Aggregate / Health詳細資料頁面"]
+* link:../health-checker/reference_health_aggregate_details_page.html["Aggregate / Health詳細資料頁面"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["效能：All Aggregate檢視"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["自訂Aggregate容量報告"]
+

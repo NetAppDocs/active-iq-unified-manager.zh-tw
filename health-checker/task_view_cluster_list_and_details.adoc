@@ -29,4 +29,9 @@ summary: 您可以使用健全狀況：所有叢集檢視來檢視叢集的庫�
 
 *相關資訊*
 
-link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]
+* link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]
+* link:../performance-checker/performance-view-all.html#performance-all-clusters-view["效能：All ClustersView（所有叢集檢視）"]
+* link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["檢視叢集和儲存VM的安全狀態"]
+* link:../health-checker/concept_what_security_criteria_is_being_evaluated.html["正在評估哪些安全性準則"]
+

@@ -17,7 +17,7 @@ summary: 部署Unified Manager包括下載軟體、部署虛擬應用裝置、�
 
 * 您應該驗證並完成部署的系統需求。
 +
-link:concept_requirements_for_installing_unified_manager.html["系統需求"]
+請參閱 link:concept_requirements_for_installing_unified_manager.html["系統需求"]。
 
 * 請確定您擁有下列資訊：
 +
@@ -42,6 +42,6 @@ link:concept_requirements_for_installing_unified_manager.html["系統需求"]
 完成部署和初始設定之後、您可以新增叢集、或在維護主控台設定其他網路設定、然後存取Web UI。
 
 .步驟
-. link:task_download_unified_manager_ova_file.html["下載Unified Manager"]
-. link:task_deploy_unified_manager_virtual_appliance_vapp.html["部署Unified Manager虛擬應用裝置"]
+. 請依照中的步驟進行 link:task_download_unified_manager_ova_file.html["下載Unified Manager"]。
+. 此外、請遵循中的步驟 link:task_deploy_unified_manager_virtual_appliance_vapp.html["部署Unified Manager虛擬應用裝置"]。
 

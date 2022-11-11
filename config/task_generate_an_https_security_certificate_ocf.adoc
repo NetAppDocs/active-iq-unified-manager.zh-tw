@@ -62,6 +62,5 @@ summary: 首次安裝時、會安裝預設的HTTPS憑證。Active IQ Unified Man
 |===
 . 按一下「*是*」以重新產生憑證。
 . 重新啟動Unified Manager伺服器、使新的憑證生效。
+. 檢視HTTPS憑證來驗證新的憑證資訊。
 
-
-檢視HTTPS憑證來驗證新的憑證資訊。

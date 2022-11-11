@@ -32,3 +32,12 @@ summary: 從「Health：All Storage VM」（健全狀況：所有儲存VM）檢�
 
 . 按一下「最小詳細資料」對話方塊中的「*檢視相關*」、即可檢視與SVM相關的物件。
 
+
+*相關資訊*
+
+* link:../health-checker/reference_health_svm_details_page.html["Storage VM：健全狀況詳細資料頁面"]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view["效能：所有儲存VM檢視"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["安全性：勒索軟體檢視"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["檢視叢集和儲存VM的安全狀態"]
+* link:../data-protection/reference_relationship_all_relationships_view.html["關係：「所有關係」檢視"]
+

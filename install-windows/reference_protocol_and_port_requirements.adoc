@@ -104,11 +104,9 @@ MySQL
 |===
 [NOTE]
 ====
-HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱_設定Active IQ Unified Manager SURF__。
+MySQL的預設連接埠3306僅限在Windows系統上安裝Unified Manager時使用localhost。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用將連線提供給其他主機 `Control access to MySQL port 3306` 維護主控台的選項。如需相關資訊、請參閱 link:../config/reference_additional_menu_options.html["其他功能表選項"]。HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱 link:../config/concept_configure_unified_manager.html["設定Active IQ Unified Manager 功能"]。
 
 ====
-link:../config/concept_configure_unified_manager.html["設定Active IQ Unified Manager 功能"]
-
 
 
 == 從Unified Manager伺服器連線
@@ -141,8 +139,6 @@ HTTPS
 NDMP
  a| 
 1000/TCP
-
-7/TCP
  a| 
 用於特定的Snapshot還原作業。
 

@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.11
+  name: Active IQ Unified Manager 9.12
   internal:
     pdf_enabled: true
   prod:
@@ -9,6 +9,9 @@ settings:
   versions:
   - name: Unified Manager
     url: "/active-iq-unified-manager"
+    version-number: '9.12'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-911"
     version-number: '9.11'
   - name: Unified Manager
     url: "/active-iq-unified-manager-910"
@@ -16,7 +19,7 @@ settings:
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
   entries:
-  - title: 零點9.11文件Active IQ Unified Manager
+  - title: 209.12文件Active IQ Unified Manager
     url: "/index.html"
   - title: 版本資訊
     url: "/reference_release_notes.html"
@@ -143,7 +146,7 @@ homepage:
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
     - title: Unified Manager部落格
       url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
-    - title: 文件資料以供參考9.10 Active IQ Unified Manager
-      url: https://docs.netapp.com/us-en/active-iq-unified-manager-910/
+    - title: 適用於此產品的文件Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager-911/
     - title: 舊版文件
       url: https://docs.netapp.com/ocum-99/topic/com.netapp.ndc.ocum-vers/GUID-DA5B426C-61E1-45E3-B2BE-834636433934.html

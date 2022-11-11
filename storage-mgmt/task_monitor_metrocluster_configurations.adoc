@@ -11,38 +11,97 @@ summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題�
 
 
 [role="lead"]
-您可以監控MetroCluster 使用您的功能性組態的連線問題。詳細資料包括叢集內的元件狀態和連線能力、以及MetroCluster 叢集間的連線狀態（以供參考組態設定）。
+您可以監控MetroCluster 使用您的功能性組態的連線問題。詳細資料包括叢集內的元件狀態和連線能力、以及MetroCluster 叢集間的連線狀態（以供參考組態設定）。在此、您將瞭解如何監控MetroCluster 以透過FC和MetroCluster 透過IP組態保護的叢集內的連線問題。
+
+您可以MetroCluster 從Active IQ Unified Manager 下列畫面從左側瀏覽窗格監控「不完整的」組態：
+
+* *儲存設備*>*叢集*>*保護：MetroCluster Section*檢視
+* *保護*>*關係**關係：MetroCluster 參考*檢視
+
+
+Unified Manager會使用系統健全狀況警示來指出MetroCluster 元件的狀態、以及在整個過程中的連線能力。
 
 *您需要的是什麼*
 
 * 必須將本地叢集和遠端叢集MetroCluster 的支援功能新增至Active IQ Unified Manager 支援功能。
+* 在透過IP的支援中、如果要支援「內建器」、則應使用對應的API來設定「內建器」、並將其新增至叢集。MetroCluster
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 
-您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何連線問題。例如、如果叢集中節點與交換器之間的連線中斷、則會顯示下列圖示：
 
-image::../media/node_switch_connectivity.gif[節點交換器連線能力]
 
-如果將指標移到圖示上、您可以檢視所產生事件的詳細資訊。
+== 監控MetroCluster FC上的連接問題
 
-Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的狀態、以及在功能性方面的連線能力。
-
-僅當叢集使用的是一個還原組態時、才會顯示「還原連線」索引標籤。MetroCluster MetroCluster
+對於MetroCluster 採用透過FC的叢集組態、連線圖表會顯示在*叢集/健全狀況*詳細資料頁面上。請遵循下列步驟。
 
 .步驟
 . 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
 +
 隨即顯示所有受監控叢集的清單。
 
-. 在「*健全狀況：所有叢集*」檢視中、按一下您要檢視MetroCluster 其完整組態詳細資料的叢集名稱。
-. 在「*叢集/健全狀況*」詳細資料頁面中、按一下「* MetroCluster 」「連線能力*」索引標籤。
+. 在* Protection：MetroCluster Section*檢視中、按一下您要檢視MetroCluster 其整個FC組態詳細資料的叢集名稱。或者、您也可以MetroCluster 依叢集進行篩選、使其採用不受需求的組態。
+. 在「*叢集/健全狀況*」詳細資料頁面中、按一下「* MetroCluster 」「連線能力*」索引標籤。「* MetroCluster 不完整連線*」標籤僅適用於MetroCluster 「不完整的」FC組態。
 +
-畫面上會在對應的叢集物件區域中顯示此組態的拓撲MetroCluster 。
+image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager MetroCluster 的「連線能力」標籤]
+
++
+畫面上會在對應的叢集物件區域中顯示此組態的拓撲MetroCluster 。您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何連線問題。例如、如果叢集中節點與交換器之間的連線中斷、則會顯示下列圖示：
 
 
+
+image::../media/node_switch_connectivity.gif[節點交換器連線能力]
+
+如果將指標移到圖示上、您可以檢視所產生事件的詳細資訊。
 
 如果MetroCluster 發現在您的資訊功能組態中有連線問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。
 
+如需判斷叢集健全狀況的詳細資訊、請參閱 link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["判斷MetroCluster 叢集健全狀況的功能"]。
+
+
+
+== 監控MetroCluster 透過IP組態的連線問題
+
+對於MetroCluster 採用透過IP進行組態的叢集、連線圖表會顯示在* Clusters*頁面上。請遵循下列步驟。
+
+.步驟
+. 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
++
+隨即顯示所有受監控叢集的清單。
+
+. 在「* Protection：MetroCluster *」檢視中、按一下您要檢視MetroCluster 其「透過IP」組態詳細資料的叢集名稱。或者、您也可以MetroCluster 依叢集進行篩選、使其採用不受需求的組態。
+. 按一下插入號以展開該列 `v` 圖示。這個插入符號圖示僅會出現在這個受到MetroCluster 透過IP進行設定保護的叢集上。
++
+您可以檢視來源站台和鏡射站台的拓撲、以及用於連線的「媒體器」（如果有）。您可以檢視下列資訊：
+
++
+** 跨站台的連線能力
+** 兩個站台的健全狀況和可用度問題（如果有）
+** 中介者相關問題
+** 複寫相關問題。
++
+
+NOTE: 報告下列狀態：critical（嚴重）（image:sev_critical_um60.png[""]）、錯誤（image:sev_error_um60.png[""]）或正常（image:sev_normal_um60.png[""]）。您也可以在同一個拓撲中檢視主要和鏡射資料的集合體資料複寫狀態。
+
++
+在下圖中、您可以看到來源叢集與目的地叢集之間的站台間連線無法使用、而且未設定它們之間的「資訊管理器」。
+
++
+image:mcc-ip-conn-status.png[""]
+
+
+
+. 按一下狀態圖示。畫面會顯示含有錯誤定義的訊息。如果MetroCluster 您的透過IP進行的設定中有任何問題發生、您可以按一下訊息上的*檢視事件*按鈕、檢視事件詳細資料。當您解決了問題和事件之後、此拓撲中的狀態圖示會變成正常（image:sev_normal_um60.png[""]）。
+. 您可以在MetroCluster 「*叢集/健全狀況*」詳細資料頁面的「*組態*」索引標籤上的「*不完整概述*」和「*保護*」區段中、檢視更多組態詳細資料。
+
+
+
+NOTE: 只有MetroCluster 在使用IP的情況下、您才能在「*叢集*」頁面上檢視叢集拓撲。對於MetroCluster 採用透過FC進行叢集組態的叢集、拓撲會顯示在MetroCluster *叢集/健全狀況*詳細資料頁面的*《鏈結能力*》索引標籤上。
+
 *相關資訊*
 
-link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]
+* link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]
+* 如需*關係：MetroCluster *檢視的相關資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]。
+* 如需*關係：上個月轉帳狀態*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["關係：過去1個月的「傳輸狀態」檢視"]。
+* 如需*關係：過去1個月轉帳率*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["關係：過去1個月的轉帳率檢視"]。
+* 如需*關係：所有關係*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_all_relationships_view.html["關係：「所有關係」檢視"]。
+

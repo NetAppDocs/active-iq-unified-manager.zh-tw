@@ -35,7 +35,10 @@ Unified Manager運用實體與邏輯空間的概念、將其用於ONTAP 物件�
 
 == 容量測量單位
 
-Unified Manager會根據位元組為1024（2^10^的二進位元組來計算儲存容量。在更新版本的版本中、這些單位顯示為KB、MB、GB、TB及PB。ONTAP從ONTAP 《支援支援》9.10.1開始、其在Unified Manager中顯示為KiB、mib、GiB、TiB和PIB。附註：所有ONTAP 版本的整個過程中、用於處理量的單位仍為每秒千位元組（Kbps）、每秒百萬位元組（MBps）、每秒GB（GBps）或每秒TB（Tbps）等。
+Unified Manager會根據位元組為1024（2^10^的二進位元組來計算儲存容量。在更新版本的版本中、這些單位顯示為KB、MB、GB、TB及PB。ONTAP從ONTAP 《支援支援》9.10.1開始、其在Unified Manager中顯示為KiB、mib、GiB、TiB和PIB。
+
+
+NOTE: 用於處理量的單位仍為每秒千位元組（Kbps）、每秒百萬位元組（MBps）、每秒GB（GBps）或每秒TB（Tbps）等、適用於ONTAP 所有版本的資訊。
 
 [cols="4*"]
 |===

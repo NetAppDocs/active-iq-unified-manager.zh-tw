@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: data mirror, status, definitions 
 summary: 支援各種組態、可在整個站台無法使用時、提供資料鏡射功能及啟動容錯移轉的額外能力。MetroCluster在一個不支援功能的組態中、叢集之間的資料鏡射狀態MetroCluster 可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。 
 ---
-= 資料鏡射狀態定義
+= 資料鏡射狀態定義MetroCluster 、適用於透過FC的功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-支援各種組態、可在整個站台無法使用時、提供資料鏡射功能及啟動容錯移轉的額外能力。MetroCluster在一個不支援功能的組態中、叢集之間的資料鏡射狀態MetroCluster 可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。
+透過FC組態提供資料鏡射功能、並可在整個站台無法使用時啟動容錯移轉。MetroCluster以透過FC的支援功能組態在叢集之間進行資料鏡射的狀態MetroCluster 、可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。
 
 |===
 | 資料鏡射狀態 | 說明 | 顯示圖示 

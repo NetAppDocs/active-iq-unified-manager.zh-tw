@@ -49,11 +49,11 @@ summary: 「產生使用者和群組配額的規則電子郵件地址」頁面�
 
 規則的語法必須是下列其中一項：
 
-* 如果（「有效的varableoperator」*）、則為「電子郵件ID @網域名稱」
+* 如果（ `valid variableoperator *`）然後 `email ID@domain name`
 +
 如果是關鍵字且為小寫。運算子是=。電子郵件ID可以包含任何字元、有效變數$user_or_group、$useror、$group、或任意字元與有效變數$user_or_group、$useror或$group的組合。網域名稱可以包含任何字元、有效變數$domain,或是任何字元與有效變數$domain.有效的變數可以是大寫或小寫、但不能同時是兩者的組合。例如、$DOMAINA和$DOMAINA均有效、但$Domain不是有效的變數。
 
-* 如果（「有效的variableoperator 'tring '」）、則為「電子郵件ID @網域名稱」
+* 如果（ `valid variableoperator `string``）然後 `email ID@domain name`
 +
 如果是關鍵字且為小寫。運算子可以包含或=。電子郵件ID可以包含任何字元、有效變數$user_or_group、$useror、$group、或任意字元與有效變數$user_or_group、$useror或$group的組合。網域名稱可以包含任何字元、有效變數$domain,或是任何字元與有效變數$domain.有效的變數可以是大寫或小寫、但不能同時是兩者的組合。例如、$DOMAINA和$DOMAINA均有效、但$Domain不是有效的變數。
 

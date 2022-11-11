@@ -25,7 +25,7 @@ Unified Manager具備下列功能：
 
 
 * 檢視叢集探索與監控狀態
-* 零件組態：檢視及監控叢集元件的組態、交換器和橋接器、問題及連線狀態MetroCluster MetroCluster
+* 透過FC與IP組態：檢視及監控叢集元件的組態、問題及連線狀態。MetroCluster適用於以FC為架態的交換器和橋接器MetroCluster MetroCluster
 * 增強的警示、事件和臨界值基礎架構
 * LDAP、LDAPS、SAML驗證及本機使用者支援
 * RBAC（適用於預先定義的角色集）

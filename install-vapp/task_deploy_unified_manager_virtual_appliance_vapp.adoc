@@ -17,9 +17,9 @@ summary: 下載安裝檔案之後、您可以將Unified Manager部署為虛擬�
 
 您應該檢閱系統需求。在部署Unified Manager虛擬應用裝置之前、請先進行必要的變更。
 
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["虛擬化基礎架構需求"]
+請參閱 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["虛擬化基礎架構需求"]。
 
-link:reference_vmware_software_and_installation_requirements.html["VMware軟體與安裝需求"]
+請參閱 link:reference_vmware_software_and_installation_requirements.html["VMware軟體與安裝需求"]。
 
 如果您使用動態主機組態傳輸協定（DHCP）、請確定DHCP伺服器可用、而且DHCP和虛擬機器（VM）網路介面卡組態正確。DHCP預設為設定。
 
@@ -52,7 +52,14 @@ link:reference_vmware_software_and_installation_requirements.html["VMware軟體�
 . 在vSphere Client中、按一下*檔案*>*部署OVF範本*。
 . 完成「部署OVF範本」精靈以部署Unified Manager虛擬應用裝置。
 +
-在「網路組態」頁面上：
+在「檢閱詳細資料」頁面上：
+
++
+** 確認「發行者」區段的詳細資料。「Entrust Code Signing - OCS2（Trusted Certificate）*（Entrust程式碼簽署- OCS2（信任的憑證）*）」訊息可確認下載項目的完整性 `OVA` 檔案：+如果您看到「* Entrust Code Signing - OCS2（無效憑證）*」訊息、請將VMware vCenter Server升級至7.0U3E或更新版本。
+
+
++
+在「自訂範本」頁面上：
 
 +
 ** 使用DHCP和IPV4定址時、請將所有欄位保留空白。

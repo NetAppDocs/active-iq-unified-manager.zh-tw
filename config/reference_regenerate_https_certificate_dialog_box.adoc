@@ -64,3 +64,5 @@ summary: 「重新產生HTTPS憑證」對話方塊可讓您自訂安全性資訊
 預設的有效期間為397-97天。如果您已從舊版升級、則先前的憑證有效性可能會維持不變。
 
 
+
+如需詳細資訊、請參閱 link:../config/task_generate_an_https_security_certificate_ocf.html["產生HTTPS憑證"]。

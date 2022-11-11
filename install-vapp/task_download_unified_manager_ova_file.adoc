@@ -17,7 +17,7 @@ summary: 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Man
 
 您應該擁有NetApp支援網站的登入認證資料。
 
-安裝檔案為「OVA」檔案、內含在虛擬應用裝置中設定的Unified Manager軟體。
+安裝檔案為 `.tar` 包含根憑證的檔案：a `README` 檔案、和 `OVA` 包含為虛擬應用裝置設定的Unified Manager軟體的檔案。
 
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
@@ -25,6 +25,16 @@ summary: 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Man
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
-. 下載「OVA」檔案以供VMware vSphere安裝、並將其儲存至vSphere Client可存取的本機目錄或網路目錄。
+. 下載並儲存 `.tar` VMware vSphere安裝檔案至vSphere Client可存取的本機目錄或網路目錄。
 . 驗證Checksum、確保軟體下載正確。
+. 瀏覽至您下載的目錄 `.tar` 在終端機視窗中輸入下列命令、以展開Unified Manager套裝組合：
++
+[listing]
+----
+tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz
+----
++
+必要的 `OVA` 檔案、根憑證和 `README` Unified Manager檔案會解壓縮至目標目錄。
+
+. 驗證的完整性 `OVA` 依照中提供的步驟歸檔 `README` 檔案：
 

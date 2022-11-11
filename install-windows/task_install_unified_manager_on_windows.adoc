@@ -17,10 +17,10 @@ summary: 您可以安裝Unified Manager來監控和疑難排解資料儲存容�
 
 * 您打算安裝Unified Manager的系統應符合系統和軟體需求。
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]
+請參閱 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]。
 
 +
-link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]
+請參閱 link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]。
 
 +
 [NOTE]

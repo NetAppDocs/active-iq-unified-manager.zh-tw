@@ -11,16 +11,16 @@ summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unif
 
 
 [role="lead"]
-您可以在Windows平台上下載並執行安裝檔案、將Unified Manager 9.9或9.10升級至9.11。
+您可以在Windows平台上下載並執行安裝檔案、將Unified Manager 9.10或9.11升級至9.12。
 
 *您需要的是什麼*
 
 * 您要升級Unified Manager的系統應符合系統和軟體需求。
 +
-link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]
+請參閱 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]。
 
 +
-link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]
+請參閱 link:reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]。
 
 +
 [NOTE]
@@ -34,7 +34,7 @@ link:reference_windows_software_and_installation_requirements.html["Windows軟�
 開始升級之前、請先確定系統上已安裝Microsoft .NET 4.5.2以上版本。
 
 ====
-* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.28、Unified Manager升級程序會自動將MySQL升級至8.0.28。您不得執行舊版MySQL的獨立升級至8.0.27。
+* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.30、Unified Manager升級程序會自動將MySQL升級至8.0.30。您不得執行舊版MySQL的獨立升級至8.0.30。
 * 您應該擁有Windows系統管理員權限。請確定您的使用者名稱開頭沒有驚嘆號「！」。如果執行安裝的使用者名稱開頭為「！」、Unified Manager安裝可能會失敗。
 * 您應該擁有有效的認證資料、才能登入NetApp支援網站。
 * 為了避免資料遺失、您應該建立Unified Manager機器的備份、以防升級期間發生問題。
@@ -54,7 +54,7 @@ link:reference_windows_software_and_installation_requirements.html["Windows軟�
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]。
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
 . 將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。
@@ -69,7 +69,7 @@ This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . 按一下「*是*」、然後按一下「*下一步*」。
 . 輸入安裝期間設定的MySQL8 root密碼、然後按一下「*下一步*」。
-. 登入Unified Manager Web UI、然後驗證版本編號。
+. 在支援的網頁瀏覽器上的新視窗中啟動Web UI、然後登入以使用升級版Unified Manager。
 . 如果您的Windows系統上安裝了作用中的防毒軟體、請務必在升級完成後、手動將下列路徑排除在防毒掃描之外：
 +
 ** Unified Manager資料目錄

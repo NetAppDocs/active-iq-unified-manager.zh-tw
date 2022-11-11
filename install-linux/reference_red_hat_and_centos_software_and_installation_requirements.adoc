@@ -35,8 +35,8 @@ Unified Manager部署在Wildfly Web伺服器上。Wildfly 19.0與Unified Manager
 
 Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。
 
-* MySQL Community Edition 8.0.28版（來自MySQL儲存庫）。
-* OpenJDK 11.0.14版（來自Red Hat Extra Enterprise Linux Server儲存庫）
+* MySQL Community Edition 8.0.30版（來自MySQL儲存庫）。
+* OpenJDK 11.0.17版（來自Red Hat Extra Enterprise Linux Server儲存庫）
 * Python 3.6.x
 * p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）
 
@@ -69,14 +69,14 @@ Unified Manager需要下列協力廠商套件、但未隨附於其中。這些�
 如果系統上未設定Epel儲存庫、您必須手動下載及設定儲存庫。
 
 +
-link:task_manually_configure_epel_repository.html["手動設定Epel儲存庫"]
+請參閱 link:task_manually_configure_epel_repository.html["手動設定Epel儲存庫"]。
 
 * 如果未安裝正確版本的MySQL、您必須啟用MySQL儲存庫、才能在系統上成功安裝MySQL軟體。
 +
 如果您的系統上未設定MySQL儲存庫、則必須手動下載及設定儲存庫。
 
 +
-link:task_manually_configure_mysql_repository.html["手動設定MySQL儲存庫"]
+請參閱 link:task_manually_configure_mysql_repository.html["手動設定MySQL儲存庫"]。
 
 
 

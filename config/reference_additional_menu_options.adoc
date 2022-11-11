@@ -40,6 +40,10 @@ summary: 下列功能表選項可讓您在Unified Manager伺服器上執行各�
 
 
 
+* *備份還原*
++
+如需相關資訊、請參閱下的主題 link:../health-checker/concept_manage_backup_and_restore_operations.html["管理備份與還原作業"]。
+
 * *效能輪詢時間間隔組態*
 +
 提供選項、可設定Unified Manager從叢集收集效能統計資料的頻率。預設收集時間間隔為5分鐘。
@@ -50,6 +54,10 @@ summary: 下列功能表選項可讓您在Unified Manager伺服器上執行各�
 * *檢視/變更應用程式連接埠*
 +
 提供選項、可變更Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠（若安全性需要）。HTTP預設連接埠為80、HTTPS預設連接埠為443。
+
+* *控制對MySQL連接埠3306*的存取
++
+控制主機對預設MySQL連接埠3306的存取。基於安全考量、在Linux、Windows及VMware vSphere系統上全新安裝Unified Manager時、透過此連接埠的存取權限僅限於localhost。此選項可讓您切換此連接埠在localhost和遠端主機之間的可見度、也就是如果此連接埠僅在您的環境中啟用localhost、您也可以將此連接埠提供給遠端主機使用。或者、當所有主機都啟用時、您可以將此連接埠的存取限制為僅限localhost。如果先前已在遠端主機上啟用存取、則組態會保留在升級案例中。
 
 * *退出*
 +

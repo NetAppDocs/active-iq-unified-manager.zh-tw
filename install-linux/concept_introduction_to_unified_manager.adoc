@@ -11,7 +11,7 @@ summary: 利用VMware（前身為VMware Unified Manager）、您可以從單一�
 
 
 [role="lead"]
-利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置上部署Unified Manager。
+利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以將Unified Manager部署在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置（vApp）上。
 
 在您完成安裝並新增想要管理的叢集之後、Unified Manager會提供圖形化介面、顯示受監控儲存系統的容量、可用度、保護和效能狀態。
 

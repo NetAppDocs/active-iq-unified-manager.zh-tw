@@ -11,6 +11,8 @@ summary: 您可以使用Unified Manager來檢閱MetroCluster 叢集在整個組�
 
 
 [role="lead"]
-您可以使用Unified Manager來檢閱MetroCluster 叢集在整個組態中的健全狀況。健全狀況狀態和事件可協助您判斷是否有可能影響工作負載效能的硬體或軟體問題。
+您可以使用Unified Manager來檢閱MetroCluster 透過IP或FC進行的叢集組態中的叢集健全狀況。健全狀況狀態和事件可協助您判斷是否有可能影響工作負載效能的硬體或軟體問題。
 
 如果您將Unified Manager設定為傳送電子郵件警示、您可以查看電子郵件、查看本機或遠端叢集上可能導致效能事件的任何健全狀況問題。在Unified Manager GUI中、您可以選取*事件管理*來查看目前事件清單、然後使用篩選器來MetroCluster 僅顯示不含資訊的組態事件。
+
+如需詳細資訊、請參閱 link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html["檢查MetroCluster 叢集的健全狀況、以進行整體配置"]

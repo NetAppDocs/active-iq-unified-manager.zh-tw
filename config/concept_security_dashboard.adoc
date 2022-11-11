@@ -36,7 +36,7 @@ summary: 您可以在Unified Manager上啟用或停用法規遵循監控的安�
 您啟用或停用的安全性法規遵循參數、會直接影響叢集和儲存VM畫面上的預設安全性檢視、報告和排程報告。如果您在修改安全性參數之前、已從這些畫面上傳Excel報告、則下載的Excel報告可能有問題。
 
 ====
-. 若要啟用或停用ONTAP 您的還原叢集的自訂設定、請在*叢集*下選取所需的一般設定。如需自訂叢集規範選項的相關資訊、請參閱 link:../health-checker/reference_cluster_compliance_categories.html["叢集規範類別"]
+. 若要啟用或停用ONTAP 您的還原叢集的自訂設定、請在*叢集*下選取所需的一般設定。如需自訂叢集規範選項的相關資訊、請參閱 link:../health-checker/reference_cluster_compliance_categories.html["叢集規範類別"]。
 . 若要啟用或停用儲存VM的自訂設定、請在* Storage VM*下選取所需的一般設定。如需自訂儲存VM法規遵循選項的相關資訊、請參閱 link:../health-checker/reference_svm_compliance_categories.html["儲存VM法規遵循類別"]。
 
 

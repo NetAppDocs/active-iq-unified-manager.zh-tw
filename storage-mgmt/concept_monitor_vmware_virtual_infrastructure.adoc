@@ -48,7 +48,7 @@ image::../media/vm_workflow.gif[VM工作流程]
 * Unified Manager不支援不屬於VMware vCenter的資料存放區ONTAP 、也不支援對應至vCenter Server執行個體。也不支援在這些資料存放區上具有虛擬磁碟的任何VM。
 * 不支援跨多個LUN的資料存放區。
 * 不支援使用網路位址轉譯（NAT）來對應資料LIF（存取端點）的資料存放區。
-* 不支援將多個LIF組態中具有相同IP位址的不同叢集上的磁碟區或LUN匯出為資料存放區、因為UM無法識別哪個資料存放區屬於哪個叢集。
+* 不支援將多個LIF組態中具有相同IP位址的不同叢集上的磁碟區或LUN匯出為資料存放區、因為Unified Manager無法識別哪個資料存放區屬於哪個叢集。
 +
 範例：假設叢集A具有資料存放區A資料存放區A會透過資料LIF匯出、並在此資料存放區上建立相同的IP位址x.x.x.x和VM A。同樣地、叢集B也有資料存放區B資料存放區B是透過具有相同IP位址x.x.x.x的資料LIF匯出、而VM B則是在資料存放區B上建立UM將無法將VM A的資料存放區A對應至對應ONTAP 的實體磁碟區/LUN、也無法對應VM B
 
