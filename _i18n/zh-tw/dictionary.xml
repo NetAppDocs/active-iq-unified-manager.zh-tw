@@ -49,7 +49,6 @@
   <block id="8c60b39d035602485d7a07ef3aa2f5f0" category="doc">NFS與CIFS共用的SELinux需求</block>
   <block id="a8d633f5ac5e3ef0835f41c9ff4cf88a" category="paragraph">如果您打算在NAS或SAN裝置上掛載「/opt/netapp」或「/opt/NetApp/data」、而且您已啟用SELinux、則需要注意一些考量。</block>
   <block id="9232b4a27714526a3cf1b7c7b220f85c" category="paragraph">如果您打算從根檔案系統以外的任何位置掛載「/opt / NetApp」或「/opt / NetApp /資料」、而且您的環境中已啟用SELinux、則應該為掛載的目錄設定正確的內容。針對您環境中適用的案例、請依照下列步驟設定並確認正確的SELinux內容。</block>
-  <block id="9bb2b1fda510c89a6ac7b683399b501c" category="section-title">掛載/opp/NetApp/data時設定SELinux內容</block>
   <block id="03f5a7e715f5da0b6afc76be7747611f" category="paragraph">如果您已在系統中掛載了「/opt/netapp/data」、且SELinux設為「imensitment」、請確定「/ope/netapp/data」的SELinux內容類型設為「mysqld_db_t」、這是資料庫檔案位置的預設內容元素。</block>
   <block id="b2712fcc80389fb21c52201d73266335" category="list-text">執行此命令來檢查內容：</block>
   <block id="aca3fca1b9d8fce7df43e61958affcdb" category="paragraph">「ls -dZ /opt/NetApp/data」</block>
@@ -61,7 +60,6 @@
   <block id="d488a1160c393f49a2c9ed8bd9ebe7ff" category="list-text">卸載並重新掛載「/opt/NetApp/data/」以啟用內容。</block>
   <block id="467d316f506a1751012e8dc8bb6ab3b6" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：</block>
   <block id="f39e428b6f0460103461690dc7698da5" category="paragraph">「ls -dZ /opt/NetApp/data/」</block>
-  <block id="5a2ae553bb790b75ebf1d88245170467" category="section-title">在掛載/opp/netapp時設定SELinux內容、並單獨掛載/opp/NetApp/data/</block>
   <block id="6a67b52571647cab034e5469c7dbe03b" category="paragraph">在這種情況下、您應該先設定上一節所述的「/opt/NetApp/data/」背景。為「/opt/NetApp/data/」設定正確的內容後、請確認父目錄「/opt / NetApp」沒有將SELinux內容設為「file_t」。</block>
   <block id="7f326f0475ace207f11302b09d132454" category="paragraph">「ls -dZ /opt/netapp」</block>
   <block id="be1d3d0e0382cfc4322e53d051a468f2" category="paragraph">在此輸出中、應變更內容為「file_t」。下列命令會將內容設定為「usr_t」。您可以根據安全需求、將內容設定為「file_t」以外的任何值。</block>
@@ -74,7 +72,6 @@
   <block id="0319fdf98d14d6f3c937741ddde137b3" category="paragraph">「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp -o context=system_u:object_r:usr_t:s0」</block>
   <block id="38f8c95f200dc6d3d701924c323e03b3" category="list-text">確認內容設定是否正確：</block>
   <block id="f8a8fef5f88fe9d3df594d3d8b41ce8e" category="paragraph">範例輸出</block>
-  <block id="456be3986dc6aff928e7e16f07f8562f" category="section-title">在掛載了/opp/netapp且未單獨掛載/opp/NetApp/data/時設定SELinux內容</block>
   <block id="783fab70a524af7455cb9f3470f68fdd" category="paragraph">如果您已在系統中掛載了「/opt/netapp」、且SELinux設為「強制」、請確定「/ope/netapp」的SELinux內容類型設為「mysqld_db_t」、這是資料庫檔案位置的預設內容元素。</block>
   <block id="8c5fb5a31457ddb0a355f79b5006fd17" category="list-text">請執行下列步驟、根據您掛載「/ope/NetApp」的方式來設定內容。</block>
   <block id="f9051411037b243027cff1ee99de2113" category="list-text">卸載、然後再次掛載「/opt/NetApp/」以啟用內容。</block>
@@ -11872,4 +11869,7 @@
   <block id="08f1037423e1f7c90b21578e6a5088e0" category="paragraph"><block ref="08f1037423e1f7c90b21578e6a5088e0" category="inline-link-rx"></block></block>
   <block id="ef4b00aa7f2b133711aca050ace6508d" category="sidebar">209.12文件Active IQ Unified Manager</block>
   <block id="f4a82a67b559f4b99078d99e20c3f730" category="sidebar">適用於此產品的文件Active IQ Unified Manager</block>
+  <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">在下列情況下設定SELinux內容<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 已掛載</block>
+  <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 也需個別安裝</block>
+  <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 並非單獨安裝</block>
 </blocks>

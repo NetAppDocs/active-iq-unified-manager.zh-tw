@@ -50,7 +50,7 @@ summary: 您可以編輯警示內容、例如警示所關聯的資源、事件�
 +
 [NOTE]
 ====
-只有當您選取特定資源類型的所有資源（例如+）時、才會顯示「排除」索引標籤 Volumes+或+ Volumes whose name contains 'xyz'+。
+只有當您選取特定資源類型的所有資源（例如+）時、才會顯示「排除」索引標籤<<All Volumes>>+或+<<All Volumes whose name contains 'xyz'>>+。
 
 ====
 
