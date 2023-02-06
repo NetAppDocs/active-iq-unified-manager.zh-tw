@@ -11,22 +11,15 @@ summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設�
 
 
 [role="lead"]
-您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台、來存取此靜態API。Active IQ Unified ManagerUnified Manager支援基本HTTP驗證機制。在呼叫Unified Manager REST API之前、您必須先驗證使用者。
+您可以使用任何REST用戶端或程式設計平台、利用基本的HTTP驗證機制來發出HTTP要求、藉此存取此靜態API Active IQ Unified Manager 。
 
-
-
-== REST存取
-
-您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台來存取Unified Manager REST API。例如、登入Unified Manager之後、您可以在任何瀏覽器中輸入URL、以擷取所有管理工作站的屬性、例如管理站台名稱、金鑰和IP位址。
+要求與回應範例：
 
 * *申請*
 +
-取得
-
-
-
 [listing]
 ----
+Get
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * *回應*
@@ -107,7 +100,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 +
-若要從網頁瀏覽器發出POST、修補及刪除HTTP要求、您必須使用瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。
+若要從網頁瀏覽器發出HTTP要求、您必須使用REST API瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。
 
 
 

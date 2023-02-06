@@ -50,7 +50,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 ====
 +
-*用戶端認證*：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"]。
+*用戶端認證*：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"^]。
 
 
 
@@ -58,8 +58,6 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 
 若要進行支援、您必須同時新增本機和遠端叢集、而且叢集必須正確設定。MetroCluster
-
-只要您已在叢集上設定第二個叢集管理LIF、讓Unified Manager的每個執行個體都透過不同的LIF連線、您就可以使用兩個Unified Manager執行個體來監控單一叢集。
 
 .步驟
 . 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。

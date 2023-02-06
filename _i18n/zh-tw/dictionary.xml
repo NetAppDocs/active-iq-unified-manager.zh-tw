@@ -480,7 +480,6 @@
   <block id="a2d94c8de89a700634c79d7c9d4fc2c0" category="list-text">RAM：12 GB</block>
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU：總共9572 MHz</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">可用磁碟空間：100 GB的磁碟空間用於安裝目錄、50 GB的磁碟空間用於MySQL資料目錄</block>
-  <block id="3f906b5ebb635b3895caba507b89aa41" category="paragraph">如需詳細的系統需求、請參閱 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="fe477fb8f5012f10b95318c29b24ba27" category="list-text">下載「ActiveIQUnifiedManager-&lt;版本&gt;.exe」安裝套件。</block>
   <block id="9fa35674a7d450b5af2cb972df71de22" category="list-text">將安裝檔案複製到目標系統上的目錄。</block>
   <block id="abbfbdaf21746bca446ca43c755eb8ef" category="inline-link-macro">Windows軟體與安裝需求</block>
@@ -565,7 +564,6 @@
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。</block>
   <block id="84d4d095f4b0442f31e07426efa9b0a7" category="paragraph">下列語言的64位元Windows作業系統支援Unified Manager：</block>
   <block id="4f4383ae303a1aa1063bb36803e75868" category="paragraph">請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。</block>
-  <block id="2dedeeb59a743d2abc64040dd65c2e1a" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。</block>
   <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43；&amp;#43；2015可轉散發套件14.26.28720.3版</block>
   <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;適用於Visual Studio 2013 12.0.40660.0版的可轉散發套件</block>
@@ -1274,7 +1272,6 @@
   <block id="a76dce9421f54828d6c4fec13fc1a2e1" category="list-text">使用HTTPS傳輸協定連線至叢集的連接埠號碼（通常為連接埠443）</block>
   <block id="c5fe7803895dbf7c8d576bfae98e932f" category="list-text">您必須在Unified Manager伺服器上有足夠的空間。當資料庫目錄中超過90%的空間已耗用時、您將無法將叢集新增至伺服器。</block>
   <block id="c3e85850c32008629806658dc1fd8058" category="paragraph">若要進行支援、您必須同時新增本機和遠端叢集、而且叢集必須正確設定。MetroCluster</block>
-  <block id="bccf6ddbf29e22b9305ceaa5ea940a8e" category="paragraph">只要您已在叢集上設定第二個叢集管理LIF、讓Unified Manager的每個執行個體都透過不同的LIF連線、您就可以使用兩個Unified Manager執行個體來監控單一叢集。</block>
   <block id="40e77eb5f2e208a3070bcce2f9bcfb34" category="list-text">在左導覽窗格中、按一下*儲存管理*&gt;*叢集設定*。</block>
   <block id="bc3166b51db8c4e1aa25e19fa8b11585" category="list-text">在「叢集設定」頁面上、按一下*「新增*」。</block>
   <block id="6b19f9bcdbe7c035b86634062780c720" category="list-text">在「新增叢集」對話方塊中、指定所需的值、例如叢集的主機名稱或IP位址、使用者名稱、密碼和連接埠號碼。</block>
@@ -4761,14 +4758,11 @@
   <block id="4abe9885c5bcac03cb04aad02b687e44" category="paragraph">此類別包含用於管理Unified Manager使用者的API。</block>
   <block id="7e93035a4c7813c403d410e855881994" category="summary">您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台、來存取此靜態API。Active IQ Unified ManagerUnified Manager支援基本HTTP驗證機制。在呼叫Unified Manager REST API之前、您必須先驗證使用者。</block>
   <block id="3abf2b6a30dc1d8e6cf4f22d87fc74eb" category="doc">REST API存取與驗Active IQ Unified Manager 證功能</block>
-  <block id="b71baaae518b4cfba321e56a31bf83cf" category="section-title">REST存取</block>
-  <block id="d05ac65fe6e169d97d8dc16811093c9e" category="paragraph">您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台來存取Unified Manager REST API。例如、登入Unified Manager之後、您可以在任何瀏覽器中輸入URL、以擷取所有管理工作站的屬性、例如管理站台名稱、金鑰和IP位址。</block>
   <block id="4da26f41c3171457f3ddbf53c4ce357c" category="list-text">*申請*</block>
   <block id="03f44bcdeb9eac56b2f45afcb82d3368" category="list-text">*回應*</block>
   <block id="eb6391db314b5af4580f33130f643fa1" category="list-text">「IP位址/主機名稱」是API伺服器的IP位址或完整網域名稱（FQDN）。</block>
   <block id="5c06e352f423d0b621ec486ba1ddac59" category="list-text">連接埠443</block>
   <block id="886644038ceb418e68b90e363a33a45e" category="paragraph">443是預設的HTTPS連接埠。您可以視需要自訂HTTPS連接埠。</block>
-  <block id="0535c12ab1bf9e6e8b5fa038d3c157ac" category="paragraph">若要從網頁瀏覽器發出POST、修補及刪除HTTP要求、您必須使用瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。</block>
   <block id="c75f7811d70d17dbcd88e9d03752cbed" category="section-title">驗證</block>
   <block id="55f5492d0585d69456c8ee38af804ac6" category="paragraph">Unified Manager支援API的基本HTTP驗證配置。為了確保資訊流程安全（要求和回應）、REST API只能透過HTTPS存取。API伺服器會為所有用戶端提供自我簽署的SSL憑證、以便進行伺服器驗證。此憑證可由自訂憑證（或CA憑證）取代。</block>
   <block id="74b6a9a3bbabb0fe6c40b6199d727d06" category="paragraph">您必須設定使用者對API伺服器的存取權限、才能叫用REST API。使用者可以是本機使用者（儲存在本機資料庫中的使用者設定檔）或LDAP使用者（如果您已將API伺服器設定為透過LDAP驗證）。您可以登入Unified Manager管理主控台使用者介面來管理使用者存取。</block>
@@ -10635,7 +10629,6 @@
   <block id="f861f735ef57b81425bfd81c26f4ad4c" category="list-text">您必須擁有使用者名稱和密碼才能存取叢集。</block>
   <block id="aa6a2fa2ad8c2fd4c4e3008a0fbf9957" category="list-text">您必須知道使用HTTPS傳輸協定（通常為連接埠443）連線至叢集的連接埠號碼。</block>
   <block id="4432ef294245e78969b35d0bd52c2262" category="list-text">您必須在Unified Manager伺服器上有足夠的空間。當超過90%的空間已用完時、您將無法將叢集新增至伺服器。</block>
-  <block id="065a183903a5d40080433ae456e485ea" category="list-text">Unified Manager的單一執行個體可支援特定數量的節點。如果您需要監控超出支援節點數的環境、則必須安裝Unified Manager的其他執行個體、以監控部分叢集。</block>
   <block id="f480e99c6887bc78481785dfff641a8d" category="list-text">在「新增叢集」對話方塊中、依需要指定值、然後按一下「*提交*」。</block>
   <block id="8e890a3f142c5bee7825dd0cc9d64b85" category="paragraph">如果您收到無法新增叢集的錯誤訊息、請檢查下列問題是否存在：</block>
   <block id="683594a98e7d15af8788591469fb9927" category="list-text">如果兩個系統上的時鐘未同步、且Unified Manager HTTPS憑證開始日期晚於叢集上的日期。您必須確保時鐘是使用NTP或類似服務來同步。</block>
@@ -11058,7 +11051,6 @@
   <block id="95321bf41584f0af5249cfe77a131451" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、請務必在升級完成後、手動將下列路徑排除在防毒掃描之外：</block>
   <block id="35b673088d49c428fe4b71d1fb68ac32" category="paragraph">您可以在下列Windows版本上安裝Unified Manager：</block>
   <block id="97acc1a41f0c48f305dbbeb45d754400" category="admonition">NetApp不支援使用協力廠商工具（例如Microsoft System Center Configuration Manager（Software））來安裝Unified Manager。</block>
-  <block id="8c0efbddadc6fd60891df7fc8dca2445" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、Unified Manager安裝可能會失敗。在安裝Unified Manager之前、您應該先停用系統上的所有病毒掃描軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：</block>
   <block id="f2b9e947e73ecf5aa3eb9084d5484e42" category="list-text">如果您的Windows系統上安裝了作用中的防毒軟體、請在安裝完成後、手動將下列路徑排除在防毒掃描之外：</block>
   <block id="d09e8f5749e3b7058a8289ba431458ea" category="list-text">如果您從*程式與功能*精靈解除安裝Unified Manager、請執行下列步驟：</block>
   <block id="c8c3810a14893ac6d3284dbe2703b42e" category="list-text">如果您從命令列解除安裝Unified Manager、請執行下列步驟：</block>
@@ -11435,7 +11427,6 @@
   <block id="9e1d78fcecc3350c4ecf08cec0b298a1" category="list-text">如果您從Web UI新增叢集、憑證型驗證會自動啟用。如果您從維護主控台新增叢集、則不會啟用憑證型驗證。</block>
   <block id="75d2b5faa0992c7cda340e5d43fc46b2" category="list-text">如果叢集已啟用憑證型驗證、且您從伺服器備份Unified Manager、並還原至另一個變更主機名稱或IP位址的Unified Manager伺服器、則叢集監控可能會失敗。若要避免故障、請編輯並儲存叢集詳細資料。如需編輯叢集詳細資料的詳細資訊、請參閱 <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>。</block>
   <block id="222b0f66c06702de8b7c2340008972c3" category="inline-link">如何在ONTAP System Manager使用者介面中更新自我簽署的認證</block>
-  <block id="a8dc37c69f26e87f6805f3e9cccc77a9" category="paragraph">*用戶端認證*：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章<block ref="f6fcfe83d429d75c147f28f5dc51c095" category="inline-link-rx"></block>。</block>
   <block id="184761bba2bfcfdc4a0906f763235f85" category="paragraph">在Unified Manager 9.12中、儲存叢集詳細資料之後、您可以看到叢集的相互TLS通訊憑證。</block>
   <block id="2570092c5c4918f782639770496fb209" category="paragraph">如果未啟用憑證型驗證、Unified Manager只會在一開始新增叢集時才檢查憑證。Unified Manager不會檢查每個API呼叫ONTAP 的認證資料以供參考。</block>
   <block id="1b9015a348b3b3bcd576158c9c7a8b20" category="paragraph"><block ref="1b9015a348b3b3bcd576158c9c7a8b20" category="inline-link-macro-rx"></block></block>
@@ -11793,10 +11784,8 @@
   <block id="114a028e9b55b97a58d37b3d704d07d2" category="paragraph">您可以在Windows平台上下載並執行安裝檔案、將Unified Manager 9.10或9.11升級至9.12。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">請參閱 <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
   <block id="f0e1f067c09250365312c175e69f64aa" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.30、Unified Manager升級程序會自動將MySQL升級至8.0.30。您不得執行舊版MySQL的獨立升級至8.0.30。</block>
-  <block id="5366a32f70ba928794fc68c64b8d1ad1" category="paragraph"><block ref="9578a88e95e047066c6bb7085c41a7ed" category="inline-link-rx"></block>。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">在支援的網頁瀏覽器上的新視窗中啟動Web UI、然後登入以使用升級版Unified Manager。</block>
   <block id="5ff4b86dbcd6c01705ae6ea152e028ea" category="list-text">MySQL社群版本8.0.30</block>
-  <block id="63aac233d83b28056660593d53ad8bea" category="list-text">Python 3.10.5</block>
   <block id="440738be01fbb5a218a51b31addb72e3" category="list-text">OpenJDK 11.0.16版</block>
   <block id="c25a026897caa6b556a4ed073ea3eab4" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.14升級至OpenJD11.0.16、但無法直接從OpenJD11更新至OpenJD12。</block>
   <block id="83120bcddc0b0db19b2984cc0524dcb9" category="list-text">從產生的目錄和檔案複製<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> 目錄（例如、<block ref="7b12015226b2c68810e719dd47d11964" prefix=" " category="inline-code"></block> 移至安裝Java的位置。範例：<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
@@ -11872,4 +11861,22 @@
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">在下列情況下設定SELinux內容<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 已掛載</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 也需個別安裝</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 並非單獨安裝</block>
+  <block id="f9344604b22486566c3e6d70cc163f8b" category="paragraph">您可以使用任何REST用戶端或程式設計平台、利用基本的HTTP驗證機制來發出HTTP要求、藉此存取此靜態API Active IQ Unified Manager 。</block>
+  <block id="e5595563cfe055cddbdb1a7ae1efcfad" category="paragraph">要求與回應範例：</block>
+  <block id="590e5f2d8030dd7492b5a2f24f056c33" category="paragraph">若要從網頁瀏覽器發出HTTP要求、您必須使用REST API瀏覽器外掛程式。您也可以使用諸如Curl和Perl等指令碼平台來存取REST API。</block>
+  <block id="85a30fe886275ce866327a1e02256e74" category="inline-link-macro">部分MIB Active IQ Unified Manager</block>
+  <block id="9266d8a8ea54f308e2376f2d8f7bd96b" category="paragraph">如需SNMP物件和設陷的詳細資訊、您可以下載 <block ref="5372b01ca49988ef6d087d475f5f860d" category="inline-link-macro-rx"></block> 來自整個NetApp 支援網站</block>
+  <block id="04cb263b5536fd6d36e2dbdb66c90bca" category="paragraph">*用戶端認證*：驗證期間用於ONTAP 從Sfor接收到的EMS訊息。此證書歸ONTAP 此部門所有、在Unified ONTAP Manager中新增一個叢集時必須提供此證書。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。如需建立憑證的相關資訊、請參閱知識庫（KB）文章<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>。</block>
+  <block id="3a8f6d8e81e46780cae8b01ced2c6f30" category="list-text">Unified Manager的單一執行個體可支援特定數量的節點。如果您需要監控超出支援節點數的環境、則必須安裝Unified Manager的其他執行個體、以監控部分叢集。若要檢視支援的節點數清單、請參閱<block ref="e93befa6e2a73cbce07a13aa25f57433" category="inline-link-rx"></block>。</block>
+  <block id="339df2b8ee92861a4cb2e6ba77bf71ff" category="list-text">您應該手動刪除為允許或封鎖MySQL連接埠3306而建立的防火牆規則。防火牆規則不會自動刪除。</block>
+  <block id="99f349f68754fcdb8657987c33cdde6e" category="paragraph"><block ref="99f349f68754fcdb8657987c33cdde6e" category="inline-link-rx"></block></block>
+  <block id="ca7a90443f716119f581e53c33117768" category="paragraph"><block ref="ca7a90443f716119f581e53c33117768" category="inline-link-rx"></block></block>
+  <block id="29c81145f8df4c302d2a5db797d28b64" category="paragraph"><block ref="29c81145f8df4c302d2a5db797d28b64" category="inline-link-rx"></block></block>
+  <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。您的Windows系統可能因為公司法規而安裝有效的防毒軟體。您應該先停用防毒軟體、再安裝Unified Manager、以免安裝失敗。</block>
+  <block id="eb0ae76a28872e0cb3b4b8b29ab56e93" category="list-text">Python 3.11.1</block>
+  <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">在安裝Unified Manager之前、您應該先停用系統上的所有防毒軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：</block>
+  <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">如需詳細的系統需求、請參閱 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 和 <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>。</block>
+  <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
+  <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
+  <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>。</block>
 </blocks>

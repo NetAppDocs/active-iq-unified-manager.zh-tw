@@ -29,7 +29,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 * 可用磁碟空間：100 GB的磁碟空間用於安裝目錄、50 GB的磁碟空間用於MySQL資料目錄
 
 
-如需詳細的系統需求、請參閱 link:../install-windows/concept_requirements_for_installing_unified_manager.html["安裝Unified Manager的需求"] 和 link:http://mysupport.netapp.com/matrix["互通性對照表"]。
+如需詳細的系統需求、請參閱 link:../install-windows/concept_requirements_for_installing_unified_manager.html["安裝Unified Manager的需求"] 和 link:http://mysupport.netapp.com/matrix["互通性對照表"^]。
 
 
 
