@@ -19,7 +19,7 @@ summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設�
 +
 [listing]
 ----
-Get
+GET
 https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 ----
 * *回應*

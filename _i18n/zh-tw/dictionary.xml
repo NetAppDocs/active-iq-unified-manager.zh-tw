@@ -1304,7 +1304,6 @@
   <block id="4928ff494d1fef4e158c9143249c4a6a" category="paragraph">對於在Unified Manager中建立的本機使用者、管理伺服器會維護自己的使用者名稱和密碼資料庫。管理伺服器會執行驗證、不會使用Active Directory或OpenLDAP進行驗證。</block>
   <block id="03d2af3407e8c97b7de22debe99e225b" category="summary">「HTTPS憑證」頁面可讓您檢視目前的安全性憑證、下載憑證簽署要求、產生新的HTTPS憑證、或安裝新的HTTPS憑證。</block>
   <block id="13d1caaed3e6c81f8257c80ba2a39c92" category="doc">HTTPS憑證頁面</block>
-  <block id="d7b0d1b6d6ad1c86e0f50200177ed636" category="paragraph">如果您尚未產生新的HTTPS憑證、則此頁面上顯示的憑證是安裝期間所產生的憑證。</block>
   <block id="cd62d911cc7cec7ac985016b26eec99d" category="section-title">命令按鈕</block>
   <block id="6e6ebbbb947d7fe90c48de8586fdecdc" category="paragraph">命令按鈕可讓您執行下列作業：</block>
   <block id="a371515f56c3e7c652f8242e99b4dbf3" category="list-text">*下載HTTPS憑證簽署要求*</block>
@@ -1312,7 +1311,6 @@
   <block id="e8819131331a466690626fd3b5add2cd" category="list-text">*安裝HTTPS憑證*</block>
   <block id="a9431950092ecb3c6a16902870f19aac" category="paragraph">可讓您在「憑證授權單位」簽署並傳回安全性憑證之後、再上傳及安裝安全性憑證。重新啟動管理伺服器後、新的憑證即會生效。</block>
   <block id="05b98e4f91a61c8d20d0971153ec6a73" category="list-text">*重新產生HTTPS憑證*</block>
-  <block id="edecf66ff9f14897fe423361caecb67f" category="paragraph">可讓您產生HTTPS憑證、取代目前的安全性憑證。重新啟動Unified Manager之後、新的憑證即會生效。</block>
   <block id="a1725868f0277a5fb4d98ac70d04a488" category="summary">您可以指定Active IQ Unified Manager 不活動逾時值以供使用。在指定時間內無活動之後、應用程式會自動登出。此選項預設為啟用。</block>
   <block id="7df06eac11dc72d2dd0d2b7f4f8a9f7b" category="doc">指定不活動逾時</block>
   <block id="3e32d70f729e221e6069bcf0ca78343e" category="paragraph">您可以停用此功能、或從*一般*&gt;*功能設定*&gt;*無活動逾時*修改時間。啟動此功能後、您應該在*登出時間*欄位中指定不活動的時間限制（以分鐘為單位）、之後系統會自動登出。預設值為4320分鐘（72小時）。</block>
@@ -11879,4 +11877,7 @@
   <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
   <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>。</block>
+  <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">「HTTPS憑證」頁面可讓您檢視目前的安全性憑證、下載憑證簽署要求、產生新的自我簽署HTTPS憑證、或安裝新的HTTPS憑證。</block>
+  <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">如果您尚未產生新的自我簽署HTTPS憑證、則此頁面上顯示的憑證是安裝期間所產生的憑證。</block>
+  <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">可讓您產生新的自我簽署HTTPS憑證、取代目前的安全性憑證。重新啟動Unified Manager之後、新的憑證即會生效。</block>
 </blocks>
