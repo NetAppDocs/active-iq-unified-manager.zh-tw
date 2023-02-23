@@ -2,11 +2,16 @@
 permalink: install-windows/qsg-windows.html 
 sidebar: sidebar 
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
-summary: Linux平台上的Unified Manager快速入門指南。 
+summary: 適用於Windows平台Unified Manager的快速入門指南。 
 ---
 = Windows安裝的快速入門指示
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
+
+[role="lead"]
+您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。
 
 
 

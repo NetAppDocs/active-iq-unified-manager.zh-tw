@@ -21,13 +21,13 @@ entries:
   - title: 執行保護關係容錯移轉和容錯回復
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: 從Volume / Health詳細資料頁面中斷SnapMirror關係
+    - title: 從Volume健全狀況詳細資料頁面中斷SnapMirror關係
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: 從Volume / Health詳細資料頁面反轉保護關係
+    - title: 從Volume健全狀況詳細資料頁面反轉保護關係
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: 從Volume / Health詳細資料頁面移除保護關係
+    - title: 從Volume健全狀況詳細資料頁面移除保護關係
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: 從Volume / Health詳細資料頁面重新同步保護關係
+    - title: 從Volume健全狀況詳細資料頁面重新同步保護關係
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: 解決保護工作故障
     url: "/data-protection/task_resolve_protection_job_failure.html"
@@ -45,13 +45,13 @@ entries:
     url: "/data-protection/task_view_volume_protection_relationships.html"
   - title: 監控一致性群組關係中的LUN
     url: "/data-protection/view-lun-relationships.html"
-  - title: 從SnapVault 「健全狀況/所有磁碟區」檢視建立不受保護的關係
+  - title: 從SnapVault 「All Volumes」（所有磁碟區）檢視建立不受保護的關係
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: 從SnapVault Volume / Health詳細資料頁面建立不受保護關係
+  - title: 從SnapVault Volume健全狀況詳細資料頁面建立不完整的保護關係
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: 從「健全狀況/所有磁碟區」檢視建立SnapMirror保護關係
+  - title: 從All Volumes（所有磁碟區）檢視建立SnapMirror保護關係
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: 從Volume / Health詳細資料頁面建立SnapMirror保護關係
+  - title: 從Volume健全狀況詳細資料頁面建立SnapMirror保護關係
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
   - title: 利用版本彈性複寫建立SnapMirror關係
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
@@ -65,7 +65,7 @@ entries:
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
   - title: 從「Volume關係」頁面編輯保護關係
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: 從Volume / Health詳細資料頁面編輯保護關係
+  - title: 從Volume健全狀況詳細資料頁面編輯保護關係
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
   - title: 建立SnapMirror原則以最大化傳輸效率
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
@@ -73,11 +73,11 @@ entries:
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
   - title: 從「Volume Relationships」（磁碟區關係）頁面中止作用中的資料保護傳輸
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: 從「Volume / Health（磁碟區/健全狀況）」詳細資料頁面中止作用中的資料保護傳輸
+  - title: 從Volume健全狀況詳細資料頁面中止作用中資料保護傳輸
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
   - title: 從「Volume關係」頁面靜止保護關係
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: 從Volume / Health詳細資料頁面靜止保護關係
+  - title: 從Volume健全狀況詳細資料頁面靜止保護關係
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
   - title: 從Volume Relationships（磁碟區關係）頁面中斷SnapMirror關係
     url: "/data-protection/task_break_snapmirror_relationship.html"
@@ -85,17 +85,17 @@ entries:
     url: "/data-protection/task_remove_protection_relationship.html"
   - title: 從「Volume Relationships」（磁碟區關係）頁面、以靜止關係恢復排程的傳輸
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 從「Volume / Health（磁碟區/健全狀況）」詳細資料頁面、以靜止關係恢復排程的傳輸
+  - title: 從Volume健全狀況詳細資料頁面、以靜止關係恢復排程傳輸
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: 從「Volume關係」頁面初始化或更新保護關係
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: 從Volume / Health詳細資料頁面初始化或更新保護關係
+  - title: 從Volume健全狀況詳細資料頁面初始化或更新保護關係
     url: "/data-protection/task_update_protection_voldtls_page.html"
   - title: 從「Volume Relationships」（磁碟區關係）頁面重新同步保護關
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: 從「Volume關係」頁面反轉保護關係
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: 使用Volume / Health詳細資料頁面還原資料
+  - title: 使用Volume健全狀況詳細資料頁面還原資料
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: 什麼是資源集區
     url: "/data-protection/concept_what_resource_pools_are.html"
@@ -167,7 +167,7 @@ entries:
       url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
     - title: 編輯關係對話方塊
       url: "/data-protection/reference_edit_relationship_dialog_box.html"
-    - title: 初始化/更新對話方塊
+    - title: 初始化或更新對話方塊
       url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
     - title: 重新同步對話方塊
       url: "/data-protection/reference_resynchronize_dialog_box.html"
@@ -175,9 +175,9 @@ entries:
       url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
     - title: 反轉重新同步對話方塊
       url: "/data-protection/reference_reverse_resync_dialog_box.html"
-    - title: 關係/所有關係檢視
+    - title: "「所有關係」檢視"
       url: "/data-protection/reference_relationship_all_relationships_view.html"
-    - title: 關係/過去1個月的轉帳狀態檢視
+    - title: 過去1個月的「傳輸狀態」檢視
       url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
-    - title: 關係/過去1個月的轉帳率檢視
+    - title: 過去1個月的「傳輸率」檢視
       url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"

@@ -78,7 +78,7 @@ entries:
     entries:
     - title: 建立報告以檢視達到完整容量的集合體
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: 建立報告以檢視80%以上的集合體
+    - title: 建立報告以檢視幾乎已滿的集合體
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
     - title: 建立報告以檢視過度委派的集合體
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"

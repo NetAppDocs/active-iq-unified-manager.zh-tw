@@ -750,7 +750,6 @@
   <block id="2b1a8d2d6cbc885621b02e96d3f25a43" category="paragraph">系統會自動將您登出維護主控台。</block>
   <block id="c8df6e5305c2cf95dcc9f8d6c0a038a3" category="list-text">*選用：*登入維護主控台、然後驗證Unified Manager的版本。</block>
   <block id="32e5c16a2c1109e106990eafe2e5051a" category="summary">VMware vSphere平台上的Unified Manager快速入門指南。</block>
-  <block id="745f57af3dedfc4d30afa6ced1d0df52" category="doc">VMware安裝的快速入門指示</block>
   <block id="781c32908473254b5a4d86a06486a7b7" category="list-text">可用磁碟空間：5 GB（精簡配置）、152 GB（完整配置）</block>
   <block id="e695544d34f0e201929a62c9aa611da3" category="paragraph">如需詳細的系統需求、請參閱 <block ref="50e046d8161c36e1c61db998f9999a09" category="inline-link-macro-rx"></block> 和 <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="f98b734b7817840b4280fbdea2b532f1" category="list-text">將檔案儲存至vSphere Client可存取的本機目錄或網路目錄。</block>
@@ -11015,7 +11014,6 @@
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
   <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">舊版文件</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">在Linux系統上安裝Unified Manager</block>
-  <block id="2c3b76077caf066bc2963e52113e2e78" category="sidebar">在NFS或CIFS共用區上掛載/opp/netapp或/opp/NetApp/data的SELinux需求</block>
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">在Windows系統上安裝Unified Manager</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">在VMware vSphere系統上安裝Unified Manager</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
@@ -11027,11 +11025,6 @@
   <block id="d74069c8854de78bc74ebbb6f3a7d046" category="sidebar">管理事件與警示</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">保護及還原資料</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">建立及疑難排解保護關係</block>
-  <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">從SnapVault 「健全狀況/所有磁碟區」檢視建立不受保護的關係</block>
-  <block id="7c35d6a9594204995ca67f76b440f42c" category="sidebar">從「健全狀況/所有磁碟區」檢視建立SnapMirror保護關係</block>
-  <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">關係/所有關係檢視</block>
-  <block id="917d12d3945843e955409b6049824fe7" category="sidebar">關係/過去1個月的轉帳狀態檢視</block>
-  <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">關係/過去1個月的轉帳率檢視</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">監控及管理儲存設備</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">直接從Unified Manager修正ONTAP 或管理問題</block>
   <block id="11e1b3755b142a082c6c226b589a4ea6" category="paragraph">「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0」</block>
@@ -11880,4 +11873,34 @@
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">「HTTPS憑證」頁面可讓您檢視目前的安全性憑證、下載憑證簽署要求、產生新的自我簽署HTTPS憑證、或安裝新的HTTPS憑證。</block>
   <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">如果您尚未產生新的自我簽署HTTPS憑證、則此頁面上顯示的憑證是安裝期間所產生的憑證。</block>
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">可讓您產生新的自我簽署HTTPS憑證、取代目前的安全性憑證。重新啟動Unified Manager之後、新的憑證即會生效。</block>
+  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">VMware安裝的快速入門指示</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">您可以下載<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根憑證的檔案：a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 檔案、和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 將Unified Manager部署為虛擬應用裝置。</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
+  <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">適用於Windows平台Unified Manager的快速入門指南。</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。</block>
+  <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">檢視SMB或CIFS共用的詳細資料</block>
+  <block id="721115a56e25cbc2949dce662727ea1a" category="sidebar">Volume健全狀況詳細資料</block>
+  <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">儲存VM健全狀況詳細資料</block>
+  <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">叢集健全狀況詳細資料</block>
+  <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">Aggregate健全狀況詳細資料</block>
+  <block id="f667431c76a047fbe92c5ea4f107f5be" category="sidebar">從Volume健全狀況詳細資料頁面中斷SnapMirror關係</block>
+  <block id="825540d2e356a2301d8157e67a70b20a" category="sidebar">從Volume健全狀況詳細資料頁面反轉保護關係</block>
+  <block id="9e602f9b4f36392b1a1428c981e37711" category="sidebar">從Volume健全狀況詳細資料頁面移除保護關係</block>
+  <block id="a1b4c0ddea6f9c40fd2cd596b4f7b018" category="sidebar">從Volume健全狀況詳細資料頁面重新同步保護關係</block>
+  <block id="884392bffbe4579f85c30e1e54b015d3" category="sidebar">從SnapVault 「All Volumes」（所有磁碟區）檢視建立不受保護的關係</block>
+  <block id="6e05686f2b2c07b3c6c6117873668333" category="sidebar">從SnapVault Volume健全狀況詳細資料頁面建立不完整的保護關係</block>
+  <block id="e9469afe9efe59fc810579b52fb8fc93" category="sidebar">從All Volumes（所有磁碟區）檢視建立SnapMirror保護關係</block>
+  <block id="7b8c66535079341892aef1a493ce88c4" category="sidebar">從Volume健全狀況詳細資料頁面建立SnapMirror保護關係</block>
+  <block id="7e583f9e2b84b24680ccacedb923f893" category="sidebar">從Volume健全狀況詳細資料頁面編輯保護關係</block>
+  <block id="2f73e4b880758398d71cbda6956e4261" category="sidebar">從Volume健全狀況詳細資料頁面中止作用中資料保護傳輸</block>
+  <block id="1a332e4345b7b166cc346094f426d59b" category="sidebar">從Volume健全狀況詳細資料頁面靜止保護關係</block>
+  <block id="0a7e2554ab5f606db9e7cd3f955d6876" category="sidebar">從Volume健全狀況詳細資料頁面、以靜止關係恢復排程傳輸</block>
+  <block id="6b8b5e644fe51ebdbf59ca41a2e0bd5d" category="sidebar">從Volume健全狀況詳細資料頁面初始化或更新保護關係</block>
+  <block id="4854bf8d6304b20e8a8e266470ff2f5a" category="sidebar">使用Volume健全狀況詳細資料頁面還原資料</block>
+  <block id="54ad2ceecf79def094226d610fbf9cdf" category="sidebar">初始化或更新對話方塊</block>
+  <block id="ad1e91efa1709ebf1317182df97e21ac" category="sidebar">「所有關係」檢視</block>
+  <block id="a1aa3dc0c225c91968f0c1b9e0426594" category="sidebar">過去1個月的「傳輸狀態」檢視</block>
+  <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">過去1個月的「傳輸率」檢視</block>
+  <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">NFS或CIFS共用上的SELinux需求</block>
+  <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">建立報告以檢視幾乎已滿的集合體</block>
 </blocks>

@@ -43,7 +43,7 @@ entries:
     url: "/health-checker/task_view_volume_list_and_details.html"
   - title: 檢視NFS共用的詳細資料
     url: "/health-checker/task_view_details_about_nfs_shares.html"
-  - title: 檢視關於SMB/CIFS共用的詳細資料
+  - title: 檢視SMB或CIFS共用的詳細資料
     url: "/health-checker/task_view_details_about_cifs_shares.html"
   - title: 檢視Snapshot複本清單
     url: "/health-checker/task_view_list_of_snapshot_copies.html"
@@ -283,11 +283,11 @@ entries:
     entries:
     - title: 叢集元件及其爭用的原因
       url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: Volume / Health詳細資料頁面
+    - title: Volume健全狀況詳細資料
       url: "/health-checker/reference_health_volume_details_page.html"
-    - title: Storage VM/健全狀況詳細資料頁面
+    - title: 儲存VM健全狀況詳細資料
       url: "/health-checker/reference_health_svm_details_page.html"
-    - title: 叢集/健全狀況詳細資料頁面
+    - title: 叢集健全狀況詳細資料
       url: "/health-checker/reference_health_cluster_details_page.html"
-    - title: Aggregate / Health詳細資料頁面
+    - title: Aggregate健全狀況詳細資料
       url: "/health-checker/reference_health_aggregate_details_page.html"
