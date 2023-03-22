@@ -97,16 +97,12 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 ----
 . *選用：*只有當系統未連線至網際網路、且您必須手動下載安裝所需的套件時、才必須執行步驟7。如果您的系統可以存取網際網路、而且所有必要的套件都可以使用、請前往步驟8。對於未連線至網際網路或未使用Red Hat Enterprise Linux儲存庫的系統、請執行下列步驟以判斷是否缺少任何必要的套件、然後下載這些套件：
 +
-.. 在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：
-
-
-
-
-「yum install NetApp-um<版本>.x86_64.rpm --assumeno'
-
+.. 在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：+
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
++
 「正在安裝：」區段中的項目是目前目錄中可用的套件、而「正在安裝相依套件：」區段中的項目是您系統上遺失的套件。
 
-. 在可存取網際網路的系統上、下載遺失的套件：
+.. 在可存取網際網路的系統上、下載遺失的套件：
 +
 「yum install <package_name>--downloadonly ---downloadloaddidr=.'。
 
@@ -116,9 +112,10 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 由於Red Hat Enterprise Linux系統並不一定會啟用外掛程式「yum外掛程式-downloadonly」、因此您可能需要啟用下載套件的功能、而不需安裝：「yum install yum plugin-downloadonly」（yum安裝yum外掛程式-僅下載）
 
 ====
-. 將遺失的套件從網際網路連線系統複製到安裝系統。
-+
-.. 以root使用者身分或使用「show」、執行下列命令來安裝軟體：
+.. 將遺失的套件從網際網路連線系統複製到安裝系統。
+
+
+. 以root使用者身分或使用「show」、執行下列命令來安裝軟體：
 +
 「yum install netapp-um<版本>.x86_64 .rpm」
 
@@ -131,11 +128,11 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 請勿使用替代命令（例如「rpm -ivh」）嘗試安裝。在Red Hat Enterprise Linux或CentOS系統上成功安裝Unified Manager時、必須依照特定順序將所有Unified Manager檔案及相關檔案安裝到特定目錄結構中、並透過「yum install NetApp-um< version >.x86_64 .rpm」命令自動強制執行該目錄結構。
 
 ====
-.. 請忽略安裝訊息後立即顯示的電子郵件通知。
+. 請忽略安裝訊息後立即顯示的電子郵件通知。
 +
 電子郵件會通知root使用者初始cron工作失敗、對安裝沒有不良影響。
 
-.. 安裝訊息完成後、捲動回訊息、直到看到系統顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼的訊息。
+. 安裝訊息完成後、捲動回訊息、直到看到系統顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼的訊息。
 +
 此訊息類似於下列內容：
 
@@ -152,12 +149,10 @@ Log in to Unified Manager in a web browser by using following details:
   username: umadmin
   password: admin
 ----
-.. 記錄IP位址或URL、指派的使用者名稱（umadmin）和目前密碼。
-.. 如果您在安裝Unified Manager之前使用自訂主目錄建立umadmin使用者帳戶、則必須指定umadmin使用者登入Shell：
+. 記錄IP位址或URL、指派的使用者名稱（umadmin）和目前密碼。
+. 如果您在安裝Unified Manager之前使用自訂主目錄建立umadmin使用者帳戶、則必須指定umadmin使用者登入Shell：
 +
 「usermod -s /bin/maintenance-user-shell.sh umadmin」
-
-
 
 
 

@@ -30,7 +30,6 @@
   <block id="afa28e6a1fe57dc1c2835b52e288f174" category="list-text">執行安裝前指令碼、確保沒有系統組態設定或任何可能與安裝Unified Manager衝突的安裝軟體：</block>
   <block id="ae44be51882e1847db9f99864953710d" category="paragraph">「Udo ./pre_install_re支票.sh」</block>
   <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有JDK11 - OpenJDK, p7Zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：</block>
-  <block id="d23d0640eb82a610d248d778f6dc62a5" category="list-text">在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：</block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">「正在安裝：」區段中的項目是目前目錄中可用的套件、而「正在安裝相依套件：」區段中的項目是您系統上遺失的套件。</block>
   <block id="92885fbdd9d6d32bed53f8efe8b5c8fb" category="paragraph">「yum install &lt;package_name&gt;--downloadonly ---downloadloaddidr=.'。</block>
   <block id="201a76df4d6c4b9b140e52f85c4342de" category="paragraph">由於Red Hat Enterprise Linux系統並不一定會啟用外掛程式「yum外掛程式-downloadonly」、因此您可能需要啟用下載套件的功能、而不需安裝：「yum install yum plugin-downloadonly」（yum安裝yum外掛程式-僅下載）</block>
@@ -11012,7 +11011,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
-  <block id="b4326b5cab8385bbedf7c504d8569004" category="sidebar">舊版文件</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">在Linux系統上安裝Unified Manager</block>
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">在Windows系統上安裝Unified Manager</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">在VMware vSphere系統上安裝Unified Manager</block>
@@ -11432,7 +11430,6 @@
   <block id="7ae8873e9ecd38f2b40aef36f7c9c414" category="paragraph">您可以使用*稽核記錄：檔案檢視*來檢視Active IQ Unified Manager 及存取您的整個過程中的所有稽核記錄檔。稽核記錄：檔案檢視中的檔案會根據建立日期列出。此檢視會顯示從安裝或升級到系統中現有的所有稽核記錄的資訊。每當您在Unified Manager中執行動作時、資訊都會更新、並可在記錄中使用。每個記錄檔的狀態都是使用「檔案完整性狀態」屬性擷取、該屬性會主動受到監控、以偵測記錄檔的竄改或刪除。稽核日誌可在系統中使用時、具有下列其中一種狀態：</block>
   <block id="655e1947df832dc700ee5cb38180cd47" category="paragraph">稽核記錄檔會定期歸檔、並儲存至資料庫以供參考。在歸檔之前、稽核記錄會經過數位簽署、以維持安全性和完整性。</block>
   <block id="c8395e02d18f8e0b4978ddadc5a96c5f" category="paragraph">當產生完整AutoSupport 的支援套件組合時、支援套件會同時包含已歸檔和作用中的稽核記錄檔。但是當產生輕度支援套件時、它只會包含作用中的稽核記錄。不包含歸檔的稽核記錄。</block>
-  <block id="dbf1643584a0232aa9b43b46ef46f017" category="paragraph">如需詳細資訊、請參閱 <block ref="7f1eff88d0c64584f1f18cff0575e2dd" category="inline-link-macro-rx"></block>。</block>
   <block id="831c650279a6049f0d1dbd00a67beb0a" category="inline-link-macro">效能：All ClustersView（所有叢集檢視）</block>
   <block id="d13329a517ef0035fc129588b3d02915" category="list-text"><block ref="d13329a517ef0035fc129588b3d02915" category="inline-link-macro-rx"></block></block>
   <block id="9558ec78419607c064297bda7f675f6d" category="list-text"><block ref="9558ec78419607c064297bda7f675f6d" category="inline-link-macro-rx"></block></block>
@@ -11903,4 +11900,7 @@
   <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">過去1個月的「傳輸率」檢視</block>
   <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">NFS或CIFS共用上的SELinux需求</block>
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">建立報告以檢視幾乎已滿的集合體</block>
+  <block id="a800bc3b2ac3625f86ad24d4ae00b6c8" category="list-text">在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：+<block ref="0ebef3d9c59bd558d3f360f5800cf333" prefix=" " category="inline-code"></block></block>
+  <block id="d3959f6465e1edec195c856595d76545" category="paragraph">如需詳細資訊、請參閱 <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>。</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
 </blocks>

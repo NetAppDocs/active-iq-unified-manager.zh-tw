@@ -28,4 +28,4 @@ summary: 一般而ONTAP 言、我們會根據《NetApp資訊安全強化指南ON
 從該平台回報的升級事件Active IQ 也被視為安全事件。這些事件可識別解決方案需要您升級ONTAP 的問題、包括軟體、節點韌體或作業系統軟體（如需安全性摘要報告）。這些事件不會顯示在「安全性」面板中、但可從「事件管理」目錄頁取得。
 
 ====
-如需詳細資訊、請參閱 link:..health-checker/concept_manage_cluster_security_objectives.html["管理叢集安全目標"]。
+如需詳細資訊、請參閱 link:../health-checker/concept_manage_cluster_security_objectives.html["管理叢集安全目標"]。
