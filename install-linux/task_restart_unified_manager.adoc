@@ -19,7 +19,7 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 
 .步驟
 . 以root使用者身分登入您要重新啟動Unified Manager服務的伺服器。
-. 依照下列順序停止Unified Manager服務及相關的MySQL軟體：
+. 依下列順序停止Unified Manager服務及相關的MySQL服務：
 +
 《神祕的停止》
 
@@ -29,7 +29,7 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 +
 '停機mysqld'
 
-. 依照下列順序啟動Unified Manager：
+. 依照下列順序啟動MySQL和Unified Manager服務：
 +
 《stystemctl start mysqld》
 
@@ -40,3 +40,9 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 《stystemcl start ocieau》
 
 
+
+[NOTE]
+====
+`mysqld` 是否需要精靈程式來啟動和停止MySQL伺服器。
+
+====

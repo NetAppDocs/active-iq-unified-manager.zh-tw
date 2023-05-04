@@ -11,7 +11,7 @@ summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unif
 
 
 [role="lead"]
-您可以在Windows平台上下載並執行安裝檔案、將Unified Manager 9.10或9.11升級至9.12。
+您可以下載並執行 Windows 平台上的安裝檔案、將 Unified Manager 9.11 或 9.12 升級至 9.13 。
 
 *您需要的是什麼*
 
@@ -34,7 +34,7 @@ summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unif
 開始升級之前、請先確定系統上已安裝Microsoft .NET 4.5.2以上版本。
 
 ====
-* MySQL Community Edition會在Unified Manager升級期間自動升級。如果您系統上安裝的MySQL版本早於8.0.30、Unified Manager升級程序會自動將MySQL升級至8.0.30。您不得執行舊版MySQL的獨立升級至8.0.30。
+* MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.32 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.32 。您不得執行舊版 MySQL 的獨立式升級至 8.0.32 。
 * 您應該擁有Windows系統管理員權限。請確定您的使用者名稱開頭沒有驚嘆號「！」。如果執行安裝的使用者名稱開頭為「！」、Unified Manager安裝可能會失敗。
 * 您應該擁有有效的認證資料、才能登入NetApp支援網站。
 * 為了避免資料遺失、您應該建立Unified Manager機器的備份、以防升級期間發生問題。

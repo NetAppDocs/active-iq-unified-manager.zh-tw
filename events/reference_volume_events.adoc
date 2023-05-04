@@ -163,6 +163,17 @@ Volume
 
 
  a| 
+Volume Efficiency Operation 錯誤（ ocumEvtVolume EfficiencyOperationError ）
+ a| 
+風險
+ a| 
+Volume
+ a| 
+錯誤
+
+
+
+ a| 
 Volume空間已滿（ocumEvtVolume全滿）
  a| 
 風險

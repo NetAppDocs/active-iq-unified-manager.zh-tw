@@ -20,6 +20,10 @@ summary: 若要檢視及疑難排解虛擬機器（VM）的效能、必須在Act
 * 您知道vCenter Server名稱。
 * 您知道vCenter Server的IP位址、並擁有必要的認證資料。認證資料必須是vCenter Server管理員或擁有vCenter Server唯讀存取權的root使用者。
 * 您要新增的vCenter Server會執行vSphere 6.5或更新版本。
++
+
+NOTE: Unified Manager for VMware ESXi 和 vCenter Server 的支援提供英文和日文兩種版本。
+
 * vCenter Server中的資料收集設定設為「_level 3_」的統計資料層級、確保所有受監控物件的度量收集達到所需層級。時間間隔應為「_5分鐘」、儲存期間應為「_1天」。
 +
 如需詳細資訊、請參閱VMware文件中的《vSphere監控與效能指南》一節「DATA收集層級」。

@@ -47,7 +47,7 @@ Java版本
 
 
  a| 
-MySQL 8.0.30社群版本
+MySQL 8.0.32 Community Edition
  a| 
 "rpm -qa | grep -i mysql"
 
@@ -59,7 +59,7 @@ p7zip 16.02
 "rpm -qa | grep p7Zip
 
 |===
-. 如果安裝的MySQL版本早於MySQL 8.0.30 Community Edition、請輸入下列命令予以解除安裝：
+. 如果安裝的 MySQL 版本早於 MySQL 8.0.32 Community Edition 、請輸入下列命令將其解除安裝：
 +
 "rpm -e <mysql_package_name>'
 
@@ -121,6 +121,12 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 
 +
 此命令會安裝.rpm套件、所有其他必要的支援軟體、以及Unified Manager軟體。
+
++
+如果安裝失敗並出現 GPG NOKEY 錯誤、請使用 `rpm --import` 若要從 URL 匯入金鑰：
+
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
 
 +
 [NOTE]

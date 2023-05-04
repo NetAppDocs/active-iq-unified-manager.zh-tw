@@ -11,7 +11,7 @@ summary: 您可以在VMware vSphere上升級至Unified Manager
 
 
 [role="lead"]
-您只能從Active IQ Unified Manager 版本9.10或9.11升級到版本9.12。
+您只能將 Active IQ Unified Manager 升級至 9.13 版、自版本 9.11 或 9.12 開始。
 
 在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。
 

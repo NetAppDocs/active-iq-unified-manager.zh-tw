@@ -57,7 +57,7 @@ summary: 下列功能表選項可讓您在Unified Manager伺服器上執行各�
 
 * *控制對MySQL連接埠3306*的存取
 +
-控制主機對預設MySQL連接埠3306的存取。基於安全考量、在Linux、Windows及VMware vSphere系統上全新安裝Unified Manager時、透過此連接埠的存取權限僅限於localhost。此選項可讓您切換此連接埠在localhost和遠端主機之間的可見度、也就是如果此連接埠僅在您的環境中啟用localhost、您也可以將此連接埠提供給遠端主機使用。或者、當所有主機都啟用時、您可以將此連接埠的存取限制為僅限localhost。如果先前已在遠端主機上啟用存取、則組態會保留在升級案例中。
+控制主機對預設MySQL連接埠3306的存取。基於安全考量、在Linux、Windows及VMware vSphere系統上全新安裝Unified Manager時、透過此連接埠的存取權限僅限於localhost。此選項可讓您切換此連接埠在localhost和遠端主機之間的可見度、也就是如果此連接埠僅在您的環境中啟用localhost、您也可以將此連接埠提供給遠端主機使用。或者、當所有主機都啟用時、您可以將此連接埠的存取限制為僅限localhost。如果先前已在遠端主機上啟用存取、則組態會保留在升級案例中。切換連接埠可見度之後、您應該檢查 Windows 系統上的防火牆設定、如果設定為限制存取 MySQL 連接埠 3306 、請停用防火牆設定。
 
 * *退出*
 +
