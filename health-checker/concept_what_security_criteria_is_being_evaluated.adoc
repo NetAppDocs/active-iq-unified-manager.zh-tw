@@ -21,7 +21,7 @@ summary: 一般而ONTAP 言、我們會根據《NetApp資訊安全強化指南ON
 * 您的磁碟區是否已啟用軟體或硬體加密
 
 
-請參閱法規遵循類別和的主題 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"] 以取得詳細資訊。
+請參閱法規遵循類別和的主題 http://["《NetApp ONTAP 資訊安全強化指南》（英文）9"] 以取得詳細資訊。
 
 [NOTE]
 ====

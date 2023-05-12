@@ -71,4 +71,4 @@ summary: 您可以在FabricPool 容量與效能資源清冊和這些物件的詳
 . 在「*工作負載分析*」頁面中、您可以在「*容量趨勢*」區域中選取「雲端層檢視」、以查看上個月在本機效能層和雲端層所使用的容量。
 
 
-如需FabricPool 更多有關資訊、請參閱 https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["磁碟與集合體總覽"]。
+如需FabricPool 更多有關資訊、請參閱 https://["磁碟與集合體總覽"]。

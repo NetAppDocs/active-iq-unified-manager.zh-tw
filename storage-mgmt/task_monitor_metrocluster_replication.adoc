@@ -48,7 +48,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
-您可以使用中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。
+您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。
 
 *相關資訊*
 

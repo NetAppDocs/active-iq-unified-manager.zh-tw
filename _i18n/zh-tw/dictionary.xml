@@ -11660,7 +11660,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">最小分配：是使用「已分配空間」或「已用空間」來判斷最大處理量（尖峰）IOPS。</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">預期延遲：儲存輸入/輸出作業的預期平均延遲。</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">共享：對於傳統QoS原則、原則群組中定義的處理量值是否會在多個物件之間共用。</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下QoS原則群組名稱旁的展開按鈕（）、以檢視原則群組的詳細資料。</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">已分配容量：QoS原則群組中物件目前使用的空間量。</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">相關物件：指派給QoS原則群組的工作負載數量、並分隔成磁碟區和LUN。您可以按一下號碼、瀏覽至提供所選磁碟區或LUN詳細資料的頁面。</block>
   <block id="034dcd82cded6710adb9ee975eac3378" category="paragraph">如需詳細資訊、請參閱下的主題 <block ref="d9e71bb30662a6bff1b9bdd194cdc91c" category="inline-link-macro-rx"></block>。</block>
@@ -11739,7 +11738,6 @@
   <block id="c1d47624946f3a469492d8dba1510dc8" category="paragraph">請遵循下列步驟、判斷MetroCluster 資料複寫中是否有任何問題、以利利用FC組態進行資料複寫。</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">在「*健全狀況：所有叢集*」檢視中、按一下您要檢視MetroCluster 其內容的叢集名稱。在「*叢集/健全狀況詳細資料*」頁面上、按一下「* MetroCluster 還原複寫*」索引標籤。</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">要複寫之版本資訊的拓撲MetroCluster 會顯示在對應叢集物件區域的本機站台上、並顯示有關正在鏡射資料之遠端站台的資訊。如果將指標移到圖示上、您可以檢視所產生事件的詳細資訊。</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">您可以使用中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="89e3093deb573e631e9912227e8a119e" category="paragraph">您可以安裝Unified Manager、升級至較新版本、或移除Unified Manager應用程式。</block>
   <block id="7e32d4718f2e4988b5bedbbf8300e1be" category="paragraph">請參閱 <block ref="faea1ae077af360ba8a684d0f5eba7d8" category="inline-link-macro-rx"></block>。</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">在支援的網頁瀏覽器上的新視窗中啟動Web UI、然後登入以使用升級版Unified Manager。</block>
@@ -11913,4 +11911,7 @@
   <block id="21f927966fb538fc77f7b83256804bf9" category="sidebar">Active IQ Unified Manager 9.13 文件</block>
   <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">監控 MetroCluster 組態</block>
   <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified Manager 的 API 參考</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
 </blocks>

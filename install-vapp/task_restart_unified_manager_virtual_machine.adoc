@@ -28,4 +28,4 @@ summary: 您可以從維護主控台重新啟動Unified Manager虛擬機器（VM
 
 *相關資訊*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest"]
+https://["VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest"]

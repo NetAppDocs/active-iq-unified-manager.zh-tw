@@ -64,4 +64,4 @@ summary: 您可以使用不同的導覽選項、從「所有工作負載」頁�
 Unified Manager會在工作負載名稱中尋找特殊關鍵字、以覆寫系統分析、並針對工作負載建議不同的PSL。如果工作負載名稱中有字母「'ora'」、建議使用「**極致效能」。當工作負載名稱中有字母「VM」時、建議使用「**效能」。
 
 ====
-另請參閱知識庫（KB）文章 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["ActiveIQ Unified Manager的「指派系統建議的效能服務層級」無法因應高度變動的工作負載"]
+另請參閱知識庫（KB）文章 https://["ActiveIQ Unified Manager的「指派系統建議的效能服務層級」無法因應高度變動的工作負載"]

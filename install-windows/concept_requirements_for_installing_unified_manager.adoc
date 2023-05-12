@@ -17,8 +17,8 @@ NetApp不支援對Unified Manager應用程式程式碼進行任何修改。如�
 
 如需將安全性措施套用至Unified Manager伺服器的詳細資訊、請參閱知識庫文章。
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["可支援適用於Active IQ Unified Manager 叢集Data ONTAP 式叢集式不支援的安全性措施"^]
+https://["可支援適用於Active IQ Unified Manager 叢集Data ONTAP 式叢集式不支援的安全性措施"^]
 
 *相關資訊*
 
-https://mysupport.netapp.com/matrix["NetApp 互通性對照表工具"^]
+https://["NetApp 互通性對照表工具"^]

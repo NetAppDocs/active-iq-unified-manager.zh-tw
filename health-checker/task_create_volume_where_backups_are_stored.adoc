@@ -49,4 +49,4 @@ summary: 您可以使用ONTAP 下列功能來設定將Snapshot複本儲存在任
 
 
 
-如需建立NFS Volume的詳細步驟、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["如何在ONTAP S19中設定NFSv4"] 和 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["《S9 NFS組態快速指南》ONTAP"]。
+如需建立NFS Volume的詳細步驟、請參閱 https://["如何在ONTAP S19中設定NFSv4"] 和 http://["《S9 NFS組態快速指南》ONTAP"]。

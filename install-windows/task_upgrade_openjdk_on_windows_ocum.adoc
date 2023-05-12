@@ -23,7 +23,7 @@ summary: 您可以在安裝Unified Manager的Windows伺服器上升級至新版O
 . 以管理使用者身分登入Unified Manager主機。
 . 從OpenJDK網站下載適當版本的OpenJDK（64位元）至目標系統。
 +
-例如、從下載「openjdk-11_windows-x64_bin.zip」 http://jdk.java.net/11/`[]。
+例如、從下載「openjdk-11_windows-x64_bin.zip」 http://[]。
 
 . 使用Windows服務主控台停止下列Unified Manager服務：
 +

@@ -17,7 +17,7 @@ summary: 您可以使用支援的網頁瀏覽器登入Unified Manager UI。
 
 * 網頁瀏覽器必須符合最低需求。
 +
-請參閱互通性對照表、網址為 http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] 以取得支援的瀏覽器版本完整清單。
+請參閱互通性對照表、網址為 http://["mysupport.netapp.com/matrix"] 以取得支援的瀏覽器版本完整清單。
 
 * 您必須擁有Unified Manager伺服器的IP位址或URL。
 

@@ -18,13 +18,13 @@ Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程�
 .步驟
 . 下載適用於您安裝的Epel儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：
 +
-wGet https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`[]
+wGet https://[]
 
 +
 若為版本8、請從以下網址下載：
 
 +
-wGet https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`[]
+wGet https://[]
 
 . 設定Epel儲存庫：
 +

@@ -21,4 +21,4 @@ Unified Manager會自動檢查是否有新的規則檔、而且只有在有較�
 
 如需啟用平台事件的詳細資訊、請參閱 link:../config/concept_active_iq_platform_events.html["啟用Active IQ 入口網站活動"]。如需上傳規則檔案的詳細資訊、請參閱 link:../events/task_upload_new_active_iq_rules_file.html["正在上傳新Active IQ 的功能更新檔案"]。
 
-NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱 https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ"] 以取得更多資訊。
+NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱 https://["NetApp Active IQ"] 以取得更多資訊。
