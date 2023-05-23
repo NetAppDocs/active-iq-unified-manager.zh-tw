@@ -13,7 +13,7 @@ summary: 「安全性」頁面會顯示所有叢集和儲存VM的高層級安全
 [role="lead"]
 利用此功能、您可以從介面中的不同點、檢視環境中儲存物件的安全狀態。Active IQ Unified Manager您可以根據定義的參數來收集及分析資訊和報告、並偵測受監控叢集和儲存VM上的可疑行為或未獲授權的系統變更。
 
-如需安全性建議、請參閱 http://["《NetApp ONTAP 資訊安全強化指南》（英文）9"]
+如需安全性建議、請參閱 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"]
 
 
 

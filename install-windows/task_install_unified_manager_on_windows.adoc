@@ -41,7 +41,7 @@ summary: 您可以安裝Unified Manager來監控和疑難排解資料儲存容�
 . 使用預設的本機系統管理員帳戶登入Windows。
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
 +
-https://["NetApp 支援網站"^]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"^]
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
 . 將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。

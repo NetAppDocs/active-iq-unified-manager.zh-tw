@@ -22,7 +22,7 @@ summary: 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Man
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
 +
-https://["NetApp 支援網站"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
 . 下載並儲存 `.tar` VMware vSphere安裝檔案至vSphere Client可存取的本機目錄或網路目錄。

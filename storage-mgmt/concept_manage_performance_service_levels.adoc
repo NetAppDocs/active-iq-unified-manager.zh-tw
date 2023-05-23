@@ -132,7 +132,7 @@ IOPS / TB尖峰
 已指派PSL的儲存工作負載數量。
 
 |===
-如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：https://["什麼是績效預算？"]
+如需IOPS尖峰和預期IOPs如何協助ONTAP 在VMware叢集上實現一致的差異化效能、請參閱下列知識庫文章：https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["什麼是績效預算？"]
 
 
 

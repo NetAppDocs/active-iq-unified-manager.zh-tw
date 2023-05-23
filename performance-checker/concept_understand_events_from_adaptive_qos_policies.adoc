@@ -66,4 +66,4 @@ MB/s = (IOPS * Block Size) / 1000
 
 因此、當事件是根據包含區塊大小的調適性QoS原則的每秒MB資料外洩而觸發時、「事件詳細資料」頁面的「系統診斷」區段會顯示每秒MB的圖表。如果事件是根據調適性QoS原則的IOPS外洩而觸發、則「系統診斷」區段會顯示IOPS圖表。如果IOPS和MB/s發生違規、您將會收到兩個事件。
 
-如需調整QoS設定的詳細資訊、請參閱 https://["效能管理總覽"]。
+如需調整QoS設定的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/index.html["效能管理總覽"]。

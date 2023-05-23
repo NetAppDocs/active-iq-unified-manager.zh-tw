@@ -26,4 +26,4 @@ summary: 支援的升級途徑
 . 升級 9.12 -> 9.13
 
 
-如需升級路徑對照表的詳細資訊、請參閱 https://["知識庫（KB）文章"]。
+如需升級路徑對照表的詳細資訊、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["知識庫（KB）文章"]。

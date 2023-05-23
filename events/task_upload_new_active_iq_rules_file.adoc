@@ -23,7 +23,7 @@ NOTE: 不規則也稱為「驗證（CA）安全規則」Active IQ Config Advisor
 * 必須啟用入口網站事件報告。Active IQ此功能預設為啟用。如需相關資訊、請參閱 link:../config/concept_active_iq_platform_events.html["啟用Active IQ 入口網站活動"]。
 * 您必須從NetApp支援網站下載規則檔案。
 +
-Rules檔案位於： https://[]
+Rules檔案位於： https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
 
@@ -47,4 +47,4 @@ NOTE: 在Windows系統上、在沒有網路連線的站台中、預設不會將N
 
 規則檔會在Unified Manager伺服器上解壓縮。在託管叢集於AutoSupport 午夜之後產生一個更新檔之後、Unified Manager會根據規則檔檢查叢集、並視需要產生新的風險和事件事件。
 
-如需詳細資訊、請參閱以下知識庫（KB）文章： https://["如何手動更新AIQCASecure規則Active IQ Unified Manager 、請至英文版"]。
+如需詳細資訊、請參閱以下知識庫（KB）文章： https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_Active_IQ_Unified_Manager["如何手動更新AIQCASecure規則Active IQ Unified Manager 、請至英文版"]。

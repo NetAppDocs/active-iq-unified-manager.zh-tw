@@ -54,7 +54,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 ====
 +
-* 叢集憑證 * ：此憑證為 ONTAP 所有。您無法使用過期的憑證將叢集新增至 Unified Manager 、如果憑證已過期、則應在新增叢集之前重新產生叢集。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"^]。
+* 叢集憑證 * ：此憑證為 ONTAP 所有。您無法使用過期的憑證將叢集新增至 Unified Manager 、如果憑證已過期、則應在新增叢集之前重新產生叢集。如需建立憑證的相關資訊、請參閱知識庫（KB）文章 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP System Manager使用者介面中更新自我簽署的認證"^]。
 
 
 

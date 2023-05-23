@@ -13,4 +13,4 @@ summary: Unified Manager可讓您檢視所有監控叢集上可用的服務品�
 [role="lead"]
 Unified Manager可讓您檢視所有監控叢集上可用的服務品質（QoS）原則群組。這些原則可能是使用ONTAP 支援功能的支援軟體（System Manager或ONTAP 支援功能的CLI）或Unified Manager Performance Service層級原則來定義。Unified Manager也會顯示已指派QoS原則群組的磁碟區和LUN。
 
-如需調整QoS設定的詳細資訊、請參閱 https://["效能管理總覽"]
+如需調整QoS設定的詳細資訊、請參閱 https://docs.netapp.com/us-en/ontap/performance-admin/index.html["效能管理總覽"]

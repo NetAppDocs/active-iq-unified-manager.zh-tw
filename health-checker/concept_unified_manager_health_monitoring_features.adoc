@@ -46,6 +46,6 @@ Unified Manager具備下列功能：
 Storage Automation Store包含NetApp認證的自動化儲存工作流程套件、是專為OnCommand Workflow Automation 搭配使用而開發的。您可以下載套件、然後將其匯入WFA以執行。自動化工作流程可在此取得：
 
 +
-https://["儲存自動化儲存區"]
+https://automationstore.netapp.com["儲存自動化儲存區"]
 
 

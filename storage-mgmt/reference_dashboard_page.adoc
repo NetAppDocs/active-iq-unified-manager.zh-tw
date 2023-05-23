@@ -71,7 +71,7 @@ Unified Manager可能會徹底診斷並提供單一解決方案、如果可用�
 
 您可以按一下相容和不相容叢集、儲存VMS、加密和未加密磁碟區、以及Volume反勒索軟體狀態的長條圖、前往各自的頁面、檢視篩選後叢集、儲存VM和磁碟區的安全詳細資料。
 
-法規遵循是以為基礎 http://["《NetApp ONTAP 資訊安全強化指南》（英文）9"]。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊、請參閱link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["檢視叢集和儲存VM的詳細安全狀態"]。
+法規遵循是以為基礎 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"]。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊、請參閱link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["檢視叢集和儲存VM的詳細安全狀態"]。
 
 
 

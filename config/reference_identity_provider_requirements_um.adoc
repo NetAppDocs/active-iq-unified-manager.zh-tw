@@ -74,7 +74,7 @@ urn:oID：1.3.6.1.4.1.5923.1.5.1.1
 +
 ** 請依照連結中所述的指示、針對連結的依賴方之鏈結CA憑證、停用在ADFS伺服器上的撤銷檢查：
 +
-http://["停用每個信賴方信任的撤銷檢查"]
+http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012-r2/["停用每個信賴方信任的撤銷檢查"]
 
 ** 讓CA伺服器位於ADFS伺服器內、以簽署Unified Manager伺服器認證要求。
 

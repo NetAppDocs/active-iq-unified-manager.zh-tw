@@ -19,7 +19,7 @@ summary: 您可以訂閱以接收由安裝ONTAP 了此軟體的系統所產生�
 
 您可以訂閱任何數量的EMS事件。您訂閱的所有事件都會經過驗證、而且只有已驗證的事件會套用至您在Unified Manager中監控的叢集。_SUR9 EMS Event Catalog_提供指定版本之32個軟體的所有EMS訊息詳細資訊。ONTAP ONTAP請從ONTAP 「VMware產品文件」頁面找到適當版本的_EMS事件目錄_、以取得適用事件的清單。
 
-https://["產品庫ONTAP"]
+https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62286["產品庫ONTAP"]
 
 您可以針對ONTAP 訂閱的各項E不到EMS事件設定警示、也可以建立自訂指令碼、以便針對這些事件執行。
 
@@ -36,7 +36,7 @@ https://["產品庫ONTAP"]
 若要檢視您可以訂閱的EMS事件名稱、您ONTAP 可以使用「EVENT Route show」命令（ONTAP 在版本號為9之前）或「EVENT型錄show」命令ONTAP （版本號為9或更新版本）。
 
 +
-https://["如何設定ONTAP 及接收Active IQ Unified Manager 來自於《關於在本》中訂閱的《關於EEMS事件的警示》"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/OnCommand_Suite/How_to_configure_and_receive_alerts_from_ONTAP_EMS_Event_Subscription_in_Active_IQ_Unified_Manager["如何設定ONTAP 及接收Active IQ Unified Manager 來自於《關於在本》中訂閱的《關於EEMS事件的警示》"]
 
 . 按一下「 * 新增 * 」。
 +

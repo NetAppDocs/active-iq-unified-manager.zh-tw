@@ -34,7 +34,7 @@ VMware vSphere系統上的Unified Manager OVA可在內部執行Debian OS 11（�
 
 請參閱互通性對照表、以取得支援的ESXi版本完整且最新的清單。
 
-http://["mysupport.netapp.com/matrix"]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 VMware ESXi伺服器時間應與NTP伺服器時間相同、虛擬應用裝置才能正常運作。將VMware ESXi伺服器時間與NTP伺服器時間同步、可避免時間故障。
 

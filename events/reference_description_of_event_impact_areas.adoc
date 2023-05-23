@@ -35,7 +35,7 @@ summary: 活動分為六個影響領域（可用度、容量、組態、效能�
 
 * *安全性*
 +
-安全事件會通知您ONTAP 、根據中定義的參數、您的VMware叢集、儲存虛擬機器（SVM）和磁碟區有多安全 http://["《NetApp ONTAP 資訊安全強化指南》（英文）9"]。
+安全事件會通知您ONTAP 、根據中定義的參數、您的VMware叢集、儲存虛擬機器（SVM）和磁碟區有多安全 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"]。
 
 +
 此外、此領域還包括Active IQ 從NetApp平台回報的升級事件。

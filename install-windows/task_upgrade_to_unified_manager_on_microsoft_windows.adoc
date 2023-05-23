@@ -54,7 +54,7 @@ summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unif
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
 +
-https://["NetApp 支援網站"^]。
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"^]。
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
 . 將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。

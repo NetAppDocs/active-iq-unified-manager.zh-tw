@@ -22,7 +22,7 @@ summary: 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案�
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：
 +
-https://["NetApp 支援網站"]
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
 
 . 選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。
 . 下載適用於Linux的Unified Manager安裝程式檔案、並將「.zip」檔案儲存至目標系統的目錄。
