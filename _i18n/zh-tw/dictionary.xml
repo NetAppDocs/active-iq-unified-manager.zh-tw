@@ -95,8 +95,6 @@
   <block id="788b4a09760f25fdcb777899cd7513ff" category="doc">將主機作業系統從Red Hat Enterprise Linux 7.x升級至8.x</block>
   <block id="1db66d7ea8f6111cd5dc19a357090311" category="paragraph">下列兩個選項的差異在於：在一種情況下、您要在新的8.x伺服器上執行Unified Manager還原、而在另一種情況下、您要在同一部伺服器上執行還原作業。</block>
   <block id="62caf5dae7e9517d51e0ad9b1b63d502" category="paragraph">因為這項工作需要您在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、所以只有在準備好完成整個升級程序、Unified Manager才能離線最短時間時、才應該建立備份。在Red Hat Enterprise Linux 7.x系統關閉期間、以及新的Red Hat Enterprise Linux 8.x啟動之前、Unified Manager UI中會出現所收集資料的落差。</block>
-  <block id="5c8561df156cef765ea371a435526be5" category="paragraph">如果Active IQ Unified Manager 您需要檢閱備份與還原程序的詳細指示、請參閱「_支援網上說明_」。</block>
-  <block id="c6d4bbfcfa03acaf56f29d4446ff8117" category="paragraph">*使用新的伺服器升級主機作業系統*</block>
   <block id="95756c28f62ecbf913324a758dcfab05" category="paragraph">如果您有備用系統、可以在其中安裝Red Hat Enterprise Linux 8.x軟體、以便在Red Hat Enterprise Linux 7.x系統仍可使用時、在該系統上執行Unified Manager還原、請遵循下列步驟。</block>
   <block id="664b9e4422f3233db722ffb0a28c3f91" category="list-text">使用Red Hat Enterprise Linux 8.x軟體安裝及設定新伺服器。</block>
   <block id="9c21ee1aa6136ce1d72e9bd3b7df1c89" category="list-text">在Red Hat Enterprise Linux 8.x系統上、安裝與現有Red Hat Enterprise Linux 7.x系統相同版本的Unified Manager軟體。</block>
@@ -11020,8 +11018,6 @@
   <block id="11e1b3755b142a082c6c226b589a4ea6" category="paragraph">「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0」</block>
   <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。對於「/opt/netapp/」掛載選項、請將MySQL標籤新增為：「context=system_u:object_r:mysqld_db_t:s0」</block>
   <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp -o context=system_u:object_r:mysqld_db_ts0」</block>
-  <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境</block>
-  <block id="840ec4a41a9ca59255cff17c52cb8305" category="list-text">Red Hat Enterprise Linux 7.x版和8.x版、以x86_64架構為基礎。</block>
   <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">基於x86_64架構的CentOS 7.x版。不支援CentOS串流。</block>
   <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">「Udo systemcl STATUS ocie」</block>
   <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">作業系統</block>
@@ -11914,4 +11910,8 @@
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
+  <block id="db47fc799c325b83f5402d57c0b34b4f" category="list-text">Red Hat Enterprise Linux 7.x 版和 8.0 至 8.7 版、以 x86_64 架構為基礎。</block>
+  <block id="8e48b936ecc4cd90adb6a89647a697bf" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.7 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境安裝</block>
+  <block id="177f4885c5bf3cc6b06090613bb7d325" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.7 。</block>
+  <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">請參閱 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果您需要檢閱備份與還原程序的詳細指示。</block>
 </blocks>

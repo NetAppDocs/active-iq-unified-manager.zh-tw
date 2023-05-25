@@ -19,7 +19,7 @@ summary: 安裝Unified Manager的Linux系統需要特定版本的作業系統和
 
 Linux系統必須安裝下列版本的作業系統和支援軟體：
 
-* Red Hat Enterprise Linux 7.x版和8.x版、以x86_64架構為基礎。
+* Red Hat Enterprise Linux 7.x 版和 8.0 至 8.7 版、以 x86_64 架構為基礎。
 * 基於x86_64架構的CentOS 7.x版。不支援CentOS串流。
 
 

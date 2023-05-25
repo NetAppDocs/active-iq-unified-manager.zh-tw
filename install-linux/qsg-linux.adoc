@@ -17,7 +17,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 == 系統需求
 
-* 作業系統：Red Hat Enterprise Linux 7.x版和8.x版或CentOS 7.x版（以x86_64架構為基礎）、安裝時使用作業系統安裝程式*軟體選擇*選項中的「Server with GUI」基礎環境
+* 作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.7 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境安裝
 * RAM：12 GB、CPU：總共9572 MHz
 * 可用磁碟空間：在「/opt/NetApp/data」目錄中有100 GB的磁碟空間、在根分割區中有50 GB的磁碟空間。對於單獨掛載的「/opt」和「/var/log」目錄、請確定「/opt」有15 GB、「/var/log/log」有16 GB、「/tmp」有10 GB可用空間。
 
