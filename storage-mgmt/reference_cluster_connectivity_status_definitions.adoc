@@ -22,7 +22,7 @@ summary: 叢集之間的連線MetroCluster 能力可為下列狀態之一：Opti
  a| 
 在不中斷連線MetroCluster 的情況下、叢集之間的連線功能是正常的。
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster 連線最佳化圖示"]
 
 
 
@@ -31,7 +31,7 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 一或多個錯誤會影響容錯移轉可用度的狀態、但是MetroCluster 、在這個組態中、兩個叢集仍在運作中。例如、當ISL連結中斷、叢集間IP連結中斷或無法連線到合作夥伴叢集時。
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["MetroCluster 連線能力受影響圖示"]
 
 
 
@@ -42,10 +42,10 @@ image:../media/metrocluster_connectivity_impacted.gif[""]
  a| 
 切換時發生錯誤：
 
-image::../media/metrocluster_connectivity_down.gif[停止連線MetroCluster]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster 連線中斷圖示]
 
 切換成功：
 
-image::../media/metrocluster_connectivity_failover.gif[連線容錯移轉MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster 連線容錯移轉圖示]
 
 |===

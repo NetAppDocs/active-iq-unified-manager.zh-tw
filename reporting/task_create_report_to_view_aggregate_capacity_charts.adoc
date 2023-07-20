@@ -24,7 +24,7 @@ summary: 您可以建立報告、以Excel圖表格式分析儲存設備總容量
 . 在左導覽窗格中、按一下「*儲存設備*>* Aggregate *」。
 . 選擇*報告*>*下載Excel *。
 +
-image::../media/download_excel_menu.png[下載Excel功能表]
+image::../media/download_excel_menu.png[顯示如何從報告下載 Excel 的 UI 螢幕擷取畫面。]
 
 +
 視瀏覽器而定、您可能需要按一下*確定*來儲存檔案。
@@ -33,7 +33,7 @@ image::../media/download_excel_menu.png[下載Excel功能表]
 . 如有需要、請按一下*啟用編輯*。
 . 在資料表上、以滑鼠右鍵按一下「Type（類型）」欄、然後選取「* Sort*（排序）」>「* Sorting A to Z*（排序A到Z*）
 +
-image::../media/sort_01.png[排序01]
+image::../media/sort_01.png[UI 螢幕擷取畫面、顯示如何在類型欄中選取排序。]
 
 +
 這會依儲存類型來排列資料、例如：
@@ -51,7 +51,7 @@ image::../media/sort_01.png[排序01]
 圖表會出現在資料表上。
 
 +
-image::../media/3d_column_01.png[3D欄01]
+image::../media/3d_column_01.png[顯示 3D 直條圖的 UI 螢幕擷取畫面。]
 
 . 在圖表上按一下滑鼠右鍵、然後選取*移動圖表*。
 . 選擇* New sheet *（新工作表）並命名工作表* Total Storage Chart*（總儲存圖表*）。
@@ -65,7 +65,7 @@ image::../media/3d_column_01.png[3D欄01]
 . 使用*設計*和*格式*功能表（在選取圖表時可用）、您可以自訂圖表的外觀。
 . 如果滿意、請將檔案與變更一起儲存。請勿變更檔案名稱或位置。
 +
-image::../media/total_vs_available_capacity.png[總容量與可用容量]
+image::../media/total_vs_available_capacity.png[顯示總容量與可用容量圖表的 UI 螢幕擷取畫面。]
 
 . 在Unified Manager中、選取* Reports*>*上傳Excel *。
 +
@@ -81,7 +81,7 @@ image::../media/total_vs_available_capacity.png[總容量與可用容量]
 「*報告*>*上傳Excel *」功能表項目旁邊會出現核取符號。
 
 +
-image::../media/upload_excel.png[上傳Excel]
+image::../media/upload_excel.png[顯示如何將 Excel 上傳至報告的 UI 螢幕擷取畫面。]
 
 . 按一下*排程報告*。
 . 按一下「*新增排程*」將新列新增至「*報告排程*」頁面、以便定義新報告的排程特性。

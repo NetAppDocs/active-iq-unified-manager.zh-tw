@@ -33,7 +33,7 @@ summary: 「使用的效能詳細資料-明細表」顯示主要節點和合作�
 Perf的詳細圖表。隨即顯示使用容量。
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[保留空間進階縮放圖表]
+image::../media/headroom_advanced_zoom_chart.gif[顯示 Perf 詳細圖表的 UI 螢幕擷取畫面。已使用容量。]
 
 . 將游標移到詳細圖表上、即可在快顯視窗中檢視所使用的效能容量資訊。
 +

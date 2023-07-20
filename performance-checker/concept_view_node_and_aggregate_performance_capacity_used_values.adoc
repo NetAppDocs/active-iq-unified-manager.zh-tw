@@ -15,7 +15,7 @@ summary: 您可以監控所有節點或叢集中所有集合體的效能使用�
 
 「效能使用容量」值會顯示在儀表板、「效能詳細目錄」頁面、「表現最佳者」頁面、「建立臨界值原則」頁面、「效能資源管理器」頁面及詳細圖表中。例如、「Performance：All Aggregate」頁面會提供一欄「Performance Capacity」（效能容量）、用於檢視所有Aggregate使用的效能容量值。
 
-image::../media/node_inventory_used_headroom.gif[節點庫存已用餘量]
+image::../media/node_inventory_used_headroom.gif[效能：所有集合體頁面的 UI 螢幕擷取畫面]
 
 監控使用的效能容量計數器可讓您識別下列項目：
 

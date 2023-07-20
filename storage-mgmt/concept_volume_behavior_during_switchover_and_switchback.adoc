@@ -15,7 +15,7 @@ summary: 觸發切換或切換的事件會導致作用中磁碟區從一個叢�
 
 由於磁碟區會從一個叢集移至另一個叢集、因此建議您同時監控這兩個叢集。Unified Manager的單一執行個體可監控MetroCluster 整個叢集、但有時兩個位置之間的距離需要使用兩個Unified Manager執行個體來監控兩個叢集。下圖顯示Unified Manager的單一執行個體：
 
-image::../media/opm_mcc_switchover.gif[OPM MCC切換]
+image::../media/opm_mcc_switchover.gif[顯示 Unified Manager 單一執行個體的 UI 螢幕擷取畫面。]
 
 名稱為p的磁碟區表示主要磁碟區、名稱為b的磁碟區則是SnapMirror所建立的鏡射備份磁碟區。
 
@@ -45,7 +45,7 @@ Unified Manager會收集每個作用中磁碟區（統計資料、事件等）�
 
 當叢集B修復並執行切換時、Vol3p會在叢集B上再次作用、並顯示切換期間的歷史統計資料和統計資料落差。在發生另一次切換之前、無法從叢集A檢視Vol3b：
 
-image::../media/opm_mcc_volumes.gif[OPM MCC Volume]
+image::../media/opm_mcc_volumes.gif[顯示切換期間 Volume 行為的 UI 螢幕擷取畫面。]
 
 [NOTE]
 ====

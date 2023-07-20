@@ -27,7 +27,7 @@ summary: 當您有想要排程定期產生和發佈的檢視或Excel檔案之後
 . 使用內建的Unified Manager功能、視需要自訂檢視。
 . 自訂檢視之後、您可以在*檢視*欄位中提供唯一名稱、然後按一下核取標記加以儲存。
 +
-image::../media/view_save.gif[檢視儲存]
+image::../media/view_save.gif[顯示如何儲存檢視的 UI 螢幕擷取畫面。]
 
 . 您可以使用Microsoft®Excel的進階功能來自訂報告。如需詳細資訊、請參閱 link:task_use_excel_to_customize_your_report.html["使用Excel自訂您的報告"]。
 . 若要在排程或分享之前查看輸出：
@@ -67,7 +67,7 @@ image::../media/view_save.gif[檢視儲存]
 ====
 . 按一下核取符號（image:../media/blue_check.gif[""]）以儲存報告排程。
 +
-image::../media/scheduled_reports.gif[排程報告]
+image::../media/scheduled_reports.gif[顯示如何儲存報告排程的 UI 螢幕擷取畫面。]
 
 +
 報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用排程頻率列出的收件者。

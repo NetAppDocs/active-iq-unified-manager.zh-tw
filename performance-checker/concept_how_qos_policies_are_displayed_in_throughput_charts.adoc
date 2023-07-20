@@ -51,7 +51,7 @@ IOPS和MB/s的共享和非共享QoS原則使用「最小」和「最大」兩詞
 |===
 下圖顯示三個選項如何顯示在計數器圖表中的範例。
 
-image::../media/3_qos_policy_charts.gif[3 QoS原則圖表]
+image::../media/3_qos_policy_charts.gif[UI 螢幕擷取畫面顯示計數器圖表中三個選項的範例。]
 
 當工作負載的IOPS/TB圖表中出現以IOPS定義的一般QoS原則時、ONTAP 將IOPS值轉換為IOPS/TB值、而Unified Manager會在IOPS/TB圖表中顯示該原則、並顯示「QoS、以IOPS定義」文字。
 

@@ -13,6 +13,6 @@ summary: 下列圖表所示、將平台事件與風險轉換為Unified Manager�
 [role="lead"]
 下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ
 
-image::../media/aiq_and_um_event_generation.png[產生aiq和um事件]
+image::../media/aiq_and_um_event_generation.png[顯示轉換為 Unified Manager 事件的 Active IQ 平台事件和風險的 UI 螢幕擷取畫面。]
 
 如您所見、在Active IQ 這個平台上編譯的規則檔會保持最新狀態、AutoSupport 每天產生叢集式的消息、而Unified Manager則會每日更新事件清單。

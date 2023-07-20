@@ -1096,7 +1096,6 @@
   <block id="8630c0e9bb6ed2ccbd7663dfb817e41e" category="list-text">使用安裝後提供的URL啟動Unified Manager Web UI</block>
   <block id="b266cb989bab6d64a4773d856c6be9db" category="list-text">使用安裝期間建立的維護使用者名稱和密碼（適用於Linux安裝的umadmin使用者）登入</block>
   <block id="0e4f04c3fcd1e16df629c3a649c5b306" category="paragraph">僅當您第一次存取Web UI時、才會顯示「《程式碼統一化管理程式入門」頁面。Active IQ以下頁面來自VMware的安裝。</block>
-  <block id="91b6b0acc8c2424a1fcd957d8ce15f49" category="image-alt">首次體驗精靈</block>
   <block id="8e3cce4c15bd20379785ffe64ff70039" category="paragraph">如果您想要稍後變更這些選項、可以從Unified Manager左側導覽窗格的「一般」選項中選取您的選項。請注意、NTP設定僅適用於VMware安裝、稍後可使用Unified Manager維護主控台進行變更。</block>
   <block id="cf7d0be63429371e7cebe2879983559f" category="list-text">在「支援初始設定」頁面中、輸入維護使用者電子郵件地址、SMTP伺服器主機名稱及任何其他的SMTP選項、以及NTP伺服器（僅限VMware安裝）Active IQ Unified Manager 。然後按一下 * 繼續 * 。</block>
   <block id="39188fdd48b44410d0e2e9fbb4ae360c" category="list-text">在「支援」頁面中、按一下「*同意並繼續*」AutoSupport 、即可從AutoSupport Unified Manager將支援訊息傳送至NetAppActive IQ。</block>
@@ -3082,9 +3081,6 @@
   <block id="896dc4c0b077cc2457b9e7d5e062be49" category="doc">不符合法規的意義</block>
   <block id="793f63d597e811b6f2259b3b561feced" category="paragraph">如果未ONTAP 符合根據《_ NetApp資訊安全強化指南》（英文）中所定義的各項建議來評估的任何安全性條件、則叢集與儲存虛擬機器（SVM）將視為不符合法規要求。此外、當任何SVM被標示為不相容時、叢集也會被視為不相容。</block>
   <block id="262b5296c8dd1cc0394ba94bca3e0d73" category="paragraph">安全卡中的狀態圖示與其法規遵循相關、具有下列意義：</block>
-  <block id="b9d5b6e8acd314e48a364ba18a32bf2b" category="list-text"><block ref="1f713a82aed699daab6064ddfb5af937" category="inline-image-macro-rx" type="image"></block> -參數設定為建議。</block>
-  <block id="8f43d8a07b8b2dd47e5cc91b346bf4c4" category="list-text"><block ref="f1c08a3c67e9109a6739da91403bf2f1" category="inline-image-macro-rx" type="image"></block> -參數未依建議進行設定。</block>
-  <block id="0e0f51fe4a129d870f6bc33c4c236c25" category="list-text"><block ref="41868f0d019012163243e4325070a374" category="inline-image-macro-rx" type="image"></block> -叢集上未啟用此功能、或參數未依建議進行設定、但此參數並不影響物件的符合性。</block>
   <block id="48380cc5d841748e2de23ed3327fb541" category="paragraph">請注意、磁碟區加密狀態並不會影響叢集或SVM是否符合法規要求。</block>
   <block id="37004bb82620a447e430b9a6920ade4e" category="summary">「安全性」頁面會顯示驗證每個叢集上使用者的類型、以及使用每種類型存取叢集的使用者數量。這可讓您確認使用者驗證是否已依照組織的定義安全地執行。</block>
   <block id="26e148b29ca3ae4c480339c1d1131212" category="doc">檢視如何在所有叢集上管理使用者驗證</block>
@@ -4781,7 +4777,6 @@
   <block id="f6f7cdc030251c054f13617216080999" category="paragraph">指ONTAP 由不繫結於實體資源的物件所提供的儲存資源。這些資源與儲存虛擬機器（SVM、先前稱為vserver）相關聯、而且獨立存在於任何特定的實體儲存資源、例如磁碟、陣列LUN或Aggregate。</block>
   <block id="c56905729fc808fe336ea9bf2ca70060" category="paragraph">邏輯儲存資源包括所有類型和qtree的磁碟區、以及您可以搭配這些資源使用的功能和組態、例如Snapshot複本、重複資料刪除、壓縮和配額。</block>
   <block id="bd5fde075b251b5502969a404a6f6bea" category="paragraph">下圖顯示雙節點叢集中的儲存資源：</block>
-  <block id="d48282ae57cfe1c6851ddf5ed32ed2dc" category="image-alt">儲存資源模式</block>
   <block id="4934578b4d9943215b7677832e08ba17" category="paragraph">您必須具備下列任一角色：營運者、儲存管理員或應用程式管理員。您必須知道Unified Manager伺服器的IP位址或完整網域名稱、以便在其中執行REST API。</block>
   <block id="6da8ee392d198b3805dfc1065c7d106d" category="summary">您可以使用管理類別下的API來修改備份設定、驗證備份檔案資訊和叢集憑證、也可以將ONTAP 無法使用的叢集當作Active IQ Unified Manager 資料來源來管理。</block>
   <block id="ef6534856e50e6523e29bf37e4a45e63" category="doc">執行管理工作</block>
@@ -4915,7 +4910,6 @@
   <block id="04a28ede913604f354d0788d393b9431" category="doc">自訂欄位</block>
   <block id="d484fc77cd83a1bcf6a064488ba439fe" category="paragraph">使用*顯示/隱藏*來選擇您要在報告中使用的欄。拖曳庫存頁面上的欄位、重新排列欄位。</block>
   <block id="556b1b54ea0daa4bc9d1be4f5c8e0708" category="list-text">按一下*顯示/隱藏*以新增或移除欄。</block>
-  <block id="48421082afa55be1b63fc507415a7001" category="image-alt">顯示隱藏3.</block>
   <block id="c7eb5c1771f0526311bd5404004669c1" category="list-text">在詳細目錄頁面上、拖曳欄以依照您想要的報告順序重新排列。</block>
   <block id="2c20d1fdc733c16bfdde363b7ee6b15a" category="list-text">命名未儲存的檢視以儲存變更。</block>
   <block id="52be5acc39d8a7670dbcd31c91338f2a" category="summary">您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。</block>
@@ -4992,9 +4986,7 @@
   <block id="54b861db67570a420173ad6974854069" category="list-text">將「磁碟類型」欄拖放到「Cloud Recommendation」欄附近。</block>
   <block id="3dbc7dd06c4f7b4bd4f23ed0f208dd95" category="list-text">按一下篩選圖示、新增下列三個篩選條件、然後按一下「*套用篩選條件*」：</block>
   <block id="128d803b54c8f7415ff8c05137e8af8f" category="list-text">雲端建議包含階層</block>
-  <block id="d4ecd532a42a051087e05d9c8e3fe473" category="list-text">Cold資料大於10 GB<block ref="532727a2a45bc6d2de8add44be7720e0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="845d5553550b15d133adc5d97a490cba" category="list-text">按一下「Cold Data（冷資料）」欄的頂端、以使含有最冷資料的磁碟區顯示在檢視頂端。</block>
-  <block id="6f720b6774d0f9425fca57096e408c35" category="list-text">以名稱儲存檢視以反映檢視內容、例如「'Vols change tiering policy'（變更分層原則）」。<block ref="0b32fe8a1e1b7d43415dc2b6aaca0313" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f33981c4e04105a71d478875443e8b3d" category="paragraph">根據報告中顯示的結果、您可能想要使用System Manager或ONTAP CLI、將特定磁碟區的分層原則變更為「自動」或「全部」、以便將更多的冷資料卸載到雲端層。</block>
   <block id="5379275129e08ae5db2a393bd6069261" category="summary">支援使用者可檢視、自訂、下載及排程適用於您的各種儲存系統的報告（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。這些報告可提供有關儲存系統容量、健全狀況、效能和保護關係的詳細資料。</block>
   <block id="b31bf9e59ab9182770659e8d7407cc89" category="doc">Unified Manager報告</block>
@@ -5012,12 +5004,10 @@
   <block id="c260e56471f1ddf0962e398026e165f3" category="doc">建立報告以顯示總計與可用容量圖表</block>
   <block id="e2d373db25a2dd53e14e11bc92855273" category="paragraph">請使用下列步驟開啟健全狀況：所有集合體檢視、在Excel中下載檢視、建立總容量和已提交容量圖表、上傳自訂的Excel檔案、以及排程最終報告。</block>
   <block id="fc46fc852c70f48582f9a7229d075937" category="list-text">選擇*報告*&gt;*下載Excel *。</block>
-  <block id="4365b6ffd04d6044eeeac175c824379c" category="image-alt">下載Excel功能表</block>
   <block id="69719db2a69b651bb5beb2b327f3b20d" category="paragraph">視瀏覽器而定、您可能需要按一下*確定*來儲存檔案。</block>
   <block id="c8416073d36b412c4475b606e1d73d97" category="list-text">在Excel中開啟下載的檔案。</block>
   <block id="094a5bf357e647edca5a8fda2e926397" category="list-text">如有需要、請按一下*啟用編輯*。</block>
   <block id="c6c7f37414a1cf90dc08f511a8051cce" category="list-text">在資料表上、以滑鼠右鍵按一下「Type（類型）」欄、然後選取「* Sort*（排序）」&gt;「* Sorting A to Z*（排序A到Z*）</block>
-  <block id="c873854fa56c16f3ad2a7067b6cff474" category="image-alt">排序01</block>
   <block id="b367ef4fe0697f40f278390ebfc7cbd6" category="paragraph">這會依儲存類型來排列資料、例如：</block>
   <block id="fb1b6e23a3767d2a31ef7899e6dd3f1e" category="list-text">混合式</block>
   <block id="34df20bab5e85dc75bfc94ef569cced9" category="list-text">SSD</block>
@@ -5025,20 +5015,17 @@
   <block id="15d29655c8afd37b637dbaadddaf72dc" category="list-text">選取「Type（類型）」、「Total Data Capacity（總資料容量）」和「Available Data Capacity（可用資料容量）」欄。</block>
   <block id="748e379a8641133a237dd0f39303b8fc" category="list-text">在*插入*功能表上、選取「3D資料欄」圖表。</block>
   <block id="1509c6f034e6b0952ae1a593b4be8f3e" category="paragraph">圖表會出現在資料表上。</block>
-  <block id="c4a9c48359bb7086b8f07f3e1c614dd7" category="image-alt">3D欄01</block>
   <block id="5533606e2b0f89ba5836670a4e646995" category="list-text">在圖表上按一下滑鼠右鍵、然後選取*移動圖表*。</block>
   <block id="db72784607eb89fa88ff1e973de809e7" category="list-text">選擇* New sheet *（新工作表）並命名工作表* Total Storage Chart*（總儲存圖表*）。</block>
   <block id="515cb10f5a739abde059ab744385977d" category="paragraph">請確定新的工作表出現在資訊和資料表之後。</block>
   <block id="1818fde485578cfe56662912557f50a9" category="list-text">請將圖表標題命名為*總容量與可用容量*。</block>
   <block id="2fc7e864fb4a21fbdaa572bea2173f87" category="list-text">使用*設計*和*格式*功能表（在選取圖表時可用）、您可以自訂圖表的外觀。</block>
   <block id="15894a360b12cd51323eee4e39bc00b8" category="list-text">如果滿意、請將檔案與變更一起儲存。請勿變更檔案名稱或位置。</block>
-  <block id="70126a4fbb586db6363065a705955127" category="image-alt">總容量與可用容量</block>
   <block id="156babd2d6d8fe1dc6c2490303d5c043" category="list-text">在Unified Manager中、選取* Reports*&gt;*上傳Excel *。</block>
   <block id="229dccd166ebb360945ac567714fd567" category="paragraph">請確定您的檢視方式與下載Excel檔案的位置相同。</block>
   <block id="f75d974d1af8867c4bd7dc88fb592a45" category="list-text">選取您已修改的Excel檔案。</block>
   <block id="31d9f23fbb53d2787e021e33f512537e" category="list-text">按一下「*開啟*」。</block>
   <block id="f7723469586f71e1dd8b674c1c6ab831" category="paragraph">「*報告*&gt;*上傳Excel *」功能表項目旁邊會出現核取符號。</block>
-  <block id="06d8df9bc224eaaa39f25cc673a52233" category="image-alt">上傳Excel</block>
   <block id="13ba706138468d7e54964c6993a9481c" category="list-text">按一下*排程報告*。</block>
   <block id="81c46583a92800c5ebe3e908ba541859" category="paragraph">選取報告的* XLSX*格式。</block>
   <block id="d31882ed12c9b7842340a16c6fc7b848" category="paragraph">根據報告中顯示的結果、您可能需要平衡集合體上的負載。</block>
@@ -5071,7 +5058,6 @@
   <block id="8cdf5c96bf8c98cd21fe58a06464e590" category="paragraph">視網路組態而定、選取整個欄或太多資料列可能會使圓形圖無法讀取。此範例使用3D圓形圖、但您可以使用任何圖表類型。使用最能顯示您要擷取資料的圖表。</block>
   <block id="5a8bbc823539517987e8d4bef5562d80" category="list-text">將圖表標題命名為*可用容量*。</block>
   <block id="07d57e764788928f5d51e85f1a668526" category="list-text">選擇* New sheet *（新工作表）並命名工作表* Storage Volume Chart*（儲存Volume圖表*）。</block>
-  <block id="23da5576a2e3018e79e87f522008c2a5" category="image-alt">移動圖表</block>
   <block id="9fdea4a454a3d6b2d2618dcf4eb29eb1" category="list-text">如果滿意、請將檔案與變更一起儲存。</block>
   <block id="e934b2873df392ee64a41a389f3db6fd" category="paragraph">根據報告中顯示的結果、您可能需要平衡磁碟區的負載。</block>
   <block id="254950958811ac983b77c08b114361ae" category="summary">您可以建立報告、以特定時間間隔顯示Volume傳輸趨勢。</block>
@@ -5090,7 +5076,6 @@
   <block id="3236995c6efa5d7b3810991be7afd995" category="paragraph">檢視現有排程</block>
   <block id="80cf96c517a19bec43d42b3db5535837" category="paragraph">使用捲軸和頁面控制項捲動現有報告的清單。</block>
   <block id="9876fad0d0db59b8356a863d5994a750" category="paragraph">編輯現有排程</block>
-  <block id="75526916003d12d0e9dc5d31cc90704a" category="list-text">按一下「更多」圖示 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 針對您要使用的排程。</block>
   <block id="4a1938d0e423380a1497b6177cf5dc1c" category="list-text">按一下 * 編輯 * 。</block>
   <block id="0cc99e2b81b313ef751e68b68eeb15b1" category="list-text">進行必要的變更。</block>
   <block id="234bae92a65d3a9c913d183c373cdcc0" category="list-text">按一下核取符號以儲存變更。</block>
@@ -5099,9 +5084,7 @@
   <block id="fc7d8f38000ddc4f663c6ac3a6356d7d" category="list-text">確認您的決定。</block>
   <block id="3ea1f97ab35fae43793036e119f911da" category="summary">排程報告之後、您可以在「報告排程」頁面上編輯報告。</block>
   <block id="3888955a65585e21ce72a060fcfb4429" category="doc">編輯排程報告</block>
-  <block id="8301d3fc7f4e78a0705101340d6452a5" category="image-alt">排程報告2.</block>
   <block id="48dfd8addf9b5b9d931258cda2c9b142" category="paragraph">如果您擁有適當的權限、可以變更系統中的任何報告及其排程。</block>
-  <block id="fb27ad7b2f889df88c11c1446ae50887" category="list-text">按一下「更多」圖示 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 針對您要變更的排程。</block>
   <block id="adff6885d0c25b63e9c076fa5bfe2ac8" category="list-text">您可以變更報告排程的*排程名稱*、*收件者*清單、*頻率*和*格式*。</block>
   <block id="3c089aca469ff81256c133ec51b447ce" category="list-text">完成後、按一下核取標記以儲存變更。</block>
   <block id="665a8c1b59b4851ae458eae1b8e77072" category="summary">您可以建立報告來分析qtree的儲存容量和使用率、並檢視幾乎已滿的qtree。</block>
@@ -5154,9 +5137,7 @@
   <block id="b69b61a50212f84374c3b65d21c3932a" category="list-text">適用於升級至Unified Manager 9.6 GA或更新版本</block>
   <block id="c08cc6e8741b53ab5b2f108ad0c86b4f" category="paragraph">升級至Unified Manager 9.6 GA或更新版本之後、「報告排程」頁面會列出匯入的報告。您可以編輯這些報告的排程、以指定收件者電子郵件地址、頻率和格式（PDF或CSV）。否則無法在Unified Manager UI中編輯或檢視這些報告。</block>
   <block id="561d7213fdf244b09d1497e0acd6a41b" category="list-text">開啟「報告排程」頁面。如果您已匯入報告、則會出現訊息。</block>
-  <block id="35435b1da8e4b23176a1c19732252d66" category="image-alt">訊息非scehduled報告</block>
   <block id="5ffe00b291cbf430a672e878cdecc174" category="list-text">按一下*檢視*名稱以顯示用於產生報告的SQL查詢。</block>
-  <block id="18499ea92e24a5fb24e0bbaf3420598a" category="image-alt">被輸入1.</block>
   <block id="d5cd79f2fd239cfcb29b185abe5aec77" category="list-text">按一下「更多」圖示 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block>、按一下*編輯*、定義報告排程詳細資料、然後儲存報告。</block>
   <block id="36832d53a3308f3afa1b5d92954a721b" category="paragraph">您也可以從「更多」圖示刪除任何不想要的報告 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="c37d33d6329b95ab1a4acb1ca077beee" category="summary">您可以建立報告來尋找具有無法存取掛載路徑的磁碟區。</block>
@@ -5180,12 +5161,10 @@
   <block id="36f750a760b68cd89631c093eaeb9073" category="list-text">=Sum（data！G$2：data！G$50）</block>
   <block id="dbafff4cecb05bff6e3941086778c407" category="list-text">=Sum（資料！H$2：資料！H$50）</block>
   <block id="178a558053b374cf32210bce8b752456" category="paragraph">此公式會根據目前的資料來計算每個欄的總和。</block>
-  <block id="0a5456c556f3af0991d1b3e6a6f19d16" category="image-alt">容量和</block>
   <block id="d96817ec722e928713e9d7b7b1739f07" category="list-text">在資料表上、選取*資料總容量（GB）*和*已提交容量（GB）*欄。</block>
   <block id="1c9b3b00681f97af38ebe35348ef8d93" category="list-text">從*插入*功能表中選取*建議的圖表*、然後選取*叢集式直條*圖表。</block>
   <block id="634a7ca9638aff27f1b07bac6074a58c" category="list-text">在圖表上按一下滑鼠右鍵、然後選取*移動圖表*、將圖表移至「總資料容量」表。</block>
   <block id="07814719f58ef0bb6ebc83ad7cf461a6" category="list-text">您可以使用*設計*和*格式*功能表來自訂圖表的外觀。</block>
-  <block id="05871b0b3f9608a2f3fa43a938b7aafa" category="image-alt">叢集直條圖2.</block>
   <block id="57c10d759e86cc8b9d09f0bca8a5408a" category="paragraph">根據報告中顯示的結果、您可能想要調查如何在整個網路中最佳運用可用容量。</block>
   <block id="635e682d5cd00102d284cc6dfe4bd418" category="summary">下載或排程時、檢視和庫存頁面會變成報告。</block>
   <block id="97bac8279548a97d29810abf93462190" category="doc">瞭解檢視與報告關係</block>
@@ -5193,7 +5172,6 @@
   <block id="9b6dc27f31137c22db8f96b10b2e8a67" category="paragraph">在檢視下拉式清單中、含有刪除圖示的項目是您或其他使用者所建立的現有自訂檢視。沒有圖示的項目是Unified Manager提供的預設檢視。無法修改或刪除預設檢視。</block>
   <block id="3c2b2e643577f0c0a75d68587795a08e" category="list-text">如果您從清單中刪除自訂檢視、也會刪除任何使用該檢視的Excel檔案或排程報告。</block>
   <block id="b42822764ea88c6caec89a61226cab61" category="list-text">如果您變更自訂檢視、則使用該檢視的報告會在下次產生報告時反映變更、並根據報告排程以電子郵件傳送。變更檢視時、請確定您的變更適用於報告所使用的任何相關Excel自訂項目。如有需要、您可以下載Excel檔案、進行必要的變更、並將其上傳為新的Excel自訂檢視、藉此更新該檔案。</block>
-  <block id="74bc8bda03e4b17404c6cec63f5f07f7" category="image-alt">檢視下拉式清單3.</block>
   <block id="a7433b405086da699d1603ca6759055b" category="paragraph">只有具有應用程式管理員或儲存管理員角色的使用者、才能看到刪除圖示、變更或刪除檢視、或變更或刪除排程的報告。</block>
   <block id="c8c0da96d2349fc0c9076ef9211e4100" category="summary">此報告顯示哪些集合體的每個集合體類型的可用IOPS最高、您可以在這些集合體上配置新的工作負載。</block>
   <block id="4104b16065748b91d73a91ff4956e17e" category="doc">建立報告以檢視具有最大可用IOPS的集合體</block>
@@ -5241,7 +5219,6 @@
   <block id="1c36ae054ac3136e79e7863d7153a4b0" category="paragraph">請使用下列步驟來測試及排程要為檢視產生的報告。選取或自訂您要使用的檢視。下列程序使用網路檢視來顯示網路介面效能、但您可以使用任何想要的檢視。</block>
   <block id="eb9b9ca8d849a9eeb51017627244ece6" category="list-text">使用內建的Unified Manager功能、視需要自訂檢視。</block>
   <block id="92b7d05696f12d11e239644c69b2169f" category="list-text">自訂檢視之後、您可以在*檢視*欄位中提供唯一名稱、然後按一下核取標記加以儲存。</block>
-  <block id="391ec4c74722c081033471a4642219aa" category="image-alt">檢視儲存</block>
   <block id="23bb85770d3c552ee1c756397597b9ac" category="inline-link-macro">使用Excel自訂您的報告</block>
   <block id="8a82f55dbe08409ad3495200a349037c" category="list-text">您可以使用Microsoft®Excel的進階功能來自訂報告。如需詳細資訊、請參閱 <block ref="bdef9f4f34ef74fcb56b4687a78cb23c" category="inline-link-macro-rx"></block>。</block>
   <block id="e2a8a6a544c56804c3f95bc00ddd1322" category="list-text">若要在排程或分享之前查看輸出：</block>
@@ -5258,14 +5235,12 @@
   <block id="a644b0919773088d772a902d07521c96" category="list-text">選擇* PDF*、* CSV*或* xslx*格式。</block>
   <block id="94b481b22c3d2359fd4112d0e0558639" category="paragraph">對於您使用Excel自訂內容的報告、請務必選取* xslx*。</block>
   <block id="13e08aa3248749e95fa0682d7f8f447f" category="list-text">按一下核取符號（<block ref="084f5fd11ecd9791c3a6678c5f224e6b" category="inline-image-macro-rx" type="image"></block>）以儲存報告排程。</block>
-  <block id="b9320816bd594dec7a5e28dc1791d527" category="image-alt">排程報告</block>
   <block id="8e088a6641305641e3f0dca9b717c72f" category="paragraph">報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用排程頻率列出的收件者。</block>
   <block id="92841229fe10023d61254e3025763e1b" category="summary">您可以自訂NFS共用報告、以分析儲存系統上磁碟區的NFS匯出原則和規則相關資訊。例如、您可以自訂報告、以預設匯出原則顯示具有無法存取掛載路徑和磁碟區的磁碟區。</block>
   <block id="999baedfd565d70128b62c1123bdb657" category="doc">自訂NFS共用報告</block>
   <block id="1549a1c2034c7d13cf0e8802d31e328c" category="summary">排程報告之後、您可以從「報告排程」頁面刪除報告。</block>
   <block id="31926749a31d25590251d0ab967e7c76" category="doc">刪除排程的報告</block>
   <block id="d57aa4c410a0dabbe6107b64eadb8670" category="paragraph">如果您擁有適當的權限、可以移除系統中的任何報告及其排程。</block>
-  <block id="5e54a9ff670a809e8f263a45268ae299" category="list-text">按一下「更多」圖示 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 針對您要移除的排程。</block>
   <block id="77575f28aa43d90e6a0f15b9b1a8d7fb" category="paragraph">排程的報告會從清單中移除、不再依照設定的排程產生和發佈。</block>
   <block id="bb1c2e9297490454b79f35a4c34168e1" category="paragraph">如果您從庫存頁面刪除自訂檢視、則使用該檢視的任何自訂Excel檔案或排程報告也會一併刪除。</block>
   <block id="42f8eacf7a2963f1ac7c958c3892bf10" category="summary">取得所需的檢視之後、您可以使用「搜尋」欄位進一步精簡結果、將焦點放在您要納入報告的結果上。</block>
@@ -5294,7 +5269,6 @@
   <block id="be19d21398bdb9c8727763957b480fd6" category="summary">篩選資料、確保結果符合您的報告要求。篩選功能可讓您僅顯示感興趣的資料。</block>
   <block id="22d26446bbbdc8e6ca869bb68b050a4c" category="doc">篩選資料</block>
   <block id="bd7daa9aa68254e4e8e8a6eb4a1527f7" category="list-text">按一下篩選圖示以新增篩選條件、將您要檢視的結果焦點放在其中、然後按一下「*套用篩選條件*」。</block>
-  <block id="966ff583a3b667267bfa6cbdddeb3333" category="image-alt">篩選冷資料2.</block>
   <block id="f874c07918af3109ed86ced9215b02ba" category="summary">您可以下載報告、並將資料儲存至本機或網路磁碟機、做為以逗號分隔的值（CSV）檔案、Microsoft Excel（.XLSX）檔案或PDF檔案。您可以使用試算表應用程式（例如Microsoft Excel）開啟CSV和XLSX檔案、以及使用讀取程式（例如：Adobe Acrobat）開啟PDF檔案。</block>
   <block id="03901baec19e5e2a784f13acaa06127a" category="doc">正在下載報告</block>
   <block id="e25de84807231b55c98a5597bd820956" category="list-text">按一下「*報告*」按鈕以下載報告：</block>
@@ -5346,7 +5320,6 @@
   <block id="db568c21c17745aefe0f16a4ba412401" category="list-text">請勿變更現有的工作表、資料和資訊。而是將資料複製到您建立的新頁面。</block>
   <block id="f7732ee2d2caa546fc2aeea6bc9a1784" category="list-text">上述規則的一個例外是、您可以在「data'」頁面上建立公式。使用資料頁面公式在新頁面上建立圖表。</block>
   <block id="cf0086bb4a43dc37a532182249dbd878" category="list-text">請勿命名新的工作表資料或資訊。</block>
-  <block id="5a40613fdcaa69294f3cd310c2dac5ac" category="list-text">如果存在自訂的Excel檔案、則「*報告*&gt;*上傳Excel *」功能表項目旁會有核取符號。當您下載Excel檔案時、會使用含自訂項目的版本。<block ref="de055095e26f86aa2b2411a5b5188576" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aa7126d28c11d5f18f1234f90c9db15f" category="list-text">開啟您要做為報告基礎的預設、自訂或儲存檢視。</block>
   <block id="b3a50c3f713414a91587d4daa176f518" category="list-text">儲存檔案。檔案會儲存至您的下載資料夾。</block>
   <block id="ebe16e7f55c0d4997d81c71590365600" category="list-text">在Excel中開啟儲存的檔案。請勿將檔案移至新位置、或是在其他位置工作、請在上傳檔案之前、使用原始檔案名稱將檔案存回原始位置。</block>
@@ -5365,21 +5338,16 @@
   <block id="df93898b1b6e6abb96e4db2a7701bf68" category="list-text">拖曳「Cloud Recommendation」（雲端建議）欄旁的「磁碟類型」欄。</block>
   <block id="4fba30a821f9a7daa3eaf9ceb4c385de" category="list-text">按一下篩選圖示以新增下列三個篩選條件、然後按一下*套用篩選條件*：</block>
   <block id="f53e0bb64e8930df8d4b8985f8d62ec7" category="list-text">磁碟類型包含FabricPool 了一些功能</block>
-  <block id="4550738c4f37a66755ce38d9f3115e62" category="list-text">Cold資料大於10 GB<block ref="a46bfb4c15f3ba5915e2353041f594b7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf2945c7ab928225eaa3182ec78b0ac0" category="paragraph">請注意、每個篩選器都會以邏輯方式連接、因此所有傳回的磁碟區都必須符合所有條件。您最多可以新增五個篩選器。</block>
   <block id="5c0db32658e0716747fa06b70d18feae" category="list-text">按一下「Cold Data」（冷資料）欄頂端、將結果排序、使含有最冷資料的磁碟區顯示在檢視頂端。</block>
   <block id="46dd10e41fa168989a67d08b20327299" category="list-text">自訂檢視時、檢視名稱為「未儲存的檢視」。命名檢視以反映檢視內容、例如「'Vols change tiering policy'」。完成後、請按一下核取標記、或按* Enter *以新名稱儲存檢視。</block>
-  <block id="a6a7379999aad866edefb12dabc14d1b" category="image-alt">報告vol程式碼資料2.</block>
   <block id="01dcca4e756ffda5befe455a5506dece" category="list-text">下載* CSV *、* Excel *或* PDF *檔案格式的報告、以便在排程或分享之前查看輸出內容。</block>
   <block id="2c4aae2be5c70b985befa5d7691be9e9" category="paragraph">使用已安裝的應用程式（例如Microsoft Excel（CSV或Excel）或Adobe Acrobat（PDF）開啟檔案、或儲存檔案。</block>
   <block id="1bf08e4303aa6505b4e54ec0f0aee9ba" category="paragraph">您可以下載檢視為Excel檔案、進一步使用複雜的篩選、排序、樞紐分析表或圖表自訂報告。在Excel中開啟檔案之後、請使用進階功能自訂您的報告。滿意時、請上傳Excel檔案。執行報告時、此檔案及其自訂項目會套用至檢視。</block>
   <block id="7e0aecf94428d2d8d78725cf410b13d0" category="list-text">按一下目錄頁上的*排程報告*按鈕。與物件相關的所有排程報告（在此案例中為Volume）都會顯示在清單中。</block>
-  <block id="4045c042457b348132626eb77755c10d" category="image-alt">排程報告3.</block>
   <block id="4a8cb39e265958a23971c880a5bd5e78" category="list-text">輸入報告名稱並填寫其他報告欄位、然後按一下核取符號（<block ref="084f5fd11ecd9791c3a6678c5f224e6b" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="ca1241013262a6547a167156686f707a" category="paragraph">下列報告範例為CSV格式：</block>
-  <block id="88645b6d0a950105a1c4fabb37eaf7e0" category="image-alt">CSV範例報告</block>
   <block id="3c720f5f5a8dcc3b4bceb81253e6bbbe" category="paragraph">下列報告範例為PDF格式：</block>
-  <block id="c5f0f79741fac65feab9af874a7ab415" category="image-alt">PDF範例報告</block>
   <block id="3fd3fe4cfb1594928e75c5060a6bcc8c" category="paragraph">根據報告中顯示的結果、您可能會想要使用ONTAP 「系統管理程式」或ONTAP 「系統管理程式」、將特定磁碟區的分層原則變更為「自動」或「全部」、以便將更多的冷資料卸載到雲端層。</block>
   <block id="61de9c24da2d40ac2b52431cc0a9d31c" category="summary">您可以建立報告、根據關係處於不健全狀態的原因來將磁碟區分組。</block>
   <block id="a098dac7b5d9297160e2d9fe60852967" category="doc">建立報告、依故障來源將磁碟區關係分組</block>
@@ -5463,7 +5431,6 @@
   <block id="8f61971105544f79fb059a419e59987f" category="inline-image-macro">TreeMap圖示–警告狀態</block>
   <block id="39a396a2214eb795caa2af25e9d375b5" category="paragraph">將游標放在活動事件的事件數上、會顯示事件的類型和數量。關鍵事件會以紅色顯示（<block ref="c193fc99558c2b3b75f34ed647245356" category="inline-image-macro-rx" type="image"></block>）、警告事件會以黃色顯示（<block ref="8d9561f21dccdc0043e67ddefc8426e0" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="30380d081855a0826aa02a6ad33256a9" category="paragraph">灰階長條圖右上角的數字是過去72小時期間的平均值。趨勢線圖表底部和頂端顯示的數字是過去72小時期間的最小值和最大值。圖表下方的灰色列包含過去72小時期間的作用中（新的和已確認的）事件數和過時事件數。</block>
-  <block id="67247dea2fdcd199e4f58d36d2857d08" category="image-alt">IOPS圖表</block>
   <block id="623790c30c0b6826a11c3205a7c3af75" category="list-text">*延遲計數器表*</block>
   <block id="5665983b932ec218e6914843a13e01ac" category="paragraph">延遲計數器圖表提供前72小時期間物件延遲的高層級總覽。延遲是指所有I/O要求的平均回應時間；以毫秒為單位、服務時間、等待時間、或是所考量之叢集儲存元件中的資料封包或區塊所經歷的兩者。</block>
   <block id="45b44a7fabf6e768903998581c0ae5cf" category="paragraph">*頂端（計數器值）：*標頭中的數字會顯示前72小時期間的平均值。</block>
@@ -5512,7 +5479,6 @@
   <block id="4fc3fea764f8b616c35934eefb53ac70" category="paragraph">例如、您可以在磁碟區上設定效能臨界值原則、以便在該磁碟區的IOPS連續10分鐘超過每秒750次作業時、收到重大事件通知。此相同的臨界值原則也可以指定在IOPS超過每秒500次作業10分鐘時傳送警告事件。</block>
   <block id="3962981c13255aae88619c0d8191a5c8" category="paragraph">目前版本提供臨界值、可在計數器值超過臨界值設定時傳送事件。當計數器值低於臨界值設定時、您無法設定傳送事件的臨界值。</block>
   <block id="a74459b16a22c45f05b84fd3b25d02d8" category="paragraph">此處顯示一個計數器圖表範例、表示1：00時違反警告臨界值（黃色圖示）、12：10、12：30和1：10時違反臨界臨界值（紅色圖示）：</block>
-  <block id="2eab52a4b056e0a1b7b1e391aa3fe573" category="image-alt">OpM2臨界值外洩</block>
   <block id="5119f8a23d6f611b0a0981510f45e2d8" category="paragraph">臨界值外洩必須在指定的期間內持續發生。如果臨界值因任何原因而降至低於限制值、則後續違規將視為新持續時間的開始。</block>
   <block id="5f4ddf12873bb2c9a84b8324b079511d" category="paragraph">有些叢集物件和效能計數器可讓您建立組合臨界值原則、要求兩個效能計數器在產生事件之前超過其最大限制。例如、您可以使用下列準則來建立臨界值原則：</block>
   <block id="874176d2105f6281048413e58a7012bb" category="cell">叢集物件</block>
@@ -5580,7 +5546,6 @@
   <block id="ecd55bfc88b1bfcc18e74516d3930fe0" category="list-text">在Aggregate / Performance Explorer頁面中、按一下「檢視與比較」功能表中的「*此Aggregate上的磁碟區*」。</block>
   <block id="425a10f179801ef3880ceeba20ca6550" category="list-text">識別使用最多IOPS的磁碟區。</block>
   <block id="e09eeba9fc0d787fa2e568508d172ab2" category="paragraph">您應該調查這些磁碟區、看看是否應該套用QoS原則或效能服務層級原則、或是變更原則設定、以便這些磁碟區不會在叢集上使用如此大的IOPS百分比。</block>
-  <block id="e92c9d6f17b2d017213eb1e8d516d86a" category="image-alt">監控叢集物件</block>
   <block id="9dffbb199bd48e23b134c6990180176f" category="summary">效能物件的詳細目錄頁面包含可協助您精簡物件詳細目錄資料內容的工具、可讓您快速輕鬆地找到特定資料。</block>
   <block id="8810aba5b6775620ef9a919d5c564b0c" category="doc">精簡效能詳細目錄頁面內容</block>
   <block id="c67a8cb08c45fbf35544377154e19ce1" category="paragraph">效能物件詳細目錄頁面中包含的資訊可能很廣泛、通常會跨越多個頁面。這類全方位資料非常適合監控、追蹤及改善效能、但是尋找特定資料需要工具、才能快速找到您要尋找的資料。因此、效能物件詳細目錄頁面包含搜尋、排序及篩選功能。此外、搜尋與篩選功能也能一起運作、進一步縮小結果範圍。</block>
@@ -5642,7 +5607,6 @@
   <block id="51acf635cd96d4572521db1773629e55" category="list-text">若要移除所有篩選條件、請按一下篩選面板底部的*重設*。</block>
   <block id="a6d40caea386102a29ebc599a2d568c0" category="section-title">篩選範例</block>
   <block id="5cde0898f112cac0a077a237444382b7" category="paragraph">下圖顯示篩選面板包含三個篩選器。當篩選器數量少於最多四個時、便會顯示「+新增篩選器*」按鈕。</block>
-  <block id="b0a1d6bd91c03ca3c50d9cd3fa6fafee" category="image-alt">OPM篩選面板草稿3.</block>
   <block id="3833ead277badf6fd54e7d02004043c0" category="paragraph">按一下「*套用篩選器*」之後、「篩選」面板會關閉、套用您的篩選器、並顯示套用的篩選器數量（<block ref="106769b36670dda8bedb0e744694e40d" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="11f98082c78bd4b4f7e2b0c02e25913c" category="summary">您可以確保正確設定VMware組態、以避免MetroCluster 在鏡射工作負載上發生效能問題MetroCluster 。您也可以變更組態或升級軟體或硬體元件、以改善工作負載效能。</block>
   <block id="6c13338c46979ee168ed6bef9776fc99" category="doc">驗證組態MetroCluster</block>
@@ -5681,7 +5645,6 @@
   <block id="c09dbb4facab24816c9b707095742f97" category="summary">您可以監控所有節點或叢集中所有集合體的效能使用容量值、也可以檢視單一節點或集合體的詳細資料。</block>
   <block id="16279dd3086904756b699cbbeb24ba8c" category="doc">檢視節點和Aggregate效能使用容量值</block>
   <block id="712879080ee6ac13b7886c04c89f77dd" category="paragraph">「效能使用容量」值會顯示在儀表板、「效能詳細目錄」頁面、「表現最佳者」頁面、「建立臨界值原則」頁面、「效能資源管理器」頁面及詳細圖表中。例如、「Performance：All Aggregate」頁面會提供一欄「Performance Capacity」（效能容量）、用於檢視所有Aggregate使用的效能容量值。</block>
-  <block id="cfc6bc56d4559459247a50de98bb1e17" category="image-alt">節點庫存已用餘量</block>
   <block id="ce4d2c61a97c44620f1967aab84e01e2" category="paragraph">監控使用的效能容量計數器可讓您識別下列項目：</block>
   <block id="87704c20a8ab6d1497f0684f9cb3405b" category="list-text">任何叢集上的任何節點或集合體、都有高效能的使用容量值</block>
   <block id="9ced6959284bee4dd5023cf16e3aebef" category="list-text">任何叢集上的任何節點或集合體、是否都有作用中的效能容量已用事件</block>
@@ -5731,7 +5694,6 @@
   <block id="d99b375789b68dff65e5529d55c8fd84" category="summary">效能使用容量值可協助您識別目前過度使用或未充分利用的節點和集合體。這可讓您重新分配工作負載、以提高儲存資源的效率。</block>
   <block id="d441b7aab782966c210dd6922ebe53ce" category="doc">效能容量所使用的價值代表什麼意義</block>
   <block id="1202a0ae8ed30ef28ff19f1fd1944aac" category="paragraph">下圖顯示資源的延遲與使用率曲線、並以彩色點識別目前作業點所在的三個區域。</block>
-  <block id="5bbdbc11ce2f4e1c65c059acc9ddd015" category="image-alt">餘量圖表過低</block>
   <block id="b108119156ea3caf56ffc733e96c6bfc" category="list-text">效能使用量百分比等於100、是處於最佳狀態。</block>
   <block id="84392d6a074bd8db744e5f478cd3cc2a" category="paragraph">目前正在有效率地使用資源。</block>
   <block id="6016e0d3925b14d249b35c241a9100d2" category="list-text">效能使用量百分比超過100表示節點或Aggregate使用率過高、而且工作負載的效能不佳。</block>
@@ -5755,7 +5717,6 @@
   <block id="004869f1a9ddd1ead0838f5a2887a577" category="list-text">從*選擇圖表*清單中、選取*效能。使用容量*。</block>
   <block id="8c0701a62859701bd5e6fa89117726c3" category="list-text">在*效能使用容量*圖表、選取*明細*、然後按一下*縮放檢視*。</block>
   <block id="6e2dbb99f7d7cfa8e493148bde59c8f6" category="paragraph">Perf的詳細圖表。隨即顯示使用容量。</block>
-  <block id="5ef2955712e332340e4ba2e72d04ab17" category="image-alt">保留空間進階縮放圖表</block>
   <block id="396db092214f482e8bdea1421e275918" category="list-text">將游標移到詳細圖表上、即可在快顯視窗中檢視所使用的效能容量資訊。</block>
   <block id="5549cf30b8f55154c8c993662f4789a2" category="paragraph">效能可用容量百分比是預估接管節點上可用的效能容量。這表示容錯移轉後、接管節點上的效能容量會保留多少。如果是0%、容錯移轉將導致接管節點上的延遲增加到無法接受的層級。</block>
   <block id="3176cc7d2e2fd592994a696309408a6e" category="list-text">請考慮採取修正行動、以避免低效能可用容量百分比。</block>
@@ -5781,7 +5742,6 @@
   <block id="58a76907de28bf7005edb9a18783bafb" category="list-text">或者、在「檢視與比較」功能表中選取其他物件以與此Aggregate進行比較、然後將其中一個物件新增至「比較」窗格。</block>
   <block id="37b1a83664bcd4d6b95ea0e8d87fb8ca" category="paragraph">這兩個物件的統計資料都會顯示在計數器圖表中以供比較。</block>
   <block id="790aad51bcb2986f8c1014202d7e836d" category="list-text">在「檔案總管」頁面右側的「比較」窗格中、按一下其中一個計數器圖表中的「*縮放檢視*」、即可檢視該集合體效能歷程記錄的詳細資料。</block>
-  <block id="d5481010dfd9d48eb0ff328ef5085148" category="image-alt">監控叢集效能</block>
   <block id="59fba048464396f7e14db170ffd132ab" category="summary">Unified Manager會針對工作負載使用活動、使用率、寫入處理量、叢集元件使用量或I/O延遲（回應時間）等方面的差異、來判斷對工作負載效能的影響程度。此資訊可決定每個工作負載在事件中的角色、以及其在「事件詳細資料」頁面上的排名。</block>
   <block id="a136042890c25cb4be2dc9d29d7b73c2" category="doc">Unified Manager如何判斷事件的效能影響</block>
   <block id="f4dc9ac87ebe09c8339ab1d767035c54" category="paragraph">Unified Manager會將工作負載的最後分析值與預期值範圍（延遲預測）進行比較。上次分析的值與預期值範圍之間的差異、可識別出其效能受到事件影響最大的工作負載。</block>
@@ -5804,7 +5764,6 @@
   <block id="4e46d77705b2969e287dd5755715eb0a" category="paragraph">多個物件</block>
   <block id="d64856bc0441fd9f4e945bd9be18411c" category="paragraph">選取每個物件左側的核取方塊。</block>
   <block id="6519d5c78f0ae2d9b3484d3b1d9e45c7" category="paragraph">頁面上的所有物件</block>
-  <block id="dcb18ab3a5abb36ef2aa5644e7906d9b" category="paragraph">按一下 <block ref="3e6fc62e3802e046e5d0613c93a37e4e" category="inline-image-macro-rx" type="image"></block> 在欄標題中。</block>
   <block id="ac492b16e73eb4fc7caa69d491b25ed2" category="list-text">按一下*清除效能臨界值原則*。</block>
   <block id="f541641487f8cbff03487124208205b2" category="paragraph">隨即顯示「清除臨界值原則」頁面、其中顯示目前指派給儲存物件的臨界值原則清單。</block>
   <block id="db9a65c97d97a96ad5600eca6392c2ce" category="list-text">選取您要從物件中移除的臨界值原則、然後按一下*清除原則*。</block>
@@ -5853,7 +5812,6 @@
   <block id="79218bfbb1fc8109876c019adfd4e00b" category="paragraph">您可以選取一個小時到390天之間的時間範圍。13個月等於390天、因為每個月計為30天。指定日期與時間範圍可提供更多詳細資料、並可讓您放大特定效能事件或一系列事件。指定時間範圍也有助於疑難排解潛在的效能問題、因為指定日期和時間範圍會更詳細地顯示效能事件的相關資料。使用*時間範圍*控制項來選取預先定義的日期和時間範圍、或指定您自己的自訂日期和時間範圍、最長可達390天。預先定義時間範圍的按鈕從*最後一小時*到*過去13個月*不等。</block>
   <block id="fdde008fccbf5ef8e50f49928c5bb3e4" category="paragraph">選取*最後13個月*選項或指定超過30天的自訂日期範圍、會顯示對話方塊、提醒您、使用每小時平均值而非5分鐘資料輪詢、記錄顯示超過30天的效能資料。因此、可能會造成時間軸視覺精細度的損失。如果您按一下對話方塊中的*不要再顯示*選項、當您選取*過去13個月*選項或指定超過30天的自訂日期範圍時、就不會出現此訊息。如果時間範圍包含的時間/日期超過今天的30天、則摘要資料也會套用在較短的時間範圍內。</block>
   <block id="de8dab1aeb2bd021202a5c7224eec5da" category="paragraph">選取時間範圍（自訂或預先定義）時、30天或更少的時間範圍是根據5分鐘的時間間隔資料樣本而定。時間範圍大於30天是以一小時的時間間隔資料範例為基礎。</block>
-  <block id="be122aef3b9420f3eac8c1ad6308c5d1" category="image-alt">時間範圍選擇器</block>
   <block id="fcfadb84bc578ed8cbc676add38e846d" category="list-text">按一下「*時間範圍*」下拉式方塊、即會顯示「時間範圍」面板。</block>
   <block id="27e62d434ff3a1bdc347df141e25e9a2" category="list-text">若要選取預先定義的時間範圍、請按一下「*時間範圍*」面板右側的*最後...*按鈕之一。選取預先定義的時間範圍時、最多可提供13個月的資料。您選取的預先定義時間範圍按鈕會反白顯示、而對應的日期和時間會顯示在行事曆和時間選取器中。</block>
   <block id="bf6447a7c57cdbf2e44cbb7027cc29a6" category="list-text">若要選取自訂日期範圍、請按一下左側*寄件者*行事曆中的開始日期。按一下「*」或「*」、即可在行事曆中向前或向後瀏覽。若要指定結束日期、請按一下右側*目標*行事曆中的日期。請注意、除非您指定不同的結束日期、否則預設的結束日期為今天。時間範圍面板右側的*自訂範圍*按鈕會反白顯示、表示您已選取自訂日期範圍。</block>
@@ -5893,7 +5851,6 @@
   <block id="4135f632450da9c2640022f318968c5c" category="summary">「使用的效能容量」計數器可協助您識別節點或Aggregate的效能是否達到工作負載增加時效能可能會降低的程度。也可以顯示節點或Aggregate目前在特定時間段內是否過度使用。所使用的效能容量與使用率類似、但前者可讓您更深入瞭解實體資源中特定工作負載的可用效能功能。</block>
   <block id="de03bb52106827ee5b3197b545af9a80" category="doc">使用的效能容量是多少</block>
   <block id="41a1428868cad1acbd879e6e535db746" category="paragraph">最佳化的效能容量是指節點或Aggregate擁有最佳使用率和延遲（回應時間）、且正在有效使用的時間點。下圖顯示集合體的延遲與使用率曲線樣本。</block>
-  <block id="efec4a1649ab6473f21210106ccff0a3" category="image-alt">保留空間圖表</block>
   <block id="9605679cb84d6b8de9c3817a49ed5b17" category="paragraph">在此範例中、_operoperate point_可識別出集合體目前以50%的使用率運作、延遲為1.0毫秒/作業時間根據從Aggregate擷取的統計資料、Unified Manager會判斷此Aggregate是否有額外的效能容量可用。在此範例中、當Aggregate使用率達到80%、延遲為2.0毫秒/作業時、即會識別為最佳點因此、您可以將更多磁碟區和LUN新增至此集合體、以便更有效率地使用您的系統。</block>
   <block id="930fb93660c3915933a3f403a0f683d0" category="paragraph">由於效能容量增加了延遲的影響、因此所使用的效能容量計數器預期會比「利用率」計數器大。例如、如果使用的節點或Aggregate為70%、效能容量值可能會在80%到100%的範圍內、視延遲值而定。</block>
   <block id="ddc9811812364fc91efe471583f0f385" category="paragraph">不過、在某些情況下、儀表板頁面上的使用率計數器可能較高。這是正常現象、因為儀表板會在每個收集期間重新整理目前的計數器值、而不會像Unified Manager使用者介面中的其他頁面一樣、在一段時間內顯示平均值。效能使用容量計數器最適合用來表示一段時間內平均的效能指標、而使用率計數器則最適合用來判斷資源的即時使用量。</block>
@@ -5906,7 +5863,6 @@
   <block id="141708e88101bcc14caf70fadd9d1ca7" category="paragraph">雖然效能可用容量計數器提供仍可用資源的百分比、但可用的IOPS計數器會告訴您可以在達到最大效能容量之前、將確切的IOPS（工作負載）新增至資源。</block>
   <block id="e1c4cafb97bf24fa8de515bdeb846d46" category="paragraph">例如、如果您使用一對FAS2520和FAS8060儲存系統、可用效能值30%就表示您擁有一些可用的效能容量。不過、這項價值並無法清楚顯示可部署到這些節點的工作負載數量。可用的IOPS計數器可能顯示FAS8060上有500個可用IOPS、但FAS2520上只有100個可用IOPS。</block>
   <block id="cf43cd49aa6781d9f3687022f7488426" category="paragraph">下圖顯示節點的延遲與IOPS曲線樣本。</block>
-  <block id="b9594d17e37349788cf6aff2409ad05d" category="image-alt">可用的IOPS</block>
   <block id="f3f2f733e3c85c406deaa4ab944e5957" category="paragraph">資源可提供的最大IOPS數是當使用效能容量計數器達到100%（最佳點）時的IOPS數目。作業點可識別節點目前以100K IOPS運作、延遲為1.0毫秒/作業根據從節點擷取的統計資料、Unified Manager會判斷節點的IOPS上限為160K、這表示可用或可用的IOPS為60K。因此、您可以將更多工作負載新增至此節點、以便更有效率地使用系統。</block>
   <block id="76bbdbe65e4c9465a250ba7675ad97e1" category="paragraph">當資源中的使用者活動量最小時、可用的IOPS值會根據每個CPU核心約4、500 IOPS的一般工作負載來計算。這是因為Unified Manager缺乏資料、無法準確估計所服務工作負載的特性。</block>
   <block id="41861130aeb595b0c51799c518b87bcd" category="summary">有標準效能圖表可顯示所選儲存物件的計數器值。每個明細計數器圖表都會顯示區分為讀取、寫入及其他類別的總計值。此外、某些明細計數器圖表會在「縮放」檢視中顯示圖表時、顯示其他詳細資料。</block>
@@ -6023,7 +5979,6 @@
   <block id="3726adc13d5f404a42df747f06ddaab8" category="list-text">在* Counter圖表*窗格中、按一下*選擇圖表*、然後選取*效能。使用容量*圖表。</block>
   <block id="c401099acbe2174b99b7ec2692c7c474" category="list-text">向下捲動、直到您可以檢視圖表為止。</block>
   <block id="7a9a444acf2c38e492552aff0db26af0" category="paragraph">標準圖表的色彩會顯示物件處於最佳範圍（黃色）、物件未充分使用（綠色）、以及物件過度使用（紅色）的時間。明細表僅顯示根物件的詳細效能容量詳細資料。</block>
-  <block id="b26b53cf6810080df88192bbe06ef9ae" category="image-alt">保留空間計數器圖表</block>
   <block id="dea6a44f1acbd73729580434b2cd1271" category="list-text">如果您要以全尺寸格式檢視任一圖表、請按一下*縮放檢視*。</block>
   <block id="227f5acbef95998ccbfd9c680d0dab46" category="paragraph">如此一來、您就能在不同的視窗中開啟多個計數器圖表、以比較相同時間範圍內使用的效能容量與IOPS或Mbps值。</block>
   <block id="8a68b2fd4def56332ee458d38d8b9f89" category="summary">Unified Manager可能會在「通知」頁面（從「通知」警示）上顯示橫幅訊息、提醒您特定叢集的狀態問題。</block>
@@ -6285,7 +6240,6 @@
   <block id="bdb393303057224e3d10fe563cd8d95e" category="summary">物件庫存效能頁面會顯示物件類型類別中所有物件的效能資訊、效能事件及物件健全狀況。這可讓您一覽叢集中每個物件的效能狀態、例如所有節點或所有磁碟區的效能狀態。</block>
   <block id="1ccbf74a3bec11c3fb932e9fffa7af48" category="doc">使用「效能詳細目錄」頁面監控效能</block>
   <block id="5cf81d2ccd2ec42bd5d6d606f7ff8179" category="paragraph">物件庫存效能頁面提供物件狀態的高層級總覽、可讓您評估所有物件的整體效能、並比較物件效能資料。您可以透過搜尋、排序及篩選來精簡物件目錄頁面的內容。這在監控和管理物件效能時非常實用、因為它可讓您快速找出有效能問題的物件、並開始疑難排解程序。</block>
-  <block id="e6f3cbb1f140fe4bd02ba7acd6257aea" category="image-alt">Perf節點資源清冊</block>
   <block id="902bf8a05cd404f488a8a8bc8245f13d" category="paragraph">根據預設、效能詳細目錄頁面上的物件會根據物件效能關鍵程度來排序。會先列出具有新關鍵效能事件的物件、然後列出具有警告事件的物件。這可立即提供必須解決的問題視覺化指示。所有效能資料均以72小時的平均值為基礎。</block>
   <block id="6158951e7ccb50af48d9ee7a94656ab2" category="paragraph">按一下物件名稱欄中的物件名稱、即可輕鬆從物件庫存效能頁面導覽至物件詳細資料頁面。例如、在「效能/所有節點」目錄頁面上、您可以按一下「*節點*」欄中的節點物件。物件詳細資料頁面提供所選物件的深入資訊和詳細資料、包括並排比較作用中事件。</block>
   <block id="8e67d31ae207aec0615031a3504c356b" category="summary">Unified Manager具備絕佳的靈活度、可讓您以各種方式完成多項工作。在Unified Manager中工作時、您會發現許多導覽路徑。雖然無法顯示所有可能的導覽組合、但您應該熟悉一些較常見的案例。</block>
@@ -6340,7 +6294,6 @@
   <block id="1c0ff2ca19c226fc2a6378393481699a" category="paragraph">指派給單一工作負載或多個工作負載的調適性QoS原則</block>
   <block id="16c4c88190ace4ce34b812c12996780a" category="paragraph">顯示「（QoS調適性）」</block>
   <block id="17aec5ca4a5d98d24793476dd3f05373" category="paragraph">下圖顯示三個選項如何顯示在計數器圖表中的範例。</block>
-  <block id="aafe314ac523b3ce0a36a5be365fb431" category="image-alt">3 QoS原則圖表</block>
   <block id="b8bcf37a0ac8777f76e99d2ad2bdc323" category="paragraph">當工作負載的IOPS/TB圖表中出現以IOPS定義的一般QoS原則時、ONTAP 將IOPS值轉換為IOPS/TB值、而Unified Manager會在IOPS/TB圖表中顯示該原則、並顯示「QoS、以IOPS定義」文字。</block>
   <block id="21698aa839bdb9e80614577e38e56e0f" category="paragraph">在工作負載的IOPS圖表中顯示以IOPS/TB定義的調適性QoS原則時ONTAP 、將IOPS/TB值轉換為IOPS值、而Unified Manager會在IOPS圖表中顯示該原則、並顯示「QoS調適性-已使用、 定義單位為IOPS/TB'或「QoS調適性-已分配、定義單位為IOPS/TB」、視IOPS分配尖峰設定的設定方式而定。當分配設定設為「分配空間」時、尖峰IOPS會根據磁碟區的大小來計算。當分配設定設為「已用空間」時、尖峰IOPS會根據儲存在磁碟區中的資料量來計算、並考量儲存效率。</block>
   <block id="621ae9f61c3122a72dddf526dcc1c098" category="paragraph">IOPS/TB圖表只會在磁碟區使用的邏輯容量大於或等於128 GB時顯示效能資料。當所選時間範圍內使用的容量低於128 GB時、會在圖表中顯示落差。</block>
@@ -6364,7 +6317,6 @@
   <block id="c8158380e9cfa704318edae66487bd8c" category="list-text">在「View（檢視）」功能表中、按一下*「Active Performance events（作用中效能事件</block>
   <block id="6f5de0e990c1c2c4ba885c8d77ecfee7" category="list-text">按一下您要調查的事件名稱、就會顯示「事件詳細資料」頁面。</block>
   <block id="66f7c110f31f9394a1396adf3d8b24ec" category="list-text">檢視活動說明、並檢閱建議的行動（如適用）、以檢視更多有關事件的詳細資料、協助您解決問題。您可以按一下「*分析工作負載*」按鈕、顯示詳細的效能圖表、以協助進一步分析問題。</block>
-  <block id="7ec18682cc3b7ebda14813d7da8bf682" category="image-alt">事件流程</block>
   <block id="9799afa273bd66f16528dca0948a272a" category="summary">您可以使用Unified Manager來分析MetroCluster 叢集、以進行偵測到效能事件的VMware組態。您可以識別叢集名稱、事件偵測時間、以及所涉及的龐大和受害者工作負載。</block>
   <block id="1f84d1be1ed15c3ecf853ee68d32ba26" category="doc">分析MetroCluster 叢集上的動態效能事件、使其採用VMware的組態</block>
   <block id="9dda6563bc743343fb78ab557b95d87a" category="paragraph">您可以使用Unified Manager來分析MetroCluster 叢集、以進行偵測到效能事件的VMware組態。您可以識別叢集名稱、事件偵測時間、以及相關的_bully_和_als_工作負載。</block>
@@ -6546,7 +6498,6 @@
   <block id="e1a5af387f1c426eb0aa35ebc7debc79" category="paragraph">「物件登陸」頁面可讓您檢查所有物件的整體效能、並以並排格式比較物件效能資料。在評估效能和疑難排解事件時、這項功能非常實用。</block>
   <block id="51f65a9c20bc1769fdf5f1dfdfc8ff83" category="paragraph">計數器摘要面板和計數器圖表中顯示的資料是以五分鐘的取樣時間間隔為基礎。頁面左側物件庫存網格中顯示的資料是以一小時的取樣時間間隔為基礎。</block>
   <block id="b2713f4e0efe6e39005ce09e249d053f" category="paragraph">下圖顯示物件登陸頁的範例、其中顯示檔案總管資訊：</block>
-  <block id="1331dfeac4b6eb887c4302559ae372bd" category="image-alt">Perf管理程式第1頁</block>
   <block id="a6a1ef951b3f2758fd678a5be8005db5" category="paragraph">視所檢視的儲存物件而定、「物件登陸」頁面可能會有下列索引標籤、提供有關物件的效能資料：</block>
   <block id="290612199861c31d1036b185b4e69b75" category="list-text">摘要</block>
   <block id="05bb01c4d66ad8af4e59ab9fc3f7e9a3" category="paragraph">顯示三或四個計數器圖表、其中包含前72小時期間每個物件的事件和效能、包括顯示該期間高值和低值的趨勢線。</block>
@@ -6563,12 +6514,10 @@
   <block id="3281d3cf4c4ca1f96b69c7a91e685f99" category="doc">在Counter圖表縮放檢視中選取效能臨界值</block>
   <block id="08df075e9e49b434e5961c7ff1b3162f" category="paragraph">在「Counter圖表縮放檢視」中選取臨界值、即可檢視效能臨界值事件的精確資料。您可以套用任何出現在Counter圖表縮放檢視* Policies *區域下的臨界值。</block>
   <block id="0bd7858f9c4415186b140625ba2f1996" category="paragraph">在Counter圖表縮放檢視中、一次只能將一個原則套用至物件。</block>
-  <block id="3021c7eee007e5626f0372fecd008d4a" category="list-text">選取或取消選取 <block ref="dd1d4035683a3e071dd51657ce989305" category="inline-image-macro-rx" type="image"></block> 這與原則有關。</block>
   <block id="9dcba5db0a0f444ce47417b6498ea238" category="paragraph">選取的臨界值會套用至「Counter圖表縮放檢視」。臨界臨界值會顯示為紅色線；警告臨界值會顯示為黃色線。</block>
   <block id="d4cc0d9e5bc1f090e7d072c05be6857c" category="summary">您可以監控所有節點或叢集中所有集合體的可用IOPS值、也可以檢視單一節點或集合體的詳細資料。</block>
   <block id="347d0a67d426de9b64ff218179169117" category="doc">檢視節點和Aggregate可用IOPS值</block>
   <block id="cef2c2d5f9d4a5914b59654a7f607fde" category="paragraph">可用的IOPS值會顯示在「效能詳細目錄」頁面、以及節點和集合體的「效能總管」頁面圖表中。例如、在「節點/效能資源管理器」頁面中檢視節點時、您可以從清單中選取「可用的IOPS」計數器圖表、以便比較節點和該節點上多個集合體的可用IOPS值。</block>
-  <block id="c3d29004b62efdea0a3d1b25a8bbbd95" category="image-alt">可用的IOPS縮放</block>
   <block id="0363650b824bb30a2361eac863fc7712" category="paragraph">監控可用的IOPS計數器可讓您識別：</block>
   <block id="5b2fa045b4ff5eb6bb7e3dc3406be3d7" category="list-text">具有最大可用IOPS值的節點或集合體、有助於判斷未來工作負載的部署位置。</block>
   <block id="5fb3632b7750b6f9dab95ef9c44cf37d" category="list-text">具有最小可用IOPS值的節點或集合體、可識別未來可能發生效能問題時應監控的資源。</block>
@@ -6704,7 +6653,6 @@
   <block id="83d6279aff05f9fb65333ef455dcbbc3" category="list-text">在所選SVM的「*效能/SVM檔案總管*」頁面中、從IOPS圖表中、從下拉式功能表中選取*傳輸協定*。</block>
   <block id="447706c449f59f43bf73830cfa98e1c2" category="paragraph">隨即顯示IOPS -傳輸協定圖表。</block>
   <block id="c468dcd34f66d4c89f937f753cbea9da" category="list-text">若要檢視較大版本的圖表、請選取*縮放檢視*。</block>
-  <block id="0ffbf029a46a176f851bd1083fc59f3f" category="paragraph">隨即顯示IOPS進階傳輸協定比較表。您可以取消選取或選取來限制比較 <block ref="dd1d4035683a3e071dd51657ce989305" category="inline-image-macro-rx" type="image"></block> 與傳輸協定相關。</block>
   <block id="bd4b39dc1bb79b9a1bd07a73251e2579" category="list-text">若要檢視特定值、請將游標移至任一圖表的圖表區域、以查看快顯視窗。</block>
   <block id="072c17e61505a6a01f81f9e538550bb2" category="summary">「表現最佳者」頁面會根據您所選的效能計數器、顯示效能最高或效能最低的儲存物件。例如、在「Storage VM」（儲存VM）類別中、您可以顯示IOPS最高、延遲最高或最低MB/s的SVM此頁面也會顯示是否有任何表現優異者有任何作用中的效能事件（新增或已確認）。</block>
   <block id="2a96dd57f938db3b0b6638a63716d337" category="paragraph">「表現最佳者」頁面最多可顯示每個物件的10個。請注意、Volume物件同時包含FlexVol 了「功能區」和FlexGroup 「功能區」。</block>
@@ -6724,7 +6672,6 @@
   <block id="3f3d45fcb66805cc0f149b9cf58d0757" category="paragraph">按一下*排序*功能表、為選取的物件和計數器選取遞增或遞減排序。選項包括*最高至最低*、*最低至最高*。這些選項可讓您檢視效能最高或效能最低的物件。</block>
   <block id="7174a10e4e6545b68a8b9cb952a3d88a" category="list-text">*計數器條*</block>
   <block id="62b2b10e6923aff6e9b2f5ce31980d72" category="paragraph">圖表中的計數器列會顯示每個物件的效能統計資料、以該項目的長條表示。長條圖以色彩編碼。如果計數器未超過效能臨界值、則計數器列會以藍色顯示。如果發生臨界值外洩（新的或已確認的事件）、則該列會以事件的色彩顯示：警告事件會以黃色顯示（<block ref="8d9561f21dccdc0043e67ddefc8426e0" category="inline-image-macro-rx" type="image"></block>）、關鍵事件會以紅色顯示（<block ref="c193fc99558c2b3b75f34ed647245356" category="inline-image-macro-rx" type="image"></block>）。臨界值外洩會以嚴重性事件指標圖示進一步指出、以顯示警告和重大事件。</block>
-  <block id="0cc1f46876019ed9ab97d6c10e2e234a" category="image-alt">前10大範例</block>
   <block id="705cfa340a01a44003a6f14fbe6daa6c" category="paragraph">對於每個圖表、X軸會顯示所選物件類型的表現最佳者。Y軸顯示適用於所選計數器的單位。按一下每個垂直長條圖元素下方的物件名稱連結、即可瀏覽至所選物件的「效能登陸」頁面。</block>
   <block id="ecd4ae019392e00dea76803fc66b16bf" category="list-text">*嚴重性事件指標*</block>
   <block id="bf8b8d2b26c51f8b67b24018b644a43c" category="paragraph">活動關鍵（<block ref="0ca1aa7b9d99b2cc14b9097078e46730" category="inline-image-macro-rx" type="image"></block>）或警告（<block ref="5bf97e598fad2133993728aec070d7a1" category="inline-image-macro-rx" type="image"></block>）頂尖績效者圖表中的活動。按一下*嚴重性事件*指標圖示以檢視：</block>
@@ -6758,7 +6705,6 @@
   <block id="63076656abd3602b264cff8b39758dbf" category="summary">「效能叢集登陸」頁面提供所選叢集的高層效能總覽、並強調叢集內前10大物件的效能狀態。效能問題會顯示在此頁面頂端的「All Event on this Cluster（此叢集上的所有事件）」面板中。</block>
   <block id="a4835c26fbd89400712a16c5a24bef66" category="doc">瞭解效能叢集登陸頁面</block>
   <block id="7c35ca1bcb0fba179fddbc2986621da9" category="paragraph">「效能叢集登陸」頁面提供Unified Manager執行個體所管理之每個叢集的高層級總覽。本頁提供事件與效能的相關資訊、可讓您監控叢集並進行疑難排解。下圖顯示叢集「OPM-MO行動 性」的「效能叢集登陸」頁面範例：</block>
-  <block id="e1c015ea184977e9c62931ee8a47c5c5" category="image-alt">OPM叢集登陸頁草稿</block>
   <block id="2367a1375437c0f5de69df2858c691a5" category="paragraph">「叢集摘要」頁面上的事件數可能與「效能事件詳細目錄」頁面上的事件數不符。這是因為當違反組合臨界值原則時、「叢集摘要」頁面會在「延遲」和「使用率列」中各顯示一個事件、而「效能事件詳細目錄」頁面則只會在違反組合原則時顯示一個事件。</block>
   <block id="be403b425e38e6b36719566ba11c2ee8" category="paragraph">如果某個叢集已從Unified Manager管理中移除、則狀態*移除*會顯示在頁面頂端叢集名稱的右側。</block>
   <block id="153d0090e4c1bb75cc65dae755defc41" category="summary">「選擇圖表」下拉式清單可讓您選取要顯示在「計數器圖表」窗格中的效能計數器圖表類型。如此可讓您根據效能需求、檢視特定的資料和計數器。</block>
@@ -6829,7 +6775,6 @@
   <block id="19370cee409117f2a4158287d10db115" category="list-text">同步SnapMirror</block>
   <block id="9adc895df6e8939b22e3bfff9743a04f" category="list-text">在所選磁碟區的「* Volume Performance Explorer-*」頁面中、從「延遲」圖表中、從下拉式功能表中選取「*叢集元件*」。</block>
   <block id="7040fc9795cb1eee0052f56d419f1519" category="paragraph">隨即顯示「延遲-叢集元件」圖表。</block>
-  <block id="c3a89e7c491fb26f3277eaf9db6874d0" category="paragraph">隨即顯示叢集元件比較表。您可以取消選取或選取來限制比較 <block ref="dd1d4035683a3e071dd51657ce989305" category="inline-image-macro-rx" type="image"></block> 與每個叢集元件相關聯。</block>
   <block id="ffeeb45af6016ebdbe7bed05f49573b3" category="list-text">若要檢視特定值、請將游標移至圖表區、以查看快顯視窗。</block>
   <block id="4837dd8d91671f7ff8fdafcc7bfbee27" category="summary">某些常見的效能計數器（例如IOPS和MB/s）可以設定所有儲存物件的臨界值。還有其他計數器只能設定特定儲存物件的臨界值。</block>
   <block id="18aec2d847a50f51f15206b7885ee53d" category="doc">可使用臨界值來追蹤哪些效能計數器</block>
@@ -7154,7 +7099,6 @@
   <block id="e6fc07fb0e600b193f93fbcd7ea620d5" category="paragraph">警示電子郵件會傳送給所有訂閱接收警示的使用者。</block>
   <block id="095be07542fc734d64064bbf87fcd18a" category="paragraph">如果效能計數器或容量值在收集期間有大幅變更、可能會同時觸發同一個臨界值原則的重大和警告事件。在這種情況下、您可能會收到一封警告事件電子郵件、另一封則是重大事件的電子郵件。這是因為Unified Manager可讓您個別訂閱、以接收警示、以因應警告和重大臨界值違規事件。</block>
   <block id="2524784f2bd7d2dbb06f68a697df0f67" category="paragraph">警示電子郵件範例如下所示：</block>
-  <block id="b4d7af3796f89b26c8c4d2e30f449bb9" category="image-alt">UM電子郵件警示</block>
   <block id="ae05d18f0aa03d9ace194554836fce44" category="summary">Unified Manager伺服器與外部資料供應商之間的連線可讓您將叢集效能資料傳送至外部伺服器、以便儲存管理員使用協力廠商軟體來記錄效能指標。</block>
   <block id="a5462241332bc2f531e2eea479c57d40" category="doc">設定Unified Manager伺服器與外部資料供應商之間的連線</block>
   <block id="038ee6208dac1829f5357e512f7528a8" category="paragraph">Unified Manager伺服器與外部資料供應商之間的連線是透過維護主控台中標示為「外部資料供應商」的功能表選項來建立。</block>
@@ -7173,7 +7117,6 @@
   <block id="cc84e4cd9dea8de50b595a4b3e47bc6b" category="paragraph">您可以使用ONTAP 「系統管理程式」和ONTAP 「Sof CLI」命令手動搬移生命。</block>
   <block id="f63bfd0f21322837ec283a9385287658" category="summary">觸發切換或切換的事件會導致作用中磁碟區從一個叢集移至災難恢復群組中的另一個叢集。叢集上作用中的磁碟區會停止、並將資料提供給用戶端、其他叢集上的磁碟區也會啟動、並開始提供資料。Unified Manager只會監控作用中和執行中的磁碟區。</block>
   <block id="7edc2199c58b1da2fb3f4eafb729d425" category="paragraph">由於磁碟區會從一個叢集移至另一個叢集、因此建議您同時監控這兩個叢集。Unified Manager的單一執行個體可監控MetroCluster 整個叢集、但有時兩個位置之間的距離需要使用兩個Unified Manager執行個體來監控兩個叢集。下圖顯示Unified Manager的單一執行個體：</block>
-  <block id="97fe7adac30c91a9fdf9123e538b67a2" category="image-alt">OPM MCC切換</block>
   <block id="868eae64a59536078897606771288a0b" category="paragraph">名稱為p的磁碟區表示主要磁碟區、名稱為b的磁碟區則是SnapMirror所建立的鏡射備份磁碟區。</block>
   <block id="cf2937984aafacc5b353a632d3b30b98" category="paragraph">正常操作期間：</block>
   <block id="8edd1d010af0617ea6c7eab819ea835d" category="list-text">叢集A有兩個作用中磁碟區：Vol1p和Vol2p。</block>
@@ -7189,7 +7132,6 @@
   <block id="0ff2b3ba80693ba40d58e288cfa02b56" category="list-text">切換至叢集A期間、Vol3p統計資料和事件不會顯示。</block>
   <block id="58c59775a2accc0909dcb33893919c42" category="list-text">在第一次切換時、Vol3b看起來像是一個新的磁碟區、沒有歷史資訊。</block>
   <block id="b6e46cbd1b673d1e673a6e8e057a5c8c" category="paragraph">當叢集B修復並執行切換時、Vol3p會在叢集B上再次作用、並顯示切換期間的歷史統計資料和統計資料落差。在發生另一次切換之前、無法從叢集A檢視Vol3b：</block>
-  <block id="aa79b6dfffdb81f9ff1b71ea8efb4cda" category="image-alt">OPM MCC Volume</block>
   <block id="43380a60a1d5a3dcb4817db0a0bb12c5" category="list-text">不活動的現象磁碟區（例如、切換後叢集A上的Vol3b）會以「此Volume Is Deleted」（此磁碟區已刪除）訊息加以識別。MetroClusterVolume並未實際刪除、但Unified Manager目前並未監控、因為它不是作用中Volume。</block>
   <block id="f84a9db60d58e4153e63ffd6eca83fcd" category="summary">您可以將使用者定義的效能臨界值原則指派給儲存物件、以便Unified Manager在效能計數器的值超過原則設定時回報事件。</block>
   <block id="3e5e23d6621ccccf4bf965b37143465f" category="doc">指派效能臨界值原則給儲存物件</block>
@@ -7203,9 +7145,7 @@
   <block id="55938315bce378cd0bebd3cf763eb39f" category="cell">若要將臨界值指派給...</block>
   <block id="ed70796e5e1844101ad3544aff8306bd" category="paragraph">該物件左側的核取方塊。</block>
   <block id="87dfcc9b5ef0c6047bbd3e7e8503a18b" category="paragraph">每個物件左側的核取方塊。</block>
-  <block id="b99563e216a3c4f8bca45d62962282d3" category="paragraph">。 <block ref="3e6fc62e3802e046e5d0613c93a37e4e" category="inline-image-macro-rx" type="image"></block> 下拉式方塊、然後選擇*選取此頁面上的所有物件*。</block>
   <block id="f23cfe49e5db778b8152de99493435cb" category="paragraph">相同類型的所有物件</block>
-  <block id="71671fa46285c6e5ccbc89eb9c304fff" category="paragraph">。 <block ref="3e6fc62e3802e046e5d0613c93a37e4e" category="inline-image-macro-rx" type="image"></block> 下拉式方塊、然後選擇*選取所有物件*。</block>
   <block id="78e9c92469f3920e2e87bffcd2c310af" category="paragraph">您可以使用排序和篩選功能來精簡目錄頁面上的物件清單、以便更輕鬆地將臨界值原則套用至許多物件。</block>
   <block id="750b054bbbe76bb0937eda06bbc47400" category="list-text">選取您的選項、然後按一下*指派效能臨界值原則*。</block>
   <block id="a3ac72aa007ec0388a6bb525fade56cc" category="paragraph">隨即顯示「指派效能臨界值原則」頁面、顯示該特定類型儲存物件的臨界值原則清單。</block>
@@ -7270,7 +7210,6 @@
   <block id="3b1a1f8966fbf63b13ca2f6048d89566" category="paragraph">如果傳統的QoS原則群組在多個磁碟區之間「共享」、這有助於查看特定磁碟區是否過度使用原則群組所定義的處理量。它也能協助您決定是否可以將其他磁碟區新增至原則群組、而不會對其他磁碟區造成負面影響。</block>
   <block id="ab5a685f22cc186421a6f9330451d4e8" category="paragraph">在調適性QoS原則和Unified Manager效能服務層級原則的情況下、 這有助於檢視使用原則群組的所有磁碟區或LUN、以便在變更QoS原則的組態設定時、查看哪些物件會受到影響。</block>
   <block id="7137695b21df6f6ed3bcb7bcdc069743" category="list-text">如果您對傳統原則群組感興趣、請留在此頁面。否則、請選取其中一個「額外檢視」選項、以顯示Unified Manager Performance Service層級所建立的所有調適性QoS原則群組或所有QoS原則群組。</block>
-  <block id="5a01960462db8c65f6513a6466c1be71" category="list-text">在您感興趣的QoS原則中、按一下展開按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視更多詳細資料。<block ref="2f400b1aca95bc754cc1fdf503a800f4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a648914bae6c91b340c0e37b246873f9" category="list-text">按一下「Volumes（磁碟區）」或「LUN（LUN）」連結、即可檢視使用此QoS原則的物件。</block>
   <block id="829ff77762e06404761ceb316750a0d1" category="paragraph">Volume或LUN的效能詳細目錄頁面會顯示使用QoS原則之物件的已排序清單。</block>
   <block id="33d1eb9c9ed5d4f51ebe16e332ffebc9" category="summary">您可以在「物件庫存管理效能」頁面上搜尋字串。使用頁面右上角的「搜尋」欄位、可根據物件名稱或原則名稱快速找到資料。這可讓您快速找出特定物件及其相關資料、或是快速找出原則並檢視相關的原則物件資料。</block>
@@ -8040,7 +7979,6 @@
   <block id="0e01981f6f68a17152927292ac267adc" category="doc">解決Active IQ 平台事件</block>
   <block id="311a918ed191f71e3e34d4f7b035427d" category="paragraph">由於可指派給其他使用者進行解決、且其可用狀態與其他Unified Manager事件相同、因此平台事件與風險與其他Unified Manager事件類似。Active IQ不過、當您使用*修復*按鈕來解決這些類型的事件時、您可以在數小時內驗證解決方案。</block>
   <block id="8a49e0150d4e11638ccedb6d64e270b2" category="paragraph">下圖顯示您必須採取的行動（以綠色顯示）、以及Unified Manager在解決Active IQ 從「E地」平台產生的事件時所採取的行動（以黑色顯示）。</block>
-  <block id="d1572fcb9f5c13f1eea575c7640be013" category="image-alt">aiq與um事件解決方案</block>
   <block id="0e0dea3909c8e70050c5fc144debdd08" category="paragraph">執行手動解決方案時、您必須登入System Manager或ONTAP 使用指令行介面來修正問題。只有在叢集於AutoSupport 午夜產生新的功能驗證訊息之後、您才能驗證問題。</block>
   <block id="5133ed34dc41fac7f900bb32c7fb439f" category="paragraph">使用*修復*按鈕執行半自動解析時、您可以在數小時內確認修正是否成功。</block>
   <block id="983709e41d8a9f3a7ed87f61343974ee" category="summary">您可以使用事件清單來更熟悉Unified Manager中可能出現的事件類別、事件名稱及每個事件的嚴重性類型。事件會依物件類別的字母順序列出。</block>
@@ -8685,7 +8623,6 @@
   <block id="22028b2a7ee542d452d0faebe43c3e91" category="paragraph">Unified Manager可使用*修復*按鈕、徹底診斷並提供單一解決方案的特定事件。如果可用、這些解析度會顯示在儀表板、事件詳細資料頁面、以及左導覽功能表的工作負載分析選項中。</block>
   <block id="62c1c4512db65a8497e64484d26bdb4c" category="paragraph">大部分的事件都有各種可能的解析度、顯示在「事件詳細資料」頁面中、因此您可以使用ONTAP 「支援系統管理員」或ONTAP 「支援中心CLI」來實作最佳解決方案。當Unified Manager判定有單一解決方案可修正問題、而且可以使用ONTAP S還原CLI命令來解決時、便可使用*修正*動作。</block>
   <block id="ea0caf7a18f82052f22b81d1c41a79a7" category="list-text">若要檢視可從*儀表板*修正的事件、請按一下*儀表板*。</block>
-  <block id="4a5fe175165969b26b13e8ce49f6d97d" category="image-alt">管理行動</block>
   <block id="4f6aa051079bac1a5f061fa0dcbfe721" category="list-text">若要解決Unified Manager可以解決的任何問題、請按一下「*修正*」按鈕。若要修正多個物件上存在的問題、請按一下「*全部修復*」按鈕。</block>
   <block id="5c4d8b9e42cb84ba6df2836f086acda2" category="inline-link-macro">Unified Manager可以修正哪些問題</block>
   <block id="10cc20a80b3710d87f672be320f9c0f1" category="summary">您可以編輯警示內容、例如警示所關聯的資源、事件、收件者、通知選項、通知頻率、 及相關指令碼。</block>
@@ -8748,7 +8685,6 @@
   <block id="50b993e2d7689e67f9d64692234eb2b5" category="paragraph">同步複寫已還原*（syncSnapmir反復 關係InSync）</block>
   <block id="5ebbae7e31a39e702457fa7f1e4e7d92" category="paragraph">同步複寫自動重新同步失敗*（syncSnapmirmiretorRelationshipAutoSyncRetryFailed）</block>
   <block id="52b4d20262708e387b759abe91967d07" category="summary">下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ</block>
-  <block id="268090b8284e72cc57625ab835379bf7" category="image-alt">產生aiq和um事件</block>
   <block id="cf08c35e48f69110899768e3b2f8c814" category="paragraph">如您所見、在Active IQ 這個平台上編譯的規則檔會保持最新狀態、AutoSupport 每天產生叢集式的消息、而Unified Manager則會每日更新事件清單。</block>
   <block id="f53ab048178d767c14635a79e485a5d4" category="list-text">*任何*</block>
   <block id="7ff1c9dbf7b85364c9af00726d6f9d5f" category="list-text">*單一*</block>
@@ -8923,7 +8859,6 @@
   <block id="3df36075f4925504f7eddfac72c38ba5" category="paragraph">列出所選SVM中的所有讀寫磁碟區。您可以依名稱和可用空間來篩選磁碟區。空間最大的磁碟區會以遞減順序排列在最前面、依此類推。預設會選取原始來源Volume。</block>
   <block id="a5f93a48aa0d4ca79e8ba0ed04367d30" category="list-text">*檔案路徑文字方塊*</block>
   <block id="e45513157360bfb7708c8ac86dcbb123" category="paragraph">可讓您輸入要還原資料的檔案路徑。您輸入的路徑必須已經存在。</block>
-  <block id="ccc7c10eee77487b91c5e10f59a57941" category="paragraph">顯示所選磁碟區的可用資料夾名稱。按一下「名稱」清單中的資料夾、會顯示子資料夾（若有）。不會顯示資料夾中包含的檔案。按一下 <block ref="03e56dc1d9ac5d42b32f5f93ce4092cb" category="inline-image-macro-rx" type="image"></block> 選取資料夾之後、您就會在目錄結構中往上移一層。</block>
   <block id="71a8b433da1b6f09d4f98005b290c199" category="list-text">*選擇目錄*</block>
   <block id="1f8f89656da4502817635b86061a17c0" category="paragraph">套用您的選擇並關閉「瀏覽目錄」對話方塊。如果未選取目錄、則此按鈕會停用。</block>
   <block id="d6c0113f647cfe46a7dd4aab7f60a782" category="paragraph">捨棄您的選擇並關閉「瀏覽目錄」對話方塊。</block>
@@ -9579,7 +9514,6 @@
   <block id="355ed02b5bf269a9ac81c210a91b2326" category="section-title">選取要還原的項目</block>
   <block id="0ae4cbe4565500f72a0a3eec5adb66af" category="paragraph">「選取要還原的項目」區域可讓您選取要還原的整個磁碟區或特定檔案與資料夾。您最多可以選取10個檔案、資料夾或兩者的組合。選取項目數量上限時、項目選取核取方塊會停用。</block>
   <block id="a77fff19e2946aa091859a19a3a2e7a7" category="list-text">*路徑欄位*</block>
-  <block id="06c777159e7f598fdd2986e6b3840ac0" category="paragraph">顯示您要還原之資料的路徑。您可以瀏覽至要還原的資料夾和檔案、也可以輸入路徑。此欄位為空白、直到您選取或輸入路徑為止。按一下 <block ref="03e56dc1d9ac5d42b32f5f93ce4092cb" category="inline-image-macro-rx" type="image"></block> 選擇路徑之後、您就會在目錄結構中往上移一層。</block>
   <block id="40b243c53eb51550476192bdb9bb1cfb" category="list-text">*資料夾與檔案清單*</block>
   <block id="04ff9dd403e4707ae615a9ceffbe38dc" category="paragraph">顯示您輸入的路徑內容。依預設、根資料夾一開始會顯示。按一下資料夾名稱會顯示資料夾的內容。</block>
   <block id="4a07ccbededd2ef14545f6f289a206db" category="paragraph">您可以選取要還原的項目、如下所示：</block>
@@ -9703,7 +9637,6 @@
   <block id="7f645c62748b8f341ce5518189046952" category="list-text"><block ref="78f1c7f3617ef41df282842c7aea86dc" category="inline-link-macro-rx"></block>。</block>
   <block id="cf5ca9e866dd6f6af50454c3c37d728b" category="paragraph">當原始來源磁碟區再次可用時、您可能會決定還原來源磁碟區、以重新建立原始保護關係。在還原來源之前、您必須先將來源與寫入先前目的地的資料進行同步處理。您可以使用反轉重新同步作業來建立新的保護關係、方法是反轉原始關係的角色、並將來源磁碟區與前一個目的地同步。系統會針對新的關係建立新的基礎Snapshot複本。</block>
   <block id="bfaa254a5cb39b3c43b8f5776f3e8b37" category="paragraph">相反的關係看起來類似於串聯關係：</block>
-  <block id="567bacd20706fd12312a5d53636dae58" category="image-alt">UM TOplogy反轉重新同步</block>
   <block id="636d322cf36001b0df3c1f4c631575c2" category="inline-link-macro">打破反轉的SnapMirror關係</block>
   <block id="45584357434a808c067b0c7bcf62d4d7" category="list-text"><block ref="6961a01c834d625dff304c8e01f1c155" category="inline-link-macro-rx"></block>。</block>
   <block id="03f1c41c508d338d0625395e3cb82781" category="paragraph">當原始來源磁碟區重新同步並可再次提供資料時、請使用中斷作業來中斷反向關係。</block>
@@ -10077,16 +10010,12 @@
   <block id="7f181d17e5151df833c62235f25606f9" category="cell">顯示圖示</block>
   <block id="cb61fef1e5e79e07a80421cb9a073a80" category="paragraph">最佳化</block>
   <block id="ffff1583d2fd5cf13c4a0b5da1d34f00" category="paragraph">在不中斷連線MetroCluster 的情況下、叢集之間的連線功能是正常的。</block>
-  <block id="a88a3b3fa326c91119c25bc78c733187" category="paragraph"><block ref="a88a3b3fa326c91119c25bc78c733187" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2a2f3c28106a5de3ce552be443b0b5e2" category="paragraph">受影響</block>
   <block id="6652f6a0a90bde13e583b1a0339770ef" category="paragraph">一或多個錯誤會影響容錯移轉可用度的狀態、但是MetroCluster 、在這個組態中、兩個叢集仍在運作中。例如、當ISL連結中斷、叢集間IP連結中斷或無法連線到合作夥伴叢集時。</block>
-  <block id="63087c59472b013c33a59eff7581c4df" category="paragraph"><block ref="63087c59472b013c33a59eff7581c4df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="08a38277b0309070706f6652eeae9a53" category="paragraph">關機</block>
   <block id="03ed6044b777b78a263e7a5dbbcae3fb" category="paragraph">由於一個或兩個叢集都當機、或叢集處於容錯移轉模式、所以在支援支援支援的情況下、叢集之間的連線MetroCluster 功能會中斷。例如、當合作夥伴叢集因為災難而關閉、或是因為測試目的而有計畫性的切換時。</block>
   <block id="5d1c4e5932a583628e87e2c187b2b11c" category="paragraph">切換時發生錯誤：</block>
-  <block id="28c09b41c92beed309a734d0ce7154ba" category="image-alt">停止連線MetroCluster</block>
   <block id="5cd64bda6b25fcd9c11cc557830b1202" category="paragraph">切換成功：</block>
-  <block id="6581cf1085dcf2b37798cb4326d54379" category="image-alt">連線容錯移轉MetroCluster</block>
   <block id="88c88f6b56a9d98bd33b05c15caf1b59" category="summary">「產生使用者和群組配額的規則電子郵件地址」頁面可讓您建立規則、根據與叢集、SVM、磁碟區、qtree、使用者、 或使用者群組。當超出配額時、系統會將通知傳送至指定的電子郵件地址。</block>
   <block id="51ec35fdada9b22f0ab61058a1d6b10a" category="doc">產生使用者和群組配額電子郵件地址頁面的規則</block>
   <block id="38177b330d524696f6cd3f56f4146279" category="section-title">規則區域</block>
@@ -10579,7 +10508,6 @@
   <block id="f9d342c990bb206745db9520ba805312" category="list-text">*已完成*顯示成功完成的管理動作和失敗的管理動作。*失敗*動作可提供失敗的原因、以便您手動解決此問題。</block>
   <block id="078efefc4625e28abe7d03fab1dca812" category="list-text">*進行中*顯示正在實作的管理行動、以及已排定要實作的管理行動。</block>
   <block id="42c800420d6ad7d812f808d7c9b90ffa" category="list-text">*建議*顯示所有受監控叢集目前作用中的所有管理動作。</block>
-  <block id="f6bb52f2c4944096d1f1be0386fc5f0c" category="list-text">按一下左導覽窗格上的*管理動作*。或者、按一下 <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> 在*儀表板*上的*管理動作*面板頂端、選取您要查看的檢視。</block>
   <block id="ad368da8527e3c80c794d518bb18d894" category="paragraph">隨即顯示「管理動作」頁面。</block>
   <block id="aff65d6d0c30df7f7fc62f8541a45fe3" category="list-text">您可以按一下「*說明*」欄位中管理動作旁的插入符號圖示、查看問題的詳細資料、以及用來修正問題的命令。</block>
   <block id="a283c76eb07b5902aab48a81038a57b7" category="list-text">要查看*失敗*的任何操作，請在*已完成*視圖中按*狀態*列排序。您可以使用*篩選器*工具來達到相同目的。</block>
@@ -10914,7 +10842,6 @@
   <block id="e999bab26f41b7a7606311fad961b3b0" category="paragraph">由於收集15天的效能資料會佔用大量CPU資源、因此建議您將新增的叢集重新分段、以使資料持續性收集輪詢不會同時在太多叢集上執行。</block>
   <block id="91ee9c9d739842e37808ca0479996583" category="summary">您可以監控MetroCluster 使用您的功能性組態的連線問題。詳細資料包括叢集內的元件狀態和連線能力、以及MetroCluster 叢集間的連線狀態（以供參考組態設定）。</block>
   <block id="d63a2c85390193a1d2579ea20f08e15d" category="doc">監控MetroCluster 功能</block>
-  <block id="e713e9b6962680f6e38501607685e83e" category="image-alt">節點交換器連線能力</block>
   <block id="3a506937b5bb5384c61dac16d9df80c7" category="paragraph">隨即顯示所有受監控叢集的清單。</block>
   <block id="90ff40980822f49f141f05be33dac4bd" category="paragraph">如果MetroCluster 發現在您的資訊功能組態中有連線問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="921706b903c36d422debdda2be0b751c" category="summary">您可以根據與叢集、儲存虛擬機器（SVM）、磁碟區、qtree、使用者或使用者群組相關的使用者配額、來修改電子郵件地址。若要覆寫「建立使用者和群組配額電子郵件地址規則」對話方塊中指定的規則所產生的電子郵件地址、您可以修改電子郵件地址。</block>
@@ -11590,7 +11517,6 @@
   <block id="19c95300aa71dfce67b25f4f325cb43c" category="admonition">如果ONTAP 叢集中的節點上安裝不同版本的更新版、則會列出最低版本編號。您可以ONTAP 從「Performance：All Node」（效能：所有節點）檢視中檢視安裝在每個節點上的版本。</block>
   <block id="86ca0aced7f915554825d0afb4fafab5" category="list-text">臨界值原則：此儲存物件上作用中的使用者定義效能臨界值原則或原則。您可以將游標放在含有省略符號（...）的原則名稱上、以檢視完整原則名稱或指派的原則名稱清單。「指派效能臨界值原則」和「清除效能臨界值原則」按鈕會維持停用狀態、直到您按一下最左側的核取方塊來選取一或多個物件為止。</block>
   <block id="a67ce6ad2c23c9878afe4c5b9cbe4112" category="paragraph">Performance：All Volumes（效能：所有磁碟區）檢視會顯示FlexVol Unified Manager執行個體所監控之每個版本的效能事件、計數器資料和組態資訊總覽FlexGroup 。這可讓您快速監控磁碟區的效能、並疑難排解效能問題和臨界值事件。</block>
-  <block id="bd5124e87e242052898c4ae1990dfc3a" category="paragraph">若要分析特定物件的延遲和處理量、請按一下「More options（更多選項）」按鈕 <block ref="f1336c784cd20ea9f422078d2fa50c9f" category="inline-image-macro-rx" type="image"></block> 然後*分析工作負載*、您可以在「工作負載分析」頁面上檢視效能與容量圖表。您可以在System Manager上檢視詳細資料、前提是您擁有System Manager的有效認證資料。</block>
   <block id="bb01f6f71cd48a8c289775c75e483efc" category="admonition">對於資料保護（DP）磁碟區、只會顯示使用者產生流量的計數器值。根磁碟區不會顯示在此頁面上。</block>
   <block id="1460b1209bf25d86786d5edbb7e4c402" category="paragraph">以下是「效能：所有磁碟區」檢視中的一些重要欄位。</block>
   <block id="1fe4fdc74934561c12cc11ad4475aff6" category="list-text">風格：FlexVol 可選擇不一樣、也可FlexGroup 選擇不一樣。</block>
@@ -11710,7 +11636,6 @@
   <block id="058a0e4a5dedeedc296d95a71a970d42" category="list-text">複寫相關問題。</block>
   <block id="ede340a93f59101ca7e364d3f1067bde" category="admonition">報告下列狀態：critical（嚴重）（<block ref="df317b61e66e379687b7563a1a8b1de8" category="inline-image-macro-rx" type="image"></block>）、錯誤（<block ref="5aae73370f411c9ca9990d047839fb58" category="inline-image-macro-rx" type="image"></block>）或正常（<block ref="1d548d5cb07a50d174a5c37a0b4c0490" category="inline-image-macro-rx" type="image"></block>）。您也可以在同一個拓撲中檢視主要和鏡射資料的集合體資料複寫狀態。</block>
   <block id="28cef8e9e725d254ca6d136886760fbf" category="paragraph">在下圖中、您可以看到來源叢集與目的地叢集之間的站台間連線無法使用、而且未設定它們之間的「資訊管理器」。</block>
-  <block id="136444ea42854c06b8ffeaba599a7421" category="paragraph"><block ref="136444ea42854c06b8ffeaba599a7421" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6ba52b018ddb4342d95c61541029e019" category="list-text">按一下狀態圖示。畫面會顯示含有錯誤定義的訊息。如果MetroCluster 您的透過IP進行的設定中有任何問題發生、您可以按一下訊息上的*檢視事件*按鈕、檢視事件詳細資料。當您解決了問題和事件之後、此拓撲中的狀態圖示會變成正常（<block ref="1d548d5cb07a50d174a5c37a0b4c0490" category="inline-image-macro-rx" type="image"></block>）。</block>
   <block id="f95af02e2c615f0448cd0072a277560f" category="list-text">您可以在MetroCluster 「*叢集/健全狀況*」詳細資料頁面的「*組態*」索引標籤上的「*不完整概述*」和「*保護*」區段中、檢視更多組態詳細資料。</block>
   <block id="57321cb4d050a9993f7e2c916e4e889d" category="admonition">只有MetroCluster 在使用IP的情況下、您才能在「*叢集*」頁面上檢視叢集拓撲。對於MetroCluster 採用透過FC進行叢集組態的叢集、拓撲會顯示在MetroCluster *叢集/健全狀況*詳細資料頁面的*《鏈結能力*》索引標籤上。</block>
@@ -11914,4 +11839,96 @@
   <block id="8e48b936ecc4cd90adb6a89647a697bf" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.7 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境安裝</block>
   <block id="177f4885c5bf3cc6b06090613bb7d325" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.7 。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">請參閱 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果您需要檢閱備份與還原程序的詳細指示。</block>
+  <block id="1f627cf53c59c3dcb003a3d36f72e53e" category="image-alt">顯示 Unified Manager 單一執行個體的 UI 螢幕擷取畫面。</block>
+  <block id="e0ed7cd9eee5c90155f220097a342182" category="image-alt">顯示切換期間 Volume 行為的 UI 螢幕擷取畫面。</block>
+  <block id="b9fb422d6749f5459bceb51a8ce8d2ad" category="image-alt">節點交換器連線圖示</block>
+  <block id="1245ab70984df10fe41a16c32de94b79" category="inline-image-macro">顯示來源站台和鏡射站台拓撲以及 Mediator 的 UI 螢幕擷取畫面。</block>
+  <block id="07a025ae69f8039bab6c6abf2bddffd5" category="paragraph"><block ref="07a025ae69f8039bab6c6abf2bddffd5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4328e10f6974dcd48e51d451f8214db1" category="image-alt">UI 螢幕擷取畫面、顯示包含三個篩選器的篩選面板。</block>
+  <block id="782fb4c5ec9a229209f3082c5073e5c4" category="inline-image-macro">MetroCluster 連線最佳化圖示</block>
+  <block id="596f263c8b44e1f9f4bb2690b4fe3e56" category="paragraph"><block ref="596f263c8b44e1f9f4bb2690b4fe3e56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a62dde0bbdba25da53012df268b4198e" category="image-alt">MetroCluster 連線中斷圖示</block>
+  <block id="6e603aa770ae8462d9e260c718c531df" category="image-alt">MetroCluster 連線容錯移轉圖示</block>
+  <block id="3f7734cbffc7efa256fe14dd9843a637" category="inline-image-macro">MetroCluster 連線能力受影響圖示</block>
+  <block id="37e4190f44af188100dd0d615957bb8f" category="paragraph"><block ref="37e4190f44af188100dd0d615957bb8f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7495c2e60977b03d4fd9f88701c5a72c" category="inline-image-macro">更多圖示</block>
+  <block id="7c994822b6784430b56b7684746923b4" category="list-text">按一下左導覽窗格上的*管理動作*。或者、按一下 <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> 在*儀表板*上的*管理動作*面板頂端、選取您要查看的檢視。</block>
+  <block id="9bfdbfc9bf422e0970ea4faae8a35ebb" category="inline-image-macro">上資料夾圖示</block>
+  <block id="8efb9daa6290ac7a5012150c756b2259" category="paragraph">顯示您要還原之資料的路徑。您可以瀏覽至要還原的資料夾和檔案、也可以輸入路徑。此欄位為空白、直到您選取或輸入路徑為止。按一下 <block ref="38f36c3d8bc2b072ab2ba2f0387a9f23" category="inline-image-macro-rx" type="image"></block> 選擇路徑之後、您就會在目錄結構中往上移一層。</block>
+  <block id="477c985c6c6e6727f995cedb1e5e6435" category="image-alt">顯示反轉關係程序的 UI 螢幕擷取畫面。</block>
+  <block id="889b6570db13a97803b3dd55bf216742" category="paragraph">顯示所選磁碟區的可用資料夾名稱。按一下「名稱」清單中的資料夾、會顯示子資料夾（若有）。不會顯示資料夾中包含的檔案。按一下 <block ref="38f36c3d8bc2b072ab2ba2f0387a9f23" category="inline-image-macro-rx" type="image"></block> 選取資料夾之後、您就會在目錄結構中往上移一層。</block>
+  <block id="595033372a33b3b2e88ddc603876b53b" category="image-alt">顯示 Perf 詳細圖表的 UI 螢幕擷取畫面。已使用容量。</block>
+  <block id="0b1adeccc2e8917c87c18c86d0a0b9f7" category="image-alt">效能：所有集合體頁面的 UI 螢幕擷取畫面</block>
+  <block id="a37991352d24568094ee8813e6c91f08" category="image-alt">UI 螢幕擷取畫面、顯示集合體的延遲與使用率曲線範例。</block>
+  <block id="fabd87e14688b50d54217ddab5aacfc3" category="image-alt">UI 螢幕擷取畫面、顯示如何調查特定的彙總。</block>
+  <block id="8732f871ff7bb423f87a4b906c876f57" category="image-alt">UI 螢幕擷取畫面顯示叢集的 Performance Cluster Landing 頁面範例、稱為 OPM-Mobility 。</block>
+  <block id="60cc048fae210974de134bfd67f76577" category="image-alt">顯示時間範圍面板的 UI 螢幕擷取畫面。</block>
+  <block id="2492e5712887bfbbfb7de6bea4cd7cda" category="image-alt">UI 螢幕擷取畫面、顯示範例櫃檯圖。</block>
+  <block id="52583ec409651e974d8e45794b491ede" category="image-alt">UI 螢幕擷取畫面、顯示包含三個篩選器的篩選面板。</block>
+  <block id="54478965fd26c1695be4fa6c77b446ec" category="inline-image-macro">眼睛圖示</block>
+  <block id="99286eccb9676d4a181de0e390557c9c" category="list-text">選取或取消選取 <block ref="407d125e19d55a99b4ac9c6949e2352b" category="inline-image-macro-rx" type="image"></block> 這與原則有關。</block>
+  <block id="462babbeb087f7c03fec086288d187f8" category="paragraph">若要分析特定物件的延遲和處理量、請按一下「More options（更多選項）」按鈕 <block ref="c722a999142e1b9406d46961ffb82654" category="inline-image-macro-rx" type="image"></block> 然後*分析工作負載*、您可以在「工作負載分析」頁面上檢視效能與容量圖表。您可以在System Manager上檢視詳細資料、前提是您擁有System Manager的有效認證資料。</block>
+  <block id="b397003ae4b701e6628d562247d34f2c" category="image-alt">UI 螢幕擷取畫面顯示計數器圖表中三個選項的範例。</block>
+  <block id="eb1c642978fd979848312566e16f7afc" category="paragraph">隨即顯示IOPS進階傳輸協定比較表。您可以取消選取或選取來限制比較 <block ref="407d125e19d55a99b4ac9c6949e2352b" category="inline-image-macro-rx" type="image"></block> 與傳輸協定相關。</block>
+  <block id="9dd283793ee317f51a1de10e42542a91" category="image-alt">UI 螢幕擷取畫面顯示許多可能的叢集物件管理範例。</block>
+  <block id="3ef7bf8de883cc560af3f1ea850428a3" category="image-alt">顯示事件調查導覽的 UI 螢幕擷取畫面。</block>
+  <block id="c09817166d012f14ca1f27e46931f5f4" category="image-alt">UI 螢幕擷取畫面顯示節點的延遲與 IOPS 曲線範例。</block>
+  <block id="3ddb93e23fd356705d9b7c2ff9db9671" category="image-alt">UI 螢幕擷取畫面、僅顯示根物件的詳細效能容量明細表。</block>
+  <block id="416f2494a3ff85ebccd8ee48ca69c1f6" category="image-alt">顯示 IOPS 圖表的 UI 螢幕擷取畫面。</block>
+  <block id="e4a0d59910db048032ebe1dbf1de62d8" category="inline-image-macro">選取下拉式圖示</block>
+  <block id="60592caeae6223a21992cb7eca7c87b8" category="paragraph">按一下 <block ref="70257d3efa47e2af65483465ea57dfa2" category="inline-image-macro-rx" type="image"></block> 在欄標題中。</block>
+  <block id="2d8a4738202b94c82b1e37dea88eb00e" category="image-alt">UI 螢幕擷取畫面顯示如何在「節點 / 效能總管」頁面中檢視節點、並從清單中選取「可用 IOPS 」。</block>
+  <block id="16c20a8b27943c8c1c6eecdbc8ea343f" category="image-alt">顯示資源延遲與使用率曲線的 UI 螢幕擷取畫面。</block>
+  <block id="40206e52a01c18d429a1e9eff494a574" category="image-alt">UI 螢幕擷取畫面顯示「物件登陸」頁面的範例、其中顯示檔案總管資訊。</block>
+  <block id="d1001975653044735aa1ffd5595e8f92" category="paragraph">隨即顯示叢集元件比較表。您可以取消選取或選取來限制比較 <block ref="407d125e19d55a99b4ac9c6949e2352b" category="inline-image-macro-rx" type="image"></block> 與每個叢集元件相關聯。</block>
+  <block id="50ab28ae9a22a8d47fbcec8d592228e9" category="image-alt">UI 螢幕擷取畫面、顯示「效能 / 所有節點」清查頁面中物件的詳細資料。</block>
+  <block id="2b0fc733a7cc7396d6aa6a488c4f2278" category="image-alt">顯示警示電子郵件範例的 UI 螢幕擷取畫面。</block>
+  <block id="19e6d8baed2ec8b3161e1d74783d01ce" category="inline-image-macro">展開按鈕圖示</block>
+  <block id="51d305573aafef3d72e0a317c6037f34" category="inline-image-macro">UI 螢幕擷取畫面、顯示 Unified Manager Performance Service 層級所建立的所有 QoS 原則群組。</block>
+  <block id="74ee10644e55ee027503694aeb0ba6ca" category="list-text">在您感興趣的QoS原則中、按一下展開按鈕（<block ref="0d06b7ef13aeb304d424aae1786632b2" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視更多詳細資料。<block ref="a2f6f835476d638fd10271125c0480f4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="54cc88543e91a96516501e5271e4a82b" category="image-alt">UI 螢幕擷取畫面、顯示圖表中以計數器長條表示的每個物件的效能統計資料。</block>
+  <block id="5238c6c88068791bb1872a5e05a8d7b4" category="paragraph">。 <block ref="70257d3efa47e2af65483465ea57dfa2" category="inline-image-macro-rx" type="image"></block> 下拉式方塊、然後選擇*選取此頁面上的所有物件*。</block>
+  <block id="98ce7877cb0a64e15846eef0691788fd" category="paragraph">。 <block ref="70257d3efa47e2af65483465ea57dfa2" category="inline-image-macro-rx" type="image"></block> 下拉式方塊、然後選擇*選取所有物件*。</block>
+  <block id="c72d154d34a1014aa8e811d102b50933" category="image-alt">顯示轉換為 Unified Manager 事件的 Active IQ 平台事件和風險的 UI 螢幕擷取畫面。</block>
+  <block id="ffbe0d06b665bed80588f0e8461002d4" category="image-alt">UI 螢幕擷取畫面、顯示如何從儀表板檢視及修正事件。</block>
+  <block id="4601240ca052a78e31e094f76f334b6a" category="image-alt">UI 螢幕擷取畫面、顯示您必須採取的行動、以及 Unified Manager 在解決事件時所採取的行動。</block>
+  <block id="ba261df653b9b923add098824181c801" category="image-alt">顯示 2 節點叢集中儲存資源的 UI 螢幕擷取畫面。</block>
+  <block id="dbfcd05763fa1f48ada3b77761dc4cfa" category="inline-image-macro">顯示如何將 Excel 上傳至報告的 UI 螢幕擷取畫面。</block>
+  <block id="6bbf0103f9453595e0487ac59c2448de" category="list-text">如果存在自訂的Excel檔案、則「*報告*&gt;*上傳Excel *」功能表項目旁會有核取符號。當您下載Excel檔案時、會使用含自訂項目的版本。<block ref="e6d2f708abbc985ace6a92c600a00904" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c5e34b2c8b350688151b098e947309d4" category="image-alt">顯示如何從報告下載 Excel 的 UI 螢幕擷取畫面。</block>
+  <block id="1f69edf510d99f16d9d7394e91575d10" category="image-alt">資料工作表的 UI 螢幕擷取畫面、根據目前資料顯示總容量。</block>
+  <block id="f83b85a64ed76eedee81d44bf1b541a7" category="image-alt">圖表的 UI 螢幕擷取畫面、顯示總資料和已認可容量。</block>
+  <block id="017a933279fc8bf9ae767c84109ad92c" category="image-alt">顯示「顯示 / 隱藏」功能表下拉式清單的 UI 螢幕擷取畫面。</block>
+  <block id="d162484a21f2abc8a7e6c4db92c3f599" category="inline-image-macro">UI 螢幕擷取畫面、顯示如何從篩選選項套用篩選。</block>
+  <block id="ce7dd485e422fc553aae2f81fed0fe1c" category="list-text">Cold資料大於10 GB
+<block ref="7a65ec546ca575667cdf7ab8acbb8a83" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7b9c1ecc0c3ff786e8397f2c2e8d50e3" category="image-alt">UI 螢幕擷取畫面顯示 Vols 變更分層原則頁面、並以正確順序顯示必要欄。</block>
+  <block id="fd9c989b156ec2d475fc9910441b5780" category="image-alt">顯示與物件相關的所有排程報告的 UI 螢幕擷取畫面。</block>
+  <block id="d19065af454bff396018ed13030b1235" category="image-alt">顯示 CSV 格式範例報告的 UI 螢幕擷取畫面。</block>
+  <block id="6fa71c44d6186f7c4d31f3a51975364f" category="image-alt">顯示 PDF 格式範例報告的 UI 螢幕擷取畫面。</block>
+  <block id="ddaf9c5a83ac8717f7bc6fc2a6ed7a18" category="image-alt">檢視下拉式清單的 UI 螢幕擷取畫面。</block>
+  <block id="a85bc833070c6fdbef91c0357278ed38" category="image-alt">如果有匯入的報告、就會出現顯示訊息的 UI 螢幕擷取畫面。</block>
+  <block id="574419736dd1a094bea86cf06639f100" category="image-alt">顯示用於產生報告的 SQL 查詢的 UI 螢幕擷取畫面。</block>
+  <block id="c593e4f4250fa9f129051ce599d5317a" category="image-alt">顯示如何命名新工作表的 UI 螢幕擷取畫面。</block>
+  <block id="5a84af09dea3465934e5b7f757862827" category="image-alt">顯示排程報告的 UI 螢幕擷取畫面。</block>
+  <block id="0f7289e3904a934b2e14672a76c369d6" category="list-text">按一下「更多」圖示 <block ref="b25ce25f3639aa23c6778ce04e0f9921" category="inline-image-macro-rx" type="image"></block> 針對您要移除的排程。</block>
+  <block id="8945e62ebce635d77d71ad095eda9f13" category="list-text">按一下「更多」圖示 <block ref="b25ce25f3639aa23c6778ce04e0f9921" category="inline-image-macro-rx" type="image"></block> 針對您要使用的排程。</block>
+  <block id="80ca147a9542e53fb391d348e226d62d" category="image-alt">顯示如何儲存檢視的 UI 螢幕擷取畫面。</block>
+  <block id="7e33598eac8cee49a411447ccd0d9d27" category="image-alt">顯示如何儲存報告排程的 UI 螢幕擷取畫面。</block>
+  <block id="181437cbf52a06c7c7d1d041f8e37d97" category="image-alt">顯示如何新增及套用篩選的 UI 螢幕擷取畫面。</block>
+  <block id="15d3ae0dd382b3d5338ccbce5c4b4b3c" category="list-text">按一下「更多」圖示 <block ref="b25ce25f3639aa23c6778ce04e0f9921" category="inline-image-macro-rx" type="image"></block> 針對您要變更的排程。</block>
+  <block id="00e9b8776d9b0f5333a6944abeccc51b" category="list-text">Cold資料大於10 GB
+<block ref="c0b223f17f3407abaec62a27ae2ab0c0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f775b464c433accec6a7a0649ac6631a" category="list-text">以名稱儲存檢視以反映檢視內容、例如「'Vols change tiering policy'（變更分層原則）」。<block ref="a2f46dddb995c11c78b4e2890489ab93" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="62a2bd39b34ebcf2c08e411858a180ec" category="image-alt">UI 螢幕擷取畫面、顯示如何在類型欄中選取排序。</block>
+  <block id="d108321f23300645831694e00258ed7b" category="image-alt">顯示 3D 直條圖的 UI 螢幕擷取畫面。</block>
+  <block id="cda414f006213103be1327642b219548" category="image-alt">顯示總容量與可用容量圖表的 UI 螢幕擷取畫面。</block>
+  <block id="b599f3116d2566813498a702ea5f54be" category="image-alt">顯示如何新增或移除欄的 UI 螢幕擷取畫面。</block>
+  <block id="113339939ed5da8456cff38c6a2dd659" category="inline-image-macro">正常綠色勾號圖示</block>
+  <block id="581ae54a0a64a66fa9583b3c4094e4eb" category="list-text"><block ref="eacc15b31e1b3c1c55031aa4cb60d560" category="inline-image-macro-rx" type="image"></block> -參數設定為建議。</block>
+  <block id="8945e6b7353125220878189e0787b55f" category="inline-image-macro">警告圖示</block>
+  <block id="de4937d7b8da96a7481969b8c8d95093" category="list-text"><block ref="daf97ce3259b516686ed6431c8ae9d80" category="inline-image-macro-rx" type="image"></block> -參數未依建議進行設定。</block>
+  <block id="6d3602bc1499d37d6352a07745fe82a3" category="inline-image-macro">資訊圖示</block>
+  <block id="e96f2c1a8d03162235d9658f1ede2286" category="list-text"><block ref="82a2a2f25615dc32e336df95d97b3ec2" category="inline-image-macro-rx" type="image"></block> -叢集上未啟用此功能、或參數未依建議進行設定、但此參數並不影響物件的符合性。</block>
+  <block id="fd76af028c19ef3cb6eac6556e7104a7" category="image-alt">UI 螢幕擷取畫面、顯示 VMware 上安裝的頁面。</block>
 </blocks>

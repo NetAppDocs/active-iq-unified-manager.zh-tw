@@ -15,7 +15,7 @@ summary: 「使用的效能容量」計數器可協助您識別節點或Aggregat
 
 最佳化的效能容量是指節點或Aggregate擁有最佳使用率和延遲（回應時間）、且正在有效使用的時間點。下圖顯示集合體的延遲與使用率曲線樣本。
 
-image::../media/headroom_chart.gif[保留空間圖表]
+image::../media/headroom_chart.gif[UI 螢幕擷取畫面、顯示集合體的延遲與使用率曲線範例。]
 
 在此範例中、_operoperate point_可識別出集合體目前以50%的使用率運作、延遲為1.0毫秒/作業時間根據從Aggregate擷取的統計資料、Unified Manager會判斷此Aggregate是否有額外的效能容量可用。在此範例中、當Aggregate使用率達到80%、延遲為2.0毫秒/作業時、即會識別為最佳點因此、您可以將更多磁碟區和LUN新增至此集合體、以便更有效率地使用您的系統。
 

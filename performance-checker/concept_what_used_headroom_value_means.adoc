@@ -15,7 +15,7 @@ summary: 效能使用容量值可協助您識別目前過度使用或未充分�
 
 下圖顯示資源的延遲與使用率曲線、並以彩色點識別目前作業點所在的三個區域。
 
-image::../media/headroom_chart_over_under.gif[餘量圖表過低]
+image::../media/headroom_chart_over_under.gif[顯示資源延遲與使用率曲線的 UI 螢幕擷取畫面。]
 
 * 效能使用量百分比等於100、是處於最佳狀態。
 +

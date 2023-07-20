@@ -32,7 +32,7 @@ summary: 當保護關係中的來源磁碟區因為硬體故障或災難而停�
 相反的關係看起來類似於串聯關係：
 
 +
-image::../media/um_toplogy_reverse_resync.gif[UM TOplogy反轉重新同步]
+image::../media/um_toplogy_reverse_resync.gif[顯示反轉關係程序的 UI 螢幕擷取畫面。]
 
 . link:task_break_snapmirror_relationship_from_health_volume_details.html["打破反轉的SnapMirror關係"]。
 +

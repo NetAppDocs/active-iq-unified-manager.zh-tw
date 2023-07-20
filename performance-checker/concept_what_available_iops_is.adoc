@@ -23,7 +23,7 @@ summary: 可用的IOPS計數器可識別在資源達到上限之前、可新增�
 
 下圖顯示節點的延遲與IOPS曲線樣本。
 
-image::../media/available_iops.gif[可用的IOPS]
+image::../media/available_iops.gif[UI 螢幕擷取畫面顯示節點的延遲與 IOPS 曲線範例。]
 
 資源可提供的最大IOPS數是當使用效能容量計數器達到100%（最佳點）時的IOPS數目。作業點可識別節點目前以100K IOPS運作、延遲為1.0毫秒/作業根據從節點擷取的統計資料、Unified Manager會判斷節點的IOPS上限為160K、這表示可用或可用的IOPS為60K。因此、您可以將更多工作負載新增至此節點、以便更有效率地使用系統。
 

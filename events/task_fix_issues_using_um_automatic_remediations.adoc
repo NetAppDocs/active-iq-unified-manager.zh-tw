@@ -18,7 +18,7 @@ Unified Manager可使用*修復*按鈕、徹底診斷並提供單一解決方案
 .步驟
 . 若要檢視可從*儀表板*修正的事件、請按一下*儀表板*。
 +
-image::../media/management_actions.png[管理行動]
+image::../media/management_actions.png[UI 螢幕擷取畫面、顯示如何從儀表板檢視及修正事件。]
 
 . 若要解決Unified Manager可以解決的任何問題、請按一下「*修正*」按鈕。若要修正多個物件上存在的問題、請按一下「*全部修復*」按鈕。
 

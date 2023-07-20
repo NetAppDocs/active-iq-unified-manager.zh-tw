@@ -28,7 +28,7 @@ summary: 您可以在「Performance Explorer」頁面上檢視節點和集合體
 標準圖表的色彩會顯示物件處於最佳範圍（黃色）、物件未充分使用（綠色）、以及物件過度使用（紅色）的時間。明細表僅顯示根物件的詳細效能容量詳細資料。
 
 +
-image::../media/headroom_counter_charts.gif[保留空間計數器圖表]
+image::../media/headroom_counter_charts.gif[UI 螢幕擷取畫面、僅顯示根物件的詳細效能容量明細表。]
 
 . 如果您要以全尺寸格式檢視任一圖表、請按一下*縮放檢視*。
 +

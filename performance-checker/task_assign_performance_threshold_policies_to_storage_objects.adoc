@@ -52,14 +52,14 @@ summary: 您可以將使用者定義的效能臨界值原則指派給儲存物�
  a| 
 頁面上的所有物件
  a| 
-。 image:../media/select_dropdown_65_png.gif[""] 下拉式方塊、然後選擇*選取此頁面上的所有物件*。
+。 image:../media/select_dropdown_65_png.gif["選取下拉式圖示"] 下拉式方塊、然後選擇*選取此頁面上的所有物件*。
 
 
 
  a| 
 相同類型的所有物件
  a| 
-。 image:../media/select_dropdown_65_png.gif[""] 下拉式方塊、然後選擇*選取所有物件*。
+。 image:../media/select_dropdown_65_png.gif["選取下拉式圖示"] 下拉式方塊、然後選擇*選取所有物件*。
 
 |===
 +

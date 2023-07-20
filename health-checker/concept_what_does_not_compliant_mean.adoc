@@ -15,9 +15,9 @@ summary: 如果未ONTAP 符合根據《NetApp資訊安全強化指南》（《�
 
 安全卡中的狀態圖示與其法規遵循相關、具有下列意義：
 
-* image:../media/sev_normal_um60.png[""] -參數設定為建議。
-* image:../media/sev_warning_um60.png[""] -參數未依建議進行設定。
-* image:../media/sev_information_um60.gif[""] -叢集上未啟用此功能、或參數未依建議進行設定、但此參數並不影響物件的符合性。
+* image:../media/sev_normal_um60.png["正常綠色勾號圖示"] -參數設定為建議。
+* image:../media/sev_warning_um60.png["警告圖示"] -參數未依建議進行設定。
+* image:../media/sev_information_um60.gif["資訊圖示"] -叢集上未啟用此功能、或參數未依建議進行設定、但此參數並不影響物件的符合性。
 
 
 請注意、磁碟區加密狀態並不會影響叢集或SVM是否符合法規要求。

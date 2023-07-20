@@ -61,6 +61,6 @@ summary: 您可以篩選「物件庫存管理效能」頁面中的資料、以�
 
 下圖顯示篩選面板包含三個篩選器。當篩選器數量少於最多四個時、便會顯示「+新增篩選器*」按鈕。
 
-image::../media/opm_filtering_panel_draft_3.gif[OPM篩選面板草稿3.]
+image::../media/opm_filtering_panel_draft_3.gif[UI 螢幕擷取畫面、顯示包含三個篩選器的篩選面板。]
 
 按一下「*套用篩選器*」之後、「篩選」面板會關閉、套用您的篩選器、並顯示套用的篩選器數量（image:../media/opm_filters_applied.gif[""]）。

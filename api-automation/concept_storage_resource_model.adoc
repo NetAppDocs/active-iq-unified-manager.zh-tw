@@ -28,4 +28,4 @@ summary: 在整個過程中、可將物件儲存資源ONTAP 大致分為實體�
 
 下圖顯示雙節點叢集中的儲存資源：
 
-image::../media/storage_resource_model.gif[儲存資源模式]
+image::../media/storage_resource_model.gif[顯示 2 節點叢集中儲存資源的 UI 螢幕擷取畫面。]

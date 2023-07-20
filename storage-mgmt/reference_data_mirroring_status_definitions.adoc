@@ -22,7 +22,7 @@ summary: 支援各種組態、可在整個站台無法使用時、提供資料�
  a| 
 在支援不支援的組態中、叢集之間的資料鏡射MetroCluster 是正常現象。
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["MetroCluster 連線最佳化圖示"]
 
 
 
@@ -33,10 +33,10 @@ image:../media/metrocluster_connectivity_optimal.gif[""]
  a| 
 切換時發生錯誤：
 
-image::../media/metrocluster_connectivity_down.gif[停止連線MetroCluster]
+image::../media/metrocluster_connectivity_down.gif[MetroCluster 連線中斷圖示]
 
 切換成功：
 
-image::../media/metrocluster_connectivity_failover.gif[連線容錯移轉MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[MetroCluster 連線容錯移轉圖示]
 
 |===

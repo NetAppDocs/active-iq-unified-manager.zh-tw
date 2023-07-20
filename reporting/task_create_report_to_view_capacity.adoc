@@ -24,7 +24,7 @@ summary: 您可以使用加總總計和叢集式直條圖格式、建立報告�
 . 在左導覽窗格中、按一下「*儲存設備*>* Aggregate *」。
 . 選擇*報告*>*下載Excel *。
 +
-image::../media/download_excel_menu.png[下載Excel功能表]
+image::../media/download_excel_menu.png[顯示如何從報告下載 Excel 的 UI 螢幕擷取畫面。]
 
 +
 視瀏覽器而定、您可能需要按一下*確定*來儲存檔案。
@@ -53,7 +53,7 @@ image::../media/download_excel_menu.png[下載Excel功能表]
 
 
 
-image::../media/capacitysums.png[容量和]
+image::../media/capacitysums.png[資料工作表的 UI 螢幕擷取畫面、根據目前資料顯示總容量。]
 
 . 在資料表上、選取*資料總容量（GB）*和*已提交容量（GB）*欄。
 . 從*插入*功能表中選取*建議的圖表*、然後選取*叢集式直條*圖表。
@@ -61,7 +61,7 @@ image::../media/capacitysums.png[容量和]
 . 您可以使用*設計*和*格式*功能表來自訂圖表的外觀。
 . 如果滿意、請將檔案與變更一起儲存。請勿變更檔案名稱或位置。
 +
-image::../media/cluster_column_chart_2.png[叢集直條圖2.]
+image::../media/cluster_column_chart_2.png[圖表的 UI 螢幕擷取畫面、顯示總資料和已認可容量。]
 
 . 在Unified Manager中、選取* Reports*>*上傳Excel *。
 +
@@ -77,7 +77,7 @@ image::../media/cluster_column_chart_2.png[叢集直條圖2.]
 「*報告*>*上傳Excel *」功能表項目旁邊會出現核取符號。
 
 +
-image::../media/upload_excel.png[上傳Excel]
+image::../media/upload_excel.png[顯示如何將 Excel 上傳至報告的 UI 螢幕擷取畫面。]
 
 . 按一下*排程報告*。
 . 按一下「*新增排程*」將新列新增至「報告排程」頁面、以便定義新報告的排程特性。

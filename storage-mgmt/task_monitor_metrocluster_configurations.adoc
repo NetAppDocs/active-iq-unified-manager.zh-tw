@@ -49,7 +49,7 @@ image::../media/opm_um_mcc_connectivity_tab_png.gif[Unified Manager MetroCluster
 
 
 
-image::../media/node_switch_connectivity.gif[節點交換器連線能力]
+image::../media/node_switch_connectivity.gif[節點交換器連線圖示]
 
 如果將指標移到圖示上、您可以檢視所產生事件的詳細資訊。
 
@@ -86,7 +86,7 @@ NOTE: 報告下列狀態：critical（嚴重）（image:sev_critical_um60.png[""
 在下圖中、您可以看到來源叢集與目的地叢集之間的站台間連線無法使用、而且未設定它們之間的「資訊管理器」。
 
 +
-image:mcc-ip-conn-status.png[""]
+image:mcc-ip-conn-status.png["顯示來源站台和鏡射站台拓撲以及 Mediator 的 UI 螢幕擷取畫面。"]
 
 
 

@@ -23,7 +23,7 @@ summary: 若要使用Unified Manager、您必須先設定初始設定選項、�
 
 僅當您第一次存取Web UI時、才會顯示「《程式碼統一化管理程式入門」頁面。Active IQ以下頁面來自VMware的安裝。
 
-image::../media/first_experience_wizard.JPG[首次體驗精靈]
+image::../media/first_experience_wizard.JPG[UI 螢幕擷取畫面、顯示 VMware 上安裝的頁面。]
 
 如果您想要稍後變更這些選項、可以從Unified Manager左側導覽窗格的「一般」選項中選取您的選項。請注意、NTP設定僅適用於VMware安裝、稍後可使用Unified Manager維護主控台進行變更。
 

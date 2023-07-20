@@ -25,4 +25,4 @@ summary: 您可以監控Unified Manager所管理之任何叢集中所有物件�
 
 您應該調查這些磁碟區、看看是否應該套用QoS原則或效能服務層級原則、或是變更原則設定、以便這些磁碟區不會在叢集上使用如此大的IOPS百分比。
 
-image::../media/monitor_cluster_object.png[監控叢集物件]
+image::../media/monitor_cluster_object.png[UI 螢幕擷取畫面顯示許多可能的叢集物件管理範例。]

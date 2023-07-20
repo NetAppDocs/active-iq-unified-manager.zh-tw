@@ -15,7 +15,7 @@ summary: 由於可指派給其他使用者進行解決、且其可用狀態與�
 
 下圖顯示您必須採取的行動（以綠色顯示）、以及Unified Manager在解決Active IQ 從「E地」平台產生的事件時所採取的行動（以黑色顯示）。
 
-image::../media/aiq_and_um_event_resolution.png[aiq與um事件解決方案]
+image::../media/aiq_and_um_event_resolution.png[UI 螢幕擷取畫面、顯示您必須採取的行動、以及 Unified Manager 在解決事件時所採取的行動。]
 
 執行手動解決方案時、您必須登入System Manager或ONTAP 使用指令行介面來修正問題。只有在叢集於AutoSupport 午夜產生新的功能驗證訊息之後、您才能驗證問題。
 

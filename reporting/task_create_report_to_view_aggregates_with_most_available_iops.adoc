@@ -28,7 +28,7 @@ summary: 此報告顯示哪些集合體的每個集合體類型的可用IOPS最�
 . 命名並儲存自訂檢視「每個Aggr.的可用IOPS」
 . 選擇*報告*>*下載Excel *。
 +
-image::../media/download_excel_menu.png[下載Excel功能表]
+image::../media/download_excel_menu.png[顯示如何從報告下載 Excel 的 UI 螢幕擷取畫面。]
 
 +
 視瀏覽器而定、您可能需要按一下*確定*來儲存檔案。
@@ -62,7 +62,7 @@ image::../media/download_excel_menu.png[下載Excel功能表]
 「*報告*>*上傳Excel *」功能表項目旁邊會出現核取符號。
 
 +
-image::../media/upload_excel.png[上傳Excel]
+image::../media/upload_excel.png[顯示如何將 Excel 上傳至報告的 UI 螢幕擷取畫面。]
 
 . 按一下*排程報告*。
 . 按一下「*新增排程*」將新列新增至「報告排程」頁面、以便定義新報告的排程特性。
