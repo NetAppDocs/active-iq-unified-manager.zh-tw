@@ -17,13 +17,17 @@ summary: 您可以在安裝Unified Manager的Windows伺服器上升級至新版O
 
 您必須擁有安裝Unified Manager的系統的Windows管理員權限。
 
-您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.14升級至OpenJD11.0.16、但無法直接從OpenJD11更新至OpenJD12。
+您可以在發行系列中更新OpenJDK版本。例如、您可以從 OpenJDK 11.0.16 升級至 OpenJDK 11.0.18 、但無法直接從 OpenJDK 11 更新至 OpenJDK 12 。
 
 .步驟
 . 以管理使用者身分登入Unified Manager主機。
 . 從OpenJDK網站下載適當版本的OpenJDK（64位元）至目標系統。
 +
-例如、從下載「openjdk-11_windows-x64_bin.zip」 http://jdk.java.net/11/`[]。
+例如下載 `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`。
+
++
+
+NOTE:  需要 Oracle 帳戶才能下載檔案。如果您沒有 Oracle 帳戶、請前往 link:https://login.oracle.com/mysso/signon.jsp?request_id=007["Oracle 帳戶登入"] 建立頁面。
 
 . 使用Windows服務主控台停止下列Unified Manager服務：
 +
@@ -32,7 +36,7 @@ summary: 您可以在安裝Unified Manager的Windows伺服器上升級至新版O
 
 
 . 展開「壓縮」檔案。
-. 從產生的目錄和檔案複製 `jdk` 目錄（例如、 `jdk-11.0.16` 移至安裝Java的位置。範例： `C:\Program Files\NetApp\JDK\`
+. 從產生的目錄和檔案複製 `jdk` 目錄（例如、 `jdk-11.0.18` 移至安裝Java的位置。範例： `C:\Program Files\NetApp\JDK\`
 . 使用Windows服務主控台啟動Unified Manager服務：
 +
 ** NetApp Active IQ 產品資料管理伺服器服務（Oncommandsvc）

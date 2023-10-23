@@ -46,7 +46,8 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 +
 [NOTE]
 ====
-*** 如果您從Web UI新增叢集、憑證型驗證會自動啟用。如果您從維護主控台新增叢集、則不會啟用憑證型驗證。
+*** 您可以從 Web UI 新增叢集、並自動啟用憑證型驗證。
+*** 您可以透過 Unified Manager CLI 新增叢集、預設不會啟用憑證型驗證。如果您使用 Unified Manager CLI 新增叢集、則必須使用 Unified Manager UI 來編輯叢集。您可以看到 link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["支援的Unified Manager CLI命令"] 使用 Unified Manager CLI 新增叢集。
 *** 如果叢集已啟用憑證型驗證、且您從伺服器備份Unified Manager、並還原至另一個變更主機名稱或IP位址的Unified Manager伺服器、則叢集監控可能會失敗。若要避免故障、請編輯並儲存叢集詳細資料。如需編輯叢集詳細資料的詳細資訊、請參閱 link:../storage-mgmt/task_edit_clusters.html["編輯叢集"]。
 
 
