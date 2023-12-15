@@ -15,6 +15,9 @@ summary: 石墨是一種開放式軟體工具、可用來從電腦系統收集�
 
 NetApp不會測試或驗證特定版本的Graphite或其他協力廠商工具。
 
+
+NOTE: Graphite 伺服器無法從 Unified Manager 接收 Volume 的效能資料。
+
 根據安裝說明安裝Graphite之後、您需要進行下列變更、以支援Unified Manager的統計資料傳輸：
 
 * 在「/opt/sitlet/conf/carb.conf」檔案中、每分鐘可在Graphite伺服器上建立的檔案數量上限必須設為_200_（「* MAX_Create_PER_minute = 200*」）。
