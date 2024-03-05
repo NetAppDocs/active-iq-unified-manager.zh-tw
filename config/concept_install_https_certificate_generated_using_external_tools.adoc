@@ -117,3 +117,5 @@ Proc-Type: 4,ENCRYPTED
 <content here>
 -----END EC PRIVATE KEY-----
 ----
+如果憑證安裝失敗、請參閱知識庫（ KB ）文章：
+https://kb.netapp.com/mgmt/AIQUM/IQUM_fails_to_install_externally_generated_certificate["ActiveIQ Unified Manager 無法安裝外部產生的憑證"^]

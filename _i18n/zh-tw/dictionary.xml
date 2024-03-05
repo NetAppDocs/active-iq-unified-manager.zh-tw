@@ -10267,7 +10267,6 @@
   <block id="2b729d5899d6017924af0e5ac408f85a" category="summary">您可以建立規則、根據與叢集、儲存虛擬機器（SVM）、磁碟區、qtree、使用者或使用者群組相關的使用者配額來指定電子郵件地址。當配額外洩時、系統會將通知傳送至指定的電子郵件地址。</block>
   <block id="349c88c5a697610f278935f97ac10559" category="doc">建立規則以產生電子郵件地址</block>
   <block id="0923e152db77e630e8dec71521fd79cd" category="list-text">您必須檢閱「產生使用者和群組配額電子郵件地址的規則」頁面上的準則。</block>
-  <block id="77c747def3358d0c2161699063140bb0" category="paragraph">您必須定義配額電子郵件地址的規則、並依照您要執行的順序輸入。例如、如果您想要使用電子郵件地址qtree1@xyz.com接收有關qtre1配額外洩的通知、並針對所有其他qtree使用電子郵件地址admin@xyz.com、則必須依照下列順序列出規則：</block>
   <block id="a67a9563dcd763610c4e441169e0eec5" category="list-text">在左側導覽窗格中、按一下*一般*&gt;*配額電子郵件規則*。</block>
   <block id="bfad62e64c3231424b3f7fc0e5a112e6" category="list-text">根據您的條件輸入規則。</block>
   <block id="31db133a4697145ad4f5a42154386cfd" category="list-text">按一下*驗證*以驗證規則的語法。</block>
@@ -10877,50 +10876,6 @@
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere的快速入門安裝</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">Linux快速入門安裝</block>
   <block id="b107f1742bfa32d7247ebf557550e2b5" category="sidebar">Windows快速入門安裝</block>
-  <block id="c50bf6bfca8b1d41d2fe74e1b66c927d" category="sidebar">產品總覽</block>
-  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">版本資訊</block>
-  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">安裝Configure Unified Manager</block>
-  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">在VMware vSphere系統上安裝升級</block>
-  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">在Linux系統上安裝升級</block>
-  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">在Windows系統上安裝升級</block>
-  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">設定Unified Manager</block>
-  <block id="65c111a1825897e67ec3ff98b2dcf4e3" category="sidebar">管理功能設定</block>
-  <block id="9e6b6e7742d96ad773931b8a78e9e6f3" category="sidebar">管理角色型存取</block>
-  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">效能監控</block>
-  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">效能臨界值</block>
-  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">叢集效能</block>
-  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS原則群組</block>
-  <block id="22282f824617dbbebc3002bf291c3117" category="sidebar">工作負載分析器</block>
-  <block id="2628e4e79f85236ae4cc4df30ef76dac" category="sidebar">工作負載效能</block>
-  <block id="32c3f8877c5ea716e98d2b29e543f128" category="sidebar">管理效能</block>
-  <block id="8af3b43a5a64432d35c94880633df02f" category="sidebar">儲存與物件健全狀況監控</block>
-  <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">虛擬化基礎架構</block>
-  <block id="8b03ab143dde9355a51949d8bb9ca578" category="sidebar">內部組態MetroCluster</block>
-  <block id="138596885ef6a770335b0f958ce9d084" category="sidebar">叢集與叢集物件健全狀況</block>
-  <block id="90d18dd78a87b153d16c1819d4028f7c" category="sidebar">健全狀況臨界值</block>
-  <block id="c1a5720865a9f4d704047c6a3994bba0" category="sidebar">傳送AutoSupport 不支援的訊息和套裝組合</block>
-  <block id="9c8007a675a79a50e15e5f8b518142de" category="sidebar">資料保護監控</block>
-  <block id="bf54949621b6403edf2732fa98614df6" category="sidebar">設定保護關係</block>
-  <block id="70979e8a3c0bd0556d9e0f41562315a3" category="sidebar">執行容錯移轉和容錯回復</block>
-  <block id="98e89001f140ad515c45156a86a785b0" category="sidebar">管理保護關係</block>
-  <block id="16e0bb4ae8301e031ad322af6855c3b6" category="sidebar">監控災難恢復關係</block>
-  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="sidebar">產生報告</block>
-  <block id="13f1397303dbc6596a7d0adff2836250" category="sidebar">使用REST API</block>
-  <block id="dcc46af50b01a3518efaa1e97d9a6e06" category="sidebar">存取Unified Manager API</block>
-  <block id="07b466d1e52283f35dd449a812baad89" category="sidebar">管理儲存物件</block>
-  <block id="473d694016cdd75be9080ed64f378b47" category="sidebar">存取ONTAP 功能完善的API</block>
-  <block id="aec64acbfb236d7941c71888ca0e34d4" category="sidebar">一般工作流程</block>
-  <block id="032bb3c77a75d4bae0f58801b4d5326a" category="sidebar">配置儲存設備</block>
-  <block id="dc001e3b0df157471bb2a476834a7982" category="sidebar">事件與警示</block>
-  <block id="2938c7f7e560ed972f8a4f68e80ff834" category="sidebar">儀表板</block>
-  <block id="74b4081b8a74cd9f44a771845c7c885f" category="sidebar">事件工作流程</block>
-  <block id="52b908547ee09cb59aaf164c198a5e2f" category="sidebar">平台活動Active IQ</block>
-  <block id="838d44a8410719f3471f499e2bddcc48" category="sidebar">事件和嚴重性類型</block>
-  <block id="25b95061d817f1cd4aeac25ef4d89f69" category="sidebar">補救事件</block>
-  <block id="62aaa6a933d2ff8ba87b5093233576f7" category="sidebar">自動補救</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
-  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
-  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">在Linux系統上安裝Unified Manager</block>
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">在Windows系統上安裝Unified Manager</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">在VMware vSphere系統上安裝Unified Manager</block>
@@ -11764,7 +11719,6 @@
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">建立報告以檢視幾乎已滿的集合體</block>
   <block id="a800bc3b2ac3625f86ad24d4ae00b6c8" category="list-text">在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：+<block ref="0ebef3d9c59bd558d3f360f5800cf333" prefix=" " category="inline-code"></block></block>
   <block id="d3959f6465e1edec195c856595d76545" category="paragraph">如需詳細資訊、請參閱 <block ref="3817c92b8c868f8dcff11bea431f7255" category="inline-link-macro-rx"></block>。</block>
-  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
   <block id="8ddfb256eb8431a508471cded6714ecf" category="paragraph">儲存在此叢集上所有集合體上的資料實際大小、而不需運用ONTAP 使用NetApp儲存效率技術所節省的成本。這不包括 Snapshot 複本。</block>
   <block id="d2daed7885c81d5fcd9122e25f5a20a9" category="list-text">資料減量</block>
   <block id="77dcd5af6b77edb26e9280a48b0c170c" category="paragraph">顯示不含 Snapshot 複本的比率、以及兩個有效位數、例如 1.8 比 1 。此比率是根據設定的 ONTAP 儲存效率設定而定。</block>
@@ -11792,8 +11746,6 @@
   <block id="82a7176206931de918a75924be730954" category="list-text">在*編輯叢集*對話方塊中、視需要修改值。+ 如果您已修改新增至 Unified Manager 之叢集的詳細資料、您可以根據 ONTAP 版本、檢視相互 TLS 通訊的憑證詳細資料。如需ONTAP 更多關於更新版本的資訊、請參閱 <block ref="9dbbbab565c0407ee80c1daf0485bbe4" category="inline-link-macro-rx"></block>。+您可以按一下「*憑證詳細資料*」來檢視憑證詳細資料。如果憑證已過期、請按一下*重新產生*按鈕、以納入新的憑證。</block>
   <block id="9a13b3deb178bc20318d801250fae975" category="admonition">Unified Manager for VMware ESXi 和 vCenter Server 的支援提供英文和日文兩種版本。</block>
   <block id="b0a22f4d07e712fe64b93c1374ccf739" category="paragraph">隨即顯示 Unified Manager 所管理儲存環境中的所有叢集。叢集清單會依收集狀態嚴重性等級欄位排序。您可以按一下欄標題、依不同欄位排序叢集。</block>
-  <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">監控 MetroCluster 組態</block>
-  <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified Manager 的 API 參考</block>
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
@@ -11949,4 +11901,11 @@
   <block id="275a2c821ec95f125eba6f161f16904e" category="summary">提供 Active IQ Unified Manager 9.14 的新功能、限制和已知問題摘要。</block>
   <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">如需詳細資訊、請參閱<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block>。</block>
   <block id="9f4289041fd7d66e1eddd2b4aadc4764" category="sidebar">Active IQ Unified Manager 9.14 文件</block>
+  <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。由於公司法規、 Linux 系統上可能會安裝 Qualys 等弱點掃描工具。安裝 Unified Manager 之前、您應該先停用弱點掃描程式、以避免安裝失敗。</block>
+  <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager 無法安裝外部產生的憑證</block>
+  <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">如果憑證安裝失敗、請參閱知識庫（ KB ）文章：
+<block ref="2bdca89ea81a55c90daea7f3fd7941fa" category="inline-link-rx"></block></block>
+  <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">您必須定義配額電子郵件地址的規則、並依照您要執行的順序輸入。例如、如果您想要使用電子郵件地址 abc@xyz.com 來接收關於 abc 配額違規的通知、並將電子郵件地址 DL-$group@$domain 用於所有其他群組、則規則必須以下列順序列出：</block>
+  <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">如果（ $user = 'abc' ）則是 abc@xyz.com</block>
+  <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">如果（ $group = * ）、則為 dl-$group@$domain</block>
 </blocks>
