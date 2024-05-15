@@ -3470,7 +3470,6 @@
   <block id="5c370c70723397269b4ad914c34496a7" category="list-text">受保護者</block>
   <block id="15d2dc848def03f15b9f71fac220a033" category="paragraph">顯示所選磁碟區所使用的保護類型。例如、如果某個磁碟區受到一致性群組和SnapMirror磁碟區關係的保護、此欄位會同時顯示SnapMirror和一致性群組。此欄位也提供連結、可將您重新導向至「關係」頁面、以檢視統一化關係狀態。連結僅適用於組成關係。</block>
   <block id="5f37c1cb711ed8c309b0301fb0061e23" category="list-text">一致性群組</block>
-  <block id="a2e58da0c14632bd760681821ca1dcc1" category="paragraph">對於受SnapMirror營運不中斷（SMBC）關係保護的磁碟區、此欄會顯示該磁碟區的一致性群組。</block>
   <block id="b5626a635c1d79df6fc54d9b5833eac2" category="list-text">*觀點*</block>
   <block id="07c17f8fe1079d9e5598e259b13b9010" category="paragraph">顯示所選磁碟區的保護拓撲。此拓撲包含所有與所選磁碟區相關之磁碟區的圖形化呈現。選取的Volume會以深灰框表示、而拓撲中磁碟區之間的線則表示保護關係類型。拓撲中的關係方向會從左到右顯示、每個關係的來源位於左、目的地位於右。</block>
   <block id="de22a966c00bb6c3b2d618284de781eb" category="paragraph">雙粗體行指定非同步鏡射關係、單一粗體行指定非同步Vault關係、雙單行指定非同步MirrorVault關係、粗體行和非粗體行指定同步關係。下表指出同步關係是StrictSync還是Sync。</block>
@@ -9094,14 +9093,9 @@
   <block id="40ceb4457f6dcdce950e523e274f7462" category="list-text">若要檢視一段時間內Volume傳輸趨勢的詳細資訊、請在「View（檢視）」功能表中、選取「Relationationation: Last 1 Month Transfer Status（關聯：上個月傳輸狀態）」檢視。</block>
   <block id="9b58e4524c0292efe948214062ba63bc" category="list-text">若要檢視每日Volume Transfer活動的詳細資訊、請在「View（檢視）」功能表中、選取「Relationationation: Last 1 Month Transfer Rate（關聯：上個月傳輸率）」檢視。</block>
   <block id="ec7727a95431d0d439d898d730f48ea6" category="paragraph">Volume傳輸檢視僅顯示非同步關係中磁碟區的資訊、不會顯示同步關係中的磁碟區。</block>
-  <block id="8c748cd9318ed681edc4186889ac9837" category="summary">統一檢視受SMBC保護的LUN。</block>
   <block id="1ffd4c3f18af104630b0326e8c2dc2c9" category="doc">監控一致性群組關係中的LUN</block>
-  <block id="90d0141ba8dfef63f3b408f5a1db3980" category="paragraph">如果ONTAP 您的支援SnapMirror營運不中斷（SM-BC）以LUN保護應用程式、您可以在Active IQ Unified Manager 支援LUN的環境中檢視及監控這些LUN。</block>
-  <block id="7beb94f6fbaef8cd847dcc4e98562c31" category="paragraph">在SAN環境中進行容錯移轉時、SM至BC可確保零恢復時間目標（RTO）。在支援SM至BC的典型部署中、磁碟區上的LUN受到一致性群組關係的保護。</block>
   <block id="9341b9e1536cc8f4c3652c7e91c736d7" category="paragraph">這些主要和次要LUN是複合LUN、或是具有相同UUID和序號的複本LUN配對。I/O作業（讀取和寫入）會在這些複合LUN上的來源和目的地站台上進行多重複工作、以確保透明度。</block>
   <block id="f1c21bacefc03e4bd3d91418d06734d5" category="paragraph">若要檢視複合LUN、應在Unified Manager上新增及探索具有LUN的主要和次要叢集、這些LUN是一致性群組關係的一部分。僅支援iSCSI和FCP LUN。</block>
-  <block id="304235bddd1bfe240019774dacdbd71e" category="inline-link-macro">適用於SM - BC的9文件ONTAP</block>
-  <block id="e6426dd2e05e7210d50c422898f18af7" category="paragraph">如需SMBC的相關資訊、請參閱 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
   <block id="ad5b7872fd9aa53772e0572d135d92ac" category="paragraph">若要檢視環境中的複合LUN、請執行下列步驟：</block>
   <block id="c06b3a2fbcb65d98410db9f3d028d975" category="list-text">在左導覽窗格中、按一下* Storage *&gt;* LUN*。</block>
   <block id="6a58ee8a26309acf233c906850cda0c6" category="list-text">從「檢視」功能表中、選取「*關係*」&gt;「*所有LUN*」。</block>
@@ -9277,7 +9271,6 @@
   <block id="c213b1b06e5103ef5dd638030dbc1e21" category="paragraph">新關係會顯示在Volume / Health詳細資料頁面的拓撲檢視中。</block>
   <block id="a6746425c25768de3f5829c152822679" category="summary">您可以從來源磁碟區建立扇出、或從現有關係的目的地磁碟區建立串聯、藉此延伸現有關係的保護範圍。當您需要將資料從一個站台複製到多個站台、或是建立更多備份來提供額外的保護時、可以這麼做。</block>
   <block id="eccb90afe26b65475a488e0727572002" category="doc">建立串聯或展開關係、將保護範圍延伸到現有的保護關係</block>
-  <block id="01fd56d56b8b61ed28591ffda8aca61b" category="paragraph">您可以使用一致性群組將保護延伸到磁碟區、一致性群組是一個容器、可容納多個磁碟區、以便將所有磁碟區當作一個實體來管理。您可以在Unified Manager的「關係」頁面中檢視SnapMirror業務持續性（SMBC）一致性群組、以及同步一致性群組關係。</block>
   <block id="fbe2671f1c071a92df1476b2d7fc9056" category="list-text">按一下「*保護*&gt;*關係*」。或者、您也可以從Volume詳細資料頁面檢視關係。</block>
   <block id="2193e4925531a683d9994daa17151105" category="list-text">從「* Volume Relationationation*」頁面中、選取您要延伸保護的SnapMirror關係。</block>
   <block id="e0668805326fcf173c6ad9cc1e3beac1" category="list-text">按一下動作列上的*延伸保護*。</block>
@@ -9759,7 +9752,6 @@
   <block id="37b62c5243b3ac0c86b34681cb1f66d3" category="paragraph">顯示SnapMirror關係的來源叢集名稱。</block>
   <block id="7f835af0acf6578c40118036c326b1fd" category="list-text">*來源節點*</block>
   <block id="c82a77c5e0228ddadab3bd5aa89bba3e" category="paragraph">顯示磁碟區SnapMirror關係的來源節點名稱連結名稱、並在物件為儲存VM或一致性群組時顯示SnapMirror關係節點數連結。</block>
-  <block id="2f1951fc98d71ae4db2a6daf6cfd535b" category="paragraph">在自訂檢視中、當您按一下節點名稱連結時、即可檢視並延伸屬於SM - BC關係之一致性群組磁碟區的儲存物件保護。</block>
   <block id="b7b60d8edfb33c514a3b2bdef700d1e7" category="paragraph">當您按一下節點數連結時、會帶您前往節點頁面、其中包含與該關係相關聯的個別節點。當節點數為0時、不會顯示任何值、因為沒有與關係相關的節點。</block>
   <block id="b50bbbbd2ce1ff5ad4dd7cb67add6f1d" category="list-text">*目的地節點*</block>
   <block id="99678ea767aff0838702576fb67a7b91" category="paragraph">顯示磁碟區SnapMirror關係的目的地節點名稱連結名稱、並在物件為儲存VM或一致性群組時顯示SnapMirror關係節點數連結。</block>
@@ -9836,12 +9828,7 @@
   <block id="177fc6042efaa10f5da934e8c746e9ba" category="section-title">SnapMirror同步保護與一般同步</block>
   <block id="9eb6583bd652338b8737991ca4e97e19" category="paragraph">SnapMirror同步保護搭配「鏡面」同步、並不需要主磁碟區和次磁碟區一律是彼此的真實複本、因此可確保主磁碟區的可用度。如果在嘗試將資料寫入次要Volume時發生複寫失敗、則主要和次要磁碟區會不同步、而用戶端I/O會繼續寫入主要磁碟區。</block>
   <block id="796715bf5d06ffb08971971b344b2f98" category="paragraph">從「健全狀況：所有磁碟區」檢視或「Volume /健全狀況」詳細資料頁面監控同步保護關係時、無法使用「還原」按鈕和「關係」操作按鈕。</block>
-  <block id="6456c750ab46f84e25768e136ae08a82" category="section-title">SnapMirror同步營運不中斷</block>
-  <block id="584350b61ad29e1e1d778af4083e84be" category="paragraph">SnapMirror Business Continuity（SM-BC）功能可搭配ONTAP 使用支援更新版本的版本、您可以使用它來保護LUN的應用程式、讓應用程式能夠透明地容錯移轉、確保災難發生時的營運不中斷。</block>
-  <block id="ae29cba1567ab4b1a3f0d7c52960df9d" category="paragraph">它可讓您探索及監控Unified Manager叢集和儲存虛擬機器上可用的一致性群組（CGS）同步SnapMirror關係。SM - BC支援AFF 在諸如ASA 主叢集和二線叢集AFF 的所有SAN Array（簡稱「支援」）叢集上、其中主叢集可以是「支援」或ASA 「支援」。SMBC使用iSCSI或FCP LUN來保護應用程式。</block>
-  <block id="74560fead831fee65bfebe70198203e9" category="paragraph">當您檢視受SM-BC關係保護的磁碟區和LUN時、您可以取得統一檢視來保護關係、磁碟區庫存中的一致性群組、檢視保護拓撲以維持一致性群組關係、檢視歷史資料以維持一致性群組關係、最長可達一年。您也可以下載報告。您也可以檢視一致性群組關係的摘要、搜尋一致性群組關係的支援、以及取得一致性群組所保護之磁碟區的相關資訊。</block>
   <block id="4c7cb2eaa5d8a4da948d7b43d793ef6d" category="paragraph">在「關係」頁面上、您也可以排序、篩選及延伸來源與目的地儲存物件的保護、以及受到一致性群組保護的物件關係。</block>
-  <block id="2eaa1a82c95cbdf0e4d38d70a85a96d7" category="paragraph">若要深入瞭解SnapMirror同步營運持續性、請參閱 <block ref="c3c54812d1152ab82d144dc87f0ce5db" category="inline-link-macro-rx"></block>。</block>
   <block id="9cd469e9d4dad57b0e51649e522b4289" category="summary">利用此功能、您可以建立保護關係、監控及疑難排解託管叢集上的SnapMirror和SnapMirror關係、以及在資料遭到覆寫或遺失時還原資料。Active IQ Unified Manager SnapVault</block>
   <block id="2bfff2cce9150d243021a4616eaab12a" category="doc">管理及監控保護關係</block>
   <block id="9604e7464c99868fc92ca55677ed64e9" category="paragraph">SnapMirror作業有兩種複寫類型：</block>
@@ -11029,7 +11016,6 @@
   <block id="a6bacc83dfdb1c9689535a09836f8550" category="paragraph">無法從叢集連線到物件集（snapmirmiraporMedatorUnreachable）ONTAP</block>
   <block id="cf7f72fb2e3e5a9df104130ba81c194e" category="paragraph">中介者</block>
   <block id="da953faa02ca184ebcadd69694229ca0" category="paragraph">無法從叢集存取此程式（snapmirmiraporMedatorisconfigured）ONTAP</block>
-  <block id="dc7d8942cdb2f367c68f30d022efa7f0" category="paragraph">已重新建立支援者連線功能、並已重新同步、準備好用於SMBC（snapmiraporMedatorInQuorum）ONTAP</block>
   <block id="8002c010879d451de4416c97251e7e29" category="summary">Storage VM關聯頁面可讓您檢視來源與目的地儲存VM之間的現有儲存VM關聯。</block>
   <block id="b31a8b073692fe4fc7d0416d77032d55" category="doc">瞭解儲存VM關聯</block>
   <block id="8210ed29bdbce4c1e73c2d1c02b5282d" category="paragraph">儲存虛擬機器（儲存VM）關聯是從來源儲存VM到目的地儲存VM的對應、合作夥伴應用程式會使用這些對應來選擇資源和次要Volume資源配置。</block>
@@ -11053,7 +11039,6 @@
   <block id="b518d96f65df8e3a8c5bd9b294314ee7" category="paragraph">根據預設、當您存取「關係」頁面時、所顯示的報告會同時包含磁碟區和儲存VM的最上層保護關係。頁面頂端的控制項可讓您選取特定檢視、執行搜尋以尋找特定物件、建立及套用篩選條件、以縮小顯示資料的清單、新增/移除/重新排序頁面上的欄、以及將頁面上的資料匯出至.csv,.pdf、 或是.xlsx.自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。根據預設、當您選取*關係*功能表時、所顯示的報告會同時包含資料中心中磁碟區和儲存VM的保護關係。您可以使用*篩選器*選項、只檢視所選的儲存系統、例如僅磁碟區或僅儲存VM。相同的報告會顯示在「Storage（儲存）」頁面中、僅適用於選取的儲存實體。若要檢視磁碟區或儲存VM關係、您可以存取「*儲存設備*&gt;*磁碟區*&gt;*關係：所有關係*」頁面、或存取「*保護*&gt;*關係*&gt;*關係： All Relationationationation*、並使用* Filter *中的* Relationship Object Type *（*關係物件類型*）選項、僅篩選出磁碟區或儲存VM資料。</block>
   <block id="fcd4ecf1cf7bb8267ec59d4f89b505b1" category="list-text">*協調員*</block>
   <block id="496eb323c2ee5c388095071435b45af0" category="paragraph">顯示中介器狀態。</block>
-  <block id="6b186591bdb6b54c5178194cd438daf3" category="paragraph">如果叢集不支援SnapMirror營運不中斷。</block>
   <block id="6470ad126b37899e643afe35ff51f8fd" category="paragraph">如果未設定、或是已設定、但只新增目的地叢集、且未在Unified Manager中新增來源叢集。</block>
   <block id="26eeb2415026ecc2a99b19ae10c4e13e" category="list-text">中介IP位址</block>
   <block id="a5a42e7a9482f606a51f46baffc94087" category="paragraph">如果已設定、則來源叢集和目的地叢集都會新增至Unified Manager。</block>
@@ -11072,7 +11057,6 @@
   <block id="48815cc485f34516122d402c7691bcbc" category="section-title">檢視SnapMirror關係的保護狀態</block>
   <block id="eebf9b70421de9e6316f48de3e2cef0b" category="list-text">發生恢復點目標（RPO）延遲的SnapMirror關係總數、取決於延遲狀態。</block>
   <block id="2cd111e77d7b5983398bdaaaee149c7b" category="list-text">每種SnapMirror原則所保護的磁碟區數目。</block>
-  <block id="5c421974ea0511d51906133dd8756205" category="list-text">SnapMirror關係類型所保護的關係數、例如非同步鏡射、非同步Vault、非同步MirrorVault、StricxtSync、SnapMirror營運持續性（SMBC）一致性群組和同步。</block>
   <block id="43e5aa2d7191d2fad1b5eb6a2779c47c" category="list-text">健全與不健全關係的數量。</block>
   <block id="2fb2c7d03a760408a3f8150c23df4876" category="list-text">磁碟區關係數的中斷。您可以依RPO延遲時間和狀態切換圖表。</block>
   <block id="63a0f94f271c2db3ea63bb2e1407963f" category="section-title">SnapMirror關係請注意</block>
@@ -11908,4 +11892,35 @@
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">您必須定義配額電子郵件地址的規則、並依照您要執行的順序輸入。例如、如果您想要使用電子郵件地址 abc@xyz.com 來接收關於 abc 配額違規的通知、並將電子郵件地址 DL-$group@$domain 用於所有其他群組、則規則必須以下列順序列出：</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">如果（ $user = 'abc' ）則是 abc@xyz.com</block>
   <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">如果（ $group = * ）、則為 dl-$group@$domain</block>
+  <block id="4057b81effceded4a0d56ba83fa2bc4c" category="paragraph">AMQP QPID 代理程式</block>
+  <block id="09cc1306955a7d5b2ed367969d4e9d57" category="paragraph">TCP/IP</block>
+  <block id="3fd4f2a86b42ebe6b3b976affb0cc116" category="paragraph">56072</block>
+  <block id="a57499f599c00f53ae0461f15154ab23" category="paragraph">用於內部訊息通訊。</block>
+  <block id="b8ac2ebe76541bcac8e63005436a105a" category="paragraph">WebSocket over TCP</block>
+  <block id="b86f29c888784d2245f887b509b5dd32" category="paragraph">56080</block>
+  <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。</block>
+  <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443</block>
+  <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。 此連接埠上的通訊支援 TLS 或 SSL 提供的加密。</block>
+  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">9000</block>
+  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">用於在此頁面上啟動 AMQP 管理 UI 介面。</block>
+  <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。</block>
+  <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">弱點掃描工具（例如 Qualys ）在內部（ Unified Manager 和弱點掃描工具安裝在同一部 VM 上）或外部掃描虛擬機器（ VM ）時、可能會導致 CPU 使用率偏高 （ Unified Manager 和弱點掃描程式安裝在兩部不同的伺服器上、弱點掃描程式會掃描安裝 Unified Manager 的 VM ）。此問題通常會導致 VM 無回應、並影響 Unified Manager 服務。因此、 NetApp 建議在安裝 Unified Manager 的 VM 中停用弱點掃描程式。如果無法停用掃描器、請在非上班時間掃描 VM 、並在掃描完成後重新啟動服務。</block>
+  <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">對於受 SnapMirror 主動同步關係保護的磁碟區、此欄會顯示磁碟區的一致性群組。</block>
+  <block id="800a82ff69e2f8716a21195c4646947e" category="paragraph">ONTAP Mediator 連線功能已重新建立、並已重新同步並準備好進行 SnapMirror 主動同步（ Snapmirror MediatorInQuorum ）</block>
+  <block id="c0b79db5f258f0c991a383cbdbf001dd" category="section-title">SnapMirror 主動同步</block>
+  <block id="aa7fa8d22937f0168ab9aa9ac2f11f1e" category="paragraph">SnapMirror 主動式同步功能可搭配 ONTAP 9.8 及更新版本使用、您可以使用它來保護具有 LUN 的應用程式、讓應用程式能夠以透明方式容錯移轉、確保在發生災難時營運不中斷。</block>
+  <block id="aa3834427e0a44621b2f97d130d97f0e" category="paragraph">它可讓您探索及監控Unified Manager叢集和儲存虛擬機器上可用的一致性群組（CGS）同步SnapMirror關係。AFF 叢集或所有 SAN 陣列（ ASA ）叢集均支援 SnapMirror 主動同步、其中主要和次要叢集可以是 AFF 或 ASA 。SnapMirror 主動式同步功能可保護應用程式與 iSCSI 或 FCP LUN 。</block>
+  <block id="43e6f02aa3159562e8d2c863b942c7ac" category="paragraph">當您檢視受 SnapMirror 主動式同步關係保護的磁碟區和 LUN 時、您可以取得統一的檢視畫面、以瞭解保護關係、磁碟區庫存中的一致性群組、檢視一致性群組關係的保護拓撲、檢視最長一年的一致性群組關係歷史資料。您也可以下載報告。您也可以檢視一致性群組關係的摘要、搜尋一致性群組關係的支援、以及取得一致性群組所保護之磁碟區的相關資訊。</block>
+  <block id="74295afe091080605ebd13a7c5b13c16" category="inline-link-macro">ONTAP 9 SnapMirror 主動式同步文件（前身為 SM-BC ）</block>
+  <block id="4712d933ee439a4c6393014f4dabfd66" category="paragraph">若要深入瞭解 SnapMirror 主動式同步、請參閱 <block ref="26496dd12886056779393da869786020" category="inline-link-macro-rx"></block>。</block>
+  <block id="c40044b752c941f30f770841b2eec4fe" category="list-text">受 SnapMirror 關係類型保護的關係數、例如 Asynous Mirror 、 Asynous Vault 、 Asynous MirrorVault 、 StricxtSync 、 SnapMirror 主動式同步一致性群組和 Sync 。</block>
+  <block id="66d02d4b9fa89d81026beec1263c3e7c" category="paragraph">您可以使用一致性群組將保護延伸到磁碟區、一致性群組是一個容器、可容納多個磁碟區、以便將所有磁碟區當作一個實體來管理。您可以在 Unified Manager 的「關係」頁面中檢視 SnapMirror 主動式同步一致性群組和同步一致性群組關係。</block>
+  <block id="86e256d427f11c48ba32cc55c5e5ebe5" category="summary">統一檢視受 SnapMirror 主動同步保護的 LUN 。</block>
+  <block id="6e91d63ec0b35d3854ade90b706d6b2e" category="paragraph">如果您的 ONTAP 環境支援 SnapMirror 主動式同步至
+使用 LUN 保護應用程式、您可以在 Active IQ Unified Manager 上檢視和監控這些 LUN 。</block>
+  <block id="ef72865211ff0fce6e6d962bbeb49866" category="paragraph">SnapMirror 主動同步可確保在 SAN 環境中進行容錯移轉期間、零恢復時間目標（ RTO ）。在支援 SnapMirror 主動同步的典型部署中、磁碟區上的 LUN 會受到一致性群組關係的保護。</block>
+  <block id="daf278f1f618b542e37f15b551577ad6" category="inline-link-macro">ONTAP 9 SnapMirror 主動式同步文件（前身為 SM-BC ）</block>
+  <block id="2e112a6ed41642ec6cb0dbac26f29548" category="paragraph">如需 SnapMirror 主動同步的相關資訊、請參閱 <block ref="e7cb3673e0f365a4cb1a8a44c94d6d2b" category="inline-link-macro-rx"></block>。</block>
+  <block id="fcec3d8aa2186fbec2ebbc509e88c291" category="paragraph">如果叢集不支援 SnapMirror 主動同步。</block>
+  <block id="f9c3a8b68e3ce1dccddf9f51467e0ed0" category="paragraph">在自訂檢視中、當您按一下節點名稱連結時、您可以檢視及延伸儲存物件的保護、這些一致性群組的磁碟區屬於 SnapMirror 主動式同步關係。</block>
 </blocks>

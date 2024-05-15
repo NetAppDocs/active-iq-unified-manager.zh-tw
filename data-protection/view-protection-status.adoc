@@ -72,7 +72,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 * 針對SnapMirror關係所引發的個別事件、包括過去24小時所引發的事件
 * 每種SnapMirror原則所保護的磁碟區數目。
-* SnapMirror關係類型所保護的關係數、例如非同步鏡射、非同步Vault、非同步MirrorVault、StricxtSync、SnapMirror營運持續性（SMBC）一致性群組和同步。
+* 受 SnapMirror 關係類型保護的關係數、例如 Asynous Mirror 、 Asynous Vault 、 Asynous MirrorVault 、 StricxtSync 、 SnapMirror 主動式同步一致性群組和 Sync 。
 * 健全與不健全關係的數量。
 * 磁碟區關係數的中斷。您可以依RPO延遲時間和狀態切換圖表。
 * Unmanaged關係的延遲臨界值。您可以按一下設定圖示（image:../media/Settings.PNG["延遲臨界值設定圖示"]）以設定延遲臨界值設定。如需詳細資訊、請參閱 link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["設定非託管保護關係的延遲臨界值設定"]。

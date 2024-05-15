@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html 
 sidebar: sidebar 
-keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc 
+keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: 當您想要停止進行中的SnapMirror複寫時、可以中止作用中的資料保護傳輸。您也可以清除重新啟動檢查點、以便在基準傳輸之後進行傳輸。當傳輸與其他作業（例如Volume Move）發生衝突時、您可能會中止傳輸。 
 ---
 = 從「Volume Relationships」（磁碟區關係）頁面中止作用中的資料保護傳輸

@@ -30,6 +30,9 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。由於公司法規、 Linux 系統上可能會安裝 Qualys 等弱點掃描工具。安裝 Unified Manager 之前、您應該先停用弱點掃描程式、以避免安裝失敗。
 
 
+NOTE: 弱點掃描工具（例如 Qualys ）在內部（ Unified Manager 和弱點掃描工具安裝在同一部 VM 上）或外部掃描虛擬機器（ VM ）時、可能會導致 CPU 使用率偏高 （ Unified Manager 和弱點掃描程式安裝在兩部不同的伺服器上、弱點掃描程式會掃描安裝 Unified Manager 的 VM ）。此問題通常會導致 VM 無回應、並影響 Unified Manager 服務。因此、 NetApp 建議在安裝 Unified Manager 的 VM 中停用弱點掃描程式。如果無法停用掃描器、請在非上班時間掃描 VM 、並在掃描完成後重新啟動服務。
+
+
 
 == 第三方軟體
 

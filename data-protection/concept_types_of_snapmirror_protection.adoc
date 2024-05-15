@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/concept_types_of_snapmirror_protection.html 
 sidebar: sidebar 
-keywords: types, snapmirror, protection, consistency group, snapmirror business continuity, smbc, sm-bc 
+keywords: types, snapmirror, protection, consistency group, SnapMirror active sync 
 summary: 根據資料儲存拓撲的部署、Unified Manager可讓您設定多種類型的SnapMirror保護關係。SnapMirror保護的所有變體都提供容錯移轉災難恢復保護、但在效能、版本靈活度及多重備份複本保護方面、都有不同的功能。 
 ---
 = SnapMirror保護類型
@@ -72,14 +72,14 @@ SnapMirror同步保護搭配「鏡面」同步、並不需要主磁碟區和次�
 ====
 
 
-== SnapMirror同步營運不中斷
+== SnapMirror 主動同步
 
-SnapMirror Business Continuity（SM-BC）功能可搭配ONTAP 使用支援更新版本的版本、您可以使用它來保護LUN的應用程式、讓應用程式能夠透明地容錯移轉、確保災難發生時的營運不中斷。
+SnapMirror 主動式同步功能可搭配 ONTAP 9.8 及更新版本使用、您可以使用它來保護具有 LUN 的應用程式、讓應用程式能夠以透明方式容錯移轉、確保在發生災難時營運不中斷。
 
-它可讓您探索及監控Unified Manager叢集和儲存虛擬機器上可用的一致性群組（CGS）同步SnapMirror關係。SM - BC支援AFF 在諸如ASA 主叢集和二線叢集AFF 的所有SAN Array（簡稱「支援」）叢集上、其中主叢集可以是「支援」或ASA 「支援」。SMBC使用iSCSI或FCP LUN來保護應用程式。
+它可讓您探索及監控Unified Manager叢集和儲存虛擬機器上可用的一致性群組（CGS）同步SnapMirror關係。AFF 叢集或所有 SAN 陣列（ ASA ）叢集均支援 SnapMirror 主動同步、其中主要和次要叢集可以是 AFF 或 ASA 。SnapMirror 主動式同步功能可保護應用程式與 iSCSI 或 FCP LUN 。
 
-當您檢視受SM-BC關係保護的磁碟區和LUN時、您可以取得統一檢視來保護關係、磁碟區庫存中的一致性群組、檢視保護拓撲以維持一致性群組關係、檢視歷史資料以維持一致性群組關係、最長可達一年。您也可以下載報告。您也可以檢視一致性群組關係的摘要、搜尋一致性群組關係的支援、以及取得一致性群組所保護之磁碟區的相關資訊。
+當您檢視受 SnapMirror 主動式同步關係保護的磁碟區和 LUN 時、您可以取得統一的檢視畫面、以瞭解保護關係、磁碟區庫存中的一致性群組、檢視一致性群組關係的保護拓撲、檢視最長一年的一致性群組關係歷史資料。您也可以下載報告。您也可以檢視一致性群組關係的摘要、搜尋一致性群組關係的支援、以及取得一致性群組所保護之磁碟區的相關資訊。
 
 在「關係」頁面上、您也可以排序、篩選及延伸來源與目的地儲存物件的保護、以及受到一致性群組保護的物件關係。
 
-若要深入瞭解SnapMirror同步營運持續性、請參閱 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["適用於SM - BC的9文件ONTAP"]。
+若要深入瞭解 SnapMirror 主動式同步、請參閱 link:https://docs.netapp.com/us-en/ontap/smbc/index.html["ONTAP 9 SnapMirror 主動式同步文件（前身為 SM-BC ）"]。

@@ -183,7 +183,7 @@ SnapMirror關係
 
 
  a| 
-已重新建立支援者連線功能、並已重新同步、準備好用於SMBC（snapmiraporMedatorInQuorum）ONTAP
+ONTAP Mediator 連線功能已重新建立、並已重新同步並準備好進行 SnapMirror 主動同步（ Snapmirror MediatorInQuorum ）
  a| 
 活動
  a| 
