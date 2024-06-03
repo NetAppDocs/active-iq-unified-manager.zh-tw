@@ -466,7 +466,6 @@
   <block id="3dd2f0172eaa00cd434319d564dad025" category="list-text">使用下列指令碼升級Unified Manager：</block>
   <block id="7235fc94d270002699e871e8bad9343e" category="paragraph">"升級.sh"</block>
   <block id="a1dc836a95e30b0785dbc6baa6107b89" category="list-text">升級完成後、捲動回訊息、直到看到訊息顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">適用於《The》、《AIQUM》文件、《UM》文件的文件Active IQ Unified Manager</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows安裝的快速入門指示</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="list-text">英文</block>
@@ -11923,4 +11922,53 @@
   <block id="2e112a6ed41642ec6cb0dbac26f29548" category="paragraph">如需 SnapMirror 主動同步的相關資訊、請參閱 <block ref="e7cb3673e0f365a4cb1a8a44c94d6d2b" category="inline-link-macro-rx"></block>。</block>
   <block id="fcec3d8aa2186fbec2ebbc509e88c291" category="paragraph">如果叢集不支援 SnapMirror 主動同步。</block>
   <block id="f9c3a8b68e3ce1dccddf9f51467e0ed0" category="paragraph">在自訂檢視中、當您按一下節點名稱連結時、您可以檢視及延伸儲存物件的保護、這些一致性群組的磁碟區屬於 SnapMirror 主動式同步關係。</block>
+  <block id="caa95aca5250c088d52caa9487a3b38b" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.14 版的資訊。</block>
+  <block id="708a6bf1917c1011b1d2553f25152c66" category="sidebar">Active IQ Unified Manager 文件</block>
+  <block id="c50bf6bfca8b1d41d2fe74e1b66c927d" category="sidebar">產品總覽</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">版本資訊</block>
+  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">安裝及設定 Unified Manager</block>
+  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">在 VMware vSphere 系統上安裝與升級</block>
+  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">在 Linux 系統上安裝與升級</block>
+  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">在 Windows 系統上安裝與升級</block>
+  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">設定Unified Manager</block>
+  <block id="65c111a1825897e67ec3ff98b2dcf4e3" category="sidebar">管理功能設定</block>
+  <block id="9e6b6e7742d96ad773931b8a78e9e6f3" category="sidebar">管理角色型存取</block>
+  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">效能監控</block>
+  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">效能臨界值</block>
+  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">叢集效能</block>
+  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS原則群組</block>
+  <block id="22282f824617dbbebc3002bf291c3117" category="sidebar">工作負載分析器</block>
+  <block id="2628e4e79f85236ae4cc4df30ef76dac" category="sidebar">工作負載效能</block>
+  <block id="32c3f8877c5ea716e98d2b29e543f128" category="sidebar">管理效能</block>
+  <block id="8af3b43a5a64432d35c94880633df02f" category="sidebar">儲存與物件健全狀況監控</block>
+  <block id="dcb83accddabcabf987373583a058d0d" category="sidebar">虛擬化基礎架構</block>
+  <block id="8b03ab143dde9355a51949d8bb9ca578" category="sidebar">內部組態MetroCluster</block>
+  <block id="138596885ef6a770335b0f958ce9d084" category="sidebar">叢集與叢集物件健全狀況</block>
+  <block id="90d18dd78a87b153d16c1819d4028f7c" category="sidebar">健全狀況臨界值</block>
+  <block id="c1a5720865a9f4d704047c6a3994bba0" category="sidebar">傳送AutoSupport 不支援的訊息和套裝組合</block>
+  <block id="9c8007a675a79a50e15e5f8b518142de" category="sidebar">資料保護監控</block>
+  <block id="bf54949621b6403edf2732fa98614df6" category="sidebar">設定保護關係</block>
+  <block id="70979e8a3c0bd0556d9e0f41562315a3" category="sidebar">執行容錯移轉和容錯回復</block>
+  <block id="98e89001f140ad515c45156a86a785b0" category="sidebar">管理保護關係</block>
+  <block id="16e0bb4ae8301e031ad322af6855c3b6" category="sidebar">監控災難恢復關係</block>
+  <block id="f2c4e14eadf113bcbadf371fc730a271" category="sidebar">監控 MetroCluster 組態</block>
+  <block id="7ecd0726b721e17d74d280fdd93e49f8" category="sidebar">產生報告</block>
+  <block id="13f1397303dbc6596a7d0adff2836250" category="sidebar">使用REST API</block>
+  <block id="dcc46af50b01a3518efaa1e97d9a6e06" category="sidebar">存取Unified Manager API</block>
+  <block id="07b466d1e52283f35dd449a812baad89" category="sidebar">管理儲存物件</block>
+  <block id="473d694016cdd75be9080ed64f378b47" category="sidebar">存取ONTAP 功能完善的API</block>
+  <block id="aec64acbfb236d7941c71888ca0e34d4" category="sidebar">一般工作流程</block>
+  <block id="032bb3c77a75d4bae0f58801b4d5326a" category="sidebar">配置儲存設備</block>
+  <block id="8bd5d1eafb044b6a37f8a95068bd98a6" category="sidebar">Unified Manager 的 API 參考</block>
+  <block id="dc001e3b0df157471bb2a476834a7982" category="sidebar">事件與警示</block>
+  <block id="2938c7f7e560ed972f8a4f68e80ff834" category="sidebar">儀表板</block>
+  <block id="74b4081b8a74cd9f44a771845c7c885f" category="sidebar">事件工作流程</block>
+  <block id="52b908547ee09cb59aaf164c198a5e2f" category="sidebar">平台活動Active IQ</block>
+  <block id="838d44a8410719f3471f499e2bddcc48" category="sidebar">事件和嚴重性類型</block>
+  <block id="25b95061d817f1cd4aeac25ef4d89f69" category="sidebar">補救事件</block>
+  <block id="62aaa6a933d2ff8ba87b5093233576f7" category="sidebar">自動補救</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多資源</block>
+  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
+  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
+  <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
 </blocks>

@@ -1,0 +1,115 @@
+---
+indexpage:
+  title: 資訊文件Active IQ Unified Manager
+  summary: Active IQ Unified Manager 文件
+  keywords: aiqum docs, um docs, unified manager, active iq, oncommand, storage, windows,
+    linux,  vmware vsphere, vapp, configure
+  lead: Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager
+    ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.14 版的資訊。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 產品總覽
+      url: "/storage-mgmt/concept_introduction_to_unified_manager.html"
+    - title: 版本資訊
+      url: reference_release_notes.html
+    - title: VMware vSphere的快速入門安裝
+      url: "/install-vapp/qsg-vapp.html"
+    - title: Linux快速入門安裝
+      url: "/install-linux/qsg-linux.html"
+    - title: Windows快速入門安裝
+      url: "/install-windows/qsg-windows.html"
+  - title: 安裝及設定 Unified Manager
+    links:
+    - title: 在 VMware vSphere 系統上安裝與升級
+      url: "/install-vapp/concept_requirements_for_installing_unified_manager.html"
+    - title: 在 Linux 系統上安裝與升級
+      url: "/install-linux/concept_requirements_for_install_unified_manager.html"
+    - title: 在 Windows 系統上安裝與升級
+      url: "/install-windows/concept_requirements_for_installing_unified_manager.html"
+    - title: 設定Unified Manager
+      url: "/config/concept_configure_unified_manager.html"
+    - title: 管理功能設定
+      url: "/config/concept_manage_feature_settings.html"
+    - title: 管理角色型存取
+      url: "/config/concept_manage_user_access.html"
+  - title: 效能監控
+    links:
+    - title: 效能臨界值
+      url: "/performance-checker/concept_manage_performance_thresholds.html"
+    - title: 叢集效能
+      url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
+    - title: QoS原則群組
+      url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
+    - title: 工作負載分析器
+      url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
+    - title: 工作負載效能
+      url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
+    - title: 管理效能
+      url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
+  - title: 儲存與物件健全狀況監控
+    links:
+    - title: 工作負載
+      url: "/storage-mgmt/concept_provision_and_manage_workloads.html"
+    - title: 虛擬化基礎架構
+      url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
+    - title: 內部組態MetroCluster
+      url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
+    - title: 叢集與叢集物件健全狀況
+      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
+    - title: 健全狀況臨界值
+      url: "/health-checker/concept_manage_health_thresholds.html"
+    - title: 傳送AutoSupport 不支援的訊息和套裝組合
+      url: "/health-checker/task_send_asup_to_technical_support.html"
+  - title: 資料保護監控
+    links:
+    - title: 設定保護關係
+      url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
+    - title: 執行容錯移轉和容錯回復
+      url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
+    - title: 管理保護關係
+      url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
+    - title: 監控災難恢復關係
+      url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
+    - title: 監控 MetroCluster 組態
+      url: "/storage-mgmt/task_monitor_metrocluster_configurations.html"
+    - title: 產生報告
+      url: "/reporting/concept_unified_manager_reporting.html"
+  - title: 使用REST API
+    links:
+    - title: 開始使用
+      url: "/api-automation/concept_api_url_and_categories.html"
+    - title: 存取Unified Manager API
+      url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
+    - title: 管理儲存物件
+      url: "/api-automation/concept_data_center_apis.html"
+    - title: 存取ONTAP 功能完善的API
+      url: "/api-automation/concept_gateway_apis.html"
+    - title: 一般工作流程
+      url: "/api-automation/concept_workflow_intro.html"
+    - title: 配置儲存設備
+      url: "/api-automation/concept_provision_workflow.html"
+    - title: Unified Manager 的 API 參考
+      url: https://library.netapp.com/ecmdocs/ECMLP2886876/html/index.html
+  - title: 事件與警示
+    links:
+    - title: 儀表板
+      url: "/storage-mgmt/reference_dashboard_page.html"
+    - title: 事件工作流程
+      url: "/events/concept_what_happens_when_an_event_is_received.html"
+    - title: 平台活動Active IQ
+      url: "/events/concept_how_active_iq_platform_events_are_generated.html"
+    - title: 事件和嚴重性類型
+      url: "/events/reference_list_of_events_and_severity_types.html"
+    - title: 補救事件
+      url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
+    - title: 自動補救
+      url: "/storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html"
+  - title: 更多資源
+    links:
+    - title: Unified Manager影片
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Unified Manager部落格
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: 適用於更新版本的文件Active IQ Unified Manager
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62791
