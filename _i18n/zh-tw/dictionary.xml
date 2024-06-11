@@ -6640,7 +6640,6 @@
   <block id="1d1a594959ec615f56516f5d0f5e8ddb" category="list-text">NFS</block>
   <block id="a7c815fafe60ae637d38216fa6300395" category="list-text">FCP</block>
   <block id="e4e1c13bb0b14f6cb7608cbecea948ef" category="list-text">iSCSI</block>
-  <block id="70d9e3c68d42d6ec42ab792e06c44357" category="list-text">NVMe</block>
   <block id="83d6279aff05f9fb65333ef455dcbbc3" category="list-text">在所選SVM的「*效能/SVM檔案總管*」頁面中、從IOPS圖表中、從下拉式功能表中選取*傳輸協定*。</block>
   <block id="447706c449f59f43bf73830cfa98e1c2" category="paragraph">隨即顯示IOPS -傳輸協定圖表。</block>
   <block id="c468dcd34f66d4c89f937f753cbea9da" category="list-text">若要檢視較大版本的圖表、請選取*縮放檢視*。</block>
@@ -11971,4 +11970,5 @@
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager影片</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
+  <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe FC</block>
 </blocks>

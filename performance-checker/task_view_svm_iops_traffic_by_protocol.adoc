@@ -19,7 +19,7 @@ summary: 您可以使用「Performance（效能）/SVM Explorer（SVM檔案總�
 * NFS
 * FCP
 * iSCSI
-* NVMe
+* NVMe FC
 
 
 .步驟
