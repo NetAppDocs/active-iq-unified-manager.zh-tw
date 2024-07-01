@@ -44,7 +44,7 @@ summary: 有時候、您可能想要變更已安裝Unified Manager的Red Hat Ent
 
 . 重新啟動網路服務：
 +
-'服務網路重新啟動'
+`systemctl restart NetworkManager.service`
 
 . 重新啟動服務之後、請確認新的主機名稱是否能夠ping通自己：
 +

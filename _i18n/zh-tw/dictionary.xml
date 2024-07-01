@@ -1319,7 +1319,6 @@
   <block id="47bb143d7a3368c1527db57426ca08e2" category="list-text">重新產生伺服器的HTTPS憑證：</block>
   <block id="4dd5d9e5f71def24c32fed75f03cad64" category="paragraph">/`opt/NetApp/inapp/inapp/cert.sh cree'</block>
   <block id="8473e7d857ebdae7ad8557024a3c1cf9" category="list-text">重新啟動網路服務：</block>
-  <block id="b3ca8da2a2327ebf4f97bafc6363e84d" category="paragraph">'服務網路重新啟動'</block>
   <block id="bd2b6ee9134bd55418f6638971d11a18" category="list-text">重新啟動服務之後、請確認新的主機名稱是否能夠ping通自己：</block>
   <block id="4ce5888dbc17259a3375ffb15c2ce7a3" category="paragraph">"ping new_hostname"</block>
   <block id="bdf2badbf9aee4e6a2355ea85ea2e904" category="paragraph">"ping nuhost"</block>
@@ -11971,4 +11970,6 @@
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager部落格</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">適用於更新版本的文件Active IQ Unified Manager</block>
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe FC</block>
+  <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
+  <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">在叢集層級上、 Active IQ 介面會新增兩個驗證方法「 cert 」的使用者群組項目。</block>
 </blocks>
