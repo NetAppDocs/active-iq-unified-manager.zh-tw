@@ -346,7 +346,6 @@
   <block id="56bad51d0fd70713223e857396803caa" category="paragraph">Unified Manager可安裝在記憶體量較少的系統上、但建議的12 GB RAM可確保有足夠的記憶體可供使用、以達到最佳效能、並可讓系統隨組態的成長而容納更多叢集和儲存物件。您不應在部署Unified Manager的VM上設定任何記憶體限制、也不應啟用任何會阻礙軟體使用系統上已配置記憶體的功能（例如佔用）。</block>
   <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需詳細資訊、請參閱最佳實務做法指南_。</block>
   <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">技術報告4621：Unified Manager最佳實務做法指南</block>
-  <block id="badef135127b32313f0e0eebe283472f" category="paragraph"><block ref="badef135127b32313f0e0eebe283472f" category="inline-link-rx"></block></block>
   <block id="ccd350b03208f21a01e8434aa29bf22c" category="paragraph">記憶體頁面交換會對系統和管理應用程式的效能造成負面影響。競用因整體主機使用率而無法使用的CPU資源、可能會降低效能。</block>
   <block id="eeedd0b411cf8b8d426d2fb1abee2797" category="section-title">專用使用需求</block>
   <block id="c74cdaf0de603354b9d68a1b99f50e57" category="paragraph">您安裝Unified Manager的實體或虛擬系統應專供Unified Manager使用、不得與其他應用程式共用。其他應用程式可能會耗用系統資源、並大幅降低Unified Manager的效能。</block>
@@ -2396,7 +2395,6 @@
   <block id="3a215c293d531341a13e54d1b4f767d8" category="list-text">對等叢集的通訊是否已加密</block>
   <block id="34c28c126e19226f9ae33dc5640078bb" category="list-text">儲存VM是否已啟用稽核記錄</block>
   <block id="8083dc3f1ad1356d39b70d2189b04945" category="list-text">您的磁碟區是否已啟用軟體或硬體加密</block>
-  <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">請參閱法規遵循類別和的主題<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 以取得詳細資訊。</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">從該平台回報的升級事件Active IQ 也被視為安全事件。這些事件可識別解決方案需要您升級ONTAP 的問題、包括軟體、節點韌體或作業系統軟體（如需安全性摘要報告）。這些事件不會顯示在「安全性」面板中、但可從「事件管理」目錄頁取得。</block>
   <block id="40d1e8c1e23ff430ec55f7059aeb29de" category="summary">您可以設定所有磁碟區的全域健全狀況臨界值、以追蹤任何臨界值外洩。系統會針對違反健康臨界值事件產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有受監控磁碟區之臨界值的最佳實務設定來設定全域值。</block>
   <block id="67d61a1f90343dc94095bd23e79f381c" category="doc">設定全域Volume健全狀況臨界值</block>
@@ -3121,7 +3119,6 @@
   <block id="5ae387dba42b22999d9b9380a601c0e5" category="doc">管理叢集安全目標</block>
   <block id="aa5ea9a79b8363872969fe3e4d5ce9b3" category="paragraph">Unified Manager提供儀表板、可根據ONTAP 《_ NetApp ONTAP 資訊安全強化指南》（英文）中所定義的各項建議、識別您的叢集、儲存虛擬機器（SVM）和磁碟區的安全程度。</block>
   <block id="e60416fe8f102037593aec660b785842" category="paragraph">安全儀表板的目標是顯示ONTAP 任何不符合NetApp建議準則的領域、以便您修正這些潛在問題。在大多數情況ONTAP 下、您都會使用「功能不全系統管理程式」或ONTAP 「功能不全的CLI」來修正問題。您的組織可能不會遵循所有建議、因此在某些情況下、您不需要進行任何變更。</block>
-  <block id="60443e5478cdf6c85aba4b527880b533" category="paragraph">請參閱<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> （TR-4569）、以取得詳細建議與解決方案。</block>
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">除了報告安全狀態之外、Unified Manager也會針對任何違反安全性的叢集或SVM產生安全性事件。您可以在「事件管理」資源清冊頁面中追蹤這些問題、也可以設定這些事件的警示、以便在發生新的安全事件時通知儲存管理員。</block>
   <block id="32cb920c184f74cc540bf00f4fcfe2dc" category="summary">您可以編輯群組規則、以修改條件群組及條件群組中的條件、以便在特定群組中新增或移除儲存物件。</block>
   <block id="95669f823a1f0a3209f186f777a2ed75" category="doc">編輯群組規則</block>
@@ -6041,7 +6038,6 @@
   <block id="68ae53130f456bd2456bb29985dbcab8" category="paragraph">您可以使用ONTAP 「支援系統管理程式」或ONTAP 「支援功能」命令來查看是否已安裝或啟用Flash Cache、如果尚未啟用、也可以啟用Flash Cache。下列命令會指出是否在特定節點上啟用Flash Cache：「*叢集：」：&gt;執行本機選項FLEXSCALe.enabl*</block>
   <block id="4226c3da2a5d50e1c8abfdfbf9bd3780" category="paragraph">如需Flash Cache及其使用需求的詳細資訊、請參閱下列技術報告：</block>
   <block id="4d594fa378085e019a42ca73e740986c" category="inline-link">技術報告3832：Flash Cache最佳實務做法指南</block>
-  <block id="e9f146d71f531c29c1d0c53c51f7c325" category="paragraph"><block ref="e9f146d71f531c29c1d0c53c51f7c325" category="inline-link-rx"></block></block>
   <block id="5e6e1007fd4b89da551286fed26483bc" category="summary">根物件是進行其他物件比較的基準線。這可讓您檢視及比較其他物件與根物件之間的資料、並提供效能資料分析、協助您疑難排解及改善物件效能。</block>
   <block id="19773139173126dc867d43362a47f682" category="doc">瞭解根物件</block>
   <block id="ae74e4a232e1965a6b33dc818df9e87d" category="paragraph">根物件名稱會顯示在比較窗格的頂端。其他物件會顯示在根物件下方。雖然您可以新增至比較窗格的其他物件數目沒有限制、但只允許一個根物件。根物件的資料會自動顯示在「計數器圖表」窗格的圖表中。</block>
@@ -6854,7 +6850,6 @@
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">新增磁碟並執行Aggregate配置重建</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">當您在「事件詳細資料」頁面上收到系統定義的臨界值事件時、事件說明文字會列出發生問題的彙總名稱。您可以新增磁碟並在此集合體上重建資料。</block>
   <block id="c993772a65e087ac68acfde3645c3287" category="inline-link">技術報告3838：儲存子系統組態指南</block>
-  <block id="0379ced083df169219dc62cc5068b75c" category="paragraph"><block ref="0379ced083df169219dc62cc5068b75c" category="inline-link-rx"></block></block>
   <block id="a6ae18d94931e66138ab2592dedce574" category="summary">您可以使用「Performance：All Clusters"（效能：所有叢集）檢視來顯示All SAN Array叢集的效能狀態。</block>
   <block id="a9835749f44004b60a6702c71d2bc544" category="doc">檢視所有SAN陣列叢集的效能</block>
   <block id="c38f0d21950244edb3b26b68c7188811" category="paragraph">您可以在「Performance：All Clusterss」（效能：所有叢集）檢視中檢視所有SAN陣列叢集的總覽資訊、並在「叢集/效能總管」頁面中檢視詳細資料。</block>
@@ -7827,7 +7822,6 @@
   <block id="64bd5015546813c113a50d1d816a2fce" category="list-text">*效能*</block>
   <block id="28a28996e5e10ee62864b322cf2e8851" category="paragraph">效能事件會通知您叢集上的資源、組態或活動條件、可能會對受監控儲存物件上的資料儲存輸入或擷取速度造成不良影響。</block>
   <block id="e28ab1dac11a8a6babec11d768ded66a" category="paragraph">保護事件會通知您涉及SnapMirror關係的事件或風險、目的地容量問題、SnapVault 有關不景關係的問題、或是保護工作的問題。任何裝載次要磁碟區和保護關係的物件（尤其是集合體、磁碟區和SVM）、都會在保護影響區中分類。ONTAP</block>
-  <block id="a9518f09019b40e9f9d0808f91e32925" category="paragraph">安全事件會通知您ONTAP 、根據中定義的參數、您的VMware叢集、儲存虛擬機器（SVM）和磁碟區有多安全<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。</block>
   <block id="26426dd05fca05471c34919c8d351e36" category="paragraph">此外、此領域還包括Active IQ 從NetApp平台回報的升級事件。</block>
   <block id="977d7162c98acd2c6f304ed1d11e9881" category="list-text">資源：包括名稱包含「abc」的所有磁碟區、並排除名稱包含「xyz」的所有磁碟區</block>
   <block id="94596c492f1fa39b6bb278861ac80aaf" category="list-text">行動：包括「sample@domain.com」、「Test」指令碼、使用者必須每15分鐘通知一次</block>
@@ -10902,7 +10896,6 @@
   <block id="38bf356bc057c1b138ed0aadbc422129" category="summary">「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。</block>
   <block id="2dfcaeaf7d872d0b41ac1a7fad3f1bc0" category="doc">檢視叢集和儲存VM的安全狀態</block>
   <block id="363bd7c65ddeb743b3e567f3bb86d1f0" category="paragraph">利用此功能、您可以從介面中的不同點、檢視環境中儲存物件的安全狀態。Active IQ Unified Manager您可以根據定義的參數來收集及分析資訊和報告、並偵測受監控叢集和儲存VM上的可疑行為或未獲授權的系統變更。</block>
-  <block id="ac7c06182b625c627e480ce0c60ff4ed" category="paragraph">如需安全性建議、請參閱<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block></block>
   <block id="468b211c23c8f85e2679c3384b195d38" category="section-title">在「安全性」頁面上檢視物件層級的安全性狀態</block>
   <block id="78162355da23f5dd80cdec8e2b9e0d00" category="paragraph">身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級、清楚掌握各個叢集和儲存VM的安全性強度。支援的物件包括叢集、儲存VM和Volume。請遵循下列步驟：</block>
   <block id="3f9660f836b3463f167780161b6ee0d0" category="list-text">按一下「*安全性*」面板中的向右箭頭。隨即顯示「安全性」頁面。</block>
@@ -11394,7 +11387,6 @@
   <block id="1668d6113f0198a5d71e61b06adea176" category="paragraph">請參閱 <block ref="647c20854538de241d685bd97fe45f7c" category="inline-link-macro-rx"></block>。</block>
   <block id="888f02aac9bcb8c6e63ecf7ecfd510f3" category="list-text">請依照中的步驟進行 <block ref="4e49003bd707d086ed2473a592c4e5ad" category="inline-link-macro-rx"></block>。</block>
   <block id="5a4a0a33eb52faa90b4efd9ad5bb111c" category="list-text">此外、請遵循中的步驟 <block ref="3d325a30a3d625d98b2da43d85fdf8d6" category="inline-link-macro-rx"></block>。</block>
-  <block id="dd20f685a8b2510866a126106ce9cc1f" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需詳細資訊、請參閱 <block ref="fb1ddd70760829cfad3621d150dc6027" category="inline-link-macro-rx"></block>。</block>
   <block id="7799421ecdfd8246db1f771c680ae1eb" category="paragraph">VMware vSphere系統上的Unified Manager OVA可在內部執行Debian OS 11（鬥牛）。如需受支援ESXi伺服器版本所支援之虛擬機器硬體版本的相關資訊、請參閱VMware文件。</block>
   <block id="b8c3cbdd8f4d15088d9f9f8a35495d56" category="paragraph">您應該檢閱系統需求。在部署Unified Manager虛擬應用裝置之前、請先進行必要的變更。</block>
   <block id="c9e714997136f329f1dedb985dac518e" category="paragraph">在「檢閱詳細資料」頁面上：</block>
@@ -11531,7 +11523,6 @@
   <block id="b8abe9a6609bb3dbb02a8eb95689e52c" category="paragraph">如需詳細資訊、請參閱 <block ref="27f2a443d50f465254d755a8f399eae1" category="inline-link-macro-rx"></block>。</block>
   <block id="19d1717773a06d1e7fb84d9111f40f50" category="inline-link">ActiveIQ Unified Manager的「指派系統建議的效能服務層級」無法因應高度變動的工作負載</block>
   <block id="e17ca1782763605169c7485c671a81aa" category="paragraph">另請參閱知識庫（KB）文章<block ref="6fff8171920b702fdfb821f2d039fddc" category="inline-link-rx"></block></block>
-  <block id="6cee015afd22a22d4079e89b208d5c0c" category="paragraph">法規遵循是以為基礎<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊、請參閱<block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
   <block id="ecab7fffe5d68c5da20608c5e8019c2d" category="paragraph">此面板會顯示資料中心中單一或所有叢集的資料保護摘要。它會顯示資料保護事件總數、MetroCluster 不實事件、ONTAP 以及過去24小時內提出的作用中事件數。按一下每個事件的連結、即可前往「活動詳細資料」頁面。您可以按一下「*檢視全部*」連結、在「事件管理」目錄頁面中檢視所有作用中的保護事件。面板會顯示：</block>
   <block id="b0fb573143bfffbf957c4316c25a0eca" category="list-text">叢集中的磁碟區數目、或是資料中心內受Snapshot複本保護的所有叢集數目。</block>
   <block id="cb4e1388d92e1e3da0f3f4e85217a14b" category="list-text">叢集中的磁碟區數目、或是資料中心內受SnapMirror關係保護的所有叢集數目。對於SnapMirror關係、會考量來源叢集的磁碟區數。</block>
@@ -11662,7 +11653,6 @@
   <block id="8d6a739fdd6cb955643a976d6419979f" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。您的Windows系統可能因為公司法規而安裝有效的防毒軟體。您應該先停用防毒軟體、再安裝Unified Manager、以免安裝失敗。</block>
   <block id="3bf946d0585ec5d059ceedfa02a8bb85" category="list-text">在安裝Unified Manager之前、您應該先停用系統上的所有防毒軟體。安裝完成後、請務必手動將下列路徑排除在防毒掃描之外：</block>
   <block id="c4c82f53dda4c2a0257081e08f40a0c4" category="paragraph">如需詳細的系統需求、請參閱 <block ref="b2295d63a540e99b9499865a292304a1" category="inline-link-macro-rx"></block> 和 <block ref="4eee31450bd5635de5fa851f8ec42512" category="inline-link-macro-rx"></block>。</block>
-  <block id="855dd9750d1782e907ace12bdc7c5003" category="paragraph"><block ref="855dd9750d1782e907ace12bdc7c5003" category="inline-link-rx"></block></block>
   <block id="e61baa5c67d7dd8dca5b3e09283635ed" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block></block>
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>。</block>
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">「HTTPS憑證」頁面可讓您檢視目前的安全性憑證、下載憑證簽署要求、產生新的自我簽署HTTPS憑證、或安裝新的HTTPS憑證。</block>
@@ -11972,4 +11962,13 @@
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe FC</block>
   <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
   <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">在叢集層級上、 Active IQ 介面會新增兩個驗證方法「 cert 」的使用者群組項目。</block>
+  <block id="1af9d8b43c265c6a772871d91469520e" category="paragraph">安全性事件會通知您 ONTAP 叢集、儲存虛擬機器（ SVM ）和磁碟區的安全程度、取決於中定義的參數<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>。</block>
+  <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">如需詳細建議與解決方案、請參閱<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> （ TR-4569 ）。</block>
+  <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">如需詳細資訊、請參閱法規遵循類別和的主題<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">如需安全建議、請參閱<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
+  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
+  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需更多資訊、請參閱 <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>。</block>
+  <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
+  <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
+  <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">法規遵循以<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>為基礎。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊，請參閱 <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
