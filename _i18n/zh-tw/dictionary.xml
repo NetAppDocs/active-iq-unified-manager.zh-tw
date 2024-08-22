@@ -7522,7 +7522,6 @@
   <block id="819fb2dc9f56b5801900dc7ac697faad" category="paragraph">Cloud、AWs.iam勞力 士</block>
   <block id="fa17a3119030d574ffd2ba7f7f4daf5b" category="paragraph">無法解析雲端層主機</block>
   <block id="e82d7c99c70f009a753fdca8b3643fdd" category="paragraph">不可解析的objstore.host.unresolvable</block>
-  <block id="176bc0ce467c0ddd0aed6b3ca46cba6d" category="paragraph">雲端層叢集間LIF關閉</block>
   <block id="c60514ca69c2c051efd3811a94e8eed6" category="paragraph">objstore.interclusterlifDown</block>
   <block id="6b40ecc2ec5a304263232f03d079a8e5" category="paragraph">申請不符的雲端層簽名</block>
   <block id="134498b61daedd8ef3a7b826b06b1b96" category="paragraph">ROSC認證不符</block>
@@ -7752,7 +7751,6 @@
   <block id="171409d6874c33d47429956f5d0977db" category="summary">儲存VM事件可提供儲存VM（SVM）狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。</block>
   <block id="49274a1037da15a6af54e9e2e0a18c84" category="doc">儲存VM事件</block>
   <block id="3bcccc3e8feeead460e42c46ae97db25" category="paragraph">儲存虛擬機器（儲存虛擬機器、也稱為SVM）事件可提供您有關儲存虛擬機器（SVM）狀態的資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。</block>
-  <block id="31ea72dec7510bf258d57a355df270af" category="paragraph">SVM CIFS服務中斷（ocumEvtVserverCifsServiceStatusDown）</block>
   <block id="389f1658267a9e995f187ac0141eba4f" category="paragraph">未設定SVM CIFS服務（不適用）</block>
   <block id="dafdc6e2d924b66def0210f55849df68" category="paragraph">嘗試連線不存在的CIFS共用*（nbladeCifsNoPrivate Share）</block>
   <block id="dc0e74c8e91c63ac7e6d3cc548c176d7" category="paragraph">CIFS NetBios名稱衝突*（nbladeCifsNbNameConflict）</block>
@@ -7762,11 +7760,9 @@
   <block id="ce4293a29b8b226bd3f89ae64dd5de7e" category="paragraph">每位使用者超過的CIFS連線數量上限*（nbladeCifsMaxSessPerusrConn）</block>
   <block id="4b7f83c4ff6099a018ff859c833cf29d" category="paragraph">SVM FC/FCoE服務中斷（ocumEvtVserverFcServiceStatusDown）</block>
   <block id="6f0798d1115af8bdbd8926a2bce594f8" category="paragraph">SVM iSCSI服務中斷（ocumEvtVserverIscsiServiceStatusDown）</block>
-  <block id="98b6bbcbd060fec69966029d68347906" category="paragraph">SVM NFS服務中斷（ocumEvtVserverNfsServiceStatus狀態下）</block>
   <block id="b4751df694cc35cb5f59fa4b37fc76f7" category="paragraph">未設定SVM FC/FCoE服務（不適用）</block>
   <block id="3817b7a0335bb1c922d9a4fcdc1e3853" category="paragraph">未設定SVM iSCSI服務（不適用）</block>
   <block id="9f81435c275ba39d3755a55131ef5910" category="paragraph">未設定SVM NFS服務（不適用）</block>
-  <block id="537680227328dffa42f2d701ea85a908" category="paragraph">SVM已停止（ocumEvtVserverDown）</block>
   <block id="ee6369039df3bfbbe54bcb4142856932" category="paragraph">AV伺服器太忙、無法接受新的掃描要求*（nbladeVscannConnBack血壓）</block>
   <block id="a2d86991f2bdc99eec0421b4e1067c0f" category="paragraph">無防毒掃描的AV伺服器連線*（nbladeVscannerConn）</block>
   <block id="ae8cdbf74d262f08896591b2b7b8831b" category="paragraph">無AV伺服器登錄*（nbladeVscannNoRegdscanner)</block>
@@ -8557,8 +8553,6 @@
   <block id="93466d9eb58624930e18825b21acf727" category="paragraph">磁碟區IOPS警告臨界值已超出（ocumVolume IopsWarningTM）</block>
   <block id="0ce68cff51513fd5015a7e5baebf364b" category="paragraph">磁碟區MB/s重大臨界值已超出（ocumVolume Mbps突 發事件）</block>
   <block id="57054f612a3875306ae6c54a133d0def" category="paragraph">Volume MB/s（磁碟區MB/s）警告臨界值已超出（ocumVolume MbpsWarning）</block>
-  <block id="401362af35dafd33f0c2763123f597e4" category="paragraph">磁碟區延遲毫秒/作業臨界臨界值已超出（ocumVolume Latency事件）</block>
-  <block id="eb7b6c2802cb52b8ba15481c6f076ac9" category="paragraph">磁碟區延遲毫秒/作業警告臨界值已超出（ocumVolume Latency警告）</block>
   <block id="587510eab9e3e6e14d384d9e397d3639" category="paragraph">磁碟區快取遺失率臨界臨界值已超出（ocumVolume CacheMissRatio意外）</block>
   <block id="9d2a11c7b493c88a4e8247c4ca0afa11" category="paragraph">磁碟區快取遺失比率警告臨界值已超出（ocumVolume CacheMsirioWarningTM）</block>
   <block id="102f5583715be822b9358a021ddeaf31" category="paragraph">磁碟區延遲和IOPS臨界臨界值已超出（ocumVolume Latency IopsIncident）</block>
@@ -8631,7 +8625,6 @@
   <block id="977d37200e77e5eb9cb373d6b71f3b4d" category="paragraph">Cloud AWS IAM勞力 無效*（ocumCloudAwsIam勞力 無效）</block>
   <block id="b1af6f2b19ff09125120d43117f2f38d" category="paragraph">Cloud AWS IAMRoleNotFound*（ocumCloudAwsIam勞力 諾富特）</block>
   <block id="686acb30b2afe3c14a32b8f310b2d1ae" category="paragraph">雲端層主機無法解析*（ocumobjstoreHostUnresolvable）</block>
-  <block id="b960dec96854b9220ccee476dcef34b5" category="paragraph">雲端層叢集間LIF停機*（ocumobjstoreInterClusterLifDown）</block>
   <block id="d4b98c40f1fe8184244f45ae55d116d9" category="paragraph">NFSv4資源池之一耗盡*（nbladeNfsv4PoolExhausts）</block>
   <block id="4f1975bbf37e83c2ad9e61e57e8b4b86" category="paragraph">申請不符雲端層簽名*（oscSignatureM不符）</block>
   <block id="67e6b07b40a4e9ef08a4f8f1aa6d79c0" category="paragraph">QoS監控記憶體上限*（ocumQosMonitorMemoryMaxed）</block>
@@ -11971,4 +11964,11 @@
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">法規遵循以<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>為基礎。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊，請參閱 <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
+  <block id="edf00f07677923e8752194ea5e0cbc69" category="paragraph">雲端層叢集間網路介面停機</block>
+  <block id="0357e9348744c89511840d47ecc3899b" category="paragraph">雲端層叢集間網路介面關閉 * （ ocumObjstoreInterClusterLifDown ）</block>
+  <block id="102a33b891eb4727b8e086ee9e37693a" category="paragraph">儲存 VM CIFS 服務中斷（ ocumEvtVserverCifsServiceStatusDown ）</block>
+  <block id="77f4c829a32a8fd20c25a5f9a89a4cba" category="paragraph">儲存 VM NFS 服務中斷（ ocumEvtVserverNfsServiceStatusDown ）</block>
+  <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">儲存 VM 已停止（ ocumEvtVserverDown ）</block>
+  <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">磁碟區延遲嚴重臨界臨界臨界值已違反（ ocumVolume LatencyIncident ）</block>
+  <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">磁碟區延遲警告臨界值已突破（ ocumVolume LatencyWarning ）</block>
 </blocks>

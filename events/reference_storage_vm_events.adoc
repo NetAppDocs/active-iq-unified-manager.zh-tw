@@ -24,7 +24,7 @@ summary: 儲存VM事件可提供儲存VM（SVM）狀態的相關資訊、以便�
 
 
  a| 
-SVM CIFS服務中斷（ocumEvtVserverCifsServiceStatusDown）
+儲存 VM CIFS 服務中斷（ ocumEvtVserverCifsServiceStatusDown ）
  a| 
 事件
  a| 
@@ -134,7 +134,7 @@ SVM
 
 
  a| 
-SVM NFS服務中斷（ocumEvtVserverNfsServiceStatus狀態下）
+儲存 VM NFS 服務中斷（ ocumEvtVserverNfsServiceStatusDown ）
  a| 
 事件
  a| 
@@ -178,7 +178,7 @@ SVM
 
 
  a| 
-SVM已停止（ocumEvtVserverDown）
+儲存 VM 已停止（ ocumEvtVserverDown ）
  a| 
 風險
  a| 

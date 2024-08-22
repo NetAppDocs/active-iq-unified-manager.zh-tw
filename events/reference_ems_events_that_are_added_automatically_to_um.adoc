@@ -196,7 +196,7 @@ Cloud、AWs.iam勞力 士
 
 
  a| 
-雲端層叢集間LIF關閉
+雲端層叢集間網路介面停機
  a| 
 objstore.interclusterlifDown
  a| 
