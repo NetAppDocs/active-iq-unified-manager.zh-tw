@@ -11,7 +11,7 @@ summary: 如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Ma
 
 
 [role="lead"]
-如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.7 。
+如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.9 。
 
 下列兩個選項的差異在於：在一種情況下、您要在新的8.x伺服器上執行Unified Manager還原、而在另一種情況下、您要在同一部伺服器上執行還原作業。
 

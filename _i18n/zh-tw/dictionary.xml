@@ -11713,7 +11713,6 @@
   <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何複寫問題。如果MetroCluster 發現在您的支援功能組態中有鏡射問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。</block>
   <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">相關物件：指派給QoS原則群組的工作負載數量。您可以按一下「Expand（展開）」按鈕（<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>）在QoS原則群組名稱旁、檢視原則群組的詳細資料。</block>
   <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
-  <block id="177f4885c5bf3cc6b06090613bb7d325" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.7 。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">請參閱 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果您需要檢閱備份與還原程序的詳細指示。</block>
   <block id="1f627cf53c59c3dcb003a3d36f72e53e" category="image-alt">顯示 Unified Manager 單一執行個體的 UI 螢幕擷取畫面。</block>
   <block id="e0ed7cd9eee5c90155f220097a342182" category="image-alt">顯示切換期間 Volume 行為的 UI 螢幕擷取畫面。</block>
@@ -11839,10 +11838,8 @@
   <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
   <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK 11.0.20 版</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip 版本 23.01 或更新版本</block>
-  <block id="9dfe805f2bba465e37c9c6757ce064ac" category="list-text">Red Hat Enterprise Linux 7.x 版和 8.0 至 8.8 版、以 x86_64 架構為基礎。</block>
   <block id="9bbfe0d422adb66f304c54f3a069e88e" category="list-text">MySQL Community Edition 8.0.34 版（來自 MySQL 儲存庫）。</block>
   <block id="127ae3963ea9ca262d43af6b6d82938e" category="list-text">OpenJDK 11.0.21 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
-  <block id="2bc26f2d587b7f2c75ca61793e89fbc7" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.8 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、安裝時使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境</block>
   <block id="70f9b1502d4d74c5b86a102e5ed80559" category="paragraph">您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.12 或 9.13 升級至 9.14 。</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.34 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.34 。</block>
   <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDK 11.0.21 版</block>
@@ -11971,4 +11968,7 @@
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">儲存 VM 已停止（ ocumEvtVserverDown ）</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">磁碟區延遲嚴重臨界臨界臨界值已違反（ ocumVolume LatencyIncident ）</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">磁碟區延遲警告臨界值已突破（ ocumVolume LatencyWarning ）</block>
+  <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.9 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、安裝時使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境</block>
+  <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">Red Hat Enterprise Linux 7.x 版和 8.0 至 8.9 版、以 x86_64 架構為基礎。</block>
+  <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.9 。</block>
 </blocks>
