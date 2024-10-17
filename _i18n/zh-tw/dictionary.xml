@@ -11971,4 +11971,8 @@
   <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.9 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、安裝時使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境</block>
   <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">Red Hat Enterprise Linux 7.x 版和 8.0 至 8.9 版、以 x86_64 架構為基礎。</block>
   <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.9 。</block>
+  <block id="5ecb6b24c169667ff1a176768115659e" category="inline-link-macro">Active IQ Unified Manager</block>
+  <block id="04bf06d7ddd618e01f3388a565561c94" category="paragraph">如需 Active IQ Unified Manager REST API 優點的其他資源和詳細資料、請參閱<block ref="08ef7b83d66900e05791163681900cc0" category="inline-link-macro-rx"></block>。</block>
+  <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">Unified Manager 管理資訊庫（ MIB ）</block>
+  <block id="cda417ab3ce8513849242e7fb90f668c" category="sidebar">Unified Manager 資料庫架構</block>
 </blocks>
