@@ -66,7 +66,7 @@ SSE/SFTP
  a| 
 22
  a| 
-用於存取Red Hat Enterprise Linux或CentOS命令列、並擷取支援套件組合。
+用於存取 Red Hat Enterprise Linux 命令列並擷取支援套件組合。
 
 
 

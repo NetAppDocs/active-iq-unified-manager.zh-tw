@@ -11,7 +11,7 @@ summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unifie
 
 
 [role="lead"]
-您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.12 或 9.13 升級至 9.14 。
+您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.13 或 9.14 升級至 9.16 。
 
 *您需要的是什麼*
 
@@ -34,7 +34,7 @@ summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unifie
 
 
 .步驟
-. 登入目標Red Hat Enterprise Linux或CentOS伺服器。
+. 登入目標 Red Hat Enterprise Linux 伺服器。
 . 將Unified Manager產品組合下載至伺服器。
 +
 請參閱 link:task_download_unified_manager.html["正在下載Unified Manager for Linux"]。

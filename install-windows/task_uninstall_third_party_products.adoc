@@ -1,0 +1,34 @@
+---
+permalink: install-windows/task_uninstall_third_party_products.html 
+sidebar: sidebar 
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
+summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visual C++ 。 
+---
+= 解除安裝協力廠商產品
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+升級 Unified Manager 之後，您可以解除安裝第三方產品，例如 Python 或 Microsoft Visual C++ 2013 。這是選用的。
+
+
+
+== 正在解除安裝 Python
+
+.步驟
+. 從 * 「控制台」 * 選取 * 「程式集」 * > * 「程式與功能」 * 。
+. 從程式清單中選取 Python 。
+. 選取 * 解除安裝此程式 * 。解除安裝任何版本的 Python ，但 3.12 除外。確保您保留 Python 版本 3.12 。
+
+
+
+
+== 解除安裝 Microsoft Visual C++ 2013
+
+.步驟
+. 從 * 「控制台」 * 選取 * 「程式集」 * > * 「程式與功能」 * 。
+. 從程式清單中選取 * Microsoft Visual C++ 2013* 。
+. 選取 * 解除安裝此程式 * 。
+

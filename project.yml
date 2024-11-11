@@ -1,14 +1,16 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.14
+  name: Active IQ Unified Manager 9.16
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '9.14'
+  - version-number: '9.16'
     url: "/active-iq-unified-manager"
+  - version-number: '9.14'
+    url: "/active-iq-unified-manager-914"
   - version-number: '9.13'
     url: "/active-iq-unified-manager-913"
   - version-number: '9.12'
@@ -17,10 +19,10 @@ settings:
     url: "/active-iq-unified-manager-911"
   - version-number: '9.10'
     url: "/active-iq-unified-manager-910"
-  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: Active IQ Unified Manager 9.14 文件
+  - title: Active IQ Unified Manager 9.16 文件
     url: "/index.html"
   - title: 版本資訊
     url: "/reference_release_notes.html"

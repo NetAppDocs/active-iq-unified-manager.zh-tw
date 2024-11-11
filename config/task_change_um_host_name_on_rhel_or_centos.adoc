@@ -2,7 +2,7 @@
 permalink: config/task_change_um_host_name_on_rhel_or_centos.html 
 sidebar: sidebar 
 keywords: change, unified manager, host name, linux systems 
-summary: 有時候、您可能想要變更已安裝Unified Manager的Red Hat Enterprise Linux或CentOS機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。 
+summary: 有時候，您可能會想要變更已安裝 Unified Manager 的 Red Hat Enterprise Linux 機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。 
 ---
 = 變更Linux系統上的Unified Manager主機名稱
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 有時候、您可能想要變更已安裝Unified Manager的Red Hat Ent
 
 
 [role="lead"]
-有時候、您可能想要變更已安裝Unified Manager的Red Hat Enterprise Linux或CentOS機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。
+有時候，您可能會想要變更已安裝 Unified Manager 的 Red Hat Enterprise Linux 機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。
 
 *您需要的是什麼*
 

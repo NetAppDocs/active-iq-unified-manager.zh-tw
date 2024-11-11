@@ -17,7 +17,7 @@ summary: 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案�
 
 您必須擁有NetApp支援網站的登入認證資料。
 
-您可以為Red Hat Enterprise Linux和CentOS系統下載相同的Unified Manager安裝套件。
+您可以下載 Red Hat Enterprise Linux 系統的 Unified Manager 安裝套件。
 
 .步驟
 . 登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：

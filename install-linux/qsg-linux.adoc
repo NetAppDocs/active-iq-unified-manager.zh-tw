@@ -11,13 +11,13 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 [role="lead"]
-您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。
+您可以下載安裝套件，並在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。
 
 
 
 == 系統需求
 
-* 作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.9 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、安裝時使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境
+* 作業系統： Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎，使用作業系統安裝程式 * 「軟體選擇 * 」選項的「伺服器與 GUI 」基礎環境進行安裝
 * RAM：12 GB、CPU：總共9572 MHz
 * 可用磁碟空間：在「/opt/NetApp/data」目錄中有100 GB的磁碟空間、在根分割區中有50 GB的磁碟空間。對於單獨掛載的「/opt」和「/var/log」目錄、請確定「/opt」有15 GB、「/var/log/log」有16 GB、「/tmp」有10 GB可用空間。
 
@@ -53,7 +53,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 === 驗證儲存庫組態
 
-設定Red Hat Enterprise Linux或CentOS儲存庫的程序是站台專屬的。您可以使用安裝套件隨附的「pre_install_re支票.sh」指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路、您會自動收到設定Red Hat Enterprise Linux或CentOS儲存庫的指示。
+設定 Red Hat Enterprise Linux 儲存庫的程序是站台專屬的。您可以使用 `pre_install_check.sh`安裝套件中的指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路，您會自動收到設定 Red Hat Enterprise Linux 儲存庫的指示。
 
 按#Sudo ./pre_install_cet.sh'
 
@@ -61,7 +61,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 === 安裝Unified Manager
 
-Unified Manager使用「yum」公用程式來安裝軟體和任何相依軟體。由於Red Hat Enterprise Linux或CentOS的映像各不相同、因此安裝的套件取決於映像中的軟體。「yum」公用程式會決定要安裝的相依軟體套件。如果您需要有關相依軟體套件的詳細資訊、請參閱 link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
+Unified Manager 會使用 `yum`公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會 `yum`決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
 
 若要安裝Unified Manager、請以root使用者身分或使用「show」命令、從解壓縮安裝檔案的目錄執行下列命令：
 

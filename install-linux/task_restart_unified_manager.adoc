@@ -15,7 +15,7 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 
 *您需要的是什麼*
 
-您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS伺服器。
+您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 伺服器。
 
 .步驟
 . 以root使用者身分登入您要重新啟動Unified Manager服務的伺服器。

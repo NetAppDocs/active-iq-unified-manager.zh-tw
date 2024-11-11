@@ -2,7 +2,7 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
-summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager資料庫還原至本機或遠端的Red Hat Enterprise Linux或CentOS系統。 
+summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。 
 ---
 = 還原Linux系統上的MySQL資料庫備份
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 
 
 [role="lead"]
-如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager資料庫還原至本機或遠端的Red Hat Enterprise Linux或CentOS系統。
+如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。
 
 *您需要的是什麼*
 
@@ -24,7 +24,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 * 備份檔案必須為「.7z」類型。
 
 
-還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。您可以將Linux備份檔案或虛擬應用裝置備份檔案還原至Red Hat Enterprise Linux或CentOS系統。
+還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。您可以將 Linux 備份檔案或虛擬應用裝置備份檔案還原至 Red Hat Enterprise Linux 系統。
 
 [TIP]
 ====

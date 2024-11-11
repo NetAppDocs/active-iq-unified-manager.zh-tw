@@ -15,7 +15,7 @@ summary: 如果您在最初設定Linux主機並安裝Unified Manager時、將磁
 
 *您需要的是什麼*
 
-您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS Linux機器。
+您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 機器。
 
 建議您先備份Unified Manager資料庫、再增加資料目錄的大小。
 

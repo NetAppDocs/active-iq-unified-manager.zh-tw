@@ -20,4 +20,4 @@ Unified Manager資料庫目錄包含ONTAP 從VMware系統收集到的所有健�
 在目錄達到95%滿量後、不會從叢集收集其他資料。
 
 ====
-新增容量至資料目錄所需的步驟各不相同、取決於Unified Manager是在VMware ESXi伺服器、Red Hat或CentOS Linux伺服器、還是在Microsoft Windows伺服器上執行。
+視 Unified Manager 是在 VMware ESXi 伺服器， Red Hat Linux 伺服器或 Microsoft Windows 伺服器上執行而定，將容量新增至資料目錄所需的步驟會有所不同。

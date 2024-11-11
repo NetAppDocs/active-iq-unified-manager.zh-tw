@@ -15,7 +15,7 @@ summary: 「網路組態」功能表可讓您管理網路設定。當Unified Man
 
 [NOTE]
 ====
-如果Unified Manager安裝在Red Hat Enterprise Linux、CentOS或Microsoft Windows上、則無法使用此功能表。
+如果 Unified Manager 安裝在 Red Hat Enterprise Linux 或 Microsoft Windows 上，則無法使用此功能表。
 
 ====
 下列功能表選項可供使用。

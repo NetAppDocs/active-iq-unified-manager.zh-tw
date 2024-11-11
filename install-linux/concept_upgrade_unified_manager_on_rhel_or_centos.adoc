@@ -1,10 +1,10 @@
 ---
 permalink: install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html 
 sidebar: sidebar 
-keywords: upgrade, unified manager, red hat enterprise, linux, centOS 
+keywords: upgrade, unified manager, red hat enterprise, linux 
 summary: 您可以在有新版軟體可用時升級Unified Manager。 
 ---
-= 升級Red Hat Enterprise Linux或CentOS上的Unified Manager
+= 在 Red Hat Enterprise Linux 上升級 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

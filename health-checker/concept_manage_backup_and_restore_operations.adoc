@@ -29,7 +29,7 @@ Unified Manager虛擬應用裝置的VMware快照
 
 
 
-.2+| Red Hat Enterprise Linux或CentOS Linux  a| 
+.2+| Red Hat Enterprise Linux  a| 
 小
  a| 
 Unified Manager MySQL資料庫傾印

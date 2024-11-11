@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
-summary: 如果您想要變更執行Unified Manager的主機作業系統、可以將Unified Manager MySQL資料庫傾印備份從虛擬應用裝置還原至Red Hat Enterprise Linux或CentOS Linux系統。 
+summary: 如果您想要變更執行 Unified Manager 的主機作業系統，可以將 Unified Manager MySQL 資料庫傾印備份從虛擬應用裝置還原至 Red Hat Enterprise Linux 系統。 
 ---
 = 將Unified Manager虛擬應用裝置移轉至Linux系統
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 
 [role="lead"]
-如果您想要變更執行Unified Manager的主機作業系統、可以將Unified Manager MySQL資料庫傾印備份從虛擬應用裝置還原至Red Hat Enterprise Linux或CentOS Linux系統。
+如果您想要變更執行 Unified Manager 的主機作業系統，可以將 Unified Manager MySQL 資料庫傾印備份從虛擬應用裝置還原至 Red Hat Enterprise Linux 系統。
 
 *您需要的是什麼*
 
@@ -31,7 +31,7 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 
 
-這些步驟說明如何在虛擬應用裝置上建立備份檔案、將備份檔案複製到Red Hat Enterprise Linux或CentOS系統、然後將資料庫備份還原到新系統。
+這些步驟說明如何在虛擬應用裝置上建立備份檔案，將備份檔案複製到 Red Hat Enterprise Linux ，然後將資料庫備份還原到新系統。
 
 .步驟
 . 在虛擬應用裝置上、按一下*管理*>*資料庫備份*。

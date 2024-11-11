@@ -16,7 +16,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 *您需要的是什麼*
 
 * 系統必須符合中所述的要求 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]。
-* 您必須能夠以root使用者身分登入Red Hat Enterprise Linux或CentOS系統。
+* 您必須能夠以 root 使用者身分登入 Red Hat Enterprise Linux 系統。
 
 
 預設的Unified Manager安裝會執行下列工作：

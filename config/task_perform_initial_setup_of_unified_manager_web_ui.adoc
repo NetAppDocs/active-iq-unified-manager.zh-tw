@@ -39,7 +39,7 @@ image::../media/first_experience_wizard.JPG[UI 螢幕擷取畫面、顯示 VMwar
 +
 如果您需要指定一個Proxy來提供網際網路存取、以便傳送AutoSupport 各種內容、或是想要停用AutoSupport 某些功能、請AutoSupport 從網路UI使用*一般*>* Swise*選項。
 
-. 在Red Hat和CentOS系統上、將umadmin使用者密碼從預設的「admin」字串變更為個人化字串。
+. 在 Red Hat 系統上，將 umadmin 使用者密碼從預設的「 admin 」字串變更為個人化字串。
 . 在「設定API閘道」頁面中、選擇是否要使用API閘道功能、讓Unified Manager能夠管理ONTAP 您計畫使用ONTAP Isureest API監控的各個叢集。然後按一下 * 繼續 * 。
 +
 您稍後可從*一般*>*功能設定*>* API閘道*的網路UI中啟用或停用此設定。如需API的詳細資訊、請參閱 link:../api-automation/concept_get_started_with_um_apis.html["開始使用Active IQ Unified Manager 靜態API"]。

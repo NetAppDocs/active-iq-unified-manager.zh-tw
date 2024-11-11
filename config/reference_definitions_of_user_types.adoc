@@ -17,7 +17,7 @@ Unified Manager使用者類型如下：
 
 * *維護使用者*
 +
-在Unified Manager初始組態期間建立。然後維護使用者會建立其他使用者並指派角色。維護使用者也是唯一能夠存取維護主控台的使用者。當Unified Manager安裝在Red Hat Enterprise Linux或CentOS系統上時、維護使用者會獲得「umadmin」使用者名稱。
+在Unified Manager初始組態期間建立。然後維護使用者會建立其他使用者並指派角色。維護使用者也是唯一能夠存取維護主控台的使用者。當 Unified Manager 安裝在 Red Hat Enterprise Linux 系統上時，維護使用者會被指定為使用者名稱「 'umadmin. 」。
 
 * *本機使用者*
 +

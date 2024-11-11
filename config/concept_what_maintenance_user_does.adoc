@@ -2,7 +2,7 @@
 permalink: config/concept_what_maintenance_user_does.html 
 sidebar: sidebar 
 keywords: what, maintenance, user does, installation, unified manager 
-summary: 維護使用者是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager時建立。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。 
+summary: 維護使用者是在 Red Hat Enterprise Linux 系統上安裝 Unified Manager 的過程中建立的。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。 
 ---
 = 維護使用者的功能
 :allow-uri-read: 
@@ -11,6 +11,6 @@ summary: 維護使用者是在Red Hat Enterprise Linux或CentOS系統上安裝Un
 
 
 [role="lead"]
-維護使用者是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager時建立。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。
+維護使用者是在 Red Hat Enterprise Linux 系統上安裝 Unified Manager 的過程中建立的。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。
 
 維護使用者或umadmin使用者也可以存取Unified Manager維護主控台。

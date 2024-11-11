@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="77d0d0a6430abce719553e446f56f1b1" category="summary">您可以在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
   <block id="d12e3362333ac1183375a383fbb2cc9e" category="doc">安裝Unified Manager</block>
   <block id="6e511cfe87a95df884e3eeb9f86e7f6c" category="paragraph">*您需要的是什麼*</block>
   <block id="5c340a7311c8b63b42df5652d4d78f44" category="list-text">您要安裝Unified Manager的系統必須符合系統和軟體需求。</block>
@@ -8,7 +7,6 @@
   <block id="4864565ac84b4ae2dafe86ead8547a18" category="list-text">您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案到目標系統。</block>
   <block id="445d90df422f7feb20f11a8e4f2d6442" category="list-text">您必須擁有支援的網頁瀏覽器。</block>
   <block id="7ec991065cb51254c717fa6434849d3b" category="list-text">您的終端機模擬軟體必須已啟用sc復原 功能。</block>
-  <block id="730ed57f4510ef011ab20dc6670863c5" category="paragraph">Red Hat Enterprise Linux或CentOS系統可能已安裝所需支援軟體的所有必要版本（Java、MySQL、其他公用程式）、僅安裝部分必要軟體、或是新安裝的系統、但未安裝任何必要軟體。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="2146e6c980802332a001bebf4546b51c" category="list-text">登入您要安裝Unified Manager的伺服器。</block>
   <block id="20acb2e0ff3fba7e6cb20b7d64992bd4" category="list-text">輸入適當的命令、以評估目標系統上可能需要安裝或升級哪些軟體、以支援安裝：</block>
@@ -36,7 +34,6 @@
   <block id="7d384942bea75a7bd1b507acad2fcff5" category="list-text">以root使用者身分或使用「show」、執行下列命令來安裝軟體：</block>
   <block id="78a4dfda6e8ba903df492b5ae4047271" category="paragraph">「yum install netapp-um&lt;版本&gt;.x86_64 .rpm」</block>
   <block id="e3f6dc9eb32fb4b85b9fb612d3323c6f" category="paragraph">此命令會安裝.rpm套件、所有其他必要的支援軟體、以及Unified Manager軟體。</block>
-  <block id="e17c7ce0a29cda86b60da747989d2fd0" category="paragraph">請勿使用替代命令（例如「rpm -ivh」）嘗試安裝。在Red Hat Enterprise Linux或CentOS系統上成功安裝Unified Manager時、必須依照特定順序將所有Unified Manager檔案及相關檔案安裝到特定目錄結構中、並透過「yum install NetApp-um&lt; version &gt;.x86_64 .rpm」命令自動強制執行該目錄結構。</block>
   <block id="ebf5639274b52c2af20816bf3ce74ff1" category="list-text">請忽略安裝訊息後立即顯示的電子郵件通知。</block>
   <block id="3a5ae1859c3f1ae52018c31a540b2a8c" category="paragraph">電子郵件會通知root使用者初始cron工作失敗、對安裝沒有不良影響。</block>
   <block id="3281759612eba5b939e1173ad643b4b6" category="list-text">安裝訊息完成後、捲動回訊息、直到看到系統顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼的訊息。</block>
@@ -117,7 +114,6 @@
   <block id="90076945ee4945f723bcfab540de5957" category="doc">設定所需的軟體儲存庫</block>
   <block id="7d1d42a33e47ba1cd5421c307f5b92ff" category="summary">您可以重設安裝期間所設定的執行個體專屬的jboss密碼。您可以選擇性地重設密碼、以防站台需要此安全功能來覆寫Unified Manager安裝設定。此作業也會變更jboss存取MySQL所用的密碼。</block>
   <block id="71f2bf60222c4c295174d3e4a4f5b19a" category="doc">變更jboss密碼</block>
-  <block id="58ca51142bc608bb5a049339c8dac9f2" category="list-text">您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS系統。</block>
   <block id="6f9f1b5c2fa88af2785b93e04da47b9e" category="list-text">您必須能夠存取目錄「/opt / NetApp /基礎設備/ bin」中NetApp提供的「密碼.sh」指令碼。</block>
   <block id="236571f300975da5f97e30c8eaa910d2" category="list-text">以root使用者身分登入系統。</block>
   <block id="8740e654dc325345d487682011748464" category="list-text">請依照所示順序輸入下列命令、停止Unified Manager服務：</block>
@@ -131,7 +127,6 @@
   <block id="4b2d6bdd09894705f80f553dc9dd1a61" category="list-text">所有服務啟動後、您就可以登入Unified Manager UI。</block>
   <block id="f696145a54e424214c1c269032a174b3" category="summary">在Linux系統上、您可以安裝Unified Manager軟體、升級至較新版本的軟體、或移除Unified Manager。</block>
   <block id="1aae3eac015ac6934f4cce0bdefb715e" category="doc">安裝、升級及移除Unified Manager軟體</block>
-  <block id="626600d9c535d041082909d9d65638f6" category="paragraph">Unified Manager可安裝在Red Hat Enterprise Linux或CentOS伺服器上。安裝Unified Manager的Linux伺服器可以在實體機器上執行、也可以在執行VMware ESXi、Microsoft Hyper-V或Citrix XenServer的虛擬機器上執行。</block>
   <block id="81a396f065b27cb051074026c2ea793d" category="summary">必要的連接埠和傳輸協定可在Unified Manager伺服器與託管儲存系統、伺服器和其他元件之間進行通訊。</block>
   <block id="9311d71ef277bbd7dbcd75abedaada36" category="doc">傳輸協定與連接埠需求</block>
   <block id="75b42433f156711f498d34110214dd60" category="section-title">連線至Unified Manager伺服器</block>
@@ -154,7 +149,6 @@
   <block id="b6d767d2f8ed5d21a44b0e5886680cb9" category="paragraph">22</block>
   <block id="6be8e5229205f852c6e106ae04d2be5c" category="paragraph">用於存取維護主控台及擷取支援套裝組合。</block>
   <block id="03421b43f1c28f0ca1895551c0550b8a" category="paragraph">Linux命令列</block>
-  <block id="77739a284b31302a5a82228f9b6c3b34" category="paragraph">用於存取Red Hat Enterprise Linux或CentOS命令列、並擷取支援套件組合。</block>
   <block id="b56bb9221ecbd973e0020146b7742e06" category="paragraph">MySQL資料庫</block>
   <block id="62a004b95946bb97541afa471dcca73a" category="paragraph">MySQL</block>
   <block id="16fc18d787294ad5171100e33d05d4e2" category="paragraph">3306.</block>
@@ -231,11 +225,9 @@
   <block id="bb6790f4f8d82c3397bd5fda09daa3f7" category="list-text">在您下載安裝檔案的目錄中、執行：</block>
   <block id="29afb17b6fd794a230bca904d06a0015" category="paragraph">解壓縮ActiveIQUnifiedManager-&lt;版本&gt;.Zip</block>
   <block id="d7ecc387dc31e52cf6560a99362b75bd" category="section-title">驗證儲存庫組態</block>
-  <block id="06e0d8a1077416bd21e3a46b2757c2a9" category="paragraph">設定Red Hat Enterprise Linux或CentOS儲存庫的程序是站台專屬的。您可以使用安裝套件隨附的「pre_install_re支票.sh」指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路、您會自動收到設定Red Hat Enterprise Linux或CentOS儲存庫的指示。</block>
   <block id="0cec39779d05b1dbfc934bbfdddb8bf2" category="paragraph">按#Sudo ./pre_install_cet.sh'</block>
   <block id="65747c74d7b2e455833a7211d404378f" category="section-title">安裝Unified Manager</block>
   <block id="e1b471357a7f865e8079b188a4eedcd7" category="inline-link-macro">Linux軟體與安裝需求</block>
-  <block id="ac49f2aa434913eea994df941520410a" category="paragraph">Unified Manager使用「yum」公用程式來安裝軟體和任何相依軟體。由於Red Hat Enterprise Linux或CentOS的映像各不相同、因此安裝的套件取決於映像中的軟體。「yum」公用程式會決定要安裝的相依軟體套件。如果您需要有關相依軟體套件的詳細資訊、請參閱 <block ref="887f105f01fac7bb71b14faabb48492b" category="inline-link-macro-rx"></block>。</block>
   <block id="37f28d62cd817ebc40ae2fea3f148a8e" category="paragraph">若要安裝Unified Manager、請以root使用者身分或使用「show」命令、從解壓縮安裝檔案的目錄執行下列命令：</block>
   <block id="6838c5b5c888df9122e42a58510a6fb3" category="paragraph">yum安裝NetApp-um&lt;版本&gt;.x86_64。rpm'</block>
   <block id="e81c4e4f2b7b93b481e13a8553c2ae1b" category="paragraph">或</block>
@@ -299,7 +291,6 @@
   <block id="bd83ea599d4b1bc4b0405111a4f0e137" category="summary">安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">作業系統軟體</block>
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux系統必須安裝下列版本的作業系統和支援軟體：</block>
-  <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">請參閱互通性對照表、以取得所支援Red Hat Enterprise Linux和CentOS版本的完整且最新清單。</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">第三方軟體</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。</block>
   <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
@@ -308,9 +299,6 @@
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">使用者授權要求</block>
   <block id="1d30f5af628840472be4ef70e300d02d" category="paragraph">在Linux系統上安裝Unified Manager可以由root使用者或非root使用者使用「show」命令來執行。</block>
   <block id="086af4a1a8e18c416fda306afd129ecc" category="section-title">安裝需求</block>
-  <block id="26e883b878173cb161f032b8a1cf0162" category="paragraph">以下列出安裝Red Hat Enterprise Linux或CentOS以及系統上相關儲存庫的最佳實務做法。安裝或設定不同的系統、或是部署在異地（雲端）、可能需要額外的步驟、而Unified Manager可能無法在這類部署中正常運作。</block>
-  <block id="f5cf29e0e7f0709a2ef9b812c64a4fcc" category="list-text">您必須根據Red Hat最佳實務做法來安裝Red Hat Enterprise Linux或CentOS、並選擇下列預設選項、這需要選擇「使用GUI的伺服器」基礎環境。</block>
-  <block id="00c8a2ddccf7629056c72ebd6421c571" category="list-text">在Red Hat Enterprise Linux或CentOS上安裝Unified Manager時、系統必須能夠存取適當的儲存庫、以便安裝程式存取及安裝所有必要的軟體相依性。</block>
   <block id="a24d4f7e98190521aa390bff858f8ec4" category="list-text">若要讓「yum」安裝程式在Red Hat Enterprise Linux儲存庫中找到相依軟體、您必須在Red Hat Enterprise Linux安裝期間或之後使用有效的Red Hat訂閱來註冊系統。</block>
   <block id="3fd0a1c0edf135c3937e76bd17a097d3" category="paragraph">如需Red Hat訂購管理程式的相關資訊、請參閱Red Hat說明文件。</block>
   <block id="c613afdd3b01593cb5bd9a4d62704464" category="list-text">您必須啟用Enterprise Linux（E規劃）的額外套件儲存庫、才能在系統上成功安裝所需的協力廠商公用程式。</block>
@@ -318,15 +306,11 @@
   <block id="dae5be77dcd5a2751c52abb8c0cc9026" category="list-text">如果未安裝正確版本的MySQL、您必須啟用MySQL儲存庫、才能在系統上成功安裝MySQL軟體。</block>
   <block id="9d4174201a3264f400c5be830729e691" category="paragraph">如果您的系統上未設定MySQL儲存庫、則必須手動下載及設定儲存庫。</block>
   <block id="0bf58a07f9c4162d16eb1d2a403f0d41" category="inline-link-macro">手動設定MySQL儲存庫</block>
-  <block id="cb543888c56ae5953866c642dbe3ff6d" category="paragraph">如果您的系統無法存取網際網路、而且儲存庫並未從連線至未連線系統的網際網路連線系統鏡射到未連線的系統、則應遵循安裝指示來判斷系統的外部軟體相依性。然後、您可以將所需的軟體下載到連線網際網路的系統、並將「.rpm」檔案複製到您打算安裝Unified Manager的系統。若要下載成品和套件、您必須使用「yum install」命令。您必須確保兩個系統執行相同的作業系統版本、而且訂閱授權適用於適當的Red Hat Enterprise Linux或CentOS版本。</block>
   <block id="b300b31397aa8ddbf32302814998ba4e" category="paragraph">您不得從此處列出的儲存庫以外的儲存庫安裝所需的協力廠商軟體。從Red Hat儲存庫安裝的軟體是專為Red Hat Enterprise Linux所設計、並符合Red Hat最佳實務做法（目錄配置、權限等）。來自其他位置的軟體可能不遵守這些準則、這可能會導致Unified Manager安裝失敗、或是在未來升級時造成問題。</block>
   <block id="64f7b2b5670c2a4e0d9653ff5260297b" category="section-title">連接埠443需求</block>
-  <block id="69297cd45fb300c954b2b628f530400b" category="paragraph">Red Hat Enterprise Linux和CentOS的一般映像可能會封鎖對連接埠443的外部存取。由於此限制、您可能無法在安裝Unified Manager之後連線至系統管理員Web UI。執行下列命令可讓所有外部使用者和應用程式存取通用Red Hat Enterprise Linux或CentOS系統上的連接埠443。</block>
   <block id="e86f63ff81e3af881b1e4cbf8cc2cd90" category="paragraph">防火牆-cmd --partni=public-add-port=443/tcp --fur永久性；防火牆-cmd --relev'</block>
-  <block id="0e168db01336856e46893be6a4a61b22" category="paragraph">您必須安裝Red Hat Enterprise Linux和CentOS、並以「使用GUI的伺服器」為基礎環境。它提供Unified Manager安裝說明所使用的命令。其他基礎環境可能需要您安裝額外的命令來驗證或完成安裝。如果您的系統上沒有可用的「firewall-cmd」、您必須執行下列命令來安裝：</block>
   <block id="fcb44727e7951e5c22a7ca707be2c6c9" category="paragraph">#Sudo yum install firewalld'</block>
   <block id="615d60cd0b0e0b83c91ab7aafde0f763" category="paragraph">執行命令之前、請先聯絡您的IT部門、以瞭解您的安全性原則是否需要不同的程序。</block>
-  <block id="9bb6677f0c4aaf0648dc678d08a0172a" category="paragraph">應在CentOS和Red Hat系統上停用THP（透明的巨型分頁）。啟用時、在某些情況下、當某些程序耗用過多記憶體並終止時、可能會導致Unified Manager關機。</block>
   <block id="cfe968c64b22de8426ac7f90136f1316" category="summary">在虛擬基礎架構或實體系統上安裝Unified Manager、應符合記憶體、CPU和磁碟空間的最低需求。</block>
   <block id="d6145dcd730a183bcf77f4b71f69e639" category="doc">虛擬基礎架構與硬體系統需求</block>
   <block id="0ef1e75692a257ada16b2a5f71393746" category="paragraph">下表顯示建議用於記憶體、CPU和磁碟空間資源的值。這些值已符合資格、因此Unified Manager符合可接受的效能等級。</block>
@@ -355,7 +339,6 @@
   <block id="dd0de5ae442c1d7498ecd1462db65716" category="paragraph">您安裝Unified Manager的實體系統或虛擬系統應設定成能從主機本身成功「ping」主機名稱的方式。在IPv6組態的情況下、您應該確認主機名稱的「ping6」是否成功、以確保Unified Manager安裝成功。</block>
   <block id="43338c995eeccdda16f97aa58042fceb" category="paragraph">您可以使用主機名稱（或主機IP位址）來存取產品Web UI。如果您在部署期間為網路設定靜態IP位址、則會為網路主機指定一個名稱。如果您使用DHCP設定網路、則應該從DNS取得主機名稱。</block>
   <block id="55499176d7099cab2bc8e0096a2ee8b2" category="paragraph">如果您打算允許使用者使用簡短名稱來存取Unified Manager、而非使用完整網域名稱（FQDN）或IP位址、則網路組態必須將此簡短名稱解析為有效的FQDN。</block>
-  <block id="80c500fbae4ba1c451cd046f47da2065" category="summary">當您在Red Hat Enterprise Linux或CentOS上安裝Unified Manager時、Unified Manager和協力廠商公用程式會建立下列使用者：umadmin、jboss和mySQL。</block>
   <block id="5da41d17dfa5855c1cab336de2a01ccc" category="doc">在Unified Manager安裝期間建立的使用者</block>
   <block id="9d38698e20303bcfc75bbeaa5c205565" category="list-text">* umadmin*</block>
   <block id="402328bfe70ff4315bbd64a63db1a630" category="paragraph">第一次登入Unified Manager。此使用者被指派「應用程式管理員」使用者角色、並設定為「維護使用者」類型。此使用者是由Unified Manager所建立。</block>
@@ -368,7 +351,6 @@
   <block id="a6052786a956db413a62152ccff55d07" category="summary">您可以建立自訂主目錄、並在安裝Unified Manager之前定義自己的umadmin使用者密碼。這項工作是選用的、但有些站台可能需要彈性來覆寫Unified Manager安裝的預設設定。</block>
   <block id="b1c84f569963a3f9a817942b2e059238" category="doc">在安裝之前建立自訂使用者主目錄和umadmin密碼</block>
   <block id="75c94f9929afefeccde9838685aea09e" category="list-text">系統必須符合中所述的要求 <block ref="6809e5c79eb6a750a89a2ba4592b6b72" category="inline-link-macro-rx"></block>。</block>
-  <block id="d8a6b52ebf733fbfdfc9052c5959966b" category="list-text">您必須能夠以root使用者身分登入Red Hat Enterprise Linux或CentOS系統。</block>
   <block id="53540bf7d5be8fad812e5cf5d4c7f878" category="paragraph">預設的Unified Manager安裝會執行下列工作：</block>
   <block id="501d1ccd39001708842cff9d835abcb3" category="list-text">使用「/home/umadmin」做為主目錄來建立umadmin使用者。</block>
   <block id="1372623802028eef0c7a403b2fbf01d2" category="list-text">將預設密碼「'admin'」指派給umadmin使用者。</block>
@@ -399,7 +381,6 @@
   <block id="d613e1f775cf08daeddbd0d09df85d90" category="summary">您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案、才能安裝Unified Manager。</block>
   <block id="83a3600fbd2d845fdf7d414e67beab9f" category="doc">正在下載Unified Manager</block>
   <block id="99e5e607db77c21714ad56713649336a" category="paragraph">您必須擁有NetApp支援網站的登入認證資料。</block>
-  <block id="b92252e630a7e5d4dc5218474d00dd0f" category="paragraph">您可以為Red Hat Enterprise Linux和CentOS系統下載相同的Unified Manager安裝套件。</block>
   <block id="985c1200402c833f3263879e155dc0c0" category="list-text">登入NetApp支援網站、然後瀏覽至Unified Manager的下載頁面：</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
   <block id="9578a88e95e047066c6bb7085c41a7ed" category="paragraph"><block ref="9578a88e95e047066c6bb7085c41a7ed" category="inline-link-rx"></block></block>
@@ -420,7 +401,6 @@
   <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">整體um安裝流程</block>
   <block id="688dd421579f9ca49f8068cf7c5fc387" category="summary">變更組態之後、您可能必須重新啟動Unified Manager。</block>
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="doc">重新啟動Unified Manager</block>
-  <block id="c2d77eb29a616635aaace5e484e7110e" category="paragraph">您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS伺服器。</block>
   <block id="bd4c43ed11101c9806bd4fded878628b" category="list-text">以root使用者身分登入您要重新啟動Unified Manager服務的伺服器。</block>
   <block id="8338761d720291f500aed82c16439446" category="summary">利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置上部署Unified Manager。</block>
   <block id="629c4e4b9e06105de1ee6910b4520fa4" category="doc">介紹功能Active IQ Unified Manager</block>
@@ -431,7 +411,6 @@
   <block id="576a592eead18f78869446aed20778dc" category="doc">升級Red Hat Enterprise Linux或CentOS上的Unified Manager</block>
   <block id="78f7bd17e8dc5c60aabeddc5a7edd6c4" category="paragraph">由NetApp提供的Unified Manager軟體修補程式版本、其安裝程序與新版本相同。</block>
   <block id="88b87a5b091085247f998d9b1dfc636b" category="paragraph">如果Unified Manager與OnCommand Workflow Automation 某個實例搭配使用、而且兩種產品都有新版本的軟體、則您必須中斷這兩種產品的連線、然後在執行升級後設定新的Workflow Automation連線。如果您只要升級至其中一項產品、則應在升級後登入Workflow Automation、並確認它仍從Unified Manager取得資料。</block>
-  <block id="7b0ee93c3d0cef97e156c4e1adc5eb26" category="summary">您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主機停止及解除安裝Unified Manager。</block>
   <block id="06a3b150418e9166336c5e898d444f84" category="doc">移除Unified Manager</block>
   <block id="83849bce40eb02d7644d46e690b4972d" category="list-text">您必須擁有root使用者存取權、才能存取要從中移除Unified Manager的伺服器。</block>
   <block id="640f91fa72767714922eb31a26c0e02b" category="list-text">移除軟體之前、必須先從Unified Manager伺服器移除所有叢集（資料來源）。</block>
@@ -450,7 +429,6 @@
   <block id="0a1c647277efefc75723a4d91b7d27a9" category="list-text">在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會清除6個月後的歷史效能資料。</block>
   <block id="57631e141b8f0f57a0f764b018516b87" category="list-text">您應該已經完成所有執行中的作業、因為Unified Manager在升級過程中無法使用。</block>
   <block id="d37d0b63e336071083beff10d6864144" category="list-text">啟動Unified Manager伺服器。執行下列命令：</block>
-  <block id="d29364de1efc0d3a8b2b3b2e091e6ce6" category="list-text">登入目標Red Hat Enterprise Linux或CentOS伺服器。</block>
   <block id="9d8fac2d2928116ea867fc277420d176" category="list-text">將Unified Manager產品組合下載至伺服器。</block>
   <block id="504dbb205bd882bee9deb15c21374875" category="list-text">瀏覽至目標目錄並展開Unified Manager套裝組合：</block>
   <block id="d5722027e2a50bb22675e35c697d66bc" category="paragraph">「unzip ActiveIQUnifiedManager-&lt;版本&gt;.Zip」</block>
@@ -512,7 +490,6 @@
   <block id="db7e756d349d3b99d3fc26294ec50a3f" category="paragraph">安裝磁碟機上的可用空間應大於資料目錄的大小2.5 GB。升級會停止、並顯示錯誤訊息、指出可用空間不足時要新增的空間量。</block>
   <block id="750fc93d1e8e927c71b02d2b51dcd235" category="list-text">在升級之前、您應該先關閉_&lt;InstallLDIR&gt;\JDK_和_MySQL Data目錄_中任何開啟的檔案或資料夾。</block>
   <block id="366c5ab2a2994621800849cabe981121" category="paragraph">在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。</block>
-  <block id="063990b16ba7598081dad1bf7f5753e5" category="list-text">將Unified Manager Windows安裝檔案下載至Windows系統上的目標目錄。</block>
   <block id="d3073d42c27439b83dbf63233da2ea6f" category="list-text">以系統管理員身分按一下滑鼠右鍵並執行Unified Manager安裝程式執行檔（.exe）。</block>
   <block id="4efb5660712f35a71f61f3b4e61e725a" category="paragraph">Unified Manager會提示您下列訊息：</block>
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">按一下「*是*」、然後按一下「*下一步*」。</block>
@@ -581,7 +558,6 @@
   <block id="cc3e25234bae8cf7439281386072730f" category="list-text">Unified Manager維護使用者密碼應介於8到20個字元之間、且應包含大寫字母或大小寫字母、數字和特殊字元。</block>
   <block id="e253765ec82484309a44e1b1fdee9185" category="list-text">對於維護使用者或MySQL root使用者、密碼字串中不允許使用下列特殊字元：「''%、=&amp;&lt;&gt;|^\/（）[]；：</block>
   <block id="f94b88d810e7b6fb355c1efd8406df8e" category="paragraph">允許使用下列特殊字元：~！@#$*-？。+｛｝</block>
-  <block id="75dc3bf7d0793b5bc0898c8e446c4b6c" category="list-text">瀏覽至安裝檔案所在的目錄。</block>
   <block id="aed553d82a05853df523bf216d552005" category="paragraph">Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出這些套件。如果系統中未安裝所需的協力廠商套件、Unified Manager會在安裝過程中安裝這些套件。</block>
   <block id="5a378b18f7bf0c4cabc6c655cd2f535e" category="list-text">單擊 * 下一步 * 。</block>
   <block id="a91d0407154b0cfd0e4b8ac99b93476f" category="list-text">輸入使用者名稱和密碼以建立維護使用者。</block>
@@ -1303,7 +1279,6 @@
   <block id="a1725868f0277a5fb4d98ac70d04a488" category="summary">您可以指定Active IQ Unified Manager 不活動逾時值以供使用。在指定時間內無活動之後、應用程式會自動登出。此選項預設為啟用。</block>
   <block id="7df06eac11dc72d2dd0d2b7f4f8a9f7b" category="doc">指定不活動逾時</block>
   <block id="3e32d70f729e221e6069bcf0ca78343e" category="paragraph">您可以停用此功能、或從*一般*&gt;*功能設定*&gt;*無活動逾時*修改時間。啟動此功能後、您應該在*登出時間*欄位中指定不活動的時間限制（以分鐘為單位）、之後系統會自動登出。預設值為4320分鐘（72小時）。</block>
-  <block id="bb9f3d4744a9e90e0bec8db6da0fe085" category="summary">有時候、您可能想要變更已安裝Unified Manager的Red Hat Enterprise Linux或CentOS機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。</block>
   <block id="1224d939486ad2fdd186bf58e0413fbb" category="doc">變更Linux系統上的Unified Manager主機名稱</block>
   <block id="9ad6cdbafa6d2afeff6fa8613d36f754" category="paragraph">您必須擁有root使用者存取安裝Unified Manager的Linux系統。</block>
   <block id="8fae856b678489b4ce37733b2f2b89e4" category="paragraph">您可以使用主機名稱（或主機IP位址）存取Unified Manager Web UI。如果您在部署期間為網路設定了靜態IP位址、則表示您已為網路主機指定名稱。如果使用DHCP設定網路、則主機名稱應取自DNS伺服器。</block>
@@ -1442,7 +1417,6 @@
   <block id="3ce21a8f47ccabc1588563bb15ad2eb4" category="doc">使用者類型定義</block>
   <block id="1329be4aab2bf071b1f873afc57ddbfd" category="paragraph">Unified Manager使用者類型如下：</block>
   <block id="fbbaa937657fafad782f984e54520405" category="list-text">*維護使用者*</block>
-  <block id="6086e2d07999510c956853f2e4d8dba8" category="paragraph">在Unified Manager初始組態期間建立。然後維護使用者會建立其他使用者並指派角色。維護使用者也是唯一能夠存取維護主控台的使用者。當Unified Manager安裝在Red Hat Enterprise Linux或CentOS系統上時、維護使用者會獲得「umadmin」使用者名稱。</block>
   <block id="d992169d5c06146855b6a6c53a9b44fd" category="list-text">*本機使用者*</block>
   <block id="d64461933ccdcc27917e3e6e67ab54d6" category="paragraph">存取Unified Manager UI、並根據維護使用者或具有應用程式管理員角色的使用者所提供的角色執行功能。</block>
   <block id="e47599e44587f72ce0162fb4b9683cc7" category="list-text">*遠端群組*</block>
@@ -1459,10 +1433,8 @@
   <block id="2274ca34b0e2e9a8f5d52cac433b4092" category="doc">將磁碟空間新增至Unified Manager資料庫目錄</block>
   <block id="2b8ed2e88795d155c2a88bf58e8cc055" category="paragraph">例如、如果Unified Manager從大量叢集收集資料、而每個叢集都有許多節點、則資料庫目錄可能會滿。當資料庫目錄已滿90%時、您將會收到警告事件、而當目錄已滿95%時、您將會收到重大事件。</block>
   <block id="1b2f22a1ee51f3026c13349f76831cde" category="paragraph">在目錄達到95%滿量後、不會從叢集收集其他資料。</block>
-  <block id="d6a6ed3e281b0b44ab584a18f9d7692d" category="paragraph">新增容量至資料目錄所需的步驟各不相同、取決於Unified Manager是在VMware ESXi伺服器、Red Hat或CentOS Linux伺服器、還是在Microsoft Windows伺服器上執行。</block>
   <block id="2d227f72b98176cbfd229491d19b5966" category="summary">如果您在最初設定Linux主機並安裝Unified Manager時、將磁碟空間不足分配給「/opt/NetApp/data」目錄以支援Unified Manager、則可在安裝後增加磁碟空間、方法是在「/opt/NetApp/data」目錄中增加磁碟空間。</block>
   <block id="909792f1ee38d1f39efb680a4224b4f9" category="doc">將空間新增至Linux主機的資料目錄</block>
-  <block id="f31914bc970c0b24d47b49bd7790033f" category="paragraph">您必須擁有root使用者存取權、才能存取安裝Unified Manager的Red Hat Enterprise Linux或CentOS Linux機器。</block>
   <block id="f60c34a37f57ae3ef56a849aaa0f08a5" category="paragraph">建議您先備份Unified Manager資料庫、再增加資料目錄的大小。</block>
   <block id="48119366a562ece2021206f4318b9cec" category="list-text">以root使用者身分登入您要新增磁碟空間的Linux機器。</block>
   <block id="7c10df30829eeed0abe43e38102c2b9e" category="list-text">建立具有足夠磁碟空間的暫用備份資料夾（例如：「/backup-data」）、以將資料包含在目前的「/opt/NetApp/data」目錄中。</block>
@@ -1510,10 +1482,8 @@
   <block id="bace11e5488e2c75bea04f37e42f9abb" category="paragraph">下次授權的遠端使用者嘗試存取Unified Manager圖形介面時、他們會在新的IDP登入頁面中輸入其認證資料、而非在舊的IDP登入頁面中輸入認證資料。</block>
   <block id="166019a1b30f1eef3de504d56cb45235" category="summary">有時候、您可能想要變更已安裝Unified Manager的系統主機名稱。例如、您可能想要重新命名主機、以便更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。</block>
   <block id="e8e6bc98665ea91f9a9ff78b67040250" category="doc">變更Unified Manager主機名稱</block>
-  <block id="304fa80392df9536168028f6ea4270fd" category="paragraph">變更主機名稱所需的步驟各不相同、視Unified Manager是在VMware ESXi伺服器、Red Hat或CentOS Linux伺服器或Microsoft Windows伺服器上執行而定。</block>
   <block id="0903b892b2517fc81f566da0361a722d" category="summary">基於安全考量、您必須在完成安裝程序之後、立即變更Unified Manager umadmin使用者的預設密碼。如有必要、您可以稍後再變更密碼。</block>
   <block id="0d0dbdd15373a512b5ad764c31c14448" category="doc">變更Linux系統上的umadmin密碼</block>
-  <block id="947e7f7c85438565ab5723a4cbf0f40f" category="list-text">Unified Manager必須安裝在Red Hat Enterprise Linux或CentOS Linux系統上。</block>
   <block id="7e7b0c7193e91b67f7619a5737923405" category="list-text">您必須擁有安裝Unified Manager的Linux系統的root使用者認證資料。</block>
   <block id="4ed24b4bf9a37eff2e94b6f84fa2d1a0" category="list-text">以root使用者身分登入執行Unified Manager的Linux系統。</block>
   <block id="eb8b5f674e4fc0862c6ed51ef3f91920" category="list-text">變更umadmin密碼：</block>
@@ -1695,7 +1665,6 @@
   <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。</block>
   <block id="b93026ef2c8f10abfe6efe1204c0030e" category="summary">「網路組態」功能表可讓您管理網路設定。當Unified Manager使用者介面無法使用時、您應該使用此功能表。</block>
   <block id="7368969355469ec0e98eead74df06e3b" category="doc">網路組態功能表</block>
-  <block id="35a1ccd65caaa020b2f53e0029846b48" category="paragraph">如果Unified Manager安裝在Red Hat Enterprise Linux、CentOS或Microsoft Windows上、則無法使用此功能表。</block>
   <block id="c59f9b3ad21c84616cb2d501683039cc" category="paragraph">下列功能表選項可供使用。</block>
   <block id="e9ca2f71b4ce7f335773a3349b7c0f59" category="list-text">*顯示IP位址設定*</block>
   <block id="844ab8e1a61da85e28000a9c38066614" category="paragraph">顯示虛擬應用裝置目前的網路設定、包括IP位址、網路、廣播位址、網路遮罩、閘道、 和DNS伺服器。</block>
@@ -1792,9 +1761,7 @@
   <block id="4ffdd3b739d2b10bed518fda3f08e253" category="paragraph">下次授權的遠端使用者嘗試存取Unified Manager圖形介面時、他們會在IDP登入頁面中輸入其認證資料、而非在Unified Manager登入頁面中輸入認證資料。</block>
   <block id="c1d74022648b86f70cbdd0ec625ed157" category="paragraph">如果尚未完成、請存取IDP並輸入Unified Manager伺服器URI和中繼資料、以完成組態。</block>
   <block id="76494b592476ffaecfe45efcef46e516" category="paragraph">使用ADFS做為身分識別供應商時、Unified Manager GUI不會遵守ADFS逾時、會繼續運作、直到Unified Manager工作階段逾時為止。您可以按一下*一般*&gt;*功能設定*&gt;*無活動逾時*來變更GUI工作階段逾時。</block>
-  <block id="16bf144be19d55a02cae1375a83dfd6a" category="summary">維護使用者是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager時建立。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。</block>
   <block id="d84f20522f498cc7a6ae799804c6f34b" category="doc">維護使用者的功能</block>
-  <block id="22c6d7b448ccefdfeb1243305c226a99" category="paragraph">維護使用者是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager時建立。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。</block>
   <block id="efda670c67789e92e3014018aaa67999" category="paragraph">維護使用者或umadmin使用者也可以存取Unified Manager維護主控台。</block>
   <block id="fab41e9ef314e732a9597c043a1badc6" category="summary">角色型存取控制（RBAC）可讓系統管理員透過定義角色來管理使用者群組。如果您需要將特定功能的存取權限限制在所選的系統管理員、則必須為他們設定系統管理員帳戶。如果您想要限制系統管理員可以檢視的資訊及其可執行的作業、您必須將角色套用至您所建立的系統管理員帳戶。</block>
   <block id="7da198f282c84c377df6baa2894512ef" category="doc">以角色為基礎的存取控制功能</block>
@@ -2586,11 +2553,9 @@
   <block id="0ff278b9f9cf51a445b0a588d858a62a" category="list-text">*選用：*從「最小詳細資料」對話方塊中按一下「*檢視相關項目*」、即可檢視與磁碟區相關的物件。</block>
   <block id="d315718e318a7be7ad37473a312a1af2" category="inline-link-macro">建立報告以檢視可用的Volume容量圖表</block>
   <block id="00d7e1662e9b95a42822f0d6ac5f9d93" category="paragraph"><block ref="00d7e1662e9b95a42822f0d6ac5f9d93" category="inline-link-macro-rx"></block></block>
-  <block id="5fddd99dae082074459eed58deb956df" category="summary">如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager資料庫還原至本機或遠端的Red Hat Enterprise Linux或CentOS系統。</block>
   <block id="5ab98680addff27420187a6d61714bfb" category="doc">還原Linux系統上的MySQL資料庫備份</block>
   <block id="021ffe78a0b7990fcf51bd3877863f8b" category="list-text">您必須擁有安裝Unified Manager的Linux主機的root使用者認證資料。</block>
   <block id="26fa727e722c0fb54e169c77a3207110" category="paragraph">建議您將備份檔案複製到預設目錄/"data/ocum"備份。必須將資料庫儲存庫檔案複製到/'ocum-backup'目錄下的/'datdatabase-dump -repo'子目錄。</block>
-  <block id="8691d0b1f8a11815aaa4653990f0c452" category="paragraph">還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。您可以將Linux備份檔案或虛擬應用裝置備份檔案還原至Red Hat Enterprise Linux或CentOS系統。</block>
   <block id="19c8fe25212ec2fea3bf923acb7529ea" category="paragraph">如果備份資料夾名稱包含空格、您必須在雙引號中包含絕對路徑或相對路徑。</block>
   <block id="6dab4a22026046a1cce46cf4e8f8e917" category="summary">如果您想要變更Active IQ Unified Manager 您的支援系統的備份類型、可以使用維護主控台選項。「Unconfigure NetApp Snapshot Backup」（取消設定NetApp Snapshot備份）選項可讓您回復至MySQL型備份。</block>
   <block id="c00e0a79e3a4f68a3448b0ba8cb107e8" category="doc">修改備份類型</block>
@@ -2635,7 +2600,6 @@
   <block id="3115b862dc7527d6571bb99514b51705" category="list-text">輸入「vol.」值。</block>
   <block id="897560ad797d0527dd90ae2a25f3f6c1" category="list-text">按一下*新增條件*。</block>
   <block id="526f3babfb80ef8fb5f7945a466810bb" category="list-text">重複步驟8到10、在步驟8中選取*資料優先順序*作為運算元、在步驟9中選取*是*作為運算子、而在步驟10中選取*關鍵任務*作為值。</block>
-  <block id="683db528db87f79cfc80e3b7bd8cb8f4" category="summary">如果您想要變更執行Unified Manager的主機作業系統、可以將Unified Manager MySQL資料庫傾印備份從虛擬應用裝置還原至Red Hat Enterprise Linux或CentOS Linux系統。</block>
   <block id="78a4b48e7cdb9b97aa7767907cc7567d" category="doc">將Unified Manager虛擬應用裝置移轉至Linux系統</block>
   <block id="5c96c912b91fd84d629dedfd84808218" category="list-text">在虛擬應用裝置上：</block>
   <block id="5b0abf47eb00598fbcf61f37f67408db" category="list-text">您必須知道Unified Manager維護使用者的名稱、才能進行還原作業。</block>
@@ -2643,7 +2607,6 @@
   <block id="aa8a0d3c4fca5b51aba7b62e5d957e12" category="list-text">此伺服器上的Unified Manager版本必須與使用備份檔案的虛擬應用裝置版本相同。</block>
   <block id="5c7df9ba2c5c2c63b0b7dae110f7a530" category="list-text">安裝後、請勿啟動UI或在Linux系統上設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。</block>
   <block id="7d15b42d5091522573483414e70f81ee" category="list-text">您必須擁有Linux主機的root使用者認證資料。</block>
-  <block id="9814ee6855b1cfab60ac85c923f3ad40" category="paragraph">這些步驟說明如何在虛擬應用裝置上建立備份檔案、將備份檔案複製到Red Hat Enterprise Linux或CentOS系統、然後將資料庫備份還原到新系統。</block>
   <block id="a8309f454eaa15298988daf7d2975fba" category="list-text">在虛擬應用裝置上、按一下*管理*&gt;*資料庫備份*。</block>
   <block id="ae77a5f6129eb97dc319499c4d98701e" category="list-text">將備份路徑變更為/ch監獄/支援。</block>
   <block id="1ba9a78a09f448c5e6b62d1046aa8339" category="list-text">在「排程」區段中、選取*排程為每日*、然後輸入超過目前時間數分鐘的時間、以便很快建立備份。</block>
@@ -3090,7 +3053,6 @@
   <block id="8887a9a417a1629326acdb917d224337" category="paragraph">VMware vSphere</block>
   <block id="ed36a1ef76a59ee3f15180e0441188ad" category="paragraph">任何</block>
   <block id="1e689a2a7ce5b6644b07f1ddcd179b60" category="paragraph">Unified Manager虛擬應用裝置的VMware快照</block>
-  <block id="78e45205773ca59c9a67f8ef0bad8634" category="paragraph">Red Hat Enterprise Linux或CentOS Linux</block>
   <block id="2660064e68655415da2628c2ae2f7592" category="paragraph">小</block>
   <block id="0a84f2b9dc492d8f86ed57a8ca0e8579" category="paragraph">Unified Manager MySQL資料庫傾印</block>
   <block id="3a69b34ce86dacb205936a8094f6c743" category="paragraph">大</block>
@@ -10864,7 +10826,6 @@
   <block id="11e1b3755b142a082c6c226b589a4ea6" category="paragraph">「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp/data -o context=system_u:object_r:mysqld_db_t:s0」</block>
   <block id="613745ec62ddcebb7c0ec2f29c362910" category="list-text">如果您已在「etc/stabs」中設定「/opc/netapp」、請編輯「etc/stabs」檔案。對於「/opt/netapp/」掛載選項、請將MySQL標籤新增為：「context=system_u:object_r:mysqld_db_t:s0」</block>
   <block id="3ee408ca1ea10d7387d490dc700a0356" category="list-text">如果您有直接NFS掛載、請執行下列命令、將內容設定為「mysqld_db_t」：「安裝&lt;nfsshare&gt;//&lt;mountpoint&gt;/opt/netapp -o context=system_u:object_r:mysqld_db_ts0」</block>
-  <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">基於x86_64架構的CentOS 7.x版。不支援CentOS串流。</block>
   <block id="0fbcaf1888cb0fd21b1de45da9705406" category="paragraph">「Udo systemcl STATUS ocie」</block>
   <block id="aab338915e32b60e92c8de3a23aa5c5d" category="list-text">作業系統</block>
   <block id="21fae6ca9851125bcb8a2ae0fceec434" category="list-text">Microsoft Windows Server 2019標準版與資料中心版</block>
@@ -11143,7 +11104,6 @@
   <block id="8eb7c975105334e9a925e8d0ae7bea1f" category="paragraph">您可以使用ONTAP 「更新快照系統管理程式」或ONTAP 「更新CLI」刪除舊的快照、以便隨時有新的Snapshot複本空間。</block>
   <block id="fbd8791f9c18f8663521f8eeaa9d956a" category="summary">在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。</block>
   <block id="39127dab30a1b4106495040a421b4171" category="list-text">如果您發現遞增備份檔案的數量對於配置用於備份的空間而言太大、您可以定期進行完整備份、以取代舊的備份及其遞增檔案。另一個選項是使用Snapshot複本進行備份。</block>
-  <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能適用於Red Hat Enterprise Linux、CentOS Linux系統和Windows。</block>
   <block id="0dacdc1f422539593cbb5a203b591b4c" category="summary">若要Active IQ Unified Manager 使用Snapshot複本進行支援、您應該從維護主控台執行幾個組態步驟。</block>
   <block id="154bdb7f32d3fbfa903876b55692d782" category="doc">從維護主控台設定Snapshot複本備份</block>
   <block id="e0075eac991ceb7545f11e534f56b9c5" category="paragraph">如果您要變更備份組態、請輸入3以選擇*更新NetApp Snapshot Backup Configuration *。您只能更新密碼。</block>
@@ -11220,7 +11180,6 @@
   <block id="fef46e5063ce3dc78b8ae64fa474241d" category="list-text">結束</block>
   <block id="1402547c38db13164f3e84c70829014c" category="paragraph">您可以從清單中選取號碼、以存取特定功能表選項。例如、對於備份與還原、您選取_4_。</block>
   <block id="6a15e84b6adbe11eb55d82299e774cbe" category="paragraph">如果您選取了「*使用ARTTLS*或*使用SSL*」選項、在您按一下「*繼續*」按鈕之後、就會顯示一個憑證頁面。確認憑證詳細資料、並接受憑證、以繼續進行Web UI的初始設定。</block>
-  <block id="19f3983d76a808518e303e508d081da2" category="list-text">在Red Hat和CentOS系統上、將umadmin使用者密碼從預設的「admin」字串變更為個人化字串。</block>
   <block id="1f7bd7c38e27d75e66170a9a0be63715" category="inline-link-macro">產生HTTPS憑證</block>
   <block id="2aa954b2935824627e6c42480f94754f" category="paragraph">如需詳細資訊、請參閱 <block ref="547ae934cb11407c6df5ad9e949dc395" category="inline-link-macro-rx"></block>。</block>
   <block id="0decaf986dd498a9d3e37009174e78f0" category="list-text">若要啟用或停用ONTAP 您的還原叢集的自訂設定、請在*叢集*下選取所需的一般設定。如需自訂叢集規範選項的相關資訊、請參閱 <block ref="5aa9cd48646da2cc75a2c90758b75e4e" category="inline-link-macro-rx"></block>。</block>
@@ -11607,7 +11566,6 @@
   <block id="c19fa085277d0020749e2ca183d8458c" category="list-text">在可存取網際網路的系統上、下載遺失的套件：</block>
   <block id="6832f4bc398b76292b7e5559a3b1958b" category="list-text">將遺失的套件從網際網路連線系統複製到安裝系統。</block>
   <block id="0f1cdbdd6181cdbfe338bec6a4f98efc" category="paragraph">存取Web UI以變更umadmin使用者的預設密碼、並執行Unified Manager的初始設定、如所述 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。必須變更umadmin使用者的預設密碼。</block>
-  <block id="db6a2ba9b6dd90580e43a04b8a24b542" category="paragraph">Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程式。無論是在Red Hat Enterprise Linux或CentOS系統上安裝Unified Manager、都可使用Epel儲存庫。</block>
   <block id="5775389946e13ce353e1d4d1ed29e9a7" category="list-text">為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。NetApp建議您從移除備份檔案<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 目錄至外部位置。</block>
   <block id="0e0993ac616dc62e066f638ea90c25bc" category="list-text">在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會在6個月後清除歷史效能資料。</block>
   <block id="309030759c9484501fe1396ced786a0f" category="paragraph">如果您的站台在升級期間偵測到任何遺失的套件、或您的系統未連線至網際網路、或您未使用Red Hat Enterprise Linux儲存庫、請執行下列步驟、判斷您是否遺漏任何必要的套件、然後下載這些套件。</block>
@@ -11653,7 +11611,6 @@
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">可讓您產生新的自我簽署HTTPS憑證、取代目前的安全性憑證。重新啟動Unified Manager之後、新的憑證即會生效。</block>
   <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">VMware安裝的快速入門指示</block>
   <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">您可以下載<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根憑證的檔案：a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 檔案、和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 將Unified Manager部署為虛擬應用裝置。</block>
-  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
   <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">適用於Windows平台Unified Manager的快速入門指南。</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。</block>
   <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">檢視SMB或CIFS共用的詳細資料</block>
@@ -11832,36 +11789,26 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">在 * 移除 VCenter * 訊息對話方塊中、按一下 * 確定 * 以確認移除要求。</block>
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">您可以從 Web UI 新增叢集、並自動啟用憑證型驗證。</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">您可以透過 Unified Manager CLI 新增叢集、預設不會啟用憑證型驗證。如果您使用 Unified Manager CLI 新增叢集、則必須使用 Unified Manager UI 來編輯叢集。您可以看到 <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> 使用 Unified Manager CLI 新增叢集。</block>
-  <block id="ebf8b785aaf01b6034ce9adda67a51c9" category="paragraph">您可以下載並執行 Windows 平台上的安裝檔案、將 Unified Manager 9.12 或 9.13 升級至 9.14 。</block>
   <block id="4d5180c5e0db12f69692d5e800ed5b61" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.34 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.34 。您不得執行從舊版 MySQL 到 8.0.34 的獨立式升級。</block>
   <block id="f40472cbd758b6598c019a5411b70a20" category="list-text">MySQL Community Edition 8.0.34 版</block>
   <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
   <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK 11.0.20 版</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip 版本 23.01 或更新版本</block>
-  <block id="9bbfe0d422adb66f304c54f3a069e88e" category="list-text">MySQL Community Edition 8.0.34 版（來自 MySQL 儲存庫）。</block>
-  <block id="127ae3963ea9ca262d43af6b6d82938e" category="list-text">OpenJDK 11.0.21 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
-  <block id="70f9b1502d4d74c5b86a102e5ed80559" category="paragraph">您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.12 或 9.13 升級至 9.14 。</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.34 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.34 。</block>
   <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDK 11.0.21 版</block>
   <block id="237a41f447fb75307052080892e14e7c" category="paragraph">MySQL 8.0.34 Community Edition</block>
   <block id="f98499a614ee3e46a1d64724ab7c8d2e" category="list-text">如果安裝的 MySQL 版本早於 MySQL 8.0.34 Community Edition 、請輸入下列命令將其解除安裝：</block>
   <block id="80bdec6524a5d6db6b1fc5272cd81192" category="paragraph">您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.12 版或 9.13 版升級至 9.14 版。</block>
   <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">作業系統： VMware ESXi 7.0 和 8.0</block>
-  <block id="6466627cb684cdb56ba1cf34674cb157" category="paragraph">您只能從 9.12 或 9.13 版升級 Active IQ Unified Manager 至 9.14 版。</block>
   <block id="6e6893b593d627add14e7a987c9dea2d" category="inline-link">Active IQ Unified Manager 9.14 注意事項</block>
   <block id="4b72586187e7bd694fd5d9d2189fcc3f" category="paragraph"><block ref="4b72586187e7bd694fd5d9d2189fcc3f" category="inline-link-rx"></block></block>
-  <block id="0997083083f2361f4c2adc06c0b5ed3f" category="paragraph">並非所有版本的Unified Manager都能就地升級至更新版本。Unified Manager升級僅限於N-2模式、表示只能在所有平台的下兩個版本中執行升級。例如、您只能從 Unified Manager 9.12 和 9.13 升級至 Unified Manager 9.14 。</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">例如、如果您安裝的版本為 Unified Manager 9.9 、而您想要升級至 Unified Manager 9.14 、則必須遵循一系列的升級程序。</block>
-  <block id="654876715410c0348ac7ed5f44c94fbd" category="list-text">升級 9.9 -&gt; 9.11</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">升級 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">升級 9.13 -&gt; 9.14</block>
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">Graphite 伺服器無法從 Unified Manager 接收 Volume 的效能資料。</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">如果叢集執行 ONTAP 9.14.1 版或更新版本、則無法使用監控節點根磁碟區的功能。</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">如果叢集執行 ONTAP 9.14.1 版或更新版本、則無法使用監控節點根集合體的功能。</block>
-  <block id="441086e2201fd8009f10645bc596350a" category="paragraph">例如、如果您在 Unified Manager 9.14 上建立備份、則只能在 Unified Manager 9.14 系統上還原備份。</block>
-  <block id="275a2c821ec95f125eba6f161f16904e" category="summary">提供 Active IQ Unified Manager 9.14 的新功能、限制和已知問題摘要。</block>
   <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">如需詳細資訊、請參閱<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block>。</block>
-  <block id="9f4289041fd7d66e1eddd2b4aadc4764" category="sidebar">Active IQ Unified Manager 9.14 文件</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。由於公司法規、 Linux 系統上可能會安裝 Qualys 等弱點掃描工具。安裝 Unified Manager 之前、您應該先停用弱點掃描程式、以避免安裝失敗。</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager 無法安裝外部產生的憑證</block>
   <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">如果憑證安裝失敗、請參閱知識庫（ KB ）文章：
@@ -11900,7 +11847,6 @@
   <block id="2e112a6ed41642ec6cb0dbac26f29548" category="paragraph">如需 SnapMirror 主動同步的相關資訊、請參閱 <block ref="e7cb3673e0f365a4cb1a8a44c94d6d2b" category="inline-link-macro-rx"></block>。</block>
   <block id="fcec3d8aa2186fbec2ebbc509e88c291" category="paragraph">如果叢集不支援 SnapMirror 主動同步。</block>
   <block id="f9c3a8b68e3ce1dccddf9f51467e0ed0" category="paragraph">在自訂檢視中、當您按一下節點名稱連結時、您可以檢視及延伸儲存物件的保護、這些一致性群組的磁碟區屬於 SnapMirror 主動式同步關係。</block>
-  <block id="caa95aca5250c088d52caa9487a3b38b" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.14 版的資訊。</block>
   <block id="708a6bf1917c1011b1d2553f25152c66" category="sidebar">Active IQ Unified Manager 文件</block>
   <block id="c50bf6bfca8b1d41d2fe74e1b66c927d" category="sidebar">產品總覽</block>
   <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">版本資訊</block>
@@ -11968,11 +11914,79 @@
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">儲存 VM 已停止（ ocumEvtVserverDown ）</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">磁碟區延遲嚴重臨界臨界臨界值已違反（ ocumVolume LatencyIncident ）</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">磁碟區延遲警告臨界值已突破（ ocumVolume LatencyWarning ）</block>
-  <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">作業系統： Red Hat Enterprise Linux 7.x 版和 8.0 版至 8.9 版、或 CentOS 7.x 版（以 x86_64 架構為基礎）、安裝時使用 OS 安裝程式 * Software Selection* 選項的「 Server with GUI 」基礎環境</block>
-  <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">Red Hat Enterprise Linux 7.x 版和 8.0 至 8.9 版、以 x86_64 架構為基礎。</block>
   <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.9 。</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="inline-link-macro">Active IQ Unified Manager</block>
   <block id="04bf06d7ddd618e01f3388a565561c94" category="paragraph">如需 Active IQ Unified Manager REST API 優點的其他資源和詳細資料、請參閱<block ref="08ef7b83d66900e05791163681900cc0" category="inline-link-macro-rx"></block>。</block>
   <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">Unified Manager 管理資訊庫（ MIB ）</block>
   <block id="cda417ab3ce8513849242e7fb90f668c" category="sidebar">Unified Manager 資料庫架構</block>
+  <block id="84f1453e00902cf14e28a64b61cac9e8" category="paragraph">視 Unified Manager 是在 VMware ESXi 伺服器， Red Hat 伺服器或 Microsoft Windows 伺服器上執行而定，將容量新增至資料目錄所需的步驟會有所不同。</block>
+  <block id="2a5129ebe6b5dc34b957c83a73eb711b" category="paragraph">根據 Unified Manager 是在 VMware ESXi 伺服器， Red Hat Linux 伺服器或 Microsoft Windows 伺服器上執行，變更主機名稱所需的步驟會有所不同。</block>
+  <block id="66e2670683df3625173edd7d8c448cc5" category="summary">維護使用者是在 Red Hat Enterprise Linux 系統上安裝 Unified Manager 的過程中建立的。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。</block>
+  <block id="c018578cad8e79727cbd716c87816ba4" category="paragraph">維護使用者是在 Red Hat Enterprise Linux 系統上安裝 Unified Manager 的過程中建立的。維護使用者名稱為「umadmin」使用者。維護使用者在Web UI中具有應用程式管理員角色、而且該使用者可以建立後續的使用者並指派角色。</block>
+  <block id="90306e6d8bec17a4aa414c3b49fc97a1" category="paragraph">在Unified Manager初始組態期間建立。然後維護使用者會建立其他使用者並指派角色。維護使用者也是唯一能夠存取維護主控台的使用者。當 Unified Manager 安裝在 Red Hat Enterprise Linux 系統上時，維護使用者會被指定為使用者名稱「 'umadmin. 」。</block>
+  <block id="787745b08e130376847aaf8076a1f0bb" category="paragraph">如果 Unified Manager 安裝在 Red Hat Enterprise Linux 或 Microsoft Windows 上，則無法使用此功能表。</block>
+  <block id="e14435cdda06c693be46fdc864d9c0ba" category="paragraph">您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 機器。</block>
+  <block id="88576ff30b526473e807acfa54b551da" category="summary">有時候，您可能會想要變更已安裝 Unified Manager 的 Red Hat Enterprise Linux 機器的主機名稱。例如、您可能想要重新命名主機、以便在列出Linux機器時、更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。</block>
+  <block id="68b83dc3865ac50b91b1f285515dacac" category="list-text">Unified Manager 必須安裝在 Red Hat Enterprise Linux 系統上。</block>
+  <block id="dd03a1649bb05c7360d98948f44cfefb" category="list-text">在 Red Hat 系統上，將 umadmin 使用者密碼從預設的「 admin 」字串變更為個人化字串。</block>
+  <block id="61708433127f9669b4c4dcd885e32bd1" category="paragraph">當Unified Manager安裝在Linux和Windows伺服器上時、MySQL資料庫傾印是預設的備份機制。不過、如果Unified Manager管理大量的叢集和節點、或是MySQL備份需要花費許多小時才能完成、您可以使用Snapshot複本進行備份。此功能可在 Red Hat Enterprise Linux 和 Windows 上使用。</block>
+  <block id="e113df7a73739f539d99696d9ba17b0f" category="paragraph">例如、如果您在 Unified Manager 9.16 上建立備份、則只能在 Unified Manager 9.16 系統上還原備份。</block>
+  <block id="c73bbd3786350b0a8d3577d82afdf489" category="cell">Red Hat Enterprise Linux</block>
+  <block id="5cdc7fbfe47ee53567173e2347002931" category="summary">如果您想要變更執行 Unified Manager 的主機作業系統，可以將 Unified Manager MySQL 資料庫傾印備份從虛擬應用裝置還原至 Red Hat Enterprise Linux 系統。</block>
+  <block id="80c0e5954f43a003732f627aa714d0ba" category="paragraph">這些步驟說明如何在虛擬應用裝置上建立備份檔案，將備份檔案複製到 Red Hat Enterprise Linux ，然後將資料庫備份還原到新系統。</block>
+  <block id="edcc27dfa2babd51a3fff403b7a9648f" category="summary">如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。</block>
+  <block id="d4a1f040c6ae8fc8055406e6c1088dc3" category="paragraph">還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。您可以將 Linux 備份檔案或虛擬應用裝置備份檔案還原至 Red Hat Enterprise Linux 系統。</block>
+  <block id="7878363566bdf1e42ef29b508e7efd0a" category="paragraph">並非所有版本的Unified Manager都能就地升級至更新版本。Unified Manager升級僅限於N-2模式、表示只能在所有平台的下兩個版本中執行升級。例如、您只能從 Unified Manager 9.13 和 9.14 升級至 Unified Manager 9.16 。</block>
+  <block id="7cba1889e91d112690c9b0bb331921f3" category="list-text">升級 9.14 -&gt; 9.16</block>
+  <block id="e754eaee627c4c495a8f9e875a6aa369" category="paragraph">Unified Manager 可以安裝在 Red Hat Enterprise Linux 伺服器上。安裝Unified Manager的Linux伺服器可以在實體機器上執行、也可以在執行VMware ESXi、Microsoft Hyper-V或Citrix XenServer的虛擬機器上執行。</block>
+  <block id="8192d7307322bd1b2e1a89d7412df1e8" category="doc">在 Red Hat Enterprise Linux 上升級 Unified Manager</block>
+  <block id="18629771c969f7f42368dc78392ae8e3" category="paragraph">您可以下載安裝套件，並在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。</block>
+  <block id="3453ffbc5ea5b3c365c529d068354752" category="list-text">作業系統： Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎，使用作業系統安裝程式 * 「軟體選擇 * 」選項的「伺服器與 GUI 」基礎環境進行安裝</block>
+  <block id="0eb53ffb9a066b094d63bdc9faca6299" category="paragraph">設定 Red Hat Enterprise Linux 儲存庫的程序是站台專屬的。您可以使用<block ref="f8d0fa0cfc0621d2f0aed1c9cff6dbd7" prefix=" " category="inline-code"></block>安裝套件中的指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路，您會自動收到設定 Red Hat Enterprise Linux 儲存庫的指示。</block>
+  <block id="e5dd8eb1250cd5bf8660d74e14630b37" category="paragraph">Unified Manager 會使用<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱<block ref="887f105f01fac7bb71b14faabb48492b" category="inline-link-macro-rx"></block>。</block>
+  <block id="23cfeac52480309971264aa09fff1e5c" category="paragraph">用於存取 Red Hat Enterprise Linux 命令列並擷取支援套件組合。</block>
+  <block id="8ecbdb958fb5010c6b8554b89ef94c91" category="list-text">Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎。</block>
+  <block id="8116d13be18a3c1985b5ec2bcca6e6b8" category="paragraph">請參閱互通性對照表，以取得支援的 Red Hat Enterprise Linux 版本完整且最新的清單。</block>
+  <block id="5d27f8ee1e7345d6c9fcd7f45e35839a" category="list-text">MySQL Community Edition 8.0.37 版（來自 MySQL 儲存庫）。</block>
+  <block id="4f42ca7978769985956ce6013be764fa" category="list-text">OpenJDK 11.0.23 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
+  <block id="c9d7b9477eeb41734247c3ab76f43612" category="paragraph">以下列出在系統上安裝 Red Hat Enterprise Linux 和相關儲存庫的最佳實務做法。安裝或設定不同的系統、或是部署在異地（雲端）、可能需要額外的步驟、而Unified Manager可能無法在這類部署中正常運作。</block>
+  <block id="144af2f694100b11aacfba86176c84c6" category="list-text">您必須根據 Red Hat 最佳實務做法來安裝 Red Hat Enterprise Linux ，並應選取下列預設選項，這需要選取「使用 GUI 伺服器」基礎環境。</block>
+  <block id="72d3491b5c272221309ab01fddcf95e5" category="list-text">在 Red Hat Enterprise Linux 上安裝 Unified Manager 時，系統必須能夠存取適當的儲存庫，以便安裝程式能夠存取及安裝所有必要的軟體相依性。</block>
+  <block id="612f0dee738eefd3f5bfdaf5aea5b818" category="paragraph">如果您的系統無法存取網際網路、而且儲存庫並未從連線至未連線系統的網際網路連線系統鏡射到未連線的系統、則應遵循安裝指示來判斷系統的外部軟體相依性。然後，您可以將必要的軟體下載到連線網際網路的系統，並將檔案複製<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>到您計畫安裝 Unified Manager 的系統。若要下載成品和套件，您必須使用<block ref="9fa25f81acff57476f5fb1f42e33c58b" prefix=" " category="inline-code"></block>命令。您必須確保兩個系統執行相同的作業系統版本，且訂閱授權適用於適當的 Red Hat Enterprise Linux 。</block>
+  <block id="18b73cb949453e3378153b499994f9ab" category="paragraph">Red Hat Enterprise Linux 的一般映像可能會封鎖連接埠 443 的外部存取。由於此限制、您可能無法在安裝Unified Manager之後連線至系統管理員Web UI。執行下列命令可讓一般 Red Hat Enterprise Linux 上的所有外部使用者和應用程式存取連接埠 443 。</block>
+  <block id="cb152fca9de42934c53ead281bd7b657" category="paragraph">您必須安裝 Red Hat Enterprise Linux 搭配「 Server with GUI 」基礎環境。它提供Unified Manager安裝說明所使用的命令。其他基礎環境可能需要您安裝額外的命令來驗證或完成安裝。如果系統上沒有可用的<block ref="80ecb2f0ac57b6a2e1d21635c13b39c9" prefix=" " category="inline-code"></block>，您必須執行下列命令來安裝：</block>
+  <block id="e0438fef8764725f42c44941c4536603" category="paragraph">應在 Red Hat 系統上停用 THP （透明的大頁面）。啟用時、在某些情況下、當某些程序耗用過多記憶體並終止時、可能會導致Unified Manager關機。</block>
+  <block id="5d6f47f8005b078134de9bc6d5e6e464" category="summary">當您在 Red Hat Enterprise Linux 上安裝 Unified Manager 時， Unified Manager 和協力廠商公用程式會建立下列使用者： umadmin ， jboss 和 mysql 。</block>
+  <block id="40df8001f2d61c652b18a61cec5ccf47" category="list-text">您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 系統。</block>
+  <block id="fab2dde7766736e02187fe74ca95de47" category="list-text">您必須能夠以 root 使用者身分登入 Red Hat Enterprise Linux 系統。</block>
+  <block id="94698287994503673e83a7517936845a" category="paragraph">您可以下載 Red Hat Enterprise Linux 系統的 Unified Manager 安裝套件。</block>
+  <block id="6f6401c673572a401c1aacfce18c35f7" category="summary">您可以在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。</block>
+  <block id="83c79f0e3a23228a9a952ff8c6f36282" category="paragraph">Red Hat Enterprise Linux 系統可能已安裝所需支援軟體（ Java ， MySQL ，其他公用程式）的所有必要版本，只安裝部分必要軟體，或是新安裝的系統，但未安裝任何必要軟體。</block>
+  <block id="32343a21e5350ad76fbf704c93be7f77" category="paragraph">請勿使用替代命令（例如）嘗試安裝<block ref="915c2afe09a8946279256e830986d649" prefix=" " category="inline-code"></block>。若要在 Red Hat Enterprise Linux 系統上成功安裝 Unified Manager ，則必須以特定順序將所有 Unified Manager 檔案和相關檔案安裝到特定目錄結構中，該目錄結構是由命令自動強制執行的<block ref="17080afa1d26c567e79f62623cee1998" prefix=" " category="inline-code"></block>。</block>
+  <block id="364d69b10c65b299e072da4d954b11dc" category="paragraph">Epel儲存庫可讓您存取系統上必須安裝的必要協力廠商公用程式。您可以使用 EPEL 儲存庫在 Red Hat Enterprise Linux 系統上安裝 Unified Manager 。</block>
+  <block id="25a260fdf4775a6114809137dcfe69b2" category="summary">只需單一命令，即可從 Red Hat Enterprise Linux 主機停止 Unified Manager 並解除安裝。</block>
+  <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 伺服器。</block>
+  <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.13 或 9.14 升級至 9.16 。</block>
+  <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">登入目標 Red Hat Enterprise Linux 伺服器。</block>
+  <block id="1af6d75cb215145d2b721ba6d31196de" category="paragraph">您只能從 9.12 或 9.13 版升級 Active IQ Unified Manager 至 9.16 版。</block>
+  <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">支援所有叢集， ASA R2 系統除外。</block>
+  <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">將 Unified Manager Windows 安裝檔案或 zip 檔案下載至 Windows 系統上的目標目錄。</block>
+  <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">視需要解壓縮 zip 檔案，然後瀏覽至安裝檔案所在的目錄。</block>
+  <block id="c42aef995ff40406a5f5bd4e18b841c5" category="summary">如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visual C++ 。</block>
+  <block id="56dbc68f0c7475df0de34c7dd89c2825" category="doc">解除安裝協力廠商產品</block>
+  <block id="6e0f8dcf3bf0d57785709c49aa46d41b" category="paragraph">升級 Unified Manager 之後，您可以解除安裝第三方產品，例如 Python 或 Microsoft Visual C++ 2013 。這是選用的。</block>
+  <block id="ddab83795dbfe5bc8da7ff01ac174d21" category="section-title">正在解除安裝 Python</block>
+  <block id="a49f65adc5b5fb777c87058a91fd08a1" category="list-text">從 * 「控制台」 * 選取 * 「程式集」 * &gt; * 「程式與功能」 * 。</block>
+  <block id="2135c569ee3f102b46d835b22fa7351c" category="list-text">從程式清單中選取 Python 。</block>
+  <block id="dbdaaa2bb8fb20e1cd91063d5a37652a" category="list-text">選取 * 解除安裝此程式 * 。解除安裝任何版本的 Python ，但 3.12 除外。確保您保留 Python 版本 3.12 。</block>
+  <block id="a6d811151356a27f08605bf188644a74" category="section-title">解除安裝 Microsoft Visual C++ 2013</block>
+  <block id="caeb2469208a808a920eeda5088dcda6" category="list-text">從程式清單中選取 * Microsoft Visual C++ 2013* 。</block>
+  <block id="71b577a72b6f73fe9a806351ed8340da" category="list-text">選取 * 解除安裝此程式 * 。</block>
+  <block id="f4634a4383997d2f0c9717b87d18ca7d" category="paragraph">您可以下載並執行 Windows 平台上的安裝檔案、將 Unified Manager 9.13 或 9.14 升級至 9.16 。</block>
+  <block id="33e8b626195d8e65e8a07472d5254939" category="list-text">支援所有叢集， ASA R2 系統除外。</block>
+  <block id="d2dc935b8c37a6fe50f8b17f0fb9d07d" category="list-text">將 Unified Manager Windows 安裝檔案或 zip 檔案下載至 Windows 系統上的目標目錄。視需要解壓縮 zip 檔案，然後瀏覽至安裝檔案所在的目錄。以系統管理員身分按一下滑鼠右鍵並執行Unified Manager安裝程式執行檔（.exe）。</block>
+  <block id="c20b138346f9f2fa4fceb29550ec83e2" category="summary">提供 Active IQ Unified Manager 9.16 的新功能、限制和已知問題摘要。</block>
+  <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">視 Unified Manager 是在 VMware ESXi 伺服器， Red Hat Linux 伺服器或 Microsoft Windows 伺服器上執行而定，將容量新增至資料目錄所需的步驟會有所不同。</block>
+  <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.16 版的資訊。</block>
+  <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Active IQ Unified Manager 9.16 文件</block>
 </blocks>
