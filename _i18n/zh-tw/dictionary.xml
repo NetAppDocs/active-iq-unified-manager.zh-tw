@@ -11800,15 +11800,12 @@
   <block id="f98499a614ee3e46a1d64724ab7c8d2e" category="list-text">如果安裝的 MySQL 版本早於 MySQL 8.0.34 Community Edition 、請輸入下列命令將其解除安裝：</block>
   <block id="80bdec6524a5d6db6b1fc5272cd81192" category="paragraph">您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.12 版或 9.13 版升級至 9.14 版。</block>
   <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">作業系統： VMware ESXi 7.0 和 8.0</block>
-  <block id="6e6893b593d627add14e7a987c9dea2d" category="inline-link">Active IQ Unified Manager 9.14 注意事項</block>
-  <block id="4b72586187e7bd694fd5d9d2189fcc3f" category="paragraph"><block ref="4b72586187e7bd694fd5d9d2189fcc3f" category="inline-link-rx"></block></block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">例如、如果您安裝的版本為 Unified Manager 9.9 、而您想要升級至 Unified Manager 9.14 、則必須遵循一系列的升級程序。</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">升級 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">升級 9.13 -&gt; 9.14</block>
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">Graphite 伺服器無法從 Unified Manager 接收 Volume 的效能資料。</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">如果叢集執行 ONTAP 9.14.1 版或更新版本、則無法使用監控節點根磁碟區的功能。</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">如果叢集執行 ONTAP 9.14.1 版或更新版本、則無法使用監控節點根集合體的功能。</block>
-  <block id="72ad43fc7a8d740f98987759e25205fd" category="paragraph">如需詳細資訊、請參閱<block ref="6bb46765ad444f2cca095cf3f36f15dd" category="inline-link-rx"></block>。</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。由於公司法規、 Linux 系統上可能會安裝 Qualys 等弱點掃描工具。安裝 Unified Manager 之前、您應該先停用弱點掃描程式、以避免安裝失敗。</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager 無法安裝外部產生的憑證</block>
   <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">如果憑證安裝失敗、請參閱知識庫（ KB ）文章：
@@ -11968,7 +11965,6 @@
   <block id="b71bc857cc2265ac2904750b41b56a3f" category="paragraph">您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 伺服器。</block>
   <block id="03e62ce635e27d3eae3fc7eb1fdb7d43" category="paragraph">您可以下載並執行 Linux 平台上的安裝檔案、從 Unified Manager 9.13 或 9.14 升級至 9.16 。</block>
   <block id="3066d6a2a21e06439438c95e8f0a78ab" category="list-text">登入目標 Red Hat Enterprise Linux 伺服器。</block>
-  <block id="1af6d75cb215145d2b721ba6d31196de" category="paragraph">您只能從 9.12 或 9.13 版升級 Active IQ Unified Manager 至 9.16 版。</block>
   <block id="85e1cde38f7710ac3710a0ca4b341ad5" category="list-text">支援所有叢集， ASA R2 系統除外。</block>
   <block id="a6f8396e876411d4ce52d9a1c9c7726e" category="list-text">將 Unified Manager Windows 安裝檔案或 zip 檔案下載至 Windows 系統上的目標目錄。</block>
   <block id="8f1edca040f984e1b9d6867249003ff5" category="list-text">視需要解壓縮 zip 檔案，然後瀏覽至安裝檔案所在的目錄。</block>
@@ -11989,4 +11985,8 @@
   <block id="9d8f72b258db1905ee26b8543db626af" category="paragraph">視 Unified Manager 是在 VMware ESXi 伺服器， Red Hat Linux 伺服器或 Microsoft Windows 伺服器上執行而定，將容量新增至資料目錄所需的步驟會有所不同。</block>
   <block id="7a7c62cdb283859bf82dbc6d358c3473" category="sidebar">Active IQ Unified Manager （ Unified Manager 、前身為 OnCommand Unified Manager ）可讓您從單一介面監控及管理 ONTAP 儲存系統的健全狀況與效能。此文件庫包含 9.16 版的資訊。</block>
   <block id="5d0df7caff39f371f91e7b06354eb3b0" category="sidebar">Active IQ Unified Manager 9.16 文件</block>
+  <block id="d9f6c085dd395f22b9dc3195122f05fb" category="paragraph">您只能從 9.13 或 9.14 版升級 Active IQ Unified Manager 至 9.16 版。</block>
+  <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16 注意事項</block>
+  <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
+  <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">如需詳細資訊，請參閱<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>。</block>
 </blocks>
