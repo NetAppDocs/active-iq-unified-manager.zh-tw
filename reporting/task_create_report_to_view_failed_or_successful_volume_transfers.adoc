@@ -13,8 +13,7 @@ summary: 您可以建立報告、顯示Volume Transfers的狀態。您可以在�
 [role="lead"]
 您可以建立報告、顯示Volume Transfers的狀態。您可以在此報告中檢視失敗和成功的Volume傳輸。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 
 

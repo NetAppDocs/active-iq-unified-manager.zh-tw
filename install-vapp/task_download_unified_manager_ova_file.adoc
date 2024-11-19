@@ -13,8 +13,7 @@ summary: 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Man
 [role="lead"]
 從NetApp支援網站下載Unified Manager安裝檔案、將Unified Manager部署為虛擬應用裝置。
 
-*您需要的是什麼*
-
+.開始之前
 您應該擁有NetApp支援網站的登入認證資料。
 
 安裝檔案為 `.tar` 包含根憑證的檔案：a `README` 檔案、和 `OVA` 包含為虛擬應用裝置設定的Unified Manager軟體的檔案。

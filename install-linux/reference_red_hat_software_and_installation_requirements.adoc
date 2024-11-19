@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+permalink: install-linux/reference_red_hat_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: 安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。 
@@ -41,7 +41,7 @@ Unified Manager需要下列協力廠商套件、但未隨附於其中。這些�
 
 * MySQL Community Edition 8.0.37 版（來自 MySQL 儲存庫）。
 * OpenJDK 11.0.23 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）
-* Python 3.6.x
+* Python 3.9.x （來自 Red Hat Extra Enterprise Linux Server 儲存庫）
 * p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）
 
 

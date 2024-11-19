@@ -13,8 +13,7 @@ summary: 您可以變更Unified Manager伺服器用來與驗證伺服器通訊�
 [role="lead"]
 您可以變更Unified Manager伺服器用來與驗證伺服器通訊的連接埠。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員角色。
 
 .步驟

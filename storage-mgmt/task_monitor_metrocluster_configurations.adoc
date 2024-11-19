@@ -21,8 +21,7 @@ summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題�
 
 Unified Manager會使用系統健全狀況警示來指出MetroCluster 元件的狀態、以及在整個過程中的連線能力。
 
-*您需要的是什麼*
-
+.開始之前
 * 必須將本地叢集和遠端叢集MetroCluster 的支援功能新增至Active IQ Unified Manager 支援功能。
 * 在透過IP的支援中、如果要支援「內建器」、則應使用對應的API來設定「內建器」、並將其新增至叢集。MetroCluster
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。

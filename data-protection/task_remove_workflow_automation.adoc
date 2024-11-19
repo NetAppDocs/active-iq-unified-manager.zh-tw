@@ -13,8 +13,7 @@ summary: 當您不想再使用Workflow Automation時、可以從OnCommand Workfl
 [role="lead"]
 當您不想再使用Workflow Automation時、可以從OnCommand Workflow Automation Unified Manager移除此功能的功能。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員或儲存管理員角色。
 
 .步驟

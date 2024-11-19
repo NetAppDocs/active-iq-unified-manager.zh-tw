@@ -16,8 +16,7 @@ summary: 您可以從「Volume Relationships」（磁碟區關係）頁面、針
 
 NOTE: 您無法初始化或更新受到一致性群組保護的磁碟區。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定OnCommand Workflow Automation 好「不可用」。
 

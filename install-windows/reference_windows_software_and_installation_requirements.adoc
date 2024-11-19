@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/reference_windows_software_and_installation_requirements.html 
 sidebar: sidebar 
-keywords: windows, software, installation, requirements, system 
+keywords: windows, software, installation, requirements, system, active iq unified manager 
 summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。 
 ---
 = Windows軟體與安裝需求
@@ -46,11 +46,10 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 
 下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
 
-* Microsoft Visual C&#43；&#43；2015可轉散發套件14.26.28720.3版
-* Microsoft Visual C&#43;&#43;適用於Visual Studio 2013 12.0.40660.0版的可轉散發套件
-* MySQL Community Edition 8.0.34 版
-* Python 3.11.6
-* OpenJDK 11.0.20 版
+* Microsoft Visual C&#43;&#43;適用於Visual Studio 2015的可轉散發套件14.26.28720.3版
+* MySQL Community Edition 8.0.37 版
+* Python 3.12.4
+* OpenJDK 11.0.23 版
 * p7zip 版本 23.01 或更新版本
 
 

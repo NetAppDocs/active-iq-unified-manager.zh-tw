@@ -13,8 +13,7 @@ summary: 您可以使用「健全狀況：所有Volume」檢視、為SnapVault �
 [role="lead"]
 您可以使用「健全狀況：所有Volume」檢視、為SnapVault 同一個儲存VM上的一或多個磁碟區建立不一致的關係、以便進行資料備份以保護資料。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation。
 

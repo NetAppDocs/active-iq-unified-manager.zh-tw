@@ -13,8 +13,7 @@ summary: Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可�
 [role="lead"]
 Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝後視安全性需求加以變更。HTTP預設連接埠為80、HTTPS預設連接埠為443。
 
-*您需要的是什麼*
-
+.開始之前
 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 
 [NOTE]

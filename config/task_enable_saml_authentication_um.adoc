@@ -13,8 +13,7 @@ summary: 您可以啟用安全聲明標記語言（SAML）驗證、讓遠端使�
 [role="lead"]
 您可以啟用安全聲明標記語言（SAML）驗證、讓遠端使用者在存取Unified Manager Web UI之前、先經過安全身分識別供應商（IDP）的驗證。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須已設定遠端驗證、並驗證是否成功。
 * 您必須已建立至少一個具有應用程式管理員角色的遠端使用者或遠端群組。
 * Identity Provider（IDP）必須由Unified Manager支援、且必須加以設定。

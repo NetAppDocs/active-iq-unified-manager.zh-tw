@@ -45,7 +45,7 @@ entries:
       - title: 重新啟動Unified Manager虛擬機器
         url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: 變更Linux系統上的Unified Manager主機名稱
-      url: "/config/task_change_um_host_name_on_rhel_or_centos.html"
+      url: "/config/task_change_um_host_name_on_rhel.html"
   - title: 啟用及停用原則型儲存管理
     url: "/config/task_enable_and_disable_policy_based_storage_management.html"
 - title: 設定Unified Manager備份

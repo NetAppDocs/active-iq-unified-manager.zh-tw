@@ -13,8 +13,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 [role="lead"]
 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager Snapshot資料庫還原至本機或遠端作業系統。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須擁有Linux主機的root使用者認證、以及安裝Unified Manager的Windows主機機器的管理權限。
 * 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 

@@ -15,8 +15,7 @@ summary: 您可以在不再需要 vCenter Server 的情況下、從 Active IQ Un
 
 移除 vCenter Server 也會刪除該 vCenter 上託管的所有虛擬機器（ VM ）及其組態資料。移除 vCenter Server 之後、將不再監控它及其相關物件和歷史資料。這些變更會反映在 vCenter 和虛擬機器庫存頁面上。
 
-*您需要的是什麼*
-
+.開始之前
 移除 vCenter Server 之前、請確定下列事項：
 
 * 您具有應用程式管理員角色或儲存管理員角色。

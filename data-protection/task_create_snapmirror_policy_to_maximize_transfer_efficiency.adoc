@@ -13,8 +13,7 @@ summary: 您可以建立SnapMirror原則、以指定保護關係的SnapMirror傳
 [role="lead"]
 您可以建立SnapMirror原則、以指定保護關係的SnapMirror傳輸優先順序。SnapMirror原則可指派優先順序、讓低優先順序的傳輸作業排定在正常優先順序傳輸之後執行、讓您將來源傳輸效率最大化到目的地。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation。
 * 此工作假設您已完成「設定保護」對話方塊中的「目的地資訊」區域。

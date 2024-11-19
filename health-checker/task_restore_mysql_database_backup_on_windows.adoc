@@ -13,8 +13,7 @@ summary: 在資料遺失或資料毀損的情況下、您可以使用還原功�
 [role="lead"]
 在資料遺失或資料毀損的情況下、您可以使用還原功能、將Unified Manager還原至先前的穩定狀態、同時將遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager MySQL資料庫還原至本機Windows系統或遠端Windows系統。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須擁有Windows系統管理員權限。
 * 您必須將Unified Manager備份檔案和資料庫儲存庫目錄的內容複製到要執行還原作業的系統。
 +

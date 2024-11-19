@@ -13,8 +13,7 @@ summary: 您可以在Workflow Automation中檢查資料來源取得是否成功�
 [role="lead"]
 您可以在Workflow Automation中檢查資料來源取得是否成功、以判斷Unified Manager資料來源快取是否正常運作。您可以將Workflow Automation與Unified Manager整合、以確保整合後仍可使用Workflow Automation功能。
 
-*您需要的是什麼*
-
+.開始之前
 您必須指派「系統管理員」角色或「工作流程自動化」中的「架構設計師」角色、才能執行此工作。
 
 .步驟

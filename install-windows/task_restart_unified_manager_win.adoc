@@ -13,8 +13,7 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 [role="lead"]
 變更組態之後、您可能必須重新啟動Unified Manager。
 
-*您需要的是什麼*
-
+.開始之前
 您必須擁有Windows系統管理員權限。
 
 .步驟

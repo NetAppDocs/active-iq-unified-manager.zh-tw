@@ -13,8 +13,7 @@ summary: 您可以從「Volume Relationships」（磁碟區關係）頁面靜止
 [role="lead"]
 您可以從「Volume Relationships」（磁碟區關係）頁面靜止保護關係、暫時避免資料傳輸發生。當您想要為包含資料庫的SnapMirror目的地Volume建立Snapshot複本時、您可能會靜止一種關係、並希望在Snapshot複製作業期間確保其內容穩定。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation。
 

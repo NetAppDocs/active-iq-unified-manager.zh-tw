@@ -13,8 +13,7 @@ summary: 如果Unified Manager使用者介面未運作、或是您需要執行�
 [role="lead"]
 如果Unified Manager使用者介面未運作、或是您需要執行使用者介面中未提供的功能、您可以存取維護主控台來管理Unified Manager系統。
 
-*您需要的是什麼*
-
+.開始之前
 您必須已安裝並設定Unified Manager。
 
 在閒置15分鐘後、維護主控台會將您登出。

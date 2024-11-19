@@ -13,8 +13,7 @@ summary: 您可以設定Unified Manager傳送通知、提醒您環境中的事�
 [role="lead"]
 您可以設定Unified Manager傳送通知、提醒您環境中的事件。在傳送通知之前、您必須先設定其他數個Unified Manager選項。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員角色。
 
 部署Unified Manager並完成初始組態之後、您應該考慮設定環境、以觸發警示、並根據事件接收產生通知電子郵件或SNMP設陷。

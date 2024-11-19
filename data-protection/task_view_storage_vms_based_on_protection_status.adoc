@@ -13,8 +13,7 @@ summary: 您可以使用庫存的「Storage VM」（儲存VM）頁面來檢視Ac
 [role="lead"]
 您可以使用庫存的「Storage VM」（儲存VM）頁面來檢視Active IQ Unified Manager 所有的儲存VM、並根據其保護狀態來篩選儲存VM。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員或儲存管理員角色。
 
 儲存VM檢視中會新增一欄保護角色、提供儲存VM是否受到保護或未受保護的相關資訊。

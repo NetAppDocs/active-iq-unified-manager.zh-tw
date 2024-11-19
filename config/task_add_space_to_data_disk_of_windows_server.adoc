@@ -13,8 +13,7 @@ summary: 如果您需要增加Unified Manager資料庫的磁碟空間量、可�
 [role="lead"]
 如果您需要增加Unified Manager資料庫的磁碟空間量、可以將容量新增至安裝Unified Manager的邏輯磁碟機。
 
-*您需要的是什麼*
-
+.開始之前
 您必須擁有Windows系統管理員權限。
 
 建議您在新增磁碟空間之前先備份Unified Manager資料庫。

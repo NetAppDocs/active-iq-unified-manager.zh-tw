@@ -13,8 +13,7 @@ summary: 在Windows上備份Unified Manager之後、您應該設定用於儲存S
 [role="lead"]
 在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。
 
-*您需要的是什麼*
-
+.開始之前
 叢集、儲存VM和Volume必須符合下列需求：
 
 * 叢集需求：

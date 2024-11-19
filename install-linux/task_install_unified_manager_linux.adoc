@@ -13,14 +13,13 @@ summary: 您可以在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Un
 [role="lead"]
 您可以在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。
 
-*您需要的是什麼*
-
+.開始之前
 * 您要安裝Unified Manager的系統必須符合系統和軟體需求。
 +
 請參閱 link:concept_virtual_infrastructure_or_hardware_system_requirements.html["硬體系統需求"]。
 
 +
-請參閱 link:reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
+請參閱。 link:reference_red_hat_software_and_installation_requirements.html["Linux軟體與安裝需求"]
 
 * 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案到目標系統。
 * 您應該已驗證下載的完整性 `.zip` 檔案：
@@ -40,14 +39,14 @@ Red Hat Enterprise Linux 系統可能已安裝所需支援軟體（ Java ， MyS
 
 
  a| 
-OpenJDK 11.0.21 版
+OpenJDK 11.0.23 版
  a| 
 Java版本
 
 
 
  a| 
-MySQL 8.0.34 Community Edition
+MySQL 8.0.37 Community Edition
  a| 
 "rpm -qa | grep -i mysql"
 
@@ -59,7 +58,7 @@ p7zip 16.02
 "rpm -qa | grep p7Zip
 
 |===
-. 如果安裝的 MySQL 版本早於 MySQL 8.0.34 Community Edition 、請輸入下列命令將其解除安裝：
+. 如果安裝的 MySQL 版本早於 MySQL 8.0.37 Community Edition 、請輸入下列命令將其解除安裝：
 +
 "rpm -e <mysql_package_name>'
 

@@ -13,8 +13,7 @@ summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot複本�
 [role="lead"]
 您可以使用Unified Manager UI設定Unified Manager Snapshot複本建立的排程。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 * 您必須設定從維護主控台建立Snapshot複本的設定、以識別快照建立的目的地。
 

@@ -13,8 +13,7 @@ summary: 您可以啟用遠端驗證、讓Unified Manager伺服器能夠與驗�
 [role="lead"]
 您可以啟用遠端驗證、讓Unified Manager伺服器能夠與驗證伺服器通訊。驗證伺服器的使用者可以存取Unified Manager圖形介面、以管理儲存物件和資料。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員角色。
 
 [NOTE]

@@ -61,7 +61,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 === 安裝Unified Manager
 
-Unified Manager 會使用 `yum`公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會 `yum`決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
+Unified Manager 會使用 `yum`公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會 `yum`決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Linux軟體與安裝需求"]。
 
 若要安裝Unified Manager、請以root使用者身分或使用「show」命令、從解壓縮安裝檔案的目錄執行下列命令：
 

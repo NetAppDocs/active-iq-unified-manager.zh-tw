@@ -1,0 +1,8 @@
+---
+permalink: /install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+redirect: active-iq-unified-manager/install-linux/reference_red_hat_software_and_installation_requirements.html 
+---
+= 
+:allow-uri-read: 
+
+

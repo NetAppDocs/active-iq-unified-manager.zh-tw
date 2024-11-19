@@ -1,0 +1,8 @@
+---
+permalink: /config/task_change_um_host_name_on_rhel_or_centos.html 
+redirect: active-iq-unified-manager/config/task_change_um_host_name_on_rhel.html 
+---
+= 
+:allow-uri-read: 
+
+

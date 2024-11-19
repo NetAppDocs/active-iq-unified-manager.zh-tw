@@ -13,8 +13,7 @@ summary: 您可以建立基本或進階的SnapMirror和SnapVault SnapMirror排�
 [role="lead"]
 您可以建立基本或進階的SnapMirror和SnapVault SnapMirror排程、以便在來源或主要磁碟區上自動傳輸資料保護資料、讓傳輸頻率更高或更低、視磁碟區上的資料變更頻率而定。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須已完成「設定保護」對話方塊中的「目的地資訊」區域。
 * 您必須設定Workflow Automation才能執行此工作。

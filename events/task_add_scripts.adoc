@@ -13,8 +13,7 @@ summary: 您可以在Unified Manager中新增指令碼、並將指令碼與警�
 [role="lead"]
 您可以在Unified Manager中新增指令碼、並將指令碼與警示建立關聯。這些指令碼會在產生警示時自動執行、並可讓您取得產生事件之儲存物件的相關資訊。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須已建立並儲存要新增至Unified Manager伺服器的指令碼。
 * 支援的指令碼檔案格式包括Perl、Shell、PowerShell、Python和.bat'檔案。
 +

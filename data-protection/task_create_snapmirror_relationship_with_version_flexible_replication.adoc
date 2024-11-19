@@ -13,8 +13,7 @@ summary: 您可以使用版本彈性複寫來建立SnapMirror關係。靈活版�
 [role="lead"]
 您可以使用版本彈性複寫來建立SnapMirror關係。靈活版本的複寫功能可讓您實作SnapMirror保護、即使來源和目的地磁碟區是在ONTAP 不同版本的支援下執行。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation。
 * 來源和目的地的SVM必須各自啟用SnapMirror授權。

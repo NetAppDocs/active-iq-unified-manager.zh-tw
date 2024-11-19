@@ -11,10 +11,9 @@ summary: 您可以升級Unified Manager虛擬應用裝置
 
 
 [role="lead"]
-您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.12 版或 9.13 版升級至 9.14 版。
+您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.13 版或 9.14 版升級至 9.16 版。
 
-*您需要的是什麼*
-
+.開始之前
 請確認下列事項：
 
 * 您已從NetApp支援網站下載升級檔案（ISO映像）。

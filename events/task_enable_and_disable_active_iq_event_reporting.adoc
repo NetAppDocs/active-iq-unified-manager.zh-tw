@@ -13,8 +13,7 @@ summary: 根據預設、會在Unified Manager使用者介面中產生及顯示�
 [role="lead"]
 根據預設、會在Unified Manager使用者介面中產生及顯示平台事件。Active IQ如果您發現這些事件太過「雜訊」、或您不想在Unified Manager中檢視這些事件、則可以停用這些事件的產生功能。如果您想要繼續接收這些通知、您可以稍後再啟用這些通知。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員角色。
 
 停用此功能時、Unified Manager Active IQ 會立即停止接收不實的平台事件。

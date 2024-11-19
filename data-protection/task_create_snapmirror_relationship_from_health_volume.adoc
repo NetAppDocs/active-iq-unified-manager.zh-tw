@@ -13,8 +13,7 @@ summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關�
 [role="lead"]
 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關係、以便啟用資料複寫來保護資料。SnapMirror複寫可讓您在來源資料遺失時、從目的地磁碟區還原資料。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation。
 

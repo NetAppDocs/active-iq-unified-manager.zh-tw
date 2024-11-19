@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/concept_install_unified_manager_on_rhel_or_centos.html 
+permalink: install-linux/concept_install_unified_manager_on_rhel.html 
 sidebar: sidebar 
 keywords: install, unified manager, linux systems 
 summary: 請務必瞭解、下載及安裝Unified Manager的步驟順序會因安裝案例而異。 

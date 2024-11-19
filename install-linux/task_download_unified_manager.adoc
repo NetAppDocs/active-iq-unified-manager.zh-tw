@@ -13,8 +13,7 @@ summary: 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案�
 [role="lead"]
 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案、才能安裝Unified Manager。
 
-*您需要的是什麼*
-
+.開始之前
 您必須擁有NetApp支援網站的登入認證資料。
 
 您可以下載 Red Hat Enterprise Linux 系統的 Unified Manager 安裝套件。
@@ -29,7 +28,7 @@ https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/
 +
 [NOTE]
 ====
-** 請務必為Red Hat Enterprise Linux系統下載正確版本的安裝程式檔案。根據您安裝的是Red Hat Enterprise Linux 7或8、請確定您下載適當版本的Unified Manager「.Zip」檔案。
+** 請務必為Red Hat Enterprise Linux系統下載正確版本的安裝程式檔案。根據您是否已安裝 Red Hat Enterprise Linux 8 或 9 ，請務必下載適當版本的 Unified Manager `.zip` 檔案。
 ** NetApp建議您下載程式碼簽章憑證 (`.pem`）和數位簽章 (`.sig`）以及 `.zip` 檔案：
 
 

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="d12e3362333ac1183375a383fbb2cc9e" category="doc">安裝Unified Manager</block>
-  <block id="6e511cfe87a95df884e3eeb9f86e7f6c" category="paragraph">*您需要的是什麼*</block>
   <block id="5c340a7311c8b63b42df5652d4d78f44" category="list-text">您要安裝Unified Manager的系統必須符合系統和軟體需求。</block>
   <block id="0ebe162817a0beff48242b1dc3ac7f2d" category="inline-link-macro">硬體系統需求</block>
   <block id="4864565ac84b4ae2dafe86ead8547a18" category="list-text">您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案到目標系統。</block>
@@ -205,9 +204,6 @@
   <block id="222e6119ecb775855168b2f8eb03c9ad" category="paragraph">《GroupDel維護》</block>
   <block id="391d5f36fcd9923a7e410ea96c07c892" category="summary">如果您安裝Unified Manager的系統無法存取Enterprise Linux（E規劃）的額外套件儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。</block>
   <block id="cf9cf11bad5d3f5d77b4012abbf218e4" category="doc">手動設定Epel儲存庫</block>
-  <block id="d33774fda36457164980d33cfe4a48f5" category="list-text">下載適用於您安裝的Epel儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：</block>
-  <block id="79afadeb5c0965693d80762b54e3a888" category="paragraph">wGet<block ref="c9b9f080effd35e80c0ee01b8c7a0b18" category="inline-link-rx"></block></block>
-  <block id="2078f9bb2aa8ce5810529d2a833eddfe" category="paragraph">若為版本8、請從以下網址下載：</block>
   <block id="f7dc2b7edc250ea4196ca8082fd84064" category="paragraph">wGet<block ref="e03b1826e20f1300635e3f48e6b93bfb" category="inline-link-rx"></block></block>
   <block id="3d465b57b4859e21c8b811b848814fa4" category="list-text">設定Epel儲存庫：</block>
   <block id="d48bb01073de08ff28ace357c78925e0" category="paragraph">「yum install epar-re版本-latest -&lt;版本&gt;.noarch.rpm」</block>
@@ -293,7 +289,6 @@
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux系統必須安裝下列版本的作業系統和支援軟體：</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">第三方軟體</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。</block>
-  <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
   <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">在升級任何協力廠商軟體之前、您必須先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。</block>
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">使用者授權要求</block>
@@ -386,13 +381,9 @@
   <block id="9578a88e95e047066c6bb7085c41a7ed" category="paragraph"><block ref="9578a88e95e047066c6bb7085c41a7ed" category="inline-link-rx"></block></block>
   <block id="9bbe91164bdb5d6547a4ecadc0f23619" category="list-text">選取所需的Unified Manager版本、並接受終端使用者授權合約（EULA）。</block>
   <block id="fac4fd8c913060d4fe2b039715058016" category="list-text">下載適用於Linux的Unified Manager安裝程式檔案、並將「.zip」檔案儲存至目標系統的目錄。</block>
-  <block id="c3431f1a323356594f88aff6986df176" category="paragraph">請務必為Red Hat Enterprise Linux系統下載正確版本的安裝程式檔案。根據您安裝的是Red Hat Enterprise Linux 7或8、請確定您下載適當版本的Unified Manager「.Zip」檔案。</block>
   <block id="1590b7a8b0b7acb35abe40ef018e8451" category="list-text">驗證Checksum、確保軟體下載正確。</block>
   <block id="91620c9192c298e8ee9b2d03e913b8e1" category="summary">如果您安裝Unified Manager的系統無法存取MySQL Community Edition儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。</block>
   <block id="1280efb9a67a71e035f91cd7b1662539" category="paragraph">MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。</block>
-  <block id="65e86039350435706b9567c107a26fc5" category="list-text">下載適合您安裝的MySQL儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：</block>
-  <block id="63fee33987bfe7bb811cd65ef0552b80" category="paragraph">wGet<block ref="f7a9ccbdf4803e2bf895fc6788b60fba" category="inline-link-rx"></block></block>
-  <block id="edfaa08a50afdf3413c1736d44bce69b" category="paragraph">wGet<block ref="9684897d5b398d93b940feba64114999" category="inline-link-rx"></block></block>
   <block id="8a8d5bafdb90b3cda57938d0d26c03a1" category="list-text">設定MySQL儲存庫：</block>
   <block id="7b0a79edda9356e21983ac726ae1823a" category="paragraph">「yum install mysql80-community版本-&lt;版本&gt;.noarch.rpm」</block>
   <block id="ced6d1a53e1edd338f03b11a9bc5603d" category="paragraph">對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有Java-11-OpenJDK、p7zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：</block>
@@ -408,7 +399,6 @@
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">安裝程序總覽</block>
   <block id="f9ec3a034f84a9fd8183effde4332a5c" category="image-alt">在RHEL上安裝流程</block>
   <block id="5cae6de22cb19e23696d6d2a0ecbdf24" category="summary">您可以在有新版軟體可用時升級Unified Manager。</block>
-  <block id="576a592eead18f78869446aed20778dc" category="doc">升級Red Hat Enterprise Linux或CentOS上的Unified Manager</block>
   <block id="78f7bd17e8dc5c60aabeddc5a7edd6c4" category="paragraph">由NetApp提供的Unified Manager軟體修補程式版本、其安裝程序與新版本相同。</block>
   <block id="88b87a5b091085247f998d9b1dfc636b" category="paragraph">如果Unified Manager與OnCommand Workflow Automation 某個實例搭配使用、而且兩種產品都有新版本的軟體、則您必須中斷這兩種產品的連線、然後在執行升級後設定新的Workflow Automation連線。如果您只要升級至其中一項產品、則應在升級後登入Workflow Automation、並確認它仍從Unified Manager取得資料。</block>
   <block id="06a3b150418e9166336c5e898d444f84" category="doc">移除Unified Manager</block>
@@ -534,8 +524,6 @@
   <block id="84d4d095f4b0442f31e07426efa9b0a7" category="paragraph">下列語言的64位元Windows作業系統支援Unified Manager：</block>
   <block id="4f4383ae303a1aa1063bb36803e75868" category="paragraph">請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。</block>
   <block id="ffbed9334b8ec87b5d47c862a02cb5ec" category="paragraph">下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。</block>
-  <block id="f036a764432b8b9592c8463741728fec" category="list-text">Microsoft Visual C&amp;#43；&amp;#43；2015可轉散發套件14.26.28720.3版</block>
-  <block id="b7bc4a8db8f6fcae60ca624f6b4cd972" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;適用於Visual Studio 2013 12.0.40660.0版的可轉散發套件</block>
   <block id="7a296bb9772806c9ddf9f83ed9bb3d5f" category="paragraph">從Unified Manager 9.5開始、Unified Manager安裝套件中就會提供OpenJDK、並會自動安裝。不支援從Unified Manager 9.5開始使用Oracle Java。</block>
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">如果MySQL已預先安裝、您應確保：</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">使用預設連接埠。</block>
@@ -5067,7 +5055,6 @@
   <block id="d1079af007f812678b18cffdfa02ac5f" category="paragraph">根據報告中顯示的結果、您可能想要新增更多容量來集合體、或是從特定集合體移除部分資料。</block>
   <block id="a4808638ca77b18a705bd6dd2c57c59e" category="summary">您可以建立報告、找出最具未配置LUN容量（大於0.5 TB）的叢集、以協助識別可新增額外工作負載的位置。</block>
   <block id="b70ccc9c0b40cc6b14c1fde4a28e07c3" category="doc">建立報告以識別具有最大未配置LUN容量的叢集</block>
-  <block id="17363cf653e1571f9bb845e4a79d23cb" category="paragraph">*您需要什麼**您必須擁有應用程式管理員或儲存管理員角色。</block>
   <block id="148668981b3c6f5946b305dd6b3e99e8" category="paragraph">請使用下列步驟建立自訂檢視、以顯示具有最大未配置LUN容量的叢集、然後排程為該檢視產生報告。</block>
   <block id="038251a56d1a807caeeb3ed2be6b977b" category="list-text">將「Unallocated LUN Capacity」欄拖曳到「HA Pair」欄附近。</block>
   <block id="f2184f2dc197c6c9aeaeb34ae9d4f59f" category="list-text">未配置的LUN容量大於0.5 TB</block>
@@ -9502,9 +9489,7 @@
   <block id="1801a56bb9becda65e82195d46829ae5" category="paragraph">「未儲存」檢視會根據您的篩選器選擇、顯示受儲存VM災難恢復保護或未受保護的所有儲存VM。</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。</block>
   <block id="d59db8b6df454b51e95542f8e00577c1" category="doc">設定Workflow Automation與Unified Manager之間的連線</block>
-  <block id="7d4c7aacafff21639e5db97e94a235a5" category="list-text">安裝的Workflow Automation版本必須為5.1或更新版本。</block>
   <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">WFA套件、用於管理ONTAP 功能</block>
-  <block id="a651f3180f355ff52e480a3a6a43c122" category="paragraph">WFA 5.1隨附「WFA套件以管理叢集Data ONTAP 式的功能」、因此您不需要從NetAppStorage Automation Store下載此套件、然後依照過去的需求、將其個別安裝到WFA伺服器上。 <block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">您必須擁有在Unified Manager中建立的資料庫使用者名稱、才能支援WFA和Unified Manager連線。</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">此資料庫使用者必須已被指派「整合架構」使用者角色。</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">您必須在Workflow Automation中被指派「管理員」角色或「架構設計師」角色。</block>
@@ -11147,10 +11132,8 @@
   <block id="b7f7029b19d9761718c4c55a16cdf61d" category="list-text">使用REST API檢視Unified Manager擷取的健全狀況、容量和效能資訊、協助管理叢集。請參閱 <block ref="821164fa8c5ff02f6a5d3ecc3d001b16" category="inline-link-macro-rx"></block> 以取得更多資訊。</block>
   <block id="459527cf1ec141d19f1b0f88f8c19905" category="inline-link">磁碟與集合體總覽</block>
   <block id="d44aaf9fc8b7b474d77879bc4e8cd00a" category="summary">本節包含Active IQ Unified Manager 有關兩種使用者介面的資訊、這些介面可用來疑難排解資料儲存容量、可用度和保護問題。這兩個UI是Unified Manager Web UI和維護主控台。</block>
-  <block id="c37949fda7ff1b2246f6718aca6092a2" category="list-text">您必須依照中的指示、在Linux伺服器上安裝Unified Manager <block ref="e8607b27bcb98464e6dcda8f12f8aa38" category="inline-link-macro-rx"></block>。</block>
   <block id="75cb7288b16d502e4854f9c613bf4fab" category="summary">您可以在Linux平台上下載並執行安裝檔案、以升級Unified Manager。</block>
   <block id="c2b9500958337e132bb4c59a38c16982" category="paragraph">請參閱 <block ref="6809e5c79eb6a750a89a2ba4592b6b72" category="inline-link-macro-rx"></block>。</block>
-  <block id="243d6bc952dfb325a1c7b89867c2c787" category="paragraph">請參閱 <block ref="0861efbc0e36d8801897a77131dac3d0" category="inline-link-macro-rx"></block>。</block>
   <block id="afe5c010af77ce694e2ae10478226295" category="paragraph">請參閱 <block ref="2aa54191149938bc7a863157c2ffb17b" category="inline-link-macro-rx"></block>。</block>
   <block id="50c58444f7c8af673d49a884c3e2c493" category="inline-link-macro">正在下載Unified Manager for Linux</block>
   <block id="c093aa8824c5e3548de7b89baefcdf62" category="paragraph">請參閱 <block ref="834cdb253956e69f96299891384c2c48" category="inline-link-macro-rx"></block>。</block>
@@ -11587,7 +11570,6 @@
   <block id="d6eb5e49f5495efbeb11087d8cb02f1c" category="paragraph">利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以將Unified Manager部署在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置（vApp）上。</block>
   <block id="600a043b56ccc07c547253d749b31a16" category="paragraph">您可以在發行系列中更新OpenJDK版本。例如、您可以從OpenJD11.0.14升級至OpenJD11.0.17、但無法直接從OpenJD11更新至OpenJD12。</block>
   <block id="912f1ca0a20e49d435fe3215bf809dde" category="inline-link-macro">在Linux上安裝Unified Manager</block>
-  <block id="7cba7227c8bc6bdcbbf70e6243b2234a" category="paragraph">請參閱 <block ref="c40206cc0de29decd365e8f91e05658e" category="inline-link-macro-rx"></block>。</block>
   <block id="25cd83fcc24b4664d675c70561908db4" category="section-title">在下列情況下設定SELinux內容<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> 已掛載</block>
   <block id="8952b2e8f374ce39efcf65ab76f1fb96" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 也需個別安裝</block>
   <block id="c0f62aa70775648ddb09e5af32691c1a" category="section-title">在下列情況下設定SELinux內容<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block> 已掛載、和<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block> 並非單獨安裝</block>
@@ -11789,16 +11771,7 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">在 * 移除 VCenter * 訊息對話方塊中、按一下 * 確定 * 以確認移除要求。</block>
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">您可以從 Web UI 新增叢集、並自動啟用憑證型驗證。</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">您可以透過 Unified Manager CLI 新增叢集、預設不會啟用憑證型驗證。如果您使用 Unified Manager CLI 新增叢集、則必須使用 Unified Manager UI 來編輯叢集。您可以看到 <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> 使用 Unified Manager CLI 新增叢集。</block>
-  <block id="4d5180c5e0db12f69692d5e800ed5b61" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.34 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.34 。您不得執行從舊版 MySQL 到 8.0.34 的獨立式升級。</block>
-  <block id="f40472cbd758b6598c019a5411b70a20" category="list-text">MySQL Community Edition 8.0.34 版</block>
-  <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
-  <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK 11.0.20 版</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip 版本 23.01 或更新版本</block>
-  <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.34 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.34 。</block>
-  <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDK 11.0.21 版</block>
-  <block id="237a41f447fb75307052080892e14e7c" category="paragraph">MySQL 8.0.34 Community Edition</block>
-  <block id="f98499a614ee3e46a1d64724ab7c8d2e" category="list-text">如果安裝的 MySQL 版本早於 MySQL 8.0.34 Community Edition 、請輸入下列命令將其解除安裝：</block>
-  <block id="80bdec6524a5d6db6b1fc5272cd81192" category="paragraph">您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.12 版或 9.13 版升級至 9.14 版。</block>
   <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">作業系統： VMware ESXi 7.0 和 8.0</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">例如、如果您安裝的版本為 Unified Manager 9.9 、而您想要升級至 Unified Manager 9.14 、則必須遵循一系列的升級程序。</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">升級 9.11 -&gt; 9.13</block>
@@ -11911,7 +11884,6 @@
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">儲存 VM 已停止（ ocumEvtVserverDown ）</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">磁碟區延遲嚴重臨界臨界臨界值已違反（ ocumVolume LatencyIncident ）</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">磁碟區延遲警告臨界值已突破（ ocumVolume LatencyWarning ）</block>
-  <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.9 。</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="inline-link-macro">Active IQ Unified Manager</block>
   <block id="04bf06d7ddd618e01f3388a565561c94" category="paragraph">如需 Active IQ Unified Manager REST API 優點的其他資源和詳細資料、請參閱<block ref="08ef7b83d66900e05791163681900cc0" category="inline-link-macro-rx"></block>。</block>
   <block id="1d10af70fc531ee31e978a17395f4f8a" category="sidebar">Unified Manager 管理資訊庫（ MIB ）</block>
@@ -11940,7 +11912,6 @@
   <block id="18629771c969f7f42368dc78392ae8e3" category="paragraph">您可以下載安裝套件，並在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。</block>
   <block id="3453ffbc5ea5b3c365c529d068354752" category="list-text">作業系統： Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎，使用作業系統安裝程式 * 「軟體選擇 * 」選項的「伺服器與 GUI 」基礎環境進行安裝</block>
   <block id="0eb53ffb9a066b094d63bdc9faca6299" category="paragraph">設定 Red Hat Enterprise Linux 儲存庫的程序是站台專屬的。您可以使用<block ref="f8d0fa0cfc0621d2f0aed1c9cff6dbd7" prefix=" " category="inline-code"></block>安裝套件中的指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路，您會自動收到設定 Red Hat Enterprise Linux 儲存庫的指示。</block>
-  <block id="e5dd8eb1250cd5bf8660d74e14630b37" category="paragraph">Unified Manager 會使用<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱<block ref="887f105f01fac7bb71b14faabb48492b" category="inline-link-macro-rx"></block>。</block>
   <block id="23cfeac52480309971264aa09fff1e5c" category="paragraph">用於存取 Red Hat Enterprise Linux 命令列並擷取支援套件組合。</block>
   <block id="8ecbdb958fb5010c6b8554b89ef94c91" category="list-text">Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎。</block>
   <block id="8116d13be18a3c1985b5ec2bcca6e6b8" category="paragraph">請參閱互通性對照表，以取得支援的 Red Hat Enterprise Linux 版本完整且最新的清單。</block>
@@ -11989,4 +11960,30 @@
   <block id="91804ef74bc975f4a628c4e14934bd25" category="inline-link">Active IQ Unified Manager 9.16 注意事項</block>
   <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
   <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">如需詳細資訊，請參閱<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
+  <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* 什麼 ... 在您開始之前</block>
+  <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">已安裝的 Workflow Automation 版本必須是 5.1.1 或更新版本。</block>
+  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">WFA 5.1.1P6 包含「管理叢集式 Data ONTAP 的 WFA 套件」，因此不需要從 NetAppStorage Automation Store 下載此套件，並依照過去的需求，將其個別安裝到 WFA 伺服器上。<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
+  <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">您必須依照中的指示<block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>，在 Linux 伺服器上安裝 Unified Manager 。</block>
+  <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Manager 會使用<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱<block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>。</block>
+  <block id="42d484bbae102dea7d1c196c19650d97" category="list-text">Python 3.9.x （來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
+  <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">請務必為Red Hat Enterprise Linux系統下載正確版本的安裝程式檔案。根據您是否已安裝 Red Hat Enterprise Linux 8 或 9 ，請務必下載適當版本的 Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block> 檔案。</block>
+  <block id="19c4a5941b195c20d40b06f049672572" category="paragraph">請參閱。 <block ref="cf70fd654b04a0c92e5d4b7fed50b3d9" category="inline-link-macro-rx"></block></block>
+  <block id="08759e76d989173a95ffac75dd374ef2" category="paragraph">OpenJDK 11.0.23 版</block>
+  <block id="f371311f67ec0ffdeb5ced3f80e41abe" category="paragraph">MySQL 8.0.37 Community Edition</block>
+  <block id="032d6aa526b2a66bca2107e1cbba42ed" category="list-text">如果安裝的 MySQL 版本早於 MySQL 8.0.37 Community Edition 、請輸入下列命令將其解除安裝：</block>
+  <block id="7da05941ded0fa57ef6c010185beac49" category="list-text">下載適用於您安裝的Epel儲存庫。若為版本8、請從以下網址下載：</block>
+  <block id="8438f6d12a356f1a5ccd9509764a0247" category="paragraph">若為版本9、請從以下網址下載：</block>
+  <block id="732f8b59fb176e61ded542460f2b84e0" category="paragraph"><block ref="bf806cbb1cb8f7651ccd8a97025996a8" prefix="" category="inline-code"></block></block>
+  <block id="3717278eaf7b770b8c5c946fe5b23f12" category="list-text">下載適合您安裝的MySQL儲存庫。若為版本8、請從以下網址下載：</block>
+  <block id="e1ab3176e1f35c85617b22c751088884" category="paragraph"><block ref="a2116e3b6157ded4a26b7aaf0c8cbec5" prefix="" category="inline-code"></block></block>
+  <block id="637069b8db2ac9aba2b726c3f23849a6" category="paragraph"><block ref="3adc1545db352c2c64fa34c07fafea99" prefix="" category="inline-code"></block></block>
+  <block id="5c17ea3e79e1636d2840d1f9fab25337" category="paragraph">如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、而且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。請注意、支援的 Red Hat Enterprise Linux 版本從 8.0 到 8.10 。</block>
+  <block id="c6e74cf56812c87ccc3bc2f6640b0b6f" category="paragraph">請參閱。 <block ref="f09744d7bd837929fda35b3531c47312" category="inline-link-macro-rx"></block></block>
+  <block id="cb97f1f86b65ce1a485ab484433bcd54" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.37 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.37 。</block>
+  <block id="3c476f11a2cc5c761bb84165398bdfa1" category="paragraph">您可以將 Active IQ Unified Manager 虛擬應用裝置從 9.13 版或 9.14 版升級至 9.16 版。</block>
+  <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp;#43;&amp;#43;適用於Visual Studio 2015的可轉散發套件14.26.28720.3版</block>
+  <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Edition 8.0.37 版</block>
+  <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
+  <block id="e382152aa599731ca30f5f2ff671bc43" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.37 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.37 。您不得執行從舊版 MySQL 到 8.0.37 的獨立式升級。</block>
 </blocks>

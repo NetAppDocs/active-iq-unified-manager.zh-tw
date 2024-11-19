@@ -13,8 +13,7 @@ summary: 您可以檢視所有磁碟區和儲存VM的清單、以及它們目前
 [role="lead"]
 您可以檢視所有磁碟區和儲存VM（SVM）的清單、以及它們目前的反勒索軟體狀態、以便判斷您的磁碟區和SVM上的資料是否受到足夠的保護、免受勒索軟體攻擊。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 如需不同勒索軟體狀態的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["支援勒索軟體ONTAP"]。

@@ -13,8 +13,7 @@ summary: 若要檢視及疑難排解虛擬機器（VM）的效能、必須在Act
 [role="lead"]
 若要檢視及疑難排解虛擬機器（VM）的效能、必須在Active IQ Unified Manager 您的VMware執行個體上新增相關的vCenter Server。
 
-*您需要的是什麼*
-
+.開始之前
 在新增或檢視vCenter Server之前、請確認下列事項：
 
 * 您知道vCenter Server名稱。

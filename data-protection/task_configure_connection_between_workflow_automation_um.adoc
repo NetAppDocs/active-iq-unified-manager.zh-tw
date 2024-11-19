@@ -13,13 +13,12 @@ summary: 您可以設定OnCommand Workflow Automation 穩定連線、讓它能�
 [role="lead"]
 您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。
 
-*您需要的是什麼*
-
-* 安裝的Workflow Automation版本必須為5.1或更新版本。
+.開始之前
+* 已安裝的 Workflow Automation 版本必須是 5.1.1 或更新版本。
 +
 [NOTE]
 ====
-WFA 5.1隨附「WFA套件以管理叢集Data ONTAP 式的功能」、因此您不需要從NetAppStorage Automation Store下載此套件、然後依照過去的需求、將其個別安裝到WFA伺服器上。  https://automationstore.netapp.com/pack-list.shtml["WFA套件、用於管理ONTAP 功能"]
+WFA 5.1.1P6 包含「管理叢集式 Data ONTAP 的 WFA 套件」，因此不需要從 NetAppStorage Automation Store 下載此套件，並依照過去的需求，將其個別安裝到 WFA 伺服器上。 https://automationstore.netapp.com/pack-list.shtml["WFA套件、用於管理ONTAP 功能"]
 
 ====
 * 您必須擁有在Unified Manager中建立的資料庫使用者名稱、才能支援WFA和Unified Manager連線。

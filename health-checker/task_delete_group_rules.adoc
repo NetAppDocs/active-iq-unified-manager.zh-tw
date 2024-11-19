@@ -13,8 +13,7 @@ summary: 當不再需要群組規則時、您可以從Active IQ Unified Manager 
 [role="lead"]
 當不再需要群組規則時、您可以從Active IQ Unified Manager 功能表刪除群組規則。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員或儲存管理員角色。
 
 刪除群組規則時、相關的儲存物件將會從群組中移除。

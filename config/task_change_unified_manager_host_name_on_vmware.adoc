@@ -13,8 +13,7 @@ summary: 首次部署Unified Manager虛擬應用裝置時、會為網路主機�
 [role="lead"]
 首次部署Unified Manager虛擬應用裝置時、會為網路主機指派一個名稱。您可以在部署後變更主機名稱。如果變更主機名稱、也必須重新產生HTTPS憑證。
 
-*您需要的是什麼*
-
+.開始之前
 您必須以維護使用者身分登入Unified Manager、或指派應用程式管理員角色給您、才能執行這些工作。
 
 您可以使用主機名稱（或主機IP位址）存取Unified Manager Web UI。如果您在部署期間為網路設定了靜態IP位址、則表示您已為網路主機指定名稱。如果使用DHCP設定網路、則主機名稱應取自DNS。如果未正確設定DHCP或DNS、系統會自動指派主機名稱「'Unified Manager'」、並與安全性憑證建立關聯。

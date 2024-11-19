@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
+permalink: health-checker/task_restore_mysql_db_on_linux.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
 summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。 
@@ -13,8 +13,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 [role="lead"]
 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須擁有安裝Unified Manager的Linux主機的root使用者認證資料。
 * 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 * 您必須將Unified Manager備份檔案和資料庫儲存庫目錄的內容複製到要執行還原作業的系統。

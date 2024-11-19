@@ -13,8 +13,7 @@ summary: 您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以
 [role="lead"]
 您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以解除安裝Unified Manager。
 
-*您需要的是什麼*
-
+.開始之前
 * 您應該擁有用於存取VMware vCenter Server和vSphere Web Client的認證資料。
 * Unified Manager伺服器與Workflow Automation伺服器之間的任何作用中連線都應關閉。
 * 移除虛擬機器（VM）之前、所有叢集（資料來源）都應從Unified Manager伺服器移除。

@@ -15,8 +15,7 @@ summary: 鏡射資料時、您可以監控及診斷邏輯連線的整體健全�
 
 Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的狀態、以及在功能性方面的連線能力。
 
-*您需要的是什麼*
-
+.開始之前
 必須在Unified Manager中新增本地和遠端MetroCluster 叢集的不二項功能
 
 

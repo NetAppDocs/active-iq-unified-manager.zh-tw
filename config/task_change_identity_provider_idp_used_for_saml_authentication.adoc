@@ -13,8 +13,7 @@ summary: 您可以變更Unified Manager用來驗證遠端使用者的身分識�
 [role="lead"]
 您可以變更Unified Manager用來驗證遠端使用者的身分識別供應商（IDP）。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須擁有IDP URL和中繼資料。
 * 您必須擁有IDP的存取權。
 

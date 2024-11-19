@@ -21,15 +21,15 @@ MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
 
 ====
 .步驟
-. 下載適合您安裝的MySQL儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載：
+. 下載適合您安裝的MySQL儲存庫。若為版本8、請從以下網址下載：
 +
-wGet http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`[]
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 
 +
-若為版本8、請從以下網址下載：
+若為版本9、請從以下網址下載：
 
 +
-wGet http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`[]
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
 
 . 設定MySQL儲存庫：
 +

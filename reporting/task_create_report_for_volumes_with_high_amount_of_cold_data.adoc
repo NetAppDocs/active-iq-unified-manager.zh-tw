@@ -13,8 +13,7 @@ summary: 您可以建立報告、在非FabricPool Aggregate上顯示含有大量
 [role="lead"]
 您可以建立報告、在非FabricPool Aggregate上顯示含有大量Cold資料的磁碟區。這有助於識別應移至FabricPool 某個支援區的Volume。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 
 

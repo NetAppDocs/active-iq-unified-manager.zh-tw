@@ -13,8 +13,7 @@ summary: 您可以使用Unified Manager來分析MetroCluster 叢集、以進行�
 [role="lead"]
 您可以使用Unified Manager來分析MetroCluster 叢集、以進行偵測到效能事件的VMware組態。您可以識別叢集名稱、事件偵測時間、以及相關的_bully_和_als_工作負載。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 * 針對這個組態、必須有新的、已確認的或過時的效能事件MetroCluster 。
 * 在不支援的組態中、兩個叢集MetroCluster 都必須由Unified Manager的同一個執行個體監控。

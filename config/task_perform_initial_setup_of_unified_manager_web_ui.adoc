@@ -13,8 +13,7 @@ summary: 若要使用Unified Manager、您必須先設定初始設定選項、�
 [role="lead"]
 若要使用Unified Manager、您必須先設定初始設定選項、包括NTP伺服器、維護使用者電子郵件地址、SMTP伺服器主機、以及新增ONTAP 叢集。
 
-*您需要的是什麼*
-
+.開始之前
 您必須執行下列作業：
 
 * 使用安裝後提供的URL啟動Unified Manager Web UI

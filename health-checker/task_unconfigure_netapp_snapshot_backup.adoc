@@ -13,8 +13,7 @@ summary: 如果您想要變更Active IQ Unified Manager 您的支援系統的備
 [role="lead"]
 如果您想要變更Active IQ Unified Manager 您的支援系統的備份類型、可以使用維護主控台選項。「*取消設定NetApp Snapshot Backup *」選項可讓您回復至MySQL型備份。
 
-*您需要的是什麼*
-
+.開始之前
 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 
 .步驟

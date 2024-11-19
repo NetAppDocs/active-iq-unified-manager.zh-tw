@@ -13,8 +13,7 @@ summary: 您可以使用Unified Manager Web UI來確認或消除磁碟區離線�
 [role="lead"]
 您可以使用Unified Manager Web UI來確認或消除磁碟區離線的可能性、因為RAID磁碟問題已使其主機Aggregate離線。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 若要判斷磁碟區離線狀況是否是由使託管Aggregate離線的RAID磁碟問題所造成、請執行下列動作：

@@ -13,8 +13,7 @@ summary: 如果您在最初設定Linux主機並安裝Unified Manager時、將磁
 [role="lead"]
 如果您在最初設定Linux主機並安裝Unified Manager時、將磁碟空間不足分配給「/opt/NetApp/data」目錄以支援Unified Manager、則可在安裝後增加磁碟空間、方法是在「/opt/NetApp/data」目錄中增加磁碟空間。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 機器。
 
 建議您先備份Unified Manager資料庫、再增加資料目錄的大小。

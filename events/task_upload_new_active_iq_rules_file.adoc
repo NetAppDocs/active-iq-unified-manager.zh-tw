@@ -18,8 +18,7 @@ NOTE: 不規則也稱為「驗證（CA）安全規則」Active IQ Config Advisor
 
 當您在沒有網路連線的站台上安裝或升級Unified Manager至特定版本時、會Active IQ 自動提供套裝的《版次》規則以供上傳。不過、建議您每個月從NetApp支援網站下載新的規則檔案一次、以確保產生更新的事件、並確保儲存系統能繼續以最佳方式執行。
 
-*您需要的是什麼*
-
+.開始之前
 * 必須啟用入口網站事件報告。Active IQ此功能預設為啟用。如需相關資訊、請參閱 link:../config/concept_active_iq_platform_events.html["啟用Active IQ 入口網站活動"]。
 * 您必須從NetApp支援網站下載規則檔案。
 +

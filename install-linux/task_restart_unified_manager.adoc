@@ -13,8 +13,7 @@ summary: 變更組態之後、您可能必須重新啟動Unified Manager。
 [role="lead"]
 變更組態之後、您可能必須重新啟動Unified Manager。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有 root 使用者存取權限，才能存取安裝 Unified Manager 的 Red Hat Enterprise Linux 伺服器。
 
 .步驟

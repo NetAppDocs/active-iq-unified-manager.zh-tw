@@ -13,8 +13,7 @@ summary: 您可以使用Unified Manager來檢查叢集及其元件的運作健�
 [role="lead"]
 您可以使用Active IQ Unified Manager 功能不整合管理程式（Unified Manager）來檢查叢集及其元件的運作健全狀況MetroCluster 、包括透過FC MetroCluster 和透過IP進行的功能不整組態。如果叢集涉及Unified Manager偵測到的效能事件、健全狀況狀態可協助您判斷是否有硬體或軟體問題導致事件發生。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 * 您必須分析MetroCluster 一項效能事件以進行不完整的組態設定、並取得相關叢集的名稱。
 * 透過FC和IP進行的靜態組態中的兩個叢集MetroCluster 、都必須由Unified Manager的相同執行個體監控。

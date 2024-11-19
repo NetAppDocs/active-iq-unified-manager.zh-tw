@@ -13,8 +13,7 @@ summary: 如果您是Windows使用者、可以下載並安裝工具、從Unified
 [role="lead"]
 如果您是Windows使用者、可以下載並安裝工具、從Unified Manager伺服器擷取支援服務組合。您可以將支援服務組合寄送給技術支援部門、以便更詳細地診斷問題。FileZilla或Winscp是您可以使用的工具範例。
 
-*您需要的是什麼*
-
+.開始之前
 您必須是維護使用者才能執行此工作。
 
 您必須使用支援scp或SFTP的工具。

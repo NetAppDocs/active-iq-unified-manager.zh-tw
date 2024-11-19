@@ -13,8 +13,7 @@ summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建�
 [role="lead"]
 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建立「支援功能」關係、以便在磁碟區上啟用資料備份以保護資料。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 * 您必須設定Workflow Automation才能執行此工作。
 

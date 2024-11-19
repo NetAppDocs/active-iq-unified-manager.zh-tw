@@ -13,8 +13,7 @@ summary: 如果您需要增加Unified Manager資料庫的資料磁碟空間、�
 [role="lead"]
 如果您需要增加Unified Manager資料庫的資料磁碟空間、可以使用Unified Manager維護主控台增加磁碟空間、在安裝後新增容量。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須擁有vSphere Client的存取權。
 * 虛擬機器不得在本機儲存任何快照。
 * 您必須擁有維護使用者認證資料。

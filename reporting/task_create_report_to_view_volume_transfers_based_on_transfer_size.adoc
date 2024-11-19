@@ -13,8 +13,7 @@ summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。
 [role="lead"]
 您可以建立報告、根據傳輸大小來檢視Volume Transfers。
 
-*您需要的是什麼*
-
+.開始之前
 * 您必須具有應用程式管理員或儲存管理員角色。
 
 

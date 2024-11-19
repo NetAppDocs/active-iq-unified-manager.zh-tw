@@ -1,0 +1,8 @@
+---
+permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+redirect: active-iq-unified-manager/install-linux/task_upgrade_host_os.html 
+---
+= 
+:allow-uri-read: 
+
+

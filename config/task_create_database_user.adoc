@@ -13,8 +13,7 @@ summary: 若要支援Workflow Automation與Unified Manager之間的連線、或�
 [role="lead"]
 若要支援Workflow Automation與Unified Manager之間的連線、或是存取資料庫檢視、您必須先在Unified Manager Web UI中建立具有整合架構或報告架構角色的資料庫使用者。
 
-*您需要的是什麼*
-
+.開始之前
 您必須具有應用程式管理員角色。
 
 資料庫使用者可與Workflow Automation整合、並存取報告特定的資料庫檢視。資料庫使用者無法存取Unified Manager Web UI或維護主控台、因此無法執行API呼叫。

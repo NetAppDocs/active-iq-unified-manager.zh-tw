@@ -1,0 +1,8 @@
+---
+permalink: /health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+redirect: active-iq-unified-manager/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html 
+---
+= 
+:allow-uri-read: 
+
+
