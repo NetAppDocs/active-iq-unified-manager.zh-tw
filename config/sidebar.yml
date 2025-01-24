@@ -34,6 +34,8 @@ entries:
     url: "/config/task_change_local_user_password.html"
   - title: 設定工作階段閒置逾時
     url: "/config/task_set_session_inactivity_timeout.html"
+  - title: 透過 CLI 設定工作階段逾時
+    url: "/config/task_set_session_timeout_CLI.html"
   - title: 變更Unified Manager主機名稱
     url: "/config/concept_change_unified_manager_host_name.html"
     entries:

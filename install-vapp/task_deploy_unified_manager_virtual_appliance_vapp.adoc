@@ -55,12 +55,9 @@ summary: 下載安裝檔案之後、您可以將Unified Manager部署為虛擬�
 
 +
 ** 確認「發行者」區段的詳細資料。「Entrust Code Signing - OCS2（Trusted Certificate）*（Entrust程式碼簽署- OCS2（信任的憑證）*）」訊息可確認下載項目的完整性 `OVA` 檔案：+如果您看到「* Entrust Code Signing - OCS2（無效憑證）*」訊息、請將VMware vCenter Server升級至7.0U3E或更新版本。
-
-
 +
 在「自訂範本」頁面上：
 
-+
 ** 使用DHCP和IPV4定址時、請將所有欄位保留空白。
 ** 核取「啟用自動IPv6位址」方塊、並在使用DHCP和IPv6位址時、將所有其他欄位保留空白。
 ** 如果您想要使用靜態網路組態、可以填寫此頁面上的欄位、並在部署期間套用這些設定。請確定IP位址對部署它的主機而言是唯一的、而且尚未使用、而且它具有有效的DNS項目。

@@ -1,0 +1,24 @@
+---
+permalink: config/task_set_session_timeout_CLI.html 
+sidebar: sidebar 
+keywords: session timeout, CLI, maximum 
+summary: 您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上限，以便在一段時間後自動終止工作階段。 
+---
+= 透過 CLI 設定工作階段逾時
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上限，以便在一段時間後自動終止工作階段。依預設，工作階段逾時設定為最大值，即 4 ， 320 分鐘（ 72 小時）。這表示即使您已登入並使用 Unified Manager ，工作階段也會在 72 小時後自動結束。
+
+.關於這項工作
+您必須具有應用程式管理員角色。
+
+工作階段逾時設定會影響所有登入的使用者工作階段。
+
+.步驟
+. 輸入命令以登入 Unified Manager CLI `um cli login` 。使用有效的使用者名稱和密碼進行驗證。
+. 輸入 `um option set max.session.timeout.value=<in mins>`以修改工作階段逾時值。
+

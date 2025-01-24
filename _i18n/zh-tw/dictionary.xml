@@ -821,7 +821,6 @@
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">組態順序總覽</block>
   <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">安裝後流程</block>
   <block id="baab3b98bf2d404c92d495462cf66f7f" category="summary">您可以指定Unified Manager的閒置逾時值、以便在一段時間後自動終止工作階段。依預設、逾時時間設為4、320分鐘（72小時）。</block>
-  <block id="5e01bd42f20f3a63d47605b5e7ede78e" category="doc">設定工作階段閒置逾時</block>
   <block id="9d065b6fca599ddf99bd5a9301130378" category="paragraph">此設定會影響所有登入的使用者工作階段。</block>
   <block id="6778129bfdc370315a53a29729233c17" category="paragraph">如果您已啟用安全性聲明標記語言（SAML）驗證、則無法使用此選項。</block>
   <block id="e52fa3b25940978221a4dfce1abb8b25" category="list-text">在左側導覽窗格中、按一下*一般*&gt;*功能設定*。</block>
@@ -11986,4 +11985,13 @@
   <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Edition 8.0.37 版</block>
   <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
   <block id="e382152aa599731ca30f5f2ff671bc43" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.37 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.37 。您不得執行從舊版 MySQL 到 8.0.37 的獨立式升級。</block>
+  <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">設定工作階段閒置逾時</block>
+  <block id="5b864f90874a257a247b735985d967ca" category="paragraph">您可以指定 Unified Manager 的閒置逾時值，讓工作階段在一段時間不活動後自動終止。依預設、逾時時間設為4、320分鐘（72小時）。</block>
+  <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上限，以便在一段時間後自動終止工作階段。</block>
+  <block id="13eab81633be183184983b2327458134" category="doc">透過 CLI 設定工作階段逾時</block>
+  <block id="6889dc046b9753e9d32d85f6277f0128" category="paragraph">您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上限，以便在一段時間後自動終止工作階段。依預設，工作階段逾時設定為最大值，即 4 ， 320 分鐘（ 72 小時）。這表示即使您已登入並使用 Unified Manager ，工作階段也會在 72 小時後自動結束。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於這項工作</block>
+  <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">工作階段逾時設定會影響所有登入的使用者工作階段。</block>
+  <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">輸入命令以登入 Unified Manager CLI<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> 。使用有效的使用者名稱和密碼進行驗證。</block>
+  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">輸入<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>以修改工作階段逾時值。</block>
 </blocks>
