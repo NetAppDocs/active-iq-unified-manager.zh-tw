@@ -11993,5 +11993,5 @@
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於這項工作</block>
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">工作階段逾時設定會影響所有登入的使用者工作階段。</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">輸入命令以登入 Unified Manager CLI<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> 。使用有效的使用者名稱和密碼進行驗證。</block>
-  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">輸入<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>以修改工作階段逾時值。</block>
+  <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">輸入<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>命令以修改工作階段逾時值。</block>
 </blocks>

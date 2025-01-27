@@ -20,5 +20,5 @@ summary: 您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上�
 
 .步驟
 . 輸入命令以登入 Unified Manager CLI `um cli login` 。使用有效的使用者名稱和密碼進行驗證。
-. 輸入 `um option set max.session.timeout.value=<in mins>`以修改工作階段逾時值。
+. 輸入 `um option set max.session.timeout.value=<in mins>`命令以修改工作階段逾時值。
 
