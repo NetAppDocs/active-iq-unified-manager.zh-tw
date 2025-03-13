@@ -3585,7 +3585,6 @@
   <block id="3f49ae06c1af2c81b1e8989e397b26f2" category="paragraph">指出叢集是否有一個或多個已設定的NTP伺服器。為了提供備援和最佳服務、NetApp建議您將至少三部NTP伺服器與叢集建立關聯。</block>
   <block id="61aa63eb3ac1c3408640463ee5fe8aa3" category="paragraph">已設定</block>
   <block id="77b7590086fef2448bd31b90bf127474" category="paragraph">OCSP</block>
-  <block id="17eb499cf93e940dabb77ab4cc167dba" category="paragraph">指出ONTAP 在功能不適用OCSP（線上憑證狀態傳輸協定）的情況下、是否有應用程式在功能不適用的情況下進行通訊。列出不相容的應用程式。</block>
   <block id="559944e88ab64748857dfbbb5241e7cb" category="paragraph">遠端稽核記錄</block>
   <block id="fe81c90ed55ff90f9e976347ff39d039" category="paragraph">表示記錄轉送（Syslog）是否已加密或未加密。</block>
   <block id="07a3a798567f5e260ac46f63e67fd1d1" category="paragraph">支援HTTPS傳輸AutoSupport</block>
@@ -11994,4 +11993,5 @@
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">工作階段逾時設定會影響所有登入的使用者工作階段。</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">輸入命令以登入 Unified Manager CLI<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> 。使用有效的使用者名稱和密碼進行驗證。</block>
   <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">輸入<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block>命令以修改工作階段逾時值。</block>
+  <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">從 9.14.1 開始， Active IQ Unified Manager 會在儲存虛擬機器（ SVM ，前身為 vserver ）層級提供線上憑證狀態傳輸協定（ OCSP ）狀態資訊。這表示 OCSP 驗證會套用至所有與 SVM 建立的 SSL/TLS 連線，並確保這些連線所使用的憑證完整性和有效性。</block>
 </blocks>

@@ -91,7 +91,7 @@ summary: 此表說明Unified Manager評估的叢集安全性法規遵循參數�
  a| 
 OCSP
  a| 
-指出ONTAP 在功能不適用OCSP（線上憑證狀態傳輸協定）的情況下、是否有應用程式在功能不適用的情況下進行通訊。列出不相容的應用程式。
+從 9.14.1 開始， Active IQ Unified Manager 會在儲存虛擬機器（ SVM ，前身為 vserver ）層級提供線上憑證狀態傳輸協定（ OCSP ）狀態資訊。這表示 OCSP 驗證會套用至所有與 SVM 建立的 SSL/TLS 連線，並確保這些連線所使用的憑證完整性和有效性。
  a| 
 已啟用
  a| 
