@@ -50,7 +50,7 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 * MySQL Community Edition 8.0.37 版
 * Python 3.12.4
 * OpenJDK 11.0.23 版
-* p7zip 版本 23.01 或更新版本
+* 7-zip 版本 23.01 或更新版本
 
 
 [NOTE]
