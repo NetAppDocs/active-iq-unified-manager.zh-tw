@@ -56,6 +56,8 @@ Unified Manager需要下列協力廠商套件、但未隨附於其中。這些�
 
 在Linux系統上安裝Unified Manager可以由root使用者或非root使用者使用「show」命令來執行。
 
+此外，默認 Unified Manager 安裝還包括 umadmin 用戶（默認維護用戶）和 jboss 用戶（位於 sudoers 文件和 `ocie_sudoers`） `/etc/sudoers.d/`在目錄中(`ocum_sudoers`。如果您因為安全性原則或是安全性監控工具而從環境中移除此內容，則必須將其重新新增。您需要保留sudoers組態、因為某些Unified Manager作業需要這些Sudo權限。
+
 
 
 == 安裝需求
