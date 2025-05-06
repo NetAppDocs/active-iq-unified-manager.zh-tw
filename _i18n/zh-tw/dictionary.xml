@@ -11778,8 +11778,6 @@
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">如果叢集執行 ONTAP 9.14.1 版或更新版本、則無法使用監控節點根集合體的功能。</block>
   <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。由於公司法規、 Linux 系統上可能會安裝 Qualys 等弱點掃描工具。安裝 Unified Manager 之前、您應該先停用弱點掃描程式、以避免安裝失敗。</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager 無法安裝外部產生的憑證</block>
-  <block id="e27fc816983568847a34ee8cfa2a43ac" category="paragraph">如果憑證安裝失敗、請參閱知識庫（ KB ）文章：
-<block ref="2bdca89ea81a55c90daea7f3fd7941fa" category="inline-link-rx"></block></block>
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">您必須定義配額電子郵件地址的規則、並依照您要執行的順序輸入。例如、如果您想要使用電子郵件地址 abc@xyz.com 來接收關於 abc 配額違規的通知、並將電子郵件地址 DL-$group@$domain 用於所有其他群組、則規則必須以下列順序列出：</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">如果（ $user = 'abc' ）則是 abc@xyz.com</block>
   <block id="76484226a58b4aaad54c923ee565c2de" category="list-text">如果（ $group = * ）、則為 dl-$group@$domain</block>
@@ -11995,4 +11993,5 @@
   <block id="3d937fc01fa5cc206639b1a0a897e80d" category="paragraph">從 9.14.1 開始， Active IQ Unified Manager 會在儲存虛擬機器（ SVM ，前身為 vserver ）層級提供線上憑證狀態傳輸協定（ OCSP ）狀態資訊。這表示 OCSP 驗證會套用至所有與 SVM 建立的 SSL/TLS 連線，並確保這些連線所使用的憑證完整性和有效性。</block>
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zip 版本 23.01 或更新版本</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">此外，默認 Unified Manager 安裝還包括 umadmin 用戶（默認維護用戶）和 jboss 用戶（位於 sudoers 文件和<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block>）<block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block>在目錄中<block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>。如果您因為安全性原則或是安全性監控工具而從環境中移除此內容，則必須將其重新新增。您需要保留sudoers組態、因為某些Unified Manager作業需要這些Sudo權限。</block>
+  <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">如果憑證安裝失敗，請參閱知識庫（ KB ）文章：<block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
 </blocks>
