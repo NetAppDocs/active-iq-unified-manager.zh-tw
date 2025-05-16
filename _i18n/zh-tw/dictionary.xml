@@ -11994,4 +11994,7 @@
   <block id="af95c5c8b4d0fa2b905341b11918dede" category="list-text">7-zip 版本 23.01 或更新版本</block>
   <block id="1ebcce8a1c4d802b8fe1f7f0994575b0" category="paragraph">此外，默認 Unified Manager 安裝還包括 umadmin 用戶（默認維護用戶）和 jboss 用戶（位於 sudoers 文件和<block ref="6a2e8f066e07f32cb6b210b2f264b86b" prefix=" " category="inline-code"></block>）<block ref="15160d21aa7f8cb0f751f17cf3a5cb0e" prefix=" " category="inline-code"></block>在目錄中<block ref="e1308a99253f00dceab1f955b9bb8823" prefix="(" category="inline-code"></block>。如果您因為安全性原則或是安全性監控工具而從環境中移除此內容，則必須將其重新新增。您需要保留sudoers組態、因為某些Unified Manager作業需要這些Sudo權限。</block>
   <block id="6e01204c5266c6bad73448d8f8d5abc8" category="paragraph">如果憑證安裝失敗，請參閱知識庫（ KB ）文章：<block ref="e2fe41d42a2d7397cc470302ef9f2a97" category="inline-link-rx"></block></block>
+  <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Manager 用來將稽核記錄傳送至遠端 Syslog 伺服器。</block>
+  <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">在 Active IQ Unified Manager 主機上更新 Java 之後，服務將無法啟動</block>
+  <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">您只能在 Unified Manager 主機上安裝一個 Java 版本，否則系統可能無法判斷要使用哪個版本。請參閱。<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block></block>
 </blocks>

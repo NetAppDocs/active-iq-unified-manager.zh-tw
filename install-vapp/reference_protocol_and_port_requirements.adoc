@@ -209,4 +209,15 @@ NTP
  a| 
 用於同步Unified Manager伺服器與外部NTP時間伺服器上的時間。（僅限VMware系統）
 
+
+
+ a| 
+系統記錄
+ a| 
+UDP
+ a| 
+514
+ a| 
+Unified Manager 用來將稽核記錄傳送至遠端 Syslog 伺服器。
+
 |===

@@ -294,4 +294,15 @@ WebSocket over TCP
  a| 
 用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。
 
+
+
+ a| 
+系統記錄
+ a| 
+UDP
+ a| 
+514
+ a| 
+Unified Manager 用來將稽核記錄傳送至遠端 Syslog 伺服器。
+
 |===
