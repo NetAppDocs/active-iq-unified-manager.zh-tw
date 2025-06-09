@@ -47,9 +47,9 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
 
 * Microsoft Visual C&#43;&#43;適用於Visual Studio 2015的可轉散發套件14.26.28720.3版
-* MySQL Community Edition 8.0.37 版
+* MySQL Community Edition 8.4.4 版
 * Python 3.12.4
-* OpenJDK 11.0.23 版
+* OpenJDK 11.0.25 版
 * 7-zip 版本 23.01 或更新版本
 
 

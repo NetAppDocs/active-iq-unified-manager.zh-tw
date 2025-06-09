@@ -29,7 +29,7 @@ summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unifie
 * 為了避免資料遺失、您必須先建立Unified Manager資料庫的備份、以防升級期間發生問題。NetApp建議您從移除備份檔案 `/opt/netapp/data` 目錄至外部位置。
 * 在升級期間、系統可能會提示您確認是否要保留先前的預設設定、以保留13個月的效能資料、或將其變更為6個月。確認後、系統會在6個月後清除歷史效能資料。
 * 您應該已經完成所有執行中的作業、因為Unified Manager在升級過程中無法使用。
-* MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.0.37 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.0.37 。
+* MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.4.4 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.4.4 。
 
 
 .步驟

@@ -39,14 +39,14 @@ Red Hat Enterprise Linux 系統可能已安裝所需支援軟體（ Java ， MyS
 
 
  a| 
-OpenJDK 11.0.23 版
+OpenJDK 11.0.25 版
  a| 
 Java版本
 
 
 
  a| 
-MySQL 8.0.37 Community Edition
+MySQL 8.4.4 Community Edition
  a| 
 "rpm -qa | grep -i mysql"
 
@@ -58,7 +58,7 @@ p7zip 16.02
 "rpm -qa | grep p7Zip
 
 |===
-. 如果安裝的 MySQL 版本早於 MySQL 8.0.37 Community Edition 、請輸入下列命令將其解除安裝：
+. 如果安裝的 MySQL 版本早於 MySQL 8.4.4 Community Edition 、請輸入下列命令將其解除安裝：
 +
 "rpm -e <mysql_package_name>'
 
@@ -125,7 +125,7 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 如果安裝失敗並出現 GPG NOKEY 錯誤、請使用 `rpm --import` 若要從 URL 匯入金鑰：
 
 +
-`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
+rpm --導入 https://repo.mysql.com/RPM-GPG-KEY-mysql-2023[]
 
 +
 [NOTE]

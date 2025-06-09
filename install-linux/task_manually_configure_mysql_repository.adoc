@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually configure mysql repository, mysql key, keys update 
 summary: 如果您安裝Unified Manager的系統無法存取MySQL Community Edition儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。 
 ---
-= 手動設定MySQL儲存庫
+= 手動設定 MySQL 儲存庫
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -23,17 +23,17 @@ MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
 .步驟
 . 下載適合您安裝的MySQL儲存庫。若為版本8、請從以下網址下載：
 +
-`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
+`wget http://repo.mysql.com/yum/mysql-8.4-community/el/8/x86_64/mysql84-community-release-el8-1.noarch.rpm`
 
 +
 若為版本9、請從以下網址下載：
 
 +
-`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
+`wget http://repo.mysql.com/yum/mysql-8.4-community/el/9/x86_64/mysql84-community-release-el9-1.noarch.rpm`
 
 . 設定MySQL儲存庫：
 +
-「yum install mysql80-community版本-<版本>.noarch.rpm」
+`yum install mysql84-community-release-.noarch.rpm`
 
 
 
@@ -54,7 +54,7 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
 
 for example:
 
-rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 ----
 * 在沒有網際網路連線的系統上、請更新您的MySQL repo檔案、並標示「gpgcheck」以停用「gpgcheck」。
 

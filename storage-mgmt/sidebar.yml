@@ -165,3 +165,5 @@ entries:
     url: "/storage-mgmt/reference_user_not_found.html"
   - title: 使用其他驗證服務新增LDAP時出現問題
     url: "/storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html"
+  - title: Windows 系統上的 NetApp 可管理性 SDK 日誌輪替問題
+    url: "/storage-mgmt/task_resolve_windows_log_rotation_issue.html"

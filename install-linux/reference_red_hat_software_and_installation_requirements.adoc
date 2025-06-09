@@ -39,8 +39,8 @@ Unified Manager部署在Wildfly Web伺服器上。WildFly 26.1.3 已隨附於 Un
 
 Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。
 
-* MySQL Community Edition 8.0.37 版（來自 MySQL 儲存庫）。
-* OpenJDK 11.0.23 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）
+* MySQL 社群版 8.4.4 版（來自 MySQL 儲存庫）
+* OpenJDK 11.0.25 版（來自 Red Hat Extra Enterprise Linux Server 儲存庫）
 * Python 3.9.x （來自 Red Hat Extra Enterprise Linux Server 儲存庫）
 * p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）
 
