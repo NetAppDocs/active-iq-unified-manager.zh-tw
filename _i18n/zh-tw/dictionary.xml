@@ -482,7 +482,6 @@
   <block id="d3073d42c27439b83dbf63233da2ea6f" category="list-text">以系統管理員身分按一下滑鼠右鍵並執行Unified Manager安裝程式執行檔（.exe）。</block>
   <block id="4efb5660712f35a71f61f3b4e61e725a" category="paragraph">Unified Manager會提示您下列訊息：</block>
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">按一下「*是*」、然後按一下「*下一步*」。</block>
-  <block id="e4ef4ba9b55c3985f475fd7b3b042458" category="list-text">輸入安裝期間設定的MySQL8 root密碼、然後按一下「*下一步*」。</block>
   <block id="ed656b4cd67ab83186099ee9d974a826" category="paragraph">若要執行Unified Manager的無聲升級、請執行下列命令：「ActiveIQUnifiedManager-&lt;版本\&gt;.exe /s /v"MySQL_password=&lt;密碼&gt;/qn /l* v &lt;system_drive&gt;:\install.log"</block>
   <block id="21c3615c9f98cc54c13307f5e58ca3a0" category="paragraph">您必須擁有Windows系統管理員權限。</block>
   <block id="8b9799c93c16edd687abfdb1ffc25984" category="cell">從...</block>
@@ -527,7 +526,6 @@
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">如果MySQL已預先安裝、您應確保：</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">使用預設連接埠。</block>
   <block id="ae6546f7996b91aa7c6e5c482b07f791" category="list-text">未安裝範例資料庫。</block>
-  <block id="a7b80eacf1b625bed035aa3b2a92bc46" category="list-text">服務名稱為「MoYSQL8」。</block>
   <block id="f44cea6cd02b888cc6cc539426598769" category="paragraph">在升級任何協力廠商軟體之前、您應該先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。</block>
   <block id="8477864d39c6c8b50036cae20894546f" category="list-text">應安裝Microsoft .NET 4.5.2或更新版本。</block>
   <block id="33a0a151920146dd7e37684e9810ec5f" category="list-text">「暫時」目錄應設定2 GB磁碟空間、以便擷取安裝檔案。若要驗證是否已建立目錄、請在命令列介面上執行下列命令：「ECHO %TEMP%」</block>
@@ -12007,4 +12005,6 @@
   <block id="a0e6619df3d203259475fb9e2836a790" category="inline-link-macro">NetApp 可管理性 SDK 技術報告的安全性強化指南</block>
   <block id="e7f66239d2584f7db44917f4b82c3d75" category="list-text">在 Windows 上安裝 Unified Manager 時，請安裝 Logrotate 版本 0.0.0.18。如需詳細資訊，請參閱<block ref="613e5c3b9e425f3372aa73a0b93d00d2" category="inline-link-macro-rx"></block>。</block>
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">啟動 Unified Manager。</block>
+  <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">服務名稱是「`MYSQL84`」。</block>
+  <block id="c954aa3da908a18730111db3143d3c49" category="list-text">輸入安裝期間設定的MySQL84 root密碼、然後按一下「*下一步*」。</block>
 </blocks>

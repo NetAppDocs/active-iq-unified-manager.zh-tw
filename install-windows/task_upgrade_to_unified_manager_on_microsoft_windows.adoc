@@ -67,7 +67,7 @@ Unified Manager會提示您下列訊息：
 This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . 按一下「*是*」、然後按一下「*下一步*」。
-. 輸入安裝期間設定的MySQL8 root密碼、然後按一下「*下一步*」。
+. 輸入安裝期間設定的MySQL84 root密碼、然後按一下「*下一步*」。
 . 在支援的網頁瀏覽器上的新視窗中啟動Web UI、然後登入以使用升級版Unified Manager。
 . 如果您的Windows系統上安裝了作用中的防毒軟體、請務必在升級完成後、手動將下列路徑排除在防毒掃描之外：
 +
