@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication 
 summary: 您可以變更Unified Manager用來驗證遠端使用者的身分識別供應商（IDP）。 
 ---
-= 變更用於SAML驗證的身分識別供應商
+= 更改用於 SAML 身份驗證的身份提供者
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

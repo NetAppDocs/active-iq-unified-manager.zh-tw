@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, help 
 summary: 「說明」包含Active IQ Unified Manager 有關包含在功能方面的資訊。您可以使用目錄、索引或搜尋工具來尋找功能及使用方法的相關資訊。 
 ---
-= 使用Unified Manager說明
+= 使用 Unified Manager 協助
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
 summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visual C++ 。 
 ---
-= 解除安裝協力廠商產品
+= 卸載第三方產品
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visu
 
 
 
-== 正在解除安裝 Python
+== 解除安裝 Python
 
 .步驟
 . 從 * 「控制台」 * 選取 * 「程式集」 * > * 「程式與功能」 * 。

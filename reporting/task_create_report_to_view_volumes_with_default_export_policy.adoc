@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: 您可以建立報告來尋找使用預設匯出原則的磁碟區。 
 ---
-= 建立報告以檢視使用預設匯出原則的磁碟區
+= 建立報告以查看使用預設匯出策略的捲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

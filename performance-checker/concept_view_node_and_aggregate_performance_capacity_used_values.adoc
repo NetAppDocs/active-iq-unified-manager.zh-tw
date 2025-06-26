@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: 您可以監控所有節點或叢集中所有集合體的效能使用容量值、也可以檢視單一節點或集合體的詳細資料。 
 ---
-= 檢視節點和Aggregate效能使用容量值
+= 查看節點和聚合效能容量使用值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ summary: 您可以監控所有節點或叢集中所有集合體的效能使用�
 
 image::../media/node_inventory_used_headroom.gif[效能：所有集合體頁面的 UI 螢幕擷取畫面]
 
-監控使用的效能容量計數器可讓您識別下列項目：
+監視效能容量使用計數器可讓您識別以下內容：
 
 * 任何叢集上的任何節點或集合體、都有高效能的使用容量值
 * 任何叢集上的任何節點或集合體、是否都有作用中的效能容量已用事件

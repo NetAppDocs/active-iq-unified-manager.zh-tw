@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, quorum, epsilon 
 summary: 仲裁和epsilon是叢集健全狀況和功能的重要衡量標準、可一起指出叢集如何因應潛在的通訊和連線挑戰。 
 ---
-= 瞭解仲裁和epsilon
+= 理解法定人數和 epsilon
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, unified manager, web ui 
 summary: 安裝Unified Manager之後、您可以存取Web UI來設定Unified Manager、以便開始監控ONTAP 您的VMware系統。 
 ---
-= 存取Unified Manager Web UI
+= 存取 Unified Manager Web UI
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volumes, luns, same. qos, policy, group 
 summary: 您可以顯示已指派給相同QoS原則群組的磁碟區和LUN清單。 
 ---
-= 檢視相同QoS原則群組中的磁碟區或LUN
+= 查看同一 QoS 策略群組中的磁碟區或 LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

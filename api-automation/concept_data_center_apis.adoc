@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, objects, data center 
 summary: 資料中心類別下的REST API可讓您管理資料中心內的儲存物件、例如叢集、節點、集合體、儲存VM、 磁碟區、LUN、檔案共用區和命名空間。這些API可用於查詢物件的組態、有些API則可讓您執行新增、刪除或修改這些物件的作業。 
 ---
-= 使用API管理資料中心中的儲存物件
+= 使用 API 管理資料中心內的儲存對象
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

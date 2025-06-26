@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, details 
 summary: 您可以檢視Unified Manager觸發事件的詳細資料、以便採取修正行動。例如、如果健全狀況事件Volume離線、您可以按一下該事件來檢視詳細資料並執行修正動作。 
 ---
-= 檢視事件與事件詳細資料
+= 查看活動和活動詳情
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

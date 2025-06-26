@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication 
 summary: 您可以使用版本彈性複寫來建立SnapMirror關係。靈活版本的複寫功能可讓您實作SnapMirror保護、即使來源和目的地磁碟區是在ONTAP 不同版本的支援下執行。 
 ---
-= 利用版本彈性複寫建立SnapMirror關係
+= 建立具有版本靈活複製的 SnapMirror 關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

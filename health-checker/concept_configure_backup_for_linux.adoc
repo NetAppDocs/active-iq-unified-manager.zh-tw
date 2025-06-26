@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, linux, operate, system, configure, backup 
 summary: 如果Active IQ Unified Manager 您的支援功能安裝在Linux機器上、您可以決定使用NetApp Snapshot來設定備份與還原。 
 ---
-= 在Linux上設定備份
+= 在 Linux 上設定備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

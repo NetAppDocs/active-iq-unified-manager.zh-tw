@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: '您可以建立報告來強調80%以上的集合體已滿。' 
 ---
-= 建立報告以檢視80%以上的集合體
+= 建立報表以查看已滿 80% 或以上的聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

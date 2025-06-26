@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup 
 summary: 在資料遺失或資料毀損的情況下、您可以使用還原功能、將Unified Manager還原至先前的穩定狀態、同時將遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager MySQL資料庫還原至本機Windows系統或遠端Windows系統。 
 ---
-= 在Windows上還原MySQL資料庫備份
+= 在 Windows 上還原 MySQL 資料庫備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

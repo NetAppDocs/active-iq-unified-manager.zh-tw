@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, annotation rules 
 summary: 您可以建立註釋規則、讓Unified Manager用來動態註釋儲存物件、例如磁碟區、叢集或儲存虛擬機器（SVM）。 
 ---
-= 建立註釋規則
+= 建立註解規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

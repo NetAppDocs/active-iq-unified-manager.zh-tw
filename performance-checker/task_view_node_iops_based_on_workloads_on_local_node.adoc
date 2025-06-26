@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, iops, workloads, reside, only, local node 
 summary: 節點IOPS計數器圖表可強調作業僅透過本機節點、使用網路LIF在遠端節點上的磁碟區上執行讀寫作業的位置。IOPS -「Total（local）（總（本機）」和「明細（本機）」圖表僅顯示目前節點上本機磁碟區中資料的IOPS。 
 ---
-= 根據只駐留在本機節點上的工作負載來檢視節點IOPS
+= 根據僅駐留在本機節點上的工作負載查看節點 IOPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

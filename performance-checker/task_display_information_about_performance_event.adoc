@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, information, performance, events 
 summary: 您可以使用「事件管理」資源清冊頁面、檢視Unified Manager所監控之叢集上所有效能事件的清單。透過檢視此資訊、您可以判斷最重要的事件、然後深入瞭解詳細資訊、以判斷事件的原因。 
 ---
-= 顯示效能事件的相關資訊
+= 顯示有​​關性能事件的信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

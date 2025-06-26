@@ -33,7 +33,7 @@ Unified Manager也為資料庫應用程式提供三種效能服務層級。這�
 ** 資料庫資料的極致利器
 
 
-* *使用者定義*：如果預先定義的效能服務層級不符合您的需求、您可以建立新的PSL來滿足您的需求。如需相關資訊、請參閱 link:../storage-mgmt/task_create_and_edit_psls.html["建立及編輯效能服務層級"]。
+* *使用者定義*：如果預先定義的效能服務層級不符合您的需求、您可以建立新的PSL來滿足您的需求。如需相關資訊，請參閱 link:../storage-mgmt/task_create_and_edit_psls.html["建立和編輯效能服務級別"]。
 * *超越極致*：超越極致PSL是系統建議的PSL、適用於要求IOPS高於極致的工作負載。工作負載會根據其IOPS、容量和延遲進行內部分析、建議您在「*儲存>工作負載>所有工作負載*」畫面上、針對這些工作負載進行「超越極限PSL」分析。您可以將PSL套用至工作負載、以確保最佳效能。
 +
 工作負載的IOPs參數會根據工作負載行為而動態產生、並以「超越極限<數量-（尖峰IOPS / TB）><數量（預期IOPS / TB）>」的格式附加至超越極限PSL的名稱。例如、如果系統判定工作負載的尖峰和預期IOPs分別為「106345」和「37929」、則針對工作負載所產生的「超越極限PSL」名稱即為「超越極限106345 37929」。雖然系統建議使用這些PSL、但當您將它們指派給工作負載時、這些PSL的類型會標示為「使用者定義」。
@@ -42,11 +42,11 @@ Unified Manager也為資料庫應用程式提供三種效能服務層級。這�
 
 
 
-== 透過指派PSL來管理工作負載
+== 透過分配 PSL 來管理工作負載
 
 您可以從「*原則*>*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。Unified Manager可協助您根據內部評估與建議、針對工作負載指派PSL。
 
-如需將系統建議的PSL指派給工作負載的相關資訊、請參閱 link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["將系統建議的PSL指派給工作負載"]
+如需將系統建議的 ISL 指派給工作負載的相關資訊，請參閱link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assign-system-recommended-psls-to-workloads["將系統建議的 PSL 分配給工作負載"]
 
 「效能服務層級」頁面會列出可用的PSL原則、並可讓您新增、編輯及刪除這些原則。
 

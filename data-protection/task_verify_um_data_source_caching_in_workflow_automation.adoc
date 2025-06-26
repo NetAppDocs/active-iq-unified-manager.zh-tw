@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, unified manager, data source, cache, workflow automation 
 summary: 您可以在Workflow Automation中檢查資料來源取得是否成功、以判斷Unified Manager資料來源快取是否正常運作。您可以將Workflow Automation與Unified Manager整合、以確保整合後仍可使用Workflow Automation功能。 
 ---
-= 在Workflow Automation中驗證Unified Manager資料來源快取
+= 在工作流程自動化中驗證 Unified Manager 資料來源緩存
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

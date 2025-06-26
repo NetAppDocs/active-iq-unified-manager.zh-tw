@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, connection, workflow, automation, unified manager 
 summary: 您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。 
 ---
-= 設定Workflow Automation與Unified Manager之間的連線
+= 設定工作流程自動化和 Unified Manager 之間的連接
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

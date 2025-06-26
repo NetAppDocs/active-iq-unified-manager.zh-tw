@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume schedule, transfers, quiesce, relationship,  volume, health details page 
 summary: 在您靜止不動以停止排程的傳輸之後、您可以使用「Volume / Health」（磁碟區/健全狀況）詳細資料頁面上的「恢復」重新啟用排程的傳輸、以保護來源或主要磁碟區上的資料。在下次排程的傳輸時間間隔、從檢查點恢復傳輸（如果存在）。 
 ---
-= 從「Volume / Health（磁碟區/健全狀況）」詳細資料頁面、以靜止關係恢復排程的傳輸
+= 從卷/健康詳情頁面恢復已停頓關係的預定傳輸
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs 
 summary: 您可以在「設定稽核記錄」對話方塊中選取「啟用遠端記錄」核取方塊、以啟用遠端稽核記錄。您可以使用此功能將稽核記錄傳輸到遠端Syslog伺服器。如此一來、您就能在空間有限時管理稽核記錄。 
 ---
-= 啟用遠端記錄稽核記錄
+= 啟用稽核日誌的遠端記錄
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

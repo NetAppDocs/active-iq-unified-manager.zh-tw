@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, virtual, appliance, host name 
 summary: 首次部署Unified Manager虛擬應用裝置時、會為網路主機指派一個名稱。您可以在部署後變更主機名稱。如果變更主機名稱、也必須重新產生HTTPS憑證。 
 ---
-= 變更Unified Manager虛擬應用裝置主機名稱
+= 更改 Unified Manager 虛擬設備主機名
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

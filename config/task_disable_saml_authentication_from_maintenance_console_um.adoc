@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication, maintenance, console 
 summary: 當無法存取Unified Manager GUI時、您可能需要從維護主控台停用SAML驗證。這可能發生在設定錯誤或無法存取IDP的情況下。 
 ---
-= 從維護主控台停用SAML驗證
+= 從維護控制台停用 SAML 驗證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

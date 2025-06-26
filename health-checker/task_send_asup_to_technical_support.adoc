@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: 當您遇到的問題需要更詳細的診斷和疑難排解、而非AutoSupport 透過消息所提供的問題、您應該寄送支援服務包。您可以使用Unified Manager Web UI和維護主控台、將支援套件傳送給技術支援。 
 ---
-= 透過Web UI和維護主控台傳送支援服務組合
+= 透過 Web UI 和維護控制台發送支援包
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

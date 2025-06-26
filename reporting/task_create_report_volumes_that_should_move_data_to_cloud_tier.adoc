@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
 summary: 您可以建立一份報告、其中包含目前位於FabricPool 下列項目的磁碟區清單：位在架構上、具有層級的雲端建議、以及大量的Cold資料。此報告可協助您決定是否應將特定磁碟區的分層原則變更為「自動」或「全部」、以便將更多的冷（非作用中）資料卸載到雲端層。 
 ---
-= 建立報告以識別FabricPool 應將資料移至雲端層的各個方面的磁碟區
+= 建立報告以識別 FabricPool 聚合上應將資料移至雲層的捲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

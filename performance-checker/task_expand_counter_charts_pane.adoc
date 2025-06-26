@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: 您可以展開「計數器圖表」窗格、使圖表變大、更易讀取。 
 ---
-= 展開「計數器圖表」窗格
+= 展開計數器圖表窗格
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

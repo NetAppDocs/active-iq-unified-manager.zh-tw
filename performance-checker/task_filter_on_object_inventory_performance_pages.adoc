@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, data, object, inventory, performance, pages 
 summary: 您可以篩選「物件庫存管理效能」頁面中的資料、以便根據特定條件快速找到資料。您可以使用篩選功能來縮小「物件庫存管理效能」頁面的內容、只顯示您指定的結果。這是一種非常有效率的方法、只顯示您感興趣的效能資料。 
 ---
-= 篩選「物件庫存管理效能」頁面中的資料
+= 過濾物件清單效能頁面中的數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -20,34 +20,34 @@ entries:
     url: "/install-windows/concept_browser_and_platform_requirements.html"
   - title: 傳輸協定與連接埠需求
     url: "/install-windows/reference_protocol_and_port_requirements.html"
-  - title: 完成工作表
+  - title: 填寫工作表單
     url: "/install-windows/reference_complete_worksheet_um.html"
-- title: 安裝、升級及移除Unified Manager軟體
+- title: 安裝、升級和刪除 Unified Manager 軟體
   url: "/install-windows/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: 安裝程序總覽
     url: "/install-windows/concept_overview_of_installation_process_on_windows.html"
-  - title: 在Windows上安裝Unified Manager
+  - title: 在 Windows 上安裝 Unified Manager
     url: "/install-windows/concept_install_unified_manager_windows.html"
     entries:
     - title: 安裝Unified Manager
       url: "/install-windows/task_install_unified_manager_on_windows.html"
-    - title: 執行Unified Manager的無人值守安裝
+    - title: 執行 Unified Manager 的無人值守安裝
       url: "/install-windows/task_unattended_installation_of_unified_manager.html"
-  - title: 變更jboss密碼
+  - title: 更改 JBoss 密碼
     url: "/install-windows/task_change_jboss_password_on_windows.html"
   - title: Unified Manager版本支援的升級途徑
     url: "/include/upgrade-path.html"
   - title: 升級Unified Manager
     url: "/install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html"
-  - title: 升級協力廠商產品
+  - title: 升級第三方產品
     url: "/install-windows/concept_upgrade_third_party_products_on_windows_um.html"
     entries:
     - title: 升級OpenJDK
       url: "/install-windows/task_upgrade_openjdk_on_windows_ocum.html"
-  - title: 解除安裝協力廠商產品
+  - title: 卸載第三方產品
     url: "/install-windows/task_uninstall_third_party_products.html"
-  - title: 重新啟動Unified Manager
+  - title: 重新啟動 Unified Manager
     url: "/install-windows/task_restart_unified_manager_win.html"
-  - title: 正在解除安裝Unified Manager
+  - title: 解除安裝 Unified Manager
     url: "/install-windows/task_uninstall_unified_manager_win.html"

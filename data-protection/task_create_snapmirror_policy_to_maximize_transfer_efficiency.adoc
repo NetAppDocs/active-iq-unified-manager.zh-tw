@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency 
 summary: 您可以建立SnapMirror原則、以指定保護關係的SnapMirror傳輸優先順序。SnapMirror原則可指派優先順序、讓低優先順序的傳輸作業排定在正常優先順序傳輸之後執行、讓您將來源傳輸效率最大化到目的地。 
 ---
-= 建立SnapMirror原則以最大化傳輸效率
+= 創建 SnapMirror 策略以最大程度提高傳輸效率
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

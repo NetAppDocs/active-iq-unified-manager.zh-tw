@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, encryption status, volumes 
 summary: 您可以檢視所有磁碟區及其目前加密狀態的清單、以便判斷您磁碟區上的資料是否受到適當保護、不受未獲授權的使用者存取。 
 ---
-= 檢視所有磁碟區的加密狀態
+= 查看所有磁碟區的加密狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

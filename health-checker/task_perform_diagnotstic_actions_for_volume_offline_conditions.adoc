@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, diagnostic actions, volume, offline, conditions 
 summary: 在瀏覽至報告為離線的Volume / Health詳細資料頁面之後、您可以搜尋其他有助於診斷Volume離線狀況的資訊。 
 ---
-= 針對Volume離線狀況執行診斷動作
+= 對磁碟區離線情況執行診斷操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

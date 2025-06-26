@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet, cluster, information, unified manager 
 summary: 在安裝及設定Unified Manager之前、您應該隨時取得有關環境的特定資訊。您可以將資訊記錄在工作表中。 
 ---
-= 完成工作表
+= 填寫工作表單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

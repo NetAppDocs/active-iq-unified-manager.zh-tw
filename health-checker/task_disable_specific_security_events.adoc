@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, specific, security events 
 summary: 預設會啟用所有事件。您可以停用特定事件、以防止為環境中不重要的事件產生通知。如果您想要繼續接收已停用的事件通知、您可以啟用這些事件。 
 ---
-= 停用特定的安全性事件
+= 禁用特定安全事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

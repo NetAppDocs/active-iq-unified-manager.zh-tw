@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP 
 summary: 您可以建立報告來顯示ONTAP 安裝在所有叢集節點上的版本、以便查看應該升級的節點。 
 ---
-= 建立報告以檢視執行ONTAP 舊版功能的節點
+= 建立報表以查看執行舊版本 ONTAP 的節點
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotation rules 
 summary: 當不再需要規則時、您可以從Active IQ Unified Manager 功能表中刪除註釋規則。 
 ---
-= 刪除註釋規則
+= 刪除註解規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

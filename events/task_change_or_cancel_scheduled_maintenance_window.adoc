@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window 
 summary: 如果您已將Unified Manager維護時間設定為未來發生、您可以變更開始和結束時間、或取消維護時間。 
 ---
-= 變更或取消排程的維護時段
+= 更改或取消計劃的維護時段
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

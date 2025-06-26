@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range 
 summary: 選取預先定義的時間範圍、是在檢視叢集物件效能資料時、自訂和焦點資料輸出的快速且有效率的方法。選取預先定義的時間範圍時、最多可提供13個月的資料。 
 ---
-= 選取預先定義的時間範圍
+= 選擇預定義的時間範圍
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

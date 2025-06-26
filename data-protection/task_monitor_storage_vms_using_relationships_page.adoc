@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationships page, monitor, storage, vm 
 summary: 您可以從庫存的「保護」區段的「關係」頁面監控儲存VM災難恢復關係。根據預設、「關係」頁面會在套用組成關係篩選時、僅列出最上層的關係。 
 ---
-= 使用「關係」頁面監控儲存VM
+= 使用「關係」頁面監控儲存虛擬機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view 
 summary: 「計數器圖表縮放檢視」視窗中的時間範圍控制項可讓您指定所選圖表的日期和時間範圍。這可讓您根據預設時間範圍或自訂時間範圍、快速找到特定資料。 
 ---
-= 在縮放檢視中指定時間範圍
+= 在縮放視圖中指定時間範圍
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

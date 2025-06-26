@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: 在Unified Manager中、您可以識別爭用叢集元件的使用量差異最高的工作負載。識別這些工作負載有助於瞭解叢集上的特定磁碟區為何回應時間（延遲）緩慢。 
 ---
-= 識別動態效能事件所涉及的高效能工作負載
+= 識別動態效能事件中涉及的工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

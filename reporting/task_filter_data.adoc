@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, data 
 summary: 篩選資料、確保結果符合您的報告要求。篩選功能可讓您僅顯示感興趣的資料。 
 ---
-= 篩選資料
+= 過濾數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -26,7 +26,7 @@ summary: 「儀表板」頁面有「面板」、顯示您所監控叢集的高�
 
 == 「管理行動」面板
 
-Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會顯示在此面板中、並顯示*修正*或*全部修正*按鈕。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。若要檢視所有問題、請按一下「請參閱」 link:concept_fix_ontap_issues_directly_from_unified_manager.html["直接從ONTAP Unified Manager修正各種問題"] 以取得更多資訊。
+Unified Manager可能會徹底診斷並提供單一解決方案、如果可用、這些解析度會顯示在此面板中、並顯示*修正*或*全部修正*按鈕。您可以從Unified Manager立即修正這些問題、而不需要使用ONTAP 功能介紹系統管理程式或ONTAP 功能介紹CLI。如需檢視所有問題，請按一下「請參閱」link:concept_fix_ontap_issues_directly_from_unified_manager.html["直接從 Unified Manager 修復 ONTAP 問題"]以取得更多資訊。
 
 
 
@@ -120,6 +120,6 @@ link:../performance-checker/concept_sources_of_performance_events.html["效能�
 
 link:../health-checker/concept_manage_cluster_security_objectives.html["管理叢集安全目標"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["從效能叢集登陸頁面監控叢集效能"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["從效能叢集登入頁面監控叢集效能"]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html["使用「效能詳細目錄」頁面監控效能"]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html["使用「效能清單」頁面監控效能"]

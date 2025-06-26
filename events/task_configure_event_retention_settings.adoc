@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings 
 summary: 您可以指定事件在自動刪除之前、保留在Unified Manager伺服器中的月數。 
 ---
-= 設定事件保留設定
+= 配置事件保留設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

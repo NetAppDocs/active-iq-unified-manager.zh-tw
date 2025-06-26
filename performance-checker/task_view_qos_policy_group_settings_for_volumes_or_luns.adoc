@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
 summary: 您可以檢視已套用至磁碟區和LUN的QoS原則群組、也可以連結至效能/QoS原則群組檢視、以顯示每個QoS原則的詳細組態設定。 
 ---
-= 檢視套用至特定磁碟區或LUN的QoS原則群組設定
+= 查看應用於特定磁碟區或 LUN 的 QoS 原則群組設置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

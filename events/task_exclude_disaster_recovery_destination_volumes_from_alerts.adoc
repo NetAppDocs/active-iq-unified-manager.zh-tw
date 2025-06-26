@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts 
 summary: 設定Volume警示時、您可以在警示對話方塊中指定字串、以識別磁碟區或磁碟區群組。不過、如果您已設定SVM的災難恢復、來源和目的地磁碟區名稱相同、因此您將會收到兩個磁碟區的警示。 
 ---
-= 排除災難恢復目的地磁碟區產生警示
+= 排除災難復原目標磁碟區產生警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

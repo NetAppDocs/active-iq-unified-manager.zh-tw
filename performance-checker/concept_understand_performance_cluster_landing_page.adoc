@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page 
 summary: 「效能叢集登陸」頁面提供所選叢集的高層效能總覽、並強調叢集內前10大物件的效能狀態。效能問題會顯示在此頁面頂端的「All Event on this Cluster（此叢集上的所有事件）」面板中。 
 ---
-= 瞭解效能叢集登陸頁面
+= 了解性能集群登陸頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

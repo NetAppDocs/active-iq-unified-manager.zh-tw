@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: 您可以使用加總總計和叢集式直條圖格式、建立報告來分析Excel檔案中的容量。 
 ---
-= 建立報告以顯示Aggregate容量表格和圖表
+= 建立報表以顯示聚合容量表和圖表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

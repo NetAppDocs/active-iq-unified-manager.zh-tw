@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, unified manager 
 summary: 支援的儲存系統可透過REST風格的網路服務介面、針對任何協力廠商整合、提供一套API來管理儲存資源。Active IQ Unified Manager 
 ---
-= 開始使用Active IQ Unified Manager 靜態API
+= 開始使用 Active IQ Unified Manager REST API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, resource pools, inventory 
 summary: 您可以使用「資源池」頁面來檢視資源池資源清冊、以及監控每個資源池的剩餘容量。 
 ---
-= 檢視資源池資源清冊
+= 查看資源池清單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events 
 summary: 預設會啟用所有事件。您可以全域停用事件、以防止為環境中不重要的事件產生通知。當您想要繼續接收通知時、可以啟用停用的事件。 
 ---
-= 停用不必要的事件
+= 禁用不需要的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

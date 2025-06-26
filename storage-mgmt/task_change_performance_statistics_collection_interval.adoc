@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, performance, statistics, collection, interval 
 summary: 效能統計資料的預設收集時間間隔為5分鐘。如果發現大型叢集的集合未在預設時間內完成、您可以將此時間間隔變更為10或15分鐘。此設定會影響此Unified Manager執行個體所監控之所有叢集的統計資料集合。 
 ---
-= 變更效能統計資料收集時間間隔
+= 修改效能統計收集間隔
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

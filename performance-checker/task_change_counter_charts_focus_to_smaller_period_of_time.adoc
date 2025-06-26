@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time 
 summary: 您可以使用滑鼠來縮短時間範圍、以便在「Counter圖表」窗格或「Counter圖表縮放檢視」視窗中、專注於特定時間段。如此一來、您就能更精細、更宏觀地檢視效能資料、事件和臨界值等時間表的任何部分。 
 ---
-= 將Counter圖表的焦點變更為較短的時間
+= 將計數器圖表焦點變更為較短的時間段
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

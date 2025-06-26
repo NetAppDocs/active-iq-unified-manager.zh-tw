@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, troubleshoot 
 summary: 工作負載分析器可讓您在單一頁面上檢視單一工作負載的重要健全狀況和效能條件、以協助疑難排解。透過檢視工作負載的所有目前和過去事件、您可以更清楚地瞭解為何工作負載現在可能出現效能或容量問題。 
 ---
-= 使用工作負載分析器疑難排解工作負載
+= 使用工作負載分析器排除工作負載故障
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

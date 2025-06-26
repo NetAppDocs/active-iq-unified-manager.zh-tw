@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade events, view, security events, software, firmware updates 
 summary: 某些安全事件的影響範圍是「升級」。這些事件是Active IQ 從支援中心平台報告、可識別解決方案需要您升級ONTAP 的問題、包括軟體、節點韌體或作業系統軟體（如需安全性建議）。 
 ---
-= 檢視可能需要軟體或韌體更新的安全性事件
+= 查看可能需要軟體或韌體更新的安全性事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

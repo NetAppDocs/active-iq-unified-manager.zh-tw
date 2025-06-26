@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: calculate, reclaimable space, snapshot copies 
 summary: 如果刪除一或多個Snapshot複本、您可以計算可回收的磁碟空間量。 
 ---
-= 計算Snapshot複本的可回收空間
+= 計算 Snapshot 副本的可回收空間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

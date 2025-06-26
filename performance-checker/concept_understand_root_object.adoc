@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object 
 summary: 根物件是進行其他物件比較的基準線。這可讓您檢視及比較其他物件與根物件之間的資料、並提供效能資料分析、協助您疑難排解及改善物件效能。 
 ---
-= 瞭解根物件
+= 了解根對象
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

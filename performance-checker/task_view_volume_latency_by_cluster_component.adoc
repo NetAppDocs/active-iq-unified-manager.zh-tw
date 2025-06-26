@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, latency, cluster, component 
 summary: 您可以使用Volume Performance Explorer頁面來檢視Volume的詳細延遲資訊。「延遲-總計」計數器圖表顯示磁碟區的總延遲、而「延遲-明細」計數器圖表則有助於判斷磁碟區的讀取和寫入延遲影響。 
 ---
-= 依叢集元件檢視磁碟區延遲
+= 按集群組件查看卷延遲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

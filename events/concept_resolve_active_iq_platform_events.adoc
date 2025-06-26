@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, resolve, events 
 summary: 由於可指派給其他使用者進行解決、且其可用狀態與其他Unified Manager事件相同、因此平台事件與風險與其他Unified Manager事件類似。Active IQ不過、當您使用「修復」按鈕來解決這些類型的事件時、您可以在數小時內驗證解決方案。 
 ---
-= 解決Active IQ 平台事件
+= 解決 Active IQ 平台事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: 您可以使用Active IQ Unified Manager 作爲VMware的一部分提供的資源配置API、在儲存虛擬機器（SVM）上配置CIFS共享和NFS檔案共享。此資源配置工作流程詳細說明在建立檔案共用之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。 
 ---
-= 使用API來配置CIFS和NFS檔案共用
+= 使用 API 預配 CIFS 和 NFS 檔案共用
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage vm list, details 
 summary: 從「Health：All Storage VM」（健全狀況：所有儲存VM）檢視中、您可以監控儲存虛擬機器（SVM）的庫存。您可以使用「儲存VM /健全狀況詳細資料」頁面來檢視所監控之SVM的詳細資訊。 
 ---
-= 檢視Storage VM清單和詳細資料
+= 查看儲存虛擬機器列表和詳細信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

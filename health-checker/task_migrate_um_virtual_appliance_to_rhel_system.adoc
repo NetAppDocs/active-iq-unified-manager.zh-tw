@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: 如果您想要變更執行 Unified Manager 的主機作業系統，可以將 Unified Manager MySQL 資料庫傾印備份從虛擬應用裝置還原至 Red Hat Enterprise Linux 系統。 
 ---
-= 將Unified Manager虛擬應用裝置移轉至Linux系統
+= 將 Unified Manager 虛擬設備遷移到 Linux 系統
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

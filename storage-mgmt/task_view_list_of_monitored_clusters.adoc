@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters 
 summary: 您可以使用「叢集設定」頁面來檢視叢集的詳細目錄。您可以檢視叢集的詳細資料、例如其名稱或IP位址和通訊狀態。 
 ---
-= 檢視受監控叢集的清單
+= 查看監控叢集列表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

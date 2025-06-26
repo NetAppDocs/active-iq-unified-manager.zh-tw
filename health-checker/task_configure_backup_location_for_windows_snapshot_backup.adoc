@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, backup, location, windows, snapshot copy, copies 
 summary: 在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。 
 ---
-= 設定Windows的備份位置
+= 配置 Windows 的備份位置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

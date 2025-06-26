@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager 
 summary: 您可以使用命令列介面來安裝Unified Manager、而無需使用者介入。您可以在金鑰值配對中傳遞參數、以完成無人值守安裝。 
 ---
-= 執行Unified Manager的無人值守安裝
+= 執行 Unified Manager 的無人值守安裝
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

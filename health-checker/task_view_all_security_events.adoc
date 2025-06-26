@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, security events 
 summary: 您可以檢視所有作用中的安全性事件、然後將每個事件指派給可以解決問題的使用者。此外、如果您不想接收某些安全性事件、此清單可協助您識別要停用的事件。 
 ---
-= 檢視所有作用中的安全事件
+= 查看所有活動的安全事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

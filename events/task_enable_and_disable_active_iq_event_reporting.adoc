@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, active iq, event, report 
 summary: 根據預設、會在Unified Manager使用者介面中產生及顯示平台事件。Active IQ如果您發現這些事件太過「雜訊」、或您不想在Unified Manager中檢視這些事件、則可以停用產生這些事件的功能。如果您想要繼續接收這些通知、您可以稍後再啟用這些通知。 
 ---
-= 啟用和停用Active IQ 事件報告功能
+= 啟用和停用 Active IQ 事件報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

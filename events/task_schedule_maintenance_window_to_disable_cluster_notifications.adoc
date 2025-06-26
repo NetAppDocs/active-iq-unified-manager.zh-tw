@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: 如果叢集發生計畫性停機、例如升級叢集或移動其中一個節點、您可以排程Unified Manager維護時間範圍、以抑制通常在該時間範圍內產生的事件和警示。 
 ---
-= 排程維護時間以停用叢集事件通知
+= 安排維護時段以停用叢集事件通知
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

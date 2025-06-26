@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, qtree, health, threshold values 
 summary: 您可以設定所有qtree的全域健全狀況臨界值、以追蹤任何臨界值外洩。系統會針對違反健康臨界值事件產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有受監控qtree之臨界值的最佳實務做法設定來設定全域值。 
 ---
-= 設定全域qtree健全狀況臨界值
+= 配置全域 qtree 運行狀況閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: 您可以建立報告、其中包含快照自動刪除功能停用時即將達到完整容量的磁碟區清單。結果有助於識別您可能想要設定Snapshot自動刪除的磁碟區。 
 ---
-= 建立報告以識別即將達到完整容量的磁碟區、並關閉Snapshot自動刪除功能
+= 建立報告以識別已關閉快照自動刪除功能的接近滿容量的捲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

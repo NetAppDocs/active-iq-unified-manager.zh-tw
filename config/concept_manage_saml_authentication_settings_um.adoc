@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, saml, authentication, settings 
 summary: 設定遠端驗證設定之後、您可以啟用安全聲明標記語言（SAML）驗證、讓遠端使用者先經過安全身分識別供應商（IDP）的驗證、才能存取Unified Manager Web UI。 
 ---
-= 管理SAML驗證設定
+= 管理 SAML 身份驗證設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

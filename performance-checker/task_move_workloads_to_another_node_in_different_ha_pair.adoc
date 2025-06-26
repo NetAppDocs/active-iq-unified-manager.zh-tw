@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, another, node, different, ha pair 
 summary: 您可以使用Unified Manager來協助識別不同HA配對中節點上的Aggregate、而該節點的忙碌度低於工作負載目前執行的HA配對。然後、您可以將選取的磁碟區移至新HA配對上的集合體。將高效能工作負載移至較不忙碌節點上的集合體、可讓兩個節點上的工作負載更有效率地執行。 
 ---
-= 將工作負載移至不同HA配對中的其他節點
+= 將工作負載移至不同 HA 對中的另一個節點
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

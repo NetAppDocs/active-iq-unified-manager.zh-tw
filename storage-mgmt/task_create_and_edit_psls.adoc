@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, performance, service, Levels 
 summary: 當系統定義的效能服務層級不符合您的工作負載需求時、您可以建立專為工作負載最佳化的效能服務層級。 
 ---
-= 建立及編輯效能服務層級
+= 建立和編輯效能服務級別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

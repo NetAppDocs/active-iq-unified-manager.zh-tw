@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, events 
 summary: 您可以使用Unified Manager來調查效能計數器所造成的效能事件、這些事件會跨越使用者定義的警告或嚴重臨界值。您也可以使用Unified Manager檢查叢集元件的健全狀況、查看元件上偵測到的最近健全狀況事件是否有助於效能事件。 
 ---
-= 回應使用者定義的效能臨界值事件
+= 響應用戶定義的效能閾值事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

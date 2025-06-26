@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: 閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認證來執行ONTAP 「資訊」API及管理儲存物件。從Unified Manager Web UI啟用API閘道功能時、即可使用這些API。 
 ---
-= 透過Proxy存取功能存取ONTAP 功能的部分API
+= 透過代理程式存取 ONTAP API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ Unified Manager REST API僅支援在Unified Manager資料來源ONTAP （即叢�
 |===
 
 
-== 瞭解API閘道通道
+== 了解 API 網關隧道
 
 閘道API可ONTAP 讓您透過Unified Manager管理各種物件。Unified Manager可管理叢集和驗證詳細資料、並將要求重新導向ONTAP 至REST端點。閘道API會將URL和Hypermedia轉換為標頭和回應本文中的應用程式狀態引擎（HATEOAS）連結、並以API閘道基礎URL進行。閘道API可做為Proxy基礎URL、您可以在其中附加ONTAP 靜態URL、並執行所需ONTAP 的REST端點。
 
@@ -102,7 +102,7 @@ API會傳回該叢集中的儲存磁碟區清單。回應格式與ONTAP 您在�
 
 
 
-== 設定API範圍
+== 設定 API 範圍
 
 所有API都在叢集範圍內設定內容。以儲存VM為基礎運作的API也會將叢集當作範圍、也就是API作業會在受管理叢集內的特定儲存VM上執行。當您執行「/gatewes/\｛uuid｝/\｛path｝」API時、請務必輸入執行作業之叢集的叢集UUID（Unified Manager資料來源UUID）。若要將內容設定為該叢集中的特定儲存VM、請輸入儲存VM金鑰作為X-Dot-Svm-UUID參數、或輸入儲存VM名稱作為X-Dot-Svm-Name參數。此參數會新增為字串標頭中的篩選器、而且作業會在該叢集內該儲存VM的範圍內執行。
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: 您可以依照任何欄位的遞增或遞減順序、來排序「物件庫存效能」頁面上的所有資料。這可讓您快速找到物件庫存資料、這在檢查效能或開始疑難排解程序時很有幫助。 
 ---
-= 在「物件庫存效能」頁面上排序
+= 在物件清單效能頁面上排序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

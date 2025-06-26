@@ -2,7 +2,7 @@
 section: events
 title: 管理事件與警示
 entries:
-- title: 管理事件
+- title: 管理活動
   url: "/events/concept_manage_events.html"
   entries:
   - title: 什麼是平台事件Active IQ
@@ -16,40 +16,40 @@ entries:
       url: "/events/task_subscribe_to_ontap_ems_events.html"
   - title: 收到事件時會發生什麼事
     url: "/events/concept_what_happens_when_an_event_is_received.html"
-  - title: 檢視事件與事件詳細資料
+  - title: 查看活動和活動詳情
     url: "/events/task_view_event_details.html"
-  - title: 檢視未指派的事件
+  - title: 查看未指派的事件
     url: "/events/task_view_unassigned_events.html"
   - title: 確認並解決事件
     url: "/events/task_acknowledge_and_resolve_events.html"
-  - title: 指派事件給特定使用者
+  - title: 將事件指派給特定用戶
     url: "/events/task_assign_events_to_specific_users.html"
-  - title: 停用不必要的事件
+  - title: 禁用不需要的事件
     url: "/events/task_disable_unwanted_events.html"
-  - title: 使用Unified Manager自動修正來修正問題
+  - title: 使用 Unified Manager 自動修復功能解決問題
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
-  - title: 啟用和停用Active IQ 事件報告功能
+  - title: 啟用和停用 Active IQ 事件報告
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: 正在上傳新Active IQ 的功能更新檔案
+  - title: 上傳新的 Active IQ 規則文件
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: 如何產生平台事件Active IQ
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-  - title: 解決Active IQ 平台事件
+  - title: 解決 Active IQ 平台事件
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: 設定事件保留設定
+  - title: 配置事件保留設定
     url: "/events/task_configure_event_retention_settings.html"
   - title: 什麼是Unified Manager維護所需時間
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: 排程維護時間以停用叢集事件通知
+    - title: 安排維護時段以停用叢集事件通知
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: 變更或取消排程的維護時段
+    - title: 更改或取消計劃的維護時段
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: 檢視維護期間發生的事件
+    - title: 查看維護時段內發生的事件
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
   - title: 管理主機系統資源事件
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: 深入瞭解事件
+  - title: 了解更多活動信息
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: 事件狀態定義
@@ -165,19 +165,19 @@ entries:
     entries:
     - title: 新增警示的準則
       url: "/events/concept_guidelines_for_adding_alerts.html"
-  - title: 新增效能事件的警示
+  - title: 新增性能事件警報
     url: "/events/task_add_alerts_for_performance_events.html"
   - title: 測試警示
     url: "/events/task_test_alerts.html"
-  - title: 針對已解決和已過時的事件啟用和停用警示
+  - title: 啟用和停用已解決和已過時事件的警報
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: 排除災難恢復目的地磁碟區產生警示
+  - title: 排除災難復原目標磁碟區產生警報
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
   - title: 檢視警示
     url: "/events/task_view_alerts.html"
-  - title: 編輯警示
+  - title: 編輯警報
     url: "/events/task_edit_alerts.html"
-  - title: 刪除警示
+  - title: 刪除警報
     url: "/events/task_delete_alerts.html"
   - title: 警示視窗和對話方塊說明
     url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
@@ -188,16 +188,16 @@ entries:
       url: "/events/reference_add_alert_dialog_box.html"
     - title: 編輯警示對話方塊
       url: "/events/reference_edit_alert_dialog_box.html"
-- title: 管理指令碼
+- title: 管理腳本
   url: "/events/concept_manage_scripts.html"
   entries:
   - title: 指令碼如何使用警示
     url: "/events/concept_how_scripts_work_with_alerts.html"
-  - title: 新增指令碼
+  - title: 新增腳本
     url: "/events/task_add_scripts.html"
-  - title: 刪除指令碼
+  - title: 刪除腳本
     url: "/events/task_delete_scripts.html"
-  - title: 測試指令碼執行
+  - title: 測試腳本執行
     url: "/events/task_test_script_execution.html"
   - title: 支援的Unified Manager CLI命令
     url: "/events/reference_supported_unified_manager_cli_commands.html"

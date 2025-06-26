@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, view protection status 
 summary: 您可以使用庫存的「Storage VM」（儲存VM）頁面來檢視Active IQ Unified Manager 所有的儲存VM、並根據其保護狀態來篩選儲存VM。 
 ---
-= 根據保護狀態檢視儲存VM
+= 根據保護狀態查看儲存虛擬機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

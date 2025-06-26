@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: 「選擇圖表」下拉式清單可讓您選取要顯示在「計數器圖表」窗格中的效能計數器圖表類型。如此可讓您根據效能需求、檢視特定的資料和計數器。 
 ---
-= 選取要顯示的效能圖表
+= 選擇要顯示的效能圖表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

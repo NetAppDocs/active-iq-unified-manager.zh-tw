@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure 
 summary: 此工作流程為您提供一個範例、說明如何從Unified Manager儀表板識別及解決保護工作故障。 
 ---
-= 解決保護工作故障
+= 解決保護作業失敗
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

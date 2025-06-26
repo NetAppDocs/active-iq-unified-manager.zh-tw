@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: 您可以使用Unified Manager監控節點根Volume。最佳實務做法是、節點根磁碟區應有足夠的容量、以防止節點停機。 
 ---
-= 瞭解節點根磁碟區
+= 了解節點根卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

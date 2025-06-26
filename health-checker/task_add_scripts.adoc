@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, scripts 
 summary: 您可以在Unified Manager中新增指令碼、並將指令碼與警示建立關聯。這些指令碼會在產生警示時自動執行、並可讓您取得產生事件之儲存物件的相關資訊。 
 ---
-= 新增指令碼
+= 新增腳本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

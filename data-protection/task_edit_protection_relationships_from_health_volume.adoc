@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, health details page 
 summary: 您可以編輯現有的保護關係、以變更目前的最大傳輸率、保護原則或保護排程。您可以編輯關聯以減少傳輸所用的頻寬、或是因為資料經常變更而增加排程傳輸的頻率。 
 ---
-= 從Volume / Health詳細資料頁面編輯保護關係
+= 從卷/健康詳情頁面編輯保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

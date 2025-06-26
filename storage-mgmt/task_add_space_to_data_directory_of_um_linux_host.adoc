@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, data directory, linux host 
 summary: 如果您在最初設定Linux主機並安裝Unified Manager時、將磁碟空間不足分配給「/opt/NetApp/data」目錄以支援Unified Manager、則可在安裝後增加磁碟空間、方法是在「/opt/NetApp/data」目錄中增加磁碟空間。 
 ---
-= 將空間新增至Linux主機的資料目錄
+= 為Linux主機的資料目錄新增空間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

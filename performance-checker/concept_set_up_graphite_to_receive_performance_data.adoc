@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: setting, graphite, receive, performance, data, unified manager 
 summary: 石墨是一種開放式軟體工具、可用來從電腦系統收集效能資料並製作圖表。您的Graphite伺服器和軟體必須正確設定、才能從Unified Manager接收統計資料。 
 ---
-= 設定Graphite從Unified Manager接收效能資料
+= 設定 Graphite 以從 Unified Manager 接收效能數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

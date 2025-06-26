@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details 
 summary: 您可以使用健全狀況：所有節點檢視來檢視叢集中的節點清單。您可以使用「叢集/健全狀況」詳細資料頁面來檢視受監控叢集一部分的節點詳細資訊。 
 ---
-= 檢視節點清單和詳細資料
+= 查看節點列表及詳情
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

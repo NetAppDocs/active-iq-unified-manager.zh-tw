@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: all san, array, performance, clusters 
 summary: '您可以使用「Performance：All Clusters"（效能：所有叢集）檢視來顯示All SAN Array叢集的效能狀態。' 
 ---
-= 檢視所有SAN陣列叢集的效能
+= 查看所有 SAN 陣列群集的效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

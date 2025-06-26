@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, annotations 
 summary: 瞭解註釋的概念有助於管理環境中與儲存物件相關的事件。 
 ---
-= 深入瞭解附註
+= 了解有關註釋的更多信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, windows, netapp, snapshot copy, copies, configure, backup 
 summary: 支援在使用iSCSI傳輸協定的LUN協助下、在Windows作業系統上使用NetApp Snapshot進行備份與還原。Active IQ Unified Manager 
 ---
-= 在Windows上設定備份
+= 在 Windows 上設定備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

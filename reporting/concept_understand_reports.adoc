@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports 
 summary: 報告會顯示有關儲存設備、網路、服務品質及保護關係的詳細資訊、協助您在潛在問題發生之前先加以識別及解決。 
 ---
-= 瞭解報告
+= 了解報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

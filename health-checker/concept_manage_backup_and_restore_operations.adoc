@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, types, manage, restore, operations 
 summary: 如果Active IQ Unified Manager 系統故障或資料遺失、您可以建立還原備份、並使用還原功能將備份還原至相同（本機）系統或新（遠端）系統。 
 ---
-= 管理備份與還原作業
+= 管理備份和復原作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

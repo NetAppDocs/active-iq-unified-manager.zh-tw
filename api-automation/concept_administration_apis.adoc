@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, administrative, tasks 
 summary: 您可以使用管理類別下的API來修改備份設定、驗證備份檔案資訊和叢集憑證、也可以將ONTAP 無法使用的叢集當作Active IQ Unified Manager 資料來源來管理。 
 ---
-= 使用API執行管理工作
+= 使用 API 執行管理任務
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

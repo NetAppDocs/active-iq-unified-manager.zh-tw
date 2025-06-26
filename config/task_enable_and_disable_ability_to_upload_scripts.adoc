@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: script upload, enable, disable 
 summary: 預設會啟用將指令碼上傳至Unified Manager並執行的功能。如果貴組織因為安全理由而不想允許此活動、您可以停用此功能。 
 ---
-= 啟用及停用指令碼上傳
+= 啟用和停用腳本上傳
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

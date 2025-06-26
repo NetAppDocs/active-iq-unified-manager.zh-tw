@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, health details page 
 summary: 您可以重新同步發生SnapVault 中斷的SnapMirror或SnapMirror關係上的資料、然後將目的地設定為讀取/寫入、以便來源上的資料與目的地上的資料相符。當來源磁碟區上所需的通用Snapshot複本遭刪除、導致SnapMirror或SnapVault 更新失敗時、您也可以重新同步。 
 ---
-= 從Volume / Health詳細資料頁面重新同步保護關係
+= 從卷/健康詳情頁面重新同步保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

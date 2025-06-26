@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, performance, reports 
 summary: 這些範例自訂報告可協助您識別及回應與磁碟區效能相關的潛在問題。 
 ---
-= 自訂Volume效能報告
+= 自訂磁碟區效能報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

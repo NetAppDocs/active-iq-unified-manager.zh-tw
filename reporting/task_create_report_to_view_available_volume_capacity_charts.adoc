@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, available, volume, capacity, charts 
 summary: 您可以建立報告、以分析Excel圖表中可用的Volume容量。 
 ---
-= 建立報告以檢視可用的Volume容量圖表
+= 建立報表以查看可用磁碟區容量圖表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

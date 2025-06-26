@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: 您可以排程在舊版Unified Manager中建立和匯入的現有報告。 
 ---
-= 排程匯入的.rptDesign報告
+= 安排導入 .rptdesign 報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

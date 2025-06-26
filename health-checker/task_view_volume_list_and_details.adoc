@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details 
 summary: 從「健全狀況：所有磁碟區」檢視中、您可以監控磁碟區的庫存。「容量：所有磁碟區」檢視可讓您檢視叢集中磁碟區容量與使用率的相關資訊。 
 ---
-= 檢視Volume清單和詳細資料
+= 查看卷冊列表和詳細信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

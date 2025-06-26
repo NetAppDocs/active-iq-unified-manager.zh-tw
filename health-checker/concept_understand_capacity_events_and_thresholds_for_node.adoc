@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates 
 summary: 您可以使用Unified Manager監控節點根Aggregate。最佳實務做法是在根Aggregate中以粗體配置根磁碟區、以避免節點停止運作。 
 ---
-= 瞭解節點根集合體的事件和臨界值
+= 了解節點根聚合的事件和閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

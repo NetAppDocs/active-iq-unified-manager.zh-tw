@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: 您可以從「Volume Relationships」（磁碟區關係）頁面、針對新的保護關係執行首次基準傳輸、或是更新關係（如果關係已初始化、且您想要執行手動、非計畫性的遞增更新以立即傳輸）。 
 ---
-= 從「Volume關係」頁面初始化或更新保護關係
+= 從磁碟區關係頁面初始化或更新保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, send, alert, notifications 
 summary: 您可以設定Unified Manager傳送通知、提醒您環境中的事件。在傳送通知之前、您必須先設定其他數個Unified Manager選項。 
 ---
-= 設定Unified Manager以傳送警示通知
+= 配置 Unified Manager 以發送警報通知
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

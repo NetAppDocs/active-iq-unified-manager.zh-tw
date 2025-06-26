@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, node, different, ha pair 
 summary: 您可以使用Unified Manager來協助識別不同高可用度（HA）配對中節點上的集合體、其可用效能容量比目前執行工作負載的HA配對更多。然後、您可以將選取的磁碟區移至新HA配對上的集合體。 
 ---
-= 將工作負載移至不同HA配對中的節點
+= 將工作負載移至不同 HA 對中的節點
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

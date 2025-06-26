@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, jobs 
 summary: 如果工作完成時間過長、發生過多錯誤或不再需要、您可以使用「工作」頁面來中止工作。只有在工作狀態和類型允許時、您才能中止工作。您可以中止任何執行中的工作。 
 ---
-= 正在中止工作
+= 中止作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

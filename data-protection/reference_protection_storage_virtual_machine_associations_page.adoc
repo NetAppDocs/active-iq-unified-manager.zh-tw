@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: Storage VM關聯頁面可讓您檢視來源與目的地儲存VM之間的現有儲存VM關聯。 
 ---
-= 瞭解儲存VM關聯
+= 了解儲存虛擬機器關聯
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

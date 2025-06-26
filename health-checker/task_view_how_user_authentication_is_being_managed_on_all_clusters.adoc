@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster authentication status, user authentication, manage, clusters 
 summary: 「安全性」頁面會顯示驗證每個叢集上使用者的類型、以及使用每種類型存取叢集的使用者數量。這可讓您確認使用者驗證是否已依照組織的定義安全地執行。 
 ---
-= 檢視如何在所有叢集上管理使用者驗證
+= 查看所有叢集上使用者身份驗證的管理方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

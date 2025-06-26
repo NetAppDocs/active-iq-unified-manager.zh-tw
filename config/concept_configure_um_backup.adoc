@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, backup 
 summary: 您可以透過一組設定步驟、在Unified Manager上設定備份功能、以便在主機系統上執行、並透過維護主控台執行。 
 ---
-= 設定Unified Manager備份
+= 設定 Unified Manager 備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS 
 summary: 此報告顯示哪些集合體的每個集合體類型的可用IOPS最高、您可以在這些集合體上配置新的工作負載。 
 ---
-= 建立報告以檢視具有最大可用IOPS的集合體
+= 建立報表以查看具有最多可用 IOPS 的聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -12,9 +12,9 @@ entries:
       url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
     - title: Unified Manager REST API可用於報告
       url: "/reporting/generaltask_um_rest_apis_that_can_be_used_for_reporting.html"
-  - title: 瞭解報告
+  - title: 了解報告
     url: "/reporting/concept_understand_reports.html"
-  - title: 瞭解檢視與報告關係
+  - title: 了解視圖和報表關係
     url: "/reporting/concept_understand_view_and_reports_relationship.html"
   - title: 報告類型
     url: "/reporting/reference_types_of_reports.html"
@@ -27,37 +27,37 @@ entries:
     url: "/reporting/concept_report_work_flow.html"
   - title: 報告快速入門
     url: "/reporting/task_report_quick_start.html"
-  - title: 正在搜尋排程報告
+  - title: 搜尋計劃報告
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: 自訂報告
     url: "/reporting/concept_customize_reports.html"
     entries:
-    - title: 自訂欄位
+    - title: 自訂列
       url: "/reporting/task_customize_columns.html"
-    - title: 篩選資料
+    - title: 過濾數據
       url: "/reporting/task_filter_data.html"
-    - title: 資料排序
+    - title: 對資料進行排序
       url: "/reporting/task_sort_data.html"
-    - title: 使用搜尋功能來精簡檢視
+    - title: 使用搜尋來優化您的視圖
       url: "/reporting/task_search_to_refine_view.html"
-    - title: 使用Excel自訂您的報告
+    - title: 使用 Excel 自訂報告
       url: "/reporting/task_use_excel_to_customize_your_report.html"
-  - title: 正在下載報告
+  - title: 下載報告
     url: "/reporting/task_download_reports.html"
 - title: 排程報告
   url: "/reporting/concept_schedule_reports.html"
   entries:
-  - title: 排程報告
+  - title: 安排報告
     url: "/reporting/task_schedule_report.html"
     entries:
-    - title: 排程匯入的.rptDesign報告
+    - title: 安排導入 .rptdesign 報告
       url: "/reporting/task_schedule_an_imported_report.html"
-  - title: 管理報告排程
+  - title: 管理報告計劃
     url: "/reporting/task_manage_report_schedules.html"
     entries:
-    - title: 編輯排程報告
+    - title: 編輯計劃報告
       url: "/reporting/task_edit_scheduled_reports.html"
-    - title: 刪除排程的報告
+    - title: 刪除計劃報告
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: 範例自訂報告
   url: "/reporting/concept_sample_custom_reports.html"
@@ -65,79 +65,79 @@ entries:
   - title: 自訂叢集儲存報告
     url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
-    - title: 建立報告以依叢集模式檢視容量
+    - title: 建立報告以按集群模型查看容量
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
-    - title: 建立報告以識別具有最大未配置LUN容量的叢集
+    - title: 建立報告以識別未分配 LUN 容量最多的集群
       url: "/reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html"
-    - title: 建立報告以檢視可用容量最大的HA配對
+    - title: 建立報表以查看具有最多可用容量的 HA 對
       url: "/reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html"
-    - title: 建立報告以檢視執行ONTAP 舊版功能的節點
+    - title: 建立報表以查看執行舊版本 ONTAP 的節點
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
-  - title: 自訂Aggregate容量報告
+  - title: 自訂聚合容量報告
     url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
-    - title: 建立報告以檢視達到完整容量的集合體
+    - title: 建立報表以查看達到滿載的聚合
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: 建立報告以檢視幾乎已滿的集合體
+    - title: 建立報告以查看幾乎已滿的聚合
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
-    - title: 建立報告以檢視過度委派的集合體
+    - title: 建立報表以查看過度承諾的聚合
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
-  - title: 自訂Volume容量報告
+  - title: 自訂磁碟區容量報告
     url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
-    - title: 建立報告以識別即將達到完整容量的磁碟區、並關閉Snapshot自動刪除功能
+    - title: 建立報告以識別已關閉快照自動刪除功能的接近滿容量的捲
       url: "/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html"
-    - title: 建立報告以識別停用精簡配置的磁碟區所使用的空間
+    - title: 建立報告以確定已停用精簡配置的磁碟區所使用的空間
       url: "/reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html"
-    - title: 建立報告以識別FabricPool 應將資料移至雲端層的各個方面的磁碟區
+    - title: 建立報告以識別 FabricPool 聚合上應將資料移至雲層的捲
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
-  - title: 自訂Qtree容量報告
+  - title: 自訂 Qtree 容量報告
     url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
-    - title: 建立報告以檢視幾乎已滿的qtree
+    - title: 建立報告以查看幾乎已滿的 qtree
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
-  - title: 自訂NFS共用報告
+  - title: 自訂 NFS 共享報告
     url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
-    - title: 建立報告以檢視具有無法存取掛載路徑的磁碟區
+    - title: 建立報告以查看具有無法存取的掛載路徑的捲
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
-    - title: 建立報告以檢視使用預設匯出原則的磁碟區
+    - title: 建立報告以查看使用預設匯出策略的捲
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
-  - title: 自訂儲存VM報告
+  - title: 自訂儲存虛擬機器報告
     url: "/reporting/concept_customize_svm_reports.html"
     entries:
-    - title: 建立報告以檢視達到最大磁碟區限制的儲存VM
+    - title: 建立報表以查看達到最大磁碟區限制的儲存虛擬機
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
-    - title: 建立報告以檢視停止的儲存VM
+    - title: 建立報告以查看已停止的儲存虛擬機
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
-  - title: 自訂Volume關係報告
+  - title: 自訂數量關係報告
     url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
-    - title: 建立報告、依故障來源將磁碟區關係分組
+    - title: 建立報表以按故障來源對磁碟區關係進行分組
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
-    - title: 建立報告、依問題將磁碟區關係分組
+    - title: 建立報告以按問題對卷宗關係進行分組
       url: "/reporting/task_create_report_to_group_volume_relationships_by_issue.html"
-    - title: 建立報告以檢視特定時間間隔的Volume傳輸趨勢
+    - title: 建立報表以查看特定時間間隔的傳輸量趨勢
       url: "/reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html"
-    - title: 建立報告以檢視失敗或成功的Volume傳輸
+    - title: 建立報表以查看失敗或成功的磁碟區傳輸
       url: "/reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html"
-    - title: 建立報告以根據傳輸大小檢視磁碟區傳輸
+    - title: 建立報表以根據傳輸大小查看傳輸量
       url: "/reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html"
-    - title: 建立報告以檢視每日分組的Volume Transfers
+    - title: 建立報表以查看按天分組的傳輸量
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
-  - title: 自訂Volume效能報告
+  - title: 自訂磁碟區效能報告
     url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
-    - title: 建立報告以檢視在未啟用FabricPool的Aggregate上含有大量Cold資料的磁碟區
+    - title: 建立報告以查看未啟用 FabricPool 的聚合上包含大量冷資料的捲
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Microsoft Excel報告範例
   url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
-  - title: 建立報告以顯示Aggregate容量表格和圖表
+  - title: 建立報表以顯示聚合容量表和圖表
     url: "/reporting/task_create_report_to_view_capacity.html"
-  - title: 建立報告以顯示總計與可用容量圖表
+  - title: 建立報表以顯示總計與可用容量圖表
     url: "/reporting/task_create_report_to_view_aggregate_capacity_charts.html"
-  - title: 建立報告以檢視可用的Volume容量圖表
+  - title: 建立報表以查看可用磁碟區容量圖表
     url: "/reporting/task_create_report_to_view_available_volume_capacity_charts.html"
-  - title: 建立報告以檢視具有最大可用IOPS的集合體
+  - title: 建立報表以查看具有最多可用 IOPS 的聚合
     url: "/reporting/task_create_report_to_view_aggregates_with_most_available_iops.html"

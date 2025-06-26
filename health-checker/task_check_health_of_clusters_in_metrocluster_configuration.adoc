@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: 您可以使用Unified Manager來檢查叢集及其元件的運作健全狀況MetroCluster 、並採用一套功能性設定。如果叢集涉及Unified Manager偵測到的效能事件、健全狀況狀態可協助您判斷是否有硬體或軟體問題導致事件發生。 
 ---
-= 檢查MetroCluster 叢集的健全狀況、以進行整體配置
+= 檢查 MetroCluster 配置中叢集的運作狀況
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +21,7 @@ summary: 您可以使用Unified Manager來檢查叢集及其元件的運作健�
 
 
 
-== 判斷MetroCluster 叢集健全狀況的功能
+== 確定 MetroCluster 透過 FC 配置中的叢集運作狀況
 
 請遵循下列步驟、以MetroCluster 透過功能不全的FC組態來判斷叢集健全狀況。
 
@@ -59,7 +59,7 @@ image::../media/opm_um_mcc_replication_tab_png.gif[Unified Manager MetroCluster 
 
 
 
-== 判斷MetroCluster 叢集健全狀況的透過IP進行設定
+== 確定 MetroCluster over IP 配置中的叢集運作狀況
 
 請依照下列步驟、以MetroCluster 透過IP位址進行的功能組態來判斷叢集健全狀況。
 

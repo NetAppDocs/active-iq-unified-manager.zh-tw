@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: feature settings, active iq, portal, events 
 summary: 您可以指定是否要啟用或停用Active IQ 入口網站的功能。此設定可讓Active IQ 入口網站探索及顯示有關系統組態、纜線等的其他事件。此選項預設為啟用。 
 ---
-= 啟用Active IQ 入口網站活動
+= 啟用 Active IQ 入口網站事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

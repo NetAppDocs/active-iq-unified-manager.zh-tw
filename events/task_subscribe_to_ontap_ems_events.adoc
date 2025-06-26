@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: subscribe, ontap, ems events 
 summary: 您可以訂閱以接收由安裝ONTAP 了此軟體的系統所產生的事件管理系統（EMS）事件。系統會自動將一部分EMS事件報告給Unified Manager、但只有在您訂閱了這些事件之後、才會報告其他EMS事件。 
 ---
-= 訂閱ONTAP E不到EMS活動
+= 訂閱 ONTAP EMS 活動
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: navigating, performance, workflows, unified manager, gui 
 summary: Unified Manager介面提供許多頁面、可用於收集及顯示效能資訊。您可以使用左側導覽面板來瀏覽GUI中的頁面、並使用頁面上的索引標籤和連結來檢視和設定資訊。 
 ---
-= 在Unified Manager GUI中瀏覽效能工作流程
+= 在 Unified Manager GUI 中導覽效能工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

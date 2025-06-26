@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events 
 summary: 您可以檢視未指派的事件、然後將每個事件指派給可以解決這些事件的使用者。 
 ---
-= 檢視未指派的事件
+= 查看未指派的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

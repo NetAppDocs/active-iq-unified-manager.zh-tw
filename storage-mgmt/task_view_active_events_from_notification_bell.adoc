@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: 功能表列中的通知警鈴可讓您快速檢視Unified Manager正在追蹤的最重要作用中事件。 
 ---
-= 從通知警鈴檢視作用中事件
+= 從通知鈴查看活動事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, third-party, products, upgrade 
 summary: 您可以在安裝於Windows系統的Unified Manager上升級協力廠商產品、例如JRE。 
 ---
-= 升級協力廠商產品
+= 升級第三方產品
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

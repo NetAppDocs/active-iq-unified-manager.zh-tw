@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 「效能/節點容錯移轉規劃」頁面會在節點的高可用度（HA）合作夥伴節點故障時、預估對節點的效能影響。Unified Manager會根據HA配對中節點的歷史效能來進行預估。 
 ---
-= 瞭解及使用「節點容錯移轉規劃」頁面
+= 了解並使用節點故障轉移規劃頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

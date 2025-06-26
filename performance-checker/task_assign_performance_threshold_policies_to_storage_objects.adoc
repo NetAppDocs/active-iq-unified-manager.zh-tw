@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: 您可以將使用者定義的效能臨界值原則指派給儲存物件、以便Unified Manager在效能計數器的值超過原則設定時回報事件。 
 ---
-= 指派效能臨界值原則給儲存物件
+= 為儲存物件指派效能閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

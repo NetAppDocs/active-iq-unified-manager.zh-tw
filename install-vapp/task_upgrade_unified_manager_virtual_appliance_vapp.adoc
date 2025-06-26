@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance 
 summary: 您可以升級Unified Manager虛擬應用裝置 
 ---
-= 升級Unified Manager虛擬應用裝置
+= 升級 Unified Manager 虛擬設備
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

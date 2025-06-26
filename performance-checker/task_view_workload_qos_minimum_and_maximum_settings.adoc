@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: 您可以在Performance Explorer圖表中檢視Volume或LUN上ONTAP定義的服務品質（QoS）原則設定。處理量上限設定可限制競爭工作負載對系統資源的影響。處理量下限設定可確保關鍵工作負載符合最低處理量目標、無論競爭工作負載的需求為何。 
 ---
-= 在Performance Explorer中檢視工作負載QoS的最小和最大設定
+= 在效能資源管理器中查看工作負載 QoS 最小和最大設置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, day 
 summary: 您可以建立報告、以檢視每日分組的Volume Transfers。 
 ---
-= 建立報告以檢視每日分組的Volume Transfers
+= 建立報表以查看按天分組的傳輸量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

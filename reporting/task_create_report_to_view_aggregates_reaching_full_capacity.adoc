@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: 您可以建立報告、找出達到完整容量的集合體、以便新增更多容量或將工作負載移至其他集合體。 
 ---
-= 建立報告以檢視達到完整容量的集合體
+= 建立報表以查看達到滿載的聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

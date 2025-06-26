@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, volume, health, threshold, settings 
 summary: 您可以編輯一個或多個磁碟區的磁碟區容量、成長、配額和空間保留的健全狀況臨界值設定。超過臨界值時、系統會產生警示並通知您。這些通知可協助您根據所產生的事件採取預防措施。 
 ---
-= 編輯個別Volume健全狀況臨界值設定
+= 編輯單一卷健康閾值設置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

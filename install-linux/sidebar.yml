@@ -20,9 +20,9 @@ entries:
     url: "/install-linux/concept_browser_and_platform_requirements.html"
   - title: 傳輸協定與連接埠需求
     url: "/install-linux/reference_protocol_and_port_requirements.html"
-  - title: 完成工作表
+  - title: 填寫工作表單
     url: "/install-linux/reference_complete_worksheet_um.html"
-- title: 安裝、升級及移除Unified Manager軟體
+- title: 安裝、升級和刪除 Unified Manager 軟體
   url: "/install-linux/concept_install_upgrade_and_remove_unified_manager_software.html"
   entries:
   - title: 安裝程序總覽
@@ -30,42 +30,42 @@ entries:
   - title: 設定所需的軟體儲存庫
     url: "/install-linux/concept_set_up_required_software_repositories_um.html"
     entries:
-    - title: 手動設定Epel儲存庫
+    - title: 手動配置 EPEL 儲存庫
       url: "/install-linux/task_manually_configure_epel_repository.html"
-    - title: 手動設定MySQL儲存庫
+    - title: 手動設定 MySQL 儲存庫
       url: "/install-linux/task_manually_configure_mysql_repository.html"
   - title: NFS或CIFS共用上的SELinux需求
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: 在Linux系統上安裝Unified Manager
     url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
-    - title: 在安裝之前建立自訂使用者主目錄和umadmin密碼
+    - title: 在安裝之前建立自訂使用者主目錄和 umadmin 密碼
       url: "/install-linux/task_create_custom_user_home_directory_and_umadmin.html"
-    - title: 正在下載Unified Manager
+    - title: 下載Unified Manager
       url: "/install-linux/task_download_unified_manager.html"
     - title: 安裝Unified Manager
       url: "/install-linux/task_install_unified_manager_linux.html"
     - title: 在Unified Manager安裝期間建立的使用者
       url: "/install-linux/reference_users_created_in_unified_manager.html"
-    - title: 變更jboss密碼
+    - title: 更改 JBoss 密碼
       url: "/install-linux/task_change_jboss_password.html"
-  - title: 在 Red Hat Enterprise Linux 上升級 Unified Manager
+  - title: 在 Red Hat Enterprise Linux 上升級 Union Manager
     url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
     - title: Unified Manager版本支援的升級途徑
       url: "/include/upgrade-path.html"
     - title: 升級Unified Manager
       url: "/install-linux/task_upgrade_unified_manager.html"
-    - title: 將主機作業系統從Red Hat Enterprise Linux 7.x升級至8.x
+    - title: 將主機作業系統從 Red Hat Enterprise Linux 7.x 升級到 8.x
       url: "/install-linux/task_upgrade_host_os.html"
-  - title: 在安裝Unified Manager之後升級協力廠商產品
+  - title: 安裝 Unified Manager 後升級第三方產品
     url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"
     entries:
-    - title: 升級Linux上的OpenJDK
+    - title: 在 Linux 上升級 OpenJDK
       url: "/install-linux/task_upgrade_openjdk_on_linux_ocum.html"
-  - title: 重新啟動Unified Manager
+  - title: 重新啟動 Unified Manager
     url: "/install-linux/task_restart_unified_manager.html"
-  - title: 移除Unified Manager
+  - title: 刪除 Unified Manager
     url: "/install-linux/task_remove_unified_manager.html"
-  - title: 移除自訂umadmin使用者和維護群組
+  - title: 刪除自訂 umadmin 使用者和維護群組
     url: "/install-linux/task_remove_custom_umadmin_user_and_maintenance_group.html"

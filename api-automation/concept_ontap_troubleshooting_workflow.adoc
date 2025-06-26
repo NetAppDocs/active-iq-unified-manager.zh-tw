@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: 閘道API可做為閘道、以叫用ONTAP 功能完善的API來查詢ONTAP 有關您的物件的資訊、並採取補救措施來解決回報的問題。 
 ---
-= 使用ONTAP 閘道API疑難排解需求量
+= 使用網關 API 對 ONTAP 磁碟區進行故障排除
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

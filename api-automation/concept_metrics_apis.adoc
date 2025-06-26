@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, metrics 
 summary: 利用VMware的支援功能、您可以在資料中心類別下、檢視叢集和儲存物件的效能資料。Active IQ Unified Manager這些API會擷取不同儲存物件的效能資料、例如叢集、節點、LUN、磁碟區、 集合體與儲存VM。 
 ---
-= 使用API檢視效能指標
+= 使用 API 查看效能指標
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

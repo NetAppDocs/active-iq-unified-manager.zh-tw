@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view 
 summary: 您可以使用「健全狀況：所有Volume」檢視、為SnapVault 同一個儲存VM上的一或多個磁碟區建立不一致的關係、以便進行資料備份以保護資料。 
 ---
-= 從SnapVault 「Health：All Volumes」（健全狀況：所有磁碟區）檢視建立不受保護的關係
+= 從「Health: All Volumes」檢視建立 SnapVault 保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

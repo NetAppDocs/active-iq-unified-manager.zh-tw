@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, database, user 
 summary: 若要支援Workflow Automation與Unified Manager之間的連線、或是存取資料庫檢視、您必須先在Unified Manager Web UI中建立具有整合架構或報告架構角色的資料庫使用者。 
 ---
-= 建立資料庫使用者
+= 建立資料庫用戶
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

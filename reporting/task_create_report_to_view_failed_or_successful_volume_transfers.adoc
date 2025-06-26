@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: 您可以建立報告、顯示Volume Transfers的狀態。您可以在此報告中檢視失敗和成功的Volume傳輸。 
 ---
-= 建立報告以檢視失敗或成功的Volume傳輸
+= 建立報表以查看失敗或成功的磁碟區傳輸
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

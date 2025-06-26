@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
 summary: All工作負載檢視會顯示資料中心叢集上所有可用工作負載的清單。 
 ---
-= 檢視工作負載
+= 查看工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

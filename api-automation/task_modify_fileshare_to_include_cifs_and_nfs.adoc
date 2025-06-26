@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, nfs, file, share, support, cifs 
 summary: 您可以修改NFS檔案共用、以支援CIFS傳輸協定。在建立檔案共用期間、您可以為同一個檔案共用區同時指定存取控制清單（ACL）參數和匯出原則規則。不過、如果您想要在建立NFS檔案共用的相同磁碟區上啟用CIFS、您可以更新該檔案共用區的ACL參數、以支援CIFS。 
 ---
-= 使用API修改NFS檔案共用以支援CIFS
+= 使用 API 修改 NFS 檔案共用以支援 CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

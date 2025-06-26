@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, clusters 
 summary: 您可以使用「編輯叢集」對話方塊來修改現有叢集的設定、例如主機名稱或IP位址、使用者名稱、密碼和連接埠。 
 ---
-= 編輯叢集
+= 編輯集群
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

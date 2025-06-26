@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols 
 summary: Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝後視安全性需求加以變更。HTTP預設連接埠為80、HTTPS預設連接埠為443。 
 ---
-= 變更Unified Manager用於HTTP和HTTPS傳輸協定的連接埠
+= 更改 Unified Manager 用於 HTTP 和 HTTPS 協定的端口
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

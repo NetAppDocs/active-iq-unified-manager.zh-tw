@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題。詳細資料包括叢集內的元件狀態和連線能力、以及MetroCluster 叢集間的連線狀態（以供參考組態設定）。 
 ---
-= 監控MetroCluster 功能
+= 監控 MetroCluster 組態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -54,7 +54,7 @@ image::../media/node_switch_connectivity.gif[節點交換器連線圖示]
 
 如果MetroCluster 發現在您的資訊功能組態中有連線問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。
 
-如需判斷叢集健全狀況的詳細資訊、請參閱 link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["判斷MetroCluster 叢集健全狀況的功能"]。
+如需判斷叢集健全狀況的詳細資訊，請參閱link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["確定 MetroCluster 透過 FC 配置中的叢集運作狀況"]。
 
 
 
@@ -99,7 +99,7 @@ NOTE: 只有MetroCluster 在使用IP的情況下、您才能在「*叢集*」頁
 *相關資訊*
 
 * link:../health-checker/reference_health_cluster_details_page.html["叢集/健全狀況詳細資料頁面"]
-* 如需*關係：MetroCluster *檢視的相關資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]。
+* 有關 * 關係： MetroCluster 檢視的資訊，請參閱link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控 MetroCluster 組態"]。
 * 如需*關係：上個月轉帳狀態*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["關係：過去1個月的「傳輸狀態」檢視"]。
 * 如需*關係：過去1個月轉帳率*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["關係：過去1個月的轉帳率檢視"]。
 * 如需*關係：所有關係*檢視的相關資訊、請參閱 link:../data-protection/reference_relationship_all_relationships_view.html["關係：「所有關係」檢視"]。

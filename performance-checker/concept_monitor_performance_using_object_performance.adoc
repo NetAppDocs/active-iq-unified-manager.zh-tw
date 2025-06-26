@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, inventory, pages 
 summary: 物件庫存效能頁面會顯示物件類型類別中所有物件的效能資訊、效能事件及物件健全狀況。這可讓您一覽叢集中每個物件的效能狀態、例如所有節點或所有磁碟區的效能狀態。 
 ---
-= 使用「效能詳細目錄」頁面監控效能
+= 使用「效能清單」頁面監控效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

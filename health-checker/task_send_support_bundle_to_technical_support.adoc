@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, technical support 
 summary: 當問題需要比AutoSupport 支援訊息更詳細的診斷與疑難排解資訊時、您可以將支援服務組合寄送給技術支援。 
 ---
-= 傳送支援服務包給技術支援人員
+= 向技術支援發送支援包
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

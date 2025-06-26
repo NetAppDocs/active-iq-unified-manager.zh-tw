@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, qos, policy, group, information 
 summary: Unified Manager可讓您檢視所有監控叢集上可用的服務品質（QoS）原則群組。這些原則可能是使用ONTAP 支援功能的支援軟體（System Manager或ONTAP 支援功能的CLI）或Unified Manager Performance Service層級原則來定義。Unified Manager也會顯示已指派QoS原則群組的磁碟區和LUN。 
 ---
-= 使用QoS原則群組資訊來管理效能
+= 使用 QoS 策略群組資訊管理效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

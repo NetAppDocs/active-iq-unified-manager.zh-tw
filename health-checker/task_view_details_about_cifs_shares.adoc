@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details 
 summary: 您可以檢視所有SMB/CIFS共用的詳細資料、例如共用名稱、交會路徑、其中包含物件、安全性設定、以及為共用定義的匯出原則。使用健全狀況：所有SMB共用檢視來查看所有受監控叢集上的所有SMB共用、並使用儲存VM /健全狀況詳細資料頁面來檢視特定儲存虛擬機器（SVM）上的所有SMB共用。 
 ---
-= 檢視關於SMB/CIFS共用的詳細資料
+= 查看有關 SMB/CIFS 共享的詳細信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

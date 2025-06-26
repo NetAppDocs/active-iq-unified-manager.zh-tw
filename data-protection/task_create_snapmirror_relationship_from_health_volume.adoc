@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship,  volume, health details page 
 summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關係、以便啟用資料複寫來保護資料。SnapMirror複寫可讓您在來源資料遺失時、從目的地磁碟區還原資料。 
 ---
-= 從Volume / Health詳細資料頁面建立SnapMirror保護關係
+= 從磁碟區/運行狀況詳細資料頁面建立 SnapMirror 保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

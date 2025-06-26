@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard 
 summary: Unified Manager儀表板提供幾個面板、可顯示環境中監控之所有叢集的高效能狀態。您可以選擇檢視所有叢集或個別叢集的狀態。 
 ---
-= 瞭解儀表板上的效能面板
+= 了解儀表板上的性能面板
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

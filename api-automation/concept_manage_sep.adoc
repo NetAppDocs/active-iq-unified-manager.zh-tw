@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: 您可以使用儲存供應商API來檢視、建立、修改及刪除儲存效率原則。 
 ---
-= 使用API管理儲存效率原則
+= 使用 API 管理儲存效率策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

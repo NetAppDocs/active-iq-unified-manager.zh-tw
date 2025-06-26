@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: 您可以使用支援的網頁瀏覽器登入Unified Manager UI。 
 ---
-= 登入UI
+= 登入使用者介面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

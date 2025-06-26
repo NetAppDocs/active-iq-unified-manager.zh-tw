@@ -2,100 +2,100 @@
 section: data-protection
 title: 保護及還原資料
 entries:
-- title: 建立及疑難排解保護關係
+- title: 建立和排除保護關係故障
   url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
   entries:
   - title: SnapMirror保護類型
     url: "/data-protection/concept_types_of_snapmirror_protection.html"
-  - title: 在Unified Manager中建立保護關係
+  - title: 在 Unified Manager 中設定保護關係
     url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
     entries:
-    - title: 設定Workflow Automation與Unified Manager之間的連線
+    - title: 設定工作流程自動化和 Unified Manager 之間的連接
       url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
-    - title: 在Workflow Automation中驗證Unified Manager資料來源快取
+    - title: 在工作流程自動化中驗證 Unified Manager 資料來源緩存
       url: "/data-protection/task_verify_um_data_source_caching_in_workflow_automation.html"
     - title: 重新安裝或升級時會發生什麼情況OnCommand Workflow Automation
       url: "/data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html"
-    - title: 從OnCommand Workflow Automation Unified Manager移除此功能
+    - title: 從 Unified Manager 中刪除 OnCommand Workflow Automation 設定
       url: "/data-protection/task_remove_workflow_automation.html"
-  - title: 執行保護關係容錯移轉和容錯回復
+  - title: 執行保護關係故障轉移和故障回复
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: 從Volume健全狀況詳細資料頁面中斷SnapMirror關係
+    - title: 從磁碟區運行狀況詳細資料頁面中斷 SnapMirror 關係
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
-    - title: 從Volume健全狀況詳細資料頁面反轉保護關係
+    - title: 從磁碟區運行狀況詳細資料頁面反向保護關係
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: 從Volume健全狀況詳細資料頁面移除保護關係
+    - title: 從卷運行狀況詳細資料頁面中刪除保護關係
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: 從Volume健全狀況詳細資料頁面重新同步保護關係
+    - title: 從磁碟區運行狀況詳細資料頁面重新同步保護關係
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
-  - title: 解決保護工作故障
+  - title: 解決保護作業失敗
     url: "/data-protection/task_resolve_protection_job_failure.html"
     entries:
-    - title: 找出問題、並針對故障的保護工作執行修正行動
+    - title: 識別問題並對失敗的保護作業執行糾正措施
       url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
   - title: 解決延遲問題
     url: "/data-protection/task_resolve_lag_issues.html"
-- title: 管理及監控保護關係
+- title: 管理和監控保護關係
   url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
   entries:
-  - title: 檢視Volume保護狀態
+  - title: 查看卷宗保護狀態
     url: "/data-protection/view-protection-status.html"
-  - title: 檢視Volume保護關係
+  - title: 查看卷宗保護關係
     url: "/data-protection/task_view_volume_protection_relationships.html"
-  - title: 監控一致性群組關係中的LUN
+  - title: 監控一致性組關係中的 LUN
     url: "/data-protection/view-lun-relationships.html"
-  - title: 從SnapVault 「All Volumes」（所有磁碟區）檢視建立不受保護的關係
+  - title: 從「所有磁碟區」視圖建立 SnapVault 保護關係
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
-  - title: 從SnapVault Volume健全狀況詳細資料頁面建立不完整的保護關係
+  - title: 從磁碟區運行狀況詳細資料頁面建立 SnapVault 保護關係
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: 從All Volumes（所有磁碟區）檢視建立SnapMirror保護關係
+  - title: 從「所有磁碟區」視圖建立 SnapMirror 保護關係
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
-  - title: 從Volume健全狀況詳細資料頁面建立SnapMirror保護關係
+  - title: 從磁碟區運行狀況詳細資料頁面建立 SnapMirror 保護關係
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
-  - title: 利用版本彈性複寫建立SnapMirror關係
+  - title: 建立具有版本靈活複製的 SnapMirror 關係
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
-  - title: 使用具有備份選項的版本彈性複寫來建立SnapMirror關係
+  - title: 使用備份選項建立具有版本靈活複製的 SnapMirror 關係
     url: "/data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html"
-  - title: 設定目的地效率設定
+  - title: 配置目標效率設定
     url: "/data-protection/task_configure_protection_destination_settings.html"
-  - title: 建立SnapMirror和SnapVault 不需再複製的排程
+  - title: 創建 SnapMirror 和 SnapVault 計劃
     url: "/data-protection/task_create_snapmirror_and_snapvault_schedules.html"
-  - title: 建立串聯或展開關係、將保護範圍延伸到現有的保護關係
+  - title: 建立級聯或扇出關係以擴展現有保護關係的保護
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
-  - title: 從「Volume關係」頁面編輯保護關係
+  - title: 從卷關係頁面編輯保護關係
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: 從Volume健全狀況詳細資料頁面編輯保護關係
+  - title: 從卷健康詳情頁面編輯保護關係
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
-  - title: 建立SnapMirror原則以最大化傳輸效率
+  - title: 創建 SnapMirror 策略以最大程度提高傳輸效率
     url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
-  - title: 建立SnapVault 一套可將傳輸效率最大化的功能
+  - title: 創建 SnapVault 策略以最大程度提高傳輸效率
     url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
-  - title: 從「Volume Relationships」（磁碟區關係）頁面中止作用中的資料保護傳輸
+  - title: 從卷宗關係頁面中止活動資料保護傳輸
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: 從Volume健全狀況詳細資料頁面中止作用中資料保護傳輸
+  - title: 從卷健康詳情頁面中止活動資料保護傳輸
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
-  - title: 從「Volume關係」頁面靜止保護關係
+  - title: 從「卷關係」頁面停止保護關係
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
-  - title: 從Volume健全狀況詳細資料頁面靜止保護關係
+  - title: 從卷運行狀況詳細資料頁面停止保護關係
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
-  - title: 從Volume Relationships（磁碟區關係）頁面中斷SnapMirror關係
+  - title: 從卷關係頁面斷開 SnapMirror 關係
     url: "/data-protection/task_break_snapmirror_relationship.html"
-  - title: 從「Volume關係」頁面移除保護關係
+  - title: 從卷關係頁面中刪除保護關係
     url: "/data-protection/task_remove_protection_relationship.html"
-  - title: 從「Volume Relationships」（磁碟區關係）頁面、以靜止關係恢復排程的傳輸
+  - title: 從卷關係頁面恢復靜止關係上的計劃傳輸
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
-  - title: 從Volume健全狀況詳細資料頁面、以靜止關係恢復排程傳輸
+  - title: 從卷健康詳情頁面恢復靜止關係上的計劃傳輸
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: 從「Volume關係」頁面初始化或更新保護關係
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
-  - title: 從Volume健全狀況詳細資料頁面初始化或更新保護關係
+  - title: 從卷健康詳情頁面初始化或更新保護關係
     url: "/data-protection/task_update_protection_voldtls_page.html"
-  - title: 從「Volume Relationships」（磁碟區關係）頁面重新同步保護關
+  - title: 從磁碟區關係頁面重新同步保護關係
     url: "/data-protection/task_resynchronize_protection_relationships.html"
-  - title: 從「Volume關係」頁面反轉保護關係
+  - title: 從「卷關係」頁面反向保護關係
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: 使用Volume健全狀況詳細資料頁面還原資料
+  - title: 使用卷運行狀況詳細資料頁面恢復數據
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: 什麼是資源集區
     url: "/data-protection/concept_what_resource_pools_are.html"
@@ -103,24 +103,24 @@ entries:
     url: "/data-protection/task_create_resource_pools.html"
   - title: 編輯資源池
     url: "/data-protection/task_edit_resource_pools.html"
-  - title: 檢視資源池資源清冊
+  - title: 查看資源池清單
     url: "/data-protection/task_view_resource_pool_inventory.html"
   - title: 新增資源池成員
     url: "/data-protection/task_add_resource_pool_members.html"
-  - title: 從資源池移除集合體
+  - title: 從資源池移除聚合
     url: "/data-protection/task_remove_aggregates_from_resource_pools.html"
   - title: 刪除資源池
     url: "/data-protection/task_delete_resource_pools.html"
-  - title: 監控儲存VM災難恢復保護關係
+  - title: 監控儲存虛擬機器災難復原保護關係
     url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
     entries:
-    - title: 使用「關係」頁面監控儲存VM
+    - title: 使用「關係」頁面監控儲存虛擬機
       url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
-    - title: 從「儲存VM」頁面檢視保護關係
+    - title: 從儲存虛擬機器頁面查看保護關係
       url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
-    - title: 根據保護狀態檢視儲存VM
+    - title: 根據保護狀態查看儲存虛擬機
       url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
-  - title: 瞭解儲存VM關聯
+  - title: 了解儲存虛擬機器關聯
     url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
   - title: 支援儲存服務的SVM和資源池需求
     url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
@@ -130,9 +130,9 @@ entries:
     url: "/data-protection/task_monitor_jobs.html"
   - title: 檢視工作詳細資料
     url: "/data-protection/task_view_job_details.html"
-  - title: 正在中止工作
+  - title: 中止作業
     url: "/data-protection/task_abort_jobs.html"
-  - title: 重新嘗試失敗的保護工作
+  - title: 重試失敗的保護作業
     url: "/data-protection/task_retry_failed_protection_job.html"
   - title: 保護關係視窗和對話方塊說明
     url: "/data-protection/reference_description_of_protection_relationships_window.html"

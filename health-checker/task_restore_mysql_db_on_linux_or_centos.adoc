@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup 
 summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用 Unified Manager 維護主控台，將 Unified Manager 資料庫還原至本機或遠端 Red Hat Enterprise Linux 系統。 
 ---
-= 還原Linux系統上的MySQL資料庫備份
+= 在 Linux 系統上還原 MySQL 資料庫備份
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

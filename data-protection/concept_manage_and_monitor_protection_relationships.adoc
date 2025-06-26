@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, protection, relationships 
 summary: 利用此功能、您可以建立保護關係、監控及疑難排解託管叢集上的SnapMirror和SnapMirror關係、以及在資料遭到覆寫或遺失時還原資料。Active IQ Unified Manager SnapVault 
 ---
-= 管理及監控保護關係
+= 管理和監控保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

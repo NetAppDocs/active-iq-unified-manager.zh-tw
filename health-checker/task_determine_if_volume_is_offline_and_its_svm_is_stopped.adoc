@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, svm, node 
 summary: 您可以使用Unified Manager Web UI來確認或排除磁碟區離線的可能性、因為裝載該SVM根Volume的節點停機、所以其主機儲存虛擬機器（SVM）會停止。 
 ---
-= 判斷某個磁碟區是否離線、以及其SVM是否因為節點當機而停止
+= 確定磁碟區是否處於離線狀態且其 SVM 是否因節點關閉而停止
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

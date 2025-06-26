@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: 支援監控儲存VM災難恢復關係、以儲存VM層級的精細度提供災難恢復功能。Active IQ Unified Manager儲存VM災難恢復可恢復儲存VM組成磁碟區中的資料、並恢復儲存VM組態。 
 ---
-= 監控儲存VM災難恢復保護關係
+= 監控儲存虛擬機器災難復原保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

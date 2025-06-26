@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: 如果已啟用遠端驗證、您可以停用巢狀群組驗證、以便只有個別使用者（而非群組成員）可以遠端驗證Unified Manager。若要改善Active Directory驗證回應時間、您可以停用巢狀群組。 
 ---
-= 從遠端驗證停用巢狀群組
+= 禁用遠端身份驗證的嵌套群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

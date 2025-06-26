@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, red hat enterprise, linux 
 summary: 您可以在有新版軟體可用時升級Unified Manager。 
 ---
-= 在 Red Hat Enterprise Linux 上升級 Unified Manager
+= 在 Red Hat Enterprise Linux 上升級 Union Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

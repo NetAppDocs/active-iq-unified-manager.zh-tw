@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: 所有儲存物件效能檢視 
 ---
-= 檢視所有儲存物件的效能詳細目錄頁面
+= 查看所有儲存物件的效能清單頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

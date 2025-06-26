@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
 summary: 您可以從來源磁碟區建立扇出、或從現有關係的目的地磁碟區建立串聯、藉此延伸現有關係的保護範圍。當您需要將資料從一個站台複製到多個站台、或是建立更多備份來提供額外的保護時、可以這麼做。 
 ---
-= 建立串聯或展開關係、將保護範圍延伸到現有的保護關係
+= 建立級聯或扇出關係以擴展現有保護關係的保護
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

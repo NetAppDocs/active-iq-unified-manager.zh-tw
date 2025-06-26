@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings 
 summary: 您可以使用「進階目的地設定」對話方塊、在保護目的地上設定目的地效率設定、例如重複資料刪除、壓縮、自動擴充及空間保證。當您想要在目的地或次要Volume上最大化空間使用率時、請使用這些設定。 
 ---
-= 設定目的地效率設定
+= 配置目標效率設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
 summary: 您可以建立報告、找出最具未配置LUN容量（大於0.5 TB）的叢集、以協助識別可新增額外工作負載的位置。 
 ---
-= 建立報告以識別具有最大未配置LUN容量的叢集
+= 建立報告以識別未分配 LUN 容量最多的集群
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

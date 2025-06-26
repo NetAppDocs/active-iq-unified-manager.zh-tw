@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, inventory, page, content 
 summary: 您可以在Unified Manager中篩選資源清冊頁面資料、以便根據特定條件快速找到資料。您可以使用篩選功能來縮小Unified Manager頁面的內容範圍、只顯示您感興趣的結果。這是一種非常有效率的方法、只顯示您感興趣的資料。 
 ---
-= 篩選目錄頁面內容
+= 過濾庫存頁面內容
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

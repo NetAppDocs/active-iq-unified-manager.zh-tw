@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: 如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Manager、且需要升級至Red Hat Enterprise Linux 8.x、則必須遵循本主題所列的其中一個程序。在這兩種情況下、您都必須在Red Hat Enterprise Linux 7.x系統上建立Unified Manager備份、然後將備份還原至Red Hat Enterprise Linux 8.x系統。 
 ---
-= 將主機作業系統從Red Hat Enterprise Linux 7.x升級至8.x
+= 將主機作業系統從 Red Hat Enterprise Linux 7.x 升級到 8.x
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

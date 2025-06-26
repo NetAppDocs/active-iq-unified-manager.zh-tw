@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 從「健全狀況：所有集合體」檢視中、您可以監控集合體的庫存。「容量：所有集合體」檢視可讓您檢視所有叢集之集合體容量與使用率的相關資訊。 
 ---
-= 檢視Aggregate清單和詳細資料
+= 查看匯總列表和詳細信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

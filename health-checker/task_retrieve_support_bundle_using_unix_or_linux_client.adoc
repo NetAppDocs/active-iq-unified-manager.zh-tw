@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, unix, linux, client 
 summary: 如果您是UNIX或Linux使用者、可以使用Linux用戶端伺服器上的命令列介面（CLI）、從vApp擷取支援服務組合。您可以使用scp或SFTP擷取支援服務組合。 
 ---
-= 使用UNIX或Linux用戶端擷取支援服務組合
+= 使用 UNIX 或 Linux 用戶端檢索支援包
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

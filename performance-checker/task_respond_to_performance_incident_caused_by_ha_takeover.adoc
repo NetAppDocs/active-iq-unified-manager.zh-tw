@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, ha, takeover 
 summary: 您可以使用Unified Manager來調查高可用度（HA）配對叢集節點上的高資料處理所導致的效能事件。您也可以使用Unified Manager檢查節點的健全狀況、查看節點上偵測到的任何最近健全狀況事件是否有助於效能事件。 
 ---
-= 回應HA接管所造成的動態效能事件
+= 響應由 HA 接管引起的動態性能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

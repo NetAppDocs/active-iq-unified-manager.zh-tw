@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, manage, workloads 
 summary: 利用此功能、可提供效能服務層級、儲存效率原則、以及儲存供應商API、以供資料中心配置、監控及管理儲存工作負載。Active IQ Unified Manager 
 ---
-= 資源配置與管理工作負載
+= 預配和管理工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

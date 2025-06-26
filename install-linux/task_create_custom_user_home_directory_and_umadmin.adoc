@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation 
 summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定義自己的umadmin使用者密碼。這項工作是選用的、但有些站台可能需要彈性來覆寫Unified Manager安裝的預設設定。 
 ---
-= 在安裝之前建立自訂使用者主目錄和umadmin密碼
+= 在安裝之前建立自訂使用者主目錄和 umadmin 密碼
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

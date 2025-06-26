@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds 
 summary: 效能臨界值原則可讓您決定Unified Manager產生事件的時間點、以便通知系統管理員可能影響工作負載效能的問題。這些臨界值原則稱為使用者定義的效能臨界值。 
 ---
-= 管理效能臨界值
+= 管理績效閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

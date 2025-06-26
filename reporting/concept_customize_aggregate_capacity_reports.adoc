@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, aggregate, capacity, reports 
 summary: 這些範例自訂報告可協助您識別及回應與集合式儲存容量相關的潛在問題。 
 ---
-= 自訂Aggregate容量報告
+= 自訂聚合容量報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

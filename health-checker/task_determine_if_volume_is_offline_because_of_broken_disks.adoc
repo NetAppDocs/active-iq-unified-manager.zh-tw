@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, broken disks, aggregate 
 summary: 您可以使用Unified Manager Web UI來確認或消除磁碟區離線的可能性、因為RAID磁碟問題已使其主機Aggregate離線。 
 ---
-= 判斷磁碟區是否因為集合體中的磁碟毀損而離線
+= 確定磁碟區是否因聚合中的磁碟損壞而處於離線狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

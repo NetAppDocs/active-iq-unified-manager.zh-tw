@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure 
 summary: 您可以使用Unified Manager來調查工作負載過度使用Aggregate所造成的效能事件。您也可以使用Unified Manager來檢查Aggregate的健全狀況、查看在Aggregate上偵測到的最近健全狀況事件是否有助於效能事件。 
 ---
-= 回應磁碟故障所造成的動態效能事件
+= 回應由磁碟故障引起的動態效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, dynamically 
 summary: 當您建立自訂附註時、Unified Manager會使用規則、將叢集、儲存虛擬機器（SVM）和磁碟區與附註動態關聯。這些規則會自動將註釋指派給儲存物件。 
 ---
-= 動態新增附註
+= 動態新增註釋
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, disable, alerts, resolved, obsolete, events 
 summary: 對於您設定為傳送警示的所有事件、當這些事件透過所有可用狀態（新的、已確認的、已解決的和已過時的）進行轉換時、就會傳送警示訊息。如果您不想在事件進入「已解決」和「已過時」狀態時收到警示、可以設定全域設定來抑制這些警示。 
 ---
-= 針對已解決和已過時的事件啟用和停用警示
+= 啟用和停用已解決和已過時事件的警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, dynamic, performance, event, cluster, metrocluster, configuration 
 summary: 您可以使用Unified Manager來分析MetroCluster 叢集、以進行偵測到效能事件的VMware組態。您可以識別叢集名稱、事件偵測時間、以及所涉及的龐大和受害者工作負載。 
 ---
-= 分析MetroCluster 叢集上的動態效能事件、使其採用VMware的組態
+= 分析 MetroCluster 配置中的叢集上​​的動態效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

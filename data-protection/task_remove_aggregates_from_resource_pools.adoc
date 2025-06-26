@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools 
 summary: 您可以從現有資源池中移除集合體：例如、當您想要將集合體用於其他用途時。 
 ---
-= 從資源池移除集合體
+= 從資源池移除聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

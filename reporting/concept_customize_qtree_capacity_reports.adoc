@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, qtree, capacity, reports 
 summary: 這些範例自訂報告可協助您識別及回應與Qtree容量相關的潛在問題。 
 ---
-= 自訂Qtree容量報告
+= 自訂 Qtree 容量報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, events, specific, users 
 summary: 您可以將未指派的事件指派給自己或其他使用者、包括遠端使用者。您可以視需要將指派的事件重新指派給其他使用者。例如、當儲存物件經常發生問題時、您可以將這些問題的事件指派給管理該物件的使用者。 
 ---
-= 指派事件給特定使用者
+= 將事件指派給特定用戶
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

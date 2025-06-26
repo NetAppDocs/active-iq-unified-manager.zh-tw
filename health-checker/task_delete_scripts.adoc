@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, scripts 
 summary: 當指令碼不再需要或有效時、您可以從Unified Manager刪除指令碼。 
 ---
-= 刪除指令碼
+= 刪除腳本
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

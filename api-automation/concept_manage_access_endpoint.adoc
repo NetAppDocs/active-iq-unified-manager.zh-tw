@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: 您需要建立存取端點或邏輯介面（LIF）、這些都是資源配置儲存虛擬機器（SVM）、LUN和檔案共用所需的。您可以檢視、建立、修改及刪除Active IQ Unified Manager 您的SVM、LUN或檔案共享區的存取端點。 
 ---
-= 使用API管理存取端點
+= 使用 API 管理存取端點
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

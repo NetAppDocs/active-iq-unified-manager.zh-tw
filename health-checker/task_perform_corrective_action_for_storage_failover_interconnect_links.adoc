@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links 
 summary: 當您顯示儲存容錯移轉相關事件的「事件詳細資料」頁面時、您可以檢閱頁面摘要資訊、以判斷事件的急迫性、問題的可能原因、以及問題的可能解決方法。 
 ---
-= 針對儲存容錯移轉互連連結執行修正行動
+= 對儲存故障轉移互連鏈路執行糾正措施
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

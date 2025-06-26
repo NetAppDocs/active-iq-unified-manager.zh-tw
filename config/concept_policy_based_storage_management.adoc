@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: 原則型儲存管理選項可根據服務層級目標（SLO）進行儲存管理。此選項預設為啟用。 
 ---
-= 實現原則型儲存管理
+= 啟用原則型儲存管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

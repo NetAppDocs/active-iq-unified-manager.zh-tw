@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, authentication, servers 
 summary: 如果您想要防止Unified Manager伺服器與驗證伺服器通訊、可以刪除驗證伺服器。例如、如果您想要變更管理伺服器正在通訊的驗證伺服器、您可以刪除驗證伺服器並新增驗證伺服器。 
 ---
-= 刪除驗證伺服器
+= 刪除身份驗證伺服器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

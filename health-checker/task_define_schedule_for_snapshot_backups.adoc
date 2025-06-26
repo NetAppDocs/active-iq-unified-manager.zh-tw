@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
 summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot複本建立的排程。 
 ---
-= 定義Linux和Windows的備份排程
+= 為 Linux 和 Windows 定義備份計劃
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

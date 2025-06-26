@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager 
 summary: 變更組態之後、您可能必須重新啟動Unified Manager。 
 ---
-= 重新啟動Unified Manager
+= 重新啟動 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

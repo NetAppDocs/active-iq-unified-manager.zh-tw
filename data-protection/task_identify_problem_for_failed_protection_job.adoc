@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, problem, perform, corrective actions, failed, protection job 
 summary: 您可以檢閱「事件詳細資料」頁面上「原因」欄位中的工作失敗錯誤訊息、並判斷該工作是否因為Snapshot複本錯誤而失敗。接著前往Volume / Health詳細資料頁面、以收集更多資訊。 
 ---
-= 找出問題、並針對故障的保護工作執行修正行動
+= 識別問題並對失敗的保護作業執行糾正措施
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, volume, health, threshold values 
 summary: 您可以設定所有磁碟區的全域健全狀況臨界值、以追蹤任何臨界值外洩。系統會針對違反健康臨界值事件產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有受監控磁碟區之臨界值的最佳實務設定來設定全域值。 
 ---
-= 設定全域Volume健全狀況臨界值
+= 配置全域磁碟區健康閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

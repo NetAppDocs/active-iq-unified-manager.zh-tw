@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard 
 summary: 儀表板提供有關所監控ONTAP 之各種系統目前健全狀況的累積性概覽資訊。儀表板提供「面板」、可讓您評估所監控叢集的整體容量、效能和安全健全狀況。 
 ---
-= 從儀表板監控及管理叢集
+= 從儀表板監控和管理集群
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

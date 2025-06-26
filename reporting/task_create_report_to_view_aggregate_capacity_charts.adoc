@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: 您可以建立報告、以Excel圖表格式分析儲存設備總容量和已提交容量。 
 ---
-= 建立報告以顯示總計與可用容量圖表
+= 建立報表以顯示總計與可用容量圖表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

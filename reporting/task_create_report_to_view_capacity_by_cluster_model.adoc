@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model 
 summary: 您可以建立報告、根據儲存系統模型分析儲存容量和叢集使用率。 
 ---
-= 建立報告以依叢集模式檢視容量
+= 建立報告以按集群模型查看容量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

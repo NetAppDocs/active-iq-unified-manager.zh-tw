@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configuring, connection, unified manager, server, external, data, provider 
 summary: Unified Manager可將叢集效能資料傳送至外部伺服器。您可以指定要傳送的統計資料類型、以及資料傳送的時間間隔。 
 ---
-= 設定從Unified Manager伺服器到外部資料供應商的連線
+= 設定從 Unified Manager 伺服器到外部資料提供者的連接
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

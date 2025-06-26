@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: 您可以建立報告、根據關係處於不健全狀態的原因來將磁碟區分組。 
 ---
-= 建立報告、依故障來源將磁碟區關係分組
+= 建立報表以按故障來源對磁碟區關係進行分組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

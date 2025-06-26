@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, correlated objects 
 summary: Performance Explorer頁面上的時間範圍選取器可讓您指定物件資料比較的時間範圍。指定時間範圍會精簡Performance Explorer頁面的內容、以僅顯示您指定時間範圍內的物件資料。 
 ---
-= 指定關聯物件的時間範圍
+= 指定相關對象的時間範圍
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

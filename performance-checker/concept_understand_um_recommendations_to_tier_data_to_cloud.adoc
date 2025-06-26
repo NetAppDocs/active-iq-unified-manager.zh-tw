@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 「Performance：All Volumes」（效能：所有磁碟區）檢視會顯示與儲存在非作用中（冷）磁碟區上的使用者資料大小相關的資訊。在某些情況下、Unified Manager會將非作用中的資料分層至StorageGRID 啟用FabricPool的Aggregate的雲端層（雲端供應商或簡稱「支援者」）、以找出某些可帶來效益的磁碟區。 
 ---
-= 瞭解Unified Manager將資料分層至雲端的建議
+= 了解 Unified Manager 將資料分層到雲端的建議
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

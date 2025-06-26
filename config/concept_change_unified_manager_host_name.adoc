@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, host, name 
 summary: 有時候、您可能想要變更已安裝Unified Manager的系統主機名稱。例如、您可能想要重新命名主機、以便更輕鬆地依類型、工作群組或受監控的叢集群組識別Unified Manager伺服器。 
 ---
-= 變更Unified Manager主機名稱
+= 更改 Unified Manager 主機名
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

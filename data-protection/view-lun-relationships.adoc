@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: 統一檢視受 SnapMirror 主動同步保護的 LUN 。 
 ---
-= 監控一致性群組關係中的LUN
+= 監控一致性組關係中的 LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

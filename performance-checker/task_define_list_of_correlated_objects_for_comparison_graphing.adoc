@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: defining, list, correlated, objects, comparison, graphing 
 summary: 您可以在「計數器圖表」窗格中定義相關物件清單、以便進行資料與效能比較。例如、如果您的儲存虛擬機器（SVM）發生效能問題、您可以比較SVM中的所有磁碟區、找出可能造成問題的磁碟區。 
 ---
-= 定義用於比較圖表的關聯物件清單
+= 定義用於比較圖表的相關物件列表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

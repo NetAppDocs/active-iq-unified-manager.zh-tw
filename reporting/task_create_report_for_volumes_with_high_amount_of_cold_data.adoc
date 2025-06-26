@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: 您可以建立報告、在非FabricPool Aggregate上顯示含有大量Cold資料的磁碟區。這有助於識別應移至FabricPool 某個支援區的Volume。 
 ---
-= 建立報告以檢視在未啟用FabricPool的Aggregate上含有大量Cold資料的磁碟區
+= 建立報告以查看未啟用 FabricPool 的聚合上包含大量冷資料的捲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

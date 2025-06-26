@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations 
 summary: 您可以將值新增至註釋、然後將儲存物件與特定的註釋名稱值配對建立關聯。在附註中新增值有助於更有效地管理儲存物件。 
 ---
-= 新增值至註釋
+= 為註釋添加值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

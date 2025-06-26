@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies 
 summary: 您可以編輯現有效能臨界值原則的臨界值設定。如果您發現在特定臨界值條件下收到太多或太少警示、這項功能就很有用。 
 ---
-= 編輯使用者定義的效能臨界值原則
+= 編輯使用者定義的效能閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

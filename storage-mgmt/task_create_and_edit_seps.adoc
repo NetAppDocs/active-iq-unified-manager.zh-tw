@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: 當系統定義的儲存效率原則不符合您的工作負載需求時、您可以建立專為工作負載最佳化的儲存效率原則。 
 ---
-= 建立及編輯儲存效率原則
+= 建立和編輯儲存效率策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

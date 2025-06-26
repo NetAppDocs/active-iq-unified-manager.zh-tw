@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: 您可以建立節點臨界值原則、以便在潛在的容錯移轉會使接管節點的效能降級至無法接受的層級時、在「效能/節點容錯移轉規劃」頁面中通知您。 
 ---
-= 使用臨界值原則搭配「節點容錯移轉規劃」頁面
+= 在「節點故障轉移規劃」頁面中使用閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

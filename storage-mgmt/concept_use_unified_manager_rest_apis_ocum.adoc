@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, rest, apis 
 summary: 支援REST API、讓您檢視監控及管理儲存環境的相關資訊。Active IQ Unified ManagerAPI也能根據原則來進行資源配置和管理儲存物件。 
 ---
-= 使用Unified Manager REST API
+= 使用 Unified Manager REST API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

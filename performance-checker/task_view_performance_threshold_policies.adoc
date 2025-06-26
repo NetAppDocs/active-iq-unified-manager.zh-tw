@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: 您可以從「效能臨界值」頁面檢視所有目前定義的效能臨界值原則。 
 ---
-= 檢視效能臨界值原則
+= 查看效能閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

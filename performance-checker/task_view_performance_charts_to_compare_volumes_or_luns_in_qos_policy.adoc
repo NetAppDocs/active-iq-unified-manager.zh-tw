@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
 summary: 您可以檢視相同QoS原則群組中的磁碟區和LUN、然後比較單一IOPS、MB/s或IOPS/TB圖表上的效能、找出任何問題。 
 ---
-= 檢視效能圖表、比較相同QoS原則群組中的磁碟區或LUN
+= 查看效能圖表以比較同一 QoS 策略群組中的磁碟區或 LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

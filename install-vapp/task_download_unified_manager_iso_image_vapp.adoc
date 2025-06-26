@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, upgrade file 
 summary: 升級Unified Manager之前、請先從NetApp支援網站下載Unified Manager升級檔案。 
 ---
-= 下載Unified Manager升級檔案
+= 下載 Unified Manager 升級文件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

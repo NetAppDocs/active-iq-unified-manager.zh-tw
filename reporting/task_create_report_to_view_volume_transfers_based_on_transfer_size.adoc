@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, transfer size 
 summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。 
 ---
-= 建立報告以根據傳輸大小檢視磁碟區傳輸
+= 建立報表以根據傳輸大小查看傳輸量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

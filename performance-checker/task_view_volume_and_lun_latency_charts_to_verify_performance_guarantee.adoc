@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, lun, latency, charts, verify, performance, guarantee 
 summary: 您可以檢視已訂閱「效能保證」方案的磁碟區和LUN、確認延遲時間未超過您保證的層級。 
 ---
-= 檢視磁碟區和LUN延遲圖表、以驗證效能保證
+= 查看捲和 LUN 延遲圖表以驗證效能保證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

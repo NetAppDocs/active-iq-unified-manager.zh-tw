@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: Unified Manager資料庫目錄包含ONTAP 從VMware系統收集到的所有健全狀況和效能資料。在某些情況下、您可能需要增加資料庫目錄的大小。 
 ---
-= 將磁碟空間新增至Unified Manager資料庫目錄
+= 向 Unified Manager 資料庫目錄新增磁碟空間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, https, security, certificate 
 summary: 您可以將HTTPS憑證詳細資料與瀏覽器中擷取的憑證進行比較、以確保瀏覽器與Unified Manager的加密連線不會被攔截。 
 ---
-= 檢視HTTPS安全性憑證
+= 查看HTTPS安全證書
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

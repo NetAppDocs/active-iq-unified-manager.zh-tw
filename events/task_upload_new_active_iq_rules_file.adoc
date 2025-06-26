@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upload, new, active iq AIQ rules, rules file, CA secure rules, config advisor rules 
 summary: Unified Manager Active IQ 會自動檢查新的版本更新規則檔案、並在下載新檔案。不過、在沒有外部網路存取權的站台中、您需要手動上傳規則檔。 
 ---
-= 正在上傳新Active IQ 的功能更新檔案
+= 上傳新的 Active IQ 規則文件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

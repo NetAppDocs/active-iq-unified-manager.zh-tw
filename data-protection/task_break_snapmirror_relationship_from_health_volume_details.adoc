@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: break, snapmirror, relationship, volume, health details 
 summary: 您可以從Volume / Health詳細資料頁面中斷保護關係、並在SnapMirror關係中停止來源與目的地Volume之間的資料傳輸。當您想要移轉資料、進行災難恢復或進行應用程式測試時、可能會中斷關係。目的地Volume會變更為讀寫磁碟區。您無法打破SnapVault 彼此之間的不合作關係。 
 ---
-= 從Volume / Health詳細資料頁面中斷SnapMirror關係
+= 從磁碟區/運行狀況詳細資料頁面中斷 SnapMirror 關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

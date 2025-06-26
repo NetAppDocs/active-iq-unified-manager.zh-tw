@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui 
 summary: 若要使用Unified Manager、您必須先設定初始設定選項、包括NTP伺服器、維護使用者電子郵件地址、SMTP伺服器主機、以及新增ONTAP 叢集。 
 ---
-= 執行Unified Manager Web UI的初始設定
+= 執行 Unified Manager Web UI 的初始設置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

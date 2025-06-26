@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas 
 summary: 您可以針對發生配額相關問題（軟體上限已超出或硬限制已達）時、傳送給使用者或使用者群組的電子郵件、建立通知格式。 
 ---
-= 建立使用者和使用者群組配額的電子郵件通知格式
+= 為使用者和使用者群組配額建立電子郵件通知格式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

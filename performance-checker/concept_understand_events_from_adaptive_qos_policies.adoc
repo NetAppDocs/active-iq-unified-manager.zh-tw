@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size 
 summary: 調適性QoS原則群組會根據磁碟區大小自動調整處理量上限或樓層、並在磁碟區大小變更時維持IOPS與TB的比率。從推出支援功能的支援功能9.5開始ONTAP 、您可以在QoS原則中指定區塊大小、以便同時有效地套用MB/s臨界值。 
 ---
-= 瞭解自適性QoS原則中具有定義區塊大小的事件
+= 了解具有定義區塊大小的自適應 QoS 策略中的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

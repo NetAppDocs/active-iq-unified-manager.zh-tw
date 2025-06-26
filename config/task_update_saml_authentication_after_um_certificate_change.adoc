@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: update, saml, authentication, settings, unified manager, security, certificate, change 
 summary: 若對安裝在Unified Manager伺服器上的HTTPS安全性憑證進行任何變更、都必須更新SAML驗證組態設定。如果您重新命名主機系統、指派主機系統的新IP位址、或手動變更系統的安全性憑證、則會更新憑證。 
 ---
-= 在Unified Manager安全性憑證變更之後更新SAML驗證設定
+= Unified Manager 安全性憑證變更後更新 SAML 驗證設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, active iq unified manager 
 summary: 安裝Active IQ Unified Manager 完整套功能（前身OnCommand 為「非統一化管理程式」）之後、您必須完成初始設定（也稱為「第一次使用體驗精靈」）、才能存取網路UI。然後您可以執行其他組態工作、例如新增叢集、設定遠端驗證、新增使用者及新增警示。 
 ---
-= 設定Active IQ Unified Manager 功能
+= 配置 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

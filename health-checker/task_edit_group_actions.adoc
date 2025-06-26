@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group actions 
 summary: 您可以編輯在Unified Manager中設定的群組動作參數、例如群組動作名稱、說明、相關群組名稱、以及動作類型的參數。 
 ---
-= 編輯群組動作
+= 編輯組操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

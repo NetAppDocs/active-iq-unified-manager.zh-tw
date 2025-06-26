@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: viewing, qos, policy, groups, available, clusters 
 summary: 您可以顯示Unified Manager正在監控之叢集上可用的所有QoS原則群組清單。這包括傳統的QoS原則、調適性QoS原則、以及由Unified Manager Performance Service層級原則管理的QoS原則。 
 ---
-= 檢視所有叢集上可用的所有QoS原則群組
+= 查看所有叢集上可用的所有 QoS 策略群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

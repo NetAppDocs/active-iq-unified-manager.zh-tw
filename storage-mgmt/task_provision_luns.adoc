@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 您可以從「資源配置工作負載」頁面、在現有叢集和儲存虛擬機器（儲存VM）上建立支援CIFS/SMB和NFS傳輸協定的LUN。 
 ---
-= 資源配置LUN
+= 配置 LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

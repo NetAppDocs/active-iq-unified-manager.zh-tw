@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: 在您採取措施修正失敗的保護工作之後、您可以使用「重試」再次執行工作。重試工作會使用原始工作ID建立新工作。 
 ---
-= 重新嘗試失敗的保護工作
+= 重試失敗的保護作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

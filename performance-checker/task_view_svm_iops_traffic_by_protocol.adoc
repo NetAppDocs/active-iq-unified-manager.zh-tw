@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, svm, iops, traffic, protocol 
 summary: 您可以使用「Performance（效能）/SVM Explorer（SVM檔案總管）」頁面來檢視SVM的詳細IOPS資訊。IOPS（IOPS）-總計數器圖表顯示SVM上的IOPS總使用量、而IOPS（IOPS）-明細計數器圖表則有助於判斷讀取、寫入及其他IOPS對SVM的影響。 
 ---
-= 依傳輸協定檢視SVM IOPS流量
+= 按協定查看 SVM IOPS 流量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

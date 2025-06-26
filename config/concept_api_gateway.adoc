@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: API閘道功能可Active IQ Unified Manager 讓支援不ONTAP 需個別登入即可從單一控制面板管理多個支援叢集。 
 ---
-= 啟用API閘道
+= 啟用 API 網關
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

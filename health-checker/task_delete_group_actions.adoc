@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions 
 summary: 您可以在不再需要群組動作時、從Unified Manager刪除群組動作。 
 ---
-= 刪除群組動作
+= 刪除群組操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

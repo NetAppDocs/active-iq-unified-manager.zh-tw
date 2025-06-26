@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts 
 summary: 「計數器圖表」窗格中的圖表可讓您檢視及比較根物件和從關聯物件網格新增之物件的效能資料。這有助於您瞭解效能趨勢、並找出及解決效能問題。 
 ---
-= 瞭解計數器圖表
+= 了解計數器圖表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, fabricPool, cloud tier, mirror tier, capacity, information 
 summary: 您可以在FabricPool 容量與效能資源清冊和這些物件的詳細資料頁面上、檢視叢集、集合體和磁碟區的動態功能資訊。這些頁面也會在FabricPool 設定鏡射層時顯示鏡射資訊。 
 ---
-= 檢視FabricPool 功能資訊
+= 查看 FabricPool 容量資訊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

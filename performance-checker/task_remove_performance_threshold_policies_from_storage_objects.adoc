@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects 
 summary: 當您不再想讓Unified Manager監控效能計數器的值時、可以從儲存物件移除使用者定義的效能臨界值原則。 
 ---
-= 移除儲存物件的效能臨界值原則
+= 從儲存物件中刪除效能閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

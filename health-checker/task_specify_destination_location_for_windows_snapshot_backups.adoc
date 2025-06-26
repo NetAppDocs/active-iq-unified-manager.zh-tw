@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, windows, snapshot copy, copies 
 summary: 您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的Volume上、設定用於靜態Snapshot複本的目的地位置。您應該使用維護主控台來定義位置。 
 ---
-= 指定Windows上Snapshot複本的目的地位置
+= 指定 Windows 上 Snapshot 副本的目標位置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

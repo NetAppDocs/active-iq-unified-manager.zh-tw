@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted 
 summary: 您可以建立報告來分析儲存容量和使用Aggregate、並檢視過度委派的集合體。 
 ---
-= 建立報告以檢視過度委派的集合體
+= 建立報表以查看過度承諾的聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

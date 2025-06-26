@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, troubleshoot, data availability 
 summary: Unified Manager可監控授權使用者存取儲存資料的可靠性、針對封鎖或阻礙存取的情況發出警示、並可讓您診斷這些情況、並指派及追蹤其解決方案。 
 ---
-= 監控及疑難排解資料可用度
+= 監控和排除數據可用性故障
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

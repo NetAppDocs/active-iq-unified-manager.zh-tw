@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node 
 summary: 您可以使用Unified Manager Web UI來確認或排除磁碟區因為主機節點當機、而儲存設備容錯移轉至HA配對合作夥伴失敗而離線的可能性。 
 ---
-= 判斷某個磁碟區是否因為其主機節點當機而離線
+= 確定磁碟區是否由於其主機節點關閉而處於離線狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

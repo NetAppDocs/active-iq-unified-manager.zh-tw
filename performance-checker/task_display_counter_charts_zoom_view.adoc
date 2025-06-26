@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, counter charts, zoom, view 
 summary: 「計數器圖表縮放檢視」可針對所選的計數器圖表及其相關的時間表、提供更精細的詳細資料。如此可放大計數器圖表資料、讓您更清楚地瞭解效能事件及其根本原因。 
 ---
-= 顯示Counter圖表縮放檢視
+= 顯示計數器圖表縮放視圖
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

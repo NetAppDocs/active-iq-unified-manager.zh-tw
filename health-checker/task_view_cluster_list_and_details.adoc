@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: 您可以使用健全狀況：所有叢集檢視來檢視叢集的庫存。「容量：所有叢集」檢視可讓您檢視所有叢集中儲存容量與使用率的摘要資訊。 
 ---
-= 檢視叢集清單和詳細資料
+= 查看集群列表和詳情
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

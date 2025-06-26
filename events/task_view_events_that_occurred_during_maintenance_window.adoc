@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window 
 summary: 如有必要、您可以在Unified Manager維護期間檢視所有儲存物件所產生的事件。維護期間完成、所有系統資源都備份並執行後、大多數事件都會顯示為「已過時」狀態。 
 ---
-= 檢視維護期間發生的事件
+= 查看維護時段內發生的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

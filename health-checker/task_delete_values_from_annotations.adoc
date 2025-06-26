@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, values, annotations 
 summary: 當自訂註釋的值不再套用時、您可以刪除與該值相關的值。 
 ---
-= 從註釋刪除值
+= 從註釋中刪除值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: 您可以針對新的保護關係執行首次基準傳輸、或是更新關係（如果關係已初始化且您想要執行手動、非計畫性的遞增更新）、以便立即傳輸資料。 
 ---
-= 從Volume / Health詳細資料頁面初始化或更新保護關係
+= 從卷/健康詳情頁面初始化或更新保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active, data protection, transfer, volume health details page 
 summary: 當您想要停止進行中的SnapMirror複寫時、可以中止作用中的資料保護傳輸。如果傳輸不是基準傳輸、您也可以清除傳輸的重新啟動檢查點。當傳輸與其他作業（例如Volume Move）發生衝突時、您可能會中止傳輸。 
 ---
-= 從「Volume / Health（磁碟區/健全狀況）」詳細資料頁面中止作用中的資料保護傳輸
+= 從卷/健康詳情頁面中止活動資料保護傳輸
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate 
 summary: 您可以在「憑證授權單位」簽署並傳回安全性憑證之後、再上傳及安裝安全性憑證。您上傳和安裝的檔案必須是現有自我簽署憑證的簽署版本。CA簽署的憑證有助於預防攔截式攻擊、並提供比自我簽署憑證更好的安全保護。 
 ---
-= 安裝CA簽署並傳回HTTPS憑證
+= 安裝 CA 簽署並傳回的 HTTPS 憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

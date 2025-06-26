@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade 
 summary: 您可以在安裝Unified Manager的Linux伺服器上升級至新版OpenJDK、以取得安全性弱點的修正程式。 
 ---
-= 升級Linux上的OpenJDK
+= 在 Linux 上升級 OpenJDK
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

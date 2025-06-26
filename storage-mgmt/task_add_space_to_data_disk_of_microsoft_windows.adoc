@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add space, logica, drive, microsoft windows server 
 summary: 如果您需要增加Unified Manager資料庫的磁碟空間量、可以將容量新增至安裝Unified Manager的邏輯磁碟機。 
 ---
-= 為Microsoft Windows伺服器的邏輯磁碟機增加空間
+= 為 Microsoft Windows 伺服器的邏輯磁碟機新增空間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

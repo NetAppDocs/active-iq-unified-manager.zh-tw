@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: 您可以使用Active IQ Unified Manager 適用於的儲存供應商API來檢視、建立、修改及刪除Performance Service層級。 
 ---
-= 使用API管理效能服務層級
+= 使用 API 管理效能服務級別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -93,7 +93,7 @@ summary: 您可以使用Active IQ Unified Manager 適用於的儲存供應商API
 |===
 
 
-== 根據效能服務層級檢視Aggregate功能
+== 根據效能服務等級查看聚合功能
 
 您可以使用下列方法、根據效能服務層級查詢集合體功能。此API會傳回資料中心可用的集合體清單、並指出這些集合體可支援的效能服務層級功能。在磁碟區上配置工作負載時、您可以檢視集合體的功能、以支援特定的效能服務層級、並根據該功能來配置工作負載。您只有在使用API來配置工作負載時、才能指定集合體。Unified Manager Web UI無法使用此功能。
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot 
 summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區之資料保護詳細資料的整體檢視。 
 ---
-= 檢視Volume保護狀態
+= 查看卷宗保護狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

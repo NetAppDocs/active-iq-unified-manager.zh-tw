@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, maintenance, console 
 summary: 您可以使用維護主控台來設定網路設定、設定及管理安裝Unified Manager的系統、以及執行其他維護工作、以協助您預防及疑難排解可能的問題。 
 ---
-= 使用維護主控台
+= 使用維護控制台
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

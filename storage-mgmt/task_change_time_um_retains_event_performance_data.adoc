@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, length, time, unified manager, retains, event, performance, data 
 summary: 根據預設、Unified Manager會將所有受監控叢集的事件資料和效能資料儲存6個月。在此之後、舊資料會自動刪除、以便保留新資料的空間。此預設時間範圍適用於大多數組態、但對於許多叢集和節點的大型組態而言、可能需要縮短保留時間、以便Unified Manager以最佳方式運作。 
 ---
-= 變更Unified Manager保留事件與效能資料的時間長度
+= 更改 Unified Manager 保留事件和效能資料的時間長度
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

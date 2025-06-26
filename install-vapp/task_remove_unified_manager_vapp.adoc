@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove unified manager 
 summary: 您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以解除安裝Unified Manager。 
 ---
-= 移除Unified Manager
+= 刪除 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

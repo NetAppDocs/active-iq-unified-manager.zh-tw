@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add space, data, disk, vmware, virtual, machine 
 summary: 如果您需要增加Unified Manager資料庫的資料磁碟空間、可以使用Unified Manager維護主控台增加磁碟空間、在安裝後新增容量。 
 ---
-= 為VMware虛擬機器的資料磁碟增加空間
+= 為VMware虛擬機器資料盤新增空間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

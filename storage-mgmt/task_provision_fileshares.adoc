@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, file, share, volumes 
 summary: 您可以從「資源配置工作負載」頁面、在現有叢集和儲存虛擬機器（儲存VM）上建立支援CIFS/SMB和NFS傳輸協定的檔案共用磁碟區。 
 ---
-= 資源配置檔案共用磁碟區
+= 設定檔共享卷
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, Unified Manager 
 summary: 您必須從NetApp支援網站下載Unified Manager的「.Zip」檔案、才能安裝Unified Manager。 
 ---
-= 正在下載Unified Manager
+= 下載Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

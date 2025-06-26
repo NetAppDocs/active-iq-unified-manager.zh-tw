@@ -31,9 +31,9 @@ entries:
 - title: Unified Manager REST API
   url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
-  - title: 管理資料中心中的儲存物件
+  - title: 管理資料中心內的儲存對象
     url: "/api-automation/concept_data_center_apis.html"
-  - title: 透過Proxy存取功能存取ONTAP 功能的部分API
+  - title: 透過代理程式存取 ONTAP API
     url: "/api-automation/concept_gateway_apis.html"
   - title: 執行管理工作
     url: "/api-automation/concept_administration_apis.html"
@@ -41,7 +41,7 @@ entries:
     url: "/api-automation/concept_security_apis.html"
   - title: 檢視效能指標
     url: "/api-automation/concept_metrics_apis.html"
-  - title: 檢視工作與系統詳細資料
+  - title: 查看作業和系統詳細信息
     url: "/api-automation/concept_job_api.html"
   - title: 管理事件與警示
     url: "/api-automation/concept_events_api.html"
@@ -52,29 +52,29 @@ entries:
       url: "/api-automation/concept_view_workloads.html"
     - title: 管理存取端點
       url: "/api-automation/concept_manage_access_endpoint.html"
-    - title: 管理Active Directory對應
+    - title: 管理 Active Directory 映射
       url: "/api-automation/concept_manage_active_directory.html"
-    - title: 管理檔案共用
+    - title: 管理文件共享
       url: "/api-automation/concept_manage_fileshares_api.html"
     - title: 管理LUN
       url: "/api-automation/concept_manage_lun.html"
-    - title: 管理效能服務層級
+    - title: 管理績效服務水平
       url: "/api-automation/concept_manage_psl.html"
-    - title: 管理儲存效率原則
+    - title: 管理儲存效率策略
       url: "/api-automation/concept_manage_sep.html"
 - title: 通用的儲存管理工作流程
   url: "/api-automation/concept_workflow_intro.html"
   entries:
-  - title: 判斷Aggregate中的空間問題
+  - title: 確定聚合中的空間問題
     url: "/api-automation/concept_workflow_space_issue.html"
-  - title: 使用事件判斷儲存物件的問題
+  - title: 使用事件確定儲存物件中的問題
     url: "/api-automation/concept_events_workflows.html"
-  - title: 使用ONTAP 閘道API疑難排解需求量
+  - title: 使用網關 API 對 ONTAP 磁碟區進行故障排除
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: 工作負載管理工作流程
     url: "/api-automation/concept_provision_workflow.html"
     entries:
-    - title: 驗證叢集上的SVM
+    - title: 驗證叢集上的 SVM
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: 資源配置CIFS和NFS檔案共用
       url: "/api-automation/concept_provision_file_share.html"
@@ -83,5 +83,5 @@ entries:
     - title: 修改儲存工作負載
       url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
-      - title: 修改NFS檔案共用以支援CIFS
+      - title: 修改 NFS 檔案共用以支援 CIFS
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

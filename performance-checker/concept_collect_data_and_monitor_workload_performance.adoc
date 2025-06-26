@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: collect, data, monitor, workload, performance 
 summary: Unified Manager每5分鐘收集並分析工作負載活動、以識別效能事件、並每15分鐘偵測一次組態變更。它最多可保留30天5分鐘的歷史效能和事件資料、並使用此資料預測所有受監控工作負載的預期延遲範圍。 
 ---
-= 收集資料並監控工作負載效能
+= 收集數據並監控工作負載效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

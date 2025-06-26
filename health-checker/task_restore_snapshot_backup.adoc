@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, unified manager, snapshot copy, copies, 
 summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager還原至先前的穩定狀態、並將資料遺失降至最低。您可以使用Unified Manager維護主控台、將Unified Manager Snapshot資料庫還原至本機或遠端作業系統。 
 ---
-= 使用Snapshot複本還原Unified Manager
+= 使用 Snapshot 副本還原 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

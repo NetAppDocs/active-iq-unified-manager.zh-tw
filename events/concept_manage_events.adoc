@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events 
 summary: 事件可協助您識別受監控叢集中的問題。 
 ---
-= 管理事件
+= 管理活動
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

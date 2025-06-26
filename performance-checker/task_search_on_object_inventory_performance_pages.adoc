@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: object, inventory, performance, pages 
 summary: 您可以在「物件庫存管理效能」頁面上搜尋字串。使用頁面右上角的「搜尋」欄位、可根據物件名稱或原則名稱快速找到資料。這可讓您快速找出特定物件及其相關資料、或是快速找出原則並檢視相關的原則物件資料。 
 ---
-= 在「物件庫存管理效能」頁面上搜尋
+= 在物件清單效能頁面上搜尋
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

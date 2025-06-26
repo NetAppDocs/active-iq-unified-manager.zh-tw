@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, annotation rules 
 summary: 您可以變更Unified Manager將附註規則套用至儲存物件的順序。註釋規則會根據其排名、依序套用至儲存物件。當您設定註釋規則時、排名最低。但您可以根據需求變更註釋規則的排名。 
 ---
-= 重新排列註釋規則
+= 重新排序註釋規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

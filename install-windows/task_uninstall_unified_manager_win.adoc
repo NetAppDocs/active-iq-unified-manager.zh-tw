@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uninstall, unified manager 
 summary: 您可以使用「程式和功能」精靈或從命令列介面執行無人管理的解除安裝、來解除安裝Unified Manager。 
 ---
-= 正在解除安裝Unified Manager
+= 解除安裝 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

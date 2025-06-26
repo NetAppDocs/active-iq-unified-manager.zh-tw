@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy,  maximize, transfer, efficiency 
 summary: 您可以建立新SnapVault 的「不確定性」原則、以設定SnapVault 進行「不確定性」傳輸的優先順序。您可以使用原則、在保護關係中、將從一線傳輸到二線傳輸的效率最大化。 
 ---
-= 建立SnapVault 一套可將傳輸效率最大化的功能
+= 創建 SnapVault 策略以最大程度提高傳輸效率
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

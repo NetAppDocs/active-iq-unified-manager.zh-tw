@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, suggested, remedial actions, volume 
 summary: 在收到「Volume Space Full」錯誤事件之後、您將在「Event details」（事件詳細資料）頁面上檢閱建議的補救行動、並決定執行其中一項建議的行動。 
 ---
-= 針對完整Volume執行建議的補救行動
+= 對整個卷執行建議的補救措施
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

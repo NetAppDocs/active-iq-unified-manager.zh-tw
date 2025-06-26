@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events 
 summary: 您可以設定個別效能事件的警示、就像Unified Manager收到的任何其他事件一樣。此外、如果您想要處理所有效能事件、並將電子郵件傳送給同一位人員、您可以建立單一警示、以便在觸發任何重大或警告效能事件時通知您。 
 ---
-= 新增效能事件的警示
+= 新增性能事件警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

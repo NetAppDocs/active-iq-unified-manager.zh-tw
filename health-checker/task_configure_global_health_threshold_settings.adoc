@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: 您可以設定容量、成長、Snapshot保留、配額和inode的全域健全狀況臨界值條件、有效監控您的Aggregate、Volume和qtree大小。您也可以編輯設定、以產生超過延遲臨界值的事件。 
 ---
-= 設定全域健全狀況臨界值設定
+= 配置全域健康閾值設置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

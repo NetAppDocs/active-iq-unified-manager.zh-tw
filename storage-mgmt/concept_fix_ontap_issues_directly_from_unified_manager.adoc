@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, ontap, issues, directly, unified manager, fix it, fix-it, remediation 
 summary: 您可以ONTAP 直接從Unified Manager使用者介面修正某些功能不全的問題、而不需要使用ONTAP 功能不全的系統管理程式或ONTAP 功能不全的CLI。「管理行動」選項可修正ONTAP 觸發Unified Manager事件的許多問題。 
 ---
-= 直接從Unified Manager管理ONTAP 各種問題或功能
+= 直接從 Unified Manager 管理 ONTAP 問題或功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

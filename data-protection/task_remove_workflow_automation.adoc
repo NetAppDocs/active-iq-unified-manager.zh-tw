@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, oncommand, workflow, automation, setup, unified manager 
 summary: 當您不想再使用Workflow Automation時、可以從OnCommand Workflow Automation Unified Manager移除此功能的功能。 
 ---
-= 從OnCommand Workflow Automation Unified Manager移除此功能
+= 從 Unified Manager 中刪除 OnCommand Workflow Automation 設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

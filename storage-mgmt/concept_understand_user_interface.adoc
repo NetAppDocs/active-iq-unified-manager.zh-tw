@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface 
 summary: Unified Manager使用者介面主要包含儀表板、可讓您快速檢視所監控的物件。使用者介面也提供檢視所有叢集物件的存取權。 
 ---
-= 瞭解使用者介面
+= 了解使用者介面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

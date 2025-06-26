@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: override, management, actions, scripts 
 summary: 您可以建立自訂指令碼、並將其與警示建立關聯、以便針對特定事件採取特定行動、而不要在「管理動作」頁面或Unified Manager儀表板上選擇可用的預設管理動作。 
 ---
-= 透過指令碼覆寫管理動作
+= 透過腳本覆蓋管理操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

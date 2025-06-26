@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, protection, relationships volume, health details page 
 summary: 當災難停用保護關係中的來源磁碟區時、您可以在修復或更換來源時、將目的地磁碟區轉換為讀寫、藉此提供資料服務。當來源再次可供接收資料時、您可以使用反轉重新同步作業、以相反方向建立關係、將來源上的資料與讀取/寫入目的地上的資料同步。 
 ---
-= 從Volume / Health詳細資料頁面反轉保護關係
+= 從卷/健康詳情頁面逆轉保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions 
 summary: 此工作流程為您提供一個範例、說明您可以如何掃描、評估及解決不具所有權的儲存容錯移轉互連連結條件。在此案例中、您是使用Unified Manager掃描儲存容錯移轉風險的管理員、然後在ONTAP 節點上開始進行版本升級。 
 ---
-= 掃描及解決儲存容錯移轉互連連結中斷的情況
+= 掃描並解決儲存故障轉移互連鏈路故障情況
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

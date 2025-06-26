@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report 
 summary: 儲存檢視之後、您可以下載Excel活頁簿格式（.xlsxs）。開啟Excel檔案時、您可以使用進階Excel功能自訂報告。 
 ---
-= 使用Excel自訂您的報告
+= 使用 Excel 自訂報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

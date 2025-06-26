@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 您可以從「報告排程」頁面管理報告排程。您可以檢視、修改或刪除現有的排程。 
 ---
-= 管理報告排程
+= 管理報告計劃
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

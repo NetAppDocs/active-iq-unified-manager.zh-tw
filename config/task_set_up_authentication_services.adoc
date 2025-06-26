@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, authentication, services 
 summary: 驗證服務可在提供遠端使用者或遠端群組存取Unified Manager之前、先在驗證伺服器中驗證這些使用者或遠端群組。您可以使用預先定義的驗證服務（例如Active Directory或OpenLDAP）、或設定自己的驗證機制來驗證使用者。 
 ---
-= 設定驗證服務
+= 設定身份驗證服務
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

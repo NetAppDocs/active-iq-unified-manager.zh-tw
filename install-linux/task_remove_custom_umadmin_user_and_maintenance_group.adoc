@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, custom, umadmin, user, maintenance group 
 summary: 如果您在安裝Unified Manager之前建立自訂主目錄來定義自己的umadmin使用者和維護帳戶、則應在解除安裝Unified Manager之後移除這些項目。 
 ---
-= 移除自訂umadmin使用者和維護群組
+= 刪除自訂 umadmin 使用者和維護群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: 鏡射資料時、您可以監控及診斷邏輯連線的整體健全狀況。您可以識別中斷叢集元件鏡射（例如集合體、節點和儲存虛擬機器）的問題或任何風險。 
 ---
-= 監控MetroCluster 功能複寫
+= 監控 MetroCluster 複製
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -20,7 +20,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
-== 檢視MetroCluster 透過IP組態進行的複寫
+== 查看 MetroCluster over IP 配置的複製
 
 對於透過IP進行的靜態組態、資料複寫狀態會顯示在「拓撲預覽」檢視中、以透過Unified Manager左側導覽窗格的下列檢視畫面來顯示受透過IP保護的叢集：MetroCluster MetroCluster
 
@@ -28,11 +28,11 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 * *保護*>*關係**關係：MetroCluster 參考*檢視
 
 
-如需相關資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip["監控MetroCluster IP上的連接問題"]。
+如需相關資訊，請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html#monitor-connectivity-issues-in-metrocluster-over-ip-configuration["監控MetroCluster IP上的連接問題"]。
 
 
 
-== 檢視MetroCluster 透過FC組態進行的複寫
+== 查看 MetroCluster 透過 FC 配置的複製
 
 請遵循下列步驟、判斷MetroCluster 資料複寫中是否有任何問題、以利利用FC組態進行資料複寫。
 

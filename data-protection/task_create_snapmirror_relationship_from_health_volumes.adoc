@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: 使用「健全狀況：所有磁碟區」檢視、您可以在同一個儲存VM上選取多個磁碟區、一次建立多個SnapMirror保護關係。 
 ---
-= 從「健全狀況：所有磁碟區」檢視建立SnapMirror保護關係
+= 從「運行狀況:所有磁碟區」視圖建立 SnapMirror 保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

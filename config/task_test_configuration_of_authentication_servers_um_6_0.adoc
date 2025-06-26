@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers 
 summary: 您可以驗證驗證伺服器的組態、以確保管理伺服器能夠與其通訊。您可以從驗證伺服器搜尋遠端使用者或遠端群組、然後使用設定進行驗證、藉此驗證組態。 
 ---
-= 測試驗證伺服器的組態
+= 測試身份驗證伺服器的配置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

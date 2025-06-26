@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page 
 summary: 您可以使用「Volume / Health」（磁碟區/健全狀況）詳細資料頁面上的還原功能、從Snapshot複本還原覆寫或刪除的檔案、目錄或整個磁碟區。 
 ---
-= 使用Volume（Volume）和Volume（Volume）/ Health（磁碟區）詳細資料頁面還原資料
+= 使用捲和卷/健康詳情頁面恢復數據
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

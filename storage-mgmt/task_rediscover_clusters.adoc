@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters, 
 summary: 您可以從「叢集設定」頁面手動重新探索叢集、以取得有關叢集健全狀況、監控狀態和效能狀態的最新資訊。 
 ---
-= 重新探索叢集
+= 重新發現集群
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

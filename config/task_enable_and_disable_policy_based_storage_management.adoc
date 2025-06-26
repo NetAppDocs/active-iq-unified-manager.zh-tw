@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
 summary: 從Unified Manager 9.7開始、您可以在ONTAP 您的VMware叢集上配置儲存工作負載（Volume和LUN）、並根據指派的效能服務層級來管理這些工作負載。這項功能類似ONTAP 於在《S21系統管理程式》中建立工作負載、並附加QoS原則、但當您使用Unified Manager套用時、您可以在Unified Manager執行個體所監控的所有叢集上配置及管理工作負載。 
 ---
-= 啟用及停用原則型儲存管理
+= 啟用和停用基於策略的儲存管理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

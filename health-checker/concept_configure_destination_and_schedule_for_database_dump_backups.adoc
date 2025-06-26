@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: 您可以設定Unified Manager資料庫傾印備份設定、以設定資料庫備份路徑、保留計數和備份排程。您可以啟用每日或每週排程備份。根據預設、排程備份會停用、但您應該設定備份排程。 
 ---
-= 設定資料庫傾印備份的目的地和排程
+= 配置資料庫轉儲備份的目標和計劃
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

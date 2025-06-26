@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: 修改儲存工作負載的方式包括更新LUN或檔案共用、但缺少參數、或是變更現有參數。 
 ---
-= 使用API修改儲存工作負載
+= 使用 API 修改儲存工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -191,7 +191,7 @@ Json輸出會顯示一個工作物件、您可以使用該物件來驗證主節�
 
 
 
-== 正在更新LUN
+== 更新 LUN
 
 更新LUN時、您可以修改下列參數：
 

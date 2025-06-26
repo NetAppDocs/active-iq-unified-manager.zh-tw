@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, status, management, actions, chosen, fix 
 summary: 您可以在「管理動作」頁面中檢視您選擇修正的所有管理動作狀態。大部分的行動在Unified Manager傳送ONTAP 到叢集的過程中都會相當快完成。不過、移動Volume等部分動作可能需要較長的時間。 
 ---
-= 檢視您選擇修正的管理動作狀態
+= 查看您選擇修復的管理操作的狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

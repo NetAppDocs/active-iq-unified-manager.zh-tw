@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alerts 
 summary: 您可以編輯警示內容、例如警示所關聯的資源、事件、收件者、通知選項、通知頻率、 及相關指令碼。 
 ---
-= 編輯警示
+= 編輯警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

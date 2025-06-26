@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, imbalance, performance, events 
 summary: 當叢集中的某個節點的工作負載遠高於其他節點時、Unified Manager會產生叢集不平衡警告事件、進而可能影響工作負載延遲。這些系統定義的事件可在許多工作負載受到延遲影響之前、提供修正潛在效能問題的機會。 
 ---
-= 回應叢集不平衡的效能事件
+= 響應集群不平衡效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

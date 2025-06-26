@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: 您可以設定所有集合體、磁碟區和qtree的全域健全狀況臨界值、以追蹤任何健全狀況臨界值外洩。 
 ---
-= 管理健全狀況臨界值
+= 管理健康閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

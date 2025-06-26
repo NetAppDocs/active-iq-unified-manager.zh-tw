@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule 
 summary: 當您有想要排程定期產生和發佈的檢視或Excel檔案之後、就可以排程報告。 
 ---
-= 排程報告
+= 安排報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle 
 summary: 您可以產生包含診斷資訊的支援服務組合、以便將其傳送至技術支援部門以取得疑難排解說明。您也可以從維護主控台將支援服務組合上傳至NetApp。 
 ---
-= 產生及上傳支援服務組合
+= 產生並上傳支援包
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

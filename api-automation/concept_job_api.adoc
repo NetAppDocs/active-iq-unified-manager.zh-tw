@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: 您可以使用管理伺服器類別下的工作API來檢視非同步作業的執行詳細資料。 
 ---
-= 檢視工作與系統詳細資料
+= 查看作業和系統詳細信息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: 您可以使用管理伺服器類別下的工作API來檢視非同步�
 
 
 
-== 檢視工作
+== 查看職位
 
 在功能方面、諸如新增和修改資源等作業是透過同步和非同步API入侵來執行。Active IQ Unified Manager排程非同步執行的調用、可由針對該呼叫所建立的工作物件加以追蹤。每個工作物件都有唯一的識別金鑰。每個工作物件都會傳回工作物件URI、供您存取及追蹤工作進度。您可以使用此API擷取每個執行的詳細資料。
 

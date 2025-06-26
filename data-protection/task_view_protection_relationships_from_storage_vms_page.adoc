@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, viewing protection relationships 
 summary: 使用「儲存VM」頁面、您可以檢視現有儲存VM的災難恢復關係狀態。 
 ---
-= 從「儲存VM」頁面檢視保護關係
+= 從儲存虛擬機器頁面查看保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

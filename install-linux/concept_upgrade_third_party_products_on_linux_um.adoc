@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, upgrade, third-party products 
 summary: 您可以在安裝於Linux系統的Unified Manager上升級協力廠商產品、例如JRE。 
 ---
-= 在安裝Unified Manager之後升級協力廠商產品
+= 安裝 Unified Manager 後升級第三方產品
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

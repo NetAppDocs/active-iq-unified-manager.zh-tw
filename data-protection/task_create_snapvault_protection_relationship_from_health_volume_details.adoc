@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page 
 summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建立「支援功能」關係、以便在磁碟區上啟用資料備份以保護資料。 
 ---
-= 從SnapVault Volume / Health詳細資料頁面建立不受保護關係
+= 從磁碟區/運行狀況詳細資料頁面建立 SnapVault 保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

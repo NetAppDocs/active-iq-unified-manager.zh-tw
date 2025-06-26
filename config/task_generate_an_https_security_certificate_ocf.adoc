@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, https, security, certificate 
 summary: 首次安裝時、會安裝預設的HTTPS憑證。Active IQ Unified Manager您可能會產生新的HTTPS安全性憑證來取代現有的憑證。 
 ---
-= 產生HTTPS安全性憑證
+= 產生 HTTPS 安全性憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

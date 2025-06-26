@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: 使用「顯示/隱藏」來選擇您要在報告中使用的欄。拖曳庫存頁面上的欄位、重新排列欄位。 
 ---
-= 自訂欄位
+= 自訂列
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

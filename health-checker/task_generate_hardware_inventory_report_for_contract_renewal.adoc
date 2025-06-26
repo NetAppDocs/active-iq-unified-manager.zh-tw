@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: contract, renewal, cluster, inventory report, hardware, generate 
 summary: 您可以產生一份報告、其中包含叢集與節點資訊的完整清單、例如硬體型號與序號、磁碟類型與數量、安裝的授權等等。此報告有助於在未連線至NetAppActive IQ平台的安全站台（「暗站」）內續約。 
 ---
-= 產生硬體庫存報告以進行合約續約
+= 產生合約續約的硬體清單報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

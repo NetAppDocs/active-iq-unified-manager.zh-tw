@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: 您可以依名稱、檢視名稱、物件類型或收件者來搜尋排程的報告。 
 ---
-= 正在搜尋排程報告
+= 搜尋計劃報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

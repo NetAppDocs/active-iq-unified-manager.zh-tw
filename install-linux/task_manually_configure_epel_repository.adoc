@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, epel repository 
 summary: 如果您安裝Unified Manager的系統無法存取Enterprise Linux（E規劃）的額外套件儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。 
 ---
-= 手動設定Epel儲存庫
+= 手動配置 EPEL 儲存庫
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

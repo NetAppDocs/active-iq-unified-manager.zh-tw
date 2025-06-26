@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects 
 summary: 您可以手動為所選的Volume、叢集和SVM加上註釋、而不需使用註釋規則。您可以為單一儲存物件或多個儲存物件加上註釋、並為註釋指定所需的名稱值配對組合。 
 ---
-= 手動新增附註至個別儲存物件
+= 手動為個別儲存物件新增註釋
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

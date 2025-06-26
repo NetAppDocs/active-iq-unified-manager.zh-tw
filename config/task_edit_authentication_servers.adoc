@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, authentication servers 
 summary: 您可以變更Unified Manager伺服器用來與驗證伺服器通訊的連接埠。 
 ---
-= 編輯驗證伺服器
+= 編輯身份驗證伺服器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

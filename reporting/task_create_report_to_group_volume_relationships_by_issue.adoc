@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, issue 
 summary: 您可以建立報告、依問題將Volume關係分組。 
 ---
-= 建立報告、依問題將磁碟區關係分組
+= 建立報告以按問題對卷宗關係進行分組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

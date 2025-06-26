@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules 
 summary: 您可以建立基本或進階的SnapMirror和SnapVault SnapMirror排程、以便在來源或主要磁碟區上自動傳輸資料保護資料、讓傳輸頻率更高或更低、視磁碟區上的資料變更頻率而定。 
 ---
-= 建立SnapMirror和SnapVault 不需再複製的排程
+= 創建 SnapMirror 和 SnapVault 計劃
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

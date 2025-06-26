@@ -16,7 +16,7 @@ summary: 利用此功能、您可以管理及配置環境中的儲存物件。Ac
 
 
 
-== 建構 URL 以直接存取 REST API
+== 建立 URL 以直接存取 REST API
 
 您可以直接透過編程語言存取REST API、例如Python、C#、C{pp}、JavaScript、 等等。輸入主機名稱或IP位址和URL、以格式存取REST API
 
@@ -29,7 +29,7 @@ summary: 利用此功能、您可以管理及配置環境中的儲存物件。Ac
 ====
 
 
-== 存取線上API文件頁面
+== 存取線上 API 文件頁面
 
 您可以存取隨產品一起封裝的_API Documentation參考內容頁面、以顯示API文件、以及手動發出API呼叫（例如Swagger）。您可以按一下*功能表列*>*說明按鈕*>* API說明文件*來存取本文件
 

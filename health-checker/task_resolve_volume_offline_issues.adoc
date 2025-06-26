@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues 
 summary: 此工作流程提供一個範例、說明您可以如何評估及解決Unified Manager可能在「事件管理」目錄頁面中顯示的Volume離線事件。在此案例中、您是使用Unified Manager來疑難排解一或多個Volume離線事件的管理員。 
 ---
-= 解決Volume離線問題
+= 解決卷線問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

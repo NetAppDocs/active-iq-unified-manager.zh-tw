@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: 您可以設定所有Aggregate的全域健全狀況臨界值、以追蹤任何臨界值外洩。針對臨界值外洩產生適當的事件、您可以根據這些事件採取預防措施。您可以根據適用於所有監控之集合體的臨界值最佳實務設定來設定全域值。 
 ---
-= 設定全域Aggregate健全狀況臨界值
+= 配置全域聚合健康閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

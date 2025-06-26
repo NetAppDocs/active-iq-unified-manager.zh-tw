@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: 您可以為儲存物件建立效能臨界值原則、以便在效能計數器超過特定值時傳送通知。事件通知指出叢集發生效能問題。 
 ---
-= 建立使用者定義的效能臨界值原則
+= 建立使用者定義的效能閾值策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

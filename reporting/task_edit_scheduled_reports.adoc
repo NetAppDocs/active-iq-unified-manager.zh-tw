@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: 排程報告之後、您可以在「報告排程」頁面上編輯報告。 
 ---
-= 編輯排程報告
+= 編輯計劃報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

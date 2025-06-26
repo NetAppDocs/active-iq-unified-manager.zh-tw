@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: 您可以建立報告、以顯示所有已停止SVM的清單。 
 ---
-= 建立報告以檢視停止的儲存VM
+= 建立報告以查看已停止的儲存虛擬機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, thresholds, counter, charts, zoom, view 
 summary: 在Counter圖表縮放檢視中套用臨界值、可提供效能臨界值事件發生的詳細檢視。如此一來、您就能套用或移除臨界值、並立即檢視結果、這有助於決定疑難排解是否應為下一步。 
 ---
-= 在Counter圖表縮放檢視中選取效能臨界值
+= 在計數器圖表縮放視圖中選擇效能閾值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

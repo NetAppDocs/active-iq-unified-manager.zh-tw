@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, cluster, monitor 
 summary: 您可以將叢集新增至Unified Manager資料庫、以監控叢集的可用度、容量及其他詳細資料、例如CPU使用率、介面統計資料、可用磁碟空間、qtree使用量及機箱環境。 
 ---
-= 瞭解叢集監控
+= 了解集群監控
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

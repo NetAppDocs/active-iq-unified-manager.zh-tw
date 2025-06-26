@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: 您可以使用Unified Manager來協助識別目前工作負載所在的Aggregate較不忙碌的Aggregate、然後將選取的磁碟區或LUN移至該Aggregate。將高效能工作負載移至較不忙碌的集合體、或是啟用Flash儲存設備的集合體、可讓工作負載更有效率地執行。 
 ---
-= 將工作負載移至不同的Aggregate
+= 將工作負載遷移到不同的聚合
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

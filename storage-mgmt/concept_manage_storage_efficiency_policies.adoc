@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: 儲存效率原則（SEP）可讓您定義工作負載的儲存效率特性。您可以在最初建立工作負載時、或之後編輯工作負載、將SEP指派給工作負載。 
 ---
-= 管理儲存效率原則
+= 管理儲存效率策略
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

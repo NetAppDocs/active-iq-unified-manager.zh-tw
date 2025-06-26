@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: 下載或排程時、檢視和庫存頁面會變成報告。 
 ---
-= 瞭解檢視與報告關係
+= 了解視圖和報表關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

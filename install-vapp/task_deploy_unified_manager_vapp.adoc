@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager 
 summary: 部署Unified Manager包括下載軟體、部署虛擬應用裝置、建立維護使用者名稱和密碼、以及在Web UI中執行初始設定。 
 ---
-= 部署Unified Manager
+= 部署 Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

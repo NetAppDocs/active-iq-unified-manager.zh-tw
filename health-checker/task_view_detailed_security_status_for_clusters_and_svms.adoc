@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster security status, svm security status, volume encryption status, compliance, security hardening, encryption, anti-ransomware, certificate expiry, clusters page, storage VMs page, System Manager 
 summary: 「安全性」頁面會顯示所有叢集和儲存VM的高層級安全性狀態。詳細的叢集狀態包括叢集法規遵循、SVM法規遵循及Volume加密法規遵循。 
 ---
-= 檢視叢集和儲存VM的安全狀態
+= 查看叢集和儲存虛擬機器的安全狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

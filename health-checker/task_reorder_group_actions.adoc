@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, group actions 
 summary: 您可以變更要套用至群組中儲存物件的群組動作順序。群組動作會根據其排名、依序套用至儲存物件。最低等級會指派給您上次設定的群組動作。您可以根據需求變更群組動作的排名。 
 ---
-= 重新排列群組動作
+= 重新排序組操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

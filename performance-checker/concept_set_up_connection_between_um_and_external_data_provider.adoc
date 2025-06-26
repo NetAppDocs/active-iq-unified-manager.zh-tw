@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: setting, connection, between, unified manager, server, external, data, provider 
 summary: Unified Manager伺服器與外部資料供應商之間的連線可讓您將叢集效能資料傳送至外部伺服器、以便儲存管理員使用協力廠商軟體來記錄效能指標。 
 ---
-= 設定Unified Manager伺服器與外部資料供應商之間的連線
+= 在 Unified Manager 伺服器和外部資料提供者之間建立連接
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

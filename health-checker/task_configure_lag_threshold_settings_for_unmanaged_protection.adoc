@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
 summary: 您可以編輯未受管理保護關係的全域預設延遲警告和錯誤健全狀況臨界值設定、以便根據您的需求、以適當的時間間隔產生事件。 
 ---
-= 設定非託管保護關係的延遲臨界值設定
+= 為非託管保護關係配置滯後閾值設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

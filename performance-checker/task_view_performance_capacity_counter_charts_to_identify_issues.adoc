@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues 
 summary: 您可以在「Performance Explorer」頁面上檢視節點和集合體的效能使用量圖表。這可讓您檢視所選節點的詳細效能容量資料、以及特定時間範圍的集合體。 
 ---
-= 檢視效能容量計數器圖表以找出問題
+= 查看效能容量計數器圖表來識別問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

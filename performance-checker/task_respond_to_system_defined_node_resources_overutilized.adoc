@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, resources, overutilized, performance, events 
 summary: Unified Manager會在單一節點的作業效率超出範圍時、產生過度使用的節點資源警示事件、進而可能影響工作負載延遲。這些系統定義的事件可在許多工作負載受到延遲影響之前、提供修正潛在效能問題的機會。 
 ---
-= 回應節點資源過度使用的效能事件
+= 響應節點資源過度利用的效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

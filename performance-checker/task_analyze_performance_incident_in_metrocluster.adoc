@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyzing, dynamic, performance, event, remote, cluster, metrocluster, configuration 
 summary: 您可以使用Unified Manager來分析MetroCluster 遠端叢集上的動態效能事件、以進行VMware組態設定。此分析可協助您判斷遠端叢集上的事件是否導致其合作夥伴叢集發生事件。 
 ---
-= 分析MetroCluster 以VMware組態設定遠端叢集的動態效能事件
+= 分析 MetroCluster 配置上的遠端叢集的動態效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

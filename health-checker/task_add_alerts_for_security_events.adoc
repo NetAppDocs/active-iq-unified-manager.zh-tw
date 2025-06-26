@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, security events 
 summary: 您可以設定個別安全事件的警示、就像Unified Manager收到的任何其他事件一樣。此外、如果您想要處理所有安全事件、並將電子郵件傳送給同一位人員、您可以建立單一警示、在觸發任何安全事件時通知您。 
 ---
-= 新增安全性事件的警示
+= 新增安全事件警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, issues, use, unified manager, automatic, remediations 
 summary: Unified Manager可使用「修正」按鈕徹底診斷並提供單一解決方案的特定事件。如果可用、這些解決方案會顯示在儀表板、事件詳細資料頁面、以及左導覽功能表的工作負載分析選項中。 
 ---
-= 使用Unified Manager自動修正問題
+= 使用 Unified Manager 自動修復功能解決問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
