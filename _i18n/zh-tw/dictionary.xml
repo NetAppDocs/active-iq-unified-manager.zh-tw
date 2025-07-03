@@ -12065,4 +12065,5 @@
   <block id="ed97ebceba7070144972b95aa06b0982" category="sidebar">使用搜尋來優化您的視圖</block>
   <block id="3ffec53aa0a5fd71bd60b00ba2df8977" category="sidebar">建立報告以查看幾乎已滿的聚合</block>
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">直接從 Unified Manager 修復或管理 ONTAP 問題</block>
+  <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。</block>
 </blocks>
