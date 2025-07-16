@@ -134,17 +134,6 @@ WebSocket over TCP
  a| 
 用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。 此連接埠上的通訊支援 TLS 或 SSL 提供的加密。
 
-
-
- a| 
-AMQP QPID 代理程式
- a| 
-HTTP
- a| 
-9000
- a| 
-用於在此頁面上啟動 AMQP 管理 UI 介面。
-
 |===
 [NOTE]
 ====
