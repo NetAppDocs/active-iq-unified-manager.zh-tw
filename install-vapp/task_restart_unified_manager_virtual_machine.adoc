@@ -18,13 +18,9 @@ summary: 您可以從維護主控台重新啟動Unified Manager虛擬機器（VM
 * 您應該以維護使用者的身分登入Unified Manager維護主控台。
 
 
-您也可以使用VMware *重新啟動客戶*選項、從vSphere重新啟動虛擬機器。
+您也可以使用 VMware *重新啟動客戶機* 選項從 vSphere 重新啟動虛擬機器。請參閱 https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest/["Broadcom 的 VMware vSphere PowerCLI CMDLET 參考中的 Restart-VMGuest cmdlet。"^]
 
 .步驟
 . 在維護主控台中、選取*系統組態*>*重新開機虛擬機器*。
 . 從瀏覽器啟動Unified Manager Web UI、然後登入。
 
-
-*相關資訊*
-
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest"]

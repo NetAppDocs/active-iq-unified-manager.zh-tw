@@ -586,9 +586,7 @@
   <block id="30679af95a78d5c7f32a5c8decea7eb5" category="list-text">瀏覽至VMware vSphere上的「升級Unified Manager」下載頁面。</block>
   <block id="a92aa18aad9613ca06c478305b0d85cf" category="list-text">下載「.ISO」映像進行升級、並將其儲存至vSphere Client可存取的本機目錄或網路目錄。</block>
   <block id="1af81fdbc1ff6d07a3324897a2fe46cc" category="list-text">驗證Checksum以確保軟體已正確下載。</block>
-  <block id="dbd6da6968cef7b169b16a1afe565d31" category="summary">安裝Unified Manager的VMware vSphere系統需要特定版本的作業系統和支援軟體。</block>
   <block id="8b938ebd5a735fe9f035c2df4274494f" category="doc">VMware軟體與安裝需求</block>
-  <block id="c1fb97df43f8780895ba7cc4ed9916c5" category="paragraph">支援下列版本的VMware ESXi：</block>
   <block id="cc52616bf744b78f139542e4d55938e0" category="paragraph">支援下列vSphere版本：</block>
   <block id="0ad9e3bfb76fe781c444c61d823d6ca3" category="paragraph">請參閱互通性對照表、以取得支援的ESXi版本完整且最新的清單。</block>
   <block id="3a20156be64baec963131ed545d9b005" category="paragraph">VMware ESXi伺服器時間應與NTP伺服器時間相同、虛擬應用裝置才能正常運作。將VMware ESXi伺服器時間與NTP伺服器時間同步、可避免時間故障。</block>
@@ -645,11 +643,8 @@
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">您可以從維護主控台重新啟動Unified Manager虛擬機器（VM）。您應該在產生新的安全性憑證之後、或是VM發生問題時、重新啟動VM。</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">虛擬應用裝置應開啟電源。</block>
   <block id="a7e118ba2e133d1563cd19a15fe2a116" category="list-text">您應該以維護使用者的身分登入Unified Manager維護主控台。</block>
-  <block id="e073e6fe06cef770bc889b346bc6998f" category="paragraph">您也可以使用VMware *重新啟動客戶*選項、從vSphere重新啟動虛擬機器。</block>
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">在維護主控台中、選取*系統組態*&gt;*重新開機虛擬機器*。</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">從瀏覽器啟動Unified Manager Web UI、然後登入。</block>
-  <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="186ee8f743cf6f79dae8d8b6579d0b17" category="summary">您可以升級Unified Manager虛擬應用裝置</block>
   <block id="a3ba5a3fd33b03f148e52fd833cda7c3" category="paragraph">請確認下列事項：</block>
   <block id="d9a8a070a49436c3c76ab9b3ca5a89ff" category="list-text">您已從NetApp支援網站下載升級檔案（ISO映像）。</block>
@@ -11146,7 +11141,6 @@
   <block id="604cb85803c2049ee36ec0f56a4b4122" category="paragraph">* 叢集憑證 * ：此憑證為 ONTAP 所有。您無法使用過期的憑證將叢集新增至 Unified Manager 、如果憑證已過期、則應在新增叢集之前重新產生叢集。如需建立憑證的相關資訊、請參閱知識庫（KB）文章<block ref="efe1c9ee5157428eafcff62008773d6d" category="inline-link-rx"></block>。</block>
   <block id="2baed68e35271ff9049aae0aaa17514e" category="paragraph">儲存叢集詳細資料之後、您可以看到叢集的相互 TLS 通訊憑證。</block>
   <block id="71115803a7c16035111d8a488819a5de" category="paragraph">控制主機對預設MySQL連接埠3306的存取。基於安全考量、在Linux、Windows及VMware vSphere系統上全新安裝Unified Manager時、透過此連接埠的存取權限僅限於localhost。此選項可讓您切換此連接埠在localhost和遠端主機之間的可見度、也就是如果此連接埠僅在您的環境中啟用localhost、您也可以將此連接埠提供給遠端主機使用。或者、當所有主機都啟用時、您可以將此連接埠的存取限制為僅限localhost。如果先前已在遠端主機上啟用存取、則組態會保留在升級案例中。切換連接埠可見度之後、您應該檢查 Windows 系統上的防火牆設定、如果設定為限制存取 MySQL 連接埠 3306 、請停用防火牆設定。</block>
-  <block id="992457c87959064e1a1fd8702290dfc5" category="list-text">ESXi 7.0 和 8.0</block>
   <block id="fb0cd9631dee3f83386725234b971c75" category="list-text">VMware vCenter Server 7.0 和 8.0</block>
   <block id="633bb5b6eca1c435199c472c91160f36" category="paragraph">MySQL的預設連接埠3306僅限在Windows系統上安裝Unified Manager時使用localhost。安裝完成後、啟用防火牆以限制連接埠 MySQL 3306 的存取。這不會影響任何維持先前組態的升級案例。您可以修改此組態、並使用將連線提供給其他主機<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> 維護主控台的選項。如需相關資訊、請參閱 <block ref="7a82f5d486f644c03667de7815d5d25c" category="inline-link-macro-rx"></block>。HTTP和HTTPS通訊所使用的連接埠（連接埠80和443）可使用Unified Manager維護主控台進行變更。如需詳細資訊、請參閱 <block ref="c0e80a6e89d09d7c5e1f41b64ee3c406" category="inline-link-macro-rx"></block>。</block>
   <block id="597398cc5b5523b459dfe2d0d9acd2e5" category="paragraph">Volume Efficiency Operation 錯誤（ ocumEvtVolume EfficiencyOperationError ）</block>
@@ -11276,7 +11270,6 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">在 * 移除 VCenter * 訊息對話方塊中、按一下 * 確定 * 以確認移除要求。</block>
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">您可以從 Web UI 新增叢集、並自動啟用憑證型驗證。</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">您可以透過 Unified Manager CLI 新增叢集、預設不會啟用憑證型驗證。如果您使用 Unified Manager CLI 新增叢集、則必須使用 Unified Manager UI 來編輯叢集。您可以看到 <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> 使用 Unified Manager CLI 新增叢集。</block>
-  <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">作業系統： VMware ESXi 7.0 和 8.0</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">例如、如果您安裝的版本為 Unified Manager 9.9 、而您想要升級至 Unified Manager 9.14 、則必須遵循一系列的升級程序。</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">升級 9.11 -&gt; 9.13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">升級 9.13 -&gt; 9.14</block>
@@ -11297,8 +11290,6 @@
   <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。</block>
   <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443</block>
   <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。 此連接埠上的通訊支援 TLS 或 SSL 提供的加密。</block>
-  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">9000</block>
-  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">用於在此頁面上啟動 AMQP 管理 UI 介面。</block>
   <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。</block>
   <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">弱點掃描工具（例如 Qualys ）在內部（ Unified Manager 和弱點掃描工具安裝在同一部 VM 上）或外部掃描虛擬機器（ VM ）時、可能會導致 CPU 使用率偏高 （ Unified Manager 和弱點掃描程式安裝在兩部不同的伺服器上、弱點掃描程式會掃描安裝 Unified Manager 的 VM ）。此問題通常會導致 VM 無回應、並影響 Unified Manager 服務。因此、 NetApp 建議在安裝 Unified Manager 的 VM 中停用弱點掃描程式。如果無法停用掃描器、請在非上班時間掃描 VM 、並在掃描完成後重新啟動服務。</block>
   <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">對於受 SnapMirror 主動同步關係保護的磁碟區、此欄會顯示磁碟區的一致性群組。</block>
@@ -12067,4 +12058,10 @@
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">直接從 Unified Manager 修復或管理 ONTAP 問題</block>
   <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。</block>
   <block id="de7079b453dbd6e52c0ba80b1c38eae2" category="list-text">升級 9.13 -&gt; 9.16</block>
+  <block id="6863825296946543c03f7677ae94e41c" category="list-text">作業系統：VMware ESXi 8.0</block>
+  <block id="d381353a5c1648d3cc56488d652df409" category="summary">安裝 Unified Manager 的 VMware vSphere 系統需要特定版本的作業系統和特定版本的支援軟體。</block>
+  <block id="94ff556e321c8409983ed2abadc3024e" category="paragraph">支援的作業系統是 VMware ESXi 8.0。</block>
+  <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">Broadcom 的 VMware vSphere PowerCLI CMDLET 參考中的 Restart-VMGuest cmdlet。</block>
+  <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">您也可以使用 VMware *重新啟動客戶機* 選項從 vSphere 重新啟動虛擬機器。請參閱<block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
+  <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">叢集必須運行ONTAP 9.9 版軟體或更高版本。</block>
 </blocks>
