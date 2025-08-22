@@ -12064,4 +12064,6 @@
   <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">Broadcom 的 VMware vSphere PowerCLI CMDLET 參考中的 Restart-VMGuest cmdlet。</block>
   <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">您也可以使用 VMware *重新啟動客戶機* 選項從 vSphere 重新啟動虛擬機器。請參閱<block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
   <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">叢集必須運行ONTAP 9.9 版軟體或更高版本。</block>
+  <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">收集 15 天的效能資料需要大量 CPU。NetApp建議您錯開新叢集的新增，以便資料連續性收集輪詢不會同時在太多叢集上執行。此外，如果您在資料連續性收集期間重新啟動 Unified Manager，則收集將停止，並且您將在效能圖表中看到缺失時間範圍的間隙。</block>
+  <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">當新增版本 9.14.1 或更高版本的ONTAP叢集時，通訊將透過雲端代理功能進行。ONTAP會自動建立具有唯讀權限的內部服務帳戶使用者（例如，clus-agent-xxxx）。如果出現以下情況，Unified Manager 將停止從這些叢集收集數據<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block>用戶已刪除。</block>
 </blocks>
