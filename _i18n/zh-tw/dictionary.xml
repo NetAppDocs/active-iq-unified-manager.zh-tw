@@ -11049,7 +11049,6 @@
   <block id="c4f485c20e1538622ae57f3054175ddf" category="list-text">在「名稱」表格中、選取必須還原的目錄名稱。</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">還原程序隨即開始。在後端建立工作以完成還原程序。</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">若要檢視工作進度、請從左側導覽窗格瀏覽至*保護&gt;工作*、從工作清單中檢視還原工作的狀態。</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">如果Cloud Volumes ONTAP 在發生NDMP錯誤的情況下、還原作業在還原HA叢集之間失敗、您可能需要在目的地叢集中新增明確的AWS路由、以便目的地能夠與來源系統的叢集管理LIF通訊。您可以使用BlueXP執行此組態步驟。</block>
   <block id="ea6c1f22d406198faaad800a7f159a1f" category="list-text">按一下「Data Protection（資料保護）」面板頂端的向右箭頭。畫面會顯示「*資料保護*」頁面。</block>
   <block id="fd9449f2b2bbd42c1f63613e3c929241" category="paragraph">視您在資料中心中選取的是單一或所有叢集而定、此頁面會顯示受Snapshot複本或SnapMirror原則保護之磁碟區的資料保護狀態、並顯示未受保護磁碟區的計數。</block>
   <block id="5bad65f01f0a45625a80fce1fa855fa4" category="paragraph">從*個別叢集*清單中選取叢集、會顯示該叢集中受保護磁碟區的Snapshot保護和SnapMirror關係狀態。</block>
@@ -12066,4 +12065,5 @@
   <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">叢集必須運行ONTAP 9.9 版軟體或更高版本。</block>
   <block id="46ddffc1618503c5b7bac4767df5963b" category="list-text">收集 15 天的效能資料需要大量 CPU。NetApp建議您錯開新叢集的新增，以便資料連續性收集輪詢不會同時在太多叢集上執行。此外，如果您在資料連續性收集期間重新啟動 Unified Manager，則收集將停止，並且您將在效能圖表中看到缺失時間範圍的間隙。</block>
   <block id="40bbb8b87d3598ac9845a44abe43f38c" category="list-text">當新增版本 9.14.1 或更高版本的ONTAP叢集時，通訊將透過雲端代理功能進行。ONTAP會自動建立具有唯讀權限的內部服務帳戶使用者（例如，clus-agent-xxxx）。如果出現以下情況，Unified Manager 將停止從這些叢集收集數據<block ref="45b8c9da551ea3a5a411451e7d91c303" prefix=" " category="inline-code"></block>用戶已刪除。</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">如果Cloud Volumes ONTAP HA 叢集之間的還原操作因 NDMP 錯誤而失敗，則可能需要在目標叢集中新增明確的 AWS 路由，以便目標可以與來源系統的叢集管理 LIF 進行通訊。您可以使用NetApp控制台執行此設定步驟。</block>
 </blocks>

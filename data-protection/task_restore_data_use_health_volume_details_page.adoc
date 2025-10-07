@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_restore_data_use_health_volume_details_page.html 
 sidebar: sidebar 
-keywords: restore, data, volume, health details page 
+keywords: restore, data, volume, health details page, console 
 summary: 您可以使用「Volume / Health」（磁碟區/健全狀況）詳細資料頁面上的還原功能、從Snapshot複本還原覆寫或刪除的檔案、目錄或整個磁碟區。 
 ---
 = 使用捲和卷/健康詳情頁面恢復數據
@@ -57,7 +57,7 @@ NOTE: 請注意以下幾點：
 +
 [NOTE]
 ====
-如果Cloud Volumes ONTAP 在發生NDMP錯誤的情況下、還原作業在還原HA叢集之間失敗、您可能需要在目的地叢集中新增明確的AWS路由、以便目的地能夠與來源系統的叢集管理LIF通訊。您可以使用BlueXP執行此組態步驟。
+如果Cloud Volumes ONTAP HA 叢集之間的還原操作因 NDMP 錯誤而失敗，則可能需要在目標叢集中新增明確的 AWS 路由，以便目標可以與來源系統的叢集管理 LIF 進行通訊。您可以使用NetApp控制台執行此設定步驟。
 
 ====
 
