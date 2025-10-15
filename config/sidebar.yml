@@ -101,6 +101,8 @@ entries:
     url: "/config/task_change_ports_um_uses_for_http_and_https_protocols.html"
   - title: 新增網路介面
     url: "/config/task_add_additional_network_interfaces.html"
+  - title: 重新產生客戶端憑證
+    url: "/config/task_regenerate_client_certificate.html"
   - title: 向 Unified Manager 資料庫目錄新增磁碟空間
     url: "/config/concept_add_disk_space_to_um_database_directory.html"
     entries:

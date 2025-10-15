@@ -39,7 +39,7 @@ Red Hat Enterprise Linux 系統可能已安裝所需支援軟體（ Java ， MyS
 
 
  a| 
-OpenJDK 11.0.25 版
+OpenJDK 版本 17.0.14+6
  a| 
 Java版本
 
@@ -87,7 +87,7 @@ Unified Manager所需的「.rpm」模組會解壓縮至目標目錄。
 安裝前指令碼會檢查系統是否有有效的Red Hat Enterprise Linux訂閱、以及是否有必要的軟體儲存庫存取權。如果指令碼發現任何問題、您必須在安裝Unified Manager之前修正問題。
 
 +
-對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有JDK11 - OpenJDK, p7Zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：
+對於 Red Hat Enterprise Linux 8 系統，如果您有帶有 JDK 17 的內部儲存庫 - OpenJDK、p7zip 和 AppStream 儲存庫提供的其他軟體包，則必須停用您的 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：
 
 +
 [listing]

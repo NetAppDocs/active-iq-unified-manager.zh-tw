@@ -37,7 +37,7 @@ MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
 
 
 
-對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有Java-11-OpenJDK、p7zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：
+對於 Red Hat Enterprise Linux 8 系統，如果您有包含 java-17-openjdk、p7zip 和 AppStream 儲存庫提供的其他軟體包的內部儲存庫，則必須停用 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：
 
 [listing]
 ----

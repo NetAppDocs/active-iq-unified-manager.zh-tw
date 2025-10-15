@@ -1,0 +1,23 @@
+---
+permalink: config/task_regenerate_client_certificate.html 
+sidebar: sidebar 
+keywords: client certificate, regenerate, validity, maintenance console 
+summary: 您可以使用維護控制台重新產生 Unified Manager 用戶端憑證。 
+---
+= 重新產生客戶端憑證
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用維護控制台重新產生 Unified Manager 用戶端憑證。您的證書有效期限延長至五年。
+
+.步驟
+. 以維護使用者登入。
+. 選擇*重新產生客戶端憑證*並按下*Enter*。
+. 如果系統提示身份驗證，請輸入所需的憑證。
+. 選擇*確認再生*並按下*Enter*。
+. 重新產生憑證後，重新啟動 Unified Manager 服務以套用變更。
+. 若要驗證更新的證書，請登入ONTAP。查看客戶端證書狀態和有效性狀態。
+

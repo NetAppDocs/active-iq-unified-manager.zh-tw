@@ -47,4 +47,4 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 關於本產品所使用之協力廠商版權與授權的資訊。
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP3330869["Active IQ Unified Manager 9.16 注意事項"]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP3362666["Active IQ Unified Manager 9.18 通知"]

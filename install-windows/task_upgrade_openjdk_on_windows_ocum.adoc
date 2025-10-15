@@ -22,7 +22,7 @@ summary: 您可以在安裝Unified Manager的Windows伺服器上升級至新版O
 . 以管理使用者身分登入Unified Manager主機。
 . 從OpenJDK網站下載適當版本的OpenJDK（64位元）至目標系統。
 +
-例如下載 `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`。
+例如，下載 `jdk-17.0.15_windows-x64_bin.zip`文件來自link:https://www.oracle.com/java/technologies/javase/jdk17-0-13-later-archive-downloads.html["Oracle Java SE 17 檔案下載頁面"^]。
 
 +
 

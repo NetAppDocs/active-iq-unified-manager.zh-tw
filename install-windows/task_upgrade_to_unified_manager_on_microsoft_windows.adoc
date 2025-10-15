@@ -11,7 +11,7 @@ summary: 您可以在Windows平台上下載並執行安裝檔案、以升級Unif
 
 
 [role="lead"]
-您可以下載並執行 Windows 平台上的安裝檔案、將 Unified Manager 9.13 或 9.14 升級至 9.16 。
+您可以透過在 Windows 平台上下載並執行安裝檔案將 Unified Manager 9.14 或 9.16 升級至 9.18。
 
 .開始之前
 * 您要升級Unified Manager的系統應符合系統和軟體需求。

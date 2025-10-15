@@ -48,9 +48,9 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 
 * Microsoft Visual C&#43;&#43;適用於Visual Studio 2015的可轉散發套件14.26.28720.3版
 * MySQL Community Edition 8.4.4 版
-* Python 3.12.4
-* OpenJDK 11.0.25 版
-* 7-zip 版本 23.01 或更新版本
+* Python 3.13.3
+* OpenJDK 版本 17.0.14+6
+* 7-zip 24.09 或更高版本
 
 
 [NOTE]

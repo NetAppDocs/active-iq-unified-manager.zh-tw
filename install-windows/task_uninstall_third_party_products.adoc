@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html 
 sidebar: sidebar 
-keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visual C++ 。 
 ---
 = 卸載第三方產品
@@ -20,7 +20,7 @@ summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visu
 .步驟
 . 從 * 「控制台」 * 選取 * 「程式集」 * > * 「程式與功能」 * 。
 . 從程式清單中選取 Python 。
-. 選取 * 解除安裝此程式 * 。解除安裝任何版本的 Python ，但 3.12 除外。確保您保留 Python 版本 3.12 。
+. 選擇*卸載此程式*。卸載 3.13.3 之外的任何版本的 Python。確保保留 Python 版本 3.13.3。
 
 
 
