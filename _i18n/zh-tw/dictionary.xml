@@ -302,7 +302,6 @@
   <block id="a80f40a4cf172e4461c613d2afc0bade" category="cell">硬體組態</block>
   <block id="2e8526cbe762cb1b8393d935a3b0bf16" category="cell">建議設定</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="paragraph">RAM</block>
-  <block id="1ae7a40629a0ba722477f8f6efb3adec" category="paragraph">12 GB（最低需求8 GB）</block>
   <block id="5eef2922bee262fba019bc051ab7de8c" category="paragraph">處理器</block>
   <block id="fd7f01f6e4333c9d37efa65b264ff2a2" category="paragraph">4個CPU</block>
   <block id="8a12c61ecf12a4ae8fd07c6eb8345828" category="paragraph">CPU週期容量</block>
@@ -313,8 +312,6 @@
   <block id="3ae9eac3ae35b03f9aaa18b1b5c2c026" category="list-text">100 GB可用磁碟空間、分配給「/opt/NetApp/data」目錄、該目錄安裝在LVM磁碟機或連接至目標系統的個別本機磁碟上</block>
   <block id="03d413fadda0320627f30f657e717042" category="paragraph">對於單獨掛載的「/opt」和「/var/log」目錄、請確定「/opt」有15 GB的可用空間、而「/var/log」有16 GB的可用空間。「/tmp」目錄至少應有10 GB的可用空間。</block>
   <block id="56bad51d0fd70713223e857396803caa" category="paragraph">Unified Manager可安裝在記憶體量較少的系統上、但建議的12 GB RAM可確保有足夠的記憶體可供使用、以達到最佳效能、並可讓系統隨組態的成長而容納更多叢集和儲存物件。您不應在部署Unified Manager的VM上設定任何記憶體限制、也不應啟用任何會阻礙軟體使用系統上已配置記憶體的功能（例如佔用）。</block>
-  <block id="118be0e1a3c862556b2a6426bdcd24de" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需詳細資訊、請參閱最佳實務做法指南_。</block>
-  <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">技術報告4621：Unified Manager最佳實務做法指南</block>
   <block id="ccd350b03208f21a01e8434aa29bf22c" category="paragraph">記憶體頁面交換會對系統和管理應用程式的效能造成負面影響。競用因整體主機使用率而無法使用的CPU資源、可能會降低效能。</block>
   <block id="eeedd0b411cf8b8d426d2fb1abee2797" category="section-title">專用使用需求</block>
   <block id="c74cdaf0de603354b9d68a1b99f50e57" category="paragraph">您安裝Unified Manager的實體或虛擬系統應專供Unified Manager使用、不得與其他應用程式共用。其他應用程式可能會耗用系統資源、並大幅降低Unified Manager的效能。</block>
@@ -11359,8 +11356,6 @@
   <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">如需詳細建議與解決方案、請參閱<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> （ TR-4569 ）。</block>
   <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">如需詳細資訊、請參閱法規遵循類別和的主題<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
   <block id="20dbca6ffc2afb63243f7244b8d18e68" category="paragraph">如需安全建議、請參閱<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block></block>
-  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
-  <block id="b1ef1e646481ec8adc66cc5d2b2018ba" category="paragraph">此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需更多資訊、請參閱 <block ref="30a299cd9b89fb73ae0b956f3afc43ad" category="inline-link-macro-rx"></block>。</block>
   <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
   <block id="03d53e406aee01a758a051ceaf737e76" category="paragraph">法規遵循以<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>為基礎。按一下面板頂端的向右箭頭、即可在「安全性」頁面上檢視所有叢集的安全性詳細資料。如需相關資訊，請參閱 <block ref="c1debbda1f6c52f8ae88dec67250c58d" category="inline-link-macro-rx"></block>。</block>
@@ -12077,4 +12072,10 @@
   <block id="87d04c66d3151ccf32f27e7b5929e83f" category="sidebar">Active IQ Unified Manager 9.18 文檔</block>
   <block id="76851a5fa412a2e834b5c4b3b3fd04c5" category="inline-link-macro">Oracle帳號登入頁面</block>
   <block id="85f96417c9ffad8261e8a1065c0612b0" category="admonition">下載該文件需要 Oracle 帳戶。如果您沒有 Oracle 帳戶，請前往 <block ref="8a9d737434e1792055aa606e96405bae" category="inline-link-macro-rx"></block> 創建一個。</block>
+  <block id="469228004487fcc667bf369582833cc1" category="paragraph">12GB</block>
+  <block id="1ddb0349940e2d0ed836e2e7c09c0d8a" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱<block ref="45d0c11c521f01e1d7ecf7777aba0774" category="inline-link-rx"></block>。</block>
+  <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">統一管理最佳實務指南</block>
+  <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱 <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>。</block>
+  <block id="72473e7783768c475b1bae8307882647" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>。</block>
+  <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">請注意，如果您將儲存虛擬機器 (SVM) 或叢集新增至警報的資源中，則不會自動新增子物件。例如，如果您將叢集新增至警報的資源中，警報不會自動新增節點或 LUN。</block>
 </blocks>

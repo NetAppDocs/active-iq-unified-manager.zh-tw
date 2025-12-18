@@ -23,7 +23,7 @@ summary: 在虛擬基礎架構或實體系統上安裝Unified Manager、應符�
  a| 
 RAM
  a| 
-12 GB（最低需求8 GB）
+12GB
 
 
 
@@ -53,9 +53,7 @@ CPU週期容量
 |===
 Unified Manager可安裝在記憶體量較少的系統上、但建議的12 GB RAM可確保有足夠的記憶體可供使用、以達到最佳效能、並可讓系統隨組態的成長而容納更多叢集和儲存物件。您不應在部署Unified Manager的VM上設定任何記憶體限制、也不應啟用任何會阻礙軟體使用系統上已配置記憶體的功能（例如佔用）。
 
-此外、在安裝Unified Manager的第二個執行個體之前、Unified Manager單一執行個體可監控的節點數量也有限制。如需詳細資訊、請參閱最佳實務做法指南_。
-
-https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["技術報告4621：Unified Manager最佳實務做法指南"^]
+此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱 https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["統一管理最佳實務指南"^]。
 
 記憶體頁面交換會對系統和管理應用程式的效能造成負面影響。競用因整體主機使用率而無法使用的CPU資源、可能會降低效能。
 
