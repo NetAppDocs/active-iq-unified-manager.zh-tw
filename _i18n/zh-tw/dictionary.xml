@@ -13,8 +13,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
   <block id="d349bda8382351b9fe435583c56eca3b" category="paragraph">Java版本</block>
   <block id="ebf01eb8c517f12e8cecc2a481529448" category="paragraph">"rpm -qa | grep -i mysql"</block>
-  <block id="a795b555665b99a19e8172dcea1db7f8" category="paragraph">p7zip 16.02</block>
-  <block id="a7257213829973c5c49764d7424d2afc" category="paragraph">"rpm -qa | grep p7Zip</block>
   <block id="13403dd457b6243a3c87fe19d5c61014" category="paragraph">"rpm -e &lt;mysql_package_name&gt;'</block>
   <block id="de62e757ceb412d713be5a4d33f999bc" category="paragraph">如果收到相依性錯誤、您必須新增「-nodeps」選項、才能解除安裝元件。</block>
   <block id="3d07560c3dc428c1a0c49eb9c78954c3" category="list-text">瀏覽至您下載安裝「.zip」檔案的目錄、然後展開Unified Manager套裝組合：</block>
@@ -105,7 +103,6 @@
   <block id="38314429403b3946ba290aa92f092a6e" category="list-text">在同一個系統上安裝及設定Red Hat Enterprise Linux 8.x軟體。</block>
   <block id="f39485c27e53654a504e89613cec179e" category="list-text">在Red Hat Enterprise Linux 8.x系統上、安裝與Red Hat Enterprise Linux 7.x系統相同版本的Unified Manager軟體。</block>
   <block id="c9f2130e0cc97a3b3d8fef97245e7388" category="list-text">將備份檔案（如「.7z」檔案）從外部位置複製到「/opt/netapp/data/ocum-backup/」、並將資料庫儲存庫檔案複製到「/ocum-Backup」目錄下的「/database-dump -repo」子目錄。</block>
-  <block id="4b9d5e4986edb2a9d0749936a3c5a16a" category="summary">系統必須能夠存取特定儲存庫、才能讓安裝程式存取及安裝所有必要的軟體相依性。</block>
   <block id="7d1d42a33e47ba1cd5421c307f5b92ff" category="summary">您可以重設安裝期間所設定的執行個體專屬的jboss密碼。您可以選擇性地重設密碼、以防站台需要此安全功能來覆寫Unified Manager安裝設定。此作業也會變更jboss存取MySQL所用的密碼。</block>
   <block id="6f9f1b5c2fa88af2785b93e04da47b9e" category="list-text">您必須能夠存取目錄「/opt / NetApp /基礎設備/ bin」中NetApp提供的「密碼.sh」指令碼。</block>
   <block id="236571f300975da5f97e30c8eaa910d2" category="list-text">以root使用者身分登入系統。</block>
@@ -279,7 +276,6 @@
   <block id="dbbb4ab63646c15ff10f8545fb7cdfb6" category="paragraph">Linux系統必須安裝下列版本的作業系統和支援軟體：</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">第三方軟體</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Unified Manager需要下列協力廠商套件、但未隨附於其中。這些套件會在安裝期間由「yum」安裝程式自動安裝、前提是您已依照下列各節所述設定儲存庫。</block>
-  <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">p7Zip版本16.02或更新版本（來自Red Hat Extra Packaged for Enterprise Linux儲存庫）</block>
   <block id="78381976b37490cec80cd2fe2b00d51a" category="paragraph">在升級任何協力廠商軟體之前、您必須先關閉正在執行的Unified Manager執行個體。第三方軟體安裝完成後、您可以重新啟動Unified Manager。</block>
   <block id="c30f25a04cc49fee8fee2b51222074ae" category="section-title">使用者授權要求</block>
   <block id="1d30f5af628840472be4ef70e300d02d" category="paragraph">在Linux系統上安裝Unified Manager可以由root使用者或非root使用者使用「show」命令來執行。</block>
@@ -378,7 +374,6 @@
   <block id="629c4e4b9e06105de1ee6910b4520fa4" category="doc">介紹功能Active IQ Unified Manager</block>
   <block id="36148bbba4e69b2b6656637bc0aa3336" category="paragraph">在您完成安裝並新增想要管理的叢集之後、Unified Manager會提供圖形化介面、顯示受監控儲存系統的容量、可用度、保護和效能狀態。</block>
   <block id="d8b2824dd58b8684d7afebae57a9ec15" category="doc">安裝程序總覽</block>
-  <block id="f9ec3a034f84a9fd8183effde4332a5c" category="image-alt">在RHEL上安裝流程</block>
   <block id="5cae6de22cb19e23696d6d2a0ecbdf24" category="summary">您可以在有新版軟體可用時升級Unified Manager。</block>
   <block id="78f7bd17e8dc5c60aabeddc5a7edd6c4" category="paragraph">由NetApp提供的Unified Manager軟體修補程式版本、其安裝程序與新版本相同。</block>
   <block id="88b87a5b091085247f998d9b1dfc636b" category="paragraph">如果Unified Manager與OnCommand Workflow Automation 某個實例搭配使用、而且兩種產品都有新版本的軟體、則您必須中斷這兩種產品的連線、然後在執行升級後設定新的Workflow Automation連線。如果您只要升級至其中一項產品、則應在升級後登入Workflow Automation、並確認它仍從Unified Manager取得資料。</block>
@@ -387,9 +382,6 @@
   <block id="2d2e49557d138f6d4b83fc5fc6f0f807" category="list-text">以root使用者身分登入您要移除Unified Manager的伺服器。</block>
   <block id="8f4432edf3215369a9b366b08a0e80f1" category="list-text">停止Unified Manager並從伺服器移除：</block>
   <block id="92293bf5efcb21ac9b8873fb38c0d536" category="paragraph">「rpm -e NetApp-um」</block>
-  <block id="4d55dfc0876750b5ffe6e60061566609" category="paragraph">此步驟會移除所有相關的NetApp RPM套件。它不會移除必要的軟體模組、例如Java、MySQL和p7zip。</block>
-  <block id="e5dbc5a1e11d941b151de8ab8fa95686" category="list-text">*可選：*如果適用、請移除支援的軟體模組、例如Java、MySQL和p7zip：</block>
-  <block id="be712dac487b0060ebc7a7d4ea36b896" category="paragraph">"rpm -e p7zip mysql-community用戶端mysql-community伺服器mysql-community community mysql-community lips-lips Java-x.y"</block>
   <block id="4ccc693abf0d23c0d512da6d155ea5e9" category="paragraph">完成此作業後、軟體即會移除。卸載後、所有來自於「/opt/NetApp/data」目錄的資料都會移至「/opt /NetApp/data/Backup」資料夾。解除安裝Unified Manager也會移除Java和MySQL套件、除非系統上的任何其他應用程式都需要和使用這些套件。不過、MySQL資料不會刪除。</block>
   <block id="851b63dfbfda9a56a4773ddff04a3bb8" category="list-text">您要升級Unified Manager的系統必須符合系統和軟體需求。</block>
   <block id="476492554416aa7a1518b6deeea2245d" category="list-text">升級Unified Manager之前、您必須先安裝或升級至正確版本的OpenJDK。</block>
@@ -11452,19 +11444,13 @@
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Unified Manager 用來將稽核記錄傳送至遠端 Syslog 伺服器。</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">在 Active IQ Unified Manager 主機上更新 Java 之後，服務將無法啟動</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">您只能在 Unified Manager 主機上安裝一個 Java 版本，否則系統可能無法判斷要使用哪個版本。請參閱。<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block></block>
-  <block id="3e0906413eedf8b016028a08671c72cf" category="list-text">MySQL 社群版 8.4.4 版（來自 MySQL 儲存庫）</block>
   <block id="c6e03671790b21aa5876d21988481dc1" category="doc">更改 JBoss 密碼</block>
-  <block id="bd4a61bec4ddf1fbfa9ff823fe338a7f" category="paragraph">MySQL 8.4.4 Community Edition</block>
-  <block id="e0b87bd877fb05ad9598493d9e9618f7" category="list-text">如果安裝的 MySQL 版本早於 MySQL 8.4.4 Community Edition 、請輸入下列命令將其解除安裝：</block>
   <block id="892bed2d06f89704c4604de031dae65b" category="paragraph">rpm --導入<block ref="0f882f512220ee48fb3a2d37bf184d7b" category="inline-link-rx"></block></block>
   <block id="649100e0f61e7b197f0fa124dfd04ad0" category="doc">手動設定 MySQL 儲存庫</block>
   <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
   <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
   <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
-  <block id="9ab7720d6cb446ae235fa693146b2a7f" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.4.4 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.4.4 。</block>
   <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">VMware vSphere 系統上的 Unified Manager OVA 在內部執行 Debian OS 12（bookworm）。如需受支援ESXi伺服器版本所支援之虛擬機器硬體版本的相關資訊、請參閱VMware文件。</block>
-  <block id="46f31bcfb93fcb60053430763035aa12" category="list-text">MySQL Community Edition 8.4.4 版</block>
-  <block id="cd50fb2ed09ac3c33e778054edb9cc6a" category="list-text">MySQL Community Edition會在Unified Manager升級期間自動升級。如果系統上安裝的 MySQL 版本早於 8.4.4 、 Unified Manager 升級程序會自動將 MySQL 升級至 8.4.4 。您不得執行從舊版 MySQL 到 8.4.4 的獨立式升級。</block>
   <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">故障排除：請依照以下步驟解決日誌輪替問題</block>
   <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Windows 系統上的 NetApp 可管理性 SDK 日誌輪替問題</block>
   <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">在 Windows 作業系統上將基於 ONTAPI API 的叢集新增至 Unified Manager 後， <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block>檔案大小增加並超出 10 MB 的大小限制。</block>
@@ -11548,7 +11534,6 @@
   <block id="950c932fbfaf16c880b9e3159698ec46" category="doc">在 Linux 系統上變更 umadmin 密碼</block>
   <block id="a3e7325bdc8802d2b97616abd100af4b" category="doc">更改 Unified Manager 虛擬設備主機名</block>
   <block id="82bc72116c72c5f85d83649146b03942" category="doc">配置審計日誌</block>
-  <block id="2b7e49b4350106b0d5c726624daba76c" category="paragraph">如果您要啟用遠端記錄、則應選取*啟用遠端記錄*。/// 2025-6-11，OTHERDOC-133</block>
   <block id="fe3124ca1009da3f18337e7bbf1d954a" category="doc">配置 Unified Manager 以發送警報通知</block>
   <block id="98abf53c0218d7ca977c214d35e15ff6" category="doc">建立資料庫用戶</block>
   <block id="f44fbeb51f975c8f5b5f1f3cacce95b0" category="doc">刪除身份驗證伺服器</block>
@@ -11755,7 +11740,6 @@
   <block id="0b6c920f47b112f0004be65d480c5f89" category="doc">查看儲存虛擬機器列表和詳細信息</block>
   <block id="3a54c48731287149929ccba8046ed457" category="doc">查看卷冊列表和詳細信息</block>
   <block id="1c76f6f3be155bbb404ddc93da5ed6b1" category="doc">安裝、升級和刪除 Unified Manager 軟體</block>
-  <block id="03f88644651c7265a75ee9d17c5192e4" category="doc">設定所需的軟體儲存庫</block>
   <block id="a60cb8b157602423cec8d20b7e790c1b" category="doc">安裝 Unified Manager 後升級第三方產品</block>
   <block id="f671b8cc8bc68a8083599cb63cfca3dc" category="doc">在 Red Hat Enterprise Linux 上升級 Union Manager</block>
   <block id="eceb68056a5242b04d79baae7a08bb3b" category="section-title">安裝Active IQ Unified Manager</block>
@@ -12051,10 +12035,7 @@
   <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">升級 9.14 或 9.16 -&gt; 9.18</block>
   <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">Red Hat Enterprise Linux 8.x 與 9.6 版本，基於 x86_64 架構。</block>
   <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK 版本 17.0.14+6（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
-  <block id="948c8178d91f242a451ca7273fc88d8c" category="list-text">Python 3.12（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
   <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK 版本 17.0.14+6</block>
-  <block id="8256b84d74aa30fc3663195b5024bed9" category="paragraph">對於 Red Hat Enterprise Linux 8 系統，如果您有帶有 JDK 17 的內部儲存庫 - OpenJDK、p7zip 和 AppStream 儲存庫提供的其他軟體包，則必須停用您的 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：</block>
-  <block id="5c9461ab22e592eab1219f858610847e" category="paragraph">對於 Red Hat Enterprise Linux 8 系統，如果您有包含 java-17-openjdk、p7zip 和 AppStream 儲存庫提供的其他軟體包的內部儲存庫，則必須停用 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：</block>
   <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">您可以透過在 Linux 平台上下載並執行安裝檔案從 Unified Manager 9.14 或 9.16 升級到 9.18。</block>
   <block id="21965413ff0ccad2726549ebe4781cf5" category="paragraph">您只能將Active IQ Unified Manager從版本 9.14 或 9.16 升級到版本 9.18。</block>
   <block id="7e473733141d48a79308def35ea0692d" category="paragraph">您可以將Active IQ Unified Manager虛擬裝置從版本 9.14 或 9.16 升級到 9.18。</block>
@@ -12078,4 +12059,50 @@
   <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱 <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>。</block>
   <block id="72473e7783768c475b1bae8307882647" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>。</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">請注意，如果您將儲存虛擬機器 (SVM) 或叢集新增至警報的資源中，則不會自動新增子物件。例如，如果您將叢集新增至警報的資源中，警報不會自動新增節點或 LUN。</block>
+  <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">配置統一管理器稽核日誌</block>
+  <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">若要啟用遠端日誌記錄，請選擇“啟用遠端日誌記錄”。</block>
+  <block id="cb76e5d36c6cc17b94dee092ff59b087" category="doc">重新產生 Unified Manager 用戶端憑證</block>
+  <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">使用 System Manager 管理ONTAP證書</block>
+  <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*相關資訊* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
+  <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">設定統一管理器會話不活動逾時時間</block>
+  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">在 RHEL 2026 上安裝流程</block>
+  <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">系統必須能夠存取某些儲存庫和軟體包，以便安裝程式能夠存取和安裝所有必需的軟體相依性。</block>
+  <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">安裝統一管理器所需的軟體</block>
+  <block id="9ca50ce4ceb954680a475273fb837226" category="list-text">MySQL 社群版 8.4.7 版（來自 MySQL 儲存庫）</block>
+  <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
+  <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">配置 7-zip 軟體包</block>
+  <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip 版本 7z2301-linux-x64。更多信息，請查看 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
+  <block id="e015944bfff042d3f68ba5273a29764f" category="summary">若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unified Manager，您的系統必須設定有 7-zip 軟體套件的存取權限。</block>
+  <block id="85dda2f348fcdccc0aaeab4cbe8f599f" category="doc">設定 Unified Manager 的 7-zip 軟體包</block>
+  <block id="f4545e72494a629211274696dc51101a" category="paragraph">若要在 Red Hat Enterprise Linux 系統上成功安裝 Unified Manager，您的系統必須設定對 7-zip 軟體套件的存取權限。如果網路存取可用，且防火牆未封鎖 7-zip URL，則在安裝或升級過程中，7-zip 會自動下載到您的系統。NetApp建議使用自動下載方式。</block>
+  <block id="69e854a4bf0030976395f03271128807" category="paragraph">請確保在防火牆中解除對下列 URL 的阻止，以允許 Unified Manager 自動下載 7-zip 軟體包：<block ref="149f97a3106ff103273136be2377c5c5" prefix=" " category="inline-code"></block></block>
+  <block id="37c1dac21aa18b5553076dd69c0d4f88" category="paragraph">或者，您可以預先安裝 7-zip。</block>
+  <block id="dad151810e18734c54fd2f0e00f48c91" category="section-title">預先安裝 7-zip 軟體包</block>
+  <block id="4893fd0ca34d784ae71835c4e0223807" category="paragraph">你可以手動下載或使用捆綁腳本預先安裝 7-zip。請從以下兩種方法中選擇一種：</block>
+  <block id="6cc776293d96324d6f1a61ae6a739d54" category="section-title">使用捆綁腳本進行下載</block>
+  <block id="3e35624a3e4eef29b898f6e604523b20" category="list-text">運行<block ref="d2ff91d1eda2e6d2a3670a78f9c369d2" prefix=" " category="inline-code"></block> 包含在統一管理器 zip 檔案中的腳本。</block>
+  <block id="b5a21d29e8eead4e58d13826ea7cd73b" category="section-title">手動下載</block>
+  <block id="d9dc731703437706cbe8aa4307fd2a27" category="paragraph">請務必僅從官方網站下載 7-zip 壓縮包。</block>
+  <block id="7d42e6eade30679ccf2871c8cdd42d82" category="list-text">從官方網站下載 7-zip 軟體包（版本 23.01）：</block>
+  <block id="c54bd88d3ce8cde15bb13de5d7938001" category="paragraph"><block ref="149f97a3106ff103273136be2377c5c5" prefix="" category="inline-code"></block></block>
+  <block id="11386e8eb4c06ded373ad806362fd87f" category="list-text">將檔案複製到您的 RHEL 虛擬機器：</block>
+  <block id="8546a6ff2e10ec778904583e758315c0" category="list-text">解壓縮檔：</block>
+  <block id="5ef71a99412d7fdd7718e1339dc9af67" category="list-text">移動<block ref="4af58bcd3997fcf30a03d97e4cac2156" prefix=" " category="inline-code"></block> 文件到<block ref="2a4b26260ce1651934b15eaf5a82d57f" prefix=" " category="inline-code"></block> 目錄：</block>
+  <block id="f36c9656dfe6d8b4341b27eee5cba4cd" category="list-text">設定可執行權限：</block>
+  <block id="9c0f95d6de9186b24cce94c1c19ad0bb" category="section-title">驗證安裝情況</block>
+  <block id="d0eba9fa9af1130797e7b097e86e1cf9" category="paragraph">請確認 7-zip 軟體包已成功安裝到您的系統中：</block>
+  <block id="3d96d3e1fe880ce5fb91ceb1a04daf8f" category="paragraph">MySQL 8.4.7 社群版</block>
+  <block id="7942c3cbff858fefeeae13af0754ce91" category="paragraph">7-zip</block>
+  <block id="bd4785a5ccc39256a5803dad4bd14553" category="paragraph"><block ref="e3b6ff30090579304f8b0ef931234002" prefix="" category="inline-code"></block></block>
+  <block id="230ac9fdbbe8b31d21322b2382325f25" category="list-text">如果安裝的MySQL版本低於MySQL 8.4.7社群版，請輸入下列指令進行解除安裝：</block>
+  <block id="9e8e56b6decd77cb1c6c67922d0ea568" category="paragraph">對於 Red Hat Enterprise Linux 8 系統，如果您有包含 JDK 17 - OpenJDK、7-zip 以及 AppStream 儲存庫提供的其他軟體包的內部儲存庫，則必須停用 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：</block>
+  <block id="dc2549c9552cf4727398a4c12030d976" category="paragraph">對於 Red Hat Enterprise Linux 8 系統，如果您有包含 java-17-openjdk、7-zip 和其他由 AppStream 儲存庫提供的軟體包的內部儲存庫，則必須停用 AppStream 儲存庫並安裝 MySQL Community Server。運行以下命令：</block>
+  <block id="85a7833c7b3c47e46293fd6b5df674cf" category="paragraph">此步驟將移除所有相關的NetApp RPM 軟體包。它不會刪除必備的軟體模組，例如 Java、MySQL 和 7zip。</block>
+  <block id="95570f21954a110ac5842214143555f2" category="list-text">*可選：*如果適用，請移除支援軟體模組，例如 Java、MySQL 和 7zip：</block>
+  <block id="9be3489c55784ee9bb690eb74a862d91" category="paragraph"><block ref="4b4071a6e6d8cc80744e78638c7ce679" prefix="" category="inline-code"></block></block>
+  <block id="54b48a732c6188d2bcadf3f1d35f5767" category="list-text">在升級 Unified Manager 之前，必須先安裝或升級到正確版本的 7-zip。看 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
+  <block id="7efa98bf218af7d91336f05884607943" category="list-text">MySQL 社群版會在 Unified Manager 升級期間自動升級。如果您系統上安裝的 MySQL 版本早於 8.4.7，則 Unified Manager 升級過程會自動將 MySQL 升級到 8.4.7。</block>
+  <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL 社群版 8.4.7</block>
+  <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL 社群版會在 Unified Manager 升級期間自動升級。如果您系統上安裝的 MySQL 版本早於 8.4.7，則 Unified Manager 升級過程會自動將 MySQL 升級到 8.4.7。您無法執行早期版本的 MySQL 到 8.4.7 的獨立昇級。</block>
+  <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">安裝所需軟體</block>
 </blocks>

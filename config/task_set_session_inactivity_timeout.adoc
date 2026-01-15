@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: 您可以指定Unified Manager的閒置逾時值、以便在一段時間後自動終止工作階段。依預設、逾時時間設為4、320分鐘（72小時）。 
 ---
-= 設定工作階段閒置逾時
+= 設定統一管理器會話不活動逾時時間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

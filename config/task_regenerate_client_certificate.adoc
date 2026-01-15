@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: 您可以使用維護控制台重新產生 Unified Manager 用戶端憑證。 
 ---
-= 重新產生客戶端憑證
+= 重新產生 Unified Manager 用戶端憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,3 +21,5 @@ summary: 您可以使用維護控制台重新產生 Unified Manager 用戶端憑
 . 重新產生憑證後，重新啟動 Unified Manager 服務以套用變更。
 . 若要驗證更新的證書，請登入ONTAP。查看客戶端證書狀態和有效性狀態。
 
+
+*相關資訊*  https://docs.netapp.com/us-en/ontap/authentication/manage-certificates-sm-task.html["使用 System Manager 管理ONTAP證書"^]

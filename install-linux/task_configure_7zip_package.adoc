@@ -1,0 +1,81 @@
+---
+permalink: install-linux/task_configure_7zip_package.html 
+sidebar: sidebar 
+keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script 
+summary: '若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unified Manager，您的系統必須設定有 7-zip 軟體套件的存取權限。' 
+---
+= 設定 Unified Manager 的 7-zip 軟體包
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+若要在 Red Hat Enterprise Linux 系統上成功安裝 Unified Manager，您的系統必須設定對 7-zip 軟體套件的存取權限。如果網路存取可用，且防火牆未封鎖 7-zip URL，則在安裝或升級過程中，7-zip 會自動下載到您的系統。NetApp建議使用自動下載方式。
+
+請確保在防火牆中解除對下列 URL 的阻止，以允許 Unified Manager 自動下載 7-zip 軟體包：
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+或者，您可以預先安裝 7-zip。
+
+
+
+== 預先安裝 7-zip 軟體包
+
+你可以手動下載或使用捆綁腳本預先安裝 7-zip。請從以下兩種方法中選擇一種：
+
+
+
+=== 使用捆綁腳本進行下載
+
+.步驟
+. 運行 `install7zip.sh` 包含在統一管理器 zip 檔案中的腳本。
+
+
+
+
+=== 手動下載
+
+請務必僅從官方網站下載 7-zip 壓縮包。
+
+.步驟
+. 從官方網站下載 7-zip 軟體包（版本 23.01）：
++
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+. 將檔案複製到您的 RHEL 虛擬機器：
++
+[source, CLI]
+----
+7z2301-linux-x64.tar.xz
+----
+. 解壓縮檔：
++
+[source, CLI]
+----
+sudo tar -xf 7z2301-linux-x64.tar.xz
+----
+. 移動 `7zz` 文件到 `/usr/bin/` 目錄：
++
+[source, CLI]
+----
+sudo cp 7zz /usr/bin/
+----
+. 設定可執行權限：
++
+[source, CLI]
+----
+sudo chmod 755 /usr/bin/7zz
+----
+
+
+
+
+== 驗證安裝情況
+
+請確認 7-zip 軟體包已成功安裝到您的系統中：
+
+[source, CLI]
+----
+7zz -version
+----

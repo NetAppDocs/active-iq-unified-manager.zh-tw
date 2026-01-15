@@ -27,11 +27,11 @@ summary: 只需單一命令，即可從 Red Hat Enterprise Linux 主機停止 Un
 「rpm -e NetApp-um」
 
 +
-此步驟會移除所有相關的NetApp RPM套件。它不會移除必要的軟體模組、例如Java、MySQL和p7zip。
+此步驟將移除所有相關的NetApp RPM 軟體包。它不會刪除必備的軟體模組，例如 Java、MySQL 和 7zip。
 
-. *可選：*如果適用、請移除支援的軟體模組、例如Java、MySQL和p7zip：
+. *可選：*如果適用，請移除支援軟體模組，例如 Java、MySQL 和 7zip：
 +
-"rpm -e p7zip mysql-community用戶端mysql-community伺服器mysql-community community mysql-community lips-lips Java-x.y"
+`rpm -e mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
 
 
 
