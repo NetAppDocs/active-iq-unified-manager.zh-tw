@@ -12105,4 +12105,13 @@
   <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL 社群版 8.4.7</block>
   <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL 社群版會在 Unified Manager 升級期間自動升級。如果您系統上安裝的 MySQL 版本早於 8.4.7，則 Unified Manager 升級過程會自動將 MySQL 升級到 8.4.7。您無法執行早期版本的 MySQL 到 8.4.7 的獨立昇級。</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">安裝所需軟體</block>
+  <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">在以下任何情況下，您都無法從快照還原目錄或磁碟區：</block>
+  <block id="1682df86d53dde8a42b648d552487863" category="list-text">已選擇 *Yes, preserve all snapshot copies* 選項。</block>
+  <block id="6737224bf6ac1c0fa305a05c30cf30ae" category="list-text">您正在使用 LDAP 帳戶來監控叢集。</block>
+  <block id="5c41c459cb69f39c6ee999eecd9a022b" category="list-text">您已以網域使用者身分登入。</block>
+  <block id="0b5a178a62e7dfff5f75538a04745433" category="list-text">您的帳戶已配置為使用 SAML 身份驗證。</block>
+  <block id="d31f432ad0e4242b6b670e30b3081931" category="list-text">您正在使用 NDMP 協定。</block>
+  <block id="2aa02eda0e86d78eb7e7937d93415606" category="inline-link">如何在「SVM 範圍」模式下設定 NDMP 驗證</block>
+  <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">如需更多詳細資訊，請參閱知識庫文章<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>。</block>
+  <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">您無法還原 NTFS 檔案串流。</block>
 </blocks>
