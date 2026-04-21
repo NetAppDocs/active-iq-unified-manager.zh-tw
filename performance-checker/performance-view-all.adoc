@@ -91,7 +91,7 @@ NOTE: 對於資料保護（DP）磁碟區、只會顯示使用者產生流量的
 ** HDD（FabricPool 簡稱「HDD」）。結合HDD與雲端層
 ** VMDisk（SDS）：虛擬機器內的虛擬磁碟
 ** VMDisk（FabricPool VMware）。結合虛擬磁碟與雲端層
-** LUN FlexArray （僅限部分）
+** LUN
 
 
 * 非作用中資料報告：此Aggregate上的非作用中資料報告功能是啟用還是停用。啟用時、此集合體上的磁碟區會在「Performance：All Volumes」（效能：所有磁碟區）檢視中顯示冷資料量。當版本的報價不支援非使用中的資料報告時、此欄位的值為「N/A」ONTAP 。
