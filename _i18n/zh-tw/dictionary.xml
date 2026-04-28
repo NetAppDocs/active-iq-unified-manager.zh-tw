@@ -10906,7 +10906,6 @@
   <block id="a595de73dca9609245772790e84df92f" category="list-text">HDD（FabricPool 簡稱「HDD」）。結合HDD與雲端層</block>
   <block id="4b9cb70f77d5d1b7f1db6298a0112b46" category="list-text">VMDisk（SDS）：虛擬機器內的虛擬磁碟</block>
   <block id="7a4441b84bc5cd489153019c009f24c4" category="list-text">VMDisk（FabricPool VMware）。結合虛擬磁碟與雲端層</block>
-  <block id="e984493a6bcd860596d8423104637e9e" category="list-text">LUN FlexArray （僅限部分）</block>
   <block id="4b791e706882987148eb5eaf50446cdc" category="list-text">非作用中資料報告：此Aggregate上的非作用中資料報告功能是啟用還是停用。啟用時、此集合體上的磁碟區會在「Performance：All Volumes」（效能：所有磁碟區）檢視中顯示冷資料量。當版本的報價不支援非使用中的資料報告時、此欄位的值為「N/A」ONTAP 。</block>
   <block id="2523d9be01c5cc6e2c30bd2d090e5068" category="list-text">臨界值原則：此儲存物件上作用中的使用者定義效能臨界值原則或原則。您可以將游標放在含有省略符號（...）的原則名稱上、以檢視完整原則名稱或指派的原則名稱清單。「指派效能臨界值原則」和「清除效能臨界值原則」按鈕會維持停用狀態、直到您按一下最左側的核取方塊來選取一或多個物件為止。如需詳細資訊、請參閱下列連結：</block>
   <block id="b9977255ef888a78b8d6854585d54fad" category="paragraph">「效能：所有節點」檢視會顯示Unified Manager執行個體所監控之每個節點的效能事件、資料和組態資訊總覽。這可讓您快速監控節點的效能、並疑難排解效能問題和臨界值事件。</block>
@@ -12114,4 +12113,5 @@
   <block id="2aa02eda0e86d78eb7e7937d93415606" category="inline-link">如何在「SVM 範圍」模式下設定 NDMP 驗證</block>
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">如需更多詳細資訊，請參閱知識庫文章<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>。</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">您無法還原 NTFS 檔案串流。</block>
+  <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">對於所有已配置為發送警報的事件，當這些事件經歷所有可用狀態（New、Resolved 和 Obsolete）時，系統都會發送警報訊息。如果您不希望接收事件進入 Resolved 和 Obsolete 狀態時的警報，您可以設定全域設定來抑制這些警報。</block>
 </blocks>

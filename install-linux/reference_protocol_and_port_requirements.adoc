@@ -272,4 +272,37 @@ UDP
  a| 
 Unified Manager 用來將稽核記錄傳送至遠端 Syslog 伺服器。
 
+
+
+ a| 
+AMQP QPID 代理程式
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+用於內部訊息通訊。
+
+
+
+ a| 
+AMQP QPID 代理程式
+ a| 
+WebSocket over TCP
+ a| 
+56080
+ a| 
+用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。
+
+
+
+ a| 
+AMQP QPID 代理程式
+ a| 
+WebSocket over TCP
+ a| 
+56443
+ a| 
+用於在這個連接埠上聆聽從 ONTAP （雲端代理程式）接收的訊息。透過此連接埠的通訊支援 TLS 或 SSL 提供的加密。
+
 |===
