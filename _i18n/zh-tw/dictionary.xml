@@ -959,14 +959,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">在實體伺服器上、新增容量至安裝Unified Manager伺服器的邏輯磁碟機。</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">請依照Microsoft主題中的步驟進行：</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">擴充基本Volume</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">在實體伺服器上、新增硬碟機。</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">新增硬碟機</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">在虛擬機器上、增加磁碟分割區的大小。</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">請遵循VMware主題中的步驟：</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">增加磁碟分割區的大小</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="72c8cc8c34e5d2e3862cf7c9f861acfe" category="summary">您可以在「設定稽核記錄」對話方塊中選取「啟用遠端記錄」核取方塊、以啟用遠端稽核記錄。您可以使用此功能將稽核記錄傳輸到遠端Syslog伺服器。如此一來、您就能在空間有限時管理稽核記錄。</block>
   <block id="89b4637090c755197bf67f7e787424f5" category="paragraph">您可以選取「設定稽核記錄」對話方塊上的「*啟用遠端記錄」核取方塊、以啟用遠端稽核記錄。您可以使用此功能將稽核記錄傳輸到遠端Syslog伺服器。如此一來、您就能在空間有限時管理稽核記錄。</block>
   <block id="07e5e4bc6f2721bfa1ba4e9d687d6fc0" category="paragraph">遠端記錄稽核日誌可在Active IQ Unified Manager 監查伺服器上的稽核日誌檔遭到竄改時、提供防竄改備份。</block>
@@ -2276,9 +2273,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">儲存物件的註釋</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">報告儲存物件資訊的建立與管理、例如實體與邏輯容量、使用率、空間節約、效能及相關事件</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">整合OnCommand Workflow Automation 了功能以執行工作流程</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">Storage Automation Store包含NetApp認證的自動化儲存工作流程套件、是專為OnCommand Workflow Automation 搭配使用而開發的。您可以下載套件、然後將其匯入WFA以執行。自動化工作流程可在此取得：</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">儲存自動化儲存區</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="0125458c79fbece2c69bd8f9b2e42965" category="summary">您可以將叢集新增至Unified Manager資料庫、以監控叢集的可用度、容量及其他詳細資料、例如CPU使用率、介面統計資料、可用磁碟空間、qtree使用量及機箱環境。</block>
   <block id="1f71f2dddc78f11345d26a52622fcdf5" category="paragraph">當狀態異常或超出預先定義的臨界值時、就會產生事件。如果設定為如此、Unified Manager會在事件觸發警示時、傳送通知給指定的收件者。</block>
   <block id="c5475963e9fba094e5482049acc91717" category="summary">您可以編輯在Unified Manager中建立的群組名稱和說明。</block>
@@ -9096,7 +9090,6 @@
   <block id="c24a0f3bd8d8c6ad61a7cdb8a7b45908" category="paragraph">您無法同時檢視受保護和未受保護的儲存VM。您必須清除現有的篩選條件、才能重新套用新的篩選選項。</block>
   <block id="1801a56bb9becda65e82195d46829ae5" category="paragraph">「未儲存」檢視會根據您的篩選器選擇、顯示受儲存VM災難恢復保護或未受保護的所有儲存VM。</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">您可以設定OnCommand Workflow Automation 穩定連線、讓它能連接到NetApp（WFA）和Unified Manager。連線至Workflow Automation可讓您使用SnapMirror和SnapVault SnapMirror組態工作流程等保護功能、以及管理SnapMirror關係的命令。</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">WFA套件、用於管理ONTAP 功能</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">您必須擁有在Unified Manager中建立的資料庫使用者名稱、才能支援WFA和Unified Manager連線。</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">此資料庫使用者必須已被指派「整合架構」使用者角色。</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">您必須在Workflow Automation中被指派「管理員」角色或「架構設計師」角色。</block>
@@ -11416,7 +11409,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* 什麼 ... 在您開始之前</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">已安裝的 Workflow Automation 版本必須是 5.1.1 或更新版本。</block>
-  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">WFA 5.1.1P6 包含「管理叢集式 Data ONTAP 的 WFA 套件」，因此不需要從 NetAppStorage Automation Store 下載此套件，並依照過去的需求，將其個別安裝到 WFA 伺服器上。<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">您必須依照中的指示<block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>，在 Linux 伺服器上安裝 Unified Manager 。</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Manager 會使用<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱<block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>。</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">請務必為Red Hat Enterprise Linux系統下載正確版本的安裝程式檔案。根據您是否已安裝 Red Hat Enterprise Linux 8 或 9 ，請務必下載適當版本的 Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block> 檔案。</block>
@@ -12114,4 +12106,10 @@
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">如需更多詳細資訊，請參閱知識庫文章<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>。</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">您無法還原 NTFS 檔案串流。</block>
   <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">對於所有已配置為發送警報的事件，當這些事件經歷所有可用狀態（New、Resolved 和 Obsolete）時，系統都會發送警報訊息。如果您不希望接收事件進入 Resolved 和 Obsolete 狀態時的警報，您可以設定全域設定來抑制這些警報。</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">WFA 下載</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">WFA 5.1.1P6 中包含了「`用於管理 Clustered Data ONTAP 的 WFA 套件`」，因此無需像過去那樣從 NetAppStorage Automation Store 下載此套件並將其單獨安裝到 WFA 伺服器上。<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
 </blocks>
