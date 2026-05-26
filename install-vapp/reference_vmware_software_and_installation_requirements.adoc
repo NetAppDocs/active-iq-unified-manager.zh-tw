@@ -21,7 +21,7 @@ summary: 安裝 Unified Manager 的 VMware vSphere 系統需要特定版本的�
 
 [NOTE]
 ====
-VMware vSphere 系統上的 Unified Manager OVA 在內部執行 Debian OS 12（bookworm）。如需受支援ESXi伺服器版本所支援之虛擬機器硬體版本的相關資訊、請參閱VMware文件。
+在 VMware vSphere 系統上執行的 Unified Manager OVA 內部運行的是 Debian OS 13 (Trixie)。有關支援的 ESXi 伺服器版本所支援的虛擬機器硬體版本的資訊，請參閱 VMware 文件。
 
 ====
 支援下列vSphere版本：

@@ -24,7 +24,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 ** 您必須擁有使用者名稱和密碼才能存取叢集。
 +
-此帳戶必須將「應用程式」存取權限設為_ontapi_、_consol__和_http。
+此帳戶必須具有 _admin_ 角色，且應用程式存取設定為 _ontapi_、_amqp_、_console_ 和 _http_。
 
 ** 您必須知道使用HTTPS傳輸協定（通常為連接埠443）連線至叢集的連接埠號碼。
 ** 叢集必須運行ONTAP 9.9 版軟體或更高版本。
