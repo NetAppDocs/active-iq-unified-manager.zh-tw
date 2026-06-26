@@ -12112,4 +12112,5 @@
   <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
   <block id="59c721a4f6c44ca8cb60ecf288219ca8" category="paragraph">此帳戶必須具有 _admin_ 角色，且應用程式存取設定為 _ontapi_、_amqp_、_console_ 和 _http_。</block>
   <block id="42448273f40a0cdbd38a68c84477f81c" category="paragraph">在 VMware vSphere 系統上執行的 Unified Manager OVA 內部運行的是 Debian OS 13 (Trixie)。有關支援的 ESXi 伺服器版本所支援的虛擬機器硬體版本的資訊，請參閱 VMware 文件。</block>
+  <block id="a8b83d2538456b0b759bed68390111d7" category="paragraph">如果您的系統是從 Unified Manager 9.7 升級而來，由於 Debian 版本中的檔案系統發生了變化，您無法直接從 9.14 升級到 9.18。請依照以下建議的升級路徑進行：9.14 -&gt; 9.16P2 -&gt; 9.18。</block>
 </blocks>

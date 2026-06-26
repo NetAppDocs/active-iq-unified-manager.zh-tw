@@ -17,6 +17,11 @@ summary: 您可以在VMware vSphere上升級至Unified Manager
 
 如果Unified Manager與OnCommand Workflow Automation 某個實例搭配使用、而且兩種產品都有新版本的軟體、則您必須中斷這兩種產品的連線、然後在執行升級後設定新的Workflow Automation連線。如果您只要升級至其中一項產品、則應在升級後登入Workflow Automation、並確認它仍從Unified Manager取得資料。
 
+[NOTE]
+====
+如果您的系統是從 Unified Manager 9.7 升級而來，由於 Debian 版本中的檔案系統發生了變化，您無法直接從 9.14 升級到 9.18。請依照以下建議的升級路徑進行：9.14 -> 9.16P2 -> 9.18。
+
+====
 .步驟
 . 請依照中的步驟進行 link:task_download_unified_manager_iso_image_vapp.html["下載Unified Manager ISO映像"]。
 . 此外、請遵循中所述的步驟 link:task_upgrade_unified_manager_virtual_appliance_vapp.html["升級Unified Manager"]。
