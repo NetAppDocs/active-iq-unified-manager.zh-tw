@@ -20,6 +20,7 @@ summary: 您可以檢視所有磁碟區和儲存VM的清單、以及它們目前
 
 
 
+[[view-security-details-of-all-volumes-with-anti-ransomware-detection]]
 == 利用勒索軟體偵測功能檢視所有磁碟區的安全詳細資料
 
 .步驟
@@ -33,6 +34,7 @@ NOTE: 離線磁碟區、受限磁碟區、SnapLock VMware Volume、FlexGroup Fle
 
 
 
+[[view-security-details-of-all-storage-vms-with-anti-ransomware-detection]]
 == 透過勒索軟體偵測功能、檢視所有儲存VM的安全詳細資料
 
 .步驟

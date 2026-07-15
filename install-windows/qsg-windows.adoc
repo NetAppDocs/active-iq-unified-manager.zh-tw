@@ -15,6 +15,7 @@ summary: 適用於Windows平台Unified Manager的快速入門指南。
 
 
 
+[[system-requirements]]
 == 系統需求
 
 * 作業系統
@@ -38,10 +39,12 @@ summary: 適用於Windows平台Unified Manager的快速入門指南。
 
 
 
+[[install-active-iq-unified-manager]]
 == 安裝Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下載安裝程式
 
 . 下載「ActiveIQUnifiedManager-<版本>.exe」安裝套件。
@@ -50,6 +53,7 @@ summary: 適用於Windows平台Unified Manager的快速入門指南。
 
 
 
+[[install-unified-manager]]
 === 安裝Unified Manager
 
 若要安裝Unified Manager、請確定您已安裝Microsoft .NET 4.5.2或更新版本。在安裝程序中、Unified Manager會視需要安裝其他協力廠商套件。如需相依軟體套件的詳細資訊、請參閱 link:../install-windows/reference_windows_software_and_installation_requirements.html["Windows軟體與安裝需求"]。

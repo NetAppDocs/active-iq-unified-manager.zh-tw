@@ -15,6 +15,7 @@ summary: 您可以使用「選取來源Snapshot複本」對話方塊來選取特
 
 
 
+[[default]]
 == 預設
 
 可讓您選取預設行為、以判斷哪個Snapshot複本用於初始化、更新及重新同步SnapVault 針對SnapMirror和SnapMirror關係進行傳輸。
@@ -87,6 +88,7 @@ summary: 您可以使用「選取來源Snapshot複本」對話方塊來選取特
 |===
 
 
+[[existing-snapshot-copy]]
 == 現有Snapshot複本
 
 可讓您從清單中選取現有的Snapshot複本（如果該作業允許選取Snapshot複本）。
@@ -169,6 +171,7 @@ summary: 您可以使用「選取來源Snapshot複本」對話方塊來選取特
 |===
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：

@@ -15,6 +15,7 @@ summary: 透過「橋樑」事件、您可以獲得橋樑狀態的相關資訊�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

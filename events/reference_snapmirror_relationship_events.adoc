@@ -15,6 +15,7 @@ SnapMirror關係事件可提供您有關非同步和同步SnapMirror關係狀態
 
 
 
+[[impact-area-protection]]
 == 影響領域：保護
 
 星號（*）表示已轉換為Unified Manager事件的EMS事件。

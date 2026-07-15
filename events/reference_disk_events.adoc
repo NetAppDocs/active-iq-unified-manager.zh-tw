@@ -15,6 +15,7 @@ summary: 磁碟事件可提供磁碟狀態的相關資訊、以便您監控潛�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

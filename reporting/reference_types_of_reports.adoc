@@ -15,6 +15,7 @@ summary: 此表提供可自訂、下載及排程的報告檢視和庫存頁面�
 
 
 
+[[active-iq-unified-manager-reports]]
 == 報告Active IQ Unified Manager
 
 [cols="2*"]

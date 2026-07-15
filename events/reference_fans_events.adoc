@@ -15,6 +15,7 @@ summary: 「風扇」事件可提供資料中心節點上狀態風扇的相關�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

@@ -22,6 +22,7 @@ Unified Manager提供一些標準臨界值原則、可監控叢集效能並自�
 
 
 
+[[cluster-threshold-policies]]
 == 叢集臨界值原則
 
 系統定義的叢集效能臨界值原則預設會指派給Unified Manager監控的每個叢集：
@@ -44,6 +45,7 @@ Unified Manager提供一些標準臨界值原則、可監控叢集效能並自�
 
 
 
+[[node-threshold-policies]]
 == 節點臨界值原則
 
 系統定義的節點效能臨界值原則預設會指派給Unified Manager所監控之叢集中的每個節點：
@@ -79,6 +81,7 @@ Unified Manager提供一些標準臨界值原則、可監控叢集效能並自�
 
 
 
+[[aggregate-threshold-policies]]
 == Aggregate臨界值原則
 
 系統定義的Aggregate效能臨界值原則預設會指派給Unified Manager所監控之叢集中的每個Aggregate：
@@ -105,6 +108,7 @@ Unified Manager提供一些標準臨界值原則、可監控叢集效能並自�
 ====
 
 
+[[workload-latency-threshold-policies]]
 == 工作負載延遲臨界值原則
 
 系統定義的工作負載延遲臨界值原則會指派給任何已設定「效能服務層級」原則且具有定義「預期延遲」值的工作負載：
@@ -120,6 +124,7 @@ Unified Manager提供一些標準臨界值原則、可監控叢集效能並自�
 
 
 
+[[qos-threshold-policies]]
 == QoS臨界值原則
 
 系統定義的QoS效能臨界值原則會指派給任何已設定ONTAP 「QoS最高處理量」原則（IOPS、IOPS/TB或MB/s）的工作負載。當工作負載處理量值低於設定的QoS值15%時、Unified Manager會觸發事件：

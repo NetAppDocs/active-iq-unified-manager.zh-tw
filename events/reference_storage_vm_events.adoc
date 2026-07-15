@@ -17,6 +17,7 @@ summary: 儲存VM事件可提供儲存VM（SVM）狀態的相關資訊、以便�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -255,6 +256,7 @@ SVM
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -295,6 +297,7 @@ SVM
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -368,6 +371,7 @@ SVM
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===

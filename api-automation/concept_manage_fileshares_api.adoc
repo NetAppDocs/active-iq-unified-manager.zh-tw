@@ -17,6 +17,7 @@ summary: 您可以使用/storage供應商/檔案共用API來檢視、新增、�
 
 
 
+[[view-file-shares]]
 == 檢視檔案共用
 
 您可以使用下列方法來檢視Unified Manager環境中可用的檔案共用磁碟區。在ONTAP 將一個叢集新增為Active IQ Unified Manager 資料來源的時候、這些叢集的儲存工作負載會自動新增至您的Unified Manager執行個體。此API會自動擷取檔案共用、並手動新增至Unified Manager執行個體。您可以使用檔案共用金鑰來執行此API、以檢視特定檔案共用區的詳細資料。
@@ -38,6 +39,7 @@ summary: 您可以使用/storage供應商/檔案共用API來檢視、新增、�
 |===
 
 
+[[add-file-shares]]
 == 新增檔案共用
 
 您可以使用下列方法在SVM中新增CIFS和NFS檔案共用。您必須輸入要建立的檔案共用詳細資料、做為輸入參數。您無法使用此API來新增FlexGroup 功能區。
@@ -64,6 +66,7 @@ summary: 您可以使用/storage供應商/檔案共用API來檢視、新增、�
 
 
 
+[[delete-file-shares]]
 == 刪除檔案共用
 
 您可以使用下列方法刪除特定的檔案共用。您必須輸入檔案共用金鑰做為輸入參數、才能刪除特定的檔案共用區。
@@ -83,6 +86,7 @@ summary: 您可以使用/storage供應商/檔案共用API來檢視、新增、�
 |===
 
 
+[[modify-file-shares]]
 == 修改檔案共用
 
 您可以使用下列方法來修改檔案共用區並更新其內容。

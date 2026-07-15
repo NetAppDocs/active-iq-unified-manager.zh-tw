@@ -17,12 +17,14 @@ summary: 瞭解典型的視窗配置有助於有效瀏覽Active IQ Unified Manag
 
 
 
+[[object-list-window-layout]]
 == 物件清單視窗配置
 
 image::../media/object_list.png[物件清單]
 
 
 
+[[object-details-window-layout]]
 == 物件詳細資料視窗配置
 
 image::../media/object_details.gif[物件詳細資料]

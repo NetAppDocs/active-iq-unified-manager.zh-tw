@@ -17,6 +17,7 @@ summary: 您可以設定Unified Manager伺服器、在事件產生或指派給�
 
 
 
+[[email]]
 == 電子郵件
 
 此區域可讓您設定警示通知的下列電子郵件設定：
@@ -29,6 +30,7 @@ summary: 您可以設定Unified Manager伺服器、在事件產生或指派給�
 
 
 
+[[smtp-server]]
 == SMTP伺服器
 
 此區域可讓您設定下列的SMTP伺服器設定：
@@ -64,6 +66,7 @@ summary: 您可以設定Unified Manager伺服器、在事件產生或指派給�
 
 
 
+[[snmp]]
 == SNMP
 
 此區域可讓您設定下列SNMP設陷設定：

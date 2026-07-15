@@ -19,6 +19,7 @@ summary: 您可以檢視MetroCluster 以VMware組態或儲存虛擬機器（儲�
 
 
 
+[[view-datastores-in-metrocluster-configuration]]
 == 查看 MetroCluster 配置中的資料存儲
 
 請先注意下列先決條件、再以MetroCluster 視覺資訊區組態檢視資料存放區：
@@ -40,6 +41,7 @@ https://docs.netapp.com/ontap-9/index.jsp["供應說明文件中心 ONTAP"]
 
 
 
+[[view-datastores-in-storage-vm-disaster-recovery-configuration]]
 == 查看儲存虛擬機器災難復原配置中的資料儲存區
 
 在檢視儲存VM災難恢復組態中的資料存放區之前、請先注意下列先決條件：
@@ -75,6 +77,7 @@ https://docs.netapp.com/ontap-9/index.jsp["供應說明文件中心 ONTAP"]
 
 
 
+[[unsupported-scenarios]]
 == 不支援的案例
 
 * 如需MetroCluster 進行此組態、請注意下列限制：

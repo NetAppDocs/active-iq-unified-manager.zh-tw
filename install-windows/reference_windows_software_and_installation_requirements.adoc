@@ -16,6 +16,7 @@ summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unif
 
 
 
+[[operating-system-software]]
 == 作業系統軟體
 
 您可以在下列Windows版本上安裝Unified Manager：
@@ -42,6 +43,7 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 
 
 
+[[third-party-software]]
 == 第三方軟體
 
 下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
@@ -74,6 +76,7 @@ Unified Manager部署在Wildfly Web伺服器上。WildFly 26.1.3 已隨附於 Un
 ====
 
 
+[[installation-requirements]]
 == 安裝需求
 
 * 應安裝Microsoft .NET 4.5.2或更新版本。

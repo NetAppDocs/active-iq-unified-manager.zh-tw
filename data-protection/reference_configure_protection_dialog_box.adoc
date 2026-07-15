@@ -15,6 +15,7 @@ summary: 您可以使用Configure Protection（設定保護）對話方塊、為
 
 
 
+[[source-tab]]
 == 來源索引標籤
 
 * *拓撲視圖*
@@ -65,6 +66,7 @@ summary: 您可以使用Configure Protection（設定保護）對話方塊、為
 
 
 
+[[snapmirror-tab]]
 == SnapMirror索引標籤
 
 可讓您在建立SnapMirror關係的同時、指定目的地叢集、儲存虛擬機器（SVM）和Aggregate來保護關係、以及目的地的命名慣例。您也可以指定SnapMirror原則和排程。
@@ -157,6 +159,7 @@ Aggregate的名稱
 
 
 
+[[snapvault-tab]]
 == 選項卡SnapVault
 
 可讓您指定次要叢集、SVM和Aggregate以建立保護關係、以及次要Volume的命名慣例、同時建立SnapVault 一個彼此之間的不協調關係。您也可以指定SnapVault 一個不確定的原則和排程。
@@ -249,6 +252,7 @@ Aggregate的名稱
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：

@@ -17,6 +17,7 @@ summary: 共有兩種使用者介面Active IQ Unified Manager 、可用來監控
 
 
 
+[[unified-manager-web-ui]]
 == Unified Manager Web UI
 
 Unified Manager Web UI可讓系統管理員監控及疑難排解與資料儲存容量、可用度及保護相關的叢集問題。
@@ -25,6 +26,7 @@ Unified Manager Web UI可讓系統管理員監控及疑難排解與資料儲存�
 
 
 
+[[maintenance-console]]
 == 維護主控台
 
 Unified Manager維護主控台可讓系統管理員監控、診斷及解決作業系統問題、版本升級問題、使用者存取問題、以及與Unified Manager伺服器本身相關的網路問題。如果Unified Manager Web UI無法使用、則維護主控台是唯一存取Unified Manager的方式。

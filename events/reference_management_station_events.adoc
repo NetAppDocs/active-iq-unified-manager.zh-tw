@@ -15,6 +15,7 @@ Management Station事件可提供安裝Unified Manager之伺服器狀態的相�
 
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -154,6 +155,7 @@ MySQL記錄檔大小增加；需要重新啟動（ocumEvtMysqlLogFileSizeWarning
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===

@@ -15,6 +15,7 @@ summary: 網路介面事件提供網路介面（LIF）狀態的相關資訊、�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -66,6 +67,7 @@ FC/FCoE網路介面狀態關閉（ocumEvtFCLifStatusDown）
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -84,6 +86,7 @@ FC/FCoE網路介面狀態關閉（ocumEvtFCLifStatusDown）
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===

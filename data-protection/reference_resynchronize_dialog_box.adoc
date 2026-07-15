@@ -15,6 +15,7 @@ summary: 「重新同步」對話方塊可讓您重新同步先前SnapVault 中�
 
 
 
+[[resynchronization-options-tab]]
 == 重新同步選項索引標籤
 
 「重新同步選項」索引標籤可讓您針對重新同步的保護關係、設定傳輸優先順序和最大傳輸率。
@@ -31,6 +32,7 @@ summary: 「重新同步」對話方塊可讓您重新同步先前SnapVault 中�
 
 
 
+[[source-snapshot-copies-tab]]
 == 來源Snapshot複本索引標籤
 
 「來源Snapshot複本」標籤會顯示用於基礎傳輸之來源Snapshot複本的下列資訊：
@@ -55,6 +57,7 @@ summary: 「重新同步」對話方塊可讓您重新同步先前SnapVault 中�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 * *提交*

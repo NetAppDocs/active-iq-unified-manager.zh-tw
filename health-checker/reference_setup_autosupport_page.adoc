@@ -22,6 +22,7 @@ summary: 利用此頁面、您可以傳送預先定義的隨需功能介紹訊�
 ====
 
 
+[[send-on-demand-autosupport-messages]]
 == 發送按需 AutoSupport 訊息
 
 您可以產生隨選訊息、並傳送給技術支援、或是指定的電子郵件收件者、或兩者。
@@ -36,6 +37,7 @@ summary: 利用此頁面、您可以傳送預先定義的隨需功能介紹訊�
 
 
 
+[[enable-periodic-autosupport]]
 == 啟用定期 AutoSupport
 
 您可以定期傳送特定的預先定義訊息給技術支援部門、以進行問題診斷和解決。此功能預設為啟用。如果停用、則系統管理員或維護使用者可以啟用這些設定。
@@ -49,6 +51,7 @@ summary: 利用此頁面、您可以傳送預先定義的隨需功能介紹訊�
 
 
 
+[[upload-on-demand-support-bundle]]
 == 上傳按需支援包
 
 您可以根據疑難排解的需求、產生支援產品組合並將其傳送給技術支援。Unified Manager僅儲存兩個最近產生的支援組合。舊版支援服務組合將從系統中刪除。
@@ -72,6 +75,7 @@ summary: 利用此頁面、您可以傳送預先定義的隨需功能介紹訊�
 
 
 
+[[set-up-http-proxy-server]]
 == 設定 HTTP 代理伺服器
 
 如果AutoSupport 您的環境無法直接從Unified Manager伺服器存取、您可以指定一個Proxy來提供網際網路存取、以便傳送支援的支援內容。本節僅適用於系統管理員和維護使用者。

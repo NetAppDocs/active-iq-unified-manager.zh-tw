@@ -15,6 +15,7 @@ summary: 必要的連接埠和傳輸協定可在Unified Manager伺服器與託�
 
 
 
+[[connections-to-the-unified-manager-server]]
 == 連線至Unified Manager伺服器
 
 在一般安裝中、您不需要在連線至Unified Manager Web UI時指定連接埠號碼、因為預設連接埠一律會使用。例如、由於Unified Manager一律會嘗試在其預設連接埠上執行、因此您可以輸入「+https://<host>+`」而非「+https://<host>:443+`」。
@@ -153,6 +154,7 @@ MySQL的預設連接埠3306僅限在Linux系統上安裝Unified Manager時使用
 ====
 
 
+[[connections-from-the-unified-manager-server]]
 == 從Unified Manager伺服器連線
 
 您應該將防火牆設定為開啟連接埠、以便在Unified Manager伺服器與託管儲存系統、伺服器及其他元件之間進行通訊。如果連接埠未開啟、則通訊會失敗。

@@ -15,6 +15,7 @@ summary: 非同步鏡射和Vault關係事件可提供您有關非同步SnapMirro
 
 
 
+[[impact-area-protection]]
 == 影響領域：保護
 
 [NOTE]

@@ -17,6 +17,7 @@ summary: 您可以使用/storage供應商/LUN API來檢視、新增、修改及�
 
 
 
+[[view-luns]]
 == 檢視LUN
 
 您可以使用下列方法來檢視Unified Manager環境中的LUN。在ONTAP 將一個叢集新增為Active IQ Unified Manager 資料來源的時候、這些叢集的儲存工作負載會自動新增至您的Unified Manager執行個體。此API會自動擷取所有LUN、並手動新增至Unified Manager執行個體。您可以使用LUN金鑰來執行此API、以檢視特定LUN的詳細資料。
@@ -38,6 +39,7 @@ summary: 您可以使用/storage供應商/LUN API來檢視、新增、修改及�
 |===
 
 
+[[add-luns]]
 == 新增LUN
 
 您可以使用下列方法將LUN新增至SVM。
@@ -62,6 +64,7 @@ summary: 您可以使用/storage供應商/LUN API來檢視、新增、修改及�
 ====
 
 
+[[delete-luns]]
 == 刪除LUN
 
 您可以使用下列方法刪除特定LUN。您需要提供LUN金鑰才能刪除特定LUN。
@@ -86,6 +89,7 @@ summary: 您可以使用/storage供應商/LUN API來檢視、新增、修改及�
 |===
 
 
+[[modify-luns]]
 == 修改LUN
 
 您可以使用下列方法來修改LUN及更新其內容。您需要提供LUN金鑰來修改特定LUN。您也需要輸入要更新的LUN內容及其值。若要使用此API更新LUN陣列、您應該檢閱「使用API的建議」中的建議。

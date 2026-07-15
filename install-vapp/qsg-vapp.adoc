@@ -15,6 +15,7 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 
 
+[[system-requirements]]
 == 系統需求
 
 * 作業系統：VMware ESXi 8.0
@@ -27,10 +28,12 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 
 
+[[install-active-iq-unified-manager]]
 == 安裝Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下載安裝程式
 
 . 下載 `.tar` 包含根憑證的檔案：a `README` 檔案、和 `OVA` 檔案：
@@ -40,12 +43,14 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 
 
 
+[[verify-integrity]]
 === 驗證完整性
 
 您可以驗證的完整性 `OVA` 依照中提供的步驟歸檔 `README` 檔案：
 
 
 
+[[install-unified-manager]]
 === 安裝Unified Manager
 
 . 在vSphere Client中、按一下*檔案>部署OVF範本*。

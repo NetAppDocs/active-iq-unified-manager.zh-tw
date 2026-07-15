@@ -36,6 +36,7 @@ summary: 您可以將警示與指令碼建立關聯、以便在Unified Manager�
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == 從指令碼取得引數的範例
 
 [listing]

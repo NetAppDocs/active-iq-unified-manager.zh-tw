@@ -52,6 +52,7 @@ summary: 「建立SnapMirror原則」對話方塊可讓您建立原則、以設�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：

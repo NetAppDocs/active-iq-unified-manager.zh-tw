@@ -22,6 +22,7 @@ summary: 您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、Bo
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == 以EC金鑰配對載入憑證的格式
 
 允許的曲線為「prime256v1」和「cep384r1」。外部產生EC配對的憑證範例：
@@ -49,6 +50,7 @@ summary: 您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、Bo
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == 以RSA金鑰配對載入憑證的格式
 
 屬於主機憑證的RSA金鑰配對允許金鑰大小為2048、3072和4096。具有外部產生* RSA金鑰組*的憑證：
@@ -75,6 +77,7 @@ summary: 您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、Bo
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == 上傳外部產生的憑證時進行檢查
 
 系統會在上傳使用外部工具產生的憑證時執行檢查。如果有任何檢查失敗、則會拒絕該憑證。產品內的CSR產生的憑證以及使用外部工具產生的憑證也包含驗證功能。

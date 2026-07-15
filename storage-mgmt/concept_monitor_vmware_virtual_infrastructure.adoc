@@ -43,6 +43,7 @@ image::../media/vm_workflow.gif[VM工作流程]
 
 
 
+[[what-is-not-supported]]
 == 不支援的項目
 
 * Unified Manager不支援不屬於VMware vCenter的資料存放區ONTAP 、也不支援對應至vCenter Server執行個體。也不支援在這些資料存放區上具有虛擬磁碟的任何VM。

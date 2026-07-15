@@ -26,6 +26,7 @@ summary: 對於虛擬機器（VM）應用程式的任何延遲問題、您可能
 
 
 
+[[view-summary-topology]]
 == 查看摘要拓撲
 
 若要在摘要拓撲中檢視VM來判斷效能問題：
@@ -53,6 +54,7 @@ vCenter Server允許使用特殊字元（例如%、&、*、$、#、 @、！、\�
 
 
 
+[[view-expanded-topology]]
 == 查看擴充拓撲
 
 您可以檢視VM的擴充拓撲、分別深入各個元件。

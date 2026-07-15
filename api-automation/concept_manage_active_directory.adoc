@@ -15,6 +15,7 @@ summary: 您可以使用此處列出的API來管理SVM上的Active Directory對�
 
 
 
+[[view-active-directory-mappings]]
 == 檢視Active Directory對應
 
 您可以使用下列方法來檢視SVM Active Directory對應的組態詳細資料。若要檢視SVM上的Active Directory對應、您需要輸入SVM金鑰。若要查詢特定對應的詳細資料、您必須輸入對應金鑰。
@@ -36,6 +37,7 @@ summary: 您可以使用此處列出的API來管理SVM上的Active Directory對�
 |===
 
 
+[[add-active-directory-mapping]]
 == 新增Active Directory對應
 
 您可以使用下列方法在SVM上建立Active Directory對應。您必須輸入對應詳細資料做為輸入參數。

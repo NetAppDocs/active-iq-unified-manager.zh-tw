@@ -15,6 +15,7 @@ summary: 您可以使用不同的導覽選項、從「所有工作負載」頁�
 
 
 
+[[assign-policies-to-a-single-workload]]
 == 將策略指派給單一工作負載
 
 您可以將PSL或SEP或兩者指派給單一工作負載。請遵循下列步驟：
@@ -35,6 +36,7 @@ summary: 您可以使用不同的導覽選項、從「所有工作負載」頁�
 ====
 
 
+[[assign-policies-to-multiple-storage-workloads]]
 == 將策略指派給多個儲存工作負載
 
 您可以將一個PSL或一個SEP指派給多個儲存工作負載。請遵循下列步驟：
@@ -53,6 +55,7 @@ summary: 您可以使用不同的導覽選項、從「所有工作負載」頁�
 
 
 
+[[assign-system-recommended-psls-to-workloads]]
 == 將系統建議的 PSL 分配給工作負載
 
 您可以將系統建議的PSL指派給資料中心中未指派任何PSL的儲存工作負載、或指派的PSL與系統建議不符。若要使用此功能、請按一下*指派系統建議的PSL*按鈕。您不需要選取特定的工作負載。

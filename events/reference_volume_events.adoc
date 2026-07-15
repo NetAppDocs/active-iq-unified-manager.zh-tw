@@ -17,6 +17,7 @@ Volume事件提供磁碟區狀態的相關資訊、可讓您監控潛在問題�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -145,6 +146,7 @@ Volume
 |===
 
 
+[[impact-area-capacity]]
 == 影響領域：容量
 
 |===
@@ -460,6 +462,7 @@ Volume
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -500,6 +503,7 @@ Volume
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -793,6 +797,7 @@ Volume
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===
@@ -910,6 +915,7 @@ Volume
 |===
 
 
+[[impact-area-data-protection]]
 == 影響領域：資料保護
 
 |===

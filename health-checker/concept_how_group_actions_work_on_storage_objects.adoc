@@ -17,6 +17,7 @@ summary: 群組動作是針對群組中的所有儲存物件執行的作業。�
 
 
 
+[[example-of-unique-group-actions]]
 == 獨特群組動作範例
 
 請考慮屬於群組G1和G2的Volume A、並針對這些群組設定下列Volume健全狀況臨界值群組動作：

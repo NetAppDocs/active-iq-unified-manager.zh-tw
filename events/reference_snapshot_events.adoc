@@ -15,6 +15,7 @@ Snapshot事件提供快照狀態的相關資訊、可讓您監控快照是否有
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

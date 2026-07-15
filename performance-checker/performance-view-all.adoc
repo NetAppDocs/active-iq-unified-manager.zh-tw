@@ -21,6 +21,7 @@ summary: 所有儲存物件效能檢視
 
 
 
+[[performance-all-clusters-view]]
 == 效能：All ClustersView（所有叢集檢視）
 
 「效能：所有叢集」檢視會顯示Unified Manager執行個體所監控之每個叢集的效能事件、資料和組態資訊總覽。此頁面可讓您監控叢集的效能、以及疑難排解效能問題和臨界值事件。
@@ -44,6 +45,7 @@ NOTE: 如果ONTAP 叢集中的節點上安裝不同版本的更新版、則會�
 
 
 
+[[performance-all-volumes-view]]
 == 效能：All Volumes檢視
 
 Performance：All Volumes（效能：所有磁碟區）檢視會顯示FlexVol Unified Manager執行個體所監控之每個版本的效能事件、計數器資料和組態資訊總覽FlexGroup 。這可讓您快速監控磁碟區的效能、並疑難排解效能問題和臨界值事件。
@@ -75,6 +77,7 @@ NOTE: 對於資料保護（DP）磁碟區、只會顯示使用者產生流量的
 
 
 
+[[performance-all-aggregates-view]]
 == 效能：All Aggregate檢視
 
 「效能：所有集合體」檢視會顯示Unified Manager執行個體所監控之每個集合體的效能事件、資料和組態資訊總覽。此頁面可讓您監控Aggregate的效能、並疑難排解效能問題和臨界值事件。
@@ -102,6 +105,7 @@ NOTE: 對於資料保護（DP）磁碟區、只會顯示使用者產生流量的
 
 
 
+[[performance-all-nodes-view]]
 == 效能：All Node檢視
 
 「效能：所有節點」檢視會顯示Unified Manager執行個體所監控之每個節點的效能事件、資料和組態資訊總覽。這可讓您快速監控節點的效能、並疑難排解效能問題和臨界值事件。
@@ -120,6 +124,7 @@ NOTE: Flash Cache讀取會傳回節點上快取滿足的讀取作業百分比、
 
 
 
+[[performance-all-storage-vms-view]]
 == 效能：所有儲存VM檢視
 
 「Performance：All Storage VM」（效能：所有儲存VM）檢視會顯示Unified Manager執行個體所監控之每個儲存虛擬機器（SVM）的效能事件、資料和組態資訊總覽。這可讓您快速監控SVM的效能、並疑難排解效能問題和臨界值事件。此頁面上的「延遲」欄位會報告所有I/O要求的平均回應時間、以毫秒為單位表示每項作業。
@@ -135,6 +140,7 @@ NOTE: 本頁所列的SVM僅包含資料與叢集SVM。Unified Manager不會使�
 
 
 
+[[performance-all-luns-view]]
 == 效能：所有LUN檢視
 
 「Performance：All LUN（效能：所有LUN）」檢視會顯示Unified Manager執行個體所監控之每個LUN的效能事件、資料和組態資訊總覽。這可讓您快速監控LUN的效能、並疑難排解效能問題和臨界值事件。
@@ -154,6 +160,7 @@ NOTE: 本頁所列的SVM僅包含資料與叢集SVM。Unified Manager不會使�
 
 
 
+[[performance-all-nvme-namespaces-view]]
 == 效能：All NVMe Nam空間 檢視
 
 「效能：所有NVMe命名空間」檢視會顯示Unified Manager執行個體所監控之每個NVMe命名空間的效能事件、資料和組態資訊總覽。這可讓您快速監控命名空間的效能和健全狀況、並疑難排解問題和臨界值事件。
@@ -168,6 +175,7 @@ NOTE: 本頁所列的SVM僅包含資料與叢集SVM。Unified Manager不會使�
 
 
 
+[[performance-all-network-interfaces-view]]
 == 效能：「所有網路介面」檢視
 
 「效能：所有網路介面」檢視會顯示Unified Manager執行個體所監控之每個網路介面（LIF）的效能事件、資料和組態資訊總覽。此頁面可讓您快速監控介面效能、並疑難排解效能問題和臨界值事件。以下是「效能：所有網路介面」檢視中的一些重要欄位。
@@ -184,6 +192,7 @@ NOTE: 本頁列出的介面包括資料生命量、叢集生命量、節點管�
 
 
 
+[[performance-all-ports-view]]
 == 效能：All Portes（所有連接埠）檢視
 
 「效能：所有連接埠」檢視會顯示Unified Manager執行個體所監控之每個連接埠的效能事件、資料和組態資訊總覽。這可讓您快速監控連接埠的效能、並疑難排解效能問題和臨界值事件。若為連接埠角色、則會顯示網路連接埠功能、例如資料或叢集。FCP連接埠不能有角色、且角色顯示為N/A
@@ -199,6 +208,7 @@ NOTE: 效能計數器值僅會針對實體連接埠顯示。不會顯示VLAN或�
 
 
 
+[[performance-qos-policy-groups-view]]
 == 效能：QoS原則群組檢視
 
 QoS原則群組檢視會顯示Unified Manager所監控叢集上可用的QoS原則群組。這包括傳統的QoS原則、調適性QoS原則、以及使用效能服務層級指派的QoS原則。

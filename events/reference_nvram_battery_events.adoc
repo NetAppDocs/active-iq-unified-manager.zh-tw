@@ -15,6 +15,7 @@ NVRAM電池事件可提供電池狀態的相關資訊、以便您監控潛在問
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

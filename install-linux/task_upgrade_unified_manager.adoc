@@ -90,6 +90,7 @@ https://fully_qualified_domain_name/
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == 針對遺失的套件執行其他步驟
 
 如果您的站台在升級期間偵測到任何遺失的套件、或您的系統未連線至網際網路、或您未使用Red Hat Enterprise Linux儲存庫、請執行下列步驟、判斷您是否遺漏任何必要的套件、然後下載這些套件。

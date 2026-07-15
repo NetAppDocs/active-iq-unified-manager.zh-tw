@@ -15,6 +15,7 @@ summary: 保護事件會告訴您工作是否失敗或已中止、以便您監�
 
 
 
+[[impact-area-protection]]
 == 影響領域：保護
 
 |===

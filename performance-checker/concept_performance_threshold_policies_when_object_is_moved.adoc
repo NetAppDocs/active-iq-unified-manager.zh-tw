@@ -26,6 +26,7 @@ Volume Move作業會導致ONTAP 功能不全地傳送資訊變更事件。「效
 ====
 
 
+[[threshold-policy-functionality-during-ha-takeover-and-giveback]]
 == HA接管和恢復期間的臨界值原則功能
 
 在高可用度（HA）組態中執行接管或恢復作業時、從一個節點移至另一個節點的物件、會以手動移動作業的相同方式保留其臨界值原則。由於Unified Manager每15分鐘檢查一次叢集組態變更、因此在下次輪詢叢集組態之前、不會識別切換到新節點的影響。
@@ -37,12 +38,14 @@ Volume Move作業會導致ONTAP 功能不全地傳送資訊變更事件。「效
 ====
 
 
+[[threshold-policy-functionality-during-aggregate-relocation]]
 == 集合體重新配置期間的臨界值原則功能
 
 如果您使用「Aggregate regate reg搬 移開始」命令將Aggregate從一個節點移至另一個節點、則會在所有物件上保留單一和組合臨界值原則、而且臨界值原則的節點部分會套用至新節點。
 
 
 
+[[threshold-policy-functionality-during-metrocluster-switchover]]
 == 切換時的臨界值原則功能MetroCluster
 
 從一個叢集移至MetroCluster 另一個叢集的物件、若為使用者定義的臨界值原則設定、則不會保留這些物件。如果需要、您可以在移至合作夥伴叢集的磁碟區和LUN上套用臨界值原則。物件移回原始叢集後、使用者定義的臨界值原則會自動重新套用。

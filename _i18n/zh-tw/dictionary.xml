@@ -7964,7 +7964,6 @@
   <block id="49ec3089c7529377bafc0b91ff2c0de3" category="paragraph">Unified Manager會自動檢查是否有新的規則檔、而且只有在有較新的規則時才會下載新的檔案。在沒有外部網路存取權的站台中、您需要從*儲存管理*&gt;*事件設定*&gt;*上傳規則*手動上傳規則。</block>
   <block id="c9ff37030a40a51615a055f7a8a42953" category="paragraph">這些不屬於現有Unified Manager事件的範例、可識別與系統組態、佈線、最佳實務做法及可用度相關的事件或風險。Active IQ</block>
   <block id="9b2dd5f36ee111b85cbdd29e104e3e55" category="inline-link">NetApp Active IQ</block>
-  <block id="9d704a09e3781ec3b4883efbf66a03bc" category="paragraph">NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱<block ref="598c2869fc03de80441fdb1c505b1b08" category="inline-link-rx"></block> 以取得更多資訊。</block>
   <block id="3812f68f054737009998626d978c8845" category="summary">根據預設、會在Unified Manager使用者介面中產生及顯示平台事件。Active IQ如果您發現這些事件太過「雜訊」、或您不想在Unified Manager中檢視這些事件、則可以停用產生這些事件的功能。如果您想要繼續接收這些通知、您可以稍後再啟用這些通知。</block>
   <block id="3957a09b96d45842d6e5d4f3e4c407d5" category="paragraph">根據預設、會在Unified Manager使用者介面中產生及顯示平台事件。Active IQ如果您發現這些事件太過「雜訊」、或您不想在Unified Manager中檢視這些事件、則可以停用這些事件的產生功能。如果您想要繼續接收這些通知、您可以稍後再啟用這些通知。</block>
   <block id="c87d437f549a7a821713ef9ef7ddded6" category="paragraph">停用此功能時、Unified Manager Active IQ 會立即停止接收不實的平台事件。</block>
@@ -12043,10 +12042,7 @@
   <block id="76851a5fa412a2e834b5c4b3b3fd04c5" category="inline-link-macro">Oracle帳號登入頁面</block>
   <block id="85f96417c9ffad8261e8a1065c0612b0" category="admonition">下載該文件需要 Oracle 帳戶。如果您沒有 Oracle 帳戶，請前往 <block ref="8a9d737434e1792055aa606e96405bae" category="inline-link-macro-rx"></block> 創建一個。</block>
   <block id="469228004487fcc667bf369582833cc1" category="paragraph">12GB</block>
-  <block id="1ddb0349940e2d0ed836e2e7c09c0d8a" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱<block ref="45d0c11c521f01e1d7ecf7777aba0774" category="inline-link-rx"></block>。</block>
   <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">統一管理最佳實務指南</block>
-  <block id="8cf21208b286d8f7b61877ce31cfeacd" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱 <block ref="2eee8552956d66b159af233732000339" category="inline-link-macro-rx"></block>。</block>
-  <block id="72473e7783768c475b1bae8307882647" category="paragraph">此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱<block ref="8175e2f559de1060f0bed41c5845504d" category="inline-link-rx"></block>。</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">請注意，如果您將儲存虛擬機器 (SVM) 或叢集新增至警報的資源中，則不會自動新增子物件。例如，如果您將叢集新增至警報的資源中，警報不會自動新增節點或 LUN。</block>
   <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">配置統一管理器稽核日誌</block>
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">若要啟用遠端日誌記錄，請選擇“啟用遠端日誌記錄”。</block>
@@ -12113,4 +12109,8 @@
   <block id="59c721a4f6c44ca8cb60ecf288219ca8" category="paragraph">此帳戶必須具有 _admin_ 角色，且應用程式存取設定為 _ontapi_、_amqp_、_console_ 和 _http_。</block>
   <block id="42448273f40a0cdbd38a68c84477f81c" category="paragraph">在 VMware vSphere 系統上執行的 Unified Manager OVA 內部運行的是 Debian OS 13 (Trixie)。有關支援的 ESXi 伺服器版本所支援的虛擬機器硬體版本的資訊，請參閱 VMware 文件。</block>
   <block id="a8b83d2538456b0b759bed68390111d7" category="paragraph">如果您的系統是從 Unified Manager 9.7 升級而來，由於 Debian 版本中的檔案系統發生了變化，您無法直接從 9.14 升級到 9.18。請依照以下建議的升級路徑進行：9.14 -&gt; 9.16P2 -&gt; 9.18。</block>
+  <block id="2adbe8bdce2f61c208adbcdcc37e0d1e" category="paragraph">NetApp Active IQ 是一項基於雲端的服務，可提供預測分析和主動支援，以最佳化 NetApp 混合雲環境中的儲存系統運作。請參閱<block ref="0e9077c60daec97818e84f64654ad149" category="inline-link-rx"></block>以取得更多資訊。</block>
+  <block id="a6824bb8a91547b80941460f296740e6" category="paragraph">此外，單一 Unified Manager 實例可監控的節點數量有限制，超過限制後，您需要安裝第二個 Unified Manager 實例。有關節點限制、CPU 和記憶體建議，請參閱<block ref="d981367ba2af9a1ad0ffd7e97f42a3c3" category="inline-link-rx"></block>。</block>
+  <block id="10fcd7df2705cd02d708b0d542e4de06" category="paragraph">此外，單一 Unified Manager 實例可監控的節點數量有限，超過此限制後，您需要安裝第二個 Unified Manager 實例。有關節點限制、CPU 和記憶體建議，請參閱<block ref="104d951f677faee57cc0f1a91faece05" category="inline-link-macro-rx"></block>。</block>
+  <block id="0cfb3eeec6906f18db7d4afb307803d7" category="paragraph">此外，單一 Unified Manager 實例可監控的節點數量有限，超過此限制後，您需要安裝第二個 Unified Manager 實例。有關節點限制、CPU 和記憶體建議，請參閱<block ref="6876c7da67397aff652dc3a6ccdbcf26" category="inline-link-rx"></block>。</block>
 </blocks>

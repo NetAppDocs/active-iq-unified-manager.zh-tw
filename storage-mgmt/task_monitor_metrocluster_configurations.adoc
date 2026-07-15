@@ -29,6 +29,7 @@ Unified Manager會使用系統健全狀況警示來指出MetroCluster 元件的�
 
 
 
+[[monitor-connectivity-issues-in-metrocluster-over-fc-configuration]]
 == 監控MetroCluster FC上的連接問題
 
 對於MetroCluster 採用透過FC的叢集組態、連線圖表會顯示在*叢集/健全狀況*詳細資料頁面上。請遵循下列步驟。
@@ -58,6 +59,7 @@ image::../media/node_switch_connectivity.gif[節點交換器連線圖示]
 
 
 
+[[monitor-connectivity-issues-in-metrocluster-over-ip-configuration]]
 == 監控MetroCluster 透過IP組態的連線問題
 
 對於MetroCluster 採用透過IP進行組態的叢集、連線圖表會顯示在* Clusters*頁面上。請遵循下列步驟。

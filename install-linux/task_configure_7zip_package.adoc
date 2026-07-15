@@ -20,12 +20,14 @@ summary: '若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unifie
 
 
 
+[[pre-install-the-7-zip-package]]
 == 預先安裝 7-zip 軟體包
 
 你可以手動下載或使用捆綁腳本預先安裝 7-zip。請從以下兩種方法中選擇一種：
 
 
 
+[[download-using-a-bundled-script]]
 === 使用捆綁腳本進行下載
 
 .步驟
@@ -34,6 +36,7 @@ summary: '若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unifie
 
 
 
+[[download-manually]]
 === 手動下載
 
 請務必僅從官方網站下載 7-zip 壓縮包。
@@ -71,6 +74,7 @@ sudo chmod 755 /usr/bin/7zz
 
 
 
+[[verify-the-installation]]
 == 驗證安裝情況
 
 請確認 7-zip 軟體包已成功安裝到您的系統中：

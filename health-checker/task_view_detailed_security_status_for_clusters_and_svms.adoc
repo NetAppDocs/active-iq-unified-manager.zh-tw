@@ -17,6 +17,7 @@ summary: 「安全性」頁面會顯示所有叢集和儲存VM的高層級安全
 
 
 
+[[view-object-level-security-status-on-security-page]]
 == 在「安全性」頁面上檢視物件層級的安全性狀態
 
 身為系統管理員、您可以使用* Security *（安全性*）頁面、在ONTAP 資料中心和站台層級、清楚掌握各個叢集和儲存VM的安全性強度。支援的物件包括叢集、儲存VM和Volume。請遵循下列步驟：
@@ -40,6 +41,7 @@ summary: 「安全性」頁面會顯示所有叢集和儲存VM的高層級安全
 
 
 
+[[view-security-details-of-all-clusters-on-the-clusters-page]]
 == 在「叢集」頁面上檢視所有叢集的安全性詳細資料
 
 「*叢集/安全性*」詳細資料頁面可讓您檢視叢集層級的安全性法規遵循狀態。
@@ -58,6 +60,7 @@ NOTE: 如果叢集的憑證已過期、您可以按一下*叢集憑證有效性*
 
 
 
+[[view-security-details-of-all-clusters-from-the-storage-vms-page]]
 == 從「儲存VM」頁面檢視所有叢集的安全詳細資料
 
 「*儲存VM /安全性*」詳細資料頁面可讓您檢視儲存VM層級的安全性法規遵循狀態。

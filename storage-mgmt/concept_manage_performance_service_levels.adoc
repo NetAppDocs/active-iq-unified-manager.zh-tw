@@ -42,6 +42,7 @@ Unified Manager也為資料庫應用程式提供三種效能服務層級。這�
 
 
 
+[[manage-workloads-by-assigning-psls]]
 == 透過分配 PSL 來管理工作負載
 
 您可以從「*原則*>*效能服務層級*」頁面、以及使用儲存供應商API來存取PSL。指派PSL來管理儲存工作負載非常方便、因為您不需要個別管理儲存工作負載。您也可以重新指派另一個PSL來管理任何修改、而非個別管理。Unified Manager可協助您根據內部評估與建議、針對工作負載指派PSL。
@@ -136,6 +137,7 @@ IOPS / TB尖峰
 
 
 
+[[events-generated-for-workloads-breaching-the-threshold-defined-by-psls]]
 === 針對超出PSL定義臨界值的工作負載所產生的事件
 
 請注意、如果工作負載超過前一小時30%的預期延遲值、Unified Manager會產生下列其中一項事件、通知您可能發生的效能問題：
@@ -156,6 +158,7 @@ IOPS / TB尖峰
 
 
 
+[[system-defined-psls]]
 === 系統定義的PSL
 
 下表提供系統定義的PSL相關資訊：

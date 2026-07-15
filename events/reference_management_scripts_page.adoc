@@ -17,6 +17,7 @@ summary: 「指令碼」頁面可讓您將自訂指令碼新增至Unified Manage
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 * *新增*
@@ -31,6 +32,7 @@ summary: 「指令碼」頁面可讓您將自訂指令碼新增至Unified Manage
 
 
 
+[[list-view]]
 == 清單檢視
 
 清單檢視會以表格格式顯示您新增至Unified Manager的指令碼。

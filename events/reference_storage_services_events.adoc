@@ -15,6 +15,7 @@ summary: 儲存服務事件可提供您有關建立及訂閱儲存服務的資�
 
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -55,6 +56,7 @@ summary: 儲存服務事件可提供您有關建立及訂閱儲存服務的資�
 |===
 
 
+[[impact-area-protection]]
 == 影響領域：保護
 
 |===

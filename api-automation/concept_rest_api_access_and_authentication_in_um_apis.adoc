@@ -106,6 +106,7 @@ https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
 
 
 
+[[authentication]]
 == 驗證
 
 Unified Manager支援API的基本HTTP驗證配置。為了確保資訊流程安全（要求和回應）、REST API只能透過HTTPS存取。API伺服器會為所有用戶端提供自我簽署的SSL憑證、以便進行伺服器驗證。此憑證可由自訂憑證（或CA憑證）取代。

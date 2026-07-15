@@ -17,6 +17,7 @@ summary: 將Unified Manager設定為使用身分識別供應商（IDP）來為�
 
 
 
+[[supported-encryption-standards]]
 == 支援的加密標準
 
 * 進階加密標準（AES）：AES-128和AES-256
@@ -25,6 +26,7 @@ summary: 將Unified Manager設定為使用身分識別供應商（IDP）來為�
 
 
 
+[[validated-identity-providers]]
 == 已驗證的身分識別供應商
 
 * Shibboleth
@@ -33,6 +35,7 @@ summary: 將Unified Manager設定為使用身分識別供應商（IDP）來為�
 
 
 
+[[adfs-configuration-requirements]]
 == ADFS組態需求
 
 * 您必須依下列順序定義三個宣告規則、Unified Manager才能剖析此信賴方信任項目的ADFS SAML回應。
@@ -83,6 +86,7 @@ http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012
 
 
 
+[[other-configuration-requirements]]
 == 其他組態需求
 
 * Unified Manager時鐘偏移設定為5分鐘、因此IDP伺服器與Unified Manager伺服器之間的時間差異不可超過5分鐘、否則驗證將會失敗。

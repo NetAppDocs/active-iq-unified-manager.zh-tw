@@ -15,6 +15,7 @@ summary: 儲存櫃事件會告訴您儲存櫃是否異常、以便監控潛在�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

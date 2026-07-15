@@ -17,6 +17,7 @@ NVMe命名空間事件可提供命名空間狀態的相關資訊、以便您監�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -68,6 +69,7 @@ NVMeNS銷毀*（nvmeNamespacestroy）
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===

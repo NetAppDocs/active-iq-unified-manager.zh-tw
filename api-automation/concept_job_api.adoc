@@ -15,6 +15,7 @@ summary: 您可以使用管理伺服器類別下的工作API來檢視非同步�
 
 
 
+[[view-jobs]]
 == 查看職位
 
 在功能方面、諸如新增和修改資源等作業是透過同步和非同步API入侵來執行。Active IQ Unified Manager排程非同步執行的調用、可由針對該呼叫所建立的工作物件加以追蹤。每個工作物件都有唯一的識別金鑰。每個工作物件都會傳回工作物件URI、供您存取及追蹤工作進度。您可以使用此API擷取每個執行的詳細資料。
@@ -51,6 +52,7 @@ summary: 您可以使用管理伺服器類別下的工作API來檢視非同步�
 |===
 
 
+[[view-system-details]]
 == 檢視系統詳細資料
 
 透過使用「/management server / system」API、您可以查詢Unified Manager環境的執行個體專屬詳細資料。API會傳回產品與服務的相關資訊、例如系統上安裝的Unified Manager版本、UUID、廠商名稱、主機作業系統及名稱、 說明、以及Unified Manager執行個體上執行的服務狀態。

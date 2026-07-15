@@ -57,6 +57,7 @@ summary: 您可以建立註釋規則、讓Unified Manager用來動態註釋儲�
 
 
 
+[[example-of-creating-an-annotation-rule]]
 == 建立附註規則的範例
 
 在「新增附註規則」對話方塊中執行下列步驟、以建立附註規則、包括設定條件和新增條件群組：

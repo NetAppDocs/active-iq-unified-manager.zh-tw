@@ -15,12 +15,14 @@ summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster �
 
 
 
+[[events-common-in-both-configurations]]
 == 兩種組態中常見的事件
 
 這些連線事件適用於MetroCluster 整個FC和MetroCluster 基於IP的支援。
 
 
 
+[[impact-area-availability]]
 === 影響領域：可用度
 
 |===
@@ -72,12 +74,14 @@ summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster �
 |===
 
 
+[[metrocluster-over-fc-configuration]]
 == 透過FC組態MetroCluster
 
 這些活動與MetroCluster 透過FC進行的不實功能組態有關。
 
 
 
+[[impact-area-availability]]
 === 影響領域：可用度
 
 |===
@@ -217,12 +221,14 @@ FC-SAS橋接至儲存堆疊連結中斷（ocumEvtBriggeSasPortDown）
 |===
 
 
+[[metrocluster-over-ip-configuration]]
 == 透過IP組態MetroCluster
 
 這些活動與MetroCluster 透過IP進行的靜態組態有關。
 
 
 
+[[impact-area-availability]]
 === 影響領域：可用度
 
 |===

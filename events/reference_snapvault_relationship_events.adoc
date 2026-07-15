@@ -15,6 +15,7 @@ summary: 關於彼此的關係事件、可提供有關彼此之間關係狀態�
 
 
 
+[[impact-area-protection]]
 == 影響領域：保護
 
 |===

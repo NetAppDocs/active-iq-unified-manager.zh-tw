@@ -27,6 +27,7 @@ summary: 您可以設定一或多個條件、以建立Unified Manager套用在�
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == 設定註釋規則條件的範例
 
 請考量SVM物件類型的條件、其中物件名稱包含「shvm_data」。

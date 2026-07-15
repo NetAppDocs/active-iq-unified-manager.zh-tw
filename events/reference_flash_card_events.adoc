@@ -15,6 +15,7 @@ Flash卡事件可讓您瞭解資料中心節點上安裝的Flash卡狀態、以�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

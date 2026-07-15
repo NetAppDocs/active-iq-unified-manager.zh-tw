@@ -15,6 +15,7 @@ summary: 您可以使用「Aggregate」對話方塊來選取要新增至資源�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：
@@ -31,6 +32,7 @@ summary: 您可以使用「Aggregate」對話方塊來選取要新增至資源�
 
 
 
+[[aggregates-list]]
 == Aggregate清單
 
 Aggregate清單會（以表格格式）顯示受監控之Aggregate的名稱和內容。

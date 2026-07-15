@@ -15,6 +15,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[system-requirements]]
 == 系統需求
 
 * 作業系統： Red Hat Enterprise Linux 8.x 與 9.4 版，以 x86_64 架構為基礎，使用作業系統安裝程式 * 「軟體選擇 * 」選項的「伺服器與 GUI 」基礎環境進行安裝
@@ -26,10 +27,12 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[install-active-iq-unified-manager]]
 == 安裝Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下載安裝程式
 
 . 下載 `ActiveIQUnifiedManager-<version>.zip` 安裝套件及程式碼簽署憑證 (`.pem`）和數位簽章 (`.sig`）。
@@ -41,6 +44,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[verify-integrity]]
 === 驗證完整性
 
 執行下列命令來驗證安裝程式套件的完整性：
@@ -51,6 +55,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[verify-repository-configuration]]
 === 驗證儲存庫組態
 
 設定 Red Hat Enterprise Linux 儲存庫的程序是站台專屬的。您可以使用 `pre_install_check.sh`安裝套件中的指令碼來驗證作業系統的組態。如果您的系統已連線至網際網路，您會自動收到設定 Red Hat Enterprise Linux 儲存庫的指示。
@@ -59,6 +64,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[install-unified-manager]]
 === 安裝Unified Manager
 
 Unified Manager 會使用 `yum`公用程式來安裝軟體和任何相關軟體。由於 Red Hat Enterprise Linux 的映像各不相同，因此安裝的套件取決於映像中的軟體。公用程式會 `yum`決定要安裝的相關軟體套件。如果您需要有關相關軟體套件的詳細資訊，請參閱link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Linux軟體與安裝需求"]。

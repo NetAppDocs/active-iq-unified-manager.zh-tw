@@ -15,6 +15,7 @@ summary: 儲存容錯移轉（SFO）設定事件可讓您瞭解儲存容錯移�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

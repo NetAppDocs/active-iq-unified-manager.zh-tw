@@ -31,6 +31,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == 檢視受Snapshot複本保護之磁碟區的保護狀態
 
 * Snapshot複本總覽*：Snapshot複本保護的磁碟區總覽、例如：
@@ -49,6 +50,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Snapshot複本的注意事項
 
 * 對於計算受Snapshot複本保護的磁碟區、會同時考慮來源與目的地磁碟區。
@@ -60,6 +62,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == 檢視SnapMirror關係的保護狀態
 
 * SnapMirror Overview *：SnapMirror原則保護的磁碟區總覽、例如：
@@ -80,6 +83,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === SnapMirror關係請注意
 
 * 為了計算SnapMirror關係、會計算啟用讀取和寫入的來源磁碟區。不考慮目的地和根磁碟區。
@@ -92,6 +96,7 @@ summary: 「資料保護」頁面提供資料中心內所有受保護磁碟區�
 
 
 
+[[view-clusters-protected-by-metrocluster-configuration]]
 == 檢視MetroCluster 受功能不全組態保護的叢集
 
 「*資料保護*」頁面上的「MetroCluster *資料保護*」面板會顯示MetroCluster 您站台上受以支援或不受支援的叢集數目。按一下此面板上的長條圖、即可前往「叢集」頁面、根據受保護或未受保護的叢集來篩選叢集詳細資料。如需監控MetroCluster 您的資訊、請參閱 link:../storage-mgmt/task_monitor_metrocluster_configurations.html["監控MetroCluster 功能"]。

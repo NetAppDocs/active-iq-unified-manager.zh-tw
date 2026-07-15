@@ -15,6 +15,7 @@ summary: 電源供應器事件可提供硬體狀態的相關資訊、讓您監�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

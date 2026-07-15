@@ -53,24 +53,27 @@ CPU週期容量
 |===
 Unified Manager可安裝在記憶體量較少的系統上、但建議的12 GB RAM可確保有足夠的記憶體可供使用、以達到最佳效能、並可讓系統隨組態的成長而容納更多叢集和儲存物件。您不應在部署Unified Manager的VM上設定任何記憶體限制、也不應啟用任何會阻礙軟體使用系統上已配置記憶體的功能（例如佔用）。
 
-此外，在安裝第二個 Unified Manager 實例之前，單一 Unified Manager 實例可以監控的節點數量是有限制的。有關節點限制、CPU 和記憶體建議，請參閱 https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["統一管理最佳實務指南"^]。
+此外，單一 Unified Manager 實例可監控的節點數量有限，超過此限制後，您需要安裝第二個 Unified Manager 實例。有關節點限制、CPU 和記憶體建議，請參閱 https://www.netapp.com/pdf.html?item=/media/13504-tr4621.pdf["統一管理最佳實務指南"^]。
 
 記憶體頁面交換會對系統和管理應用程式的效能造成負面影響。競用因整體主機使用率而無法使用的CPU資源、可能會降低效能。
 
 
 
+[[requirement-for-dedicated-use]]
 == 專用使用需求
 
 您安裝Unified Manager的實體或虛擬系統應專供Unified Manager使用、不得與其他應用程式共用。其他應用程式可能會耗用系統資源、並大幅降低Unified Manager的效能。
 
 
 
+[[space-requirements-for-backups]]
 == 備份空間需求
 
 如果您打算使用Unified Manager備份與還原功能、請分配額外的容量、讓「DATA」目錄或磁碟有150 GB的空間。備份可以寫入本機目的地或遠端目的地。最佳實務做法是識別Unified Manager主機系統外部的遠端位置、其空間至少為150 GB。
 
 
 
+[[requirements-for-host-connectivity]]
 == 主機連線需求
 
 您安裝Unified Manager的實體系統或虛擬系統應設定成能從主機本身成功「ping」主機名稱的方式。在IPv6組態的情況下、您應該確認主機名稱的「ping6」是否成功、以確保Unified Manager安裝成功。

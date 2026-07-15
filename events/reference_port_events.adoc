@@ -15,6 +15,7 @@ summary: 連接埠事件可提供叢集連接埠的相關狀態、讓您監控�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -33,6 +34,7 @@ summary: 連接埠事件可提供叢集連接埠的相關狀態、讓您監控�
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===

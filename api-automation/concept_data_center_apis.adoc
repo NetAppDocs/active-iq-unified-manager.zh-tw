@@ -28,6 +28,7 @@ curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == 資料中心儲存物件的API
 
 [cols="3*"]
@@ -203,6 +204,7 @@ NOTE: 請注意：
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == 資料中心網路元素的API
 
 資料中心類別中的下列API會擷取環境中連接埠和網路介面的相關資訊、尤其是FC連接埠、FC介面、乙太網路連接埠和IP介面。

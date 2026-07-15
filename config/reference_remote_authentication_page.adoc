@@ -134,6 +134,7 @@ NOTE: 您為_Member _、_User Object Class _和_Group Object Class _屬性輸入
 
 
 
+[[authentication-servers-area]]
 == 驗證伺服器區域
 
 驗證伺服器區域會顯示管理伺服器用來尋找及驗證遠端使用者的驗證伺服器。遠端使用者或群組的認證資料由驗證伺服器維護。

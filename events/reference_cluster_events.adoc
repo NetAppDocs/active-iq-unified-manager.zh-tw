@@ -15,6 +15,7 @@ summary: 叢集事件提供有關叢集狀態的資訊、可讓您監控叢集�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 星號（*）表示已轉換為Unified Manager事件的EMS事件。
@@ -156,6 +157,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-capacity]]
 == 影響領域：容量
 
 |===
@@ -207,6 +209,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -395,6 +398,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -468,6 +472,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===

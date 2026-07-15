@@ -17,6 +17,7 @@ summary: 節點事件可提供節點狀態的相關資訊、以便監控潛在�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===
@@ -156,6 +157,7 @@ NFSv4資源池之一耗盡*（nbladeNfsv4PoolExhausts）
 |===
 
 
+[[impact-area-capacity]]
 == 影響領域：容量
 
 |===
@@ -185,6 +187,7 @@ QoS監控記憶體減量*（ocumQosMonitorMemory減量）
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -203,6 +206,7 @@ QoS監控記憶體減量*（ocumQosMonitorMemory減量）
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -386,6 +390,7 @@ QoS監控記憶體減量*（ocumQosMonitorMemory減量）
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===

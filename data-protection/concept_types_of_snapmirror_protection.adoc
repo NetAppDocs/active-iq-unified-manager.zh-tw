@@ -15,6 +15,7 @@ summary: 根據資料儲存拓撲的部署、Unified Manager可讓您設定多�
 
 
 
+[[traditional-snapmirror-asynchronous-protection-relationships]]
 == 傳統SnapMirror非同步保護關係
 
 傳統SnapMirror非同步保護可在來源與目的地磁碟區之間提供區塊複寫鏡射保護。
@@ -23,6 +24,7 @@ summary: 根據資料儲存拓撲的部署、Unified Manager可讓您設定多�
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication]]
 == SnapMirror非同步保護、具備版本彈性的複寫功能
 
 SnapMirror採用版本彈性複寫的非同步保護功能、可在來源與目的地磁碟區之間提供邏輯複寫鏡射保護、即使這些磁碟區是在ONTAP 不同版本的版本的更新軟體（例如8.3至8.3.1、8.3至9.1或9.2.2至9.2版）下執行。
@@ -39,6 +41,7 @@ SnapMirror採用版本彈性複寫的非同步保護功能、可在來源與目�
 
 
 
+[[snapmirror-asynchronous-protection-with-version-flexible-replication-and-backup-option]]
 == SnapMirror非同步保護、具備版本彈性的複寫與備份選項
 
 SnapMirror非同步保護搭配版本彈性的複寫與備份選項、可在來源與目的地磁碟區之間提供鏡射保護、並可在目的地儲存多個鏡射資料複本。
@@ -49,18 +52,21 @@ SnapMirror非同步保護搭配版本彈性的複寫與備份選項、可在來�
 
 
 
+[[snapmirror-unified-replication-mirror-and-vault]]
 == SnapMirror統一化複寫（鏡射與保存庫）
 
 SnapMirror統一化複寫可讓您在同一個目的地磁碟區上設定災難恢復和歸檔。與SnapMirror一樣、統一化資料保護會在您第一次叫用時執行基準傳輸。根據預設的統一化資料保護原則「鏡射AndVault」進行的基礎傳輸會建立來源磁碟區的Snapshot複本、然後將該複本及其參照的資料區塊傳輸到目的地磁碟區。與SnapVault 之類似、統一化資料保護功能並未在基礎資料中納入舊的Snapshot複本。
 
 
 
+[[snapmirror-synchronous-protection-with-strict-synchronization]]
 == SnapMirror同步保護、並具有嚴格的同步功能
 
 SnapMirror同步保護搭配「嚴格」同步、可確保主要和次要磁碟區永遠是彼此的真實複本。如果嘗試將資料寫入次要磁碟區時發生複寫失敗、則用戶端I/O會中斷至主要磁碟區。
 
 
 
+[[snapmirror-synchronous-protection-with-regular-synchronization]]
 == SnapMirror同步保護與一般同步
 
 SnapMirror同步保護搭配「鏡面」同步、並不需要主磁碟區和次磁碟區一律是彼此的真實複本、因此可確保主磁碟區的可用度。如果在嘗試將資料寫入次要Volume時發生複寫失敗、則主要和次要磁碟區會不同步、而用戶端I/O會繼續寫入主要磁碟區。
@@ -72,6 +78,7 @@ SnapMirror同步保護搭配「鏡面」同步、並不需要主磁碟區和次�
 ====
 
 
+[[snapmirror-active-sync]]
 == SnapMirror 主動同步
 
 SnapMirror 主動式同步功能可搭配 ONTAP 9.8 及更新版本使用、您可以使用它來保護具有 LUN 的應用程式、讓應用程式能夠以透明方式容錯移轉、確保在發生災難時營運不中斷。

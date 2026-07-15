@@ -20,6 +20,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
+[[view-replication-for-metrocluster-over-ip-configurations]]
 == 查看 MetroCluster over IP 配置的複製
 
 對於透過IP進行的靜態組態、資料複寫狀態會顯示在「拓撲預覽」檢視中、以透過Unified Manager左側導覽窗格的下列檢視畫面來顯示受透過IP保護的叢集：MetroCluster MetroCluster
@@ -32,6 +33,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
+[[view-replication-for-metrocluster-over-fc-configurations]]
 == 查看 MetroCluster 透過 FC 配置的複製
 
 請遵循下列步驟、判斷MetroCluster 資料複寫中是否有任何問題、以利利用FC組態進行資料複寫。

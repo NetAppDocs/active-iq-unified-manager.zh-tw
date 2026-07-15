@@ -15,6 +15,7 @@ summary: 安裝 Unified Manager 的 VMware vSphere 系統需要特定版本的�
 
 
 
+[[operating-system-software]]
 == 作業系統軟體
 
 支援的作業系統是 VMware ESXi 8.0。
@@ -37,6 +38,7 @@ VMware ESXi伺服器時間應與NTP伺服器時間相同、虛擬應用裝置才
 
 
 
+[[installation-requirements]]
 == 安裝需求
 
 支援適用於Unified Manager虛擬應用裝置的VMware High Availability。

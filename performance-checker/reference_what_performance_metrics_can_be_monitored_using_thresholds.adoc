@@ -15,6 +15,7 @@ summary: 某些常見的效能計數器（例如IOPS和MB/s）可以設定所有
 
 
 
+[[available-performance-counters]]
 == 可用的效能計數器
 
 |===

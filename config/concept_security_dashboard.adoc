@@ -24,6 +24,7 @@ summary: 您可以在Unified Manager上啟用或停用法規遵循監控的安�
 
 
 
+[[customize-security-settings]]
 == 自訂安全設定
 
 若要根據ONTAP 您的需求自訂法規遵循監控的設定、請依照下列步驟操作：
@@ -42,6 +43,7 @@ summary: 您可以在Unified Manager上啟用或停用法規遵循監控的安�
 
 
 
+[[customize-autosupport-and-authentication-settings]]
 == 自訂 AutoSupport 和身份驗證設置
 
 在* AutoSupport 《*》「設定*」區段中、您可以指定是否要使用HTTPS傳輸來傳送AutoSupport 來自該區域的訊息ONTAP 。
