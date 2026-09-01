@@ -48,11 +48,11 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 
 下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
 
-* Microsoft Visual C&#43;&#43;適用於Visual Studio 2015的可轉散發套件14.26.28720.3版
-* MySQL 社群版 8.4.7
+* Microsoft Visual C++ Redistributable Packages for Visual Studio 2015 version 14.29.30133.0
+* MySQL Community Edition 8.4.10 版
 * Python 3.13.3
-* OpenJDK 版本 17.0.14+6
-* 7-zip 24.09 或更高版本
+* OpenJDK 版本 17.0.15+6
+* 7-zip 版本 25.01 或更高版本
 
 
 [NOTE]
@@ -67,7 +67,7 @@ NOTE: NetApp不支援使用協力廠商工具（例如Microsoft System Center Co
 * 服務名稱是「`MYSQL84`」。
 
 
-Unified Manager部署在Wildfly Web伺服器上。WildFly 26.1.3 已隨附於 Unified Manager 、並已設定。
+Unified Manager 部署在 WildFly Web 伺服器上。WildFly 27.0.1.Final 已與 Unified Manager 捆綁並配置。
 
 [NOTE]
 ====
