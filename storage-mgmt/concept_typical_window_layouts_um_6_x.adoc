@@ -20,11 +20,11 @@ summary: 瞭解典型的視窗配置有助於有效瀏覽Active IQ Unified Manag
 [[object-list-window-layout]]
 == 物件清單視窗配置
 
-image::../media/object_list.png[物件清單]
+image::../media/object_list.png[Active IQ Unified Manager 物件清單視窗的快照，其中包含帶有標籤的導覽、搜尋、篩選和報告控制項。]
 
 
 
 [[object-details-window-layout]]
 == 物件詳細資料視窗配置
 
-image::../media/object_details.gif[物件詳細資料]
+image::../media/object_details.gif[快照顯示 Active IQ Unified Manager Volume 詳細資料視窗，其中包含索引標籤、容量詳細資料、相關物件、歷史記錄和事件。]

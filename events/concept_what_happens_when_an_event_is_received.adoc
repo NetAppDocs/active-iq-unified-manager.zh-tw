@@ -25,4 +25,4 @@ Unified Manager收到事件時、會顯示在儀表板頁面、事件管理詳�
 
 此工作流程如下圖所示。
 
-image::../media/um_perf_threshold_event_flow.gif[UM Perf臨界值事件流程]
+image::../media/um_perf_threshold_event_flow.gif[一張圖表展示了從計數器收集到電子郵件通知的臨界值事件處理過程]

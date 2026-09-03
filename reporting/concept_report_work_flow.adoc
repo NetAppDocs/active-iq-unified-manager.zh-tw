@@ -13,4 +13,4 @@ summary: 說明報告工作流程的決策樹狀結構。
 [role="lead"]
 說明報告工作流程的決策樹狀結構。
 
-image::../media/reports_view_workflow.png[報告檢視工作流程]
+image::../media/reports_view_workflow.png[一張圖表，展示用於檢視、自訂、上傳和下載報告的決策樹工作流程。]

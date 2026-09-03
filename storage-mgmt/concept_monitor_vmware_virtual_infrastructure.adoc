@@ -33,13 +33,13 @@ Unified Manager會在拓撲檢視中呈現虛擬環境的底層子系統、以�
 
 * ONTAP VMware虛擬化技術
 
-image::../media/vm_deployment.gif[VM部署]
+image::../media/vm_deployment.gif[一張顯示 VMware 主機、虛擬機器、資料儲存、VMDK、IP 網路和儲存設備連線的圖表]
 
 *使用者工作流程*
 
 下圖顯示使用VM拓撲檢視的典型使用案例：
 
-image::../media/vm_workflow.gif[VM工作流程]
+image::../media/vm_workflow.gif[此圖展示了在運算、網路和儲存設備層中定位虛擬機器應用程式延遲的工作流程。]
 
 
 

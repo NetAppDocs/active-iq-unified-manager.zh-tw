@@ -19,7 +19,7 @@ summary: 您可以使用Active IQ Unified Manager 資料中心API的功能來監
 
 下列流程圖說明擷取已啟用自動調整大小模式之磁碟區相關資訊的程序：
 
-image::../media/space_utilization.gif[空間使用率]
+image::../media/space_utilization.gif[用於識別叢集聚合中過度使用的啟用自動調整大小模式 Volume 的流程圖]
 
 此流程假設叢集已在ONTAP 流通中建立、並已新增至Unified Manager。
 

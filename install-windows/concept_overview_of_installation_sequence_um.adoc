@@ -15,4 +15,4 @@ summary: 安裝工作流程會說明您在使用Unified Manager之前必須執�
 
 以下各節說明下列工作流程中顯示的每個項目。
 
-image::../media/overall_um_install_flow.png[整體um安裝流程]
+image::../media/overall_um_install_flow.png[一張展示 Unified Manager 安裝、初始設定和管理設定工作流程的圖表]

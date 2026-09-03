@@ -13,4 +13,4 @@ summary: 安裝工作流程會說明您在使用Unified Manager之前必須執�
 [role="lead"]
 安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。
 
-image::../media/install_flow_on_windows.gif[在Windows上安裝流程]
+image::../media/install_flow_on_windows.gif[一張圖表，展示先決條件、Unified Manager 安裝和初始組態工作流程步驟。]

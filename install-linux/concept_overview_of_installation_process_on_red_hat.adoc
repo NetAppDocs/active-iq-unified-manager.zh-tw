@@ -13,4 +13,4 @@ summary: 安裝工作流程會說明您在使用Unified Manager之前必須執�
 [role="lead"]
 安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。
 
-image::../media/install_flow_on_rhel_2026.png[在 RHEL 2026 上安裝流程]
+image::../media/install_flow_on_rhel_2026.png[此圖展示了在 Red Hat Linux 系統上安裝 Unified Manager 的先決條件、安裝過程和初始組態工作流程。]

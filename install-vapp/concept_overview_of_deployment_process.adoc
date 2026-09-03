@@ -13,4 +13,4 @@ summary: 部署工作流程會說明您在使用Unified Manager之前必須執�
 [role="lead"]
 部署工作流程會說明您在使用Unified Manager之前必須執行的工作。
 
-image::../media/deployment_sequence_oc_6_0.gif[部署順序相關文件6 0]
+image::../media/deployment_sequence_oc_6_0.gif[此圖展示 Unified Manager 部署的先決條件、應用裝置部署和初始組態步驟。]

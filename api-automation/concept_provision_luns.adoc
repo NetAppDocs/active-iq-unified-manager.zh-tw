@@ -15,7 +15,7 @@ summary: 您可以使用Active IQ Unified Manager 隨附的資源配置API、在
 
 下圖說明LUN資源配置工作流程的步驟。
 
-image::../media/create_luns.gif[建立LUN]
+image::../media/create_luns.gif[此圖展示了建立 LUN 的工作流程，包括儲存虛擬機器、服務層級和 igroup 步驟。]
 
 [NOTE]
 ====

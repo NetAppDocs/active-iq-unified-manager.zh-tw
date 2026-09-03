@@ -28,7 +28,7 @@ summary: 閘道API可做為閘道、以叫用ONTAP 功能完善的API來查詢ON
 ====
 下圖說明疑難排解ONTAP 使用場景容量問題的工作流程中的每個步驟。
 
-image::../media/api_gateway_ontap_workflow.gif[API閘道ONTAP 功能工作流程]
+image::../media/api_gateway_ontap_workflow.gif[一張圖表，展示 Unified Manager 和 ONTAP API 疑難排解 Volume 容量警示的步驟。]
 
 此工作流程涵蓋Unified Manager和ONTAP REST API的呼叫點。
 

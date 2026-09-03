@@ -15,7 +15,7 @@ summary: 當資料中心的儲存物件超過臨界值時、您會收到有關�
 
 此工作流程以磁碟區為資源物件的範例。您可以使用「事件」API來擷取與磁碟區相關的事件清單、分析該磁碟區的重大問題、然後採取修正行動來修正問題。
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[處理儲存物件流程圖的事件相關問題]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[流程圖展示了從事件清單到修正行動再到結束的 Volume 事件分析流程。]
 
 在採取補救步驟之前、請遵循下列步驟來判斷磁碟區中的問題。
 

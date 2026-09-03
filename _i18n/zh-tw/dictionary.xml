@@ -367,7 +367,6 @@
   <block id="8a8d5bafdb90b3cda57938d0d26c03a1" category="list-text">設定MySQL儲存庫：</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">安裝順序總覽</block>
-  <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">整體um安裝流程</block>
   <block id="688dd421579f9ca49f8068cf7c5fc387" category="summary">變更組態之後、您可能必須重新啟動Unified Manager。</block>
   <block id="bd4c43ed11101c9806bd4fded878628b" category="list-text">以root使用者身分登入您要重新啟動Unified Manager服務的伺服器。</block>
   <block id="8338761d720291f500aed82c16439446" category="summary">利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置上部署Unified Manager。</block>
@@ -435,7 +434,6 @@
   <block id="ecdface713d671fbf82ed8fafab06163" category="list-text">出現提示時、請輸入新的jboss使用者密碼、然後再次輸入以供確認。</block>
   <block id="7cfb575010f96829faa8e7754ca644d2" category="list-text">指令碼完成後、請使用Windows服務主控台啟動Unified Manager服務：</block>
   <block id="19f37b6c4f24bb13df7dd127a8bef89e" category="summary">您可以在安裝於Windows系統的Unified Manager上升級協力廠商產品、例如JRE。</block>
-  <block id="3c5dd4e02fb7c5614c57b78a81e01819" category="image-alt">在Windows上安裝流程</block>
   <block id="6934506078026f313f5366d7d0899031" category="summary">您可以安裝Unified Manager軟體、升級至較新版本的軟體、或移除Unified Manager應用程式。</block>
   <block id="6605fc759866ab4c0dbffd94c7ca51ff" category="summary">請務必瞭解在Windows上下載及安裝Unified Manager的步驟順序。</block>
   <block id="c3aaa3d5e1c6e7542a12d69e8624f700" category="summary">您可以在Windows平台上下載並執行安裝檔案、以升級Unified Manager。</block>
@@ -553,7 +551,6 @@
   <block id="e13aee1f6ad424bcd5a6d5844db5a727" category="inline-link-macro">部署Unified Manager虛擬應用裝置</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">部署工作流程會說明您在使用Unified Manager之前必須執行的工作。</block>
   <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">部署程序總覽</block>
-  <block id="726763bf5aecf665420de6eeab308805" category="image-alt">部署順序相關文件6 0</block>
   <block id="c2e93c29da046a9d351a6f1cf070cfc7" category="summary">您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以解除安裝Unified Manager。</block>
   <block id="6ada6fa6d95057606e896986fa32ae13" category="list-text">您應該擁有用於存取VMware vCenter Server和vSphere Web Client的認證資料。</block>
   <block id="ca56258f9e5180672b2cae7a418b2cd4" category="list-text">Unified Manager伺服器與Workflow Automation伺服器之間的任何作用中連線都應關閉。</block>
@@ -770,7 +767,6 @@
   <block id="641f4e1cc9fd016eb1fecd7c79d7dbad" category="paragraph">完成Unified Manager執行個體的初始設定時、需要執行本手冊中所述的部分程序。其他程序是建議的組態設定、有助於在新執行個體上設定、或是在您開始定期監控ONTAP 您的不二系統之前、先瞭解這些設定。</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">組態工作流程會說明您在使用Unified Manager之前必須執行的工作。</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">組態順序總覽</block>
-  <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">安裝後流程</block>
   <block id="baab3b98bf2d404c92d495462cf66f7f" category="summary">您可以指定Unified Manager的閒置逾時值、以便在一段時間後自動終止工作階段。依預設、逾時時間設為4、320分鐘（72小時）。</block>
   <block id="9d065b6fca599ddf99bd5a9301130378" category="paragraph">此設定會影響所有登入的使用者工作階段。</block>
   <block id="6778129bfdc370315a53a29729233c17" category="paragraph">如果您已啟用安全性聲明標記語言（SAML）驗證、則無法使用此選項。</block>
@@ -2090,7 +2086,6 @@
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">使用MySQL資料庫傾印進行備份與還原</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">資料庫傾印備份是由備份目錄中的單一檔案和資料庫儲存庫目錄中的一或多個檔案所組成。備份目錄中的檔案非常小、因為它只包含指向位於資料庫儲存庫目錄中的檔案的指標、而這些檔案是重新建立備份所需的。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">第一次產生資料庫備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立完整備份檔案。下次產生備份時、會在備份目錄中建立單一檔案、並在資料庫儲存庫目錄中建立遞增備份檔案、其中包含與完整備份檔案的差異。當您建立額外的備份時、此程序會持續執行、直到達到最大保留設定為止、如下圖所示。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">資料庫備份</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">請勿重新命名或移除這兩個目錄中的任何備份檔案、否則任何後續的還原作業都會失敗。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">如果您將備份檔案寫入本機系統、則應啟動程序、將備份檔案複製到遠端位置、以便在發生需要完整還原的系統問題時使用。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">在開始備份作業之前Active IQ Unified Manager 、執行完整性檢查、確認所有必要的備份檔案和備份目錄都存在且可寫入。它也會檢查系統上是否有足夠的空間來建立備份檔案。</block>
@@ -3925,7 +3920,6 @@
   <block id="3e0d371dd6a28821e66400a80ae3293e" category="paragraph">用於集合體的資料中心API會擷取可用空間和已用空間的相關資訊、以及節省空間的效率設定。您也可以根據指定的屬性來篩選擷取的資訊。</block>
   <block id="b9264bc886fe551515446d6838f25b9a" category="paragraph">判斷Aggregate空間不足的方法之一、是驗證您環境中是否有已啟用自動調整大小模式的磁碟區。接著、您應該識別哪些磁碟區正在過度使用、並執行任何修正行動。</block>
   <block id="cc41b5742653a83710790622472b075b" category="paragraph">下列流程圖說明擷取已啟用自動調整大小模式之磁碟區相關資訊的程序：</block>
-  <block id="ad39018ca13824e28f2f9a2cce72cc67" category="image-alt">空間使用率</block>
   <block id="4813b0ff95088b1a2c693a9318f0938d" category="paragraph">此流程假設叢集已在ONTAP 流通中建立、並已新增至Unified Manager。</block>
   <block id="fc534cd4a3c07959344fdc4231e736c7" category="list-text">除非您知道以下值、否則請取得叢集金鑰：</block>
   <block id="ae5c880b0329ee8b59031ec6a7a9e6af" category="paragraph">資料中心/叢集/叢集</block>
@@ -3989,7 +3983,6 @@
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">當資料中心的儲存物件超過臨界值時、您會收到有關該事件的通知。使用此通知、您可以分析問題、並使用事件API採取修正行動。</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">當資料中心的儲存物件超過臨界值時、您會收到有關該事件的通知。使用此通知、您可以使用「事件」API來分析問題並採取修正行動。</block>
   <block id="97018b0a09f5dff8883bbaab1edaacde" category="paragraph">此工作流程以磁碟區為資源物件的範例。您可以使用「事件」API來擷取與磁碟區相關的事件清單、分析該磁碟區的重大問題、然後採取修正行動來修正問題。</block>
-  <block id="48d9352b608ff2804faa4c081f2c725c" category="image-alt">處理儲存物件流程圖的事件相關問題</block>
   <block id="730bf6325271b1c0c231fa74b6b0fe8a" category="paragraph">在採取補救步驟之前、請遵循下列步驟來判斷磁碟區中的問題。</block>
   <block id="ba7662ee18a758af81108e87e6f415fd" category="list-text">針對Active IQ Unified Manager 資料中心的磁碟區、分析關鍵的事件通知。</block>
   <block id="83ca799bd3583d43b47bea0c99beee9a" category="list-text">使用/management伺服器/事件API中的下列參數查詢磁碟區的所有事件：「* resource_type」：「volVolume *」、「* severy」：「critical *」</block>
@@ -3999,7 +3992,6 @@
   <block id="c20a54ace8febd13915bab7ed9c22b2b" category="summary">您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVM）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。</block>
   <block id="9da912bee7145f0b3f8cdfc8f064d2b7" category="doc">資源配置LUN</block>
   <block id="95ce53c30b31cee49bc8d6de45470e16" category="paragraph">下圖說明LUN資源配置工作流程的步驟。</block>
-  <block id="eb6c9e70579153da1799b8b5852bc08a" category="image-alt">建立LUN</block>
   <block id="ef1400db90d4de5f78f6366f581fba2a" category="paragraph">此工作流程假設ONTAP 已將整個叢集新增至Unified Manager、而且已取得叢集金鑰。工作流程也假設叢集上已建立SVM。</block>
   <block id="f51de5616e6ee7f9e60c306178f36de1" category="list-text">如「驗證叢集上的SVM」工作流程主題所述、取得您要在其中建立LUN的SVM金鑰。</block>
   <block id="9a29b5aa4459164aac58ae41bc9859d5" category="list-text">執行下列API並從回應擷取金鑰、以取得Performance Service層級的金鑰。</block>
@@ -4172,7 +4164,6 @@
   <block id="a724824e30a799c8ab8ad6d07591372f" category="summary">您可以使用Active IQ Unified Manager 作爲VMware的一部分提供的資源配置API、在儲存虛擬機器（SVM）上配置CIFS共享和NFS檔案共享。此資源配置工作流程詳細說明在建立檔案共用之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。</block>
   <block id="f2ccc9d1761d3b100ebf0fcbd617c176" category="doc">資源配置CIFS和NFS檔案共用</block>
   <block id="3e1dc833276a15580a0b71db58bdd106" category="paragraph">下圖說明檔案共用資源配置工作流程中的每個步驟。其中包括同時配置CIFS共用和NFS檔案共用。</block>
-  <block id="a05f62bb5424e0dbdce8b06a07661d97" category="image-alt">建立檔案資源</block>
   <block id="0ee7a846dbd3fbb321e0498c8fec35e0" category="list-text">已將叢集加入Unified Manager、並已取得叢集金鑰。ONTAP</block>
   <block id="8e7dd4aa06ca40063b5d0e3de192e4d5" category="list-text">已在叢集上建立SVM。</block>
   <block id="f66e00fc3aa4ab94defa328373e381e8" category="list-text">SVM支援CIFS和NFS服務。如果SVM不支援所需的服務、則資源配置檔案共用可能會失敗。</block>
@@ -4530,7 +4521,6 @@
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">您是應用程式管理員。</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">執行REST API作業的叢集由ONTAP 支援版本的版本為版本9.5或更新版本、而且叢集會透過HTTPS新增至Unified Manager。</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">下圖說明疑難排解ONTAP 使用場景容量問題的工作流程中的每個步驟。</block>
-  <block id="3a4d571f6dbcd3bcf57d5650a8d35570" category="image-alt">API閘道ONTAP 功能工作流程</block>
   <block id="76b26371e1f301a312db4d2d46c9befe" category="paragraph">此工作流程涵蓋Unified Manager和ONTAP REST API的呼叫點。</block>
   <block id="015fada14012e66a3870b9ed0e2d6370" category="list-text">記下事件中通知Volume容量使用率的Volume名稱。</block>
   <block id="2217533b12d59ed2edfb6646b767c321" category="list-text">使用Volume名稱做為名稱參數中的值、執行下列Unified Manager API來查詢Volume。</block>
@@ -5044,7 +5034,6 @@
   <block id="b43af741dbae1838a692f1c1ea700ca3" category="summary">這些範例自訂報告可協助您識別及回應與Qtree容量相關的潛在問題。</block>
   <block id="ed48b981e2bb947abc52be3e3b172706" category="summary">說明報告工作流程的決策樹狀結構。</block>
   <block id="784fca41cf2612fc0bc6eb124a244bd2" category="doc">報告工作流程</block>
-  <block id="78c9a95829a3975e642126c077b652b2" category="image-alt">報告檢視工作流程</block>
   <block id="f869c5ebf4dab96af5c925d450b297fc" category="summary">這些範例自訂報告可協助您識別及回應與集合式儲存容量相關的潛在問題。</block>
   <block id="cd8b3d3744695ca73f8c29af659a98a7" category="doc">自訂Aggregate容量報告</block>
   <block id="3d9f8138f17e1d3282f0e4926b433f0d" category="paragraph">本節中的報告僅為範例、可協助您瞭解如何建立有關集合體容量的報告、以協助您監控儲存系統資源。</block>
@@ -6549,7 +6538,6 @@
   <block id="cdf293ee43f03915a3f7f1de53213e71" category="list-text">SNMP設陷可傳送至設陷接收器。</block>
   <block id="2c19ee2f43897bbfea72b8dc73f92e0c" category="list-text">您可以執行自訂指令碼來執行動作。</block>
   <block id="330d4432442808d2f6e07aef3daa80da" category="paragraph">此工作流程如下圖所示。</block>
-  <block id="bc4368d495f9c35aae14c797a81d5c9e" category="image-alt">UM Perf臨界值事件流程</block>
   <block id="3249a27c28a39c2db648a9722c88f65a" category="summary">Unified Manager會在單一節點的作業效率超出範圍時、產生過度使用的節點資源警示事件、進而可能影響工作負載延遲。這些系統定義的事件可在許多工作負載受到延遲影響之前、提供修正潛在效能問題的機會。</block>
   <block id="95136f5582f0a231c64c60ce36bacacc" category="paragraph">Unified Manager會針對節點資源過度使用的原則外洩事件、尋找使用超過100%效能容量達30分鐘以上的節點。</block>
   <block id="ebc3a1dfd764128c20f27841854e634e" category="paragraph">您可以使用System Manager或ONTAP VMware指令來修正這類效能問題、包括下列工作：</block>
@@ -9787,10 +9775,8 @@
   <block id="c513bb45e58fc45e3ec83dab5da7da36" category="list-text">VMDK：資料存放區上的虛擬機器磁碟、可為虛擬磁碟提供儲存空間。每個虛擬磁碟都有對應的VMDK。</block>
   <block id="56ebd08e1cbf3f9df816c1f70ba60dff" category="paragraph">這些物件會顯示在VM拓撲檢視中。</block>
   <block id="8a07986e324a4a34c7cfeb47a2736741" category="paragraph">* ONTAP VMware虛擬化技術</block>
-  <block id="e8509cc177acaa157f47a7b0164d3a1f" category="image-alt">VM部署</block>
   <block id="375aae8872c43ab2f8538114dccc92c7" category="paragraph">*使用者工作流程*</block>
   <block id="f85ada8d3fc041341df44b187b48d4f1" category="paragraph">下圖顯示使用VM拓撲檢視的典型使用案例：</block>
-  <block id="33e759e1731579239486744935dbb489" category="image-alt">VM工作流程</block>
   <block id="ab54009fea66778938a808305a2f0e4d" category="section-title">不支援的項目</block>
   <block id="71ea79c55d09192e3c60b68484e514d5" category="list-text">Unified Manager不支援不屬於VMware vCenter的資料存放區ONTAP 、也不支援對應至vCenter Server執行個體。也不支援在這些資料存放區上具有虛擬磁碟的任何VM。</block>
   <block id="56036578c66036279dbd8f75e9437dc3" category="list-text">不支援跨多個LUN的資料存放區。</block>
@@ -10123,9 +10109,7 @@
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">典型的視窗配置</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">並非每個視窗都包含下列圖表中的每個元素。</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">物件清單視窗配置</block>
-  <block id="6eaa6c9903ef182946f5bf66eee73304" category="image-alt">物件清單</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">物件詳細資料視窗配置</block>
-  <block id="7ce88d49c4ef0cb2d159967d47029a6e" category="image-alt">物件詳細資料</block>
   <block id="c8af6ec34ad2c054d72953bfcb333d10" category="summary">您可以使用使用者和群組配額來限制磁碟空間量、或是使用者或使用者群組可以使用的檔案數量。您可以檢視使用者和使用者群組配額資訊、例如磁碟和檔案使用量、以及在磁碟上設定的各種限制。</block>
   <block id="c1c739de54e854d37a0bbeba9f2074c0" category="summary">您可以使用「叢集設定」頁面、從Unified Manager移除叢集。例如、當叢集探索失敗或想要取消委任儲存系統時、您可以移除叢集。</block>
   <block id="6bcedb52ce9ccad71aa1b34201bf7648" category="paragraph">此工作會從Unified Manager移除所選的叢集。移除叢集之後、就不再受到監控。向移除叢集登錄的Unified Manager執行個體也會從叢集取消登錄。</block>
@@ -12047,7 +12031,6 @@
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">使用 System Manager 管理ONTAP證書</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*相關資訊* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
   <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">設定統一管理器會話不活動逾時時間</block>
-  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">在 RHEL 2026 上安裝流程</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">系統必須能夠存取某些儲存庫和軟體包，以便安裝程式能夠存取和安裝所有必需的軟體相依性。</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">安裝統一管理器所需的軟體</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
@@ -12114,4 +12097,21 @@
   <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK 版本 17.0.15+6</block>
   <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip 版本 25.01 或更高版本</block>
   <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">Unified Manager 升級期間，MySQL Community Edition 會自動升級。如果系統上安裝的 MySQL 版本低於 8.4.10，Unified Manager 升級過程會自動將 MySQL 升級至 8.4.10。您不得對早期版本的 MySQL 執行獨立式升級至 8.4.10。</block>
+  <block id="1cc30bff2b84e7dbb26c93008946368f" category="image-alt">流程圖展示了從事件清單到修正行動再到結束的 Volume 事件分析流程。</block>
+  <block id="d98ce8622bc7c722fcaa50d67a9cc960" category="image-alt">一張圖表，展示 Unified Manager 和 ONTAP API 疑難排解 Volume 容量警示的步驟。</block>
+  <block id="7ac0c5f50fb7cdf3dbaf55523a74903e" category="image-alt">一張圖表展示了 CIFS 和 NFS 檔案共享佈建工作流程，從 SVM 設定到共享建立。</block>
+  <block id="b9754edcea8e7458a4fc4b43059bdbef" category="image-alt">此圖展示了建立 LUN 的工作流程，包括儲存虛擬機器、服務層級和 igroup 步驟。</block>
+  <block id="f62942f0e6b5f47ad12ab0f0a5f5a152" category="image-alt">用於識別叢集聚合中過度使用的啟用自動調整大小模式 Volume 的流程圖</block>
+  <block id="94d1891c253fd9543379f72f98b66db2" category="image-alt">一張圖表，展示 Unified Manager 初始組態工作流程和管理設定工作。</block>
+  <block id="164f08e4aee5d801ac4725f2a6956d02" category="image-alt">一張圖表展示了從計數器收集到電子郵件通知的臨界值事件處理過程</block>
+  <block id="2300be0d474b8db24490f2217835c7d6" category="image-alt">此圖顯示三個備份目錄檔案，分別指向資料庫儲存庫中的完整備份檔案和遞增檔案。</block>
+  <block id="124e47082818e619d401d9bdfe8d24ff" category="image-alt">此圖展示了在 Red Hat Linux 系統上安裝 Unified Manager 的先決條件、安裝過程和初始組態工作流程。</block>
+  <block id="ef63b242e03a7363693688e53654ba1a" category="image-alt">一張展示 Unified Manager 安裝、初始設定和管理設定工作流程的圖表</block>
+  <block id="9e937dd680d7be51e4bfb7fcebb49a52" category="image-alt">此圖展示 Unified Manager 部署的先決條件、應用裝置部署和初始組態步驟。</block>
+  <block id="611e3261f759280b352d61fb660a297c" category="image-alt">一張圖表，展示先決條件、Unified Manager 安裝和初始組態工作流程步驟。</block>
+  <block id="a4f4483ccd93f8d27cc242331a618d06" category="image-alt">一張圖表，展示用於檢視、自訂、上傳和下載報告的決策樹工作流程。</block>
+  <block id="76bf2fdea1570becb5b97b7df5f76c5a" category="image-alt">一張顯示 VMware 主機、虛擬機器、資料儲存、VMDK、IP 網路和儲存設備連線的圖表</block>
+  <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">此圖展示了在運算、網路和儲存設備層中定位虛擬機器應用程式延遲的工作流程。</block>
+  <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Active IQ Unified Manager 物件清單視窗的快照，其中包含帶有標籤的導覽、搜尋、篩選和報告控制項。</block>
+  <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">快照顯示 Active IQ Unified Manager Volume 詳細資料視窗，其中包含索引標籤、容量詳細資料、相關物件、歷史記錄和事件。</block>
 </blocks>
