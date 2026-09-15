@@ -12114,4 +12114,5 @@
   <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">此圖展示了在運算、網路和儲存設備層中定位虛擬機器應用程式延遲的工作流程。</block>
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Active IQ Unified Manager 物件清單視窗的快照，其中包含帶有標籤的導覽、搜尋、篩選和報告控制項。</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">快照顯示 Active IQ Unified Manager Volume 詳細資料視窗，其中包含索引標籤、容量詳細資料、相關物件、歷史記錄和事件。</block>
+  <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">必須先從 Unified Manager 中移除叢集，才能將其停用。如果嘗試移除叢集時叢集已離線或無法連線，Unified Manager 將無法與叢集通訊以移除應用程式記錄和已設定的事件管理系統（EMS）訂閱。這將導致移除程序失敗或在完成前無回應。</block>
 </blocks>
