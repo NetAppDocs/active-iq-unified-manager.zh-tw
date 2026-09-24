@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, state, definitions 
 summary: 事件狀態可協助您識別是否需要採取適當的修正行動。事件可以是「新增」、「已確認」、「已解決」或「已過時」。請注意、新事件和已確認事件均視為作用中事件。 
 ---
-= 事件狀態定義
+= Active IQ Unified Manager 中的事件狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

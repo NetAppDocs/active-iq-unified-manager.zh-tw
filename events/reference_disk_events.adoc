@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disks, events, impact area, availability 
 summary: 磁碟事件可提供磁碟狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 磁碟事件
+= 了解 Active IQ Unified Manager 中的磁碟事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

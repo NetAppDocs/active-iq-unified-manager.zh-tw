@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: http, status, code, active iq, unified manager 
 summary: 在執行API或疑難排解問題時、您應該注意Active IQ Unified Manager 到由資訊技術API使用的各種HTTP狀態代碼和錯誤代碼。 
 ---
-= HTTP狀態代碼用於Active IQ Unified Manager
+= 了解 Active IQ Unified Manager HTTP 狀態碼
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

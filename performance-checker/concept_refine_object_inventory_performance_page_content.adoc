@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: refining, performance, inventory, page, contents 
 summary: 效能物件的詳細目錄頁面包含可協助您精簡物件詳細目錄資料內容的工具、可讓您快速輕鬆地找到特定資料。 
 ---
-= 精簡效能詳細目錄頁面內容
+= 在 Active IQ Unified Manager 中最佳化效能清單頁面內容
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging 
 summary: 您可以使用稽核日誌來偵測稽核日誌是否已洩漏。使用者執行的所有活動都會受到監控、並記錄在稽核記錄中。稽核是針對Active IQ Unified Manager 所有使用者介面和公開揭露的API功能執行、如所示。 
 ---
-= 稽核記錄
+= 了解 Active IQ Unified Manager 中的稽核日誌
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
 summary: 身為儲存管理員、您可以使用CLI命令對儲存物件執行查詢、例如叢集、集合體、磁碟區、 qtree和LUN。 
 ---
-= 支援的Unified Manager CLI命令
+= 瞭解受支援的 Active IQ Unified Manager CLI 指令
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box 
 summary: 「初始化/更新」對話方塊可讓您針對新的保護關係執行首次基準傳輸、或是在關係已初始化且您想要執行手動、非計畫性的遞增更新時更新關係。 
 ---
-= 初始化/更新對話方塊
+= 在 Active IQ Unified Manager 中使用「初始化/更新」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

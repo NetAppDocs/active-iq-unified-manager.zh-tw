@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configuration, changes, detected 
 summary: Unified Manager會監控叢集的組態變更、以協助您判斷變更是否可能導致或促成效能事件。Performance Explorer頁面會顯示變更事件圖示（）、指出偵測到變更的日期和時間。 
 ---
-= Unified Manager偵測到組態變更
+= 監控 Active IQ Unified Manager 偵測到的組態變更
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

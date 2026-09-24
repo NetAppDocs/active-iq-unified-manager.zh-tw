@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: notifications page, email, smtp, server, snmp 
 summary: 您可以設定Unified Manager伺服器、在事件產生或指派給使用者時傳送通知。您也可以設定通知機制。例如、通知可以以電子郵件或SNMP設陷的形式傳送。 
 ---
-= 通知頁面
+= 了解 Active IQ Unified Manager 中的「通知」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

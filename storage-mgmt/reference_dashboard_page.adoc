@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: 「儀表板」頁面有「面板」、顯示您所監控叢集的高層容量、效能和安全性健全狀況。本頁也提供「管理動作」面板、其中列出Unified Manager解決特定事件時所能做的修正。 
 ---
-= 儀表板頁面
+= 了解 Active IQ Unified Manager 儀表板頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

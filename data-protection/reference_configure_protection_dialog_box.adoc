@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, protection, dialog box 
 summary: 您可以使用Configure Protection（設定保護）對話方塊、為SnapVault 叢集上的所有讀取、寫入和資料保護磁碟區建立SnapMirror和SnapMirror關係、以確保來源磁碟區或主要磁碟區上的資料已複寫。 
 ---
-= 設定保護對話方塊
+= 在 Active IQ Unified Manager 中使用「設定保護」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, quotas 
 summary: 您可以使用配額來限制FlexVol 資源在功能區中的使用量、在資源使用量達到特定層級時提供通知、或是追蹤資源使用量。 
 ---
-= 使用配額的理由
+= 了解 Active IQ Unified Manager 中的配額
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

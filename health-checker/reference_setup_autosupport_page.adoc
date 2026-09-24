@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support 
 summary: 利用此頁面、您可以傳送預先定義的隨需功能介紹訊息給技術支援團隊、確保環境正常運作、並協助您維護環境的完整性。AutoSupport AutoSupport根據預設、不應停用此功能、您就能享有NetAppActive IQ的好處。AutoSupport 
 ---
-= 將 AutoSupport 訊息和支援包傳送給技術支持
+= 在 Active IQ Unified Manager 中將 AutoSupport 訊息傳送給技術支援
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

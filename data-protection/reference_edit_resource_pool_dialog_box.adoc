@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource pool, dialog box 
 summary: 您可以使用「編輯資源池」對話方塊來變更現有資源池的名稱和說明。例如、如果原始名稱和說明不正確或不正確、您可以變更這些名稱和說明、使其更精確。 
 ---
-= 編輯資源池對話方塊
+= 在 Active IQ Unified Manager 中使用「編輯資源池」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

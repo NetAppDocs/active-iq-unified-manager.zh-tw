@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, changed 
 summary: 如果您調整現有效能臨界值原則的計數器值或持續時間、則原則變更會套用至使用該原則的所有儲存物件。新的設定會立即生效、Unified Manager會開始將效能計數器值與所有新收集效能資料的新臨界值設定進行比較。 
 ---
-= 效能臨界值原則變更時會發生什麼事
+= 了解 Active IQ Unified Manager 中的效能臨界值原則變更
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

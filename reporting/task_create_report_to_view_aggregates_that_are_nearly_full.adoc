@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: '您可以建立報告來強調80%以上的集合體已滿。' 
 ---
-= 建立報表以查看已滿 80% 或以上的聚合
+= 建立報告以檢視 Active IQ Unified Manager 中容量達 80% 或以上的彙總
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

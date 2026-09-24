@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: 如何解除安裝協力廠商產品，包括 Python 和 Microsoft Visual C++ 。 
 ---
-= 卸載第三方產品
+= 在 Active IQ Unified Manager 中解除安裝第三方產品
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

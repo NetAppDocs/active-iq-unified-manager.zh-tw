@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported browsers 
 summary: 若要存取Unified Manager Web UI、請使用支援的瀏覽器。 
 ---
-= 支援的瀏覽器
+= 在 Active IQ Unified Manager 中使用支援的瀏覽器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

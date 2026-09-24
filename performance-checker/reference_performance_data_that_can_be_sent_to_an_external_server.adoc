@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, data, external, server 
 summary: Unified Manager會從監控的所有叢集收集各種效能資料。您可以將特定的資料群組傳送至外部伺服器。 
 ---
-= 可傳送至外部伺服器的效能資料
+= 將 Active IQ Unified Manager 效能資料傳送至外部伺服器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

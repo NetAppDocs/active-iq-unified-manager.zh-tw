@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies 
 summary: 安裝在虛擬應用裝置上的Unified Manager備份與還原模式、是擷取及還原完整虛擬應用程式的映像。 
 ---
-= 在虛擬應用裝置上備份及還原Unified Manager
+= 在虛擬應用裝置上備份與恢復 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

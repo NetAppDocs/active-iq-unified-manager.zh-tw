@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: different, types, qos, policies, display, throughput, charts 
 summary: 您可以在Performance Explorer中檢視ONTAP定義的服務品質（QoS）原則設定、以及工作負載分析IOPS、IOPS/TB和MB/s圖表中、檢視已套用至磁碟區或LUN的設定。圖表中顯示的資訊會因套用至工作負載的QoS原則類型而有所不同。 
 ---
-= 處理量圖表中顯示不同類型的QoS原則
+= 使用 Active IQ Unified Manager 在處理量圖表中檢視 QoS 原則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

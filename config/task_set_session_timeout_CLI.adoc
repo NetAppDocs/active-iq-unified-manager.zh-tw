@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: session timeout, CLI, maximum 
 summary: 您可以使用 CLI 設定 Unified Manager 的工作階段逾時值上限，以便在一段時間後自動終止工作階段。 
 ---
-= 透過 CLI 設定工作階段逾時
+= 使用 Active IQ Unified Manager 中的 CLI 設定工作階段逾時
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

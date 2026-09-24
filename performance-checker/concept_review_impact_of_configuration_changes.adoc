@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: 叢集上的組態變更（例如故障磁碟、HA容錯移轉或移動磁碟區）可能會對磁碟區效能造成負面影響、並導致延遲增加。 
 ---
-= 檢閱組態變更對工作負載效能的影響
+= 評估組態變更如何影響 Active IQ Unified Manager 中的工作負載效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data mirror, status, definitions 
 summary: 支援各種組態、可在整個站台無法使用時、提供資料鏡射功能及啟動容錯移轉的額外能力。MetroCluster在一個不支援功能的組態中、叢集之間的資料鏡射狀態MetroCluster 可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。 
 ---
-= 資料鏡射狀態定義MetroCluster 、適用於透過FC的功能
+= 了解 Active IQ Unified Manager 中透過 FC 的 MetroCluster 資料鏡射
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

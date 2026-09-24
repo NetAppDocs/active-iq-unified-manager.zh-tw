@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, object, landing pages 
 summary: 「物件登陸」頁面提供所有重大、警告和資訊事件的詳細資料。它們提供所有叢集物件效能的詳細檢視、可讓您在不同的時間週期中選取及比較個別物件。 
 ---
-= 物件登陸頁面的元件
+= 檢視 Active IQ Unified Manager 中物件登陸頁面的元件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

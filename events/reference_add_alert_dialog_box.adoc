@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alert, dialog, box, name, resources, events, actions, command buttons 
 summary: 您可以建立警示、以便在產生特定事件時通知您、以便迅速解決此問題、進而將對環境的影響降至最低。您可以針對單一資源或一組資源、以及特定嚴重性類型的事件、建立警示。您也可以指定警示的通知方法和頻率。 
 ---
-= 新增警示對話方塊
+= 了解 Active IQ Unified Manager 中的「新增警報」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

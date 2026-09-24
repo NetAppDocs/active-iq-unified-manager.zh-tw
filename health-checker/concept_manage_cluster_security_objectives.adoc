@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives 
 summary: Unified Manager提供儀表板、可根據ONTAP 《NetApp ONTAP 資訊安全強化指南》（英文）中所定義的各項建議、識別您的叢集、儲存虛擬機器（SVM）和磁碟區的安全程度。 
 ---
-= 管理叢集安全目標
+= 在 Active IQ Unified Manager 中管理叢集安全性目標
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

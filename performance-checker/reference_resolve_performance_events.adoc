@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolving, performance, events 
 summary: 您可以使用建議的動作、自行嘗試解決效能事件。前三項建議一律會顯示、第四項建議下的行動則是針對所顯示的事件類型而定。 
 ---
-= 解決效能事件
+= 解決 Active IQ Unified Manager 中的效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

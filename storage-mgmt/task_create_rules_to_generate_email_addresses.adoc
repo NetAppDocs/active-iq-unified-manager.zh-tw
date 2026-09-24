@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses 
 summary: 您可以建立規則、根據與叢集、儲存虛擬機器（SVM）、磁碟區、qtree、使用者或使用者群組相關的使用者配額來指定電子郵件地址。當配額外洩時、系統會將通知傳送至指定的電子郵件地址。 
 ---
-= 建立規則以產生電子郵件地址
+= 在 Active IQ Unified Manager 中建立規則以產生電子郵件地址
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

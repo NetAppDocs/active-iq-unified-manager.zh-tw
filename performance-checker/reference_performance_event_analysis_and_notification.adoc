@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, notification 
 summary: 效能事件會通知您叢集元件發生爭用所造成的工作負載I/O效能問題。Unified Manager會分析事件、找出所有相關工作負載、爭用元件、以及事件是否仍是您可能需要解決的問題。 
 ---
-= 效能事件分析與通知
+= 在 Active IQ Unified Manager 中分析效能事件和通知
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

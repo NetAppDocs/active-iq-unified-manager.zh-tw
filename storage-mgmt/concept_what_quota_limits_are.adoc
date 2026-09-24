@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quota, limits 
 summary: 使用者配額限制是指Unified Manager伺服器用來評估使用者的空間使用量是否接近上限、或已達到使用者配額所設定的上限的值。如果軟體限制已超過或硬限制已達、Unified Manager伺服器會產生使用者配額事件。 
 ---
-= 配額限制為何
+= 了解 Active IQ Unified Manager 中的配額限制
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, custom, time range 
 summary: 「效能總管」頁面可讓您指定效能資料的日期和時間範圍。指定自訂時間範圍比使用預先定義的時間範圍來調整叢集物件資料更靈活。 
 ---
-= 指定自訂時間範圍
+= 在 Active IQ Unified Manager 中指定自訂時間範圍
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

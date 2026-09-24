@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: run, storage, efficiency, operations, less, busy, times 
 summary: 您可以修改處理儲存效率作業的原則或排程、以便在受影響的Volume工作負載較不忙碌時執行。 
 ---
-= 在較不繁忙的時間執行儲存效率作業
+= 在 Active IQ Unified Manager 中於較不繁忙的時段排程儲存效率作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

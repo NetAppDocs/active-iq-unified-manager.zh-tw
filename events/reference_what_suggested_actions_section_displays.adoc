@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: suggest, actions, section, displays 
 summary: 「事件詳細資料」頁面的「建議動作」區段提供事件的可能原因、並建議幾項行動、以便您自行解決事件。建議的動作是根據已違反的事件類型或臨界值類型而自訂。 
 ---
-= 顯示「建議動作」區段的內容
+= 了解 Active IQ Unified Manager 中的建議操作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

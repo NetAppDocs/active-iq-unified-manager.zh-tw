@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, resource pool, dialog box 
 summary: 您可以使用「建立資源池」對話方塊來命名及描述新的資源池、以及新增集合體至該資源池並從中刪除集合體。 
 ---
-= 建立資源池對話方塊
+= 在 Active IQ Unified Manager 中使用「建立資源池」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

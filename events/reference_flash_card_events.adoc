@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: flash, card, events, impact area, availability 
 summary: Flash卡事件可讓您瞭解資料中心節點上安裝的Flash卡狀態、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= Flash卡事件
+= 了解 Active IQ Unified Manager 中的快閃記憶卡事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

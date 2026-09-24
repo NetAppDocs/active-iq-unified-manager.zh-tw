@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, interfaces, manage, storage system, health 
 summary: 本節包含Active IQ Unified Manager 有關兩種使用者介面的資訊、這些介面可用來疑難排解資料儲存容量、可用度和保護問題。這兩個UI是Unified Manager Web UI和維護主控台。 
 ---
-= Unified Manager介面、用於管理儲存系統健全狀況
+= 使用 Active IQ Unified Manager 介面管理儲存系統健全狀況
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

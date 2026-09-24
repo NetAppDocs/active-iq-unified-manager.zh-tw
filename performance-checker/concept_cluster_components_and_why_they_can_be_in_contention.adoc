@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, components, why, contention 
 summary: 當叢集元件發生爭用時、您可以識別叢集效能問題。使用元件的工作負載效能會變慢、而用戶端要求的回應時間（延遲）也會增加、這會在Unified Manager中觸發事件。 
 ---
-= 叢集元件及其爭用的原因
+= 了解 Active IQ Unified Manager 中的叢集元件和爭用
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

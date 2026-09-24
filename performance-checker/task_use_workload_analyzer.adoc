@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer 
 summary: 從使用者介面啟動工作負載分析器有許多方法。此處說明從左側導覽窗格啟動工具。 
 ---
-= 使用工作負載分析器
+= 使用 Active IQ Unified Manager 中的工作負載分析器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

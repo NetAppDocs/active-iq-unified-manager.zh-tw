@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: 您可以使用Active IQ Unified Manager 適用於的儲存供應商API來檢視、建立、修改及刪除Performance Service層級。 
 ---
-= 使用 API 管理效能服務級別
+= 使用 Active IQ Unified Manager 中的 API 管理效能服務層級
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

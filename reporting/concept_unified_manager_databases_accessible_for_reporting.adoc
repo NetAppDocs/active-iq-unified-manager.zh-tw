@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, databases, access, custom, reporting 
 summary: Unified Manager使用MySQL資料庫來儲存其監控叢集的資料。資料會保留在MySQL資料庫的各種架構中。 
 ---
-= Unified Manager資料庫可供自訂報告使用
+= 在 Active IQ Unified Manager 中存取資料庫以進行自訂報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

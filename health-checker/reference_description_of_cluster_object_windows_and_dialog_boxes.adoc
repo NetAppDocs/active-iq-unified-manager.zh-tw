@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, cluster, object, windows, dialog boxes 
 summary: 您可以從各自的儲存物件頁面檢視所有叢集和叢集物件。您也可以從對應的儲存物件詳細資料頁面檢視詳細資料。您現在可以從庫存的下列儲存與保護區段啟動System Manager使用者介面。 
 ---
-= 叢集物件視窗和對話方塊說明
+= 了解 Active IQ Unified Manager 中的叢集物件視窗與對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

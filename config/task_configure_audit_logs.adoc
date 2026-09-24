@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: 您可以使用「稽核記錄」區段中的「設定」按鈕來設定稽核記錄檔的循環原則、也可以啟用稽核記錄的遠端記錄功能。 
 ---
-= 配置統一管理器稽核日誌
+= 設定 Active IQ Unified Manager 稽核日誌
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

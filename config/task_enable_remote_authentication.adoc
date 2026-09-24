@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, authentication 
 summary: 您可以啟用遠端驗證、讓Unified Manager伺服器能夠與驗證伺服器通訊。驗證伺服器的使用者可以存取Unified Manager圖形介面、以管理儲存物件和資料。 
 ---
-= 啟用遠端驗證
+= 在 Active IQ Unified Manager 中啟用遠端驗證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

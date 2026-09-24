@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, severity, types 
 summary: 每個事件都與嚴重性類型相關聯、可協助您排定需要立即修正行動的事件優先順序。 
 ---
-= 事件嚴重性類型說明
+= 了解 Active IQ Unified Manager 中的事件嚴重性類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

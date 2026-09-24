@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, metrocluster, configuration 
 summary: 您可以使用Unified Manager來分析MetroCluster 效能事件、以利進行VMware組態設定。您可以識別事件所涉及的工作負載、並檢閱建議的解決行動。 
 ---
-= 效能事件分析MetroCluster 、以利進行效能分析
+= 使用 Active IQ Unified Manager 分析 MetroCluster 效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

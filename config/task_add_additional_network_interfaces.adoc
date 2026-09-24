@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces 
 summary: 如果需要分隔網路流量、您可以新增網路介面。 
 ---
-= 新增網路介面
+= 將網路介面新增至 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

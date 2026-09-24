@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: additional menu, options 
 summary: 下列功能表選項可讓您在Unified Manager伺服器上執行各種管理工作。 
 ---
-= 其他功能表選項
+= 了解 Active IQ Unified Manager 中的其他維護主控台選單選項
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

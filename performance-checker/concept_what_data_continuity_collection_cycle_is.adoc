@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, continuity, collection, cycle 
 summary: 資料持續性收集週期會擷取即時叢集效能收集週期之外的效能資料、預設每五分鐘執行一次。資料持續性集合可讓Unified Manager填補無法收集即時資料時所發生的統計資料落差。 
 ---
-= 什麼是資料持續性收集週期
+= 了解 Active IQ Unified Manager 中的資料連續性收集週期
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

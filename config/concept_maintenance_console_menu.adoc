@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: maintenance, console, menus 
 summary: 維護主控台包含不同的功能表、可讓您維護及管理Unified Manager伺服器的特殊功能和組態設定。 
 ---
-= 維護主控台功能表
+= 了解 Active IQ Unified Manager 中的維護主控台選單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

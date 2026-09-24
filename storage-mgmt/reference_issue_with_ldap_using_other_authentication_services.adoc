@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: issue, addi, ldap, use, other, authentication, services 
 summary: 疑難排解：使用其他驗證服務新增LDAP時發生問題 
 ---
-= 使用其他驗證服務新增LDAP時出現問題
+= 解決在 Active IQ Unified Manager 中使用其他驗證服務新增 LDAP 所造成的問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

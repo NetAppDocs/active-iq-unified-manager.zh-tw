@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scheduling, reports 
 summary: 當您擁有想要重複使用的檢視畫面並以報告形式分享之後、您可以使用Active IQ Unified Manager 下列功能來排程報告：您可以管理排程的報告、變更每個報告排程的收件者和發佈頻率。 
 ---
-= 排程報告
+= 在 Active IQ Unified Manager 中排程報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

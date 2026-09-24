@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager ,rest api, reporting 
 summary: 您可以使用REST API來檢視Unified Manager擷取的健全狀況、容量、效能和安全資訊、以協助管理叢集。 
 ---
-= Unified Manager REST API可用於報告
+= 使用 Active IQ Unified Manager REST API 進行報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

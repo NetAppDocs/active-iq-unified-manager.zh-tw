@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: 您可以安裝Unified Manager來監控和疑難排解資料儲存容量、可用度、效能和保護問題。 
 ---
-= 安裝Unified Manager
+= 在 Windows 上安裝 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

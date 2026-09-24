@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: 您可以指定Active IQ Unified Manager 不活動逾時值以供使用。在指定時間內無活動之後、應用程式會自動登出。此選項預設為啟用。 
 ---
-= 指定不活動逾時
+= 在 Active IQ Unified Manager 中指定非活動逾時
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

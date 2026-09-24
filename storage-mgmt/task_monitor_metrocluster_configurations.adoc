@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, configurations 
 summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題。詳細資料包括叢集內的元件狀態和連線能力、以及MetroCluster 叢集間的連線狀態（以供參考組態設定）。 
 ---
-= 監控 MetroCluster 組態
+= 在 Active IQ Unified Manager 中監控 MetroCluster 組態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

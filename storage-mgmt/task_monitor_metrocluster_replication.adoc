@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: 鏡射資料時、您可以監控及診斷邏輯連線的整體健全狀況。您可以識別中斷叢集元件鏡射（例如集合體、節點和儲存虛擬機器）的問題或任何風險。 
 ---
-= 監控 MetroCluster 複製
+= 在 Active IQ Unified Manager 中監控 MetroCluster 複寫
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

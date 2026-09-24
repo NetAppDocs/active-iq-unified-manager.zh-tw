@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: requirements, install, unified manager 
 summary: 開始安裝程序之前、請先確定您要安裝Unified Manager的伺服器符合特定的軟體、硬體、CPU和記憶體需求。 
 ---
-= 安裝Unified Manager的需求
+= 確保伺服器符合 Active IQ Unified Manager 的安裝需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

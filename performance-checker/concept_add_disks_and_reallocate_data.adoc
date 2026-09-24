@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, reallocate, data 
 summary: 您可以將磁碟新增至Aggregate、以增加儲存容量和該Aggregate的效能。新增磁碟之後、只有在新增的磁碟上重新分配資料之後、讀取效能才會有所改善。 
 ---
-= 新增磁碟並重新分配資料
+= 了解在 Active IQ Unified Manager 中新增磁碟如何影響資料重新分配
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

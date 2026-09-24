@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, configuration, sequence 
 summary: 組態工作流程會說明您在使用Unified Manager之前必須執行的工作。 
 ---
-= 組態順序總覽
+= 了解 Active IQ Unified Manager 中的組態順序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

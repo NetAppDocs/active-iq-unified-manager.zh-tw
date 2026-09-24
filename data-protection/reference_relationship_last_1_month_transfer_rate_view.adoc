@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer rate, view 
 summary: 「關係：過去1個月傳輸率」檢視可讓您分析非同步關係中、每日傳輸的磁碟區數量。本頁也提供每日傳輸的詳細資料、以及完成Volume和Storage VM傳輸作業所需的時間。 
 ---
-= 關係：過去1個月的轉帳率檢視
+= 在 Active IQ Unified Manager 中顯示「關係：過去 1 個月傳輸率」檢視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

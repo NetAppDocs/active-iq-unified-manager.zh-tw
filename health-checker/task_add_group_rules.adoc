@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, group rules 
 summary: 您可以為群組建立群組規則、以便將磁碟區、叢集或儲存虛擬機器（SVM）等儲存物件動態新增至群組。您必須至少設定一個條件群組、以建立群組規則。 
 ---
-= 新增群組規則
+= 在 Active IQ Unified Manager 中新增群組規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ems events, added, automatically, unified manager 
 summary: 下列ONTAP 功能可自動新增至Unified Manager。在Unified Manager監控的任何叢集上觸發時、都會產生這些事件。 
 ---
-= 自動新增至Unified Manager的EMS事件
+= 自動新增至 Active IQ Unified Manager 的 EMS 事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

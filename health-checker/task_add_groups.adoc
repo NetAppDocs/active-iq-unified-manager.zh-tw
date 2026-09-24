@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, groups 
 summary: 您可以建立群組來結合叢集、磁碟區和儲存虛擬機器（SVM）、以利管理。 
 ---
-= 新增群組
+= 在 Active IQ Unified Manager 中新增群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

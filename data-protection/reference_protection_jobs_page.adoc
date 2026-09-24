@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page 
 summary: 「工作」頁面可讓您檢視目前正在執行的所有合作夥伴應用程式保護工作、以及已完成工作的目前狀態和其他資訊。您可以使用此資訊來查看哪些工作仍在執行中、以及某個工作是否成功或失敗。 
 ---
-= 「工作」頁面
+= 了解 Active IQ Unified Manager 中的工作頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

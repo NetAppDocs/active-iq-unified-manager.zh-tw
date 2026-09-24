@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, details, page 
 summary: 「工作詳細資料」頁面可讓您檢視有關執行中、佇列中或已完成之特定保護工作工作的狀態和其他資訊。您可以使用此資訊來監控保護工作進度、以及疑難排解工作失敗。 
 ---
-= 工作詳細資料頁面
+= 了解 Active IQ Unified Manager 中的工作詳細資料頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

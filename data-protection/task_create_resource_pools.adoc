@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools 
 summary: 您可以使用「建立資源池」對話方塊、將Aggregate分組以供資源配置之用。 
 ---
-= 建立資源池
+= 在 Active IQ Unified Manager 中建立資源池
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

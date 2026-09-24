@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enabling, flash cache, node, improve, workload, performance 
 summary: 您可以在叢集中的每個節點上啟用Flash Cache™智慧型資料快取、藉此改善工作負載效能。 
 ---
-= 在節點上啟用Flash Cache可如何改善工作負載效能
+= 透過在 Active IQ Unified Manager 中啟用節點上的 Flash Cache 來提高工作負載效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

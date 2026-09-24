@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: diagnostic, user, capabilities 
 summary: 診斷存取的目的是讓技術支援人員協助您進行疑難排解、您只能在技術支援人員的指示下使用。 
 ---
-= 診斷使用者功能
+= Active IQ Unified Manager 中的診斷使用者功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

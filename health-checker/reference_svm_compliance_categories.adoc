@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, compliance, svm compliance, categories 
 summary: 本表說明Unified Manager評估的儲存虛擬機器（SVM）安全性法規遵循條件、NetApp建議、以及此參數是否影響SVM的整體判斷是否符合申訴。 
 ---
-= 儲存VM法規遵循類別
+= 了解 Active IQ Unified Manager 中的儲存 VM 法規遵循類別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

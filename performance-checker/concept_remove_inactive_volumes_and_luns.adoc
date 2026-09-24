@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, inactive, volumes, luns 
 summary: 當將Aggregate可用空間識別為問題時、您可以搜尋未使用的磁碟區和LUN、然後從Aggregate中刪除它們。這有助於減輕磁碟空間不足的問題。 
 ---
-= 移除非作用中的磁碟區和LUN
+= 在 Active IQ Unified Manager 中移除非作用中的磁碟區和 LUN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

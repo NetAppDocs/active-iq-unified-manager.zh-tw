@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fans, events, impact, area, availability 
 summary: 「風扇」事件可提供資料中心節點上狀態風扇的相關資訊、讓您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 粉絲活動
+= 了解 Active IQ Unified Manager 中的風扇事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

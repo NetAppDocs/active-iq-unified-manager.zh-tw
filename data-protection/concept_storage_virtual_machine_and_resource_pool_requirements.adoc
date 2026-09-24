@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, resource pool requirements, support, storage services 
 summary: 如果您觀察到儲存服務專屬的SVM關聯和資源集區需求、您可以更好地確保合作夥伴應用程式的一致性： 例如、當您在Unified Manager中建立SVM關聯並建立資源集區、以支援合作夥伴應用程式所提供之儲存服務中的保護拓撲。 
 ---
-= 支援儲存服務的SVM和資源池需求
+= 在 Active IQ Unified Manager 中支援儲存設備服務的 SVM 與資源池需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

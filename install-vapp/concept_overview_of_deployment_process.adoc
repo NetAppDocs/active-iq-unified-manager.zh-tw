@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, deployment, process 
 summary: 部署工作流程會說明您在使用Unified Manager之前必須執行的工作。 
 ---
-= 部署程序總覽
+= 了解 Active IQ Unified Manager 的部署流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

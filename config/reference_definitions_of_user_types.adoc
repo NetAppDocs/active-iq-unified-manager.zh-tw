@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user types 
 summary: 使用者類型會指定使用者擁有的帳戶類型、包括遠端使用者、遠端群組、本機使用者、資料庫使用者及維護使用者。每種類型都有自己的角色、由具有管理員角色的使用者指派。 
 ---
-= 使用者類型定義
+= 了解 Active IQ Unified Manager 中的使用者類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

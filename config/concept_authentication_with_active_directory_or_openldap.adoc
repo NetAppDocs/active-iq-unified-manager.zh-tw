@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: authentication, active directory, openldap 
 summary: 您可以在管理伺服器上啟用遠端驗證、並設定管理伺服器與驗證伺服器通訊、讓驗證伺服器內的使用者能夠存取Unified Manager。 
 ---
-= 使用Active Directory或OpenLDAP驗證
+= 在 Active IQ Unified Manager 中使用 Active Directory 或 OpenLDAP 進行驗證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

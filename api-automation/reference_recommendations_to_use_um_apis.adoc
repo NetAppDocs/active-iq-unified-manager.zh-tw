@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: recommendations, apis, active iq, unified, manager 
 summary: 在Active IQ Unified Manager 使用API時、您應該遵循某些建議的實務做法。 
 ---
-= 使用API進行Active IQ Unified Manager 效能不穩定的建議
+= 遵循使用 Active IQ Unified Manager API 的建議做法
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

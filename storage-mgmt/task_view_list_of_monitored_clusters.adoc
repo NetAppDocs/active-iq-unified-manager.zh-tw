@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters 
 summary: 您可以使用「叢集設定」頁面來檢視叢集的詳細目錄。您可以檢視叢集的詳細資料、例如其名稱或IP位址和通訊狀態。 
 ---
-= 查看監控叢集列表
+= 檢視 Active IQ Unified Manager 監控的叢集清單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

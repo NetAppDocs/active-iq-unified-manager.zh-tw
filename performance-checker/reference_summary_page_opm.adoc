@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: summary page, charts, counter, statistics 
 summary: 「摘要」頁面會顯示計數器圖表、其中包含前72小時期間每個物件的事件和效能詳細資料。此資料不會自動重新整理、但會在最後一頁載入時保持最新狀態。「摘要」頁面中的圖表回答了我需要進一步探討的問題嗎？ 
 ---
-= 摘要頁面
+= 檢閱 Active IQ Unified Manager 中的「效能摘要」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

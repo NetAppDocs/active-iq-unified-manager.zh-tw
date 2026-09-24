@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box 
 summary: 您可以使用「選取來源Snapshot複本」對話方塊來選取特定的Snapshot複本、以便在保護關係之間傳輸資料、或是選取預設行為、視您正在初始化、更新或重新同步關係、以及關係是SnapMirror或SnapVault SnapMirror而定。 
 ---
-= 選取來源Snapshot複本對話方塊
+= 在 Active IQ Unified Manager 中使用「選擇來源 Snapshot 快照技術副本」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

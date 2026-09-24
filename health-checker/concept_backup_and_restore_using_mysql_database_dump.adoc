@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: MySQL資料庫傾印備份是Active IQ Unified Manager 一套適用於系統故障或資料遺失情況的還原資料庫和組態檔案複本。您可以排程將備份寫入本機目的地或遠端目的地。強烈建議您定義Active IQ Unified Manager 一個不屬於該主機系統的遠端位置。 
 ---
-= 使用MySQL資料庫傾印進行備份與還原
+= 在 Active IQ Unified Manager 中使用 MySQL 資料庫傾印進行備份與恢復
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: 系統必須能夠存取某些儲存庫和軟體包，以便安裝程式能夠存取和安裝所有必需的軟體相依性。 
 ---
-= 安裝統一管理器所需的軟體
+= 設定 Active IQ Unified Manager 所需的軟體
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

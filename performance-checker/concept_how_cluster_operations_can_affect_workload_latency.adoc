@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, operations, affect, workload, latency 
 summary: 作業（IOPS）代表叢集上所有使用者定義和系統定義工作負載的活動。IOPS統計資料可協助您判斷叢集處理程序（例如進行備份或執行重複資料刪除）是否會影響工作負載延遲（回應時間）、或可能導致或促成效能事件。 
 ---
-= 叢集作業如何影響工作負載延遲
+= 評估叢集操作如何影響 Active IQ Unified Manager 中的工作負載延遲
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

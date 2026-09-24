@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds 
 summary: 某些常見的效能計數器（例如IOPS和MB/s）可以設定所有儲存物件的臨界值。還有其他計數器只能設定特定儲存物件的臨界值。 
 ---
-= 可使用臨界值來追蹤哪些效能計數器
+= 了解 Active IQ Unified Manager 中使用臨界值追蹤的效能計數器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group 
 summary: 群組是異質儲存物件（叢集、SVM或Volume）的動態集合。您可以在Unified Manager中建立群組、輕鬆管理一組儲存物件。群組中的成員可能會有所變更、視Unified Manager在某個時間點監控的儲存物件而定。 
 ---
-= 什麼是群組
+= 了解 Active IQ Unified Manager 中的群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

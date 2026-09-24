@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remote authentication, page 
 summary: 您可以使用「遠端驗證」頁面設定Unified Manager與驗證伺服器通訊、以驗證嘗試登入Unified Manager Web UI的遠端使用者。 
 ---
-= 遠端驗證頁面
+= 使用 Active IQ Unified Manager 中的遠端身分驗證頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

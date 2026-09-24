@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer status, view 
 summary: 「關係：過去1個月的傳輸狀態」檢視可讓您分析非同步關係中磁碟區和儲存VM一段時間內的傳輸趨勢。此頁面也會顯示傳輸是否成功或失敗。 
 ---
-= 關係：過去1個月的「傳輸狀態」檢視
+= 在 Active IQ Unified Manager 中顯示過去 1 個月的傳輸狀態檢視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

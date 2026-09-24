@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, alerts 
 summary: 您可以測試警示、確認已正確設定。觸發事件時、會產生警示、並傳送警示電子郵件給設定的收件者。您可以使用測試警示來驗證通知是否已傳送、以及指令碼是否已執行。 
 ---
-= 測試警示
+= 在 Active IQ Unified Manager 中測試警報
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

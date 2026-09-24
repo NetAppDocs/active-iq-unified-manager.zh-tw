@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: 您可以使用管理伺服器類別下的工作API來檢視非同步作業的執行詳細資料。 
 ---
-= 查看作業和系統詳細信息
+= 使用 Active IQ Unified Manager 中的 API 檢視作業和系統詳細資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

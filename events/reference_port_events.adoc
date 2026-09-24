@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: port, events, impact area, availability, performance 
 summary: 連接埠事件可提供叢集連接埠的相關狀態、讓您監控連接埠上的變更或問題、例如連接埠是否關閉。 
 ---
-= 連接埠事件
+= 了解 Active IQ Unified Manager 中的連接埠事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

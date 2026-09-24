@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audience, api, rest 
 summary: 本節旨在協助開發人員建立應用程式、Active IQ Unified Manager 以便透過REST API與該軟件建立介面。 
 ---
-= 此內容的對象
+= 識別 Active IQ Unified Manager REST API 的目標使用者
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, vm events, impact area, availability, configuration, performance, security 
 summary: 儲存VM事件可提供儲存VM（SVM）狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 儲存VM事件
+= 了解 Active IQ Unified Manager 中的儲存 VM 事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

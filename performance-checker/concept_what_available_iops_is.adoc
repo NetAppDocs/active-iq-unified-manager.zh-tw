@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: available, iops, total iops, aggregate iops, volume iops 
 summary: 可用的IOPS計數器可識別在資源達到上限之前、可新增至節點或集合體的其餘IOPS數。節點可提供的IOPS總計取決於節點的實體特性、例如CPU數量、CPU速度和RAM容量。集合體可提供的IOPS總計取決於磁碟的實體內容、例如SATA、SAS或SSD磁碟。 
 ---
-= 什麼是可用的IOPS
+= 了解 Active IQ Unified Manager 中的可用 IOPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

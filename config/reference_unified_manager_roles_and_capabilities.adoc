@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, user, roles, capabilities 
 summary: 根據指派的使用者角色、您可以決定可以在Unified Manager中執行哪些作業。 
 ---
-= Unified Manager使用者角色與功能
+= 了解 Active IQ Unified Manager 中的使用者角色和功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

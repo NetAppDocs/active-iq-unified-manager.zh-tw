@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group rules 
 summary: 您可以編輯群組規則、以修改條件群組及條件群組中的條件、以便在特定群組中新增或移除儲存物件。 
 ---
-= 編輯群組規則
+= 在 Active IQ Unified Manager 中編輯群組規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

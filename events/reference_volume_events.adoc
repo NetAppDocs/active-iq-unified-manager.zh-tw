@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, events, impact area, availability, capacity, configuration, performance 
 summary: Volume事件提供磁碟區狀態的相關資訊、可讓您監控潛在問題。這些事件會依影響區域分組、包括事件名稱、陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= Volume事件
+= 了解 Active IQ Unified Manager 中的 Volume 事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

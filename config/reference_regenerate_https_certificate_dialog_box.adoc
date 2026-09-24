@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: regenerate, https certificate, dialog, box 
 summary: 「重新產生HTTPS憑證」對話方塊可讓您自訂安全性資訊、然後使用該資訊產生新的HTTPS憑證。 
 ---
-= 重新產生HTTPS憑證對話方塊
+= 在 Active IQ Unified Manager 中重新產生 HTTPS 憑證對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, events 
 summary: 事件可協助您識別受監控叢集中的問題。 
 ---
-= 管理活動
+= 在 Active IQ Unified Manager 中管理事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hello, api server 
 summary: Hello API伺服器是示範如何Active IQ Unified Manager 使用簡單的REST用戶端、在靜態中叫用REST API的範例程式。範例程式會以Json格式提供API伺服器的基本詳細資料（伺服器僅支援應用程式/json格式）。 
 ---
-= 您好API伺服器
+= 了解 Active IQ Unified Manager 中的 Hello API 伺服器範例方案
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

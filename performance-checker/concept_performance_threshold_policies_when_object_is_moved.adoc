@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved 
 summary: 因為效能臨界值原則會指派給儲存物件、所以如果您移動物件、所有指派的臨界值原則都會在移動完成後附加到物件上。例如、如果您將磁碟區或LUN移至不同的Aggregate、則新Aggregate上的磁碟區或LUN的臨界值原則仍會處於作用中狀態。 
 ---
-= 物件搬移時、效能臨界值原則會發生什麼變化
+= 在 Active IQ Unified Manager 中移動物件時管理臨界值原則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

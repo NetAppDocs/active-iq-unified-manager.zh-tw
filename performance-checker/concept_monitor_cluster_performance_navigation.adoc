@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, navigation 
 summary: 您可以監控Unified Manager管理的所有叢集效能。監控叢集提供叢集與物件效能的總覽、並包含效能事件監控功能。您可以在高層級檢視效能和事件、也可以進一步調查叢集、物件效能和效能事件的任何詳細資料。 
 ---
-= 監控叢集效能導覽
+= 在 Active IQ Unified Manager 中監控叢集效能導覽
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

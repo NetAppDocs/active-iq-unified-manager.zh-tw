@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, reports 
 summary: 此表提供可自訂、下載及排程的報告檢視和庫存頁面完整清單。 
 ---
-= 報告類型
+= 了解 Active IQ Unified Manager 中的報告類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

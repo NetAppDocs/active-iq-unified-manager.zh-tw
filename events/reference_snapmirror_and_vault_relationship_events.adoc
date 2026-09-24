@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
 summary: 非同步鏡射和Vault關係事件可提供您有關非同步SnapMirror和Vault關係狀態的資訊、以便您監控潛在問題。Volume和Storage VM保護關係均支援非同步鏡射和Vault關係事件。但儲存VM災難恢復僅支援Vault關係。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 非同步鏡射和Vault關係事件
+= 了解 Active IQ Unified Manager 中的非同步鏡像和 Vault 關係事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

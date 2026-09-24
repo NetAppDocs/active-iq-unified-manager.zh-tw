@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapshot, events, impact area, availability 
 summary: Snapshot事件提供快照狀態的相關資訊、可讓您監控快照是否有潛在問題。這些事件會依影響區域分組、包括事件名稱、陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= Snapshot事件
+= 了解 Active IQ Unified Manager 中的 Snapshot 快照技術事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

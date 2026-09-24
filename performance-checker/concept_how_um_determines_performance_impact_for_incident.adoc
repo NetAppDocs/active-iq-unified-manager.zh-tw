@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, determines, performance, impact, event 
 summary: Unified Manager會針對工作負載使用活動、使用率、寫入處理量、叢集元件使用量或I/O延遲（回應時間）等方面的差異、來判斷對工作負載效能的影響程度。此資訊可決定每個工作負載在事件中的角色、以及其在「事件詳細資料」頁面上的排名。 
 ---
-= Unified Manager如何判斷事件的效能影響
+= 了解 Active IQ Unified Manager 如何決定事件的效能影響
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

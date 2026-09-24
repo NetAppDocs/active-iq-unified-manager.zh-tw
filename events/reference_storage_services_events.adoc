@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, services, events, impact area, configuration, protection 
 summary: 儲存服務事件可提供您有關建立及訂閱儲存服務的資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 儲存服務事件
+= 了解 Active IQ Unified Manager 中的儲存設備服務事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

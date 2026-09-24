@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, qos, control, workload, throughput 
 summary: 您可以建立服務品質（QoS）原則群組、以控制其所含工作負載的每秒I/O（IOPS）或處理量（MB/s）限制。如果工作負載位於沒有設定限制的原則群組中（例如預設原則群組）、或設定的限制不符合您的需求、您可以增加限制、或將工作負載移至具有所需限制的新原則群組或現有原則群組。 
 ---
-= 儲存QoS如何控制工作負載處理量
+= 在 Active IQ Unified Manager 中使用儲存設備 QoS 控制工作負載處理量
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

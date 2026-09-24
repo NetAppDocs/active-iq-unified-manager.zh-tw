@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rest api, access, authentication, active iq, unified, manager 
 summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台、來存取此靜態API。Active IQ Unified ManagerUnified Manager支援基本HTTP驗證機制。在呼叫Unified Manager REST API之前、您必須先驗證使用者。 
 ---
-= REST API存取與驗Active IQ Unified Manager 證功能
+= 在 Active IQ Unified Manager 中存取和驗證 REST API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

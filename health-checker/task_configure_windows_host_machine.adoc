@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
 summary: 您必須先設定Windows主機、才能使用NetApp Snapshot備份及還原Active IQ Unified Manager 功能。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下iSCSI啟動器。 
 ---
-= 設定Windows主機
+= 在 Active IQ Unified Manager 中設定 Windows 主機
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

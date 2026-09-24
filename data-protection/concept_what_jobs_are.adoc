@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs 
 summary: 工作是一系列的工作、您可以使用Unified Manager進行監控。檢視工作及其相關工作可讓您判斷是否已成功完成。 
 ---
-= 什麼是工作
+= 了解 Active IQ Unified Manager 中的工作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

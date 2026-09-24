@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: 您可以監控所有節點或叢集中所有集合體的可用IOPS值、也可以檢視單一節點或集合體的詳細資料。 
 ---
-= 查看節點並聚合可用 IOPS 值
+= 在 Active IQ Unified Manager 中檢視節點和彙總的可用 IOPS 值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 您可以檢視MetroCluster 以VMware組態或儲存虛擬機器（儲存VM）災難恢復（SVM DR）設定所託管之資料存放區的組態和效能指標。 
 ---
-= 查看災難復原設定中的虛擬基礎架構
+= 使用 Active IQ Unified Manager 檢視災難恢復設定中的虛擬化基礎架構可見度
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

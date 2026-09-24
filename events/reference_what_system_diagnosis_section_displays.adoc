@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, diagnosis, section, displays 
 summary: 「事件詳細資料」頁面的「系統診斷」區段提供的資訊、可協助您診斷可能導致事件發生的問題。 
 ---
-= 系統診斷區段顯示的內容
+= 了解 Active IQ Unified Manager 中的系統診斷功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

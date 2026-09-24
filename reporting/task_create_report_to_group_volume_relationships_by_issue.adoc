@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, issue 
 summary: 您可以建立報告、依問題將Volume關係分組。 
 ---
-= 建立報告以按問題對卷宗關係進行分組
+= 在 Active IQ Unified Manager 中建立按問題分組的 Volume 關係報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

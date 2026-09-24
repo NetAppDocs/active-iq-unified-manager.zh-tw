@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sources, performance, events 
 summary: 效能事件是與叢集上的工作負載效能有關的問題。它們可協助您以緩慢的回應時間識別儲存物件、也稱為高延遲。除了同時發生的其他健全狀況事件、您也可以判斷可能造成或促成回應時間緩慢的問題。 
 ---
-= 效能事件來源
+= 辨識 Active IQ Unified Manager 中的效能事件來源
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

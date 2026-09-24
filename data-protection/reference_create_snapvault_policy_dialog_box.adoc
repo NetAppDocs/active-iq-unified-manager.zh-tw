@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy, dialog box 
 summary: 「建立SnapVault 不規則」對話方塊可讓您建立原則、以設定SnapVault 進行不規則地傳輸的優先順序。您可以使用原則來最大化從主要磁碟區傳輸到次要磁碟區的效率。 
 ---
-= 「建立SnapVault 不規則」對話方塊
+= 在 Active IQ Unified Manager 中使用「建立 SnapVault 原則」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

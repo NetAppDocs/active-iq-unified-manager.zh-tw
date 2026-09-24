@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: 所有儲存物件效能檢視 
 ---
-= 查看所有儲存物件的效能清單頁面
+= 在 Active IQ Unified Manager 中檢視所有儲存設備物件的效能清單頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

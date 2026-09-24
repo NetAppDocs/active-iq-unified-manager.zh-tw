@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation sequence 
 summary: 安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。 
 ---
-= 安裝順序總覽
+= 查看 Active IQ Unified Manager 的安裝順序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

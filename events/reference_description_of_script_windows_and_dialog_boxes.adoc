@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, script, windows, dialog boxes 
 summary: 「指令碼」頁面可讓您將指令碼新增至Unified Manager。 
 ---
-= 指令碼視窗和對話方塊說明
+= Active IQ Unified Manager 中的指令碼視窗與對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

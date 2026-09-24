@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions 
 summary: 您可以建立使用者定義的效能臨界值原則、以便在節點或Aggregate的效能容量使用值超過所定義的效能容量使用臨界值設定時觸發事件。 
 ---
-= 效能容量使用效能臨界值條件
+= 在 Active IQ Unified Manager 中設定已使用效能容量臨界值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

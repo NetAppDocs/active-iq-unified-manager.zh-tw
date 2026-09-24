@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, relationships, metrocluster 
 summary: 「關係：所有關係」檢視會顯示有關儲存系統上保護關係的資訊。 
 ---
-= 關係：「所有關係」檢視
+= 在 Active IQ Unified Manager 中顯示關係：所有關係檢視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

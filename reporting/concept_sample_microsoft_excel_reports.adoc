@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, microsoft, excel, reports 
 summary: 這些Microsoft Excel報告範例旨在介紹使用Excel進階功能的報告選項。 
 ---
-= Microsoft Excel報告範例
+= 了解 Active IQ Unified Manager 中的 Microsoft Excel 報告範例
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

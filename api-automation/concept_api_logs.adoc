@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting 
 summary: 系統記錄可讓您分析失敗的原因、並疑難排解執行API時可能發生的問題。 
 ---
-= 疑難排解記錄
+= 使用 Active IQ Unified Manager 中的系統日誌進行故障排除
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

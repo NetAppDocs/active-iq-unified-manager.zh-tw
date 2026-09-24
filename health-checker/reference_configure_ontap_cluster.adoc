@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
 summary: 在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。 
 ---
-= 設定ONTAP 叢集
+= 在 Active IQ Unified Manager 中設定 ONTAP 叢集以進行備份與恢復
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

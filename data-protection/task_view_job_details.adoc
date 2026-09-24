@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, job, details 
 summary: 在您開始工作之後、您可以從「工作詳細資料」頁面追蹤其進度、並監控相關的工作、以找出可能的錯誤。 
 ---
-= 檢視工作詳細資料
+= 在 Active IQ Unified Manager 中檢視工作詳細資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

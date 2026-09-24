@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
 summary: 容量測量單位實體和邏輯容量 
 ---
-= 介紹不健全狀況監控Active IQ Unified Manager
+= 了解 Active IQ Unified Manager 中的健全狀況監控
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

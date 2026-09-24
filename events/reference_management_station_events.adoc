@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: management, station, events, impact area, configuration, performance 
 summary: Management Station事件可提供安裝Unified Manager之伺服器狀態的相關資訊、讓您監控是否有潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= Management Station事件
+= 了解 Active IQ Unified Manager 中的管理站台事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

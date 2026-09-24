@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inodes, events, impact area, capacity 
 summary: inode事件會在inode已滿或幾乎已滿時提供資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= inode事件
+= 了解 Active IQ Unified Manager 中的 inode 事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

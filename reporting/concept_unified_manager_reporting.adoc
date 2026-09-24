@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified, manager, reporting 
 summary: 支援使用者可檢視、自訂、下載及排程適用於您的各種儲存系統的報告（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。這些報告可提供有關儲存系統容量、健全狀況、效能和保護關係的詳細資料。 
 ---
-= Unified Manager報告
+= 了解 Active IQ Unified Manager 報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

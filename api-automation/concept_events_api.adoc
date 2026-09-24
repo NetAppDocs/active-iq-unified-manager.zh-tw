@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: 事件API可讓您擷取資料中心內受監控叢集所產生的事件。 
 ---
-= 使用 API 管理事件和警報
+= 使用 Active IQ Unified Manager 中的 API 管理事件與警示
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

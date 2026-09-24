@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, dialog box 
 summary: 「重新同步」對話方塊可讓您重新同步先前SnapVault 中斷的SnapMirror或SnapMirror關係資料、然後將目的地建立為讀寫磁碟區。當來源磁碟區上所需的通用Snapshot複本遭刪除、導致SnapMirror或SnapVault 更新失敗時、您也可以重新同步。 
 ---
-= 重新同步對話方塊
+= 在 Active IQ Unified Manager 中使用重新同步對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

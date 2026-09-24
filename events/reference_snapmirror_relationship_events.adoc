@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapmirror, relationship, events, impact area, protection 
 summary: SnapMirror關係事件可提供您有關非同步和同步SnapMirror關係狀態的資訊、以便您監控潛在問題。非同步SnapMirror關係事件會同時針對儲存VM和Volume產生、但同步SnapMirror關係事件只會針對磁碟區關係產生。對於屬於Storage VM災難恢復關係一部分的組成磁碟區、不會產生任何事件。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= SnapMirror關係事件
+= 了解 Active IQ Unified Manager 中的 SnapMirror 關係事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, move, status, events, impact area, capacity 
 summary: Volume Move狀態事件會告訴您Volume Move的狀態、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= Volume Move狀態事件
+= 了解 Active IQ Unified Manager 中的 Volume 移動狀態事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

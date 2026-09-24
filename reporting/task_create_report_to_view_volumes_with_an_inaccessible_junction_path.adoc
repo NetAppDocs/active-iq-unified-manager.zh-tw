@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: 您可以建立報告來尋找具有無法存取掛載路徑的磁碟區。 
 ---
-= 建立報告以查看具有無法存取的掛載路徑的捲
+= 建立一份報告，以檢視 Active IQ Unified Manager 中裝載路徑無法存取的 Volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

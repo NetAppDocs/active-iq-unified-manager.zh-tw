@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: 您可以在實體或虛擬 Red Hat Enterprise Linux 平台上安裝 Unified Manager 。 
 ---
-= 安裝Unified Manager
+= 在 Red Hat Enterprise Linux 上安裝 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

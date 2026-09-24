@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: window, layout, customization 
 summary: 利用此功能、您可以自訂儲存和網路物件頁面上的資訊配置。Active IQ Unified Manager透過自訂視窗、您可以控制要檢視的資料、以及資料的顯示方式。 
 ---
-= 自訂視窗配置
+= 在 Active IQ Unified Manager 中自訂視窗佈局
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

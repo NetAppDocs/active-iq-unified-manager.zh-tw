@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: 效能容量可指出您可以從資源中獲得多少處理量、而不會超過該資源的實用效能。使用現有的效能計數器檢視時、效能容量是指在延遲問題發生之前、從節點或集合體取得最大使用率的點。 
 ---
-= 使用效能容量和可用 IOPS 資訊管理效能
+= 在 Active IQ Unified Manager 中管理效能容量和可用 IOPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

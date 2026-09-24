@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: 修改儲存工作負載的方式包括更新LUN或檔案共用、但缺少參數、或是變更現有參數。 
 ---
-= 使用 API 修改儲存工作負載
+= 使用 Active IQ Unified Manager 中的 API 修改儲存設備工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

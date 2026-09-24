@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
 summary: 「功能設定」頁面可讓您啟用及停用Active IQ Unified Manager 功能。這包括根據原則建立及管理儲存物件、啟用API閘道、上傳用於管理警示的指令碼、根據閒置時間逾時網路UI工作階段、以及停用Active IQ 接收到的功能。 
 ---
-= 管理功能設定
+= 了解 Active IQ Unified Manager 中的功能設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

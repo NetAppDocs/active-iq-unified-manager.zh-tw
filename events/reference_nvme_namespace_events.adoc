@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nvme, namespace, events, impact area, availability, performance 
 summary: NVMe命名空間事件可提供命名空間狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= NVMe命名空間事件
+= 了解 Active IQ Unified Manager 中的 NVMe 命名空間事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

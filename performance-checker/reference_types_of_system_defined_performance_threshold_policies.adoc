@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: Unified Manager提供一些標準臨界值原則、可監控叢集效能並自動產生事件。這些原則預設為啟用、當受監控的效能臨界值遭到違反時、它們會產生警告或資訊事件。 
 ---
-= 系統定義的效能臨界值原則類型
+= 了解 Active IQ Unified Manager 中系統定義的效能臨界值原則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: counter, charts, zoom, view 
 summary: 「計數器圖表」提供「縮放檢視」、可讓您在指定的期間內放大效能詳細資料。如此一來、您就能以更精細的方式查看效能詳細資料和事件、這在疑難排解效能問題時非常實用。 
 ---
-= 計數器圖表縮放檢視
+= 了解 Active IQ Unified Manager 中計數器圖表的縮放檢視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

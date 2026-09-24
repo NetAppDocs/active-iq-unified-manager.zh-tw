@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: discovery, process, works 
 summary: 將叢集新增至Unified Manager之後、伺服器會探索叢集物件並將其新增至其資料庫。瞭解探索程序的運作方式、有助於管理組織的叢集及其物件。 
 ---
-= 探索程序的運作方式
+= 了解 Active IQ Unified Manager 中的叢集探索過程如何運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

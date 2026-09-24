@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, saml, authentication 
 summary: 您可以啟用安全聲明標記語言（SAML）驗證、讓遠端使用者在存取Unified Manager Web UI之前、先經過安全身分識別供應商（IDP）的驗證。 
 ---
-= 啟用SAML驗證
+= 在 Active IQ Unified Manager 中啟用 SAML 驗證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

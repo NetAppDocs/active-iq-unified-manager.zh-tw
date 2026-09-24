@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, chart, details 
 summary: 對於動態效能事件、「事件詳細資料」頁面的「系統診斷」區段會列出延遲最長或使用爭用叢集元件的最高工作負載。效能統計資料是根據上次分析事件之前偵測到效能事件的時間而得。這些圖表也會顯示爭用叢集元件的歷史效能統計資料。 
 ---
-= 動態效能事件圖表詳細資料
+= 了解 Active IQ Unified Manager 中的動態效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

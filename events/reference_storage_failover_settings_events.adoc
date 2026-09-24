@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, failover, settings, events, impact area, availability 
 summary: 儲存容錯移轉（SFO）設定事件可讓您瞭解儲存容錯移轉是否已停用、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 儲存容錯移轉設定事件
+= 了解 Active IQ Unified Manager 中的儲存設備容錯移轉設定事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

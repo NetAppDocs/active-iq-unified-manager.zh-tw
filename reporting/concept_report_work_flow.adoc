@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, workflow 
 summary: 說明報告工作流程的決策樹狀結構。 
 ---
-= 報告工作流程
+= 了解 Active IQ Unified Manager 中的報告工作流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

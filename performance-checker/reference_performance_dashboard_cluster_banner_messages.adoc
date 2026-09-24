@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, banner, messages, descriptions 
 summary: Unified Manager可能會在「通知」頁面（從「通知」警示）上顯示橫幅訊息、提醒您特定叢集的狀態問題。 
 ---
-= 效能橫幅訊息與說明
+= 在 Active IQ Unified Manager 中解讀效能橫幅訊息
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

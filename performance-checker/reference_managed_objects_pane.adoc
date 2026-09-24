@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: 「效能摘要」索引標籤中的「受管理的物件」窗格、提供叢集儲存物件類型和計數的最上層概觀。此窗格可讓您追蹤每個叢集中物件的狀態。 
 ---
-= 「託管物件」窗格
+= 查看 Active IQ Unified Manager 中的「託管物件」窗格
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

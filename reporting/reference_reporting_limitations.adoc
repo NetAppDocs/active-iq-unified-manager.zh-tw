@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reporting, limitations 
 summary: 您Active IQ Unified Manager 應該注意到新的功能不符合某些限制。 
 ---
-= 報告限制
+= 了解 Active IQ Unified Manager 中的報告限制
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

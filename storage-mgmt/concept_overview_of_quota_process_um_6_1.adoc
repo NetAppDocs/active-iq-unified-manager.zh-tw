@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, quota, process 
 summary: 配額可以是軟的或硬的。軟配額會導致ONTAP 當超過指定的限制時、不再傳送通知、硬配額則會在超過指定的限制時、防止寫入作業成功。 
 ---
-= 配額程序總覽
+= 了解 Active IQ Unified Manager 配額流程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, interfaces, used, manage, storage, system, performance, web ui, maintenance, console 
 summary: 共有兩種使用者介面Active IQ Unified Manager 、可用來監控及疑難排解資料儲存效能問題：網路使用者介面和維護主控台。 
 ---
-= Unified Manager介面、用於管理儲存系統效能
+= 使用 Active IQ Unified Manager 介面管理儲存系統效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

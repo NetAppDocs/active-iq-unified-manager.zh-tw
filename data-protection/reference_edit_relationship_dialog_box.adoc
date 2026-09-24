@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, relationship, dialog box 
 summary: 您可以編輯現有的保護關係、以變更最大傳輸率、保護原則或保護排程。 
 ---
-= 編輯關係對話方塊
+= 在 Active IQ Unified Manager 中編輯保護關係
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

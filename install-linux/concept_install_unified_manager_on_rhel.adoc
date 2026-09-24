@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, linux systems 
 summary: 請務必瞭解、下載及安裝Unified Manager的步驟順序會因安裝案例而異。 
 ---
-= 在Linux系統上安裝Unified Manager
+= 在 Linux 系統上安裝 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

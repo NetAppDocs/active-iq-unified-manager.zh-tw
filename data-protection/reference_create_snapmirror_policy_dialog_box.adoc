@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, dialog box 
 summary: 「建立SnapMirror原則」對話方塊可讓您建立原則、以設定SnapMirror傳輸的優先順序。您可以使用原則來最大化從來源傳輸到目的地的效率。 
 ---
-= Create SnapMirror Policy（創建SnapMirror策略）對話框
+= 在 Active IQ Unified Manager 中使用「建立 SnapMirror 原則」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction 
 summary: 您可以將磁碟新增至Aggregate、以增加儲存容量和該Aggregate的效能。新增磁碟之後、您只會在重建集合體之後看到效能提升。 
 ---
-= 新增磁碟並執行Aggregate配置重建
+= 了解在 Active IQ Unified Manager 中新增磁碟如何影響彙總佈局
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, levels 
 summary: 每個事件都與影響層級（事件、風險、事件或升級）相關聯、可協助您排定需要立即修正行動的事件優先順序。 
 ---
-= 事件影響層級說明
+= 了解 Active IQ Unified Manager 中的事件影響級別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

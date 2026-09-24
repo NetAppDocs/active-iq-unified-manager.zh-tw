@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons 
 summary: 「產生使用者和群組配額的規則電子郵件地址」頁面可讓您建立規則、根據與叢集、SVM、磁碟區、qtree、使用者、 或使用者群組。當超出配額時、系統會將通知傳送至指定的電子郵件地址。 
 ---
-= 產生使用者和群組配額電子郵件地址頁面的規則
+= 了解 Active IQ Unified Manager 中的配額電子郵件地址規則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

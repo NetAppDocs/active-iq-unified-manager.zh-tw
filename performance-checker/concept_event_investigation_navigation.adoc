@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, investigation, navigation 
 summary: Unified Manager事件詳細資料頁面可讓您深入瞭解任何效能事件。這在調查效能事件、疑難排解、以及微調系統效能時、都很有幫助。 
 ---
-= 事件調查導覽
+= 調查 Active IQ Unified Manager 中的效能事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, client, network, issues 
 summary: 當連接至叢集上磁碟區的用戶端增加I/O要求時、叢集必須更努力地滿足需求。對叢集的需求增加、可能會使元件爭用、增加使用該元件的工作負載延遲、並在Unified Manager中觸發事件。 
 ---
-= 檢查用戶端或網路問題
+= 了解用戶端或網路問題如何影響 Active IQ Unified Manager 的效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

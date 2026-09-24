@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, areas 
 summary: 活動分為六個影響領域（可用度、容量、組態、效能、保護、 及安全性）、讓您能夠專注於您負責的事件類型。 
 ---
-= 事件影響區域說明
+= 了解 Active IQ Unified Manager 中的事件影響區域
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, workload, latency, identify, performance, issues 
 summary: 工作負載延遲（回應時間）是叢集上的磁碟區回應用戶端應用程式I/O要求所需的時間。Unified Manager會使用延遲來偵測並警示效能事件。 
 ---
-= Unified Manager如何使用工作負載延遲來識別效能問題
+= 利用工作負載延遲來識別 Active IQ Unified Manager 中的效能問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

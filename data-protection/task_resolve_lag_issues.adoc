@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: 此工作流程提供一個範例、說明您可以如何解決延遲問題。在此案例中、您是存取Unified Manager儀表板頁面的管理員或操作員、可查看您的保護關係是否有任何問題、如果存在、也可找到解決方案。 
 ---
-= 解決延遲問題
+= 解決 Active IQ Unified Manager 中的延遲問題
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

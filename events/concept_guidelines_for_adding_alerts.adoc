@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: guidelines, adding, alerts 
 summary: 您可以根據資源（例如叢集、節點、Aggregate或Volume）以及特定嚴重性類別的事件來新增警示。最佳實務做法是在新增物件所屬的叢集之後、針對任何重要物件新增警示。 
 ---
-= 新增警示的準則
+= 在 Active IQ Unified Manager 中新增警報的指南
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

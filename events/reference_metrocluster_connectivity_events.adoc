@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, connectivity, events, impact area, availability 
 summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster 以及叢集之間的連線能力、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 連接事件MetroCluster
+= 了解 Active IQ Unified Manager 中的 MetroCluster 連線事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, predefined, annotation values 
 summary: 資料優先順序是預先定義的註釋、其值為「關鍵任務」、「高」和「低」。這些值可讓您根據儲存物件所含資料的優先順序、為其加上註釋。您無法編輯或刪除預先定義的註釋值。 
 ---
-= 預先定義的註釋值說明
+= 了解 Active IQ Unified Manager 中的預設註解值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

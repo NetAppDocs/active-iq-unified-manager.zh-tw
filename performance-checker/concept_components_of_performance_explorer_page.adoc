@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, performance, explorer, page 
 summary: 「效能總管」頁面可讓您比較叢集中類似物件的效能、例如叢集中的所有磁碟區。在疑難排解效能事件和微調物件效能時、這項功能非常實用。您也可以將物件與根物件進行比較、根物件是進行其他物件比較的基準。 
 ---
-= Performance Explorer頁面的元件
+= 檢閱 Active IQ Unified Manager 中的「效能資源管理器」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

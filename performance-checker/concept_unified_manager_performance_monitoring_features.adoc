@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, performance, monitoring, features 
 summary: Unified Manager會從執行ONTAP VMware軟體的系統收集並分析效能統計資料。它使用動態效能臨界值和使用者定義的效能臨界值、來監控許多叢集元件上的各種效能計數器。 
 ---
-= Unified Manager效能監控功能
+= 探索 Active IQ Unified Manager 的效能監控功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

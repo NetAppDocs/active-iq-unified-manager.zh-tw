@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: options, improving, workload, performance, client-side 
 summary: 您可以檢查將I/O傳送至效能事件所涉及磁碟區的用戶端工作負載、例如應用程式或資料庫、以判斷用戶端變更是否能修正事件。 
 ---
-= 從用戶端改善工作負載效能的選項
+= 透過調整 Active IQ Unified Manager 中的用戶端側設定來提升工作負載效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

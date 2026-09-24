@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, severity, types 
 summary: 每個效能事件都與嚴重性類型相關聯、可協助您排定需要立即修正行動的事件優先順序。 
 ---
-= 效能事件嚴重性類型
+= 在 Active IQ Unified Manager 中依嚴重程度對效能事件進行優先排序
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

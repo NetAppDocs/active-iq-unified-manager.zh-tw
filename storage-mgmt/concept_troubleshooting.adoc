@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, netapp manageability sdk log rotation issue, windows, logrotate 
 summary: 疑難排解資訊可協助您識別及解決使用Unified Manager時遇到的問題。 
 ---
-= 疑難排解
+= 疑難排解 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

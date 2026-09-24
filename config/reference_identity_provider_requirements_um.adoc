@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identity, provider, requirements 
 summary: 將Unified Manager設定為使用身分識別供應商（IDP）來為所有遠端使用者執行SAML驗證時、您必須知道某些必要的組態設定、才能成功連線至Unified Manager。 
 ---
-= 身分識別供應商要求
+= 在 Active IQ Unified Manager 中使用身分供應商
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

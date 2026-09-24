@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, installation, process 
 summary: 安裝工作流程會說明您在使用Unified Manager之前必須執行的工作。 
 ---
-= 安裝程序總覽
+= 了解在 Windows 上安裝 Active IQ Unified Manager 的過程
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

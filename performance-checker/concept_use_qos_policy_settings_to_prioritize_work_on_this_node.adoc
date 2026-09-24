@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, settings, prioritize, work, node 
 summary: 您可以設定QoS原則群組的限制、以控制其所包含工作負載的每秒I/O（IOPS）或Mbps處理量限制。如果工作負載位於沒有設定限制的原則群組中（例如預設原則群組）、或設定的限制不符合您的需求、您可以增加設定限制、或將工作負載移至具有所需限制的新原則群組或現有原則群組。 
 ---
-= 使用QoS原則設定來排列此節點工作的優先順序
+= 使用 QoS 原則設定來優先處理 Active IQ Unified Manager 中的節點工作負載
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

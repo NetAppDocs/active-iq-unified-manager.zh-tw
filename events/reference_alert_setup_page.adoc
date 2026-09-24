@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: alert, setup, page, command buttons, list view, details area 
 summary: 「警示設定」頁面會顯示警示清單、並提供警示名稱、狀態、通知方法和通知頻率的相關資訊。您也可以在此頁面新增、編輯、移除、啟用或停用警示。 
 ---
-= 警示設定頁面
+= 了解 Active IQ Unified Manager 中的「警報設定」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

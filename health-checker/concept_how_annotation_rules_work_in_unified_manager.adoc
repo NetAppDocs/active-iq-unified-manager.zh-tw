@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotation rules, work, unified manager 
 summary: 註釋規則是您定義的準則、用來註釋儲存物件（Volume、叢集或儲存虛擬機器（SVM））。您可以使用條件群組或條件來定義註釋規則。 
 ---
-= 註釋規則在Unified Manager中的運作方式
+= 了解 Active IQ Unified Manager 中的註解規則如何運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

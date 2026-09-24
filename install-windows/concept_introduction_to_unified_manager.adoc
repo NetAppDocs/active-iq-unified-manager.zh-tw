@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager 
 summary: 利用VMware（前身為VMware Unified Manager）、您可以從單一介面監控及管理您的VMware儲存系統的健全狀況和效能。Active IQ Unified Manager OnCommand ONTAP您可以在Linux伺服器、Windows伺服器或VMware主機上的虛擬應用裝置上部署Unified Manager。 
 ---
-= 介紹功能Active IQ Unified Manager
+= 了解 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

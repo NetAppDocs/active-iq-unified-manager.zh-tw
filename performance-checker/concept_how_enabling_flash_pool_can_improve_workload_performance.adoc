@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, flash pool, storage, aggregate, improve, workload, performance 
 summary: 您可以在Aggregate上啟用Flash Pool功能、藉此改善工作負載效能。Flash Pool是整合HDD和SSD的集合體。HDD用於主儲存設備、SSD提供高效能的讀寫快取、可大幅提升Aggregate效能。 
 ---
-= 如何在儲存Aggregate上啟用Flash Pool、才能提升工作負載效能
+= 透過在 Active IQ Unified Manager 中啟用儲存設備彙總上的 Flash Pool 來提高工作負載效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

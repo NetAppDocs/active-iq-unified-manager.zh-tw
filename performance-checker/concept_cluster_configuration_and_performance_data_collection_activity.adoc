@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, configuration, performance, data, collection, activity 
 summary: 叢集組態資料的收集時間間隔為15分鐘。例如、新增叢集之後、Unified Manager UI中會顯示叢集詳細資料需要15分鐘。此時間間隔也適用於對叢集進行變更的情況。 
 ---
-= 叢集組態與效能資料收集活動
+= 在 Active IQ Unified Manager 中檢視叢集組態和效能資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

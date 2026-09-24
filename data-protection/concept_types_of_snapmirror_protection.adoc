@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, snapmirror, protection, consistency group, SnapMirror active sync 
 summary: 根據資料儲存拓撲的部署、Unified Manager可讓您設定多種類型的SnapMirror保護關係。SnapMirror保護的所有變體都提供容錯移轉災難恢復保護、但在效能、版本靈活度及多重備份複本保護方面、都有不同的功能。 
 ---
-= SnapMirror保護類型
+= Active IQ Unified Manager 中的 SnapMirror 保護類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

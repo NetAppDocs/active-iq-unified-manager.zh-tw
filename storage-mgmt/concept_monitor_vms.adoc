@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand 
 summary: 對於虛擬機器（VM）應用程式的任何延遲問題、您可能需要監控VM、以分析並疑難排解原因。VM可在其vCenter Server和ONTAP 託管VM儲存設備的VMware叢集新增至Unified Manager時使用。 
 ---
-= 監控虛擬機
+= 了解 Active IQ Unified Manager 如何監控虛擬機器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

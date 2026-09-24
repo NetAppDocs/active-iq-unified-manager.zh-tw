@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: network configuration menu 
 summary: 「網路組態」功能表可讓您管理網路設定。當Unified Manager使用者介面無法使用時、您應該使用此功能表。 
 ---
-= 網路組態功能表
+= Active IQ Unified Manager 中的網路組態選單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports 
 summary: 您可以透過多種方式自訂檢視、以便建立報告、其中包含管理ONTAP 您的叢集所需的所有資訊。 
 ---
-= 自訂報告
+= 在 Active IQ Unified Manager 中自訂報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

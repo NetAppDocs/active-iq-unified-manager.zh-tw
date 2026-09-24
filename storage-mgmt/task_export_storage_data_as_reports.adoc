@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: export, storage, data, reports 
 summary: 您可以匯出各種輸出格式的儲存資料、然後使用匯出的資料來建置報告。例如、如果有10個尚未解決的重大事件、您可以從「事件管理」目錄頁匯出資料以建立報告、然後將報告傳送給可解決問題的管理員。 
 ---
-= 將儲存資料匯出為報告
+= 在 Active IQ Unified Manager 中將儲存設備資料匯出為報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

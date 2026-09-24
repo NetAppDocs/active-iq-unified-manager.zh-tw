@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work 
 summary: 您可以針對儲存物件（例如、集合體和磁碟區）設定效能臨界值原則、以便將事件傳送給儲存管理員、通知管理員叢集發生效能問題。 
 ---
-= 使用者定義的效能臨界值原則運作方式
+= 在 Active IQ Unified Manager 中使用使用者定義的效能臨界值原則
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

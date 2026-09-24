@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: information, contained, alert, email 
 summary: Unified Manager警示電子郵件會提供事件類型、事件嚴重性、違反導致事件的原則名稱或臨界值、以及事件說明。電子郵件訊息也會提供每個事件的超連結、讓您在UI中檢視事件的詳細資料頁面。 
 ---
-= 警示電子郵件中包含哪些資訊
+= Active IQ Unified Manager 警報電子郵件中包含的資訊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: list, events, severity, types 
 summary: 您可以使用事件清單來更熟悉Unified Manager中可能出現的事件類別、事件名稱及每個事件的嚴重性類型。事件會依物件類別的字母順序列出。 
 ---
-= 事件與嚴重性類型清單
+= 了解 Active IQ Unified Manager 中的事件列表
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

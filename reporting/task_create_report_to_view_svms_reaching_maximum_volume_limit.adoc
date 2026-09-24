@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, storage VMs, volume, limit 
 summary: 您可以建立報告、找出達到最大Volume限制的SVM。 
 ---
-= 建立報表以查看達到最大磁碟區限制的儲存虛擬機
+= 建立一份報告，以檢視 Active IQ Unified Manager 中達到最大 Volume 限制的儲存設備虛擬機器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

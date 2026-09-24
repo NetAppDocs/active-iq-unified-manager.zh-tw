@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: virtual infrastructure, hardware, system, requirements, host, connectivity, backups 
 summary: 在虛擬基礎架構或實體系統上安裝Unified Manager、應符合記憶體、CPU和磁碟空間的最低需求。 
 ---
-= 虛擬基礎架構與硬體系統需求
+= 了解 Active IQ Unified Manager 的虛擬化基礎架構和硬體需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

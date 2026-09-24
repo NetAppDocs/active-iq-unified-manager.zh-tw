@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotations 
 summary: 註釋是指派給其他文字字串（值）的文字字串（名稱）。每個註釋名稱-值配對都可以使用註釋規則、動態地與儲存物件建立關聯。當您將儲存物件與預先定義的附註建立關聯時、可以篩選及檢視與其相關的事件。您可以將註釋套用至叢集、磁碟區和儲存虛擬機器（SVM）。 
 ---
-= 什麼是註釋
+= 了解 Active IQ Unified Manager 中的註解功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

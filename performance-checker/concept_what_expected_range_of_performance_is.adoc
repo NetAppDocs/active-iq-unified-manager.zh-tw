@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed 
 summary: 延遲預測是指預測特定時間的效能值上限和下限。針對工作負載延遲、較高的值會形成效能臨界值。當實際值超過效能臨界值時、Unified Manager會觸發動態效能事件。 
 ---
-= 預期的效能範圍為何
+= 了解 Active IQ Unified Manager 如何計算預期效能範圍
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

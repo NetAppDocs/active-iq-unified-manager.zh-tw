@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, protocol, port, requirements 
 summary: 必要的連接埠和傳輸協定可在Unified Manager伺服器與託管儲存系統、伺服器和其他元件之間進行通訊。 
 ---
-= 傳輸協定與連接埠需求
+= 了解 Active IQ Unified Manager 的協定和連接埠需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Common, unified, manager, health, workflows, tasks 
 summary: 與Unified Manager相關的一些常見管理工作流程和工作包括：選取要監控的儲存叢集；診斷對資料可用度、容量和保護造成不良影響的情況；還原遺失的資料；設定和管理磁碟區；以及將診斷資料綁定並傳送給技術支援（必要時）。 
 ---
-= 通用的Unified Manager健全狀況工作流程與工作
+= 了解常見的 Active IQ Unified Manager 健全狀況工作流程與任務
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

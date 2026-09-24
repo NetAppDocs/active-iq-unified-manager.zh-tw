@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: 閘道API的優勢在於使用Active IQ Unified Manager 「資訊」認證來執行ONTAP 「資訊」API及管理儲存物件。從Unified Manager Web UI啟用API閘道功能時、即可使用這些API。 
 ---
-= 透過代理程式存取 ONTAP API
+= 透過 Active IQ Unified Manager 中的 Proxy 存取來存取 ONTAP API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

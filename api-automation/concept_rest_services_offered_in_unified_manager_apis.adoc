@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rest, services, offer, active iq, unified, manager 
 summary: 在開始使用Active IQ Unified Manager IsrAPI之前、您應該先瞭解其餘的服務與營運。 
 ---
-= REST服務提供Active IQ Unified Manager 於此
+= 了解 Active IQ Unified Manager 中提供的 REST 服務
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

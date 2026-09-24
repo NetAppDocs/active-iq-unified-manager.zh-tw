@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users 
 summary: 您可以使用「使用者」頁面新增本機使用者或資料庫使用者。您也可以新增屬於驗證伺服器的遠端使用者或群組。您可以指派角色給這些使用者、並根據角色權限、使用者可以使用Unified Manager管理儲存物件和資料、或是檢視資料庫中的資料。 
 ---
-= 新增使用者
+= 在 Active IQ Unified Manager 中新增使用者
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

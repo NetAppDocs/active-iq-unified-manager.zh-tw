@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload, performance, measurement, values 
 summary: Unified Manager會根據歷史和預期統計值來衡量叢集上的工作負載效能、這些值會構成工作負載的延遲預測值。它會將實際工作負載統計值與延遲預測進行比較、以判斷工作負載效能何時過高或過低。未如預期執行的工作負載會觸發動態效能事件來通知您。 
 ---
-= 工作負載效能測量值
+= 了解 Active IQ Unified Manager 中的工作負載效能測量值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

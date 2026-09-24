@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, unified manager, api, access, categories 
 summary: 利用此功能、您可以管理及配置環境中的儲存物件。Active IQ Unified Manager您也可以存取Unified Manager Web UI來執行部分功能。 
 ---
-= 存取及類別的資訊Active IQ Unified Manager
+= 管理 Active IQ Unified Manager API 存取和類別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

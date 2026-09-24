@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active IQ, platform, events, generated 
 summary: 下列圖表所示、將平台事件與風險轉換為Unified Manager事件。Active IQ 
 ---
-= 如何產生平台事件Active IQ
+= Active IQ Unified Manager 如何產生 Active IQ 平台事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

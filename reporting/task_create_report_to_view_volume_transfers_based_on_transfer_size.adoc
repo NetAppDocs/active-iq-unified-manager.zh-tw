@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, transfer size 
 summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。 
 ---
-= 建立報表以根據傳輸大小查看傳輸量
+= 在 Active IQ Unified Manager 中建立報告，以根據傳輸大小檢視 Volume 傳輸
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

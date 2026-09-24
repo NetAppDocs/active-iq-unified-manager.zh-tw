@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used 
 summary: 「使用的效能容量」計數器可協助您識別節點或Aggregate的效能是否達到工作負載增加時效能可能會降低的程度。也可以顯示節點或Aggregate目前在特定時間段內是否過度使用。所使用的效能容量與使用率類似、但前者可讓您更深入瞭解實體資源中特定工作負載的可用效能功能。 
 ---
-= 使用的效能容量是多少
+= 了解 Active IQ Unified Manager 中的效能容量使用計數器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

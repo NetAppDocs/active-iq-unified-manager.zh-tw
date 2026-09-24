@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, groups 
 summary: 您可以編輯在Unified Manager中建立的群組名稱和說明。 
 ---
-= 編輯群組
+= 在 Active IQ Unified Manager 中編輯群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

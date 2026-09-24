@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, health, monitor, features 
 summary: Unified Manager建置於伺服器基礎架構之上、可提供擴充性、支援能力、以及增強的監控與通知功能。Unified Manager支援監控執行ONTAP 不支援的系統。 
 ---
-= Unified Manager健全狀況監控功能
+= 了解 Active IQ Unified Manager 的健全狀況監控功能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

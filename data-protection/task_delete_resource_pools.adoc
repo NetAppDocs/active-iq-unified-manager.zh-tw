@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, resource, pools 
 summary: 您可以在不再需要資源集區時刪除資源集區。例如、您可能想要將成員集合體從一個資源池重新分配到其他數個資源池、使原始資源池變得過時。 
 ---
-= 刪除資源池
+= 在 Active IQ Unified Manager 中刪除資源池
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

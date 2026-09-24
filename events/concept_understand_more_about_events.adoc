@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, events 
 summary: 瞭解事件的概念有助於有效管理叢集和叢集物件、並適當定義警示。 
 ---
-= 了解更多活動信息
+= 了解 Active IQ Unified Manager 中的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

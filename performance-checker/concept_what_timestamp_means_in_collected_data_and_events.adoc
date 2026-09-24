@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: timestamp, means, collected, data, events 
 summary: 所收集的健全狀況和效能資料中顯示的時間戳記、或是顯示為事件偵測時間的時間戳記、都是根據ONTAP 在Web瀏覽器上設定的時區而調整的VMware叢集時間。 
 ---
-= 時間戳記在收集的資料和事件中的意義
+= 了解 Active IQ Unified Manager 中收集的資料和事件的時間戳記
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, aggregate, health details page 
 summary: 您可以使用Aggregate / Health詳細資料頁面來檢視所選Aggregate的詳細資訊、例如容量、磁碟資訊、組態詳細資料和產生的事件。您也可以檢視相關物件的相關資訊、以及該Aggregate的相關警示。 
 ---
-= Aggregate / Health詳細資料頁面
+= 在 Active IQ Unified Manager 中檢視「彙總 / 健全狀況」詳細資料頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

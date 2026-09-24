@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: not compliant, compliant 
 summary: 如果未ONTAP 符合根據《NetApp資訊安全強化指南》（《適用於VMware的NetApp資訊安全強化指南》）中所定義的建議來評估的任何安全性條件、則叢集與儲存虛擬機器（SVM）將視為不符合規定。此外、當任何SVM被標示為不相容時、叢集也會被視為不相容。 
 ---
-= 不符合法規的意義
+= 了解 Active IQ Unified Manager 中的叢集和 SVM 法規遵循狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

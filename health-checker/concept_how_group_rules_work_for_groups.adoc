@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group rules, work, groups 
 summary: 群組規則是您定義的準則、可讓儲存物件（磁碟區、叢集或SVM）納入特定群組。您可以使用條件群組或條件來定義群組規則。 
 ---
-= 群組規則如何適用於群組
+= 了解 Active IQ Unified Manager 中群組規則的運作方式
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

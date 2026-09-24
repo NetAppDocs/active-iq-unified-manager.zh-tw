@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unknown, authentication, error 
 summary: 疑難排解：不明驗證錯誤 
 ---
-= 不明驗證錯誤
+= 解決 Active IQ Unified Manager 中的未知驗證錯誤
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

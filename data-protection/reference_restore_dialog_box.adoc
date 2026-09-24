@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box 
 summary: 您可以使用「還原」對話方塊、從特定的Snapshot複本將資料還原至磁碟區。 
 ---
-= 還原對話方塊
+= 在 Active IQ Unified Manager 中使用「還原」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

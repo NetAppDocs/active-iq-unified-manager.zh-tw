@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, notification, settings 
 summary: 您可以設定Unified Manager在事件產生或事件指派給使用者時傳送警示通知。您可以設定用於傳送警示的SMTP伺服器、也可以設定各種通知機制、例如、警示通知可作為電子郵件或SNMP設陷傳送。 
 ---
-= 設定事件通知設定
+= 在 Active IQ Unified Manager 中設定事件通知設定
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

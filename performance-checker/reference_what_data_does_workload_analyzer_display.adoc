@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, charts, display, data 
 summary: 「工作負載分析器」頁面會顯示任何可能影響工作負載的目前事件資訊、可能修正事件所造成問題的建議、以及分析效能和容量歷程記錄的圖表。 
 ---
-= 工作負載分析器會顯示哪些資料
+= 了解 Active IQ Unified Manager 中的工作負載分析器資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

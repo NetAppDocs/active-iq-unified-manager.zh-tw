@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, points, generating, reports 
 summary: 您可以在Unified Manager中收集叢集的相關資訊、以便從UI、MySQL資料庫查詢及REST API建立報告。 
 ---
-= 用於產生報告的存取點
+= 探索存取 Active IQ Unified Manager 報告功能的三種方法
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

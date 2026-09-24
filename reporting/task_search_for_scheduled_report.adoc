@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: 您可以依名稱、檢視名稱、物件類型或收件者來搜尋排程的報告。 
 ---
-= 搜尋計劃報告
+= 在 Active IQ Unified Manager 中尋找已排程的報告
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, destination, settings, dialog box 
 summary: 您可以使用「進階目的地設定」對話方塊、在目的地Volume上啟用空間保證設定。您可以在來源上停用空間保證時、選取進階設定、但要在目的地上啟用。SnapMirror關係中的重複資料刪除、壓縮及自動擴充設定會從來源Volume繼承、無法變更。 
 ---
-= 進階目的地設定對話方塊
+= 在 Active IQ Unified Manager 中使用「進階目的地設定」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, database, restore 
 summary: MySQL資料庫還原是將現有Unified Manager備份檔案還原至相同或不同Unified Manager伺服器的程序。您可以從Unified Manager維護主控台執行還原作業。 
 ---
-= 什麼是資料庫還原
+= 了解 Active IQ Unified Manager 中的資料庫還原
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

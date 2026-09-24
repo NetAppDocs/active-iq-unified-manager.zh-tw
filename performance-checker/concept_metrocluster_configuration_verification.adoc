@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification 
 summary: 您可以確保正確設定VMware組態、以避免MetroCluster 在鏡射工作負載上發生效能問題MetroCluster 。您也可以變更組態或升級軟體或硬體元件、以改善工作負載效能。 
 ---
-= 驗證組態MetroCluster
+= 在 Active IQ Unified Manager 中驗證 MetroCluster 組態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

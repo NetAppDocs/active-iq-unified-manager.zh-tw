@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, events, impact area, availability, capacity, configuration, performance, security 
 summary: 節點事件可提供節點狀態的相關資訊、以便監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 節點事件
+= 了解 Active IQ Unified Manager 中的節點事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

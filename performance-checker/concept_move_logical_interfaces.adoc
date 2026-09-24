@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, logical, interfaces, lifs 
 summary: 將邏輯介面（LIF）移至較不忙碌的連接埠、有助於改善負載平衡、協助維護作業和效能調校、並減少間接存取。 
 ---
-= 移動邏輯介面（LIF）
+= 移動 LIF 以提高 Active IQ Unified Manager 的效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, behavior, switchover, switchback 
 summary: 觸發切換或切換的事件會導致作用中磁碟區從一個叢集移至災難恢復群組中的另一個叢集。叢集上作用中的磁碟區會停止、並將資料提供給用戶端、其他叢集上的磁碟區也會啟動、並開始提供資料。Unified Manager只會監控作用中和執行中的磁碟區。 
 ---
-= 切換和切換期間的Volume行為
+= 了解 Active IQ Unified Manager 在切換和切回期間的 Volume 行為
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

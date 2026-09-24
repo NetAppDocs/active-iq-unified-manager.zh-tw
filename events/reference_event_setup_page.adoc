@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, setup, page, command, buttons, list, view 
 summary: 「事件設定」頁面會顯示停用的事件清單、並提供相關的物件類型和事件嚴重性等資訊。您也可以全域執行停用或啟用事件等工作。 
 ---
-= 事件設定頁面
+= 了解 Active IQ Unified Manager 中的「事件設定」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

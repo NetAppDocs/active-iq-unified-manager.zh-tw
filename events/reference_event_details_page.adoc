@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, details, page 
 summary: 從「事件詳細資料」頁面、您可以檢視所選事件的詳細資料、例如事件嚴重性、影響層級、影響區域及事件來源。您也可以檢視有關可能修正的其他資訊、以解決此問題。 
 ---
-= 活動詳細資料頁面
+= 了解 Active IQ Unified Manager 中的「事件詳細資料」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

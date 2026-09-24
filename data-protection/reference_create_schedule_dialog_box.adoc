@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: 「建立排程」對話方塊可讓您針對SnapMirror和SnapVault 關聯性傳輸建立基本或進階的保護排程。您可以建立新的排程、以增加頻繁更新資料所造成的資料傳輸頻率、或是在資料不常變更時建立較不常用的排程。 
 ---
-= 建立排程對話方塊
+= 在 Active IQ Unified Manager 中使用「建立排程」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

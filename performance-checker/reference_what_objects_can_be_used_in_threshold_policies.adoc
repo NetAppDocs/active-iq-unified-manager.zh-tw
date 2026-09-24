@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: objects, counters, combination, threshold, policies 
 summary: 只有部分效能計數器可以搭配使用於組合原則中。當指定主要和次要效能計數器時、兩個效能計數器在產生事件之前都必須超過其最大限制。 
 ---
-= 哪些物件和計數器可用於組合臨界值原則
+= 了解 Active IQ Unified Manager 中的組合臨界值原則物件和計數器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

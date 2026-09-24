@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script 
 summary: '若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unified Manager，您的系統必須設定有 7-zip 軟體套件的存取權限。' 
 ---
-= 設定 Unified Manager 的 7-zip 軟體包
+= 在 Active IQ Unified Manager 中設定 7-zip 軟體包
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

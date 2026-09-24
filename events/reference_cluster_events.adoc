@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster events, impact, area, availability, capacity, configuration, performance, security 
 summary: 叢集事件提供有關叢集狀態的資訊、可讓您監控叢集是否有潛在問題。這些事件會依影響區域分組、包括事件名稱、陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 叢集事件
+= 了解 Active IQ Unified Manager 中的叢集事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

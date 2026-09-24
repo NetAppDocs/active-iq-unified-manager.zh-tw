@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, host, system, resource, events 
 summary: Unified Manager包含一項服務、可監控安裝Unified Manager的主機系統上的資源問題。諸如缺少可用磁碟空間或主機系統記憶體不足等問題、可能會觸發管理站事件、並在UI頂端顯示為橫幅訊息。 
 ---
-= 管理主機系統資源事件
+= 在 Active IQ Unified Manager 中管理主機系統資源事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

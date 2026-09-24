@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster compliance, categories 
 summary: 此表說明Unified Manager評估的叢集安全性法規遵循參數、NetApp建議、以及此參數是否會影響要抱怨或不抱怨的叢集整體判斷。 
 ---
-= 叢集規範類別
+= 了解 Active IQ Unified Manager 中的叢集法規遵循類別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

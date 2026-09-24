@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, maintenance, window 
 summary: 您可以定義Unified Manager維護時間範圍、以便在排程叢集維護且不想收到大量不想要的通知時、在特定時間範圍內隱藏事件和警示。 
 ---
-= 什麼是Unified Manager維護所需時間
+= 了解 Active IQ Unified Manager 的維護所需時間
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

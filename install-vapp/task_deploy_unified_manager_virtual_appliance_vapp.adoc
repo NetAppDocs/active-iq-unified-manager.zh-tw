@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager, virtual appliance 
 summary: 下載安裝檔案之後、您可以將Unified Manager部署為虛擬應用裝置。使用vSphere Web Client在ESXi伺服器上部署虛擬應用裝置。部署虛擬應用裝置時、會建立虛擬機器。 
 ---
-= 部署Unified Manager虛擬應用裝置
+= 部署 Active IQ Unified Manager 虛擬應用裝置
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

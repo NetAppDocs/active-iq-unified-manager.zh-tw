@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, efficiency 
 summary: 儲存效率可讓您以最低成本儲存最大量的資料、並可因應快速的資料成長、同時減少耗用的空間。NetApp的儲存效率策略是以儲存虛擬化和統一化儲存設備的內建基礎為基礎、這些基礎是由核心ONTAP 的作業系統提供、以及Write Anywhere File Layout WAFL （簡稱「Write Anywhere File Layout」、簡稱「Write-Anywhere File Layout」、簡稱「Write-Anywhere File Layout」（簡稱 
 ---
-= 什麼是儲存效率
+= 了解 Active IQ Unified Manager 中的儲存效率
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

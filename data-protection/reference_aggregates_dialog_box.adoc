@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box 
 summary: 您可以使用「Aggregate」對話方塊來選取要新增至資源池的集合體。 
 ---
-= Aggregate對話方塊
+= 在 Active IQ Unified Manager 中使用集合體對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

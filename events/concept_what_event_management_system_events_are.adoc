@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event management, system, 
 summary: 事件管理系統（EMS）會從ONTAP 各個部分收集事件資料、並提供事件轉送機制。這些不實事件可在Unified Manager中報告為EMS事件。ONTAP集中化的監控與管理功能可根據這些EMS事件、簡化關鍵EMS事件與警示通知的組態設定。 
 ---
-= 什麼是事件管理系統事件
+= 了解 Active IQ Unified Manager 中的事件管理系統事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

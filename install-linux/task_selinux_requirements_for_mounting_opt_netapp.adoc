@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, selinux requirements, mounting, nfs, cifs, share 
 summary: 如果您計畫在NAS或SAN裝置上掛載/opp/netapp或/opp/NetApp/data、且已啟用SELinux、則必須注意下列考量事項。 
 ---
-= NFS與CIFS共用的SELinux需求
+= 在 Active IQ Unified Manager 中為 NFS 和 CIFS 共用設定 SELinux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

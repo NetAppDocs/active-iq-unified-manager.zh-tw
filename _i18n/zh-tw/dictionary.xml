@@ -37,7 +37,6 @@
   <block id="2ad8650bc36e875f76af07af6156dc81" category="list-text">如果您在安裝Unified Manager之前使用自訂主目錄建立umadmin使用者帳戶、則必須指定umadmin使用者登入Shell：</block>
   <block id="de655d5c807407174b4c747a67443f65" category="paragraph">「usermod -s /bin/maintenance-user-shell.sh umadmin」</block>
   <block id="440eb40eb8cf6c5d06e6de7d9d2db8c0" category="summary">如果您計畫在NAS或SAN裝置上掛載/opp/netapp或/opp/NetApp/data、且已啟用SELinux、則必須注意下列考量事項。</block>
-  <block id="8c60b39d035602485d7a07ef3aa2f5f0" category="doc">NFS與CIFS共用的SELinux需求</block>
   <block id="a8d633f5ac5e3ef0835f41c9ff4cf88a" category="paragraph">如果您打算在NAS或SAN裝置上掛載「/opt/netapp」或「/opt/NetApp/data」、而且您已啟用SELinux、則需要注意一些考量。</block>
   <block id="9232b4a27714526a3cf1b7c7b220f85c" category="paragraph">如果您打算從根檔案系統以外的任何位置掛載「/opt / NetApp」或「/opt / NetApp /資料」、而且您的環境中已啟用SELinux、則應該為掛載的目錄設定正確的內容。針對您環境中適用的案例、請依照下列步驟設定並確認正確的SELinux內容。</block>
   <block id="03f5a7e715f5da0b6afc76be7747611f" category="paragraph">如果您已在系統中掛載了「/opt/netapp/data」、且SELinux設為「imensitment」、請確定「/ope/netapp/data」的SELinux內容類型設為「mysqld_db_t」、這是資料庫檔案位置的預設內容元素。</block>
@@ -198,7 +197,6 @@
   <block id="d48bb01073de08ff28ace357c78925e0" category="paragraph">「yum install epar-re版本-latest -&lt;版本&gt;.noarch.rpm」</block>
   <block id="78530da0c982e83b029a7024929efc8d" category="paragraph">對於Red Hat Enterprise Linux 8系統、如果內部儲存庫中有模組化RPM套件（例如：「_javapackages-filesystem-&lt;版本&gt;.module.rpm_」）、請確保模組化套件的中繼資料也可在同一個儲存庫中使用。</block>
   <block id="a5c4a2efcdcb095ac76dbf214e41d635" category="summary">Linux平台上的Unified Manager快速入門指南。</block>
-  <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux安裝的快速入門指示</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="section-title">系統需求</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM：12 GB、CPU：總共9572 MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">可用磁碟空間：在「/opt/NetApp/data」目錄中有100 GB的磁碟空間、在根分割區中有50 GB的磁碟空間。對於單獨掛載的「/opt」和「/var/log」目錄、請確定「/opt」有15 GB、「/var/log/log」有16 GB、「/tmp」有10 GB可用空間。</block>
@@ -404,7 +402,6 @@
   <block id="7235fc94d270002699e871e8bad9343e" category="paragraph">"升級.sh"</block>
   <block id="a1dc836a95e30b0785dbc6baa6107b89" category="list-text">升級完成後、捲動回訊息、直到看到訊息顯示Unified Manager Web UI的IP位址或URL、維護使用者名稱（umadmin）和預設密碼。</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">資訊文件Active IQ Unified Manager</block>
-  <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Windows安裝的快速入門指示</block>
   <block id="78463a384a5aa4fad5fa73e2f506ecfc" category="list-text">英文</block>
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">日文</block>
   <block id="1e81fc32fea0e9f3a978661e4b5e484d" category="list-text">簡體中文</block>
@@ -550,7 +547,6 @@
   <block id="7700fb449335cc716cfda08c59217554" category="inline-link-macro">下載Unified Manager</block>
   <block id="e13aee1f6ad424bcd5a6d5844db5a727" category="inline-link-macro">部署Unified Manager虛擬應用裝置</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">部署工作流程會說明您在使用Unified Manager之前必須執行的工作。</block>
-  <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">部署程序總覽</block>
   <block id="c2e93c29da046a9d351a6f1cf070cfc7" category="summary">您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以解除安裝Unified Manager。</block>
   <block id="6ada6fa6d95057606e896986fa32ae13" category="list-text">您應該擁有用於存取VMware vCenter Server和vSphere Web Client的認證資料。</block>
   <block id="ca56258f9e5180672b2cae7a418b2cd4" category="list-text">Unified Manager伺服器與Workflow Automation伺服器之間的任何作用中連線都應關閉。</block>
@@ -1384,7 +1380,6 @@
   <block id="cae711e2d20a76c0a0f37127c924cd4b" category="summary">您可以透過一組設定步驟、在Unified Manager上設定備份功能、以便在主機系統上執行、並透過維護主控台執行。</block>
   <block id="774a33c1a55d71fb62a4119758d65674" category="inline-link-macro">管理備份與還原作業</block>
   <block id="24dde324c273e6fbdb5e05a5335b2997" category="paragraph">如需組態步驟的相關資訊、請參閱 <block ref="b867a7663a8e0fd154dcc2c6962f7760" category="inline-link-macro-rx"></block>。</block>
-  <block id="1d467de9c1a432c4082c112c24ec03f0" category="summary">RBAC（角色型存取控制）可讓您控制哪些人可以存取Active IQ Unified Manager 支援伺服器中的各種功能和資源。</block>
   <block id="2c6bc67c55ca1b8f948ebbd441af2d3b" category="doc">什麼是RBAC</block>
   <block id="f4a72103471c47cbfa80ab24d68fa665" category="summary">根據指派的使用者角色、您可以決定可以在Unified Manager中執行哪些作業。</block>
   <block id="eeb73764fe75de1f17f8fa939253d44f" category="doc">Unified Manager使用者角色與功能</block>
@@ -3473,7 +3468,6 @@
   <block id="e90d381dbb1447809c31df815a8ef4f4" category="paragraph">根據預設、不會針對根集合體產生容量和效能事件。此外、Unified Manager使用的臨界值不適用於節點根集合體。只有技術支援代表可以修改要產生這些事件的設定。當技術支援代表修改設定時、容量臨界值會套用至節點根Aggregate。</block>
   <block id="1090ff7a240ceb26fd8ff34d6042b332" category="paragraph">您可以採取適當的行動、使用ONTAP 「系統管理程式」或ONTAP 「系統資訊管理系統」CLI來防止節點停止。</block>
   <block id="efdb16254f5069676286e910b5a4b798" category="summary">您可以使用「Storage VM/健全狀況」詳細資料頁面來檢視所選儲存VM的詳細資訊、例如其健全狀況、容量、組態、資料原則、邏輯介面（lifs）、 LUN、qtree、使用者、使用者群組配額及保護詳細資料。您也可以檢視相關物件的相關資訊、以及儲存VM的相關警示。</block>
-  <block id="a7fea1c7b3a5c74253b83e5564d7e3be" category="doc">Storage VM/健全狀況詳細資料頁面</block>
   <block id="01df14660230e93beb172e6aa6e592d1" category="paragraph">您只能監控資料儲存VM。</block>
   <block id="0163d621f50d2abf7b8446329f0d1c49" category="paragraph">命令按鈕可讓您針對所選的儲存VM執行下列工作：</block>
   <block id="478c1f141db52408185af8691e4e3a67" category="paragraph">可讓您瀏覽至「Storage VM / Performance（儲存VM /效能）」詳細資料頁面。</block>
@@ -3750,7 +3744,6 @@
   <block id="ca1da7214e311fe1c75f0046d515195d" category="list-text">按一下「*動作*」&gt;「*刪除*」以刪除選取的註釋及其值。</block>
   <block id="77ee653c31a8461c86afa1d8632860f5" category="list-text">在警告對話方塊中、按一下*是*以確認刪除。</block>
   <block id="aab48123e19f96b4938a6aa960c608a9" category="summary">Unified Manager使用定期API查詢和資料收集引擎、從叢集收集資料。將叢集新增至Unified Manager資料庫後、即可監控及管理這些叢集、以避免任何可用度和容量風險。</block>
-  <block id="7b950edee5af6ab02284ce2a8b5d7848" category="doc">管理及監控叢集與叢集物件健全狀況</block>
   <block id="63dfb2c8ea624da5f34114d9283b302e" category="summary">您可以使用叢集庫存頁面來顯示All SAN Array叢集的健全狀況和容量狀態。</block>
   <block id="21b05cfdb7ce226413f5ff9982e8dede" category="paragraph">您可以在健全狀況：所有叢集檢視和容量：所有叢集檢視中、檢視所有SAN陣列叢集的概觀資訊。此外、您也可以在叢集/健全狀況詳細資料頁面中檢視詳細資料。</block>
   <block id="c3dd4d1964a2e4beebdd815d84711d92" category="list-text">請確定「'Personality'（身分）」欄顯示在「Health：All Clusters*」（健全狀況：所有叢集*）檢視中、或是使用* Show /隱藏*控制項來新增。</block>
@@ -4913,13 +4906,11 @@
   <block id="77575f28aa43d90e6a0f15b9b1a8d7fb" category="paragraph">排程的報告會從清單中移除、不再依照設定的排程產生和發佈。</block>
   <block id="bb1c2e9297490454b79f35a4c34168e1" category="paragraph">如果您從庫存頁面刪除自訂檢視、則使用該檢視的任何自訂Excel檔案或排程報告也會一併刪除。</block>
   <block id="42f8eacf7a2963f1ac7c958c3892bf10" category="summary">取得所需的檢視之後、您可以使用「搜尋」欄位進一步精簡結果、將焦點放在您要納入報告的結果上。</block>
-  <block id="629c94683661ce341a4a38f456b95f84" category="doc">使用搜尋功能來精簡檢視</block>
   <block id="d52eacf8f04b905b3a08eebfd3ae3f61" category="list-text">開啟您要做為報告基礎的自訂或預設檢視。</block>
   <block id="aebf2b9d60fb3c00726e22658a590e15" category="list-text">輸入「搜尋」欄位、以精簡檢視中所列的資料。您可以在任何顯示的欄位中輸入部分資料。例如、如果您想要搜尋名稱中包含「US_EAST」的節點、可以精簡節點的完整清單。</block>
   <block id="a2966637ab3bfb9f4131f30fe38648ea" category="paragraph">搜尋結果會儲存在自訂檢視中、並用於產生的排程報告中。</block>
   <block id="29c7333e782dea789336ad2e1c014685" category="summary">這些範例自訂報告可協助您識別及回應與磁碟區容量和效能相關的潛在問題。</block>
   <block id="374d16eab5d07fd490374fedc2009a74" category="summary">您Active IQ Unified Manager 應該注意到新的功能不符合某些限制。</block>
-  <block id="d5d12063acbd8f7901cd90a27af00e9d" category="doc">報告限制</block>
   <block id="7cd735b5b6e279f356e750754d2846b8" category="section-title">舊版Unified Manager的現有報告</block>
   <block id="c6633c17fbbd65bb881484db33f99a4b" category="paragraph">您只能編輯在Unified Manager 9.5及更早版本中建立及匯入的現有報告（如.rptdesign檔案）排程和收件者。如果您自訂Unified Manager 9.5或更早版本隨附的任何標準報告、這些自訂報告將不會匯入新的報告工具。</block>
   <block id="7885e05a7c3c5241961f1154935220f6" category="paragraph">如果您需要編輯從.rptdesign檔案匯入的現有報告、請執行下列其中一項動作、然後移除匯入的報告：</block>
@@ -4988,7 +4979,6 @@
   <block id="9968615d1c8398011f7390928bad49de" category="list-text">選擇* Reports*&gt;*上傳Excel *、然後選取您修改的檔案。最近下載的檔案會從相同的檔案位置上傳。</block>
   <block id="42c750ca2352c66516c7ababe409d4e3" category="list-text">使用*排程報告*功能將測試報告傳送給您自己。</block>
   <block id="a851ab9cfb1890b7e36549fd2c25029a" category="summary">建立範例自訂報告、以體驗瀏覽檢視和排程報告的體驗。這份快速入門報告會找出您可能想要移至雲端層的磁碟區清單、因為有相當數量的非使用中（冷）資料。您將會開啟「效能：所有磁碟區」檢視、使用篩選器和欄自訂檢視、將自訂檢視儲存為報告、並將報告排程為每週共用一次。</block>
-  <block id="727efc9c83fd159f58fd341a72df8a7c" category="doc">報告快速入門</block>
   <block id="956e209686ab5454d4bc0ade595bdc83" category="paragraph">請依照下列步驟進行：</block>
   <block id="eef4fcd4176bf4995666654967d7425e" category="list-text">開啟預設檢視</block>
   <block id="1b05ab9416d359c41ca539a2b6ba4caf" category="list-text">透過篩選及排序資料來自訂欄位</block>
@@ -5198,7 +5188,6 @@
   <block id="425a10f179801ef3880ceeba20ca6550" category="list-text">識別使用最多IOPS的磁碟區。</block>
   <block id="e09eeba9fc0d787fa2e568508d172ab2" category="paragraph">您應該調查這些磁碟區、看看是否應該套用QoS原則或效能服務層級原則、或是變更原則設定、以便這些磁碟區不會在叢集上使用如此大的IOPS百分比。</block>
   <block id="9dffbb199bd48e23b134c6990180176f" category="summary">效能物件的詳細目錄頁面包含可協助您精簡物件詳細目錄資料內容的工具、可讓您快速輕鬆地找到特定資料。</block>
-  <block id="8810aba5b6775620ef9a919d5c564b0c" category="doc">精簡效能詳細目錄頁面內容</block>
   <block id="c67a8cb08c45fbf35544377154e19ce1" category="paragraph">效能物件詳細目錄頁面中包含的資訊可能很廣泛、通常會跨越多個頁面。這類全方位資料非常適合監控、追蹤及改善效能、但是尋找特定資料需要工具、才能快速找到您要尋找的資料。因此、效能物件詳細目錄頁面包含搜尋、排序及篩選功能。此外、搜尋與篩選功能也能一起運作、進一步縮小結果範圍。</block>
   <block id="6a586bf8dfdd9e48f20b1bc66b34feac" category="summary">您可以使用Unified Manager來協助識別不同節點上的Aggregate、該節點的忙碌程度低於工作負載目前執行的節點、然後將選取的磁碟區移至該Aggregate。將高效能工作負載移至較不忙碌節點上的集合體、可讓兩個節點上的工作負載更有效率地執行。</block>
   <block id="f6ca481ec831d3d36c30c51e9bad8bc1" category="list-text">您必須記錄目前發生效能問題的節點名稱。</block>
@@ -8606,7 +8595,6 @@
   <block id="47ff9999bf94aa8e2b2f18fa1476e434" category="list-text">*適用*</block>
   <block id="deb0107688cf5265bb48d22766884578" category="paragraph">套用您的選擇並開始保護程序。</block>
   <block id="d8b6e42886f0856a407632d66f7532bb" category="summary">「初始化/更新」對話方塊可讓您針對新的保護關係執行首次基準傳輸、或是在關係已初始化且您想要執行手動、非計畫性的遞增更新時更新關係。</block>
-  <block id="2d3430cf6c10379572f10ab5fbd6c154" category="doc">初始化/更新對話方塊</block>
   <block id="cd4ef495511831b70047b87dd5871307" category="section-title">傳輸選項索引標籤</block>
   <block id="20bea56687545e045f684ccd4683ae5d" category="paragraph">「傳輸選項」索引標籤可讓您變更傳輸的初始化優先順序、以及變更傳輸期間使用的頻寬。</block>
   <block id="8fccfa9f88bdb1cef81b6fc39aa2b3ee" category="paragraph">執行傳輸的優先順序。您可以選取「正常」或「低」。與指定一般傳輸優先順序的原則之間的關係、會在指定低傳輸優先順序的原則之前執行。依預設會選取「正常」。</block>
@@ -10391,7 +10379,6 @@
   <block id="2fdd5dc5585243c3197c271994fd12c9" category="paragraph">顯示叢集何時支援中介器、但未設定中介器。</block>
   <block id="d64c1cefb3e1d5cdfa216f6d3407ec17" category="paragraph">當叢集支援協調器並設定協調器時顯示。中介器狀態會以色彩表示。綠色表示可連線到中介器狀態。紅色表示無法連線到中介器狀態。</block>
   <block id="e915243d2d9237ec496fdc596ffdf04a" category="summary">您可以檢視所有磁碟區和儲存VM的清單、以及它們目前的反勒索軟體狀態、以便判斷您磁碟區上的資料是否受到足夠的保護、免受勒索軟體攻擊。</block>
-  <block id="7c2c886acbcd2892de2344c60378626c" category="doc">檢視所有磁碟區和儲存VM的勒索軟體狀態</block>
   <block id="b7fb2bac588b5767cf6c705188c389c3" category="paragraph">您可以檢視所有磁碟區和儲存VM（SVM）的清單、以及它們目前的反勒索軟體狀態、以便判斷您的磁碟區和SVM上的資料是否受到足夠的保護、免受勒索軟體攻擊。</block>
   <block id="a921172c77574003a53c4e7d463e4a78" category="inline-link-macro">支援勒索軟體ONTAP</block>
   <block id="72e5e5991e9c7a2e51d3ba91ca2a8e1d" category="paragraph">如需不同勒索軟體狀態的詳細資訊、請參閱 <block ref="ebbc50671d350b612b279b18dc92d3ce" category="inline-link-macro-rx"></block>。</block>
@@ -10403,10 +10390,8 @@
   <block id="9b1365de5b07fbb66019457a4c7fb6a5" category="list-text">選取*檢視&gt;安全性&gt;勒索軟體*。隨即顯示具有勒索軟體狀態的SVM清單。</block>
   <block id="3dcc0199352a1721fd1f864e772d652e" category="admonition">未啟用NAS傳輸協定的儲存VM不支援勒索軟體監控。</block>
   <block id="55d42c07c7a3bf8612627277cc3d1372" category="paragraph">關於本產品所使用之協力廠商版權與授權的資訊。</block>
-  <block id="50e0f11482fceefc2d65544335ead398" category="doc">用於工作負載管理的API工作流程</block>
   <block id="686de7649ff29618b2533b83f236c1f9" category="doc">使用API配置LUN</block>
   <block id="dae4b302d39d8710b93f2ab7e79ad44c" category="paragraph">= LUN建立或對應失敗的疑難排解步驟</block>
-  <block id="d5931491b56d1cc70bbacab3848ce5e3" category="doc">用於儲存管理的通用API工作流程</block>
   <block id="a04ca9649d91705a1631f7dedd600667" category="doc">使用API來配置CIFS和NFS檔案共用</block>
   <block id="ec6d62e34bf5aa5be0613a5f0bf48d90" category="paragraph">針對單一物件擷取累計的計數器、例如最小值、最大值、95百分位數、以及一段時間內的平均效能值、例如讀取、寫入、總計和其他計數器。</block>
   <block id="c72068f0f4cfcce2af4ad5f5ca198d95" category="paragraph">相同類型的所有物件都會顯示單一彙總值。</block>
@@ -10935,7 +10920,6 @@
   <block id="f3a3ba6315ffe945284468adf0d70e57" category="list-text">如需升級控制器的相關資訊、請參閱<block ref="5aea59f6c408d6812ccf363148f7d96e" category="inline-link-rx"></block> 和<block ref="92569a3a5e80106df6e9bfa0cf9d981b" category="inline-link-rx"></block></block>
   <block id="c234383a2ee370f2866e7b0538f73c5c" category="paragraph">您可以使用Unified Manager來檢閱MetroCluster 透過IP或FC進行的叢集組態中的叢集健全狀況。健全狀況狀態和事件可協助您判斷是否有可能影響工作負載效能的硬體或軟體問題。</block>
   <block id="2d26fd882893484db7e6cd100b13fc3e" category="paragraph">如需詳細資訊、請參閱 <block ref="26a8a225752f213766fd5d0fca11ffd1" category="inline-link-macro-rx"></block></block>
-  <block id="cdfca02373cd4eba37b347e9cdaab218" category="doc">叢集連線狀態定義MetroCluster 、適用於透過FC進行的組態</block>
   <block id="45a153fd0ead31ffde063c1f449b0d5b" category="paragraph">以透過FC組態在叢集之間建立連線MetroCluster 可能是下列狀態之一：Optimal（最佳）、Impacted（受影響）或Down（關閉）。瞭解連線狀態可MetroCluster 讓您有效管理您的支援功能組態。</block>
   <block id="00a0d3827fe90016d54a587539a1bb1f" category="paragraph"><block ref="3ea411a881e8de6734ab1f259a5102ce" prefix="" category="inline-code"></block></block>
   <block id="4362f5216aa639e277a607d43eeb7c0e" category="list-text">如果（<block ref="f5cf604cc3fc0506a38ac7f811bc28e1" prefix=" " category="inline-code"></block>）然後<block ref="72befa6fad669a7ab741c15923504039" prefix=" " category="inline-code"></block></block>
@@ -10986,7 +10970,6 @@
   <block id="ca9cbf7c4e946ef48d8af2ea8d0f799f" category="inline-link-macro">相互TLS通訊的憑證</block>
   <block id="ca51b5eb394408fc66c7ff276f2d388f" category="paragraph">如需ONTAP 使用自動修正功能來管理的各種問題與功能的相關資訊、請參閱 <block ref="69bb48d7285fcc4963176b1e083f2e69" category="inline-link-macro-rx"></block>。</block>
   <block id="81694560ce6841f5b6e22f6feb54db33" category="list-text">將資料存放區新增至vCenter Server時、您可以同時使用主機的IP位址或完整網域名稱（FQDN）。如果您要新增FQDN、請確定Unified Manager伺服器可以解析網域名稱。例如、若為Linux安裝、請確定已在中新增網域名稱<block ref="f0b96341c66fa0d1b2202f74a027bbda" prefix=" " category="inline-code"></block> 檔案：</block>
-  <block id="6563d638462424749f5ee4cc590d2849" category="doc">資料鏡射狀態定義MetroCluster 、適用於透過FC的功能</block>
   <block id="f0e3981cfdbf71181aa6b1e4fb47e9cc" category="paragraph">透過FC組態提供資料鏡射功能、並可在整個站台無法使用時啟動容錯移轉。MetroCluster以透過FC的支援功能組態在叢集之間進行資料鏡射的狀態MetroCluster 、可以是「正常」或「鏡射無法使用」。瞭解狀態可MetroCluster 讓您有效管理您的支援功能組態。</block>
   <block id="e8758725a8a19f259ad3d888980dce5c" category="paragraph">Unified Manager Web UI中MetroCluster 對支援的支援功能可讓您檢查MetroCluster 您的基於FC和IP的任何連線問題。提早發現連線問題、讓您MetroCluster 能夠有效管理您的支援功能。</block>
   <block id="9ec26db79eb1cb03722ca1be8a38ede3" category="paragraph">對於透過IP進行的靜態組態、資料複寫狀態會顯示在「拓撲預覽」檢視中、以透過Unified Manager左側導覽窗格的下列檢視畫面來顯示受透過IP保護的叢集：MetroCluster MetroCluster</block>
@@ -11069,7 +11052,6 @@
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">「HTTPS憑證」頁面可讓您檢視目前的安全性憑證、下載憑證簽署要求、產生新的自我簽署HTTPS憑證、或安裝新的HTTPS憑證。</block>
   <block id="898314a24a9c4668cfc6ef1288f61096" category="paragraph">如果您尚未產生新的自我簽署HTTPS憑證、則此頁面上顯示的憑證是安裝期間所產生的憑證。</block>
   <block id="cff84697c1aa7f822135adc1f1e8d209" category="paragraph">可讓您產生新的自我簽署HTTPS憑證、取代目前的安全性憑證。重新啟動Unified Manager之後、新的憑證即會生效。</block>
-  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">VMware安裝的快速入門指示</block>
   <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">您可以下載<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根憑證的檔案：a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 檔案、和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 將Unified Manager部署為虛擬應用裝置。</block>
   <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">適用於Windows平台Unified Manager的快速入門指南。</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。</block>
@@ -11431,12 +11413,9 @@
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">啟動 Unified Manager。</block>
   <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">服務名稱是「`MYSQL84`」。</block>
   <block id="c954aa3da908a18730111db3143d3c49" category="list-text">輸入安裝期間設定的MySQL84 root密碼、然後按一下「*下一步*」。</block>
-  <block id="c88d802310924042da26b7dc49a8cb60" category="doc">使用 API 執行管理任務</block>
   <block id="464c8bcc4d97fa6b1e0e6a541f48af9e" category="section-title">建立 URL 以直接存取 REST API</block>
   <block id="037a311bcc05279db266c85a597f23ba" category="section-title">存取線上 API 文件頁面</block>
   <block id="6b58c1940f3237f8b68aff9dee0612c0" category="section-title">查詢與 API 要求相關的工作物件</block>
-  <block id="161ac84513801bb11aa8cd9ac463ca04" category="doc">使用 API 管理資料中心內的儲存對象</block>
-  <block id="1ec68978e38a311b4c5119fe8a13688d" category="doc">使用 API 管理事件和警報</block>
   <block id="38263a28ce7341901e4c14482d893025" category="section-title">查看和修改事件</block>
   <block id="394d507cce41d6ae3633fc43f6715634" category="inline-link-macro">管理活動</block>
   <block id="6abb3025099e03dc81e219a31cd2d8ea" category="paragraph">如需事件的詳細資訊，請參閱<block ref="c0f3f78c9dfa509920adca3905a0ba53" category="inline-link-macro-rx"></block>。</block>
@@ -11444,7 +11423,6 @@
   <block id="d1944becba685cf8683fb918bd55a951" category="paragraph">如需警示的詳細資訊，請參閱<block ref="ff05cde0ec41fde9b33c0e5302e3a935" category="inline-link-macro-rx"></block>。</block>
   <block id="3a3e30f8426f78f1290bc68b262b49f2" category="section-title">管理腳本</block>
   <block id="1e98553b8d12285682ae1fb3e2c366cb" category="paragraph">如需指令碼的詳細資訊，請參閱<block ref="3945877c4ec08006fadc171d5a251e0e" category="inline-link-macro-rx"></block>。</block>
-  <block id="2d31ed7726d128ea586332cbed2276d7" category="doc">使用事件 API 確定儲存物件中的問題</block>
   <block id="2c5dc21619b8de9598f14d50791916dd" category="doc">透過代理程式存取 ONTAP API</block>
   <block id="73c192b67631c10f77958c794a98d11d" category="section-title">了解 API 網關隧道</block>
   <block id="d219de65b88e9201ccad4ef41f2cafef" category="section-title">設定 API 範圍</block>
@@ -11452,26 +11430,10 @@
   <block id="64b3bd0b8a0807be8c5ffdf7b40cff45" category="doc">查看作業和系統詳細信息</block>
   <block id="101bb72177f0b4d9b3a7b75496ed79c0" category="section-title">查看職位</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="section-title">檢視系統詳細資料</block>
-  <block id="57cc8635a0fcce8d264484f9da371401" category="doc">使用 API 管理存取端點</block>
-  <block id="6562276d73b7f273655405c2a5453a6b" category="doc">使用 API 管理 Active Directory 映射</block>
-  <block id="d555c43805161100feef7c63d785ffa0" category="doc">使用 API 管理文件共享</block>
-  <block id="816f3b75e34bc9e9a73d94ce7273dd0c" category="doc">使用 API 管理 LUN</block>
-  <block id="7f16de609341548b404477d1a3815abd" category="doc">使用 API 管理效能服務級別</block>
   <block id="680b188a51dbbad844ca6e31d75d030b" category="section-title">根據效能服務等級查看聚合功能</block>
-  <block id="db5087d195e767720be74746808b6cf1" category="doc">使用 API 管理儲存效率策略</block>
-  <block id="efb4367167e975f8b66a2a121a91dce9" category="doc">使用 API 管理工作負載</block>
-  <block id="e61e0b42ebdd7aa35a39351efb7120d5" category="doc">使用 API 查看效能指標</block>
-  <block id="698d031c9a8cc54be851ea496f652623" category="doc">使用 API 修改儲存工作負載</block>
   <block id="f8d72eb0765a9f62f8da0b763604cdc8" category="section-title">更新 LUN</block>
   <block id="bbf3a49de72d1439b95b03f6798655ef" category="doc">使用網關 API 對 ONTAP 磁碟區進行故障排除</block>
-  <block id="220ba431ab3d1192e22cff41695cc5fd" category="doc">使用 API 預配 CIFS 和 NFS 檔案共用</block>
-  <block id="1c03629b04d10313bfbcb527873feee2" category="doc">使用 API 預配 LUN</block>
-  <block id="16a52ccccf2589f560f7afd4a571635a" category="doc">使用 API 管理用戶</block>
-  <block id="e8ae62b658e2a108164f21a25108fb3f" category="doc">使用 API 驗證叢集上的 SVM</block>
-  <block id="fd589e1d1bf048ec482646f9a10748e5" category="doc">使用 API 查看儲存工作負載</block>
   <block id="811d71286df166f702ec9b42c249d145" category="section-title">瞭解工作流程中使用的 API 呼叫</block>
-  <block id="6dbfbe66745d2d568fb9ce41e88f7495" category="doc">使用 API 確定聚合中的空間問題</block>
-  <block id="7c3dfb1bb93c44b824c4a9ca4225e80c" category="doc">使用 API 修改 NFS 檔案共用以支援 CIFS</block>
   <block id="f5c2d52b832b2a72b551d655cc884a9c" category="doc">啟用 Active IQ 入口網站事件</block>
   <block id="d9bd212e1bb22d9b77c8a3861e388a32" category="doc">向 Unified Manager 資料庫目錄新增磁碟空間</block>
   <block id="fd9e3f6441163bf55c9bca463fc87a43" category="doc">啟用 API 網關</block>
@@ -11480,7 +11442,6 @@
   <block id="4668334e508872a873be214dc202a481" category="doc">配置 Active IQ Unified Manager</block>
   <block id="95e89360c8dbb80f117511e57eb9e3f4" category="doc">指定不活動逾時</block>
   <block id="aa416dbc0c9945193f419fe89278e3de" category="doc">安裝使用外部工具產生的 HTTPS 憑證</block>
-  <block id="7fe88786a4568b96e6e0e474fdd3c415" category="doc">新增登入橫幅</block>
   <block id="a20bb6e4f43b144b1671541fc1a7488a" category="doc">管理身份驗證</block>
   <block id="6ed8e3ff3326396dff95bdea4e2b288c" category="doc">管理 SAML 身份驗證設定</block>
   <block id="2371424eba381b8fb39ac37404483e34" category="doc">管理安全性憑證</block>
@@ -11517,7 +11478,6 @@
   <block id="4c643577b37624473c0b5d897c621f4c" category="doc">啟用和停用基於策略的儲存管理</block>
   <block id="ccd6a110d89fe5b24673c8ed4f637cce" category="doc">啟用稽核日誌的遠端記錄</block>
   <block id="bec16219366d2631eb9ed04aecabc005" category="doc">啟用SAML驗證</block>
-  <block id="6bedc532d99a22751fdd4ef79c2e07c1" category="doc">產生 HTTPS 安全性憑證</block>
   <block id="aa33a77d7af633b8cda0701df543ba97" category="doc">安裝 CA 簽署並傳回的 HTTPS 憑證</block>
   <block id="f147155bc57d9c3287f2ec096cde8fdd" category="doc">執行 Unified Manager Web UI 的初始設置</block>
   <block id="72247e3fb3313483083b8e7b1164ffc7" category="doc">設定身份驗證服務</block>
@@ -11526,56 +11486,38 @@
   <block id="278411c750d8f9d4484ba67a0128a37a" category="doc">使用維護控制台</block>
   <block id="041203ce7f3899ce1e4f9a043d2863b1" category="doc">查看HTTPS安全證書</block>
   <block id="4bc7766d599f3ab0ce24ad6cb0df9539" category="doc">查看用戶</block>
-  <block id="7ba8c15d32f79808ac7211708dc7bc74" category="doc">建立、監控和排除保護關係故障</block>
   <block id="4e0ab6f9ce72da684080639c5a65367f" category="doc">管理和監控保護關係</block>
   <block id="7817150a9ff0e05d9196c53ea6d726bb" category="doc">監控儲存虛擬機器災難復原保護關係</block>
-  <block id="3a696f8e4276c84dfb5d3471353d7268" category="doc">了解儲存虛擬機器關聯</block>
-  <block id="fc174c66f3949123c90afc7961f20b7b" category="doc">從卷/健康詳情頁面中止活動資料保護傳輸</block>
   <block id="9a58cb33c46bd67b10dbfe9baa4d7e70" category="doc">從卷宗關係頁面中止活動資料保護傳輸</block>
   <block id="048ae5982bff88aa72590b4dbc5aa989" category="doc">中止作業</block>
   <block id="e2d25e3306e5479b67f889447b4c8008" category="doc">新增資源池成員</block>
   <block id="0c6440ede420e82875c0fe332e2079c3" category="doc">從卷關係頁面斷開 SnapMirror 關係</block>
-  <block id="9e4d169d8ed25035c351922e958c3e64" category="doc">從磁碟區/運行狀況詳細資料頁面中斷 SnapMirror 關係</block>
   <block id="782282617ebbce1c0fc69532c6c8a806" category="doc">設定工作流程自動化和 Unified Manager 之間的連接</block>
   <block id="1da2127f21378c9fed51fbc6671ba42d" category="doc">配置目標效率設定</block>
   <block id="6f67073f4427617b66ef1fb5577f6478" category="doc">建立級聯或扇出關係以擴展現有保護關係的保護</block>
   <block id="12d721fa5368f91b7b21ee13cecda899" category="doc">建立資源池</block>
   <block id="a37feef3ae04f5c7cbdf4194003b62ba" category="doc">創建 SnapMirror 和 SnapVault 計劃</block>
   <block id="fc816b05a98a9cde75a7d2623a5ad3fa" category="doc">創建 SnapMirror 策略以最大程度提高傳輸效率</block>
-  <block id="5369e195dd2da4d4c03865f9b4e87e7f" category="doc">從磁碟區/運行狀況詳細資料頁面建立 SnapMirror 保護關係</block>
-  <block id="059eecaffbba542bb222e4e7d9770774" category="doc">從「運行狀況:所有磁碟區」視圖建立 SnapMirror 保護關係</block>
   <block id="8dcd37791437211d690afc83013ca2ac" category="doc">建立具有版本靈活複製的 SnapMirror 關係</block>
   <block id="2b3d15bf9f1c1e9f371bdbb19b988e32" category="doc">使用備份選項建立具有版本靈活複製的 SnapMirror 關係</block>
   <block id="766c2a0d1e6bb86c0af16afe5283b42b" category="doc">創建 SnapVault 策略以最大程度提高傳輸效率</block>
-  <block id="4cf5dc70b2da82674a758074ef066492" category="doc">從「Health: All Volumes」檢視建立 SnapVault 保護關係</block>
-  <block id="6c23b696f9dae5b4a74db41425ad1941" category="doc">從磁碟區/運行狀況詳細資料頁面建立 SnapVault 保護關係</block>
   <block id="c192c70e94d335d4fec11b212cec1d7c" category="doc">刪除資源池</block>
-  <block id="ac68e005dad584f80756e40f3c8ee881" category="doc">從卷/健康詳情頁面編輯保護關係</block>
   <block id="7f354b0bf4ec737b20df3bed9f0e66ad" category="doc">從卷關係頁面編輯保護關係</block>
   <block id="fdcdbc6fa4aad04e40cb9e6d1e791d00" category="doc">編輯資源池</block>
-  <block id="c17c826b0e2e0f75aeec4f33674aae04" category="doc">識別問題並對失敗的保護作業執行糾正措施</block>
-  <block id="1acf91041e368234b9767e6321a4aeab" category="doc">從磁碟區關係頁面初始化或更新保護關係</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="doc">監控工作</block>
   <block id="412c70342c0f8c0370a95fe3ffd6aada" category="doc">使用「關係」頁面監控儲存虛擬機</block>
   <block id="da9f00396e4a51999db9c4998c3e8837" category="doc">執行保護關係故障轉移和故障回复</block>
-  <block id="b98f036bb1b26f0c9ba20adf8bd60759" category="doc">從卷/健康詳情頁暫停保護關係</block>
   <block id="4cfb16f4ffdbace9feab1e21feaa3018" category="doc">從「卷關係」頁面停止保護關係</block>
   <block id="4f106114f5cf3f0af6332ad069d31706" category="doc">從資源池移除聚合</block>
   <block id="bdca4c3904d4f025a74a80da8e907967" category="doc">從卷關係頁面中刪除保護關係</block>
-  <block id="83795bb70b8ced1bf0214ad058bd0735" category="doc">從卷/健康詳情頁面中刪除保護關係</block>
   <block id="ea83580b7d2699297cf63c158e610086" category="doc">從 Unified Manager 中刪除 OnCommand Workflow Automation 設定</block>
   <block id="c686294e33f9c9ee0d43a373612ec429" category="doc">解決延遲問題</block>
   <block id="566880194f083ac437b3ef244cdea542" category="doc">解決保護作業失敗</block>
-  <block id="d8412cee76046f96e32246dc67645a8a" category="doc">使用捲和卷/健康詳情頁面恢復數據</block>
   <block id="2500a8c431850ff9519a4af449454377" category="doc">從卷關係頁面恢復靜止關係上的計劃傳輸</block>
-  <block id="37249d428523ef8e7d1726e5497cbd9d" category="doc">從卷/健康詳情頁面恢復已停頓關係的預定傳輸</block>
   <block id="aa22e26937bcd808c11aaed21c7223a2" category="doc">從磁碟區關係頁面重新同步保護關係</block>
-  <block id="7d63e1fb3ad8387dd82179afbf741b81" category="doc">從卷/健康詳情頁面重新同步保護關係</block>
   <block id="ebb8f779e7ed423461b77646ecb91d68" category="doc">重試失敗的保護作業</block>
   <block id="5ddae61cfb5255584059693784d89f43" category="doc">從「卷關係」頁面反向保護關係</block>
-  <block id="64abd551a3f79c0ea52091278c439d08" category="doc">從卷/健康詳情頁面逆轉保護關係</block>
   <block id="9a88d74907cdcd728b4c30df81712e1c" category="doc">在 Unified Manager 中設定保護關係</block>
-  <block id="e3d4795950382c935dcaa4e4cdff7984" category="doc">從卷/健康詳情頁面初始化或更新保護關係</block>
   <block id="24f7310ad31cb694d59f5c3bbdada503" category="doc">在工作流程自動化中驗證 Unified Manager 資料來源緩存</block>
   <block id="ec7d92235d0dc6e0acfa017dfe7f1dbd" category="doc">檢視工作詳細資料</block>
   <block id="0ee908bc1d5ffbef058ececb47b552d6" category="doc">從儲存虛擬機器頁面查看保護關係</block>
@@ -11599,10 +11541,8 @@
   <block id="052802bf01724d178f782683f47ef3ce" category="doc">編輯警報</block>
   <block id="d9c266508708ddff4f0fbf17a60d1ff6" category="doc">啟用和停用 Active IQ 事件報告</block>
   <block id="d89dafa8f3904eba71639a8192ef7286" category="doc">排除災難復原目標磁碟區產生警報</block>
-  <block id="13ad74a0e0abb2ccd14e7c0398a42b6f" category="doc">使用 Unified Manager 自動修復功能解決問題</block>
   <block id="2ff1e10762e13347b0e2ab1f8f31ef8a" category="doc">管理主機系統資源事件</block>
   <block id="a6e27da0af54653e4b56d54895689ae0" category="doc">安排維護時段以停用叢集事件通知</block>
-  <block id="b5ac721eef447f2c9dadc12f4344b2c5" category="doc">訂閱 ONTAP EMS 活動</block>
   <block id="1a990f5d1c13071a14da39e12358a7d9" category="doc">測試警示</block>
   <block id="4b11c5a13c801a8e0fe6c41ef13d1f87" category="doc">測試腳本執行</block>
   <block id="6946512a9a6a7f606ce68ad9de409469" category="doc">上傳新的 Active IQ 規則文件</block>
@@ -11631,7 +11571,6 @@
   <block id="38a70899b496cb8ff9211e6dda93b08e" category="section-title">上傳按需支援包</block>
   <block id="db640ddee1f72e31b1c4cad3db31cdad" category="section-title">設定 HTTP 代理伺服器</block>
   <block id="186f18968bdcfb073f2148f397333939" category="doc">新增安全事件警報</block>
-  <block id="7e4baf40283e5503466b36fc9e40d36c" category="doc">動態新增註釋</block>
   <block id="e4483f896e9d43b1460e7b0dd224353b" category="doc">手動為個別儲存物件新增註釋</block>
   <block id="c3a3c643de3a41b4be90f160e90b6c92" category="doc">新增群組操作</block>
   <block id="ebbc8024d6e3027c45f93495b17e5814" category="doc">新增群組規則</block>
@@ -11673,7 +11612,6 @@
   <block id="f131b21e8e0d011fa49ad94a641507c0" category="doc">編輯單一卷健康閾值設置</block>
   <block id="b607dce58afdbf4fdd5bc6f939c41e73" category="doc">產生並上傳支援包</block>
   <block id="3658416cd97c7673eeb5f11d1c08a0a5" category="doc">產生合約續約的硬體清單報告</block>
-  <block id="19fea0107ece324be610296c94829848" category="doc">將 Unified Manager 虛擬設備遷移到 Linux 系統</block>
   <block id="0c037b40d394632e7bc09fc7de801365" category="doc">對儲存故障轉移互連鏈路執行糾正措施</block>
   <block id="1015ad7e53ddd6eceb233d1b239fee9f" category="doc">對磁碟區離線情況執行診斷操作</block>
   <block id="032b7c9be27bd45ae71fc749a2afbf38" category="doc">對整個卷執行建議的補救措施</block>
@@ -11696,8 +11634,6 @@
   <block id="37c6bc247580228ae479e91df577d411" category="doc">查看所有活動的安全事件</block>
   <block id="aa3a466749e7289cff4b6b9b86e73668" category="doc">查看註釋列表和詳細信息</block>
   <block id="1b991093b7a359a451ae9b7d218529f0" category="doc">查看集群列表和詳情</block>
-  <block id="463fcd04a6e1d96700d9306d57c52bec" category="doc">查看叢集和儲存虛擬機器的安全狀態</block>
-  <block id="bf31252c8114bca55bbaea17ee76761d" category="doc">查看有關 SMB/CIFS 共享的詳細信息</block>
   <block id="0ce22385009ce9369913596357e6e111" category="doc">查看有關 NFS 共享的詳細信息</block>
   <block id="501777f5d41b13b834ae2290c5104075" category="doc">查看所有磁碟區的加密狀態</block>
   <block id="829dc3893fbfe0db837bd5a4d95dae79" category="doc">查看 FabricPool 容量資訊</block>
@@ -11724,7 +11660,6 @@
   <block id="6f8fc1a732f8e9c0ecc7a373fe3963dd" category="section-title">配置 SELinux 上下文<block ref="4bf2f0d069734974e4d76e679433aa07" prefix=" " category="inline-code"></block>已安裝，並且<block ref="90858e32055033b8ac44ac8a8f3461ae" prefix=" " category="inline-code"></block>不單獨安裝</block>
   <block id="49b0dc9fabe00e7c4b4f8c862e5ff8e2" category="doc">將主機作業系統從 Red Hat Enterprise Linux 7.x 升級到 8.x</block>
   <block id="795088718d6b8600befb107d6935420d" category="doc">在 Linux 上升級 OpenJDK</block>
-  <block id="988520e8a20d3e54853b0aa9bc06383d" category="doc">部署 Unified Manager</block>
   <block id="d4ed213e48bb59049f918071485f048b" category="doc">下載 Unified Manager 升級文件</block>
   <block id="ab97f40bd594544f850a5adb2e63dbc2" category="doc">下載 Unified Manager 安裝文件</block>
   <block id="a47ece29cefaaefed25faaaf7fe4d3ad" category="doc">升級 Unified Manager 虛擬設備</block>
@@ -11750,12 +11685,10 @@
   <block id="6697910a5988a01d20809f4dcc798556" category="doc">從儀表板監控叢集效能</block>
   <block id="5d18145e0e05f161f3e1e98db4f152b6" category="doc">使用「效能清單」頁面監控效能</block>
   <block id="e0e59de52e913d5646d302d54d5a14f8" category="doc">使用效能資源管理器頁面監視效能</block>
-  <block id="594a4db135639c7fde0065b7d401df8f" category="doc">在 Unified Manager GUI 中導覽效能工作流程</block>
   <block id="b2488fac35b98eec6768b7446cbe8b6d" category="doc">搜尋儲存對象</block>
   <block id="3723369e76ebdea459a19b9b2b5dbd85" category="doc">在 Unified Manager 伺服器和外部資料提供者之間建立連接</block>
   <block id="95ca3a85df3d1b2e9afe59e749b68128" category="doc">設定 Graphite 以從 Unified Manager 接收效能數據</block>
   <block id="5bc7268e10d1da9e6517927fc4d717c0" category="doc">使用工作負載分析器排除工作負載故障</block>
-  <block id="31c0246ec18e47b42a68c5ad83462d84" category="doc">了解計數器圖表</block>
   <block id="c4640b4664ce74b8bd8cbab43db77e94" category="doc">了解具有定義區塊大小的自適應 QoS 策略中的事件</block>
   <block id="7c73dc1adcc2306de5ccd74626719947" category="doc">了解性能集群登陸頁面</block>
   <block id="9f552d26df094f60cd6e058eba7af78a" category="doc">了解性能事件和警報</block>
@@ -11847,7 +11780,6 @@
   <block id="8d2f37e6ac92e0ed66e30786d85cdef3" category="doc">建立報告以識別已關閉快照自動刪除功能的接近滿容量的捲</block>
   <block id="3aa288501382fefd7e1f3ae9f69059ec" category="doc">建立報表以顯示總計與可用容量圖表</block>
   <block id="95f867922ec550b946495fc45ea106c5" category="doc">建立報表以查看達到滿載的聚合</block>
-  <block id="1470cc59f5f49693a0e27b48f9d9c898" category="doc">建立報表以查看已滿 80% 或以上的聚合</block>
   <block id="8294c47f8bce67beff0373ef90563775" category="doc">建立報表以查看過度承諾的聚合</block>
   <block id="57756939039c77f1de5bcc2d1a1f63ae" category="doc">建立報表以查看具有最多可用 IOPS 的聚合</block>
   <block id="c56924b882e7437001e430b989925b0e" category="doc">建立報表以查看可用磁碟區容量圖表</block>
@@ -11882,7 +11814,6 @@
   <block id="88b57aee405c091b7a1f2996084fcd3e" category="section-title">將策略指派給單一工作負載</block>
   <block id="bfc2a260274bb0816924a717db06a346" category="section-title">將策略指派給多個儲存工作負載</block>
   <block id="0a557ce394e16501ebc1d56b12eb5158" category="section-title">將系統建議的 PSL 分配給工作負載</block>
-  <block id="07252ce62a36a2f8933f6f4140963044" category="doc">直接從 Unified Manager 管理 ONTAP 問題或功能</block>
   <block id="554b6980724f63126d7b320e7fa17f03" category="doc">管理和監控 MetroCluster 配置</block>
   <block id="0d9029e785d6af991e53b31b279e9aa4" category="doc">管理叢集</block>
   <block id="3b9c157ee8a5301c8064fc56189c32a8" category="inline-link-macro">建立和編輯效能服務級別</block>
@@ -11913,7 +11844,6 @@
   <block id="660f9b7acf572dc427717e2b7e0c6c8f" category="doc">為您最喜歡的幫助主題添加書籤</block>
   <block id="698b109c35203be17afc19a47377329d" category="doc">更改 Unified Manager 保留事件和效能資料的時間長度</block>
   <block id="094bdf834b6c62ab59a28b295dcb58ba" category="doc">為使用者和使用者群組配額建立電子郵件通知格式</block>
-  <block id="3b3a40692717f8ed005f772072b9029d" category="doc">建立和編輯效能服務級別</block>
   <block id="3ebbe434cc9a0267d2863042afe8b016" category="doc">建立和編輯儲存效率策略</block>
   <block id="efc52a9aae4ea049c06fd1c64dcffa69" category="doc">建立規則以產生電子郵件地址</block>
   <block id="bed88cb53acbbdb612f7951337010250" category="doc">編輯集群</block>
@@ -11927,13 +11857,11 @@
   <block id="e966de8644c0634031b3732d9d7172f4" category="section-title">查看 MetroCluster 透過 FC 配置的複製</block>
   <block id="7cacdc514c5568ee6de8aa9e11ebdf07" category="doc">設定檔共享卷</block>
   <block id="5cd0e6ae4694b84102b9df3c52d21ad3" category="doc">配置 LUN</block>
-  <block id="1d0192777aff2fb008bc8e0bdbf0829b" category="doc">重新發現集群</block>
   <block id="f253fdd547a6f5e0e05bbdb671ae8b24" category="doc">移除叢集</block>
   <block id="f4bd4a97771e88918f21c2788fb2a8dc" category="doc">移除 vCenter Server</block>
   <block id="6f083f218c5414e801b9cef7f567293b" category="doc">使用 Unified Manager 協助</block>
   <block id="24943f00d14574a8e13c4a3b3118115e" category="doc">從通知鈴查看活動事件</block>
   <block id="ba0cc63a1ecb931f4210b50eab228328" category="doc">檢視並新增 vCenter Server</block>
-  <block id="5c101da7062b6773f25d635a839bddd0" category="doc">查看監控叢集列表</block>
   <block id="5792689c1b5326c3d5b4df2091174b4f" category="doc">查看您選擇修復的管理操作的狀態</block>
   <block id="867a6d6f587d174dedaa9daa2df11935" category="doc">查看使用者和使用者群組配額</block>
   <block id="91963bd27928c6f636a10f0ab3ff2e8a" category="sidebar">管理資料中心內的儲存對象</block>
@@ -12025,19 +11953,14 @@
   <block id="469228004487fcc667bf369582833cc1" category="paragraph">12GB</block>
   <block id="7cf49a8cab90d5b1dc8bb6168b8e25f4" category="inline-link-macro">統一管理最佳實務指南</block>
   <block id="89b5277f8d4fd00ec520a15062f36ee4" category="list-text">請注意，如果您將儲存虛擬機器 (SVM) 或叢集新增至警報的資源中，則不會自動新增子物件。例如，如果您將叢集新增至警報的資源中，警報不會自動新增節點或 LUN。</block>
-  <block id="72351f5aa135c1d7ffc7c5b47be4a6d2" category="doc">配置統一管理器稽核日誌</block>
   <block id="aca31ed102e613948a8b22994dddc430" category="paragraph">若要啟用遠端日誌記錄，請選擇“啟用遠端日誌記錄”。</block>
-  <block id="cb76e5d36c6cc17b94dee092ff59b087" category="doc">重新產生 Unified Manager 用戶端憑證</block>
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">使用 System Manager 管理ONTAP證書</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*相關資訊* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
-  <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">設定統一管理器會話不活動逾時時間</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">系統必須能夠存取某些儲存庫和軟體包，以便安裝程式能夠存取和安裝所有必需的軟體相依性。</block>
-  <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">安裝統一管理器所需的軟體</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3（來自 Red Hat Extra Enterprise Linux Server 儲存庫）</block>
   <block id="bff93131b836db7dbfe3c0ef47a3bdfb" category="inline-link-macro">配置 7-zip 軟體包</block>
   <block id="461c8ff1de784c3f512e2bab8a2bb39d" category="list-text">7zip 版本 7z2301-linux-x64。更多信息，請查看 <block ref="aa6b1d720b802c9e7e893bb0ea66ac63" category="inline-link-macro-rx"></block>。</block>
   <block id="e015944bfff042d3f68ba5273a29764f" category="summary">若要在 Red Hat Enterprise Linux (RHEL) 系統上成功安裝 Unified Manager，您的系統必須設定有 7-zip 軟體套件的存取權限。</block>
-  <block id="85dda2f348fcdccc0aaeab4cbe8f599f" category="doc">設定 Unified Manager 的 7-zip 軟體包</block>
   <block id="f4545e72494a629211274696dc51101a" category="paragraph">若要在 Red Hat Enterprise Linux 系統上成功安裝 Unified Manager，您的系統必須設定對 7-zip 軟體套件的存取權限。如果網路存取可用，且防火牆未封鎖 7-zip URL，則在安裝或升級過程中，7-zip 會自動下載到您的系統。NetApp建議使用自動下載方式。</block>
   <block id="69e854a4bf0030976395f03271128807" category="paragraph">請確保在防火牆中解除對下列 URL 的阻止，以允許 Unified Manager 自動下載 7-zip 軟體包：<block ref="149f97a3106ff103273136be2377c5c5" prefix=" " category="inline-code"></block></block>
   <block id="37c1dac21aa18b5553076dd69c0d4f88" category="paragraph">或者，您可以預先安裝 7-zip。</block>
@@ -12115,4 +12038,792 @@
   <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Active IQ Unified Manager 物件清單視窗的快照，其中包含帶有標籤的導覽、搜尋、篩選和報告控制項。</block>
   <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">快照顯示 Active IQ Unified Manager Volume 詳細資料視窗，其中包含索引標籤、容量詳細資料、相關物件、歷史記錄和事件。</block>
   <block id="ebe5a1b0891ca6dea431768b7ab00971" category="paragraph">必須先從 Unified Manager 中移除叢集，才能將其停用。如果嘗試移除叢集時叢集已離線或無法連線，Unified Manager 將無法與叢集通訊以移除應用程式記錄和已設定的事件管理系統（EMS）訂閱。這將導致移除程序失敗或在完成前無回應。</block>
+  <block id="3ea17c1538b1f44c0f52b8c09186a726" category="doc">使用 Active IQ Unified Manager 中的 API 執行管理任務</block>
+  <block id="4b5806cca253e51c914ae320638931fc" category="doc">使用 Active IQ Unified Manager 中的系統日誌進行故障排除</block>
+  <block id="6a498df8ce18a9ee07ee9a16fc816256" category="doc">管理 Active IQ Unified Manager API 存取和類別</block>
+  <block id="f9cd1307b5347e1707177baa6b154877" category="doc">了解 Active IQ Unified Manager 如何使用作業物件進行非同步處理</block>
+  <block id="1a8ea23f81b7a5d9b145553c73fbd5b8" category="doc">使用 Active IQ Unified Manager 中的 API 管理資料中心中的儲存設備物件</block>
+  <block id="60d4914cf48073b0cb926300ed377fbc" category="doc">使用 Active IQ Unified Manager 中的 API 管理事件與警示</block>
+  <block id="72fa88163eabd2de6cbce45b5f7cbe8c" category="doc">使用 Active IQ Unified Manager 事件 API 確定儲存設備物件問題</block>
+  <block id="a82c6f27bf47651fd1b9f605f673fbd9" category="doc">透過 Active IQ Unified Manager 中的 Proxy 存取來存取 ONTAP API</block>
+  <block id="f3c90f468ee814df39d332b01c1b121d" category="doc">了解 Active IQ Unified Manager 中的 Hello API 伺服器範例方案</block>
+  <block id="f46283e5d6996e4e933c256e2c3db114" category="doc">使用 Active IQ Unified Manager 中的 API 檢視作業和系統詳細資料</block>
+  <block id="be7b44fdf6b82a0c627383cf30fa1b4f" category="doc">使用 Active IQ Unified Manager 中的 API 管理存取端點</block>
+  <block id="557a0531caa33494d53e52fc09cdd447" category="doc">使用 Active IQ Unified Manager 中的 API 管理 Active Directory 對應</block>
+  <block id="bdf344746318dc546e61e6e732058b87" category="doc">使用 Active IQ Unified Manager 中的 API 管理檔案共享</block>
+  <block id="330c586e3cf6ca7b792e71451b347f2a" category="doc">使用 Active IQ Unified Manager 中的 API 管理 LUN</block>
+  <block id="0b498f4c86114a8d86a6f294c6ef88d8" category="doc">使用 Active IQ Unified Manager 中的 API 管理效能服務層級</block>
+  <block id="5c06dfd47a373f2720f9daf65f49abe2" category="doc">使用 Active IQ Unified Manager 中的 API 管理儲存效率原則</block>
+  <block id="9a059cf8542681c45f3c9ac092b3c338" category="doc">查看 Active IQ Unified Manager 中的儲存設備管理 API</block>
+  <block id="a644bbf08605085bd8a5cdf376974b43" category="doc">使用 Active IQ Unified Manager 中的 API 檢視效能計量</block>
+  <block id="f5ca4c100a8f248f6e3ecdf56fa6c763" category="doc">使用 Active IQ Unified Manager 中的 API 修改儲存設備工作負載</block>
+  <block id="7830205b499fe991f7bdb91955ce0f75" category="doc">使用 Active IQ Unified Manager 閘道 API 對 ONTAP 磁碟區進行故障排除</block>
+  <block id="5c6eb92044bd0057745dd84bc3b08d7c" category="doc">使用 Active IQ Unified Manager API 配置 CIFS 和 NFS 檔案共享</block>
+  <block id="ad0e5e3c52c989e20ea3365933732406" category="doc">使用 Active IQ Unified Manager API 配置 LUN</block>
+  <block id="bb40a4b31b72f40f6c82fee523b86852" category="doc">在 Active IQ Unified Manager 中配置和修改儲存設備工作負載</block>
+  <block id="fc40282dc082fd53da66e047d4105c85" category="doc">在 Active IQ Unified Manager 中存取和驗證 REST API</block>
+  <block id="2d8f4fd16ff30ca28ab4dbd07b593f74" category="doc">了解 Active IQ Unified Manager 中的 API 版本號</block>
+  <block id="615ed386d0411e2ef37ec51d466dff81" category="doc">了解 Active IQ Unified Manager 中提供的 REST 服務</block>
+  <block id="46f2f1971c436713f6580a41c1988c7d" category="doc">使用 API 在 Active IQ Unified Manager 中管理使用者</block>
+  <block id="939c5f21f82ae6cbe7e51522cea3bb4a" category="doc">了解 Active IQ Unified Manager 中的 ONTAP 儲存設備資源模型</block>
+  <block id="ae1bb6753eb812403d07bd37fa91df30" category="doc">了解 Active IQ Unified Manager REST API 的類別</block>
+  <block id="17eb7d72c58262eecad0c6f0e58511ef" category="doc">使用 Active IQ Unified Manager API 驗證 ONTAP 叢集上的 SVM</block>
+  <block id="0203b12eba4f372f1f775ff3064209de" category="doc">使用 Active IQ Unified Manager 中的 API 檢視儲存設備工作負載</block>
+  <block id="dcb0aa6f593347ef9a58b6e5326971bc" category="doc">了解 Active IQ Unified Manager 中儲存管理的常用 API 工作流程</block>
+  <block id="9ecfed039a767bc63208d9ead3a8213d" category="doc">使用 Active IQ Unified Manager API 判斷集合體中的空間問題</block>
+  <block id="ae8525699bf06f5dcc8470407995cd22" category="doc">了解 Active IQ Unified Manager HTTP 狀態碼</block>
+  <block id="5af4fa4cfb67903d2efc98b2165ed38f" category="doc">識別 Active IQ Unified Manager REST API 的目標使用者</block>
+  <block id="2ab116ca781f9a9c3e2587e718d5fb8e" category="doc">遵循使用 Active IQ Unified Manager API 的建議做法</block>
+  <block id="e70714bd7a1e1b0adf7f5c83748d338d" category="doc">使用 Active IQ Unified Manager API 修改 NFS 檔案共享以支援 CIFS</block>
+  <block id="ba994fd6a3c508b9c210a00fbb3e646a" category="doc">在 Active IQ Unified Manager 中啟用 Active IQ 入口網站事件</block>
+  <block id="12101b017804ed04d867cd0157e06d10" category="doc">為 Active IQ Unified Manager 資料庫目錄新增磁碟空間</block>
+  <block id="c0ed2c8ab6a460c2375f5e5d58499a05" category="doc">了解 Active IQ Unified Manager 中的 API 閘道功能</block>
+  <block id="ac955911d0f754875f74ac112c0af065" category="doc">了解 Active IQ Unified Manager 中的稽核日誌</block>
+  <block id="fba6c91bf794e0babdca90d6471a67ae" category="doc">在 Active IQ Unified Manager 中使用 Active Directory 或 OpenLDAP 進行驗證</block>
+  <block id="3866df1bac2cb128b41bd561b97075da" category="doc">變更 Active IQ Unified Manager 主機名稱</block>
+  <block id="d4b960c3535e282ce85c82f9cc6f047f" category="doc">設定 Active IQ Unified Manager 備份</block>
+  <block id="2bd8e128d8a1eac920d0b22bbca6a870" category="doc">了解如何設定 Active IQ Unified Manager</block>
+  <block id="14078dbe09a0d583317c9c30b6b63570" category="doc">在 Active IQ Unified Manager 中指定非活動逾時</block>
+  <block id="08259ebdba5f5ec23d9d6695c4725e72" category="doc">了解 Active IQ Unified Manager Unified Manager 中如何使用外部工具產生 HTTPS 憑證</block>
+  <block id="cfd76692c8b8c940c44afcfdd099124b" category="doc">在 Active IQ Unified Manager 中新增登入橫幅</block>
+  <block id="0b6fac564afd567fa9448a8c6f4bd328" category="doc">了解 Active IQ Unified Manager 中的維護主控台選單</block>
+  <block id="d766961b8d7212f0954f55e7583c3ea0" category="doc">在 Active IQ Unified Manager 中啟用驗證</block>
+  <block id="451c801bdeef9faaddcefd06f5389075" category="doc">了解 Active IQ Unified Manager 中的功能設定</block>
+  <block id="50b8767678de7956c07fa9c9981816e4" category="doc">在 Active IQ Unified Manager 中啟用 SAML 驗證</block>
+  <block id="2a089b11e833e1ed82120292ee5336a2" category="doc">在 Active IQ Unified Manager 中管理安全性憑證</block>
+  <block id="48727c7a2750c4a628441c22d22e7f21" category="doc">在 Active IQ Unified Manager 中管理使用者存取</block>
+  <block id="558ee5aab1d6df4968febb66facbc08d" category="doc">了解 Active IQ Unified Manager 中的組態順序</block>
+  <block id="2c86b375c0a3b46d1d47cfae003613ba" category="doc">在 Active IQ Unified Manager 中使用 HTTPS 憑證頁面</block>
+  <block id="e7deaf81d671947add80b5ea992be64c" category="doc">在 Active IQ Unified Manager 中啟用原則型儲存管理</block>
+  <block id="907cbda05a1be185a20eebfd42797da5" category="doc">在 Active IQ Unified Manager 中啟用和停用安全性設定以符合法規遵循</block>
+  <block id="41d9b7b6bb12ab79120100210e89d450" category="doc">Active IQ Unified Manager 中的診斷使用者功能</block>
+  <block id="6be1b93ac3b6f80069f0f669c524c0f9" category="doc">了解 Active IQ Unified Manager 中的維護主控台</block>
+  <block id="1b1ccdbb25121ab3a54cbf73b383edc5" category="doc">了解 Active IQ Unified Manager 中的維護使用者</block>
+  <block id="6d9d6f51d953a33201e19ec9047f78cc" category="doc">了解 Active IQ Unified Manager 中的角色型存取控制</block>
+  <block id="a5cd7b85ba74c866197623130e20eef5" category="paragraph">RBAC（角色型存取控制）提供控制誰能存取 Active IQ Unified Manager 伺服器中各種功能與資源的能力。RBAC 可讓系統管理員透過定義角色來管理使用者群組。如果您需要將特定功能的存取權限限制在選定的系統管理員，則必須為他們設定系統管理員帳戶。如果您想要限制系統管理員可以檢視的資訊以及他們可以執行的作業，則必須將角色套用至您建立的系統管理員帳戶。</block>
+  <block id="165c203f50b1aebd6a9a6eaf630a758c" category="doc">了解 Active IQ Unified Manager 中的其他維護主控台選單選項</block>
+  <block id="52580103d219255023760ea06154001d" category="doc">了解 Active IQ Unified Manager 中的使用者角色</block>
+  <block id="ccf295863d6f02aba93953a4e7399762" category="doc">了解 Active IQ Unified Manager 中的使用者類型</block>
+  <block id="90110a471ab68c56a1ce77290b4a9e7d" category="doc">了解 Active IQ Unified Manager 中的 HTTPS 憑證頁面</block>
+  <block id="d4b389e3d47e636778637ca43f68fca5" category="doc">在 Active IQ Unified Manager 中使用身分供應商</block>
+  <block id="b3e995a5e501598465e2fc95532e0ce1" category="doc">Active IQ Unified Manager 中的網路組態選單</block>
+  <block id="3a74b727c03579fe4b6bafaf10e04dde" category="doc">在 Active IQ Unified Manager 中重新產生 HTTPS 憑證對話方塊</block>
+  <block id="ce4da7f8f890859946a6754fe9221071" category="doc">使用 Active IQ Unified Manager 中的遠端身分驗證頁面</block>
+  <block id="ce0839f2de5c70571d1b51b1be81e687" category="doc">在 Active IQ Unified Manager 中使用 SAML 驗證頁面</block>
+  <block id="acc98da31b9b47ad35dfc0bd7d17048b" category="doc">使用 Active IQ Unified Manager 中的「支援與診斷」選單</block>
+  <block id="694ae542a0f0d617e72250a26149a2fa" category="doc">使用 Active IQ Unified Manager 中的系統組態選單</block>
+  <block id="563bc08449e6abfc4d04022972d1bc7a" category="doc">了解 Active IQ Unified Manager 中的使用者角色和功能</block>
+  <block id="2592754161d13f6abe1293ad13c9ee63" category="doc">在 Active IQ Unified Manager 中存取維護主控台</block>
+  <block id="b9f6113c3374d6e7e1da7268990243a3" category="doc">在 Active IQ Unified Manager 中使用 vSphere VM 主控台存取維護主控台</block>
+  <block id="b80b79445102bca8e5d4c7c24b929292" category="doc">在 Active IQ Unified Manager 中存取 Web UI</block>
+  <block id="81995afeeb67565a03d67d5a9631d59c" category="doc">將網路介面新增至 Active IQ Unified Manager</block>
+  <block id="154acdd6932346215da39222627c5b4f" category="doc">在 Active IQ Unified Manager 中新增警報</block>
+  <block id="318824da9543dd578a1126faf2fbf16a" category="doc">將驗證伺服器新增至 Active IQ Unified Manager</block>
+  <block id="f3dd2cc78c0c55ff9cb6bf300362c111" category="doc">將叢集新增至 Active IQ Unified Manager</block>
+  <block id="f277e7a3284b88e104ec628a0539c6ad" category="doc">在 Active IQ Unified Manager 中為 Linux 主機上的資料目錄新增空間</block>
+  <block id="c2af2f7f2efe8d913b7bfb32f7518367" category="doc">在 Active IQ Unified Manager 中為 VMware 虛擬機器的資料磁碟新增空間</block>
+  <block id="ba49fff3984a4fef8d2f43ff6736e80d" category="doc">在 Active IQ Unified Manager 中為 Windows 伺服器上的邏輯磁碟機新增空間</block>
+  <block id="de15ae06772d0bf247695724c9068643" category="doc">在 Active IQ Unified Manager 中新增使用者</block>
+  <block id="ccbbd24c9fdfc6bec64f8337588e2a56" category="doc">在 Active IQ Unified Manager 中變更 SAML 驗證身分供應商</block>
+  <block id="6ac2ef7ac18dac99a89d8baa636f45b1" category="doc">在 Active IQ Unified Manager 中變更本機使用者密碼</block>
+  <block id="6de960f3b2cbf16565ad76519fe7df40" category="doc">在 Active IQ Unified Manager 中變更 Windows 上的維護使用者密碼</block>
+  <block id="9af9dc0a8bea886ed46356571f49df9a" category="doc">更改 Active IQ Unified Manager 用於 HTTP 和 HTTPS 協定的連接埠</block>
+  <block id="5ae03f28725ddee49395da71cc3e1abe" category="doc">在 Linux 系統上變更 Active IQ Unified Manager 主機名稱</block>
+  <block id="e1b1e5cefa5b31de07b367201ccd9997" category="doc">更改 Linux 系統上的 Active IQ Unified Manager umadmin 密碼</block>
+  <block id="2b20c27429f8d59ea861ec92c2b964b0" category="doc">更改 Active IQ Unified Manager 虛擬應用裝置主機名稱</block>
+  <block id="2c7686b00c57bb0204a3d1d8589faa92" category="doc">設定 Active IQ Unified Manager 稽核日誌</block>
+  <block id="d348e5b30c23d8545732092133350714" category="doc">在 Active IQ Unified Manager 中設定事件通知設定</block>
+  <block id="c8e0b05786efe80fbf573e9bf40f222c" category="doc">設定 Active IQ Unified Manager 以傳送警示通知</block>
+  <block id="5d1c3504cc054a879d0fc1637a89d4bd" category="doc">在 Active IQ Unified Manager 中建立資料庫使用者</block>
+  <block id="727dd5b1858cbe779b252fd93afbe3a2" category="doc">在 Active IQ Unified Manager 中刪除驗證伺服器</block>
+  <block id="afb6e67fd1fbf2904b38e20c65ab0df9" category="doc">在 Active IQ Unified Manager 中刪除使用者或群組</block>
+  <block id="1cf6e4470c08d0db0fd9d21241294e88" category="doc">在 Active IQ Unified Manager 中停用巢狀群組的遠端驗證</block>
+  <block id="0418ec320356cfb35d2bf8d026f2dd8d" category="doc">從 Active IQ Unified Manager 維護主控台停用 SAML 驗證</block>
+  <block id="9de00c9bb3a7abe61deb8b3377389520" category="doc">在 Active IQ Unified Manager 中停用 SAML 驗證</block>
+  <block id="3d532fd5e0c8248881b0dd11163e0577" category="doc">在 Active IQ Unified Manager 中下載 HTTPS 憑證簽署要求</block>
+  <block id="6c24b3a1ce6b1bcdf4d98c5f01cec38f" category="doc">在 Active IQ Unified Manager 中編輯驗證伺服器</block>
+  <block id="d96d8c8c0de3925fbdea9f2a046a3e54" category="doc">在 Active IQ Unified Manager 中編輯使用者設定</block>
+  <block id="d89f706579c15149a1963803d5b3280e" category="doc">在 Active IQ Unified Manager 中啟用和停用指令碼上傳</block>
+  <block id="f1fd3ff5c726790678c346d7715914e9" category="doc">在 Active IQ Unified Manager 中啟用並停用原則型儲存管理</block>
+  <block id="21fd6cd6006aab1be74df0860bf42a3c" category="doc">在 Active IQ Unified Manager 中啟用遠端驗證</block>
+  <block id="f8b33643ad377fe1aa1afc9ca7c76b70" category="doc">在 Active IQ Unified Manager 中啟用稽核日誌的遠端記錄</block>
+  <block id="1ab25ba509a80076636aad1178ef1a8c" category="doc">在 Active IQ Unified Manager 中產生 HTTPS 安全性憑證</block>
+  <block id="2b2a8369f22181841473c7b344d76501" category="doc">在 Active IQ Unified Manager 中安裝由 CA 簽署的 HTTPS 憑證</block>
+  <block id="fe0c98310d009e83a97335017e7aba27" category="doc">執行 Active IQ Unified Manager Web UI 的初始設定</block>
+  <block id="cf39f5da73ea6e0ed1a0d5030fbe4348" category="doc">在 Active IQ Unified Manager 中重新產生用戶端憑證</block>
+  <block id="34a95d2cf507775726c41933ab9c7e46" category="doc">重新啟動 Active IQ Unified Manager 虛擬機器</block>
+  <block id="1df2a6cddeeb9e1cb73c77d3c4e357c1" category="doc">在 Active IQ Unified Manager 中設定工作階段不活動逾時</block>
+  <block id="48ae3b08cac7f0ce9483048889330743" category="doc">使用 Active IQ Unified Manager 中的 CLI 設定工作階段逾時</block>
+  <block id="51ff887fb67bda640687e68b9f3c4503" category="doc">在 Active IQ Unified Manager 中設定驗證服務</block>
+  <block id="5be4051030888384dbc3b78f9e4b7cc4" category="doc">測試 Active IQ Unified Manager 中的驗證伺服器組態</block>
+  <block id="e21f8f9712496e6a7a862bb5f56f8d60" category="doc">在 Active IQ Unified Manager 安全性憑證變更後更新 SAML 驗證設定</block>
+  <block id="4cf1d09e6179d1b0482a3dc0081eae1a" category="doc">使用 Active IQ Unified Manager 維護控制台</block>
+  <block id="6bbd6c7f32c6c75ae8472c88ce5bf10b" category="doc">在 Active IQ Unified Manager 中檢視 HTTPS 安全性憑證</block>
+  <block id="563dc82c461ed282a00b25f24bc03e88" category="doc">在 Active IQ Unified Manager 中檢視使用者</block>
+  <block id="3bcb978335c18b8b9ecdebdf58ca591d" category="doc">了解如何在 Active IQ Unified Manager 中建立和監控保護關係</block>
+  <block id="dadae39cf2e4b77c99c5ab121ed94783" category="doc">了解如何在 Active IQ Unified Manager 中管理和監控保護關係</block>
+  <block id="8a0f63a220aa3141a819b5bbb950e9ae" category="doc">了解 Active IQ Unified Manager 中的儲存設備 VM 災難恢復關係</block>
+  <block id="624153d2d07564649b89911b7d0fb8fb" category="doc">在 Active IQ Unified Manager 中支援儲存設備服務的 SVM 與資源池需求</block>
+  <block id="3016a16be7f6108c73c7f84b1588f7f7" category="doc">Active IQ Unified Manager 中的 SnapMirror 保護類型</block>
+  <block id="7cf981fb386e46536accc6f04e887369" category="doc">重新安裝或升級 OnCommand Workflow Automation 對 Active IQ Unified Manager 的影響</block>
+  <block id="90d277e95deb51f98c801a90d1b8e8c1" category="doc">了解 Active IQ Unified Manager 中的工作</block>
+  <block id="2032295cda560944e3c6098141a78b8e" category="doc">了解 Active IQ Unified Manager 中的資源池</block>
+  <block id="2079e69935064d3e9ecbdb784f5a5c15" category="doc">在 Active IQ Unified Manager 中使用「進階目的地設定」對話方塊</block>
+  <block id="4f228e0397d137ef35bb6d4a1f5b8064" category="doc">在 Active IQ Unified Manager 中使用「進階次要設定」對話方塊</block>
+  <block id="ac83f8fef40a7cb0053b9d9a22976b01" category="doc">在 Active IQ Unified Manager 中使用集合體對話方塊</block>
+  <block id="4d537416aa52fd0f99f2239516d86f3d" category="doc">在 Active IQ Unified Manager 中使用「瀏覽目錄」對話方塊</block>
+  <block id="cd691146e00478c47d33f1b8b7ab5d44" category="doc">在 Active IQ Unified Manager 中使用「設定保護」對話方塊</block>
+  <block id="724a8827f936e7ddabbd425edb58090c" category="doc">在 Active IQ Unified Manager 中使用「建立資源池」對話方塊</block>
+  <block id="9fa792e3b79be2fbea6fdfe88122f38d" category="doc">在 Active IQ Unified Manager 中使用「建立排程」對話方塊</block>
+  <block id="849fe714f8ca4df92ca2cfad09c3ef38" category="doc">在 Active IQ Unified Manager 中使用「建立 SnapMirror 原則」對話方塊</block>
+  <block id="db382d7ddacc47f6972cddcfb1078f97" category="doc">在 Active IQ Unified Manager 中使用「建立 SnapVault 原則」對話方塊</block>
+  <block id="169641426cee7744eb86f9c31b73748f" category="doc">在 Active IQ Unified Manager 中管理保護詳情</block>
+  <block id="3047bb9d929d2a0870f2f2ccaa5b09f2" category="doc">在 Active IQ Unified Manager 中編輯保護關係</block>
+  <block id="6c070986f112b7db3c4dedc38aa8e06b" category="doc">在 Active IQ Unified Manager 中使用「編輯資源池」對話方塊</block>
+  <block id="ac2f8bac1ed026f36e92c53a8f34b913" category="doc">在 Active IQ Unified Manager 中使用「初始化/更新」對話方塊</block>
+  <block id="ed2bcee1ddc15e00415fb9e6723e18c5" category="doc">了解 Active IQ Unified Manager 中的工作詳細資料頁面</block>
+  <block id="e49c9d0264bd2aacd47103f7f4e8681f" category="doc">了解 Active IQ Unified Manager 中的工作頁面</block>
+  <block id="88a4b2556acb1074a824eafc95fa0c77" category="doc">在 Active IQ Unified Manager 中管理儲存設備 VM 關聯</block>
+  <block id="3d07b1ff057260f92d4a2a6408fcb905" category="doc">在 Active IQ Unified Manager 中顯示關係：所有關係檢視</block>
+  <block id="e1291856079a5237e929392442bf4713" category="doc">在 Active IQ Unified Manager 中顯示「關係：過去 1 個月傳輸率」檢視</block>
+  <block id="d09305d23132eb02b237fedfa8ffa8a4" category="doc">在 Active IQ Unified Manager 中顯示過去 1 個月的傳輸狀態檢視</block>
+  <block id="3771225f779792af950b6e46aebb5e7f" category="doc">了解 Active IQ Unified Manager 中的資源池頁面</block>
+  <block id="92d99585f6182309ebeed4500b853b2c" category="doc">在 Active IQ Unified Manager 中使用「還原」對話方塊</block>
+  <block id="c21f0614c5f4842157e8c8a14be2b483" category="doc">在 Active IQ Unified Manager 中使用重新同步對話方塊</block>
+  <block id="91a61192a05a97350dca7bb2709c6efd" category="doc">在 Active IQ Unified Manager 中進行反向重新同步</block>
+  <block id="55aee2f360709fddb358f8409769c67a" category="doc">在 Active IQ Unified Manager 中使用「選擇來源 Snapshot 快照技術副本」對話方塊</block>
+  <block id="338e23c4cf3bbda9cbe7ba2995aef778" category="doc">在 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中止傳輸</block>
+  <block id="fcef18a1dd03bb6113302d604736ce14" category="doc">在 Active IQ Unified Manager 的「磁碟區關係」頁面中止傳輸</block>
+  <block id="ba3b708d35bea54636777e70916189f2" category="doc">在 Active IQ Unified Manager 中中止作業</block>
+  <block id="f24961d3f9a0cfeb2356667e6404be65" category="doc">在 Active IQ Unified Manager 中新增資源池成員</block>
+  <block id="01ab9c06d40392af589d3062d88afba4" category="doc">從 Active IQ Unified Manager 磁碟區關係頁面中斷 SnapMirror 關係</block>
+  <block id="ee8491e7c5938afddc7777a9b3f349aa" category="doc">從 Active IQ Unified Manager 的「磁碟區/運作狀況」頁面中斷 SnapMirror 保護關係</block>
+  <block id="b0422be47cbe70960b7b5c99a1037f18" category="doc">設定 Workflow Automation 和 Active IQ Unified Manager 之間的連線</block>
+  <block id="ba14af3dbd5b8954579233af02e231c4" category="doc">在 Active IQ Unified Manager 中設定目的地效率設定</block>
+  <block id="2c2fd2e52361e2085d5b373e37c9f60a" category="doc">在 Active IQ Unified Manager 中使用級聯或扇出關係擴充保護</block>
+  <block id="91774748a4b48d05e44072275a6bd680" category="doc">在 Active IQ Unified Manager 中建立資源池</block>
+  <block id="9cddb8b9da323419abad4749a6843d0e" category="doc">在 Active IQ Unified Manager 中建立 SnapMirror 和 SnapVault 排程</block>
+  <block id="52d1dedfd0f03f32f74193431f9ad193" category="doc">在 Active IQ Unified Manager 中建立 SnapMirror 原則以最大化傳輸效率</block>
+  <block id="1f8b644a3bd0f557c78dfa529c950029" category="doc">在 Active IQ Unified Manager 的「磁碟區健康」詳細資料頁面中建立 SnapMirror 關係</block>
+  <block id="703f59e984fb8a54af83ce6bc83c9fc8" category="doc">從 Active IQ Unified Manager 的「健康狀況：所有磁碟區」檢視建立 SnapMirror 關係</block>
+  <block id="5cb48742a6a7346305787beda0f1489c" category="doc">在 Active IQ Unified Manager 中建立具有版本彈性複寫的 SnapMirror 關係</block>
+  <block id="aaf8cc626a3c8c6ad5a7b95fb354574c" category="doc">在 Active IQ Unified Manager 中建立具有版本彈性複寫和回溯選項功能的 SnapMirror 關係</block>
+  <block id="aaa3604bb380ea6473950c2624d441dd" category="doc">在 Active IQ Unified Manager 中建立 SnapVault 原則以最大化傳輸效率</block>
+  <block id="8e59cc4e2757ef8e95aee3f114537afa" category="doc">在 Active IQ Unified Manager 的「健康狀況：所有磁碟區」檢視中建立 SnapVault 關係</block>
+  <block id="2fe59b25b6c6b63aea2956b25eea32c8" category="doc">在 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中建立 SnapVault 保護關係</block>
+  <block id="db457cc64fa16bf4f25ea60ab145518e" category="doc">在 Active IQ Unified Manager 中刪除資源池</block>
+  <block id="39c5a14e567c2efe1d1ef2821c22097e" category="doc">在 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中編輯保護關係</block>
+  <block id="bc0382b0378bc0a9aa3fc9baeb08e1e6" category="doc">在 Active IQ Unified Manager 的「磁碟區關係」頁面中編輯保護關係</block>
+  <block id="96e252f5155c3adf0d8c038581f91205" category="doc">在 Active IQ Unified Manager 中編輯資源池</block>
+  <block id="c345689735d10af8bb7b469c49a3d21d" category="doc">識別 Active IQ Unified Manager 中保護作業失敗的問題並執行修正措施</block>
+  <block id="7c5820b2be98095ce2107e259517b837" category="doc">在 Active IQ Unified Manager 的「磁碟區關係」頁面中初始化或更新保護關係</block>
+  <block id="d9faecaaf4102c87c82804d0ed9f7d40" category="doc">在 Active IQ Unified Manager 中監控作業</block>
+  <block id="189e73a453fb48f4c4da10e4cc5311f9" category="doc">使用 Active IQ Unified Manager 中的「關係」頁面監控儲存設備 VM</block>
+  <block id="6a2725cbc1ae7a05f409b46750e20729" category="doc">在 Active IQ Unified Manager 中執行保護關係故障轉移和故障復原作業</block>
+  <block id="0dcd741b9b6af9d14ce63818e9d6f73b" category="doc">在 Active IQ Unified Manager 的「磁碟區/健康狀況」詳細資料頁面中，將保護關係置於靜默狀態</block>
+  <block id="865c5bc6ccbb324dbb6d3d48b9f65286" category="doc">從 Active IQ Unified Manager 的「磁碟區關係」頁面靜止保護關係</block>
+  <block id="34dc97e2216ab0eb59c0b498c1ab1184" category="doc">從 Active IQ Unified Manager 的資源池中移除 Aggregate</block>
+  <block id="3f389dea63edf2ee1225419a184f31ad" category="doc">從 Active IQ Unified Manager 的「磁碟區關係」頁面中移除保護關係</block>
+  <block id="83641dbb7721af25438e579ca29865e2" category="doc">從 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中移除保護關係</block>
+  <block id="a8c7fce87b2d952e98423b1ec4fa95b9" category="doc">從 Active IQ Unified Manager 移除 OnCommand Workflow Automation 設定</block>
+  <block id="44728f0347ae697e3f20ae2f693b2875" category="doc">解決 Active IQ Unified Manager 中的延遲問題</block>
+  <block id="e5f2793cd90802c2e7bd7dff9f94eb95" category="doc">解決 Active IQ Unified Manager 中的保護作業故障</block>
+  <block id="f9ce130ef6438f6b95e117435cfc588b" category="doc">使用 Active IQ Unified Manager 中的「磁碟區」和「磁碟區/運作狀況」詳細資料頁面還原資料</block>
+  <block id="c0539864a4910a49b8346e129f87fde6" category="doc">在 Active IQ Unified Manager 的「磁碟區關係」頁面中，恢復已暫停關係的排程傳輸</block>
+  <block id="b87168b1b343726bc82d58594fb399f1" category="doc">從 Active IQ Unified Manager 的「磁碟區 / 健康狀況」詳細資料頁面恢復已靜止關係的傳輸</block>
+  <block id="5a41fde0e67f902e38d45f488b40a164" category="doc">在 Active IQ Unified Manager 的「磁碟區關係」頁面中重新同步保護關係</block>
+  <block id="85e870d6d9e24a1e907cc1bc5aa6a0d5" category="doc">在 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中重新同步保護關係</block>
+  <block id="67d679336a20937a168216c9001f7d13" category="doc">在 Active IQ Unified Manager 中重試失敗的保護作業</block>
+  <block id="e10b181f5ff5e0c8c155b470ae8eda6a" category="doc">從 Active IQ Unified Manager 的「磁碟區關係」頁面反轉保護關係</block>
+  <block id="fa537acdb2471fa911f44f6e2f296709" category="doc">在 Active IQ Unified Manager 的「磁碟區/健康狀況」詳細資料頁面中反向設定保護關係</block>
+  <block id="3c010d4645459a8aec38941346cbb660" category="doc">在 Active IQ Unified Manager 中設定保護關係</block>
+  <block id="460121191cfe209a2875a70187dc6fe0" category="doc">在 Active IQ Unified Manager 的「磁碟區/運作狀況」詳細資料頁面中初始化或更新保護關係</block>
+  <block id="3836dee5660154b7a5624bea6808e387" category="doc">在 Workflow Automation 中驗證 Active IQ Unified Manager 資料來源快取</block>
+  <block id="1b61724ffae0632579f99e7120e037ca" category="doc">在 Active IQ Unified Manager 中檢視工作詳細資料</block>
+  <block id="4e37cbdf03995f31c5aa9f3fe6122237" category="doc">在 Active IQ Unified Manager 的儲存設備 VM 頁面中查看保護關係</block>
+  <block id="0fb1fd81ce895a799d2dff72eecb641c" category="doc">在 Active IQ Unified Manager 中查看資源池清單</block>
+  <block id="99bbec9d4f938192df83d3f20e3fb35c" category="doc">在 Active IQ Unified Manager 中根據保護狀態檢視儲存設備虛擬機器</block>
+  <block id="40d0bf790a5a7994e152459e9710299c" category="doc">在 Active IQ Unified Manager 中查看 Volume 保護關係</block>
+  <block id="4d4ac2b4ee63a3404546dd9c4da92d95" category="doc">在 Active IQ Unified Manager 中監控一致性群組 LUN 關係</block>
+  <block id="ac707d2e360777e6ac21fa4b6a36586b" category="doc">在 Active IQ Unified Manager 中查看 Volume 保護狀態</block>
+  <block id="e281cb321f83badd61286a50bbbdb234" category="doc">Active IQ Unified Manager 偵測到設定變更</block>
+  <block id="be8617ed11f04420c3ec6774c250deba" category="doc">Active IQ Unified Manager 中的事件狀態</block>
+  <block id="029661e04d334fe2885ec286a70d6953" category="doc">在 Active IQ Unified Manager 中新增警報的指南</block>
+  <block id="734185b4de7d4c8058a1cc7bb6135756" category="doc">Active IQ Unified Manager 如何產生 Active IQ 平台事件</block>
+  <block id="3ad72e22b2aa226c488e08b09f84eb60" category="doc">Active IQ Unified Manager 如何計算物件狀態</block>
+  <block id="179241ab3d77f843e02aacd28af58262" category="doc">Active IQ Unified Manager 中的指令碼如何與警報協同運作</block>
+  <block id="8708fa0602cb9410b5053bc0952546bf" category="doc">了解 Active IQ Unified Manager 中的警示</block>
+  <block id="2296b637f2700435bbe84fcb15b77099" category="doc">在 Active IQ Unified Manager 中管理事件</block>
+  <block id="c1a5dcbb60e58e0bc5350f268c42aac0" category="doc">在 Active IQ Unified Manager 中管理指令碼</block>
+  <block id="b333e15de726f713da53980f8698e761" category="doc">在 Active IQ Unified Manager 中解決 Active IQ 平台事件</block>
+  <block id="7380fe530aa4a3c60b08eea18a7b9cbe" category="doc">了解 Active IQ Unified Manager 中的事件</block>
+  <block id="8799da4bf2e5c7d532706bb0479fdc04" category="doc">在 Active IQ Unified Manager 中了解 Active IQ 平台事件</block>
+  <block id="59640a06895a14dcd0c3404af1730cce" category="doc">了解 Active IQ Unified Manager 中的事件管理系統事件</block>
+  <block id="634b81b6afc922e6282b1ed930a2b7bb" category="doc">了解 Active IQ Unified Manager 如何處理接收到的事件</block>
+  <block id="03064f52e07248f2e09595708912ef8c" category="doc">Active IQ Unified Manager 警報電子郵件中包含的資訊</block>
+  <block id="41f422d33523779ffb5ef91926cfb8ff" category="doc">了解 Active IQ Unified Manager 的維護所需時間</block>
+  <block id="5830961009a7993a8612c940421c8559" category="doc">了解 Active IQ Unified Manager 中的「新增警報」對話方塊</block>
+  <block id="efa5e4e1e07b6529b5db9e71083ab674" category="doc">在 Active IQ Unified Manager 中新增指令碼對話方塊</block>
+  <block id="d86361c0052e2101783e6ea47423149f" category="doc">了解 Active IQ Unified Manager 中的彙總事件</block>
+  <block id="43c0f4b3b78d8880151170adeb214030" category="doc">了解 Active IQ Unified Manager 中的「警報設定」頁面</block>
+  <block id="b41f150b2b6d0a00d86f67c565042ab8" category="doc">了解 Active IQ Unified Manager 中的叢集事件</block>
+  <block id="34c23c37f8eaec38e466855e150ffe72" category="doc">了解 Active IQ Unified Manager 中的事件影響區域</block>
+  <block id="90c45bf252894e0465b702350a71363e" category="doc">了解 Active IQ Unified Manager 中的事件影響級別</block>
+  <block id="4b212a54e1505d0bf1de75a2b826095f" category="doc">了解 Active IQ Unified Manager 中的事件嚴重性類型</block>
+  <block id="ab26ab1b7c87a0ecd16cad94074afb4b" category="doc">了解 Active IQ Unified Manager 中的事件視窗和對話方塊</block>
+  <block id="5f933d494c6b0841e39f2069e2836477" category="doc">在 Active IQ Unified Manager 中使用「新增警報」對話方塊</block>
+  <block id="575c0756d35068e0ac115f8ce68e098f" category="doc">Active IQ Unified Manager 中的指令碼視窗與對話方塊</block>
+  <block id="aa692ee1b95eaeca447a0afe773bc89e" category="doc">在 Active IQ Unified Manager 中停用「事件」對話方塊</block>
+  <block id="8f1bc362aa989ade0ecb39b550d06342" category="doc">了解 Active IQ Unified Manager 中的磁碟事件</block>
+  <block id="f80b43d65e919dbba43109c92a2b8165" category="doc">了解 Active IQ Unified Manager 中的動態效能事件</block>
+  <block id="485314bcb5bdfe54a4d7e3c07349dfd4" category="doc">在 Active IQ Unified Manager 中編輯警示屬性</block>
+  <block id="0215bd017af062d547b69d57c2d1dad4" category="doc">自動新增至 Active IQ Unified Manager 的 EMS 事件</block>
+  <block id="7d4c55848eb384e6ac9567d17deb76eb" category="doc">了解 Active IQ Unified Manager 中的機櫃事件</block>
+  <block id="9870e66a3bf73a8f0007b6e1e60df616" category="doc">了解 Active IQ Unified Manager 中的「事件詳細資料」頁面</block>
+  <block id="2c47b425b660d2e17c04c21c96f1371c" category="doc">了解 Active IQ Unified Manager 中的事件管理清單頁面</block>
+  <block id="a8483d9031f3b4d140535a14674cd532" category="doc">了解 Active IQ Unified Manager 中的「事件設定」頁面</block>
+  <block id="e4f17a0bc5c9a1c6f9a2f45fe737935e" category="doc">了解 Active IQ Unified Manager 中的風扇事件</block>
+  <block id="04be133590fe5d67226aca41258e1399" category="doc">了解 Active IQ Unified Manager 中的快閃記憶卡事件</block>
+  <block id="8fed2de29b392fb571b49232c42b564b" category="doc">了解 Active IQ Unified Manager 中的 inode 事件</block>
+  <block id="2c8a42f7aeadd3708c694d7f0b7e41ab" category="doc">了解 Active IQ Unified Manager 中的事件列表</block>
+  <block id="088f543a0d07f03fdf74dd6c7e4487db" category="doc">Active IQ Unified Manager 中的網路介面事件</block>
+  <block id="b6241628a873b3fef00f6ae8f9c3ad07" category="doc">了解 Active IQ Unified Manager 中的 LUN 事件</block>
+  <block id="22534d0a95a4459662f56e1f2b090a85" category="doc">了解 Active IQ Unified Manager 中的「指令碼」頁面</block>
+  <block id="f50549ff3c43bf4a7cee2d243e5a2406" category="doc">了解 Active IQ Unified Manager 中的管理站台事件</block>
+  <block id="6f3e0d786296fe6d1b25b4d3a033185d" category="doc">了解 Active IQ Unified Manager 中的 MetroCluster Bridge 事件</block>
+  <block id="f96ddc2b37327c6e8e1891ced4dd571b" category="doc">了解 Active IQ Unified Manager 中的 MetroCluster 連線事件</block>
+  <block id="4f189a4a458052500c57ece76ca1a088" category="doc">了解 Active IQ Unified Manager 中的 MetroCluster 交換器事件</block>
+  <block id="458b4334c5b06f11d1efdbe2f2bdc9d3" category="doc">了解 Active IQ Unified Manager 中的節點事件</block>
+  <block id="60720d558f74f880234b97616835eb4b" category="doc">了解 Active IQ Unified Manager 中的「通知」頁面</block>
+  <block id="2565a96a1e5d326dc23f0500f42a37d6" category="doc">了解 Active IQ Unified Manager 中的 NVMe 命名空間事件</block>
+  <block id="f62599de156d8f6b5f296cb1d53f5137" category="doc">了解 Active IQ Unified Manager 中的 NVRAM 電池事件</block>
+  <block id="5aafb37137ee5af527c569ba06b31db7" category="doc">了解 Active IQ Unified Manager 中的連接埠事件</block>
+  <block id="d483e9886079debe5a528675b7fc9add" category="doc">了解 Active IQ Unified Manager 中的電源供應器事件</block>
+  <block id="ec57b55467a0a59e0127d8001e652e85" category="doc">了解 Active IQ Unified Manager 中的保護事件</block>
+  <block id="d9bb8e4cb7ee6476baa9e66b53ba7247" category="doc">了解 Active IQ Unified Manager 中的 Qtree 事件</block>
+  <block id="0da565184328cb1f77321e547683af73" category="doc">了解 Active IQ Unified Manager 中的服務處理器事件</block>
+  <block id="e1f368b76083f2d7fd2b823350c23cce" category="doc">了解 Active IQ Unified Manager 中的非同步鏡像和 Vault 關係事件</block>
+  <block id="59dea28c7b7b67909519804be34e19df" category="doc">了解 Active IQ Unified Manager 中的 SnapMirror 關係事件</block>
+  <block id="eba29eace4291488b95ef011b511fa23" category="doc">了解 Active IQ Unified Manager 中的 Snapshot 快照技術事件</block>
+  <block id="cc4d08cf69e390a3dae05d0c82fa676a" category="doc">了解 Active IQ Unified Manager 中的 SnapVault 關係事件</block>
+  <block id="a9001cec28a3516b872f4ad21afeee8a" category="doc">了解 Active IQ Unified Manager 中的儲存設備容錯移轉設定事件</block>
+  <block id="add4f4631797b2d1b8bd33ded6e59bfd" category="doc">了解 Active IQ Unified Manager 中的儲存設備服務事件</block>
+  <block id="a37a510d8ac5f0575ab25f31fce829e1" category="doc">了解 Active IQ Unified Manager 中的儲存設備機櫃事件</block>
+  <block id="42d71efdff555711a2ce728b98a592c3" category="doc">了解 Active IQ Unified Manager 中的儲存 VM 事件</block>
+  <block id="bfe707dce9d98ec48f71c8c6d3a000e1" category="doc">瞭解受支援的 Active IQ Unified Manager CLI 指令</block>
+  <block id="45a1593063d39d09742cefeef27d7781" category="doc">了解 Active IQ Unified Manager 中的使用者和群組配額事件</block>
+  <block id="59a3020eb6040a001206d108389a2ffc" category="doc">了解 Active IQ Unified Manager 中的 Volume 事件</block>
+  <block id="0d30c488fad3fc8789add99539cd9159" category="doc">了解 Active IQ Unified Manager 中的 Volume 移動狀態事件</block>
+  <block id="32bc671cbc3dd628557fe3ba056af783" category="doc">了解 Active IQ Unified Manager 中的「事件資訊」部分</block>
+  <block id="c4f08a61138e373101f87f1d826db361" category="doc">了解 Active IQ Unified Manager 中的建議操作</block>
+  <block id="36349d5f63daf0be6004a624e7c72776" category="doc">了解 Active IQ Unified Manager 中的系統診斷功能</block>
+  <block id="fb04977f605b951a1767c43c4514c1d9" category="doc">在 Active IQ Unified Manager 中確認並解決事件</block>
+  <block id="970c6b8e3128bb9f6c3bdaa1b0b7f1d4" category="doc">在 Active IQ Unified Manager 中新增效能事件警報</block>
+  <block id="c16c62943820e26ad472cf3007f8deaf" category="doc">在 Active IQ Unified Manager 中新增指令碼</block>
+  <block id="b8217f924bd8ec49fe49c1e84598161b" category="doc">在 Active IQ Unified Manager 中將事件指派給特定使用者</block>
+  <block id="9f3d53df1f3c1937fd889fc847d9da2b" category="doc">在 Active IQ Unified Manager 中變更或取消排定的維護所需時間</block>
+  <block id="b3be4e8ca2855f05d187206693e09310" category="doc">在 Active IQ Unified Manager 中設定事件保留設定</block>
+  <block id="92e380e8e4196ad2279af9e885c6e415" category="doc">在 Active IQ Unified Manager 中刪除警報</block>
+  <block id="abdf5801b77d52ff6028468978043a4e" category="doc">在 Active IQ Unified Manager 中刪除指令碼</block>
+  <block id="330ec26e447af8a78a32c0f50cef4095" category="doc">停用 Active IQ Unified Manager 中已解決與已過時事件的警報</block>
+  <block id="eaa194b3c36147a722d568acc97701e3" category="doc">在 Active IQ Unified Manager 中停用不需要的事件</block>
+  <block id="93c684c3106c4f756d7138ca6c3d68ae" category="doc">在 Active IQ Unified Manager 中編輯警報</block>
+  <block id="d63138fa0c2153f00c1f8e0e1f3419d9" category="doc">在 Active IQ Unified Manager 中啟用並停用 Active IQ 事件報告</block>
+  <block id="49412f17092e8e86b3994c93b2b8d0fa" category="doc">將災難恢復目的地 Volume 從 Active IQ Unified Manager 的警報產生中排除</block>
+  <block id="e75dbdcbf203814f299882bd3f916dc3" category="doc">使用 Active IQ Unified Manager 中的自動修復功能來解決問題</block>
+  <block id="69358d540570641f5c40d820d4b1112e" category="doc">在 Active IQ Unified Manager 中管理主機系統資源事件</block>
+  <block id="f3d6d63bb3629325dff3b5dc450aa539" category="doc">安排維護所需時間以停用 Active IQ Unified Manager 中的叢集事件通知</block>
+  <block id="4a44ac6ffec89a4970d69c2f030e9b9e" category="doc">在 Active IQ Unified Manager 中訂閱 ONTAP EMS 事件</block>
+  <block id="74e83e831e04b8eedec0f123c3e74a36" category="doc">在 Active IQ Unified Manager 中測試警報</block>
+  <block id="5650273041822c9e98522d5dd242cd1c" category="doc">在 Active IQ Unified Manager 中執行測試指令碼</block>
+  <block id="322a4ababd26274d1d2c42ef34019f90" category="doc">在 Active IQ Unified Manager 中上傳新的 Active IQ 規則檔案</block>
+  <block id="eb1f73e6ecda445f562bc126121370dd" category="doc">在 Active IQ Unified Manager 中查看警報</block>
+  <block id="1ece76afabcb7e27631dc66265c4719b" category="doc">在 Active IQ Unified Manager 中查看事件詳情</block>
+  <block id="e1b168c6510d28b2c4b053376c93d994" category="doc">在 Active IQ Unified Manager 中查看維護所需時間期間產生的事件</block>
+  <block id="0c7d77aea69d29f66d76ce0c9553a7c9" category="doc">在 Active IQ Unified Manager 中檢視未指派的事件</block>
+  <block id="dca7b8a249f9d1b24f0f8ea5ab77b75b" category="doc">在虛擬應用裝置上備份與恢復 Active IQ Unified Manager</block>
+  <block id="c0f0a0965309a63a2094324dc7fc3055" category="doc">在 Active IQ Unified Manager 中使用 MySQL 資料庫傾印進行備份與恢復</block>
+  <block id="6563a95ed0fffad7d8eae3f392fa6321" category="doc">在 Active IQ Unified Manager 中使用 NetApp Snapshot 快照技術進行備份與恢復</block>
+  <block id="cff96b81141bfc96ec531b0073888881" category="doc">了解 Active IQ Unified Manager 中的叢集元件爭用</block>
+  <block id="7749bd9ef860d6adda812d59180b1e09" category="doc">了解常見的 Active IQ Unified Manager 健全狀況工作流程與任務</block>
+  <block id="5b79ae315e757d203236a621bfd18947" category="doc">在 Active IQ Unified Manager 中設定 Linux 上的備份</block>
+  <block id="ab35cfd2d93f519bdb13dd1e2d6812f3" category="doc">在 Active IQ Unified Manager 中設定 Windows 上的備份</block>
+  <block id="cdc6725f88b90beac9cac22c9ff9735b" category="doc">在 Active IQ Unified Manager 中設定資料庫傾印備份設定</block>
+  <block id="2482c346baf1f75cde171f54b3f11c4a" category="doc">了解 Active IQ Unified Manager 中的註解規則如何運作</block>
+  <block id="fcb51162bfbb5aec25e93225a185f855" category="doc">了解 Active IQ Unified Manager 中儲存設備物件的群組操作如何運作</block>
+  <block id="2418b961ebed8eed367a63a3ec284fe3" category="doc">了解 Active IQ Unified Manager 中群組規則的運作方式</block>
+  <block id="2e72ad14631e2caf5b07909ea85abed0" category="doc">了解指令碼如何在 Active IQ Unified Manager 中與警報搭配運作</block>
+  <block id="89a616f7484da49d84dca63cd4d66c5c" category="doc">了解 Active IQ Unified Manager 的健全狀況監控</block>
+  <block id="34365a3fc2592f8661e0d62c079ae279" category="doc">在 Active IQ Unified Manager 中管理和監控叢集及叢集物件健全狀況</block>
+  <block id="0159ce6672a34849d014c2082de48324" category="doc">在 Active IQ Unified Manager 中管理與監控群組</block>
+  <block id="1037bb811299fc9906b73b483b648356" category="doc">在 Active IQ Unified Manager 中管理備份與恢復作業</block>
+  <block id="a36ebd8dc7a0eb4835a4040512b0c7f8" category="doc">在 Active IQ Unified Manager 中管理叢集安全性目標</block>
+  <block id="b2daa139f28a8c8365e223ad0c8337b9" category="doc">在 Active IQ Unified Manager 中管理健全狀況臨界值</block>
+  <block id="c615801ec0d6c9a409b2fbe6674de211" category="doc">監控與疑難排解 Active IQ Unified Manager 中的資料可用度</block>
+  <block id="e21b50c8660a5c3d3f811548c4ff796b" category="doc">了解 Active IQ Unified Manager 的隨選備份</block>
+  <block id="62230696acb222f720425104f2541ce5" category="doc">在 Active IQ Unified Manager 中使用註解來確定儲存設備物件的優先權</block>
+  <block id="58031992f1245bf5dd129d9a6e61fe5a" category="doc">了解 Active IQ Unified Manager 工作流程的共通資訊</block>
+  <block id="149002f2bdeea05fc44c2e2e71e44f15" category="doc">使用 Active IQ Unified Manager 介面管理儲存系統健全狀況</block>
+  <block id="6d4709b82b6a7ea08249e040bb227a3c" category="doc">了解 Active IQ Unified Manager 中節點根目錄彙總的事件和臨界值</block>
+  <block id="1e08671b677f06498a000132381254c3" category="doc">了解 Active IQ Unified Manager 中的叢集監控</block>
+  <block id="bdb4862b66b36dc266a10b739e854c57" category="doc">了解 Active IQ Unified Manager 中的群組</block>
+  <block id="d53836e00b387c148a8e2a0918cee1f1" category="doc">了解 Active IQ Unified Manager 中的註釋</block>
+  <block id="586267483960638c992f99b0f72660c3" category="doc">了解 Active IQ Unified Manager 中的節點根目錄 Volume</block>
+  <block id="6e2a3ac514199a3d8f025c8490388210" category="doc">了解 Active IQ Unified Manager 中 ONTAP 叢集的法定人數與 Epsilon</block>
+  <block id="f6a30972e73c1bbcb35774eac544ede5" category="doc">了解 Active IQ Unified Manager 的健全狀況監控功能</block>
+  <block id="cc21fba3631d7eecdc59c6bbcffc4524" category="doc">了解 Active IQ Unified Manager 中的註解功能</block>
+  <block id="0fe45f66d2b2f9417457cad73f82768d" category="doc">了解 Active IQ Unified Manager 中的資料庫還原</block>
+  <block id="33b7b1f3e9de2aa162ef892525de7cb6" category="doc">了解 Active IQ Unified Manager 中的叢集和 SVM 法規遵循狀態</block>
+  <block id="1014873d089cb86b441d6b6ee97363b3" category="doc">了解 Active IQ Unified Manager 中的群組</block>
+  <block id="92c7eae20c6567dbdb68a3612441dbd9" category="doc">了解 Active IQ Unified Manager 如何評估安全性標準</block>
+  <block id="f5f8b43a37fc2ab50af31b5d9280d739" category="doc">了解 Active IQ Unified Manager 中的儲存容量健全狀況臨界值</block>
+  <block id="656218edd6d1dbcc262fd742b7a4d102" category="doc">了解 Active IQ Unified Manager 中的叢集法規遵循類別</block>
+  <block id="1bd100832f018627b1171e5714274af9" category="doc">在 Active IQ Unified Manager 中設定 ONTAP 叢集以進行備份與恢復</block>
+  <block id="4a4f44aaab567ab88daaf5f9629d4c49" category="doc">了解 Active IQ Unified Manager 中的叢集物件視窗與對話方塊</block>
+  <block id="a948350c095a0a1c0ad6d9c0d1114465" category="doc">了解 Active IQ Unified Manager 中的預設註解值</block>
+  <block id="83935b8b8b95fa524246d8b71afba49c" category="doc">在 Active IQ Unified Manager 中檢視「彙總 / 健全狀況」詳細資料頁面</block>
+  <block id="f01e2a06d59085aa7919b33f6e19259f" category="doc">在 Active IQ Unified Manager 中檢視叢集 / 健全狀況詳細資料頁面</block>
+  <block id="e0772b71bd2fba9541d994e17594a406" category="doc">在 Active IQ Unified Manager 中查看儲存虛擬機器 / 健全狀況詳細資訊頁面</block>
+  <block id="0922dec0c33d83b0f0abccacbe97439e" category="doc">在 Active IQ Unified Manager 中檢視 Volume / 健全狀況詳細資訊頁面</block>
+  <block id="77391ae689ffe6b8b42503bc4cbad825" category="doc">在 Active IQ Unified Manager 中檢視安全性事件</block>
+  <block id="1227149740fe7b3e113f63e7b4081b06" category="doc">在 Active IQ Unified Manager 中將 AutoSupport 訊息傳送給技術支援</block>
+  <block id="756b327a9d47fd04276c69c08d8637a1" category="doc">了解 Active IQ Unified Manager 中的儲存 VM 法規遵循類別</block>
+  <block id="7d6767f9e18b2947b30bd6548b7bcf6f" category="doc">了解 Active IQ Unified Manager 中的 Volume 法規遵循類別</block>
+  <block id="324d82506181b6bfcf8fd6839f2e32cd" category="doc">在 Active IQ Unified Manager 中新增安全性事件警報</block>
+  <block id="a68181a0af51061228839175fd21e8e4" category="doc">在 Active IQ Unified Manager 中動態新增註釋</block>
+  <block id="c32134b239d83ce220371ba27448728c" category="doc">在 Active IQ Unified Manager 中手動為個別儲存設備物件新增註釋</block>
+  <block id="0b3b7bb3a3a203b0aee1218d609ea3b2" category="doc">在 Active IQ Unified Manager 中新增群組動作</block>
+  <block id="08f1096581b655bb1bca07dbd40842a1" category="doc">在 Active IQ Unified Manager 中新增群組規則</block>
+  <block id="7a95d7e427ba6bc00cdf572b5c5161de" category="doc">在 Active IQ Unified Manager 中新增群組</block>
+  <block id="621606fb4bb8a7ad5d64e9f25f1ea877" category="doc">在 Active IQ Unified Manager 中為註解新增值</block>
+  <block id="ac991750094f891aff59e09d92a39766" category="doc">計算 Active IQ Unified Manager 中 Snapshot 複本的可回收空間</block>
+  <block id="1d9ce96cf6e47c119d5d5cf4cd2faade" category="doc">在 Active IQ Unified Manager 中檢查 MetroCluster 組態中叢集的健全狀況</block>
+  <block id="225bfeea7cb615b9d3e287cb82b120b8" category="doc">在 Windows 上為 Active IQ Unified Manager 設定備份位置</block>
+  <block id="de733c8b29072c79126cc47127fe2684" category="doc">在 Active IQ Unified Manager 中設定註解規則的條件</block>
+  <block id="5863784f82070f3f1e97e02470f54002" category="doc">在 Active IQ Unified Manager 中設定全域彙總健全狀況臨界值</block>
+  <block id="c7e134f5012c9b287cab9365c41fbf63" category="doc">在 Active IQ Unified Manager 中設定全域健全狀況臨界值設定</block>
+  <block id="4956fa5af81a672992182b42e3fac999" category="doc">在 Active IQ Unified Manager 中設定全域 qtree 健全狀況臨界值</block>
+  <block id="eae9adb6b5eb3daad4fb1fba36119fa7" category="doc">在 Active IQ Unified Manager 中設定全域 Volume 健全狀況臨界值</block>
+  <block id="964e2b9c2cc6d0ef82daedde45f265cb" category="doc">在 Active IQ Unified Manager 中設定非託管保護關係的延遲臨界值</block>
+  <block id="1ed730d1a7869352c1557ebdd1c64f0a" category="doc">在 Active IQ Unified Manager 的維護主控台中設定 Snapshot 快照技術備份</block>
+  <block id="e54f3715809b98e310186b5e90e7b9b8" category="doc">在 Active IQ Unified Manager 中設定群組的 Volume 健全狀況臨界值</block>
+  <block id="0ac3ec4a0d6d3876fd2ab9750fd060ff" category="doc">在 Active IQ Unified Manager 中設定 Windows 主機</block>
+  <block id="f97a335b7256fac2183afa648710c721" category="doc">在 Active IQ Unified Manager 中建立註解規則</block>
+  <block id="8f141206afd2c4cf9de794ecc552baf1" category="doc">在 Active IQ Unified Manager 中設定 Snapshot 複本位置</block>
+  <block id="d0950c5d13aaffdf69941ac7cfc4bb7b" category="doc">在 Active IQ Unified Manager 中為 Linux 和 Windows 定義備份排程</block>
+  <block id="249f295a74fda79346809408f2c78764" category="doc">在 Active IQ Unified Manager 中刪除註解規則</block>
+  <block id="3baae7972f2d0aa469930232425a933f" category="doc">在 Active IQ Unified Manager 中刪除註釋</block>
+  <block id="787db7bc5acc3df971f82e6726ef0007" category="doc">在 Active IQ Unified Manager 中刪除群組操作</block>
+  <block id="e5d296e499592b209f3bd7846ad37ae4" category="doc">在 Active IQ Unified Manager 中刪除群組規則</block>
+  <block id="a30af39f7dd841490cfa0a9acf477e30" category="doc">在 Active IQ Unified Manager 中刪除群組</block>
+  <block id="5df57bc890966b017ac9570fdd026728" category="doc">在 Active IQ Unified Manager 中刪除 Snapshot 複本</block>
+  <block id="03f0d70e2cdf3ae0edec25677309564b" category="doc">從 Active IQ Unified Manager 中刪除註解值</block>
+  <block id="b6afb1f28d835a9f337c69a9ae004f9f" category="doc">在 Active IQ Unified Manager 中判斷 Volume 是否因其 SVM 停止而離線</block>
+  <block id="04fcbae8cf5b79f29bf78129faed0243" category="doc">在 Active IQ Unified Manager 中確定 Volume 是否因磁碟損壞而離線</block>
+  <block id="4bf682c90c9f329f768bb2d964c9d087" category="doc">在 Active IQ Unified Manager 中判斷 Volume 是否因其主機節點停機而離線</block>
+  <block id="cd7d4522575cefd6322b1ea4cdb92c73" category="doc">在 Active IQ Unified Manager 中停用特定安全性事件</block>
+  <block id="94b122e12300be6f2b3901adab510912" category="doc">在 Active IQ Unified Manager 中編輯註解規則</block>
+  <block id="e3505853ff09ee1e05971610394c6ec5" category="doc">在 Active IQ Unified Manager 中編輯群組動作</block>
+  <block id="a1cdb49a891c198fb9dbd9355939d55d" category="doc">在 Active IQ Unified Manager 中編輯群組規則</block>
+  <block id="2e46b2f532771d0ab03ce55c41b5c89f" category="doc">在 Active IQ Unified Manager 中編輯群組</block>
+  <block id="e7983f4731f24366b17a33ec8a318706" category="doc">在 Active IQ Unified Manager 中編輯個別彙總健全狀況臨界值設定</block>
+  <block id="8383f508a1744a4974d2685b31ebf61d" category="doc">在 Active IQ Unified Manager 中編輯各個 qtree 健全狀況臨界值設定</block>
+  <block id="d0a0346d6b6f25507c35472c3f1bd1f4" category="doc">在 Active IQ Unified Manager 中編輯單一 Volume 健全狀況臨界值設定</block>
+  <block id="66051fddd649889b0512c5f3ae547544" category="doc">從 Active IQ Unified Manager 產生並上傳支援套裝組合</block>
+  <block id="26961d8c7d91b8777ee70e2abcffe3d5" category="doc">在 Active IQ Unified Manager 中產生用於合約續約的硬體清單報告</block>
+  <block id="91347e6303b31f53bec181948d53ea06" category="doc">將 Active IQ Unified Manager 虛擬應用裝置遷移到 Linux 系統</block>
+  <block id="f0287342bc19e83afdeabdc1e390a9ea" category="doc">在 Active IQ Unified Manager 中對儲存設備故障轉移互連連結故障執行修正行動</block>
+  <block id="c83231931f72f4e63f2e1dfba00d96a8" category="doc">在 Active IQ Unified Manager 中對 Volume 離線情況執行診斷操作</block>
+  <block id="b1ada1aed9dbd5a60314a56ca0641aca" category="doc">在 Active IQ Unified Manager 中對容量已滿的 Volume 執行建議的補救措施</block>
+  <block id="224e579b5b9306e31a89d9b52da14deb" category="doc">在 Active IQ Unified Manager 中重新排序註解規則</block>
+  <block id="42c2ae7880d4e36c7d6af93b0f6c86b3" category="doc">在 Active IQ Unified Manager 中重新排序群組動作</block>
+  <block id="52f4a7af80e679947c6413784e1c5d34" category="doc">解決 Active IQ Unified Manager 中的容量問題</block>
+  <block id="2cbbf733022e402ce4d2daca0f616ebe" category="doc">在 Active IQ Unified Manager 中掃描並解決儲存設備故障轉移互連連結中斷狀況</block>
+  <block id="c69329043c621490547b08bc83440745" category="doc">解決 Active IQ Unified Manager 中的 Volume 離線問題</block>
+  <block id="4acc2a7a5a1a6d457c20faa2ac645f85" category="doc">在 Active IQ Unified Manager 中還原 Windows 上的 MySQL 資料庫備份</block>
+  <block id="3a067c96f05406a34c52db937b002b6d" category="doc">在 Active IQ Unified Manager 中還原 Linux 系統上的 MySQL 資料庫備份</block>
+  <block id="adf62a187235c47a83fe0c53837abc04" category="doc">使用 Snapshot 快照技術複本還原 Active IQ Unified Manager</block>
+  <block id="ad2b3ddb65cdc68b58fa0f5df308a808" category="doc">使用 Active IQ Unified Manager 中的 UNIX 或 Linux 用戶端擷取支援套裝組合</block>
+  <block id="a2e8ae73e43ddf40ec61095f905c6271" category="doc">使用 Active IQ Unified Manager 中的 Windows 用戶端擷取支援套裝組合</block>
+  <block id="6f16618b83a2407186f62c26e10ef6e1" category="doc">透過 Active IQ Unified Manager 中的 Web UI 和維護控制台傳送支援套裝組合</block>
+  <block id="e7c77cea33621c20b54e3cb37a039bd4" category="doc">從 Active IQ Unified Manager 傳送支援套裝組合給技術支援</block>
+  <block id="acba33b94325eeadff7a4dde8e3f367b" category="doc">在 Active IQ Unified Manager 中指定 Snapshot 快照技術副本的目的地位置</block>
+  <block id="9f90115f89909c25d857cd8a4c5a54fd" category="doc">在 Active IQ Unified Manager 中指定 Windows 上 Snapshot 快照技術副本的目的地位置</block>
+  <block id="e8bc836b193b30b424a780c45c753b87" category="doc">在 Active IQ Unified Manager 中修改備份類型</block>
+  <block id="8fb5dd30ff400b9ca0a064d9bd190d3e" category="doc">在 Active IQ Unified Manager 中查看彙總清單和詳細資訊</block>
+  <block id="5d4b532605c1f422545395590759a971" category="doc">在 Active IQ Unified Manager 中查看所有作用中安全性事件</block>
+  <block id="b2e14527ce38a4fb5965448c65f39457" category="doc">在 Active IQ Unified Manager 中檢視註釋清單和詳細資料</block>
+  <block id="90be72e6e40cc3e783ae5e155b44adee" category="doc">在 Active IQ Unified Manager 中查看所有 Volume 和儲存設備 VM 的反勒索軟體狀態</block>
+  <block id="1133a1ca1a87447a149ab6b599056138" category="doc">在 Active IQ Unified Manager 中檢視叢集清單和詳細資料</block>
+  <block id="32e797f37f9555689993743f17b83675" category="doc">在 Active IQ Unified Manager 中檢視叢集和儲存虛擬機器的安全性狀態</block>
+  <block id="c6aee0296fbdcf8523e9c8146e002cce" category="doc">在 Active IQ Unified Manager 中檢視有關 SMB/CIFS 共用的詳細資料</block>
+  <block id="875a861bb25b1685588bd5486c4331e8" category="doc">在 Active IQ Unified Manager 中檢視 NFS 共用的詳細資料</block>
+  <block id="1c96acc754d99b38e2a25af3a5c1128f" category="doc">在 Active IQ Unified Manager 中檢視所有 Volume 的加密狀態</block>
+  <block id="edf6869b6ad1a8b6da7bf784d1cb1684" category="doc">在 Active IQ Unified Manager 中檢視 FabricPool 容量資訊</block>
+  <block id="bb026ebb89a43ebd8e11ee7e370ad64c" category="doc">在 Active IQ Unified Manager 中檢視 All SAN Array 叢集的健全狀況和容量狀態</block>
+  <block id="4fab3b3226e296fe236757a0a5d13e82" category="doc">在 Active IQ Unified Manager 中檢視叢集如何管理所有叢集上的使用者身分驗證</block>
+  <block id="fd879967a692c2dd4c97716b525ac863" category="doc">在 Active IQ Unified Manager 中檢視 Snapshot 快照技術複本清單</block>
+  <block id="9f1eae52194848c85641cd309064a430" category="doc">在 Active IQ Unified Manager 中檢視節點清單和詳細資料</block>
+  <block id="6a64dec1a3035166ef46d884904a8e8e" category="doc">在 Active IQ Unified Manager 中檢視可能需要軟體或韌體更新的安全性事件</block>
+  <block id="6a39e2d7de4b2124d1fc87f465ab0e18" category="doc">在 Active IQ Unified Manager 中檢視儲存資源池詳細資料</block>
+  <block id="a085ce184a2a918db492c9f693b1e796" category="doc">在 Active IQ Unified Manager 中檢視 Storage VM 清單與詳細資料</block>
+  <block id="e8efcc1ee69032b712ac7ee4ab110086" category="doc">在 Active IQ Unified Manager 中查看 Volume 清單和詳細資料</block>
+  <block id="879a0713cfae0b7ba1b8964f6808ddc9" category="doc">請使用支援的升級途徑升級 Active IQ Unified Manager 版本</block>
+  <block id="7cce07ca0323e998f6bd8bbb12d77087" category="doc">使用 Active IQ Unified Manager 支援的瀏覽器</block>
+  <block id="a5d30961a7f2071bd48571cbaa2c9cf2" category="doc">在 Linux 系統上安裝 Active IQ Unified Manager</block>
+  <block id="c689e7b64152a1bba97fb2edd20c845e" category="doc">安裝、升級和移除 Active IQ Unified Manager 軟體</block>
+  <block id="64e88b614a54ea3b3f6898a073ae7acb" category="doc">了解 Active IQ Unified Manager</block>
+  <block id="565af86c01ad7ce14e46d75f939591e7" category="doc">了解在 Red Hat Enterprise Linux 上安裝 Active IQ Unified Manager 的順序</block>
+  <block id="3a18b8c6562abe629867a6e413ec1477" category="doc">查看 Active IQ Unified Manager 的安裝順序</block>
+  <block id="4897bd68f064fb7b102341961c09bd7f" category="doc">了解安裝 Active IQ Unified Manager 的需求</block>
+  <block id="4b50d92781c98c22737903c30847e6ed" category="doc">設定 Active IQ Unified Manager 所需的軟體</block>
+  <block id="172a418384d967aaecffb2c44fc739e4" category="doc">安裝 Active IQ Unified Manager 後，請升級第三方產品</block>
+  <block id="8bd4e35fc17333bce0ee595d12386ee2" category="doc">在 Red Hat Enterprise Linux 上升級 Active IQ Unified Manager</block>
+  <block id="f8bc942d8e727d6d6670386379507631" category="doc">了解 Active IQ Unified Manager 的虛擬化基礎架構和硬體需求</block>
+  <block id="7f235b54afb78cbed9bc9e24235f4f71" category="doc">了解 Active IQ Unified Manager 伺服器的功能</block>
+  <block id="46e632900ecd7deecfcf67a41cd74ebf" category="doc">在 Linux 上開始使用 Active IQ Unified Manager</block>
+  <block id="c7e59b7cf16e21ad25de561ff8fc8e4f" category="doc">在 Active IQ Unified Manager 中完成工作表</block>
+  <block id="2a02130f091f38af2f44b4d07dd1cf61" category="doc">了解 Active IQ Unified Manager 中的協定和連接埠需求</block>
+  <block id="d7106b05b330c205db3c5ac519ec0582" category="doc">了解 Active IQ Unified Manager 中的 Linux 軟體和安裝需求</block>
+  <block id="83bb49b663ac74d35a1faba91ab08029" category="doc">了解在 Active IQ Unified Manager 安裝期間建立的使用者</block>
+  <block id="2e1d1fffadc008e18a3de94768eff3a0" category="doc">在 Active IQ Unified Manager 中更改 JBoss 密碼</block>
+  <block id="daa09162d16dedd91460f500feff28b3" category="doc">在 Active IQ Unified Manager 中設定 7-zip 軟體包</block>
+  <block id="38b88b2254e074c090cf02069d6faf3c" category="doc">在安裝 Active IQ Unified Manager 之前，請建立自訂使用者主目錄和 umadmin 密碼</block>
+  <block id="4ca924ae7cc6fd47acad0a57275100ec" category="doc">下載 Active IQ Unified Manager</block>
+  <block id="139e09fe7cfcc448bcc373a18c752ba0" category="doc">在 Red Hat Enterprise Linux 上安裝 Active IQ Unified Manager</block>
+  <block id="f78a4d459835a2235317f9435663fe18" category="doc">設定 Active IQ Unified Manager 的 EPEL 儲存庫</block>
+  <block id="43de53d45ca8c9f7b9b2fd36fb3f0fc3" category="doc">設定 Active IQ Unified Manager 的 MySQL 儲存庫</block>
+  <block id="d1b55b76dd38549ade30face8800cbf0" category="doc">移除 Active IQ Unified Manager 的自訂 umadmin 使用者和維護群組</block>
+  <block id="b1dc85e6db450f645bd7528496115214" category="doc">移除 Active IQ Unified Manager</block>
+  <block id="248d964dab95d93924ce5b96ecedca1c" category="doc">重新啟動 Active IQ Unified Manager</block>
+  <block id="e966e7e2f6e8ceb4c59d41aeadbcc6aa" category="doc">在 Active IQ Unified Manager 中為 NFS 和 CIFS 共用設定 SELinux</block>
+  <block id="7c7b00443310c91719029b319f7c77a4" category="doc">升級 Red Hat Enterprise Linux 主機作業系統以支援 Active IQ Unified Manager</block>
+  <block id="6507e665e3c4245b259fd2237fcdccef" category="doc">升級 Linux 上的 OpenJDK 以支援 Active IQ Unified Manager</block>
+  <block id="c1295643d064d27a35919741f1aa93c9" category="doc">升級 Active IQ Unified Manager</block>
+  <block id="0a2d88856e7a2fc6bc8d9a9e31aec4d7" category="doc">在 Active IQ Unified Manager 中使用支援的瀏覽器</block>
+  <block id="6bca007fd8ccffe3e8e3086281a83f72" category="doc">在 VMware vSphere 上安裝、升級與移除 Active IQ Unified Manager</block>
+  <block id="8879e221bc3f347e63525f5e75c0d012" category="doc">了解 Active IQ Unified Manager 的部署流程</block>
+  <block id="ef99d4f18bc9777708d1a4c274c52396" category="doc">了解 Active IQ Unified Manager 的安裝順序</block>
+  <block id="7beb9b0b3c4e52647e5a15193fbb8fe1" category="doc">確保伺服器符合 Active IQ Unified Manager 的安裝需求</block>
+  <block id="e1c3b0ebff72334e69bfc35c2f31e50e" category="doc">了解 Active IQ Unified Manager 的虛擬化基礎架構和硬體需求</block>
+  <block id="faf7dd5fc6b979775fbb549f98f84940" category="doc">了解 Active IQ Unified Manager 伺服器的功能</block>
+  <block id="f1f9f7db2384ce0360dbea28c38f6350" category="doc">在 VMware vSphere 上開始使用 Active IQ Unified Manager</block>
+  <block id="886e53b183085178c531d9d6132afe96" category="doc">了解 Active IQ Unified Manager 的協定和連接埠需求</block>
+  <block id="8c0ebba32311b9be27f52b1f9092eff4" category="doc">了解 Active IQ Unified Manager 的 VMware 軟體和安裝需求</block>
+  <block id="9ca1752bf5f1164cdf1c508c8d9c7df4" category="doc">部署 Active IQ Unified Manager</block>
+  <block id="57a9ff48b56ec1c51b365e92d6651b79" category="doc">部署 Active IQ Unified Manager 虛擬應用裝置</block>
+  <block id="ec19206397313f84703d4f98f5be700d" category="doc">下載 Active IQ Unified Manager 升級檔案</block>
+  <block id="9d32ac6d8ee847d14fab16e2a10b341d" category="doc">下載 Active IQ Unified Manager 安裝檔案</block>
+  <block id="cc77e24b6f260cf7ddcd28daf135a655" category="doc">升級 Active IQ Unified Manager 虛擬應用裝置</block>
+  <block id="689a0a809890e4f06a3f2f27c7722ad1" category="doc">在 Windows 上安裝 Active IQ Unified Manager</block>
+  <block id="9800b55c7f64a671a6160345b5ecb269" category="doc">了解在 Windows 上安裝 Active IQ Unified Manager 的過程</block>
+  <block id="bba4856fdf90510b39be9e0488778f65" category="doc">了解 Active IQ Unified Manager 的安裝順序</block>
+  <block id="735b7e9565dccc507895314a5c0a2e07" category="doc">在 Windows 版 Active IQ Unified Manager 中升級第三方產品</block>
+  <block id="8bd39caafe9a827d785deb8008f51350" category="doc">在 Windows 上開始使用 Active IQ Unified Manager</block>
+  <block id="edc7b894c75446f09b7cce8cf12f94fa" category="doc">了解 Active IQ Unified Manager 的協定和連接埠需求</block>
+  <block id="c32650c8edf4d95b81c2378f20d5b35a" category="doc">了解 Active IQ Unified Manager 的 Windows 軟體和安裝需求</block>
+  <block id="a7ddb054eb7ee96e14afe0233039e61e" category="doc">在 Active IQ Unified Manager 中變更 Windows 上的 JBoss 密碼</block>
+  <block id="1a1837fe1913525ee9d0743b58010bdc" category="doc">在 Windows 上重新啟動 Active IQ Unified Manager</block>
+  <block id="2bec68b7cfde32d58e67df2bf70239f5" category="doc">執行 Active IQ Unified Manager 的無人看管安裝</block>
+  <block id="4a359950181ef27ab4574de250e300c2" category="doc">在 Active IQ Unified Manager 中解除安裝第三方產品</block>
+  <block id="29678b15c49ba9877507352a71be7d1a" category="doc">解除安裝 Active IQ Unified Manager</block>
+  <block id="20eee7cff8b018a09ce903c0a9b68e99" category="doc">在 Windows 上升級 OpenJDK 以支援 Active IQ Unified Manager</block>
+  <block id="2d470e0697f33054caac6c37268ec3a7" category="doc">在 Windows 上升級 Active IQ Unified Manager</block>
+  <block id="36a074491d06735281a17c85150aef53" category="doc">了解在 Active IQ Unified Manager 中新增磁碟如何影響彙總佈局</block>
+  <block id="2655989eedee16badf04b25c42f83dd6" category="doc">了解在 Active IQ Unified Manager 中新增磁碟如何影響資料重新分配</block>
+  <block id="c10bc4e93adad9fca2f391eb8340b88c" category="doc">分析 Active IQ Unified Manager 中動態效能閾值的事件</block>
+  <block id="dbe14a9259f05806d7870da247d9668f" category="doc">在 Active IQ Unified Manager 中分析系統定義的效能閾值事件</block>
+  <block id="0d4a48a4a273856c1738e1d54895c5c2" category="doc">分析 Active IQ Unified Manager 中使用者定義的效能閾值事件</block>
+  <block id="e46b83414b595d91926a20775e0db6d6" category="doc">在 Active IQ Unified Manager 中分析效能事件</block>
+  <block id="ae91fc47409873cc918dc737e82c09e4" category="doc">在 Active IQ Unified Manager 網格中篩選相關物件</block>
+  <block id="064442db971e74eeac00071b2a21f609" category="doc">了解用戶端或網路問題如何影響 Active IQ Unified Manager 的效能</block>
+  <block id="3aa3572f2eff1cba81cf632c61dbe27b" category="doc">了解 Active IQ Unified Manager 中的叢集元件和爭用</block>
+  <block id="b5aa32378757808077c1a68c79ae046e" category="doc">在 Active IQ Unified Manager 中檢視叢集組態和效能資料</block>
+  <block id="bbb41b5b2367dea6020f4cc8d0b8907a" category="doc">監控 Active IQ Unified Manager 偵測到的組態變更</block>
+  <block id="7b33ea6f34dde9a6383784155c20f6e9" category="doc">在 Active IQ Unified Manager 中收集資料並監控工作負載效能</block>
+  <block id="306d9d7d9c2af20acf252eca74ab0631" category="doc">檢視 Active IQ Unified Manager 中物件登陸頁面的元件</block>
+  <block id="385d504d542459cb3bb55db7c334657d" category="doc">檢閱 Active IQ Unified Manager 中的「效能資源管理器」頁面</block>
+  <block id="e9f61f3281fb7ad42aca593c21530ae4" category="doc">確認 Active IQ Unified Manager 中的延遲在預期範圍內</block>
+  <block id="9153a01b97578aaad768544ac6abc74b" category="doc">了解 Active IQ Unified Manager 中計數器圖表的縮放檢視</block>
+  <block id="8d6d1540b463679eea88484634494938" category="doc">調查 Active IQ Unified Manager 中的效能事件</block>
+  <block id="9a22a40179b23491fd725a9ca1284309" category="doc">探索 Active IQ Unified Manager 中的圖形介面和導覽路徑</block>
+  <block id="6151e0d3ea3d95067032328054b4a218" category="doc">評估叢集操作如何影響 Active IQ Unified Manager 中的工作負載延遲</block>
+  <block id="1664e3a2367f9d883cf1f06929372ac3" category="doc">透過在 Active IQ Unified Manager 中啟用儲存設備彙總上的 Flash Pool 來提高工作負載效能</block>
+  <block id="4f78795b585fbd0d85d59f17b181a994" category="doc">使用 Active IQ Unified Manager 在處理量圖表中檢視 QoS 原則</block>
+  <block id="cacd263ab0b66106a1503e7df6cce554" category="doc">在 Active IQ Unified Manager 中使用儲存設備 QoS 控制工作負載處理量</block>
+  <block id="eceab69f990d74121a3a1be7d77672cc" category="doc">了解 Active IQ Unified Manager 如何決定事件的效能影響</block>
+  <block id="639100640cdc34b3814bb88c98522df2" category="doc">利用工作負載延遲來識別 Active IQ Unified Manager 中的效能問題</block>
+  <block id="0dfd947b2b7b27558a43ca3b99ee1a81" category="doc">在 Active IQ Unified Manager 中使用使用者定義的效能臨界值原則</block>
+  <block id="dff243ed7496b3918d078c753bae9121" category="doc">了解 Active IQ Unified Manager 中的效能監控</block>
+  <block id="669a6a7e5bc45c00f525b2b08584e277" category="doc">在 Active IQ Unified Manager 中管理效能臨界值</block>
+  <block id="34a2c3e496df15e976a1d4edbd4d2e63" category="doc">在 Active IQ Unified Manager 中管理效能容量和可用 IOPS</block>
+  <block id="52c745d97178607e0130cc3b2f06d3b7" category="doc">使用 Active IQ Unified Manager 中的 QoS 原則群組資訊來管理效能</block>
+  <block id="f97e5a4588d697308e0ed7152d07d2de" category="doc">在 Active IQ Unified Manager 中檢查 MetroCluster 組態健全狀況</block>
+  <block id="a9854ef6fc9341a5d3f1628a9ef69794" category="doc">在 Active IQ Unified Manager 中驗證 MetroCluster 組態</block>
+  <block id="9c5f7acfa99261c2d178c315a2534567" category="doc">在 Active IQ Unified Manager 中監控叢集物件導覽</block>
+  <block id="b58a76964d838c1e14e377cc1f9df9a4" category="doc">在 Active IQ Unified Manager 的「效能叢集登入頁面」監控叢集效能</block>
+  <block id="e5010bf79d74a3fcd4aae28f6d2aa667" category="doc">在 Active IQ Unified Manager 的儀表板中監控叢集效能</block>
+  <block id="b8c8adc479793804f4e654d3d2013f39" category="doc">在 Active IQ Unified Manager 中監控叢集效能導覽</block>
+  <block id="91cc9fb5e3f1c1668eb7356b6fd48b17" category="doc">使用 Active IQ Unified Manager 中的效能清單頁面監控物件效能</block>
+  <block id="4d69aabee6bc22816f766839cfdcca21" category="doc">使用 Active IQ Unified Manager 中的 Performance Explorer 頁面監控效能</block>
+  <block id="f02f9fabfc5497c4be95d1757d1f7ada" category="doc">移動 LIF 以提高 Active IQ Unified Manager 的效能</block>
+  <block id="a20ed5c79c806749d1cd922c3f272bdd" category="doc">在 Active IQ Unified Manager 圖形使用者介面中瀏覽效能工作流程</block>
+  <block id="926158cf34822934adc8a7101fd69d33" category="doc">透過調整 Active IQ Unified Manager 中的用戶端側設定來提升工作負載效能</block>
+  <block id="75f0fad0ac733759ea98cb44bc4954e0" category="doc">在 Active IQ Unified Manager 中設定已使用效能容量臨界值</block>
+  <block id="cea3869c5b9ad62d02e42957a56e1087" category="doc">使用 Active IQ Unified Manager 分析 MetroCluster 效能事件</block>
+  <block id="23e91360e409d8e7eadd4b669d21a44c" category="doc">使用 Active IQ Unified Manager 監控 MetroCluster 效能</block>
+  <block id="d9c86392777621b2aee294f9b6cfa209" category="doc">在 Active IQ Unified Manager 中移動物件時管理臨界值原則</block>
+  <block id="6924992aab9d03ec492391262797da3f" category="doc">在 Active IQ Unified Manager 中最佳化效能清單頁面內容</block>
+  <block id="bdd822b8ab83e41d1ef81f2435207e8a" category="doc">在 Active IQ Unified Manager 中移除非作用中的磁碟區和 LUN</block>
+  <block id="ac0c1a25bf37c625a2ed6cc8ae93a7ea" category="doc">評估組態變更如何影響 Active IQ Unified Manager 中的工作負載效能</block>
+  <block id="972a544a7b519f9ff3383e6d1ee929eb" category="doc">在 Active IQ Unified Manager 中識別效能事件中的工作負載角色</block>
+  <block id="4ffb026e144c50ba1d9caff3b0dd3ead" category="doc">在 Active IQ Unified Manager 中於較不繁忙的時段排程儲存效率作業</block>
+  <block id="f7453a59a478fd6e0a1743ae92b1e3b8" category="doc">在 Active IQ Unified Manager 中搜尋儲存設備物件</block>
+  <block id="34dbad24cbad2dd7c22cb2b1c161c8a1" category="doc">在 Active IQ Unified Manager 和外部資料供應商之間建立連線</block>
+  <block id="08ababf9f614032810d8411aef0f2fcc" category="doc">設定 Graphite 以接收來自 Active IQ Unified Manager 的效能資料</block>
+  <block id="d503819d7268d7bed41ad63d9b693066" category="doc">辨識 Active IQ Unified Manager 中的效能事件來源</block>
+  <block id="c72169d21b3ab79ea4419a57f8140bbc" category="doc">使用 Active IQ Unified Manager 中的工作負載分析器來疑難排解工作負載</block>
+  <block id="d1a294c897a78bcbd28c0e387fabb163" category="doc">使用 Active IQ Unified Manager 監控工作負載類型</block>
+  <block id="ef936c23b8ff6c292f4ba9a4fc453f2e" category="doc">使用 Active IQ Unified Manager 介面管理儲存系統效能</block>
+  <block id="7860f69f2adad8d32d5617b3797cd725" category="doc">了解 Active IQ Unified Manager 中的計數器圖表</block>
+  <block id="2a7fc93c4171e123689b4b08c1c1038b" category="doc">了解 Active IQ Unified Manager 中具有已定義區塊大小的具調適能力的 QoS 事件</block>
+  <block id="187a664dd7d941deda70fab5d952a2bf" category="doc">了解 Active IQ Unified Manager 中的「效能叢集登陸頁面」</block>
+  <block id="b6f8b998df0ce2a019417f111fcad524" category="doc">了解 Active IQ Unified Manager 中的效能事件和警報</block>
+  <block id="21ca51315b2cad091d274c12e5fb16e1" category="doc">在 Active IQ Unified Manager 儀表板上檢閱效能面板</block>
+  <block id="85f5d54ca8e869c065cdf171c3ca9491" category="doc">在 Active IQ Unified Manager 中使用根目錄物件進行效能監控</block>
+  <block id="7647ff5ebf14db4a7c37e5ee82aa8607" category="doc">查看 Active IQ Unified Manager 關於將資料分層至雲端的建議</block>
+  <block id="ee70b9d848b7838324edaa8a759f0876" category="doc">探索 Active IQ Unified Manager 的效能監控功能</block>
+  <block id="5f0b7b90d65e77be8a6f3be94fc688a5" category="doc">從 Active IQ Unified Manager 的「效能/節點容錯移轉規劃」頁面決定修正措施</block>
+  <block id="88d4c9c5f5c16100e5a0493651607432" category="doc">在 Active IQ Unified Manager 中使用效能容量使用計數器</block>
+  <block id="77db2eb148dab424b1a584c2eb6ec6d5" category="doc">使用 QoS 原則設定來優先處理 Active IQ Unified Manager 中的節點工作負載</block>
+  <block id="5d7c48ac44ac432ff9021cd5138d3c71" category="doc">在 Active IQ Unified Manager 中為節點故障轉移規劃建立臨界值原則</block>
+  <block id="903f1194bc96d36a7a1c095b773377a7" category="doc">在 Active IQ Unified Manager 中分析 QoS 原則群組中的高活動磁碟區</block>
+  <block id="2d91eaec9455d93a801d1005f6e06798" category="doc">在 Active IQ Unified Manager 中檢視節點和彙總的可用 IOPS 值</block>
+  <block id="4adc58f8c5554c35b1e4b59f7d6e61e6" category="doc">在 Active IQ Unified Manager 中檢視節點和彙總效能容量使用值</block>
+  <block id="6df12db50bff38f38d37201e0f68c165" category="doc">了解 Active IQ Unified Manager 中的可用 IOPS</block>
+  <block id="b9d2d8da24989408da15c6e122181a27" category="doc">了解 Active IQ Unified Manager 中的資料連續性收集週期</block>
+  <block id="cca2e115c5b44d315b06e504aeabda1b" category="doc">了解 Active IQ Unified Manager 如何計算預期效能範圍</block>
+  <block id="9c91f26e28f7879be80621b481e55a0b" category="doc">回應 Active IQ Unified Manager 中違反效能臨界值原則的情況</block>
+  <block id="b10a156b2f367dab1efd9bcf0c301a24" category="doc">了解 Active IQ Unified Manager 中的效能臨界值原則變更</block>
+  <block id="7031d4021db4ecca8057bfba75883ead" category="doc">在 Active IQ Unified Manager 中檢閱警示電子郵件中的資訊</block>
+  <block id="f16cef0cb77a3af48511b8c97acd7386" category="doc">了解 Active IQ Unified Manager 中的效能容量使用計數器</block>
+  <block id="4f6bb8ab62d916ff4817249699d1d03c" category="doc">了解 Active IQ Unified Manager 中的效能事件</block>
+  <block id="52153433ebdbc48bc1f998d207359ec7" category="doc">了解 Active IQ Unified Manager 中的儲存效率</block>
+  <block id="aff4befffeaf769bcd60955b13670fac" category="doc">了解 Active IQ Unified Manager 中收集的資料和事件的時間戳記</block>
+  <block id="37a61ac5473c08e7fae4273b7e29c9b5" category="doc">在 Active IQ Unified Manager 中使用已使用效能容量值</block>
+  <block id="cdcb0f21944a8841e7a06cc9725a0f82" category="doc">了解何時在 Active IQ Unified Manager 中使用工作負載分析器</block>
+  <block id="e800870d1beb5873b5e8a0966e136f1c" category="doc">在 Active IQ Unified Manager 中檢視所有儲存設備物件的效能清單頁面</block>
+  <block id="04187cbbd63fb9c1261eac6fdb61b7eb" category="doc">在 Active IQ Unified Manager 中檢閱叢集效能事件窗格</block>
+  <block id="5e3a1a8e70f5b7f6bd5c4a89e14b4825" category="doc">請查看 Active IQ Unified Manager 中的「效能叢集摘要」頁面</block>
+  <block id="7d823263426418ce22b6e7b4317deada" category="doc">檢閱 Active IQ Unified Manager 中的「效能/節點容錯移轉規劃」頁面元件</block>
+  <block id="901ab9cd5ee5fdec7bf9e0b12d827c15" category="doc">透過在 Active IQ Unified Manager 中啟用節點上的 Flash Cache 來提高工作負載效能</block>
+  <block id="7c32d42d288182fd435dee365335fdd4" category="doc">在 Active IQ Unified Manager 中使用延遲預測進行效能分析</block>
+  <block id="08104ab308aff4bb4bd3910d6cc3b53b" category="doc">查看 Active IQ Unified Manager 中的「託管物件」窗格</block>
+  <block id="a81e4ca7c24eba7749fcf3565e54c011" category="doc">查看 Active IQ Unified Manager 中的效能叢集登陸頁面</block>
+  <block id="a0cdb27c7986f98c42a7f84fe90b849f" category="doc">在 Active IQ Unified Manager 中解讀效能橫幅訊息</block>
+  <block id="66182d13029c40b5f79ab617d26da41b" category="doc">將 Active IQ Unified Manager 效能資料傳送至外部伺服器</block>
+  <block id="841a56fd81da4f6e1d620d6ad2e6896c" category="doc">在 Active IQ Unified Manager 中分析效能事件和通知</block>
+  <block id="23a5d835762354019bddbf0b54229f1b" category="doc">在 Active IQ Unified Manager 中依嚴重程度對效能事件進行優先排序</block>
+  <block id="02d36d3635b3dc8abe71e72e6b3795f4" category="doc">解決 Active IQ Unified Manager 中的效能事件</block>
+  <block id="cf7ad27f471bcecaafb605bcdf04c90c" category="doc">檢閱 Active IQ Unified Manager 中的「效能摘要」頁面</block>
+  <block id="ad866725349ebb487987d8c32a46f04a" category="doc">在 Active IQ Unified Manager 中檢視「表現最佳者」頁面</block>
+  <block id="e6f70fae7fea51a14ebd286c91282136" category="doc">了解 Active IQ Unified Manager 中的各種效能計數器圖表類型</block>
+  <block id="f8646ae431c544628ed40315794ae555" category="doc">了解 Active IQ Unified Manager 中系統定義的效能臨界值原則</block>
+  <block id="308e1f13f154bf7cfbf012680123fe40" category="doc">使用 Active IQ Unified Manager 中的「節點故障轉移規劃」頁面</block>
+  <block id="55f186accc39e5db16e8e90a11a6ef0a" category="doc">了解 Active IQ Unified Manager 中的工作負載分析器資料</block>
+  <block id="0e383c5212754e48d72be1f0232ab504" category="doc">了解 Active IQ Unified Manager 中的組合臨界值原則物件和計數器</block>
+  <block id="31b58da67c98912dddd5423b92c5d8de" category="doc">了解 Active IQ Unified Manager 中使用臨界值追蹤的效能計數器</block>
+  <block id="3f90ee5ffd5087e0818b79393cf23738" category="doc">了解 Active IQ Unified Manager 中的工作負載效能測量值</block>
+  <block id="01b80978860fecaf1103280fb36cd177" category="doc">在 Active IQ Unified Manager 中分析遠端叢集上的 MetroCluster 效能事件</block>
+  <block id="e38ffec261a387bbc73dd7586ad8bfd9" category="doc">在 Active IQ Unified Manager 中分析叢集上的 MetroCluster 效能事件</block>
+  <block id="57d104adf3a2694de3468b9cd5f4409d" category="doc">在 Active IQ Unified Manager 中為儲存設備物件指派效能臨界值原則</block>
+  <block id="f0cd1fe659830bc4ff3c6f373a7f2c87" category="doc">在 Active IQ Unified Manager 中，將計數器圖表的焦點變更為更短的期間</block>
+  <block id="86b0f56fe6bba5aa444941394ff7da37" category="doc">在 Active IQ Unified Manager 中變更效能統計資料收集間隔</block>
+  <block id="34adf26b84eef03802ca684f0e43bd9d" category="doc">設定 Active IQ Unified Manager 與外部資料供應商之間的連線</block>
+  <block id="bcd4f08d3ffc904d1909a402a56a72fa" category="doc">在 Active IQ Unified Manager 中建立使用者自訂的效能臨界值原則</block>
+  <block id="392cc617f798513e470284337d625464" category="doc">在 Active IQ Unified Manager 中定義用於比較圖表的相關物件</block>
+  <block id="b2b74ccba041dbbe53eb0897d3c10e2e" category="doc">在 Active IQ Unified Manager 中顯示計數器圖表縮放檢視</block>
+  <block id="9c3183199fa59674a052771efb20eb86" category="doc">在 Active IQ Unified Manager 中顯示有關效能事件的資訊</block>
+  <block id="0aacb190f5546503eed974019e59bc7e" category="doc">在 Active IQ Unified Manager 中編輯使用者定義的效能臨界值原則</block>
+  <block id="934325a7a2ffb69c34b17a2b8dd54d3a" category="doc">在 Active IQ Unified Manager 中展開「計數器圖表」窗格</block>
+  <block id="824a11b9bc7869c526d33afea778e6fa" category="doc">在 Active IQ Unified Manager 中篩選庫存頁面內容</block>
+  <block id="7eb23f03095787b82213a129c8298537" category="doc">在 Active IQ Unified Manager 的「物件庫存效能」頁面上篩選資料</block>
+  <block id="ccbe82a3d28eba994b3a6264ab1641cc" category="doc">在 Active IQ Unified Manager 中識別動態效能事件中的惡霸工作負載</block>
+  <block id="2a595928956962c3bad4a13a43311b77" category="doc">在 Active IQ Unified Manager 的動態效能事件中辨識鯊魚工作負載</block>
+  <block id="924ad5d3544421146596c8cbdd1765e8" category="doc">在 Active IQ Unified Manager 中識別動態效能事件中的受害工作負載</block>
+  <block id="ecae132ea51fd905798dca7c40898388" category="doc">登入 Active IQ Unified Manager 使用者介面</block>
+  <block id="a634bafcf8919790e43143975a039aef" category="doc">在 Active IQ Unified Manager 中將工作負載移至不同節點上的彙總</block>
+  <block id="c0242dc07d716f05c29feabe2915cd07" category="doc">在 Active IQ Unified Manager 中將工作負載移至不同 HA 配對中的另一個節點</block>
+  <block id="993943c54742231d549823ab7daafbc1" category="doc">在 Active IQ Unified Manager 中將工作負載移至不同的彙總</block>
+  <block id="8ceff9a37433711c2101ad6772c03ef3" category="doc">在 Active IQ Unified Manager 中將工作負載移至不同的節點</block>
+  <block id="3c6e43821375ccdffe487522d4d2d65e" category="doc">在 Active IQ Unified Manager 中將工作負載移至不同 HA 配對中的節點</block>
+  <block id="411f69452647682b4c6dcf71ba78ccb6" category="doc">從 Active IQ Unified Manager 的儲存設備物件中移除效能臨界值原則</block>
+  <block id="1b963d79d88bc10002f28d28bf28e482" category="doc">回應 Active IQ Unified Manager 中的叢集不平衡效能事件</block>
+  <block id="73f4a3a480eb1e094038b572ae87b319" category="doc">回應 Active IQ Unified Manager 中的動態 QoS 限速事件</block>
+  <block id="61f1c548d050e766a413526b786b32f0" category="doc">回應 Active IQ Unified Manager 中由磁碟故障引起的效能事件</block>
+  <block id="9518ee0f796c9bc7d6a97644c05e0352" category="doc">在 Active IQ Unified Manager 中回應由 HA 接管所引起的效能事件</block>
+  <block id="374ee7df0e1b36409d8f067d9f44e758" category="doc">回應 Active IQ Unified Manager 中的節點資源過度利用事件</block>
+  <block id="bb3fa68150c92c55a06c07c1fdc45c1a" category="doc">在 Active IQ Unified Manager 中回應系統定義的效能臨界值事件</block>
+  <block id="d97cd6cdc9a61f34c6a9a27687fe2db7" category="doc">在 Active IQ Unified Manager 中回應 QoS 原則群組效能事件</block>
+  <block id="ec79b956c7fa2d24c006c71cf44ef841" category="doc">在 Active IQ Unified Manager 中回應使用者定義的效能臨界值事件</block>
+  <block id="96ae280ada6c7850a0115cab9637a704" category="doc">在 Active IQ Unified Manager 中搜尋物件清單效能頁面</block>
+  <block id="e8cd62ba9bdb8e8ad4e15c56af5d6bd3" category="doc">選擇要在 Active IQ Unified Manager 中顯示的效能圖表</block>
+  <block id="6d2ff75f2a580acbcb24e578925bc38f" category="doc">在 Active IQ Unified Manager 的計數器圖表縮放檢視中選擇效能臨界值</block>
+  <block id="3c1dd6f4b668ac645d431c447a8c5e8f" category="doc">在 Active IQ Unified Manager 中選擇預先定義的時間範圍</block>
+  <block id="5fcb5463593df7929013b3b23229732a" category="doc">在 Active IQ Unified Manager 的「物件清單效能」頁面上對資料進行排序</block>
+  <block id="176ec4723c6908cc2b2f0e16dc94b138" category="doc">在 Active IQ Unified Manager 中指定關聯物件的時間範圍</block>
+  <block id="a0e2a3eadc5bbd968932fe0130061f2c" category="doc">在 Active IQ Unified Manager 中指定自訂時間範圍</block>
+  <block id="33709089a45fd65d3397bdfc3b057aba" category="doc">在 Active IQ Unified Manager 的縮放檢視中指定時間範圍</block>
+  <block id="db8487cfeb606ccbfbf21b2299af1fdd" category="doc">在 Active IQ Unified Manager 中使用「效能容量使用細分」圖表進行容錯移轉規劃</block>
+  <block id="34b1b254eec23e991f947d0cefbb41b7" category="doc">使用 Active IQ Unified Manager 中的工作負載分析器</block>
+  <block id="931854971bc368249ea228fb45a3efad" category="doc">在 Active IQ Unified Manager 中檢視所有叢集上可用的 QoS 原則群組</block>
+  <block id="7380749501882b96142c24f51a2ffc34" category="doc">在 Active IQ Unified Manager 事件時間軸中檢視事件詳情</block>
+  <block id="6402e0510299e80a41f4ea3e773571fc" category="doc">在 Active IQ Unified Manager 中檢視基於本機工作負載的節點 IOPS</block>
+  <block id="36b18aa1d9cbcbe5763c70ed37e1f2d5" category="doc">在 Active IQ Unified Manager 中檢視效能容量計數器圖表</block>
+  <block id="1c838cb97da30232d74e6648a07f665d" category="doc">在 Active IQ Unified Manager 中比較同一 QoS 原則群組內的 Volume 或 LUN</block>
+  <block id="84373c94b38fdd61f69074c51f93e05d" category="doc">在 Active IQ Unified Manager 中檢視 All SAN Array 叢集的效能</block>
+  <block id="7c3150445fa3093d9647ae207fdc5ae9" category="doc">在 Active IQ Unified Manager 中檢視效能臨界值原則</block>
+  <block id="b28829e25511ab6c0e390f7750fdc0ed" category="doc">在 Active IQ Unified Manager 中檢視 Volume 或 LUN 的 QoS 原則群組設定</block>
+  <block id="a88a21dd066ce64d946bfe2e5dda13c3" category="doc">在 Active IQ Unified Manager 中按協定檢視 SVM IOPS 流量</block>
+  <block id="e21b0335bf2ad5b1d78b02ddf831410f" category="doc">檢視 Volume 和 LUN 延遲圖表，以驗證 Active IQ Unified Manager 中的效能保證</block>
+  <block id="bc3a009bc74523eb2a9469da844049b2" category="doc">在 Active IQ Unified Manager 中按叢集元件檢視 Volume 延遲</block>
+  <block id="1e9b378280fabbdb24c0b4cf2870a4a5" category="doc">在 Active IQ Unified Manager 中檢視相同 QoS 原則群組中的 Volume 或 LUN</block>
+  <block id="4c53b1d20e3e17d5c553822382225466" category="doc">在 Active IQ Unified Manager 中檢視工作負載 QoS 的最小和最大設定</block>
+  <block id="9d2a37adaf61ff87e59e0f07495ca089" category="doc">Active IQ Unified Manager 發行說明</block>
+  <block id="42295b8fd789480238bc0645425e0a86" category="doc">在 Active IQ Unified Manager 中自訂彙總容量報告</block>
+  <block id="4d23b38954c463594278f59636a32c2d" category="doc">在 Active IQ Unified Manager 中自訂叢集儲存設備報告</block>
+  <block id="d7ff0f638484cd6f82c4396b32c481a8" category="doc">在 Active IQ Unified Manager 中自訂 NFS 共享報告</block>
+  <block id="84dadb73d2d74cb436944bdaac2ae82a" category="doc">在 Active IQ Unified Manager 中自訂 Qtree 容量報告</block>
+  <block id="bc1c66d2139e3188d1e2286e7101b5fb" category="doc">在 Active IQ Unified Manager 中自訂報告</block>
+  <block id="73c4f931a734e9431ea93439c3c89b62" category="doc">在 Active IQ Unified Manager 中自訂儲存設備 VM 報告</block>
+  <block id="2ca85616768242ee5f27995f7be28a3d" category="doc">在 Active IQ Unified Manager 中自訂 Volume 容量報告</block>
+  <block id="0110261dba06c9a5c92b8df83c955b00" category="doc">在 Active IQ Unified Manager 中自訂 Volume 效能報告</block>
+  <block id="d4d70344cc35f77918160b0d1cdd05b2" category="doc">在 Active IQ Unified Manager 中自訂 Volume 關係報告</block>
+  <block id="066b83339f158e15fc03b82bb3af4966" category="doc">探索存取 Active IQ Unified Manager 報告功能的三種方法</block>
+  <block id="1076abf58c242329455d30cb451e97a2" category="doc">了解 Active IQ Unified Manager 中的報告工作流程</block>
+  <block id="d262b8f023695a4cd367a48c1c176207" category="doc">了解 Active IQ Unified Manager 中的範例自訂報告</block>
+  <block id="71fbb9faad301a241bfb550c49f3b9e8" category="doc">了解 Active IQ Unified Manager 中的 Microsoft Excel 報告範例</block>
+  <block id="1e31ec5ffb35b4e6493fa0a1d57a15c2" category="doc">在 Active IQ Unified Manager 中排程報告</block>
+  <block id="c049b48ee9d0ce855d1948642d87dca7" category="doc">了解 Active IQ Unified Manager 中的報告</block>
+  <block id="214a61e544aca57b18945ca52f2e07a0" category="doc">了解 Active IQ Unified Manager 中的檢視與報告關係</block>
+  <block id="b4c02ae9bdb9ff4e238ad974b750f25a" category="doc">在 Active IQ Unified Manager 中存取資料庫以進行自訂報告</block>
+  <block id="73b1ac0a25ca974072b51efe291ffe18" category="doc">了解 Active IQ Unified Manager 報告</block>
+  <block id="4266ef197fbc2b59e1541d0613f78189" category="doc">在 Active IQ Unified Manager 中處理報告</block>
+  <block id="d8ae7f271e865d9b72fe89f322ae70f7" category="doc">使用 Active IQ Unified Manager REST API 進行報告</block>
+  <block id="873516a3ea19b608e6af836d619c65dc" category="doc">了解 Active IQ Unified Manager 中的報告限制</block>
+  <block id="2f6a9104b0d4bd30ca815ed6b1dcab42" category="doc">了解 Active IQ Unified Manager 中的報告類型</block>
+  <block id="4d77becc69bc5622f056ac86dd037330" category="doc">在 Active IQ Unified Manager 中建立報告，以識別非 FabricPool 彙總上具有大量冷資料的 Volume</block>
+  <block id="f0577de9d40ca8b2a5820eb8cc4e2844" category="doc">在 Active IQ Unified Manager 中建立按問題分組的 Volume 關係報告</block>
+  <block id="ae9d658df830168f1c73c60c12983807" category="doc">在 Active IQ Unified Manager 中辨識出具有未指派 LUN 容量的叢集</block>
+  <block id="92ef6a725fbcf52a11a7f2f14437042e" category="doc">在 Active IQ Unified Manager 中識別已停用資源隨需配置的 Volume</block>
+  <block id="a4cb01627ffa87f7455905ce5f5eb644" category="doc">在 Active IQ Unified Manager 中識別已停用 Snapshot 自動刪除且接近容量上限的 Volume</block>
+  <block id="13e3a72ed3ee4601050aa8afab6c1186" category="doc">在 Active IQ Unified Manager 中顯示彙總總容量與可用容量圖表</block>
+  <block id="a96e2780bd3de617148924286d999c14" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中達到滿容量的彙總</block>
+  <block id="080e58bd386d21e6085cfebb18b1dda4" category="doc">建立報告以檢視 Active IQ Unified Manager 中容量達 80% 或以上的彙總</block>
+  <block id="63b02999a93396196ca0a8e2085a22a1" category="doc">建立報告以檢視 Active IQ Unified Manager 中超額分配的彙總</block>
+  <block id="58c3f02c1ce47f96f2f8b5d4a282e6fa" category="doc">建立報告以檢視 Active IQ Unified Manager 中具有最多可用 IOPS 的彙總</block>
+  <block id="5dbfc63872d6c81c3a01ece6786babe9" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中的可用 Volume 容量圖表</block>
+  <block id="028177e231e3da8e7d78bc58db3fdb04" category="doc">在 Active IQ Unified Manager 中建立報告以顯示彙總容量表和圖表</block>
+  <block id="22cba691d6077b47a7f66c8363978e6e" category="doc">在 Active IQ Unified Manager 中建立報告以依叢集模型檢視容量</block>
+  <block id="bddb775f5c690a3113f68f44e710bf9b" category="doc">建立報告以檢視 Active IQ Unified Manager 中失敗或成功的 Volume 傳輸</block>
+  <block id="e84cf2e90712a7c8a00ca702ae4ef974" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中可用容量最大的 HA 配對</block>
+  <block id="bcd606ecee6fca7af619bfae7c7bc267" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中接近滿的 qtree</block>
+  <block id="afa8f8ce62b758ee7cccf7fb2ee08af5" category="doc">建立報告以檢視 Active IQ Unified Manager 中已停止的儲存設備虛擬機器</block>
+  <block id="d9619dee7e601eb322637867edd0a9bd" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中達到最大 Volume 限制的儲存設備虛擬機器</block>
+  <block id="002bb26271b2de0bbaa04ae649ea46e7" category="doc">在 Active IQ Unified Manager 中建立報告，以根據傳輸大小檢視 Volume 傳輸</block>
+  <block id="c20cc2d81e07c807e86db40085bc1233" category="doc">在 Active IQ Unified Manager 中建立報告，以檢視按日分組的 Volume 傳輸</block>
+  <block id="b7f2c31eaef1fc8650bf45e66a5107d2" category="doc">在 Active IQ Unified Manager 中建立報告，以檢視不同時間間隔的 Volume 傳輸趨勢</block>
+  <block id="8ecfc53976e3d12380063154053131cb" category="doc">建立一份報告，以檢視 Active IQ Unified Manager 中裝載路徑無法存取的 Volume</block>
+  <block id="0d17370e50c72826ceab79d22d08db62" category="doc">建立報告以檢視在 Active IQ Unified Manager 中使用預設匯出原則的 Volume</block>
+  <block id="df1bc24606115db244e016b075c61362" category="doc">建立報告以檢視 Active IQ Unified Manager 中執行舊版 ONTAP 的節點</block>
+  <block id="9eb9d986506bff04a9a4c0a7523f74da" category="doc">在 Active IQ Unified Manager 中建立一份報告，依故障來源將 Volume 關係分組</block>
+  <block id="601be396562cf3559d6c246ee13969ae" category="doc">在 Active IQ Unified Manager 中識別應將資料移至雲端分層的 Volume</block>
+  <block id="9e2e175fd98a9c190580770be22209c5" category="doc">在 Active IQ Unified Manager 中自訂報告中的欄</block>
+  <block id="95554c344483783421a19e4cf70fc5f9" category="doc">在 Active IQ Unified Manager 中刪除排程報告</block>
+  <block id="f5be60457701863e3cc7b0966bc5159f" category="doc">在 Active IQ Unified Manager 中下載報告</block>
+  <block id="eec6654671979fdca77214bf3ca80870" category="doc">在 Active IQ Unified Manager 中編輯排程報告</block>
+  <block id="27d4b0838d3035a78b3902bd2ebad1ca" category="doc">在 Active IQ Unified Manager 中篩選資料</block>
+  <block id="7e70bbc8b07be6bcb5564f9f260b1c0c" category="doc">在 Active IQ Unified Manager 中管理報告排程</block>
+  <block id="76b0a9fcd0ca15c6e13191e5c9515046" category="doc">開始使用 Active IQ Unified Manager 產生報告</block>
+  <block id="4751afdcaa607a5203171ccb4ade3bc0" category="doc">在 Active IQ Unified Manager 中排程匯入的 .rptdesign 報告</block>
+  <block id="d98844e944333b5f98632d0c4e566fbe" category="doc">在 Active IQ Unified Manager 中排程報告</block>
+  <block id="72b2926900910c1b6f6bc45ec1c297af" category="doc">在 Active IQ Unified Manager 中尋找已排程的報告</block>
+  <block id="9d5bfbb78c0da46313b42936327daf48" category="doc">在 Active IQ Unified Manager 中搜尋以精簡您的檢視</block>
+  <block id="93d35f01776d23bb163ff7fca5078cd1" category="doc">在 Active IQ Unified Manager 中對資料進行排序</block>
+  <block id="535d39333a06208b208543a37b1251f4" category="doc">使用 Excel 在 Active IQ Unified Manager 中自訂報告</block>
+  <block id="22eaa61abfa7e8c46eba3ba539c5b1dc" category="doc">了解 Active IQ Unified Manager 中的配額</block>
+  <block id="c90f16bd594c11b7ba128e9370ce9017" category="doc">在 Active IQ Unified Manager 中為資料庫目錄新增磁碟空間</block>
+  <block id="ab77032c12b32ff21c18c847b2e9703e" category="doc">在 Active IQ Unified Manager 中檢視工作負載</block>
+  <block id="6bbcf47610490c44ed595792ad198369" category="doc">在 Active IQ Unified Manager 中為工作負載指派原則</block>
+  <block id="7ca01b1ac376706b273a4cf788375a30" category="doc">直接從 Active IQ Unified Manager 管理 ONTAP 問題或功能</block>
+  <block id="30e67b48ee82967d2556bdb312fc7819" category="doc">了解 Active IQ Unified Manager 中的叢集探索過程如何運作</block>
+  <block id="2ba128b2fec458400febbe2160eb1614" category="doc">了解 Active IQ Unified Manager 中的健全狀況監控</block>
+  <block id="077819aa397f2ae293340d1c685b8c24" category="doc">在 Active IQ Unified Manager 中管理與監控 MetroCluster 組態</block>
+  <block id="edf26b4c45fd428e701e46dac013d52d" category="doc">在 Active IQ Unified Manager 中管理 ONTAP 叢集</block>
+  <block id="4ec8078e44bf0dfb5ebd52d97a0d9091" category="doc">在 Active IQ Unified Manager 中管理效能服務級別</block>
+  <block id="23cfca5ba97b2ec7a677b275ed531d9b" category="doc">在 Active IQ Unified Manager 中管理使用者和群組配額</block>
+  <block id="2e9726d3e65c8a02f6082a16361c03b8" category="doc">在 Active IQ Unified Manager 中管理儲存設備效率原則</block>
+  <block id="c5b583f7ee012ce588a7d1c9d5032976" category="doc">使用 Active IQ Unified Manager 檢視災難恢復設定中的虛擬化基礎架構可見度</block>
+  <block id="45894598593972b28181aaa1f369bc08" category="doc">在 Active IQ Unified Manager 的儀表板中監控和管理叢集</block>
+  <block id="7adcae494f173c95b91f64f2817711c1" category="doc">了解 Active IQ Unified Manager 如何監控虛擬機器</block>
+  <block id="d19a98246636e5e8ef0837a76f5870dd" category="doc">了解 Active IQ Unified Manager 如何監控 VMware 虛擬化基礎架構</block>
+  <block id="14e53d4357f09223ab6158cfbdeaeada" category="doc">在 Active IQ Unified Manager 中使用指令碼覆寫管理動作</block>
+  <block id="5138d9f16d5f659c8aea0ba65666730c" category="doc">了解 Active IQ Unified Manager 配額流程</block>
+  <block id="fb6db5f9b3abbb6c7f81a8fb30ab01be" category="doc">在 Active IQ Unified Manager 中配置和管理工作負載</block>
+  <block id="178c2dd6c0a5ba758b908d4a61687988" category="doc">疑難排解 Active IQ Unified Manager</block>
+  <block id="e858d547a9b0048c79dc8e5d6acf97c1" category="doc">Active IQ Unified Manager 中的典型視窗佈局</block>
+  <block id="c98ad2a500751b972c5c3cfdc828fd7e" category="doc">了解 Active IQ Unified Manager 使用者介面</block>
+  <block id="1be5a81f0301b52049c18615ebd14ace" category="doc">使用 Active IQ Unified Manager REST API</block>
+  <block id="a3a6a62f80ee3fd6419e337fdd906d69" category="doc">了解 Active IQ Unified Manager 在切換和切回期間的 Volume 行為</block>
+  <block id="b80d5bb6515d4e1a74a2084f180c6c30" category="doc">了解 Active IQ Unified Manager 中的「修復問題」和「全部修復」按鈕選項</block>
+  <block id="4bad1ab7140fd6fd102c1c1166277db9" category="doc">了解 Active IQ Unified Manager 中的配額限制</block>
+  <block id="7def7a5f166e0252fb8fbc02a1420c0e" category="doc">了解 Active IQ Unified Manager 伺服器</block>
+  <block id="edc89202ed7986f7a22a820fed80de2a" category="doc">了解 Active IQ Unified Manager 中的工作負載儀表板</block>
+  <block id="ed12ba324ef44f7bf50ed84fdb6a2844" category="doc">了解 Active IQ Unified Manager 中 MetroCluster over FC 組態的叢集連線</block>
+  <block id="d247494d499c05ad124487eb774c7ef1" category="doc">了解 Active IQ Unified Manager 儀表板頁面</block>
+  <block id="bdc965ceaa5cba12db48a8b2afc55ae2" category="doc">了解 Active IQ Unified Manager 中透過 FC 的 MetroCluster 資料鏡射</block>
+  <block id="b3ded01d47a8a149eec89d813e2cadd7" category="doc">在 Active IQ Unified Manager 中使用「配額」對話方塊</block>
+  <block id="264bb116784d0193025e21bf6b4e478d" category="doc">了解 Active IQ Unified Manager 中的電子郵件通知格式頁面</block>
+  <block id="68bfd33f48919a8fe1815e8831e787f2" category="doc">解決在 Active IQ Unified Manager 中使用其他驗證服務新增 LDAP 所造成的問題</block>
+  <block id="2276264465e10866d2739d825f5e8735" category="doc">了解 Active IQ Unified Manager 中的配額電子郵件地址規則</block>
+  <block id="2313c7b75047b7789b00c39828e2c718" category="doc">解決 Active IQ Unified Manager 中的未知驗證錯誤</block>
+  <block id="00a3993ddee2565431662708ce48c894" category="doc">解決 Active IQ Unified Manager 中的「找不到使用者」錯誤</block>
+  <block id="d76b60cfa960ff09d55b66117e815ffa" category="doc">了解 Active IQ Unified Manager 可以解決的 ONTAP 問題</block>
+  <block id="2620cd4bc4dd77df42defa94f67d6999" category="doc">在 Active IQ Unified Manager 中自訂視窗佈局</block>
+  <block id="a051b303e0a73995e39b3e2044fd7d23" category="doc">在 Active IQ Unified Manager 中為 Linux 主機的資料目錄新增空間</block>
+  <block id="069d5a5f8aa0f4a984281d75895d8231" category="doc">在 Active IQ Unified Manager 中為 Microsoft Windows 伺服器的邏輯磁碟機新增空間</block>
+  <block id="6cfc690da70b5ff4b5ba9d399e598094" category="doc">在 Active IQ Unified Manager 中為 VMware 虛擬機器的資料磁碟新增空間</block>
+  <block id="96b51b53de194849c218b373a2fd41ec" category="doc">在 Active IQ Unified Manager 中收藏您最愛的說明主題</block>
+  <block id="a6bea78f7d73ec49b70c0df8a999f880" category="doc">更改 Active IQ Unified Manager 保留事件和效能資料的時間長度</block>
+  <block id="7a6b68da9f117b0fda32ffce0bd97101" category="doc">在 Active IQ Unified Manager 中建立使用者和使用者群組配額的電子郵件通知格式</block>
+  <block id="8952fc7058cbba11fdd255075ab28dd5" category="doc">在 Active IQ Unified Manager 中建立和編輯效能服務級別</block>
+  <block id="4d6b3f3adfdabbe8813876d3c392639d" category="doc">在 Active IQ Unified Manager 中建立和編輯儲存效率原則</block>
+  <block id="e88f74b706c7d0798e69f5f9c6a283aa" category="doc">在 Active IQ Unified Manager 中建立規則以產生電子郵件地址</block>
+  <block id="b99fcdb6142976951743f4c0cd4b39e0" category="doc">在 Active IQ Unified Manager 中編輯叢集設定</block>
+  <block id="a620c46611cf446a192da4e765e2732c" category="doc">在 Active IQ Unified Manager 中編輯使用者和群組配額電子郵件地址</block>
+  <block id="9ee19423c27219bc341ff5b6da860c74" category="doc">在 Active IQ Unified Manager 中將儲存設備資料匯出為報告</block>
+  <block id="70d3119422693d67ad130e75e803970e" category="doc">在 Active IQ Unified Manager 中監控 MetroCluster 組態</block>
+  <block id="eb86f759a0031f1efd4b4d92a4ba3d63" category="doc">在 Active IQ Unified Manager 中監控 MetroCluster 複寫</block>
+  <block id="6dbadc12101ce98dc0fd7400667f62ad" category="doc">在 Active IQ Unified Manager 中配置檔案共享 Volume</block>
+  <block id="5699fab6059f11334468b9644776aee1" category="doc">在 Active IQ Unified Manager 中配置 LUN</block>
+  <block id="2bff085f20e81596dedf324bc9a9611e" category="doc">在 Active IQ Unified Manager 中重新探索叢集</block>
+  <block id="e6a1470bc5415cfd42893ea2c0c18c42" category="doc">從 Active IQ Unified Manager 中移除叢集</block>
+  <block id="877d60d18a5918663c242ab429c57a49" category="doc">從 Active IQ Unified Manager 移除 vCenter 伺服器</block>
+  <block id="fa0ee68056cce15283b335c795232350" category="doc">解決 Active IQ Unified Manager 中的 NetApp 可管理性 SDK 日誌輪替問題</block>
+  <block id="2970c8dd44babc82fece561d1c0586f8" category="doc">使用 Active IQ Unified Manager 說明</block>
+  <block id="4a670817104b60411d4cbafebced2e78" category="doc">從 Active IQ Unified Manager 的通知鈴檢視作用中事件</block>
+  <block id="1f0158130464c96c3bd24c9c2721066d" category="doc">在 Active IQ Unified Manager 中檢視並新增 vCenter 伺服器</block>
+  <block id="6b595466f74ad88d1d58cbb1f9e708c5" category="doc">檢視 Active IQ Unified Manager 監控的叢集清單</block>
+  <block id="5e6418081a0b5941600e9b0a5179af0c" category="doc">檢視 Active IQ Unified Manager 中待修復的管理操作狀態</block>
+  <block id="e740cf549cb335bcf4bf6c09eccb40c2" category="doc">在 Active IQ Unified Manager 中檢視使用者和使用者群組配額</block>
+  <block id="019fe78946f68f8c5b4bb33746f61a56" category="sidebar">了解 Unified Manager 的安裝順序</block>
+  <block id="334380400ec14d1604ddbc3bd15556eb" category="sidebar">Unified Manager 的虛擬化基礎架構和硬體需求</block>
+  <block id="2b63cdea2aec6916e3bace1722f8dbe8" category="sidebar">Unified Manager 的 VMware 軟體和安裝要求</block>
+  <block id="290d0bb56ef962a5a99f5681261af104" category="sidebar">Unified Manager 支援的瀏覽器</block>
+  <block id="f9ead9babe0e6989688654f4ed345f24" category="sidebar">Unified Manager 的協定和連接埠要求</block>
+  <block id="9e456fc45ea01c2976f68e3c3314b43f" category="sidebar">Unified Manager 安裝工作表</block>
+  <block id="f87bee89e654488fdd4c91e61e906b7b" category="sidebar">在 VMware vSphere 上安裝、升級與移除 Unified Manager</block>
+  <block id="e2759540dff477e9074a50116daa1200" category="sidebar">了解 Unified Manager 部署流程</block>
+  <block id="693cd77d8b73573c6a24bb3a3e66378a" category="sidebar">Unified Manager 虛擬應用裝置部署工作流程</block>
+  <block id="2c3b3d06e66cca95f441e028f5e75e98" category="sidebar">Unified Manager 虛擬應用裝置升級工作流程</block>
 </blocks>

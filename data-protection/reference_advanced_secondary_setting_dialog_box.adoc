@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box 
 summary: 您可以使用「進階次要設定」對話方塊、在次要磁碟區上啟用版本彈性複寫、多個複本備份及空間相關設定。若要變更啟用或停用目前設定、您可以使用「進階次要設定」對話方塊。 
 ---
-= 進階次要設定對話方塊
+= 在 Active IQ Unified Manager 中使用「進階次要設定」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

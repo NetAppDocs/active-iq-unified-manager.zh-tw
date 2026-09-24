@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: protection, events, impact area, protection 
 summary: 保護事件會告訴您工作是否失敗或已中止、以便您監控問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 保護事件
+= 了解 Active IQ Unified Manager 中的保護事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

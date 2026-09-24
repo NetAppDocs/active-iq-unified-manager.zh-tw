@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, refine, view 
 summary: 取得所需的檢視之後、您可以使用「搜尋」欄位進一步精簡結果、將焦點放在您要納入報告的結果上。 
 ---
-= 使用搜尋功能來精簡檢視
+= 在 Active IQ Unified Manager 中搜尋以精簡您的檢視
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members 
 summary: 資源池由多個成員集合體組成。您可以將集合體新增至現有資源集區、以增加次要Volume資源配置的可用空間量。 
 ---
-= 新增資源池成員
+= 在 Active IQ Unified Manager 中新增資源池成員
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, software, installation, requirements, system, active iq unified manager 
 summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unified Manager的系統符合軟體需求。 
 ---
-= Windows軟體與安裝需求
+= 了解 Active IQ Unified Manager 的 Windows 軟體和安裝需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

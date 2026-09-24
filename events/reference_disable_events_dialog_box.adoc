@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, events, dialog box, properties, area, command buttons 
 summary: 停用事件對話方塊會顯示可停用事件的事件類型清單。您可以根據特定嚴重性或一組事件來停用事件類型的事件。 
 ---
-= 停用事件對話方塊
+= 在 Active IQ Unified Manager 中停用「事件」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

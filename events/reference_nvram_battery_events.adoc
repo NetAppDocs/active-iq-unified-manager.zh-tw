@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nvram, battery, events, impact area, availability 
 summary: NVRAM電池事件可提供電池狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= NVRAM電池事件
+= 了解 Active IQ Unified Manager 中的 NVRAM 電池事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

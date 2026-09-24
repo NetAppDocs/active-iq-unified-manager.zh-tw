@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, when, event, received 
 summary: Unified Manager收到事件時、會顯示在儀表板頁面、事件管理詳細目錄頁面、叢集/效能頁面的摘要和檔案總管索引標籤、以及物件專屬的詳細目錄頁面（例如「Volumes/Health」（磁碟區/健全狀況）。 
 ---
-= 收到事件時會發生什麼事
+= 了解 Active IQ Unified Manager 如何處理接收到的事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

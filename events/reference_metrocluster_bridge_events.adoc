@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, bridge, events, impact area, availability 
 summary: 透過「橋樑」事件、您可以獲得橋樑狀態的相關資訊、以便監控可能的問題。MetroCluster事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
-= 資訊橋事件MetroCluster
+= 了解 Active IQ Unified Manager 中的 MetroCluster Bridge 事件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

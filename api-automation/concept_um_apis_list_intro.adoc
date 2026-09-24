@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified, manager, rest, api 
 summary: 本Active IQ Unified Manager 節會根據其類別列出REST API for Israre。 
 ---
-= Unified Manager REST API
+= 了解 Active IQ Unified Manager REST API 的類別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

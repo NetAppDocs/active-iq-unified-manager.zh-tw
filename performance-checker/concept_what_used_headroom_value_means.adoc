@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: 效能使用容量值可協助您識別目前過度使用或未充分利用的節點和集合體。這可讓您重新分配工作負載、以提高儲存資源的效率。 
 ---
-= 效能容量所使用的價值代表什麼意義
+= 在 Active IQ Unified Manager 中使用已使用效能容量值
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: 您可以在Linux平台上下載並執行安裝檔案、以升級Unified Manager。 
 ---
-= 升級Unified Manager
+= 升級 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

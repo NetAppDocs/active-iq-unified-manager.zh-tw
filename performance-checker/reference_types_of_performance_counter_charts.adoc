@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts 
 summary: 有標準效能圖表可顯示所選儲存物件的計數器值。每個明細計數器圖表都會顯示區分為讀取、寫入及其他類別的總計值。此外、某些明細計數器圖表會在「縮放」檢視中顯示圖表時、顯示其他詳細資料。 
 ---
-= 效能對照表類型
+= 了解 Active IQ Unified Manager 中的各種效能計數器圖表類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

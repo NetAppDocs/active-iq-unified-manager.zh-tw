@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, use 
 summary: 您通常會使用工作負載分析器來疑難排解使用者回報的延遲問題、更徹底地分析報告的事件或警示、或是探索您發現的工作負載運作異常。 
 ---
-= 何時使用工作負載分析器
+= 了解何時在 Active IQ Unified Manager 中使用工作負載分析器
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

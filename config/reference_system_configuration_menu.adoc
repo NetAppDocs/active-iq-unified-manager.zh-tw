@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, configuration, menu 
 summary: System Configuration（系統組態）功能表可讓您提供各種選項來管理虛擬應用裝置、例如檢視伺服器狀態、以及重新開機和關閉虛擬機器。 
 ---
-= 系統組態功能表
+= 使用 Active IQ Unified Manager 中的系統組態選單
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

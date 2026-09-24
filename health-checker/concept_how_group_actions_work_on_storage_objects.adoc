@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group actions, work, storage, objects 
 summary: 群組動作是針對群組中的所有儲存物件執行的作業。例如、您可以設定Volume臨界值群組動作、同時變更群組中所有Volume的Volume臨界值。 
 ---
-= 群組動作在儲存物件上的運作方式
+= 了解 Active IQ Unified Manager 中儲存設備物件的群組操作如何運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

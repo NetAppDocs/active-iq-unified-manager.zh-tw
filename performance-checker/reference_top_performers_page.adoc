@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: top, performers, page 
 summary: 「表現最佳者」頁面會根據您所選的效能計數器、顯示效能最高或效能最低的儲存物件。例如、在「Storage VM」（儲存VM）類別中、您可以顯示IOPS最高、延遲最高或最低MB/s的SVM此頁面也會顯示是否有任何表現優異者有任何作用中的效能事件（新增或已確認）。 
 ---
-= 績效最佳者頁面
+= 在 Active IQ Unified Manager 中檢視「表現最佳者」頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

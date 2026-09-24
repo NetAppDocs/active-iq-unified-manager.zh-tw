@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workloads, overview, data center, sections 
 summary: 工作負載代表儲存物件（例如Volume或LUN）的輸入/輸出（I/O）作業。儲存設備的配置方式取決於預期的工作負載需求。只有在儲存物件進出有流量時、才能使用Active IQ Unified Manager 物件來追蹤工作負載統計資料。例如、使用者開始使用資料庫或電子郵件應用程式之後、就可以使用工作負載IOPS和延遲值。 
 ---
-= 工作負載總覽
+= 了解 Active IQ Unified Manager 中的工作負載儀表板
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

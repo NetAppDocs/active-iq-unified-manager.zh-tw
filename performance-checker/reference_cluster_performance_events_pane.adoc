@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, performance, events, pane, counter 
 summary: 叢集效能事件窗格會顯示叢集的效能統計資料和所有作用中事件。這在監控叢集及所有叢集相關的效能和事件時最有幫助。 
 ---
-= 叢集效能事件窗格
+= 在 Active IQ Unified Manager 中檢閱叢集效能事件窗格
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, objects, asynchronous, processes 
 summary: 支援作業API、可擷取執行其他API時所執行工作的相關資訊。Active IQ Unified Manager您必須瞭解使用工作物件進行非同步處理的方式。 
 ---
-= 工作物件非同步處理
+= 了解 Active IQ Unified Manager 如何使用作業物件進行非同步處理
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

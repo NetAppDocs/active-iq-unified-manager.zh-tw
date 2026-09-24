@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event 
 summary: Unified Manager使用角色來識別工作負載在效能事件中的參與度。角色包括受害者、牛隻和鯊魚。使用者定義的工作負載可以同時成為受害者、欺負者和鯊魚。 
 ---
-= 效能事件所涉及的工作負載角色
+= 在 Active IQ Unified Manager 中識別效能事件中的工作負載角色
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

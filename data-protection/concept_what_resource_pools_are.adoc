@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource pools 
 summary: 資源池是一組集合體、由儲存管理員使用Unified Manager建立、以提供資源給合作夥伴應用程式以進行備份管理。 
 ---
-= 什麼是資源集區
+= 了解 Active IQ Unified Manager 中的資源池
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

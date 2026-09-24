@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, group, quota, email, addresses 
 summary: 您可以根據與叢集、儲存虛擬機器（SVM）、磁碟區、qtree、使用者或使用者群組相關的使用者配額、來修改電子郵件地址。若要覆寫「建立使用者和群組配額電子郵件地址規則」對話方塊中指定的規則所產生的電子郵件地址、您可以修改電子郵件地址。 
 ---
-= 編輯使用者和群組配額電子郵件地址
+= 在 Active IQ Unified Manager 中編輯使用者和群組配額電子郵件地址
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

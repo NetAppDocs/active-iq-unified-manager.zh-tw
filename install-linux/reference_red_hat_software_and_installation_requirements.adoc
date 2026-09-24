@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: 安裝Unified Manager的Linux系統需要特定版本的作業系統和支援軟體。 
 ---
-= Linux軟體與安裝需求
+= 了解 Active IQ Unified Manager 中的 Linux 軟體和安裝需求
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

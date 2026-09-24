@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: 您可以檢視儲存資源池的詳細資料、以監控儲存資源池健全狀況、總快取和可用快取、以及已使用和可用的配置。 
 ---
-= 檢視儲存資源池詳細資料
+= 在 Active IQ Unified Manager 中檢視儲存資源池詳細資料
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

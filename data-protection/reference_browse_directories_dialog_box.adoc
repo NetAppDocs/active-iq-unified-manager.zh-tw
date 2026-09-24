@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: browse, directories, dialog box 
 summary: 當您想要將資料還原至叢集上的目錄、以及與原始來源不同的SVM時、可以使用「瀏覽目錄」對話方塊。預設會選取原始來源叢集和Volume。 
 ---
-= 瀏覽目錄對話方塊
+= 在 Active IQ Unified Manager 中使用「瀏覽目錄」對話方塊
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

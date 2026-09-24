@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alert, dialog box, name, resources, events, actions 
 summary: 您可以編輯警示內容、例如警示所關聯的資源、事件、指令碼和通知選項。 
 ---
-= 編輯警示對話方塊
+= 在 Active IQ Unified Manager 中編輯警示屬性
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

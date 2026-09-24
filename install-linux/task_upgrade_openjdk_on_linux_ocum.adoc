@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade 
 summary: 您可以在安裝Unified Manager的Linux伺服器上升級至新版OpenJDK、以取得安全性弱點的修正程式。 
 ---
-= 在 Linux 上升級 OpenJDK
+= 升級 Linux 上的 OpenJDK 以支援 Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, monitor, metrocluster, throughput 
 summary: Unified Manager可讓您監控MetroCluster 採用支援整合式組態之叢集之間的寫入處理量、以識別具有大量寫入處理量的工作負載。如果這些高效能工作負載導致本機叢集上的其他磁碟區的I/O回應時間過長、Unified Manager會觸發效能事件通知您。 
 ---
-= 效能監控MetroCluster 功能
+= 使用 Active IQ Unified Manager 監控 MetroCluster 效能
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

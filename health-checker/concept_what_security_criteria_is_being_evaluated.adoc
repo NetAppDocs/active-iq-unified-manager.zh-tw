@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security criteria, evaluated 
 summary: 一般而ONTAP 言、我們會根據《NetApp資訊安全強化指南ONTAP 》（英文）中所定義的各項建議、來評估您的VMware叢集、儲存虛擬機器（SVM）和磁碟區的安全性條件。 
 ---
-= 正在評估哪些安全性準則
+= 了解 Active IQ Unified Manager 如何評估安全性標準
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

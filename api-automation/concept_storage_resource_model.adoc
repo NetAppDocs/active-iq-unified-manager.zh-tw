@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, resource, ONTAP 
 summary: 在整個過程中、可將物件儲存資源ONTAP 大致分為實體儲存資源和邏輯儲存資源。若要ONTAP 使用Active IQ Unified Manager 包含在功能上的API來有效管理您的支援功能、您必須瞭解儲存資源模型、以及各種儲存資源之間的關係。 
 ---
-= 儲存資源ONTAP
+= 了解 Active IQ Unified Manager 中的 ONTAP 儲存設備資源模型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

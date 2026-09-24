@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, groups 
 summary: 您可以在不再需要群組時、從Unified Manager刪除群組。 
 ---
-= 刪除群組
+= 在 Active IQ Unified Manager 中刪除群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

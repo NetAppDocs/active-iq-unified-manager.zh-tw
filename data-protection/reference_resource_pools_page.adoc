@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource, pools, page 
 summary: 「資源池」頁面會顯示現有的資源池及其成員、並可讓您建立、監控及管理資源池、以供資源配置之用。 
 ---
-= 資源池頁面
+= 了解 Active IQ Unified Manager 中的資源池頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

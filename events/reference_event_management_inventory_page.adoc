@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, management, inventory, page, filter, components, xommand buttons, list 
 summary: 「事件管理」目錄頁面可讓您檢視目前事件及其內容的清單。您可以執行確認、解決及指派事件等工作。您也可以針對特定事件新增警示。 
 ---
-= 「事件管理」目錄頁
+= 了解 Active IQ Unified Manager 中的事件管理清單頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

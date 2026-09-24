@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager, performance, monitoring 
 summary: 支援執行NetApp功能的系統、可透過支援效能監控功能和事件根本原因分析功能（前身為《支援統一化管理程式》）Active IQ Unified Manager OnCommand ONTAP 。 
 ---
-= 介紹功能介紹：效能監控Active IQ Unified Manager
+= 了解 Active IQ Unified Manager 中的效能監控
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

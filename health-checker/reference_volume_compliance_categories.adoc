@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, encryption, compliance, categories 
 summary: 下表說明Unified Manager評估的Volume加密參數、以判斷您磁碟區上的資料是否受到未獲授權使用者的適當保護。 
 ---
-= Volume法規遵循類別
+= 了解 Active IQ Unified Manager 中的 Volume 法規遵循類別
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

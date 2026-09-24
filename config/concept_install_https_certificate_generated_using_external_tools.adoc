@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, HTTPS, certificate, generated from external tools 
 summary: 您可以安裝自我簽署或CA簽署的憑證、並使用OpenSSL、BoringSSL、LetsEncrypt等外部工具產生。 
 ---
-= 安裝使用外部工具產生的 HTTPS 憑證
+= 了解 Active IQ Unified Manager Unified Manager 中如何使用外部工具產生 HTTPS 憑證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

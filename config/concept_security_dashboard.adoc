@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: 您可以在Unified Manager上啟用或停用法規遵循監控的安全參數。 
 ---
-= 啟用和停用合規性安全性設置
+= 在 Active IQ Unified Manager 中啟用和停用安全性設定以符合法規遵循
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

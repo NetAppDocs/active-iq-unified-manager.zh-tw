@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, health details page 
 summary: 「叢集/健全狀況」詳細資料頁面提供所選叢集的詳細資訊、例如健全狀況、容量和組態詳細資料。您也可以檢視叢集的網路介面（lifs）、節點、磁碟、相關裝置及相關警示的相關資訊。 
 ---
-= 叢集/健全狀況詳細資料頁面
+= 在 Active IQ Unified Manager 中檢視叢集 / 健全狀況詳細資料頁面
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

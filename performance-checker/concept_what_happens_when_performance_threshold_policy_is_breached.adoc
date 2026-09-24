@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: 當某個計數器值超過其定義的效能臨界值、達到在期間內指定的時間量時、就會違反臨界值、並報告事件。 
 ---
-= 違反效能臨界值原則時會發生什麼事
+= 回應 Active IQ Unified Manager 中違反效能臨界值原則的情況
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix it,fix all 
 summary: 「管理動作」頁面提供「修正」或「全部修正」按鈕、可修正Unified Manager透過事件收到通知的問題。 
 ---
-= 當我看到「修正」或「全部修正」按鈕時、我有哪些選項
+= 了解 Active IQ Unified Manager 中的「修復問題」和「全部修復」按鈕選項
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

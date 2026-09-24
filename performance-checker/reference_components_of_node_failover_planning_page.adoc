@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, node, failover, planning page, performance, statistics, grid 
 summary: 「效能/節點容錯移轉規劃」頁面的元件會顯示在網格和比較窗格中。這些章節可讓您評估節點容錯移轉對接管節點效能的影響。 
 ---
-= 節點容錯移轉規劃頁面的元件
+= 檢閱 Active IQ Unified Manager 中的「效能/節點容錯移轉規劃」頁面元件
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

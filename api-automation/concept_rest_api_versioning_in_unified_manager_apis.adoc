@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api, version, active iq, unified, manager 
 summary: 靜止中的REST API URI Active IQ Unified Manager 會指定版本編號。例如、/v2/datacenter/svm/svms。/v2/datacenter/svm/svms中的版本編號v2表示特定版本中使用的API版本。版本編號會傳回用戶端可以處理的回應、將API變更對用戶端軟體的影響降至最低。 
 ---
-= API版本Active IQ Unified Manager
+= 了解 Active IQ Unified Manager 中的 API 版本號
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

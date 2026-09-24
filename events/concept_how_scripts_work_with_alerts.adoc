@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scripts, work, alerts 
 summary: 您可以將警示與指令碼建立關聯、以便在Unified Manager中針對事件發出警示時執行指令碼。您可以使用指令碼來解決儲存物件的問題、或識別產生事件的儲存物件。 
 ---
-= 指令碼如何使用警示
+= Active IQ Unified Manager 中的指令碼如何與警報協同運作
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

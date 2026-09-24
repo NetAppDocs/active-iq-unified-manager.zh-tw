@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq, unified manager, health, monitor 
 summary: 利用集中化的使用者介面、可協助您監控許多執行此軟體的系統。Active IQ Unified Manager OnCommand ONTAPUnified Manager伺服器基礎架構可提供擴充性、支援能力、以及增強的監控與通知功能。 
 ---
-= 介紹不健全狀況監控Active IQ Unified Manager
+= 了解 Active IQ Unified Manager 的健全狀況監控
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

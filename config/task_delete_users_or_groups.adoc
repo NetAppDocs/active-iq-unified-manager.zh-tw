@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups 
 summary: 您可以從管理伺服器資料庫刪除一或多位使用者、以防止特定使用者存取Unified Manager。您也可以刪除群組、讓群組中的所有使用者都無法再存取管理伺服器。 
 ---
-= 刪除使用者或群組
+= 在 Active IQ Unified Manager 中刪除使用者或群組
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, volumes, qos, policy, group, unusually, high, activity 
 summary: 您可以檢閱活動變更率最高的「服務品質（QoS）」原則群組中的工作負載、以判斷是否有多個工作負載導致此事件。您也可以查看其他工作負載是否仍超過設定的處理量限制、或是否回到預期的活動範圍內。 
 ---
-= 確認QoS原則群組中的其他磁碟區是否有異常高的活動
+= 在 Active IQ Unified Manager 中分析 QoS 原則群組中的高活動磁碟區
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

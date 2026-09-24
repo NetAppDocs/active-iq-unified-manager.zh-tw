@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication 
 summary: 若要停止透過安全身分識別供應商（IDP）驗證遠端使用者、然後再登入Unified Manager Web UI、您可以停用SAML驗證。停用SAML驗證時、已設定的目錄服務供應商（例如Active Directory或LDAP）會執行登入驗證。 
 ---
-= 停用SAML驗證
+= 在 Active IQ Unified Manager 中停用 SAML 驗證
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

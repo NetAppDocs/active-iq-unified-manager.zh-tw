@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, workloads, monitored, unified manager 
 summary: 您可以使用Unified Manager監控兩種工作負載的效能：使用者定義和系統定義。 
 ---
-= 由Unified Manager監控的工作負載類型
+= 使用 Active IQ Unified Manager 監控工作負載類型
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

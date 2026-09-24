@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, resync, dialog box 
 summary: 當您的保護關係因來源磁碟區已停用而中斷、且目的地已建立讀寫磁碟區時、反向重新同步可讓您反轉關係方向、使目的地成為新來源、並使來源成為新目的地。 
 ---
-= 反轉重新同步對話方塊
+= 在 Active IQ Unified Manager 中進行反向重新同步
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

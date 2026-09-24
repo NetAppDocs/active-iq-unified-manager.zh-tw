@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
 summary: 您可以檢視所有磁碟區和儲存VM的清單、以及它們目前的反勒索軟體狀態、以便判斷您磁碟區上的資料是否受到足夠的保護、免受勒索軟體攻擊。 
 ---
-= 檢視所有磁碟區和儲存VM的勒索軟體狀態
+= 在 Active IQ Unified Manager 中查看所有 Volume 和儲存設備 VM 的反勒索軟體狀態
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

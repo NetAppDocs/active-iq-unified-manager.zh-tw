@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: 您可以使用Unified Manager來檢查叢集及其元件的運作健全狀況MetroCluster 、並採用一套功能性設定。如果叢集涉及Unified Manager偵測到的效能事件、健全狀況狀態可協助您判斷是否有硬體或軟體問題導致事件發生。 
 ---
-= 檢查 MetroCluster 配置中叢集的運作狀況
+= 在 Active IQ Unified Manager 中檢查 MetroCluster 組態中叢集的健全狀況
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

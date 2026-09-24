@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, jobs 
 summary: 您可以使用「工作」頁面來監控工作狀態、以及檢視儲存服務類型、狀態、提交時間和完成時間等工作內容、以判斷工作是否已成功完成。 
 ---
-= 監控工作
+= 在 Active IQ Unified Manager 中監控作業
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
