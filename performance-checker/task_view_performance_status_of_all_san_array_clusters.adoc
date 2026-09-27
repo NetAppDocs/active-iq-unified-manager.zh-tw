@@ -2,7 +2,7 @@
 permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
 sidebar: sidebar 
 keywords: all san, array, performance, clusters 
-summary: '您可以使用「Performance：All Clusters"（效能：所有叢集）檢視來顯示All SAN Array叢集的效能狀態。' 
+summary: 使用「效能」頁面上的「所有叢集」檢視來顯示 All SAN Array 叢集的效能狀態。 
 ---
 = 在 Active IQ Unified Manager 中檢視 All SAN Array 叢集的效能
 :allow-uri-read: 

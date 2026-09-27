@@ -2,7 +2,7 @@
 permalink: storage-mgmt/concept_typical_window_layouts_um_6_x.html 
 sidebar: sidebar 
 keywords: typical, window, layouts, object, list, details 
-summary: 瞭解典型的視窗配置有助於有效瀏覽Active IQ Unified Manager 及使用功能。大多數Unified Manager視窗類似於兩種一般配置之一：物件清單或詳細資料。建議的顯示設定至少為1280 x 1024像素。 
+summary: 了解典型的 Unified Manager 視窗版面配置、物件清單或詳細資料，以及有效導覽的建議顯示設定。 
 ---
 = Active IQ Unified Manager 中的典型視窗佈局
 :allow-uri-read: 

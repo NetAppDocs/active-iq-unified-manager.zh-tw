@@ -31,8 +31,6 @@ indexpage:
       url: "/config/concept_configure_unified_manager.html"
     - title: 管理功能設定
       url: "/config/concept_manage_feature_settings.html"
-    - title: 管理角色型存取
-      url: "/config/concept_manage_user_access.html"
   - title: 效能監控
     links:
     - title: 效能臨界值
@@ -55,10 +53,6 @@ indexpage:
       url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
     - title: 內部組態MetroCluster
       url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
-    - title: 叢集與叢集物件健全狀況
-      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
-    - title: 健全狀況臨界值
-      url: "/health-checker/concept_manage_health_thresholds.html"
     - title: 傳送AutoSupport 不支援的訊息和套裝組合
       url: "/health-checker/task_send_asup_to_technical_support.html"
   - title: 資料保護監控
@@ -99,8 +93,6 @@ indexpage:
       url: "/events/concept_what_happens_when_an_event_is_received.html"
     - title: 平台活動Active IQ
       url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-    - title: 事件和嚴重性類型
-      url: "/events/reference_list_of_events_and_severity_types.html"
     - title: 補救事件
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: 自動補救

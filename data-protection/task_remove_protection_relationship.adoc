@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_protection_relationship.html 
 sidebar: sidebar 
 keywords: remove, protection, relationship, volume, relationships page 
-summary: 您可以從「Volume關係」頁面移除保護關係、以永久刪除所選來源與目的地之間的現有關係：例如、當您想要使用不同目的地建立關係時。此作業會移除所有中繼資料、無法復原。 
+summary: 在「Volume 關係」頁面中，永久移除來源和目的地之間的保護關係。此行動無法撤銷。 
 ---
 = 從 Active IQ Unified Manager 的「磁碟區關係」頁面中移除保護關係
 :allow-uri-read: 

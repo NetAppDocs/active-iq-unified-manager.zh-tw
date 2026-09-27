@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_node_list_and_details.html 
 sidebar: sidebar 
 keywords: view, node list, details 
-summary: 您可以使用健全狀況：所有節點檢視來檢視叢集中的節點清單。您可以使用「叢集/健全狀況」詳細資料頁面來檢視受監控叢集一部分的節點詳細資訊。 
+summary: 使用「健全狀況」頁面上的「所有節點」檢視來檢視叢集中的節點清單，並使用「叢集健全狀況詳細資料」頁面來查看詳細的節點資訊。 
 ---
 = 在 Active IQ Unified Manager 中檢視節點清單和詳細資料
 :allow-uri-read: 

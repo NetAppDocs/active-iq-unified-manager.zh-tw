@@ -1,0 +1,8 @@
+---
+permalink: config/concept_page_descriptions_for_certificate_management.html 
+redirect: active-iq-unified-manager/config/reference_https_dialog_box_ocf.html 
+---
+= 
+:allow-uri-read: 
+
+

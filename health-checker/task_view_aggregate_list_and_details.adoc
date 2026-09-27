@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html 
 sidebar: sidebar 
 keywords: view, aggregate list, details 
-summary: 從「健全狀況：所有集合體」檢視中、您可以監控集合體的庫存。「容量：所有集合體」檢視可讓您檢視所有叢集之集合體容量與使用率的相關資訊。 
+summary: 使用「健全狀況」頁面上的「所有彙總」檢視來監控您的彙總庫存，並使用「容量」頁面上的「所有彙總」檢視來查看容量與使用率詳細資料。 
 ---
 = 在 Active IQ Unified Manager 中查看彙總清單和詳細資訊
 :allow-uri-read: 
@@ -37,5 +37,5 @@ summary: 從「健全狀況：所有集合體」檢視中、您可以監控集�
 
 * link:../health-checker/reference_health_aggregate_details_page.html["Aggregate / Health詳細資料頁面"]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["效能：All Aggregate檢視"]
-* link:../reporting/concept_customize_aggregate_capacity_reports.html["自訂Aggregate容量報告"]
+* link:../reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html["建立一份報告，以檢視 Active IQ Unified Manager 中達到滿容量的彙總"]
 

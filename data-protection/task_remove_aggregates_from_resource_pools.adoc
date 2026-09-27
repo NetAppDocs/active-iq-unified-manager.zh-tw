@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_aggregates_from_resource_pools.html 
 sidebar: sidebar 
 keywords: remove, aggregates, resource pools 
-summary: 您可以從現有資源池中移除集合體：例如、當您想要將集合體用於其他用途時。 
+summary: 從現有資源池移除彙總，例如當您想要將彙總用於其他用途時。 
 ---
 = 從 Active IQ Unified Manager 的資源池中移除 Aggregate
 :allow-uri-read: 

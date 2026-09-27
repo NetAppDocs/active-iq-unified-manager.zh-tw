@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_cluster_list_and_details.html 
 sidebar: sidebar 
 keywords: view, cluster list, details 
-summary: 您可以使用健全狀況：所有叢集檢視來檢視叢集的庫存。「容量：所有叢集」檢視可讓您檢視所有叢集中儲存容量與使用率的摘要資訊。 
+summary: 使用「健全狀況」頁面上的「所有叢集」檢視來檢視叢集清單，並使用「容量」頁面上的「所有叢集」檢視來查看儲存容量與使用率詳細資料。 
 ---
 = 在 Active IQ Unified Manager 中檢視叢集清單和詳細資料
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_unknown_authentication_error.html 
 sidebar: sidebar 
 keywords: unknown, authentication, error 
-summary: 疑難排解：不明驗證錯誤 
+summary: 疑難排解未知的驗證錯誤。 
 ---
 = 解決 Active IQ Unified Manager 中的未知驗證錯誤
 :allow-uri-read: 

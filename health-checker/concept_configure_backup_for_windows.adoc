@@ -20,3 +20,138 @@ summary: 支援在使用iSCSI傳輸協定的LUN協助下、在Windows作業系�
 * 設定ONTAP 叢集
 * 設定Windows主機
 
+
+
+
+[[configure-a-backup-location-for-active-iq-unified-manager-on-windows]]
+== 在 Windows 上為 Active IQ Unified Manager 設定備份位置
+
+在Windows上備份Unified Manager之後、您應該設定用於儲存Snapshot複本的磁碟區。
+
+.開始之前
+叢集、儲存VM和Volume必須符合下列需求：
+
+* 叢集需求：
++
+** 必須安裝不含更新版本的更新版本ONTAP
+** 它應位於統一化管理器伺服器附近的地理位置
+** 它由Unified Manager監控
+
+
+* 儲存VM需求：
++
+** iSCSI連線ONTAP 功能
+** 必須為已設定的機器啟用iSCSI傳輸協定
+** 您應該有專屬的Volume和LUN來進行備份組態。選取的磁碟區應僅包含一個LUN、而不包含其他任何項目。
+** LUN大小應至少為9.9 Active IQ Unified Manager 時預期處理的資料大小兩倍。
++
+這也會設定磁碟區的相同大小需求。
+
+** 確定已選取「All Read/Write」（全部讀取/寫入）存取權
+** 請確定匯出原則中的超級使用者存取設為「any」
+
+
+* Volume與LUN需求：
++
+** Volume的大小應至少為Unified Manager MySQL資料目錄的兩倍。
+** 安全樣式必須設定為Windows
+** 必須停用本機快照原則
+** 應啟用Volume自動調整大小
+** 效能服務層級應設定為高IOPS且低延遲的原則、例如「Extreme」
+
+
+
+
+
+
+[[configure-an-ontap-cluster-for-backup-and-restore-in-active-iq-unified-manager]]
+== 在 Active IQ Unified Manager 中設定 ONTAP 叢集以進行備份與恢復
+
+在Windows系統上使用Snapshot複本進行備份與還原之前、您需要在ONTAP 叢集上執行幾個預先設定步驟Active IQ Unified Manager 。
+
+您可以ONTAP 使用命令提示字元或System Manager使用者介面來設定叢集。設定叢集時、需要將資料生命期設定為可指派給儲存VM的iSCSI生命期。ONTAP下一步是使用System Manager使用者介面來設定啟用iSCSI的儲存VM。您需要為此儲存VM設定靜態網路路由、以控制LIF如何使用網路來處理傳出流量。
+
+[NOTE]
+====
+您應該有專用的Volume和LUN來進行備份組態。選取的磁碟區應僅包含一個LUN。LUN大小應至少為Active IQ Unified Manager 預期由SIZE處理的兩倍資料大小。
+
+====
+您需要執行下列組態：
+
+.步驟
+. 設定啟用iSCSI的儲存VM、或使用具有相同組態的現有儲存VM。
+. 為已設定的儲存VM設定網路路由。
+. 設定適當容量的磁碟區及內部的單一LUN、確保該磁碟區僅供此LUN使用。
++
+
+NOTE: 在系統管理員上建立LUN的案例中、取消對應LUN可能會刪除igroup、而且還原可能會失敗。若要避免這種情況發生、請確定在建立LUN時、已明確建立LUN、而且當LUN未對應時不會刪除LUN。
+
+. 在儲存VM中設定啟動器群組。
+. 設定連接埠集。
+. 將igroup與portset整合。
+. 將LUN對應至igroup。
+
+
+
+
+[[configure-a-windows-host-machine-in-active-iq-unified-manager]]
+== 在 Active IQ Unified Manager 中設定 Windows 主機
+
+您必須先設定Windows主機、才能使用NetApp Snapshot備份及還原Active IQ Unified Manager 功能。若要在Windows主機上啟動Microsoft iSCSI啟動器、請在搜尋列中輸入「iSCSI」、然後按一下「* iSCSI啟動器*」。
+
+.開始之前
+您應該清除主機上任何先前的組態。
+
+如果您嘗試在全新安裝的Windows上啟動iSCSI啟動器、系統會提示您確認、並在確認時顯示「iSCSI內容」對話方塊。如果是現有的Windows安裝、則會顯示iSCSI內容對話方塊、其中目標為非使用中或嘗試連線。因此、您必須確保移除Windows主機上所有先前的組態。
+
+.步驟
+. 清除主機上任何先前的組態。
+. 探索目標入口網站。
+. 連線至目標入口網站。
+. 使用多重路徑連線至目標入口網站。
+. 探索這兩種生命。
+. 探索Windows機器中設定為裝置的LUN。
+. 將探索到的LUN設定為Windows中的新磁碟區磁碟機。
+
+
+
+
+[[specify-the-destination-location-for-snapshot-copies-on-windows-in-active-iq-unified-manager]]
+== 在 Active IQ Unified Manager 中指定 Windows 上 Snapshot 快照技術副本的目的地位置
+
+您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設定的Volume上、設定用於靜態Snapshot複本的目的地位置。您應該使用維護主控台來定義位置。
+
+* 您必須擁有Active IQ Unified Manager 安裝了Windows主機的系統管理員權限、才能執行此作業。
+* 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
+* 您必須擁有叢集管理IP位址、儲存VM名稱、Volume名稱、LUN名稱、以及儲存系統使用者名稱和密碼。
+* 您必須將磁碟區當作網路磁碟機掛載到Active IQ Unified Manager 該主機、而且必須有掛載磁碟機。
+
+
+.步驟
+. 使用Power Shell連線Active IQ Unified Manager 至該系統的IP位址或完整網域名稱。
+. 使用維護使用者（umadmin）名稱和密碼登入系統。
+. 輸入命令「maintainess_Console」、然後按Enter。
+. 在維護主控台*主功能表*中、輸入*備份還原*選項的編號。
+. 輸入* Configure NetApp Snapshot Backup（配置NetApp Snapshot備份）*的編號。
+. 輸入要設定iSCSI的號碼。
+. 檢閱您需要提供的資訊、然後輸入*輸入備份組態詳細資料*的號碼。
+. 若要識別要寫入Snapshot的磁碟區、請輸入叢集管理介面的IP位址、儲存VM的名稱、磁碟區名稱、LUN名稱、儲存系統使用者名稱和密碼、以及掛載磁碟機。
+. 確認此資訊並輸入「y」。
++
+系統會執行下列工作：
+
++
+** 已驗證儲存VM
+** 已驗證Volume
+** 已驗證掛載磁碟機和狀態
+** LUN存在與狀態
+** 網路磁碟機存在
+** 在掛載的Volume中存在建議空間（mysql資料目錄的兩倍以上）已獲驗證
+** LUN路徑對應於磁碟區中的專用LUN
+** igroup名稱
+** 掛載網路磁碟機之磁碟區的Guid
+** iSCSI啟動器用於ONTAP 與功能不正常的通訊
+
+
+. 結束維護主控台並啟動Active IQ Unified Manager 支援程序介面、以建立Snapshot複本的排程。
+

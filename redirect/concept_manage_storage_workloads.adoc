@@ -1,0 +1,8 @@
+---
+permalink: api-automation/concept_manage_storage_workloads.html 
+redirect: active-iq-unified-manager/api-automation/concept_view_workloads.html 
+---
+= 
+:allow-uri-read: 
+
+

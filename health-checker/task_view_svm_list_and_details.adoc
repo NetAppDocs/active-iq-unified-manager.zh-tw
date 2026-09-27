@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_svm_list_and_details.html 
 sidebar: sidebar 
 keywords: view, storage vm list, details 
-summary: 從「Health：All Storage VM」（健全狀況：所有儲存VM）檢視中、您可以監控儲存虛擬機器（SVM）的庫存。您可以使用「儲存VM /健全狀況詳細資料」頁面來檢視所監控之SVM的詳細資訊。 
+summary: 使用「健全狀況」頁面上的「所有儲存虛擬機器」檢視來監控您的 SVM 清單，並使用「儲存虛擬機器健全狀況詳細資料」頁面取得詳細的 SVM 資訊。 
 ---
 = 在 Active IQ Unified Manager 中檢視 Storage VM 清單與詳細資料
 :allow-uri-read: 

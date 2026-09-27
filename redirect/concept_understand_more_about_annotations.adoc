@@ -1,0 +1,8 @@
+---
+permalink: health-checker/concept_understand_more_about_annotations.html 
+redirect: active-iq-unified-manager/health-checker/concept_what_annotations_are.html 
+---
+= 
+:allow-uri-read: 
+
+

@@ -2,7 +2,7 @@
 permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
 sidebar: sidebar 
 keywords: Common, unified, manager, health, workflows, tasks 
-summary: 與Unified Manager相關的一些常見管理工作流程和工作包括：選取要監控的儲存叢集；診斷對資料可用度、容量和保護造成不良影響的情況；還原遺失的資料；設定和管理磁碟區；以及將診斷資料綁定並傳送給技術支援（必要時）。 
+summary: 了解常見的管理工作流程，包括監控叢集、診斷可用度與容量問題，以及將診斷資料傳送給支援。 
 ---
 = 了解常見的 Active IQ Unified Manager 健全狀況工作流程與任務
 :allow-uri-read: 
@@ -35,7 +35,7 @@ Unified Manager也可納入包含相關管理工具（例如OnCommand Workflow A
 
 * 設定、監控及診斷保護關係問題
 +
-建立及設定保護關係之後、儲存管理員可以檢視與保護關係、保護關係的目前狀態、受影響關係的目前與歷史保護工作成功資訊、以及疑難排解建議等相關的潛在問題。請參閱 link:../data-protection/concept_create_and_monitor_protection_relationships.html["建立、監控及疑難排解保護關係"] 以取得更多資訊。
+建立和設定保護關係後，儲存設備管理員可以檢視與保護關係相關的潛力問題、保護關係的目前狀態、受影響關係的目前和歷史保護作業成功資訊，以及疑難排解建議。如需詳細資訊，請參閱 link:../data-protection/concept_manage_and_monitor_protection_relationships.html["了解如何管理與監控保護關係"]。
 
 * 建立備份檔案並從備份檔案還原資料。
 * 將儲存物件與附註建立關聯

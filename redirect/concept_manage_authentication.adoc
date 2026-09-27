@@ -1,0 +1,8 @@
+---
+permalink: config/concept_manage_authentication.html 
+redirect: active-iq-unified-manager/config/task_edit_authentication_servers.html 
+---
+= 
+:allow-uri-read: 
+
+

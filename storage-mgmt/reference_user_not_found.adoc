@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_user_not_found.html 
 sidebar: sidebar 
 keywords: user, not, found 
-summary: 疑難排解：找不到使用者 
+summary: 疑難排解「找不到使用者」錯誤。 
 ---
 = 解決 Active IQ Unified Manager 中的「找不到使用者」錯誤
 :allow-uri-read: 

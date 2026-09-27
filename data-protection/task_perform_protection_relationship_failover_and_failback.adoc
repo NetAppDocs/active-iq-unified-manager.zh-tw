@@ -2,7 +2,7 @@
 permalink: data-protection/task_perform_protection_relationship_failover_and_failback.html 
 sidebar: sidebar 
 keywords: perform, protection, relationship, failover, failback 
-summary: 當保護關係中的來源磁碟區因為硬體故障或災難而停用時、您可以使用Unified Manager中的保護關係功能、讓保護目的地能夠讀取/寫入、並容錯移轉至該磁碟區、直到來源再次上線為止； 然後、您可以在原始來源可供提供資料時、容錯回復至原始來源。 
+summary: 當來源 Volume 不可用時，容錯移轉至保護目的地，然後在原始來源可用時，容錯回復至原始來源。 
 ---
 = 在 Active IQ Unified Manager 中執行保護關係故障轉移和故障復原作業
 :allow-uri-read: 

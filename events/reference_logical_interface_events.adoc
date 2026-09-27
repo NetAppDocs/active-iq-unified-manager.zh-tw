@@ -1,7 +1,7 @@
 ---
 permalink: events/reference_logical_interface_events.html 
 sidebar: sidebar 
-keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+keywords: network, interface, lif events, impact area, availability, configuration, performance 
 summary: 網路介面事件提供網路介面（LIF）狀態的相關資訊、以便您監控潛在問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。 
 ---
 = Active IQ Unified Manager 中的網路介面事件

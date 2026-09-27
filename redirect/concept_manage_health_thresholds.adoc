@@ -1,0 +1,8 @@
+---
+permalink: health-checker/concept_manage_health_thresholds.html 
+redirect: active-iq-unified-manager/health-checker/concept_what_storage_capacity_health_thresholds_are.html 
+---
+= 
+:allow-uri-read: 
+
+

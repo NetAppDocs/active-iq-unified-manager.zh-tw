@@ -3,11 +3,13 @@ section: reporting
 title: 產生自訂報告
 entries:
 - title: Unified Manager報告
-  url: "/reporting/concept_unified_manager_reporting.html"
   entries:
+  - title: 了解 Unified Manager 報告
+    url: "/reporting/concept_unified_manager_reporting.html"
   - title: 用於產生報告的存取點
-    url: "/reporting/concept_report_access_points.html"
     entries:
+    - title: 探索存取報告功能的方法
+      url: "/reporting/concept_report_access_points.html"
     - title: Unified Manager資料庫可供自訂報告使用
       url: "/reporting/concept_unified_manager_databases_accessible_for_reporting.html"
     - title: Unified Manager REST API可用於報告
@@ -21,7 +23,6 @@ entries:
   - title: 報告限制
     url: "/reporting/reference_reporting_limitations.html"
 - title: 使用報告
-  url: "/reporting/concept_work_with_reports.html"
   entries:
   - title: 報告工作流程
     url: "/reporting/concept_report_work_flow.html"
@@ -30,8 +31,9 @@ entries:
   - title: 搜尋計劃報告
     url: "/reporting/task_search_for_scheduled_report.html"
   - title: 自訂報告
-    url: "/reporting/concept_customize_reports.html"
     entries:
+    - title: 了解關於自訂報告
+      url: "/reporting/concept_customize_reports.html"
     - title: 自訂列
       url: "/reporting/task_customize_columns.html"
     - title: 過濾數據
@@ -45,25 +47,28 @@ entries:
   - title: 下載報告
     url: "/reporting/task_download_reports.html"
 - title: 排程報告
-  url: "/reporting/concept_schedule_reports.html"
   entries:
+  - title: 了解排程報告
+    url: "/reporting/concept_schedule_reports.html"
   - title: 安排報告
-    url: "/reporting/task_schedule_report.html"
     entries:
+    - title: 建立報告排程
+      url: "/reporting/task_schedule_report.html"
     - title: 安排導入 .rptdesign 報告
       url: "/reporting/task_schedule_an_imported_report.html"
   - title: 管理報告計劃
-    url: "/reporting/task_manage_report_schedules.html"
     entries:
+    - title: 檢視、編輯與刪除報告排程
+      url: "/reporting/task_manage_report_schedules.html"
     - title: 編輯計劃報告
       url: "/reporting/task_edit_scheduled_reports.html"
     - title: 刪除計劃報告
       url: "/reporting/task_delete_scheduled_reports.html"
 - title: 範例自訂報告
-  url: "/reporting/concept_sample_custom_reports.html"
   entries:
+  - title: 了解範例自訂報告
+    url: "/reporting/concept_sample_custom_reports.html"
   - title: 自訂叢集儲存報告
-    url: "/reporting/concept_customize_cluster_storage_reports.html"
     entries:
     - title: 建立報告以按集群模型查看容量
       url: "/reporting/task_create_report_to_view_capacity_by_cluster_model.html"
@@ -74,7 +79,6 @@ entries:
     - title: 建立報表以查看執行舊版本 ONTAP 的節點
       url: "/reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html"
   - title: 自訂聚合容量報告
-    url: "/reporting/concept_customize_aggregate_capacity_reports.html"
     entries:
     - title: 建立報表以查看達到滿載的聚合
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
@@ -83,7 +87,6 @@ entries:
     - title: 建立報表以查看過度承諾的聚合
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"
   - title: 自訂磁碟區容量報告
-    url: "/reporting/concept_customize_volume_capacity_reports.html"
     entries:
     - title: 建立報告以識別已關閉快照自動刪除功能的接近滿容量的捲
       url: "/reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html"
@@ -92,27 +95,29 @@ entries:
     - title: 建立報告以識別 FabricPool 聚合上應將資料移至雲層的捲
       url: "/reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html"
   - title: 自訂 Qtree 容量報告
-    url: "/reporting/concept_customize_qtree_capacity_reports.html"
     entries:
     - title: 建立報告以查看幾乎已滿的 qtree
       url: "/reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html"
   - title: 自訂 NFS 共享報告
-    url: "/reporting/concept_customize_nfs_share_reports.html"
     entries:
+    - title: 了解如何自訂 NFS 共享報告
+      url: "/reporting/concept_customize_nfs_share_reports.html"
     - title: 建立報告以查看具有無法存取的掛載路徑的捲
       url: "/reporting/task_create_report_to_view_volumes_with_an_inaccessible_junction_path.html"
     - title: 建立報告以查看使用預設匯出策略的捲
       url: "/reporting/task_create_report_to_view_volumes_with_default_export_policy.html"
   - title: 自訂儲存虛擬機器報告
-    url: "/reporting/concept_customize_svm_reports.html"
     entries:
+    - title: 了解如何自訂儲存設備 VM 報告
+      url: "/reporting/concept_customize_svm_reports.html"
     - title: 建立報表以查看達到最大磁碟區限制的儲存虛擬機
       url: "/reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html"
     - title: 建立報告以查看已停止的儲存虛擬機
       url: "/reporting/task_create_report_to_view_stopped_svms.html"
   - title: 自訂數量關係報告
-    url: "/reporting/concept_customize_volume_relationship_reports.html"
     entries:
+    - title: 了解關於自訂 Volume 關係報告
+      url: "/reporting/concept_customize_volume_relationship_reports.html"
     - title: 建立報表以按故障來源對磁碟區關係進行分組
       url: "/reporting/task_create_report_volume_relationships_source_of_failure.html"
     - title: 建立報告以按問題對卷宗關係進行分組
@@ -126,13 +131,13 @@ entries:
     - title: 建立報表以查看按天分組的傳輸量
       url: "/reporting/task_create_report_to_view_volume_transfers_grouped_by_day.html"
   - title: 自訂磁碟區效能報告
-    url: "/reporting/concept_customize_volume_performance_reports.html"
     entries:
     - title: 建立報告以查看未啟用 FabricPool 的聚合上包含大量冷資料的捲
       url: "/reporting/task_create_report_for_volumes_with_high_amount_of_cold_data.html"
 - title: Microsoft Excel報告範例
-  url: "/reporting/concept_sample_microsoft_excel_reports.html"
   entries:
+  - title: 了解 Microsoft Excel 報告範例
+    url: "/reporting/concept_sample_microsoft_excel_reports.html"
   - title: 建立報表以顯示聚合容量表和圖表
     url: "/reporting/task_create_report_to_view_capacity.html"
   - title: 建立報表以顯示總計與可用容量圖表

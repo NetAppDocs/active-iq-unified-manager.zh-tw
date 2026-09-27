@@ -1,0 +1,8 @@
+---
+permalink: health-checker/concept_manage_and_monitor_groups.html 
+redirect: active-iq-unified-manager/health-checker/concept_understand_groups.html 
+---
+= 
+:allow-uri-read: 
+
+

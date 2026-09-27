@@ -3,8 +3,9 @@ section: config
 title: 執行組態和管理工作
 entries:
 - title: 配置 Active IQ Unified Manager
-  url: "/config/concept_configure_unified_manager.html"
   entries:
+  - title: 了解如何設定 Active IQ Unified Manager
+    url: "/config/concept_configure_unified_manager.html"
   - title: 組態順序總覽
     url: "/config/concept_overview_of_configuration_sequence.html"
   - title: 存取 Unified Manager Web UI
@@ -13,9 +14,10 @@ entries:
     url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
   - title: 新增叢集
     url: "/config/task_add_clusters.html"
-  - title: 配置 Unified Manager 以發送警報通知
-    url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+  - title: 設定通知
     entries:
+    - title: 設定 Active IQ Unified Manager 以傳送警示通知
+      url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
     - title: 設定事件通知設定
       url: "/config/task_configure_event_notification_settings.html"
     - title: 啟用遠端驗證
@@ -37,15 +39,13 @@ entries:
   - title: 透過 CLI 設定工作階段逾時
     url: "/config/task_set_session_timeout_CLI.html"
   - title: 更改 Unified Manager 主機名
-    url: "/config/concept_change_unified_manager_host_name.html"
     entries:
-    - title: 更改 Unified Manager 虛擬設備主機名
+    - title: 更改 Active IQ Unified Manager 虛擬應用裝置主機名稱
       url: "/config/task_change_unified_manager_host_name_on_vmware.html"
-      entries:
-      - title: 產生HTTPS安全性憑證
-        url: "/config/task_generate_an_https_security_certificate_ocf.html"
-      - title: 重新啟動Unified Manager虛擬機器
-        url: "/config/task_restart_unified_manager_virtual_machine.html"
+    - title: 產生HTTPS安全性憑證
+      url: "/config/task_generate_an_https_security_certificate_ocf.html"
+    - title: 重新啟動Unified Manager虛擬機器
+      url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: 在 Linux 系統上變更 Unified Manager 主機名
       url: "/config/task_change_um_host_name_on_rhel.html"
   - title: 啟用和停用基於策略的儲存管理
@@ -53,8 +53,9 @@ entries:
 - title: 設定 Unified Manager 備份
   url: "/config/concept_configure_um_backup.html"
 - title: 管理功能設定
-  url: "/config/concept_manage_feature_settings.html"
   entries:
+  - title: 了解 Active IQ Unified Manager 中的功能設定
+    url: "/config/concept_manage_feature_settings.html"
   - title: 啟用原則型儲存管理
     url: "/config/concept_policy_based_storage_management.html"
   - title: 啟用 API 網關
@@ -70,7 +71,6 @@ entries:
   - title: 新增登入橫幅
     url: "/config/concept_login_banner.html"
 - title: 使用維護控制台
-  url: "/config/task_use_maintenance_console.html"
   entries:
   - title: 維護主控台提供哪些功能
     url: "/config/concept_what_functionality_maintenance_console_provides.html"
@@ -83,8 +83,9 @@ entries:
   - title: 使用 vSphere VM 控制台存取維護控制台
     url: "/config/task_access_maintenance_console_using_vsphere.html"
   - title: 維護主控台功能表
-    url: "/config/concept_maintenance_console_menu.html"
     entries:
+    - title: 了解 Active IQ Unified Manager 中的維護主控台選單
+      url: "/config/concept_maintenance_console_menu.html"
     - title: 網路組態功能表
       url: "/config/reference_network_configuration_menu.html"
     - title: 系統組態功能表
@@ -103,9 +104,10 @@ entries:
     url: "/config/task_add_additional_network_interfaces.html"
   - title: 重新產生客戶端憑證
     url: "/config/task_regenerate_client_certificate.html"
-  - title: 向 Unified Manager 資料庫目錄新增磁碟空間
-    url: "/config/concept_add_disk_space_to_um_database_directory.html"
+  - title: 新增磁碟空間
     entries:
+    - title: 為 Active IQ Unified Manager 資料庫目錄新增磁碟空間
+      url: "/config/concept_add_disk_space_to_um_database_directory.html"
     - title: 為Linux主機的資料目錄新增空間
       url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
     - title: 為VMware虛擬機器資料盤新增空間
@@ -113,11 +115,11 @@ entries:
     - title: 為 Microsoft Windows 伺服器的邏輯磁碟機新增空間
       url: "/config/task_add_space_to_data_disk_of_windows_server.html"
 - title: 管理使用者存取權
-  url: "/config/concept_manage_user_access.html"
   entries:
   - title: 新增使用者
-    url: "/config/task_add_users.html"
     entries:
+    - title: 在 Active IQ Unified Manager 中新增使用者
+      url: "/config/task_add_users.html"
     - title: 建立資料庫用戶
       url: "/config/task_create_database_user.html"
   - title: 編輯用戶設定
@@ -126,8 +128,6 @@ entries:
     url: "/config/task_view_users.html"
   - title: 刪除使用者或群組
     url: "/config/task_delete_users_or_groups.html"
-  - title: 什麼是RBAC
-    url: "/config/concept_what_rbac_is.html"
   - title: 以角色為基礎的存取控制功能
     url: "/config/concept_what_role_based_access_control_does.html"
   - title: 使用者類型定義
@@ -137,8 +137,9 @@ entries:
   - title: Unified Manager使用者角色與功能
     url: "/config/reference_unified_manager_roles_and_capabilities.html"
 - title: 管理 SAML 身份驗證設定
-  url: "/config/concept_manage_saml_authentication_settings_um.html"
   entries:
+  - title: 在 Active IQ Unified Manager 中啟用 SAML 驗證
+    url: "/config/concept_manage_saml_authentication_settings_um.html"
   - title: 身分識別供應商要求
     url: "/config/reference_identity_provider_requirements_um.html"
   - title: 啟用SAML驗證
@@ -154,7 +155,6 @@ entries:
   - title: SAML驗證頁面
     url: "/config/reference_saml_authentication_page_um.html"
 - title: 管理身份驗證
-  url: "/config/concept_manage_authentication.html"
   entries:
   - title: 編輯身份驗證伺服器
     url: "/config/task_edit_authentication_servers.html"
@@ -163,8 +163,9 @@ entries:
   - title: 使用Active Directory或OpenLDAP驗證
     url: "/config/concept_authentication_with_active_directory_or_openldap.html"
   - title: 稽核記錄
-    url: "/config/concept_audit_logging.html"
     entries:
+    - title: 了解 Active IQ Unified Manager 中的稽核日誌
+      url: "/config/concept_audit_logging.html"
     - title: 配置審計日誌
       url: "/config/task_configure_audit_logs.html"
     - title: 啟用稽核日誌的遠端記錄
@@ -172,7 +173,6 @@ entries:
   - title: 遠端驗證頁面
     url: "/config/reference_remote_authentication_page.html"
 - title: 管理安全性憑證
-  url: "/config/concept_manage_security_certificates_ocf.html"
   entries:
   - title: 查看HTTPS安全證書
     url: "/config/task_view_https_security_certificate_ocf.html"
@@ -183,7 +183,6 @@ entries:
   - title: 安裝使用外部工具產生的 HTTPS 憑證
     url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
   - title: 憑證管理的頁面說明
-    url: "/config/concept_page_descriptions_for_certificate_management.html"
     entries:
     - title: HTTPS憑證頁面
       url: "/config/reference_https_dialog_box_ocf.html"

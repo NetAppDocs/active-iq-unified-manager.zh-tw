@@ -1,0 +1,8 @@
+---
+permalink: events/concept_understand_more_about_events.html 
+redirect: active-iq-unified-manager/events/concept_event_state_definitions.html 
+---
+= 
+:allow-uri-read: 
+
+

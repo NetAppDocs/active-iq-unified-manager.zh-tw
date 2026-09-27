@@ -2,7 +2,7 @@
 permalink: reporting/task_report_quick_start.html 
 sidebar: sidebar 
 keywords: reporting, quick, start 
-summary: 建立範例自訂報告、以體驗瀏覽檢視和排程報告的體驗。這份快速入門報告會找出您可能想要移至雲端層的磁碟區清單、因為有相當數量的非使用中（冷）資料。您將會開啟「效能：所有磁碟區」檢視、使用篩選器和欄自訂檢視、將自訂檢視儲存為報告、並將報告排程為每週共用一次。 
+summary: 建立一份範例報告，尋找要移至雲端分層的 Volume，自訂檢視，將其儲存為報告，並排程每週共享。 
 ---
 = 開始使用 Active IQ Unified Manager 產生報告
 :allow-uri-read: 
